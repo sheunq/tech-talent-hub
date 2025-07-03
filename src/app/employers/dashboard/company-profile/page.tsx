@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import { ArrowLeft, Building2, Save, Loader2 } from 'lucide-react';
+import { useState } from 'react';
 
 const companyProfileSchema = z.object({
   companyName: z.string().min(2, { message: 'Company name must be at least 2 characters.' }),
@@ -170,8 +171,4 @@ export default function CompanyProfilePage() {
       </Card>
     </div>
   );
-}
-
-function useState(arg0: boolean): [any, any] {
-  throw new Error('Function not implemented.');
 }
