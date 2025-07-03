@@ -12,8 +12,26 @@ import { ArrowLeft, MapPin, Briefcase, DollarSign, CalendarDays, Tag, AlertTrian
 import type { Job } from '@/components/jobs/JobCard';
 import type { BackendStoredJob } from '@/lib/schemas/job';
 import { formatDistanceToNow } from 'date-fns';
-import { ApplicationButton } from '@/components/jobs/ApplicationBotton';
-//import { ApplicationButton } from '@/components/jobs/ApplicationButton';
+
+
+
+//import { Button } from '@/components/ui/button';
+
+type ApplicationButtonProps = { jobId: string; applyUrl?: string; };
+
+export function ApplicationButton({ jobId, applyUrl }: ApplicationButtonProps) {
+  return (
+    <Button asChild>
+      <a
+        href={applyUrl || `/jobs/${jobId}/apply`}
+        target={applyUrl ? '_blank' : undefined}
+        rel={applyUrl ? 'noopener noreferrer' : undefined}
+      >
+        Apply Now
+      </a>
+    </Button>
+  );
+}
 
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
