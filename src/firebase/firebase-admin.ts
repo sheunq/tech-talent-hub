@@ -21,16 +21,22 @@ if (!admin.apps.length) {
           privateKey: privateKey.replace(/\\n/g, '\n'),
         }),
       });
-      console.log('Firebase Admin SDK initialized.');
+      console.log('Firebase Admin SDK initialized successfully.');
     } catch (error: any) {
-      console.error('Firebase Admin SDK initialization error:', error.message);
+      // During a build (e.g., `npm run build`), if the local .env key is malformed,
+      // this will catch the error and prevent the build from crashing.
+      // It will log a warning instead. In a real deployment environment,
+      // the environment variables should be set correctly.
+      console.warn(
+        'Firebase Admin SDK initialization failed. This is expected during local build if credentials are not set or are malformed. The build will continue with dummy services.'
+      );
       if (error.message.includes('Invalid PEM formatted message')) {
-        console.error('Hint: The FIREBASE_PRIVATE_KEY in your .env file might be malformed. Ensure it is copied correctly, often by wrapping it in double quotes.');
+        console.warn('Hint: The FIREBASE_PRIVATE_KEY in your .env file might be malformed. Ensure it is copied correctly, often by wrapping it in double quotes.');
       }
     }
   } else {
     // If running in a development or build environment without credentials, log a warning instead of crashing.
-    console.warn('Firebase Admin SDK environment variables are not set. Skipping Admin SDK initialization. This is normal for local development if you have not set up your .env file.');
+    console.warn('Firebase Admin SDK credentials not set. Skipping Admin SDK initialization. This is normal for local development.');
   }
 }
 
@@ -39,25 +45,14 @@ if (!admin.apps.length) {
 // occur if these are used without proper initialization, which is the correct behavior.
 const isInitialized = admin.apps.length > 0;
 
-const stubAuthMethod = () =>
-  async () => Promise.reject(new Error("Admin SDK not initialized for build, this is normal."));
-
 const DUMMY_AUTH = {
-    verifyIdToken: stubAuthMethod(),
-    setCustomUserClaims: stubAuthMethod(),
-    getUser: stubAuthMethod(),
+    verifyIdToken: async () => Promise.reject(new Error("Admin SDK not initialized. This is a dummy service.")),
+    setCustomUserClaims: async () => Promise.reject(new Error("Admin SDK not initialized. This is a dummy service.")),
+    getUser: async () => Promise.reject(new Error("Admin SDK not initialized. This is a dummy service.")),
 } as unknown as admin.auth.Auth;
 
 // Firestore admin SDK is not used in this project, but providing a dummy for safety.
-const DUMMY_DB = {
-  collection: () => {
-    throw new Error("Admin Firestore SDK not initialized for build, this is normal.");
-  },
-  doc: () => {
-    throw new Error("Admin Firestore SDK not initialized for build, this is normal.");
-  },
-  // Add more methods as needed for your usage
-} as unknown as admin.firestore.Firestore;
+const DUMMY_DB = {} as admin.firestore.Firestore;
 
 export const adminAuth = isInitialized ? admin.auth() : DUMMY_AUTH;
 export const adminDb = isInitialized ? admin.firestore() : DUMMY_DB;

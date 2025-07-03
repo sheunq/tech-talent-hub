@@ -102,60 +102,21 @@ export function JobPostingForm() {
       });
 
       if (!response.ok) {
-        let errorMsg = `API request failed. Status: ${response.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
+        let errorMsg = `API request failed with status: ${response.status}`;
+        let errorDetails = 'An unknown error occurred.';
         try {
-          const text = await response.text();
-          if (text && typeof text === 'string') {
-            try {
-              const jsonError = JSON.parse(text);
-              errorDetails = jsonError.error || JSON.stringify(jsonError);
-            } catch (e) {
-              errorDetails = `Server response: ${text.substring(0, 500)}`;
-            }
-          } else if (text) {
-            errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-          }
+          // Try to parse a structured JSON error from the API
+          const errorData = await response.json();
+          errorDetails = errorData.error || JSON.stringify(errorData);
         } catch (e) {
-          errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
+          // If JSON parsing fails, it's likely an HTML error page (e.g., from a timeout) or an empty response.
+          errorDetails = `The server returned an unexpected response. This can happen during a server timeout. Please try again in a moment.`;
         }
-        errorMsg += ` Details: ${errorDetails}`;
+        errorMsg += ` - ${errorDetails}`;
         throw new Error(errorMsg);
       }
 
-      let responseTextNewJob;
-      try {
-        responseTextNewJob = await response.text();
-      } catch (textError) {
-         console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read job creation response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-
-      console.log(`${contextPrefix} Preparing to parse. responseTextNewJob type: ${typeof responseTextNewJob}. Value (first 100 chars): '${String(responseTextNewJob).substring(0,100)}'`);
-      if(responseTextNewJob === undefined) {
-          console.error(`${contextPrefix} CRITICAL: responseTextNewJob is undefined before JSON.parse. Possible external interference.`);
-          throw new Error("Received undefined job creation response body before JSON parsing. This is an unexpected state.");
-      }
-      if(typeof responseTextNewJob !== 'string' || responseTextNewJob.trim() === '') {
-          console.error(`${contextPrefix} API response for job creation was OK, but the response body was not a non-empty string. Type: ${typeof responseTextNewJob}, Trimmed length: ${responseTextNewJob?.trim().length ?? 'N/A'}.`);
-          throw new Error("API response for job creation was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-      
-      let newJob;
-      try {
-        newJob = JSON.parse(responseTextNewJob);
-      } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from job creation response text. Response text (first 200 chars): ${responseTextNewJob.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to process API response content after job creation. Potential malformed JSON.`;
-        if (jsonParseError instanceof Error) {
-          descriptiveError += ` Details: ${jsonParseError.message}`;
-        }
-        throw new Error(descriptiveError);
-      }
-      if (newJob === undefined || newJob === null) {
-        console.error(`${contextPrefix} API response for job creation was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-        throw new Error("API response for job creation parsed to null or undefined, which is unexpected for a successful data fetch.");
-      }
+      const newJob = await response.json();
       
       let toastDescription = `${newJob.jobTitle} at ${newJob.companyName} has been submitted and is pending review.`;
       let toastTitle = 'Job Posted Successfully!';
@@ -179,10 +140,12 @@ export function JobPostingForm() {
 
     } catch (error) {
         console.error(`${contextPrefix} Error submitting job posting:`, error);
+        const description = error instanceof Error ? error.message : "An unexpected error occurred. Please try again.";
         toast({
             title: 'Error Submitting Job',
-            description: error instanceof Error ? error.message : 'Could not submit the job posting. Please try again.',
+            description: description,
             variant: 'destructive',
+            duration: 8000,
         });
     }
   }

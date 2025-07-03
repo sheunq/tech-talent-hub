@@ -109,7 +109,7 @@ export function AIMatchForm() {
               className="mt-2 text-base"
               aria-describedby="history-description"
             />
-            <p id="history-description" className="text-sm text-muted-foreground mt-1"> Example: "Seeking remote Senior Backend Engineer roles. Keywords: Go, Kubernetes, Microservices. Preferred location: Europe. Interested in fintech or healthtech. Salary: $120k."</p>
+            <p id="history-description" className="text-sm text-muted-foreground mt-1">Example: "Seeking remote Senior Backend Engineer roles. Keywords: Go, Kubernetes, Microservices. Preferred location: Europe. Interested in fintech or healthtech. Salary: {'>'}$120k."</p>
           </div>
           <Button type="submit" disabled={isLoading} className="w-full text-lg py-6">
             {isLoading ? (

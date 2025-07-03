@@ -14,7 +14,7 @@ const mockBlogPosts = [
     excerpt: 'Remote interviews are the new norm. Learn how to ace your next virtual interview with these expert tips and tricks for showcasing your skills effectively.',
     author: 'Jane Doe, HR Specialist',
     date: 'October 26, 2024',
-    imageUrl: '/images/Mastering Remote Interviews 800x400.png',
+    imageUrl: 'https://placehold.co/800x400.png',
     imageHint: 'video call interview focus',
     category: 'Career Advice',
     tags: ['Interviews', 'Remote Work', 'Job Seeking'],
@@ -64,7 +64,7 @@ const mockBlogPosts = [
     excerpt: 'Stay ahead of the curve. Discover the most sought-after technology skills in the job market for the upcoming year and how to develop them.',
     author: 'John Smith, Tech Analyst',
     date: 'October 20, 2024',
-    imageUrl: '/images/Top 10 In-Demand Tech Skills for 2025.png',
+    imageUrl: 'https://placehold.co/800x400.png',
     imageHint: 'futuristic technology data',
     category: 'Industry Trends',
     tags: ['Tech Skills', 'Future of Work', 'AI', 'Cloud', 'Cybersecurity'],
@@ -165,7 +165,6 @@ const mockBlogPosts = [
     category: "Career Development",
     tags: ["First Job", "Tech Career", "Guidance", "Entry Level"],
     content: `
-
       <p class="mb-4">Starting your first job in the tech industry is a significant milestone. Whether you're a recent graduate or a career changer, the initial period can be both thrilling and overwhelming. This guide offers practical advice to help you navigate these early stages successfully.</p>
 
       <h2 class="text-2xl font-semibold mt-6 mb-3">1. Embrace the Learning Curve</h2>
@@ -286,6 +285,4 @@ export default function BlogSlugPage({ params }: BlogSlugPageProps) {
 //     slug: post.slug,
 //   }));
 // }
-
-
 

@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -7,7 +8,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/hooks/use-toast';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Loader2, Lock, LayoutDashboard, Briefcase, Bookmark, Bell, Brain, User, ArrowRight, Star } from 'lucide-react';
+import { Loader2, Lock, LayoutDashboard, Briefcase, Bookmark, Bell, Brain, User, ArrowRight, Star, UploadCloud } from 'lucide-react';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
@@ -108,6 +109,29 @@ export default function JobSeekerDashboardPage() {
             </div>
         </div>
       </div>
+      
+       <Card className="shadow-md bg-primary/5 border-primary/20">
+        <CardHeader>
+          <div className="flex items-center gap-3">
+            <UploadCloud className="h-7 w-7 text-primary" />
+            <CardTitle className="font-headline text-2xl">Build Your Profile Faster</CardTitle>
+          </div>
+          <CardDescription>Use our AI to parse your resume and build your professional profile in seconds.</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground mb-4">
+            Save time on data entry. Upload your resume and let our AI extract your skills, experience, and education to create a comprehensive profile that attracts employers.
+          </p>
+        </CardContent>
+        <CardFooter>
+          <Button asChild>
+            <Link href="/job-seekers/resume-upload">
+              Upload Your Resume <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </CardFooter>
+      </Card>
+
 
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card className="shadow-sm hover:shadow-md transition-shadow">

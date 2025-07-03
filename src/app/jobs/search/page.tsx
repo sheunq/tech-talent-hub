@@ -45,7 +45,7 @@ const mockJobsData: BackendStoredJob[] = [
     applicationDeadline: new Date('2024-12-15'),
     submittedDate: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
   {
     id: 'mock-ux-1',
@@ -73,7 +73,7 @@ const mockJobsData: BackendStoredJob[] = [
     location: 'Boston, MA',
     submittedDate: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
   {
     id: 'mock-be-1',
@@ -89,7 +89,7 @@ const mockJobsData: BackendStoredJob[] = [
     location: 'Remote',
     submittedDate: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
   {
     id: 'mock-pm-1',
@@ -104,22 +104,22 @@ const mockJobsData: BackendStoredJob[] = [
     applicationDeadline: new Date('2024-11-30'),
     submittedDate: new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
-  {
-  id: 'mock-cy-1',
-  jobTitle: 'Cybersecurity Analyst',
-  companyName: 'SecureNet',
-  mainDescription: 'Monitor our systems for security threats, analyze and respond to incidents, and help improve our overall security posture. This is a critical role in protecting our customer data.',
-  requirements: '2+ years in a cybersecurity role. Familiarity with SIEM tools, vulnerability scanning, and incident response procedures. Certifications like Security+ or CEH are a plus.',
-  jobCategory: 'Cybersecurity',
-  experienceLevel: 'Mid-level',
-  jobType: 'Full-time',
-  location: 'London, UK',
-  submittedDate: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
-  status: 'approved',
-  isFeatured: false,
-  },
+    {
+      id: 'mock-cy-1',
+      jobTitle: 'Cybersecurity Analyst',
+      companyName: 'SecureNet',
+      mainDescription: 'Monitor our systems for security threats, analyze and respond to incidents, and help improve our overall security posture. This is a critical role in protecting our customer data.',
+      requirements: '2+ years in a cybersecurity role. Familiarity with SIEM tools, vulnerability scanning, and incident response procedures. Certifications like Security+ or CEH are a plus.',
+      jobCategory: 'Cybersecurity',
+      experienceLevel: 'Mid-level',
+      jobType: 'Full-time',
+      location: 'London, UK',
+      submittedDate: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
+      status: 'approved',
+      isFeatured: false
+    },
   {
     id: 'mock-mo-1',
     jobTitle: 'Mobile Developer (React Native)',
@@ -132,7 +132,7 @@ const mockJobsData: BackendStoredJob[] = [
     location: 'Remote (Europe)',
     submittedDate: new Date(Date.now() - 8 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
   // Adding featured jobs from homepage to ensure they are clickable
   {
@@ -147,7 +147,7 @@ const mockJobsData: BackendStoredJob[] = [
     location: 'Remote (USA)',
     submittedDate: new Date().toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
   {
     id: '8',
@@ -161,7 +161,7 @@ const mockJobsData: BackendStoredJob[] = [
     location: 'Austin, TX',
     submittedDate: new Date().toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
   {
     id: '9',
@@ -175,7 +175,7 @@ const mockJobsData: BackendStoredJob[] = [
     location: 'New York, NY',
     submittedDate: new Date().toISOString(),
     status: 'approved',
-    isFeatured: false,
+    isFeatured: false
   },
 ];
 

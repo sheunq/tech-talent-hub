@@ -12,6 +12,7 @@ import {
   sendEmailVerification,
   GoogleAuthProvider,
   signInWithPopup,
+  updateProfile,
   type UserCredential,
 } from 'firebase/auth';
 import { auth } from '@/firebase/firebase';
@@ -26,7 +27,7 @@ interface AuthContextType {
   loading: boolean;
   error: string | null;
   setError: Dispatch<SetStateAction<string | null>>;
-  signUp: (email: string, pass: string) => Promise<any>;
+  signUp: (email: string, pass: string, displayName?: string) => Promise<UserCredential>;
   signIn: (email: string, pass: string) => Promise<any>;
   signOut: () => Promise<void>;
   sendVerificationEmail: (user: User) => Promise<void>;
@@ -109,10 +110,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   };
   
-  const wrappedSignUp = async (email: string, password: string) => {
+  const wrappedSignUp = async (email: string, password: string, displayName?: string) => {
     setError(null);
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      if (userCredential.user && displayName) {
+         await updateProfile(userCredential.user, { displayName: displayName });
+      }
       return userCredential;
     } catch (err: any) {
       setError(err.message);

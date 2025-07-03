@@ -1,9 +1,6 @@
 
 import { NextResponse } from 'next/server';
 import { adminAuth } from '@/firebase/firebase-admin';
-// Update the import path below if the file is not found at the alias location
-// Update the path and extension below if the file is named differently or located elsewhere
-// Update the path below to the correct location of candidateDbService if necessary
 import { getCandidateProfile, saveCandidateProfile } from '@/services/candidateDbService';
 import { CandidateProfileSchema, type CandidateProfile } from '@/lib/schemas/candidate';
 import { z } from 'zod';

@@ -1,7 +1,6 @@
 
 'use client';
 
-import React, { useState } from 'react';
 import Link from 'next/link';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
@@ -14,7 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import { ArrowLeft, Building2, Save, Loader2 } from 'lucide-react';
-    
+
 const companyProfileSchema = z.object({
   companyName: z.string().min(2, { message: 'Company name must be at least 2 characters.' }),
   companyDescription: z.string().min(20, { message: 'Description must be at least 20 characters.' }).max(500, { message: 'Description cannot exceed 500 characters.' }),
@@ -171,4 +170,8 @@ export default function CompanyProfilePage() {
       </Card>
     </div>
   );
+}
+
+function useState(arg0: boolean): [any, any] {
+  throw new Error('Function not implemented.');
 }

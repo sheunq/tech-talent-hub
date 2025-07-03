@@ -45,8 +45,8 @@ const LinkedInIcon = () => (
 
 interface AuthFormProps {
   formType: 'jobSeeker' | 'employer';
-  loginSchema: z.ZodObject<any, any, any>;
-  signupSchema: z.ZodObject<any, any, any>;
+  loginSchema: z.ZodType<any, any, any>;
+  signupSchema: z.ZodType<any, any, any>;
   defaultValuesLogin: Record<string, any>;
   defaultValuesSignup: Record<string, any>;
   renderSignupFields: (form: ReturnType<typeof useForm>) => React.ReactNode;
@@ -111,7 +111,8 @@ export function AuthForm({
     setIsSubmittingSignup(true);
     setAuthError(null);
     try {
-      const userCredential = await signUp(data.email, data.password);
+      const displayName = data.fullName || data.companyName;
+      const userCredential = await signUp(data.email, data.password, displayName);
       const user = userCredential.user;
 
       const token = await user.getIdToken();
