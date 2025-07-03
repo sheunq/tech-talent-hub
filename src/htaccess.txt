@@ -1,11 +1,1 @@
-# This .htaccess file is crucial for routing requests to your Next.js app on Hostinger.
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  
-  # This rule tells the server to forward all incoming requests to the
-  # Node.js process where your Next.js application is running.
-  # Hostinger typically manages the specific port, and this proxy rule
-  # allows the main server to communicate with your app.
-  RewriteRule ^(.*)$ http://127.0.0.1:3000/$1 [P,L]
-</IfModule>
