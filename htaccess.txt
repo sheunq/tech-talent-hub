@@ -1,8 +1,1 @@
-# This file ensures that requests are correctly routed to the Next.js app.
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  # This rule proxies all incoming requests to the running Node.js process,
-  # which is how Hostinger serves Next.js applications.
-  RewriteRule (.*) http://127.0.0.1:%{ENV:PORT}/$1 [P,L]
-</IfModule>
