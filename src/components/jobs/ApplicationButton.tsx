@@ -12,6 +12,8 @@ import { useRouter } from 'next/navigation';
 //import { Button } from '@/components/ui/button';
 
 
+
+
 interface ApplicationButtonProps {
   jobId: string;
   applyUrl?: string; // For external applications
