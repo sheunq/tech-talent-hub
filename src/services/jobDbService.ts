@@ -30,14 +30,19 @@ export async function getAllJobs(): Promise<BackendStoredJob[]> {
   const querySnapshot = await getDocs(q);
   return querySnapshot.docs.map(doc => {
     const data = doc.data();
-    // Convert Firestore Timestamp to Date object for the client
+    
     const applicationDeadline = data.applicationDeadline instanceof Timestamp
       ? data.applicationDeadline.toDate()
       : undefined;
 
+    const submittedDate = data.submittedDate instanceof Timestamp
+      ? data.submittedDate.toDate().toISOString()
+      : data.submittedDate;
+
     return {
       ...data,
       id: doc.id,
+      submittedDate,
       applicationDeadline,
     } as BackendStoredJob;
   });
@@ -56,17 +61,14 @@ export async function createJob(jobData: JobPostingApiInput): Promise<BackendSto
     ...jobData,
     submittedDate,
     status,
-    // Convert Date object from form to Firestore Timestamp for storage
+    // Convert Date object from form to Firestore Timestamp for storage.
+    // Firestore's `addDoc` will ignore any fields that are `undefined`.
     applicationDeadline: jobData.applicationDeadline ? Timestamp.fromDate(jobData.applicationDeadline) : undefined,
   };
-  
-  // Firestore doesn't like undefined values, so we remove them
-  Object.keys(docDataForFirestore).forEach(key => (docDataForFirestore as any)[key] === undefined && delete (docDataForFirestore as any)[key]);
 
   const docRef = await addDoc(jobsCollection, docDataForFirestore);
 
-  // Instead of re-fetching, construct the return object directly.
-  // This avoids a second database round-trip and should prevent timeouts.
+  // Construct the return object directly to avoid a second database read.
   const newJob: BackendStoredJob = {
     ...jobData,
     id: docRef.id,
@@ -90,14 +92,19 @@ export async function findJobById(id: string): Promise<BackendStoredJob | null> 
     return null;
   }
   const data = docSnap.data();
-  // Convert Firestore Timestamp to Date object for the client
+  
   const applicationDeadline = data.applicationDeadline instanceof Timestamp
     ? data.applicationDeadline.toDate()
     : undefined;
 
+  const submittedDate = data.submittedDate instanceof Timestamp
+    ? data.submittedDate.toDate().toISOString()
+    : data.submittedDate;
+
   return {
     ...data,
     id: docSnap.id,
+    submittedDate,
     applicationDeadline,
   } as BackendStoredJob;
 }

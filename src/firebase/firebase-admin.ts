@@ -39,14 +39,25 @@ if (!admin.apps.length) {
 // occur if these are used without proper initialization, which is the correct behavior.
 const isInitialized = admin.apps.length > 0;
 
+const stubAuthMethod = () =>
+  async () => Promise.reject(new Error("Admin SDK not initialized for build, this is normal."));
+
 const DUMMY_AUTH = {
-    verifyIdToken: async () => Promise.reject(new Error("Admin SDK not initialized for build, this is normal.")),
-    setCustomUserClaims: async () => Promise.reject(new Error("Admin SDK not initialized for build, this is normal.")),
-    getUser: async () => Promise.reject(new Error("Admin SDK not initialized for build, this is normal.")),
+    verifyIdToken: stubAuthMethod(),
+    setCustomUserClaims: stubAuthMethod(),
+    getUser: stubAuthMethod(),
 } as unknown as admin.auth.Auth;
 
 // Firestore admin SDK is not used in this project, but providing a dummy for safety.
-const DUMMY_DB = {} as admin.firestore.Firestore;
+const DUMMY_DB = {
+  collection: () => {
+    throw new Error("Admin Firestore SDK not initialized for build, this is normal.");
+  },
+  doc: () => {
+    throw new Error("Admin Firestore SDK not initialized for build, this is normal.");
+  },
+  // Add more methods as needed for your usage
+} as unknown as admin.firestore.Firestore;
 
 export const adminAuth = isInitialized ? admin.auth() : DUMMY_AUTH;
 export const adminDb = isInitialized ? admin.firestore() : DUMMY_DB;
