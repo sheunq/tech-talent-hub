@@ -16,7 +16,7 @@ export const jobPostingApiInputSchema = z.object({
   experienceLevel: z.enum(['Entry-level', 'Mid-level', 'Senior-level', 'Lead', 'Manager', 'Executive']),
   salaryMin: z.number().optional(),
   salaryMax: z.number().optional(),
-  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship']),
+  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid']),
   location: z.string(),
   applicationDeadline: z.date().optional(),
   isFeatured: z.boolean().optional(),
@@ -26,6 +26,7 @@ export const jobPostingApiInputSchema = z.object({
 const JobPostingApiInputBaseSchema = z.object({
   jobTitle: z.string().min(5, { message: 'Job title must be at least 5 characters.' }),
   companyName: z.string().min(1, { message: "Company name is required."}),
+  companyLogo: z.string().url({ message: "Please provide a valid URL." }).optional().or(z.literal('')),
   mainDescription: z.string().min(50, { message: 'Main description must be at least 50 characters.' }),
   requirements: z.string().min(20, { message: 'Requirements must be at least 20 characters.' }),
   jobCategory: z.string().min(1, { message: "Please select a job category." }),
@@ -38,7 +39,7 @@ const JobPostingApiInputBaseSchema = z.object({
     (val) => (String(val).trim() === "" || val === null || val === undefined ? undefined : parseFloat(String(val))),
     z.number({invalid_type_error: "Salary must be a number"}).positive().optional()
   ),
-  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship']),
+  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid']),
   location: z.string().min(2, { message: 'Location must be specified.' }),
   applicationDeadline: z.coerce.date().optional(),
   isFeatured: z.boolean().default(false),

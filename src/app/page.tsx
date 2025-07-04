@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, Search, Users, Building, Briefcase, Lightbulb, BookOpen } from 'lucide-react';
+import { ArrowRight, Search, Users, Building, Briefcase, Lightbulb, BookOpen, BrainCircuit } from 'lucide-react';
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
 import { TekTunnelLogo } from '@/components/icons/TekTunnelLogo';
@@ -30,7 +30,7 @@ const featuredOpportunities = [
       title: 'Future Leaders in AI Scholarship',
       provider: 'Innovate AI Foundation',
       description: 'Supporting outstanding students pursuing research and careers in Artificial Intelligence.',
-      icon: <Image src="https://placehold.co/48x48.png" alt="AI Icon" width={32} height={32} data-ai-hint="AI brain" />,
+      icon: <BrainCircuit className="h-8 w-8 text-primary" />,
     },
 ];
 
@@ -97,7 +97,7 @@ export default function Home() {
             </Card>
             <Card className="hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
               <CardHeader className="bg-secondary/20 p-6">
-                <Image src="https://placehold.co/48x48.png" alt="AI Icon for TekTunnel" width={48} height={48} className="mb-3 rounded-md" data-ai-hint="AI brain illustration" />
+                <BrainCircuit className="h-12 w-12 text-primary mb-3" />
                 <CardTitle className="font-headline text-2xl">AI-Powered Matching</CardTitle>
               </CardHeader>
               <CardContent className="p-6">
@@ -120,9 +120,9 @@ export default function Home() {
           </h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { id: '7', title: 'Senior Frontend Engineer', company: 'Innovate Solutions', location: 'Remote (USA)', type: 'Full-time', tags: ['React', 'TypeScript'] , imageSrc: 'https://placehold.co/60x60.png', imageHint: 'Innovate Solutions logo' },
-              { id: '8', title: 'Cloud DevOps Architect', company: 'SkyNet Systems', location: 'Austin, TX', type: 'Full-time', tags: ['AWS', 'Kubernetes'], imageSrc: 'https://placehold.co/60x60.png', imageHint: 'SkyNet Systems logo' },
-              { id: '9', title: 'Lead UX Designer', company: 'Pixel Perfect Co.', location: 'New York, NY', type: 'Contract', tags: ['Figma', 'User Research'], imageSrc: 'https://placehold.co/60x60.png', imageHint: 'Pixel Perfect logo' },
+              { id: '7', title: 'Engineering Manager, Growth', company: 'Grammarly', location: 'Germany', type: 'Hybrid', tags: ['React', 'TypeScript'] , imageSrc: '/images/Grammarly.png', imageHint: 'Grammarly logo' },
+              { id: '8', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
+              { id: '9', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
             ].map((job) => (
               <Card key={job.id} className="flex flex-col hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
                 <CardHeader className="p-6">

@@ -69,6 +69,7 @@ export function JobPostingForm() {
     defaultValues: {
       jobTitle: '',
       companyName: '',
+      companyLogo: '',
       mainDescription: '',
       requirements: '',
       jobCategory: undefined, 
@@ -184,6 +185,20 @@ export function JobPostingForm() {
                   <FormControl>
                     <Input placeholder="e.g., Acme Corporation" {...field} className="text-base" />
                   </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="companyLogo"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-base">Company Logo URL (Optional)</FormLabel>
+                  <FormControl>
+                    <Input placeholder="https://example.com/logo.png" {...field} value={field.value ?? ""} className="text-base" />
+                  </FormControl>
+                  <FormDescription>Provide a direct link to your company logo image.</FormDescription>
                   <FormMessage />
                 </FormItem>
               )}
@@ -307,6 +322,7 @@ export function JobPostingForm() {
                       <SelectItem value="Part-time">Part-time</SelectItem>
                       <SelectItem value="Contract">Contract</SelectItem>
                       <SelectItem value="Internship">Internship</SelectItem>
+                      <SelectItem value="Hybrid">Hybrid</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />

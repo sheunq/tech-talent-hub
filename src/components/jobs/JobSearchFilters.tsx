@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -24,7 +25,7 @@ interface JobSearchFiltersProps {
   isLoading?: boolean;
 }
 
-const jobTypes = ['Any Type', 'Full-time', 'Part-time', 'Contract', 'Internship'];
+const jobTypes = ['Any Type', 'Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid'];
 const categories = ['Any Category', 'Software Engineering', 'Data Science', 'Product Management', 'Design', 'Marketing', 'Sales', 'DevOps', 'QA & Testing', 'Cybersecurity'];
 const MAX_SALARY = 250000;
 

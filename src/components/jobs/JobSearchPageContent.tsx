@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, type ReactNode } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { JobSearchFilters, type SearchFilters } from '@/components/jobs/JobSearchFilters';
 import { JobCard, type Job } from '@/components/jobs/JobCard';
@@ -9,11 +9,17 @@ import { Button } from '@/components/ui/button';
 import { Loader2 } from 'lucide-react';
 import Image from 'next/image';
 import type { BackendStoredJob } from '@/lib/schemas/job';
+import { AdSenseUnit } from '@/components/ads/AdSenseUnit';
+import { Card, CardContent } from '@/components/ui/card';
 
 const JOBS_PER_PAGE = 6;
 
+interface JobSearchPageContentProps {
+  initialJobs: BackendStoredJob[];
+}
+
 const extractTagsFromText = (text: string): string[] => {
-    const keywords = ['React', 'TypeScript', 'Next.js', 'GraphQL', 'Node.js', 'UI/UX Design', 'JavaScript', 'HTML5', 'CSS3', 'Redux', 'Jest', 'Webpack', 'Python', 'Django', 'Flask', 'Docker', 'AWS', 'GCP', 'Azure', 'PostgreSQL', 'REST APIs', 'Celery', 'Kubernetes', 'Terraform', 'CI/CD', 'Jenkins', 'Linux', 'Ansible', 'Docker Swarm', 'Prometheus', 'Grafana', 'Figma', 'Sketch', 'Adobe XD', 'SQL', 'R', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'NLP', 'Spark', 'Go', 'Security+', 'CEH', 'SIEM', 'React Native'];
+    const keywords = ['React', 'TypeScript', 'Next.js', 'GraphQL', 'Node.js', 'UI/UX Design', 'JavaScript', 'HTML5', 'CSS3', 'Redux', 'Jest', 'Webpack', 'Python', 'Django', 'Flask', 'Docker', 'AWS', 'GCP', 'Azure', 'PostgreSQL', 'REST APIs', 'Celery', 'Kubernetes', 'Terraform', 'CI/CD', 'Jenkins', 'Linux', 'Ansible', 'Docker Swarm', 'Prometheus', 'Grafana', 'Figma', 'Sketch', 'Adobe XD', 'SQL', 'R', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'NLP', 'Spark', 'Go', 'Security+', 'CEH', 'SIEM', 'React Native', 'Java', 'Kafka'];
     const foundTags = new Set<string>();
     
     keywords.forEach(keyword => {
@@ -24,7 +30,7 @@ const extractTagsFromText = (text: string): string[] => {
         }
     });
     
-    return Array.from(foundTags).slice(0, 5); // Limit to 5 tags for cleanliness
+    return Array.from(foundTags).slice(0, 5);
 };
 
 const mapBackendJobToJobCard = (backendJob: BackendStoredJob): Job => {
@@ -47,16 +53,12 @@ const mapBackendJobToJobCard = (backendJob: BackendStoredJob): Job => {
     descriptionExcerpt: backendJob.mainDescription,
     postedDate: backendJob.submittedDate,
     salaryRange,
-    companyLogo: 'https://placehold.co/56x56.png',
+    companyLogo: backendJob.companyLogo || 'https://placehold.co/56x56.png',
     imageHint: 'company logo generic',
     tags: extractTagsFromText(combinedTextForTags),
     applyUrl: backendJob.applyUrl,
   };
 };
-
-interface JobSearchPageContentProps {
-  initialJobs: BackendStoredJob[];
-}
 
 export function JobSearchPageContent({ initialJobs }: JobSearchPageContentProps) {
   const router = useRouter();
@@ -156,6 +158,30 @@ export function JobSearchPageContent({ initialJobs }: JobSearchPageContentProps)
   
   const filterKey = JSON.stringify(activeFilters);
 
+  const contentWithAds: ReactNode[] = [];
+  displayedJobs.forEach((job, index) => {
+    contentWithAds.push(<JobCard key={job.id} job={job} />);
+    // Insert an ad after the 3rd job (index 2)
+    if (index === 2) {
+      contentWithAds.push(
+        <div key="ad-unit-1" className="h-full">
+          <h3 className="font-semibold mb-2 text-center text-muted-foreground text-sm">Advertisement</h3>
+          <Card className="flex items-center justify-center h-full min-h-[450px]">
+            <CardContent className="p-2 w-full">
+              <AdSenseUnit
+                adClient="ca-pub-6433526967216348"
+                adSlot="6448052296"
+                adLayoutKey="-hg+7+e-5p+9r"
+                adFormat="fluid"
+              />
+            </CardContent>
+          </Card>
+        </div>
+      );
+    }
+  });
+
+
   return (
     <div className="container mx-auto py-8">
       <h1 className="text-4xl font-bold tracking-tight mb-8 text-center font-headline">Find Your Next Tech Role</h1>
@@ -186,9 +212,7 @@ export function JobSearchPageContent({ initialJobs }: JobSearchPageContentProps)
 
       {!isLoading && displayedJobs.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {displayedJobs.map(job => (
-            <JobCard key={job.id} job={job} />
-          ))}
+          {contentWithAds}
         </div>
       )}
 
