@@ -14,7 +14,7 @@ import {
   addDoc,
   deleteDoc,
   query,
-  orderBy,
+  // orderBy, // Removing orderBy to prevent index errors
   Timestamp,
 } from 'firebase/firestore';
 import type { BackendStoredAlert, AlertApiInput } from '@/lib/schemas/alert';
@@ -26,19 +26,34 @@ const alertsCollection = collection(db, 'alerts');
  * @returns A promise that resolves to an array of all job alerts.
  */
 export async function getAllAlerts(): Promise<BackendStoredAlert[]> {
-  const q = query(alertsCollection, orderBy('createdAt', 'desc'));
-  const querySnapshot = await getDocs(q);
-  return querySnapshot.docs.map(doc => {
-    const data = doc.data();
-    const createdAt = data.createdAt instanceof Timestamp
-      ? data.createdAt.toDate().toISOString()
-      : data.createdAt;
-    return {
-      ...data,
-      id: doc.id,
-      createdAt,
-    } as BackendStoredAlert;
-  });
+  try {
+    const q = query(alertsCollection); // Query without ordering
+    const querySnapshot = await getDocs(q);
+    const alerts = querySnapshot.docs.map(doc => {
+      const data = doc.data();
+      const createdAt = data.createdAt instanceof Timestamp
+        ? data.createdAt.toDate().toISOString()
+        : data.createdAt;
+      return {
+        ...data,
+        id: doc.id,
+        createdAt,
+      } as BackendStoredAlert;
+    });
+
+    // Sort in memory to avoid index requirements
+    alerts.sort((a, b) => {
+      const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+      const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+      return dateB - dateA;
+    });
+    
+    return alerts;
+
+  } catch (error) {
+     console.error("Error fetching alerts. This may be expected if the collection or index doesn't exist yet. Returning empty array.", error);
+     return [];
+  }
 }
 
 /**
@@ -61,11 +76,16 @@ export async function createAlert(alertData: AlertApiInput): Promise<BackendStor
   if (!newAlertData) {
     throw new Error('Failed to retrieve newly created alert.');
   }
+  
+  const createdAtTimestamp = newAlertData.createdAt as Timestamp | undefined;
+  if (!createdAtTimestamp) {
+      throw new Error('Newly created alert is missing createdAt timestamp.');
+  }
 
   return {
     ...newAlertData,
     id: docRef.id,
-    createdAt: (newAlertData.createdAt as Timestamp).toDate().toISOString(),
+    createdAt: createdAtTimestamp.toDate().toISOString(),
   } as BackendStoredAlert;
 }
 

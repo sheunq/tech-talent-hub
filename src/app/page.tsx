@@ -97,7 +97,7 @@ export default function Home() {
             </Card>
             <Card className="hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
               <CardHeader className="bg-secondary/20 p-6">
-                <Image src="/images/artificial_ico.png" alt="AI Icon for TekTunnel" width={48} height={48} className="mb-3 rounded-md" data-ai-hint="AI brain illustration" />
+                <Image src="https://placehold.co/48x48.png" alt="AI Icon for TekTunnel" width={48} height={48} className="mb-3 rounded-md" data-ai-hint="AI brain illustration" />
                 <CardTitle className="font-headline text-2xl">AI-Powered Matching</CardTitle>
               </CardHeader>
               <CardContent className="p-6">

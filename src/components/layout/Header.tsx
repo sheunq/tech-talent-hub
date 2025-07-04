@@ -4,7 +4,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { Menu, Briefcase, Users, Building, Brain, Bell, Search, HomeIcon, LogOut, UserCircle, Newspaper, UsersRound, LayoutDashboard, GraduationCap, Lightbulb, Star, Mail } from 'lucide-react';
 import { TekTunnelLogo } from '@/components/icons/TekTunnelLogo';
 import { ThemeToggle } from '@/components/ThemeToggle';
@@ -222,11 +222,14 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[300px] p-4">
-              <div className="mb-6">
-                <Link href="/" className="flex items-center space-x-2">
-                  <TekTunnelLogo className="h-7 w-auto" />
-                </Link>
-              </div>
+              <SheetHeader className="mb-6 text-left">
+                 <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+                  <SheetClose asChild>
+                    <Link href="/" className="flex items-center space-x-2">
+                        <TekTunnelLogo className="h-7 w-auto" />
+                    </Link>
+                  </SheetClose>
+              </SheetHeader>
               <nav className="flex flex-col space-y-2">
                 {currentMobileNavItems.map((item) => {
                   const isActive = isMounted && (pathname.startsWith(item.href) && item.href !== '/') || pathname === item.href;

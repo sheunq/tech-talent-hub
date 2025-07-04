@@ -42,6 +42,7 @@ const JobPostingApiInputBaseSchema = z.object({
   location: z.string().min(2, { message: 'Location must be specified.' }),
   applicationDeadline: z.coerce.date().optional(),
   isFeatured: z.boolean().default(false),
+  applyUrl: z.string().url().optional(),
 });
 
 export const JobPostingApiInputSchema = JobPostingApiInputBaseSchema.refine(data => {
