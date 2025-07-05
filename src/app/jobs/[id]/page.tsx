@@ -8,7 +8,7 @@ import { getAllJobs } from '@/services/jobDbService';
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
   {
-    id: 'grammarly-1',
+    id: 'Software-Engineer-Back-End-Kyiv-Ukraine',
     jobTitle: 'Software Engineer, Back-End',
     companyName: 'Grammarly',
     companyLogo: '/images/Grammarly.png',
@@ -60,7 +60,7 @@ Grammarly is proud to be an equal opportunity employer. We celebrate diversity a
   },
 
   {
-    id: 'mock-fe-1',
+    id: 'Senior Frontend Engineer-in-Berlin-Germany-Grammarly',
     jobTitle: 'Senior Frontend Engineer',
     companyName: 'Grammarly',
     companyLogo: '/images/Grammarly.png',
@@ -114,7 +114,7 @@ Grammarly is proud to be an equal opportunity employer. We welcome applicants of
     applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/6988890'
   },
   {
-    id: 'mock-do-1',
+    id: 'AI-Engineering-Manager-in-France-mirakl',
     jobTitle: 'AI Engineering Manager',
     companyName: 'mirakl',
     companyLogo: '/images/mirakl.png',
@@ -178,40 +178,122 @@ Leadership & Soft Skills
     isFeatured: false,
     applyUrl: 'https://www.mirakl.com/careers/5576621004'
   },
-  {
-    id: 'mock-ux-1',
-    jobTitle: 'Lead UX Designer',
-    companyName: 'Pixel Perfect Co.',
-    companyLogo: 'https://placehold.co/100x100.png',
-    mainDescription: 'Lead our design team to create intuitive and beautiful user experiences across our mobile and web platforms. You will drive the design process from research to high-fidelity prototypes.',
-    requirements: '8+ years in UX/UI design. A strong portfolio showcasing your work. Expertise in Figma, Sketch, and Adobe Creative Suite. Experience leading a team of designers.',
+   {
+    id: 'Operational-Safety-Data-Engineer-in-Foster-City-zoox',
+    jobTitle: 'Operational Safety Data Engineer',
+    companyName: 'zoox',
+    companyLogo: '/images/zoox.png',
+    mainDescription: `💼 Job Title: Operational Safety Data Engineer
+Location: Foster City, CA (Hybrid)
+Department: Safety Policy & Strategy
+Employment Type: Full-Time
+
+🏢 About Zoox
+Zoox is building the future of urban mobility by developing a fully autonomous vehicle fleet from the ground up. Combining robotics, machine learning, and advanced design, Zoox aims to redefine mobility-as-a-service for urban environments with safety at the core of its mission.
+
+🚀 Role Overview
+As an Operational Safety Data Engineer at Zoox, you will play a crucial role in informing risk-based safety processes as we scale operations. You'll aggregate and analyze fleet safety data, build analytics tools, and help cross-functional teams respond to field events with precision and clarity. This position supports incident response on a rotational on-call basis, including nights, weekends, and holidays.
+
+🔧 Key Responsibilities
+- Develop data pipelines and tools to support rigorous safety decision-making
+- Create dashboards tracking safety KPIs, trends, and thresholds for executive reporting
+- Drive alignment across teams on safety risk evaluation frameworks
+- Support real-time incident triage and escalation with well-informed insights
+- Present findings clearly to technical and non-technical audiences, including leadership
+
+🎯 Required Qualifications
+- Bachelor’s degree in Computer Science, Engineering, or related field
+- 6+ years working with safety-critical systems and risk management strategies
+- Hands-on experience with data tools like SQL, PySpark, Python, Pandas, and platforms like DataBricks
+- Strong analytical thinking, initiative, and cross-functional collaboration skills
+- Ability to stay composed and professional in incident response scenarios
+
+🌟 Bonus Skills
+- Experience in autonomous vehicles or robotics systems
+- Technical expertise in AI, ADAS development, or safety-critical software
+- Familiarity with industry standards (e.g., ISO 26262, MIL-STD-882, ISO 21448 PAS)
+
+💰 Compensation & Benefits
+- Base Salary Range: $180,000–$200,000
+- Additional package includes:
+- Amazon Restricted Stock Units (RSUs)
+- Zoox Stock Appreciation Rights
+- Potential sign-on bonus
+- Comprehensive benefits covering:
+- Health, life, disability & long-term care insurance
+- Paid time off (vacation, sick leave, bereavement)
+- Retirement support
+`,
+    requirements: '',
     jobCategory: 'UX/UI Design',
     experienceLevel: 'Lead',
-    jobType: 'Contract',
-    location: 'New York, NY',
+    jobType: 'Hybrid',
+    location: 'Foster City',
     submittedDate: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: true,
-    applyUrl: 'https://jobs.ashbyhq.com/pixelperfect/abcde-lead-ux'
+    applyUrl: 'https://jobs.lever.co/zoox/8b62411a-6d3a-4e3e-a9fd-158030eb82ec'
   },
-  {
-    id: 'mock-ds-1',
-    jobTitle: 'Data Scientist (AI/ML)',
-    companyName: 'Alpha Analytics',
-    companyLogo: 'https://placehold.co/100x100.png',
+   {
+    id: 'Platform Engineer-in-Foster-City-zoox',
+    jobTitle: 'Platform Engineer',
+    companyName: 'zoox',
+    companyLogo: '/images/zoox.png',
     mainDescription: 'Leverage data to drive business decisions. You will develop machine learning models, conduct statistical analysis, and present findings to stakeholders.',
-    requirements: 'MSc or PhD in a quantitative field. 3+ years of experience. Proficiency in Python (Pandas, Scikit-learn, TensorFlow/PyTorch) and SQL.',
-    jobCategory: 'Data Science & Analytics',
+    requirements: `💼 Job Title: Platform Engineer
+Location: Foster City, CA (Hybrid)
+Department: Embedded Software & Systems Integration – Systems Reliability and Stability
+Type: Full-Time
+
+🏢 About Zoox
+Zoox is pioneering a ground-up autonomous mobility solution for urban environments, combining robotics, AI, and innovative design. We're developing a fully autonomous robotaxi fleet and the ecosystem needed to bring it safely to market.
+
+🚀 Role Summary
+Zoox is seeking a motivated and self-starting Platform Engineer to support and maintain mission-critical services in our Hardware-In-the-Loop (HIL) testing environment. You’ll be instrumental in improving uptime, reliability, and usability across test platforms that validate on-vehicle autonomous software systems.
+
+🔧 Key Responsibilities
+- Monitor and enhance the availability of engineering services essential to testing and validation
+- Drive full lifecycle ownership of services—from architecture to rollout, automation, and iterative improvement
+- Operate high-throughput data pipelines and manage compute-intensive systems involving CPUs and GPUs
+- Collaborate across teams to ensure stability and efficiency of the robot testing infrastructure
+
+🎯 Required Qualifications
+- Bachelor's degree in Engineering, Computer Science, Math, or related field
+- 5+ years supporting production-grade services, SRE tasks, and on-call rotations
+- Proficiency in Python or Golang
+- Hands-on experience with infrastructure resilience, CI/CD automation, and observability tooling (e.g., Grafana, open-telemetry)
+- Solid Linux system administration experience including kernel troubleshooting and driver development
+
+🌟 Bonus Skills
+- Full-stack backend development and API ownership
+- Familiarity with CI pipelines (Bamboo, Bazel) and test frameworks like Pytest
+- Experience with Infrastructure as Code (Terraform, Ansible, SaltStack)
+
+💰 Compensation & Benefits
+- Base Salary Range: $135,000 – $175,000 (varies by location and experience)
+- Additional components may include:
+- Amazon RSUs
+- Zoox Stock Appreciation Rights
+- Potential sign-on bonus
+- Comprehensive benefits package:
+- Health, disability, and life insurance
+- Paid and unpaid time off
+- Long-term care coverage
+
+🌈 Inclusion & Accommodations
+Zoox is committed to building a diverse, inclusive workforce. You’re encouraged to apply even if your background doesn't match every requirement. Accommodations are available upon request for applicants in the hiring process.
+`,
+    jobCategory: 'Engineer',
     experienceLevel: 'Mid-level',
-    jobType: 'Full-time',
-    location: 'Boston, MA',
+    jobType: 'Hybrid',
+    location: 'Foster City',
     submittedDate: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: false,
-    applyUrl: 'https://www.indeed.com/viewjob?jk=fake-ds-1'
+    applyUrl: 'https://jobs.lever.co/zoox/b672e3cc-8e42-486c-b18f-67069406ff37'
   },
  {
-    id: 'mock-be-1',
+    id: 'Senior-Staff-Machine-Learning-Engineer-Perception-Offline-Driving-Intelligence-in-Foster-City-zoox',
     jobTitle: 'Senior/Staff Machine Learning Engineer - Perception Offline Driving Intelligenc',
     companyName: 'zoox',
     companyLogo: '/images/zoox.png',
@@ -269,7 +351,7 @@ Join Zoox’s ODIN (Offline Driving Intelligence) team to build the next generat
     applyUrl: 'https://jobs.lever.co/zoox/cf049a4a-491e-45c3-bed7-1e8a45dac2bc'
   },
  {
-    id: 'mock-pm-1',
+    id: 'Manufacturing-Data-Analyst-in-Foster-City-zoox',
     jobTitle: 'Manufacturing Data Analyst',
     companyName: 'zoox',
     companyLogo: '/images/zoox.png',
@@ -332,7 +414,7 @@ Zoox is proud to be an equal opportunity employer. We value diverse perspectives
     applyUrl: 'https://jobs.lever.co/zoox/f84bcac3-d36a-4526-a14d-68e4f4618c42'
   },
    {
-    id: 'mock-cy-1',
+    id: 'Senior-Staff-Systems-Engineer-Autonomy-System-Performance-in-Foster-City-zoox',
     jobTitle: 'Senior/Staff Systems Engineer - Autonomy System Performance',
     companyName: 'zoox',
     companyLogo: '/images/zoox.png',
@@ -392,7 +474,7 @@ Preferred:
     applyUrl: 'https://jobs.lever.co/zoox/fca1320c-c37a-416a-94fd-8b5c1c9b74da'
   },
   {
-    id: 'mock-mo-1',
+    id: 'Finance-Control-Analyst-in-London-UK-monzo',
     jobTitle: 'Finance Control Analyst',
     companyName: 'monzo',
     companyLogo: '/images/monzo.png',
@@ -452,7 +534,7 @@ Would you like help repackaging this as a résumé summary, LinkedIn headline, o
     applyUrl: 'https://job-boards.greenhouse.io/monzo/jobs/6900159'
   },
   {
-    id: '7',
+    id: 'Engineering-Manager-Growth-in-Berlin-Germany-Grammarly',
     jobTitle: 'Engineering Manager, Growth',
     companyName: 'Grammarly',
     companyLogo: '/images/Grammarly.png',
@@ -502,7 +584,7 @@ Grammarly is proud to be an equal opportunity employer. We celebrate diversity a
     applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/7007380'
   },
   {
-  id: '8',
+  id: 'Senior-Software-Engineer-Java-in-Bordeaux-mirakl',
     jobTitle: 'Senior Software Engineer Java',
     companyName: 'mirakl',
     companyLogo: '/images/mirakl.png',
@@ -557,7 +639,7 @@ Mirakl celebrates diversity and is committed to equal opportunity for all. We we
     applyUrl: 'https://www.mirakl.com/careers/5580100004'
   },
   {
-    id: '9',
+    id: 'Senior-Software-Engineer-Java-in-Paris-mirakl',
     jobTitle: 'Senior Software Engineer Java',
     companyName: 'mirakl',
     companyLogo: '/images/mirakl.png',
@@ -615,7 +697,7 @@ Mirakl is dedicated to fostering diversity, inclusion, and equal opportunity. We
     applyUrl: 'https://www.mirakl.com/careers/5580099004'
   },
   {
-    id: '10',
+    id: 'Senior-Regulatory-Reporting-Analyst-in-Dublin-Ireland-monzo',
     jobTitle: 'Senior Regulatory Reporting Analyst',
     companyName: 'monzo',
     companyLogo: '/images/monzo.png',
@@ -669,6 +751,182 @@ Monzo is committed to building a diverse team and inclusive culture. We encourag
     status: 'approved',
     isFeatured: false,
     applyUrl: 'https://job-boards.greenhouse.io/monzo/jobs/6999634'
+  },
+
+     {
+    id: 'Senior-Embedded-Software-Engineer-Embedded-Linux C++-in-Foster-City-zoox',
+    jobTitle: 'Senior Embedded Software Engineer - Embedded Linux C++',
+    companyName: 'zoox',
+    companyLogo: '/images/zoox.png',
+    mainDescription: `💼 Job Title: Senior Embedded Software Engineer – Embedded Linux C++
+Location: Foster City, CA (On-Site)
+Department: Embedded Software & Systems Integration
+Employment Type: Full-Time
+
+🏢 About Zoox
+Zoox is redefining mobility with a fully autonomous vehicle platform built from scratch. Merging advanced design, robotics, and machine learning, we’re building a next-gen robotaxi fleet and ecosystem for safe, scalable urban transportation.
+
+🚀 Role Summary
+As a Senior Embedded Software Engineer at Zoox, you'll join the Embedded Linux team responsible for developing, maintaining, and extending embedded platforms for autonomous vehicles. You'll collaborate closely with software and validation teams to enable advanced systems and accelerate development across multiple projects, using your deep experience in modern C++ and open-source systems.
+
+🔧 Key Responsibilities
+- Architect, implement, debug, optimize, and test Linux-based embedded software
+- Integrate open-source technologies to enhance platform capabilities
+- Build and maintain features for custom embedded Linux boards
+- Apply modern C++ skills in an embedded Linux context
+- Engage in all phases of the software lifecycle including design, prototyping, implementation, and validation
+
+🎯 Required Qualifications
+- Bachelor’s degree with 12+ years, or Master’s degree with 10+ years, in Computer Science, Electrical Engineering, or related field
+- 6+ years of Linux development experience
+- Expertise in modern C++ for native user-mode applications
+- Proficient in Python and shell scripting
+
+🌟 Bonus Skills
+- Experience with Linux kernel development
+- Familiarity with Yocto or other embedded Linux build tools
+- Background in networking technologies and Linux audio systems
+
+💰 Compensation & Benefits
+- Base Salary Range: $180,000 – $245,000 (based on experience and interview outcome)
+- Additional Compensation:
+- Amazon RSUs
+- Zoox Stock Appreciation Rights
+- Potential sign-on bonus
+- Comprehensive benefits include:
+- Health, life, disability & long-term care insurance
+- Paid time off (vacation, sick leave, bereavement)
+- Retirement support
+
+Zoox values diversity and encourages applicants from all backgrounds. If you're passionate about autonomous technology and want to shape the future of mobility, we’d love to hear from you!
+`,
+    requirements: '',
+    jobCategory: 'Software Engineering',
+    experienceLevel: 'Lead',
+    jobType: 'Full-time',
+    location: 'Foster City',
+    submittedDate: new Date().toISOString(),
+    status: 'approved',
+    isFeatured: false,
+    applyUrl: 'https://jobs.lever.co/zoox/220a58f7-0ac3-4367-be04-8d5eca89f9ad'
+  },
+  {
+    id: 'Senior-Manager-Data-Enablement-&-Business-Intelligence-in-Toronto-eqbank',
+    jobTitle: 'Senior Manager, Data Enablement & Business Intelligence',
+    companyName: 'eqbank',
+    companyLogo: '/images/eqbank.png',
+    mainDescription: `💼 Job Title: Senior Manager – Data Enablement & Business Intelligence
+Location: Toronto, ON (Hybrid)
+Department: Payments, Analytics & Fraud Strategy
+Employment Type: Full-Time
+
+🏢 About EQ Bank
+EQ Bank is Canada’s leading digital challenger bank, redefining financial services with data-driven innovation. Focused on strategy, technology, and agility, we’re reshaping customer banking experiences with smart insights and powerful tools.
+
+🚀 Role Overview
+We're looking for a visionary Senior Manager in Business Intelligence to architect and lead EQ Bank’s data enablement strategy. This role blends deep technical expertise with strategic influence, driving dashboard creation, real-time analytics, and scalable data infrastructure across departments. You’ll partner with senior leaders to build a culture of data-informed decision making at one of Canada’s most progressive fintech firms.
+
+🔧 Key Responsibilities
+Product & Executive Dashboarding (60%)
+- Build dynamic dashboards for Product, Strategy, and Marketing teams
+- Drive self-service analytics and automation for real-time insights
+- Conduct deep-dive analyses using SQL and Python
+- Develop agile ETL/ELT pipelines for product experimentation
+Data Strategy & Integration (30%)
+- Co-lead data acquisition roadmap and migration to Azure Fabric
+- Ensure seamless, compliant data integration with Tech & Engineering
+- Identify and resolve gaps in analytics-ready data availability
+Tooling & Infrastructure (10%)
+- Design modern data tooling with Enterprise Data and Cloud Ops
+- Build cases for enhanced data products to improve efficiency
+- Own and optimize real-time data pipelines for marketing and communications
+
+🎯 Qualifications
+- Bachelor’s or Master’s in Computer Science, Data Science, Engineering, or related field
+- 8+ years experience in BI, analytics, or data engineering
+- Proven success scaling data pipelines and real-time analytics in Azure
+- Strong cross-functional leadership across Product, Marketing, and Engineering
+- Advanced SQL expertise and data modeling proficiency
+
+💻 Technical Expertise
+- Python or Scala for distributed systems and data workflows
+- Scalable ETL/ELT pipeline design and API development
+- Hands-on experience with:
+- Azure tools (Data Factory, Power BI, ML)
+- Snowflake, BigQuery, Redshift
+- Spark, Hadoop, Airflow, dbt, Fivetran
+- RESTful APIs and real-time messaging (Kafka, RabbitMQ, SQS)
+- Advanced SQL techniques for large dataset manipulation
+- Interactive data visualization using Power BI, Tableau, or web frameworks
+- JavaScript for dashboard customization and API integration
+`,
+    requirements: '',
+    jobCategory: 'Business',
+    experienceLevel: 'Lead',
+    jobType: 'Hybrid',
+    location: 'Toronto',
+    submittedDate: new Date().toISOString(),
+    status: 'approved',
+    isFeatured: false,
+    applyUrl: 'https://jobs.lever.co/eqbank/e46aa90d-253d-44fc-befd-bf7a56d5900d'
+  },
+  {
+    id: 'Modern-Workplace-Analyst-Intern-in-Toronto-eqbank',
+    jobTitle: 'Modern Workplace Analyst - Intern',
+    companyName: 'eqbank',
+    companyLogo: '/images/eqbank.png',
+    mainDescription: `💼 Position: Modern Workplace Analyst – Intern
+Location: Toronto, ON (Hybrid)
+Department: Information Technology
+Type: Internship (Fall Term: Sept 2–Dec 26, 2025)
+
+🏢 About Equitable Bank
+Equitable Bank—Canada’s Challenger Bank™—is transforming the banking experience. With over 670,000 customers, $125B+ in assets under management, and award-winning digital services through EQ Bank, we’re reshaping how Canadians manage their money. If you're curious, forward-thinking, and eager to help redefine what's possible, you'll thrive here.
+
+🚀 Internship Overview
+As a Modern Workplace Analyst Intern, you’ll support endpoint management across the bank’s laptops, mobile devices, and cloud environments. You'll work to enhance user experiences, streamline service delivery, and participate in shaping digital workspace policies. Expect hands-on collaboration and plenty of opportunities to grow.
+
+🔧 Key Responsibilities
+- Configure and manage physical endpoints using Microsoft Intune and Autopilot
+- Support and monitor Nerdio workspaces and auto-scaling functions
+- Assist in managing the Azure Virtual Desktop (AVD) environment
+- Deploy updates and maintain endpoint compliance
+- Build co-managed Windows 11 environments
+- Collaborate with the Cyber Defense Centre on policy and security settings
+- Troubleshoot Intune and Group Policy configurations
+- Participate in tabletop exercises and vulnerability remediation
+- Maintain usage and cost reports for Azure environments
+- Automate tasks using ITSM tools, scripting, or workflows
+- Test hardware/software rollouts under change management protocols
+
+🎯 What You Bring
+- Enrollment in post-secondary studies in IT or related field
+- Foundational knowledge of AVD, Azure, Enterprise Mobility, and Microsoft 365
+- Familiarity with Windows OS, MS Office, Intune, and CIS hardening techniques
+- Understanding of ITIL v4 and asset management systems
+- PowerShell scripting and problem management skills are a plus
+- Strong communication and ability to work independently
+
+📋 Application Requirements
+- You must be a current student returning to school
+- Submit a resume, cover letter, and unofficial transcript
+
+🌟 Why EQ Bank
+- Be part of one of Canada’s top-ranked digital banks
+- Work in a collaborative, agile, and inclusive culture
+- Access mentorship and hands-on experience
+- Contribute to meaningful projects in tech-enabled banking
+- Receive support for personal and professional growth
+`,
+    requirements: '',
+    jobCategory: 'Analyst',
+    experienceLevel: 'Lead',
+    jobType: 'Internship',
+    location: 'Toronto',
+    submittedDate: new Date().toISOString(),
+    status: 'approved',
+    isFeatured: false,
+    applyUrl: 'https://jobs.lever.co/eqbank/d8d1c9a8-3d33-4204-8562-ab58ff865a8a'
   },
 
 ];
