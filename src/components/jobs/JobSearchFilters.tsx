@@ -25,7 +25,7 @@ interface JobSearchFiltersProps {
   isLoading?: boolean;
 }
 
-const jobTypes = ['Any Type', 'Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid'];
+const jobTypes = ['Any Type', 'Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid', 'Remote'];
 const categories = ['Any Category', 'Software Engineering', 'Data Science', 'Product Management', 'Design', 'Marketing', 'Sales', 'DevOps', 'QA & Testing', 'Cybersecurity'];
 const MAX_SALARY = 250000;
 

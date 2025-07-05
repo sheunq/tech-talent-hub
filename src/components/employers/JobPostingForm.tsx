@@ -288,6 +288,7 @@ export function JobPostingForm() {
                       <SelectItem value="Contract">Contract</SelectItem>
                       <SelectItem value="Internship">Internship</SelectItem>
                       <SelectItem value="Hybrid">Hybrid</SelectItem>
+                      <SelectItem value="Remote">Remote</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />

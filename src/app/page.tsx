@@ -120,9 +120,9 @@ export default function Home() {
           </h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { id: '7', title: 'Engineering Manager, Growth', company: 'Grammarly', location: 'Germany', type: 'Hybrid', tags: ['React', 'TypeScript'] , imageSrc: '/images/Grammarly.png', imageHint: 'Grammarly logo' },
-              { id: '8', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
-              { id: '9', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
+              { id: 'Engineering-Manager-Growth-in-Berlin-Germany-Grammarly', title: 'Engineering Manager, Growth', company: 'Grammarly', location: 'Germany', type: 'Hybrid', tags: ['React', 'TypeScript'] , imageSrc: '/images/Grammarly.png', imageHint: 'Grammarly logo' },
+              { id: 'Senior-Software-Engineer-Java-in-Bordeaux-mirakl', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
+              { id: 'Senior-Software-Engineer-Java-in-Paris-mirakl', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
             ].map((job) => (
               <Card key={job.id} className="flex flex-col hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
                 <CardHeader className="p-6">

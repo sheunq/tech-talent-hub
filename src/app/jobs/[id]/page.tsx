@@ -7,6 +7,305 @@ import { getAllJobs } from '@/services/jobDbService';
 
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
+
+{applyUrl: 'https://jobs.lever.co/veeva/bad91414-664f-41cf-b8e3-7fd86795c744', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'China', jobTitle: 'Data Scientist', jobType: 'Full-time', jobCategory: 'Data', mainDescription: `💼 Job Title: Data Scientist – OpenData
+Location: Dalian, China (On-Site)
+Department: Product Management & Alliances – OpenData Asia
+Employment Type: Full-Time
+
+🏢 About Veeva
+Veeva Systems is an industry cloud innovator committed to helping life sciences companies bring therapies to market faster. As a Public Benefit Corporation (PBC), Veeva blends commercial success with social impact, prioritizing customer satisfaction, employee success, and sustainable innovation. With over $2B in annual revenue and a footprint in 15+ countries, Veeva is reshaping global healthcare infrastructure.
+
+🚀 Role Overview
+Join the OpenData Product team at Veeva as a Data Scientist, where you'll turn business ambiguity into clear, quantifiable data solutions. This role blends advanced algorithm design, NLP techniques, and cross-functional collaboration to deliver real-world value in healthcare data products. You'll be a critical decision support resource, enhancing internal systems and improving data quality for clients across the industry.
+
+🔧 Key Responsibilities
+- Lead design and iterative improvements of data matching algorithms for healthcare professionals and organizations
+- Engineer and monitor validation storage pipelines in main databases
+- Manage integration and update mechanisms for external/internal data sources
+- Apply NLP, vectorization, and LLM technologies to tackle operational challenges
+- Partner with business stakeholders to identify, analyze, and solve data production issues
+- Translate data process needs into tool specifications and coordinate development resources
+
+🎯 Qualifications
+- Bachelor’s degree or equivalent experience in math, statistics, computer science, or related fields
+- 5+ years in data modeling or algorithm development, with complete project lifecycle experience
+- Proficient in Python and Excel; familiarity with TensorFlow or PyTorch
+- Solid understanding and tuning experience with decision trees, SVMs, and neural networks
+- Advanced SQL skills and familiarity with databases like MySQL, PostgreSQL, Redshift, Snowflake
+- Strong analytical thinking and data sensitivity
+- Fluent written and conversational English
+- Comfortable using prompt engineering tools such as Dify
+
+🌟 Bonus Skills
+- Experience with data visualization tools (Power BI, Tableau)
+- Knowledge of the pharma industry or master data management systems
+
+💰 Perks & Benefits
+- Financial support for fitness, communication, and home heating
+- Free healthy snacks provided onsite
+- Global team collaboration and development opportunities
+
+Veeva welcomes candidates from all backgrounds. We proudly uphold a commitment to diversity, equity, and inclusion across every level of the organization. If you need accommodations during the application process, contact: talent_accommodations@veeva.com
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'data-scientist-in-veeva-china-china'},
+
+{applyUrl: 'https://jobs.lever.co/veeva/c3aa9548-6de0-4769-8c88-ce5f8ef7ecad', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Canada', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Remote', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering (SRE)
+Location: Vancouver, Canada (Remote)
+Team: Vault Platform – Engineering
+Employment Type: Full-Time
+Working Hours: Monday–Friday, 2 PM – 10 PM PST
+
+🏢 About Veeva Systems
+Veeva is a global SaaS leader in industry cloud solutions for life sciences. As a Public Benefit Corporation (PBC), Veeva aligns commercial success with positive societal impact—driven by values of Speed, Customer Success, Employee Success, and Doing the Right Thing. With $2B+ in annual revenue and flexible remote options, we’re transforming how therapies reach patients.
+
+🚀 Role Overview
+Join the Vault Platform team as a Senior Site Reliability Engineer to build highly scalable enterprise systems that serve millions across North America, Europe, and Asia. You’ll architect cloud infrastructure, optimize performance, and lead cross-functional collaboration that ensures operational excellence across Veeva’s global platform.
+
+🔧 Key Responsibilities
+- Design and deploy cloud infrastructure using best-practice software engineering
+- Improve system scalability, reliability, and performance
+- Lead incident response, root cause analysis, and on-call triage
+- Automate diagnostics and reduce manual overhead
+- Partner with engineering teams to influence design decisions pre-launch
+- Conduct engineering design reviews and guide efficiency initiatives
+- Contribute to backend development, with flexibility across infrastructure and frontend
+- Communicate effectively across technical and non-technical teams during outages
+- Mentor team members to elevate team performance and learning
+
+🎯 Required Qualifications
+- 5+ years of Java development (preferably in enterprise cloud environments)
+- Operational experience in high-volume production services
+- Hands-on expertise with: Spring, Hibernate, MySQL, Solr, Maven, Git, Tomcat, Linux, AWS, Docker, Kubernetes
+- Advanced SQL skills (3+ years)
+- Scripting proficiency in Shell, Bash, Python, Go, or Ruby
+- Clear communicator with proven leadership in incident management
+- Strong record of mentoring engineering peers
+- Must reside in PST or HST time zones
+
+💰 Compensation & Benefits
+- Base Salary Range: $110,000 – $270,000 CAD
+- May include stock bonus or variable compensation
+- Benefits:
+- Medical, dental, vision, life insurance
+- Flexible PTO and paid holidays
+- Retirement programs
+- 1% charitable giving match
+
+Veeva is an equal opportunity employer committed to inclusion and diversity. For accommodations during the application process, contact: talent_accommodations@veeva.com.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-canada-canada'}, 
+
+{applyUrl: 'https://jobs.lever.co/veeva/c7be7281-80e8-4b84-9682-6ee85b637960', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Hawaii', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Remote', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering (SRE)
+Location: Remote – Honolulu, Hawaii (HST or PST Time Zone)
+Department: Engineering – Vault Platform
+Employment Type: Full-Time
+Schedule: Monday–Friday, 2 PM–10 PM PST
+
+🏢 About Veeva Systems
+Veeva is a global SaaS leader serving the life sciences sector, helping companies speed up delivery of therapies to patients. As a Public Benefit Corporation with over $2B in annual revenue, Veeva is committed to balancing business growth with customer and community impact. Our “Work Anywhere” model allows employees to choose the environment where they thrive.
+
+🚀 Role Overview
+Join Veeva’s Vault Platform team as a Senior Site Reliability Engineer to ensure the scalability, reliability, and performance of enterprise cloud applications used by customers worldwide. You’ll take a hands-on role in designing cloud infrastructure, leading incident response, and driving engineering improvements—focusing primarily on backend development across a diverse and global tech stack.
+
+🔧 Responsibilities
+- Build cloud infrastructure and deploy scalable systems
+- Lead incident management efforts and root cause analysis
+- Develop automation tools and reduce manual operations
+- Analyze and optimize full-stack system performance
+- Collaborate with engineering, product, and QA on system design and deployment
+- Participate in design reviews and provide guidance on features before launch
+- Mentor team members and promote operational excellence
+
+🎯 Required Qualifications
+- 5+ years of Java development experience, ideally in cloud-based enterprise environments
+- Experience managing high-volume production services and incident response
+- Proficiency in Spring, Hibernate, MySQL, Solr, Tomcat, Git, Linux, AWS, Docker, Kubernetes
+- Strong SQL and scripting skills (Bash, Python, Go, Ruby, etc.)
+- Demonstrated leadership in crisis situations and clear communication with technical and non-technical teams
+- History of mentoring and team development
+- Must reside in HST or PST time zones
+- Must be authorized to work in the U.S. (no sponsorship available)
+
+💰 Compensation & Benefits
+- Base Salary Range: $110,000–$270,000 USD
+- Potential for variable bonus and stock options
+- Full benefits package:
+- Medical, dental, vision, life insurance
+- Flexible paid time off and holidays
+- Retirement plans
+- Charitable giving program
+
+Veeva welcomes applicants from all backgrounds and offers accommodations throughout the hiring process. For assistance, contact: talent_accommodations@veeva.com.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-hawaii-united-states'},
+
+   {applyUrl: 'https://jobs.lever.co/veeva/d65c7188-b86b-4308-b0a1-5810e0b7af54', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Portugal', jobTitle: 'Analyst Data Extraction - OpenData EMEA (Remote)', jobType: 'Remote', jobCategory: 'Analyst', mainDescription: `💼 Job Title: Analyst – Data Extraction (OpenData EMEA)
+Location: Lisbon, Portugal (Remote)
+Team: Analytics – R&D Link Data Development
+Employment Type: Full-Time
+
+🏢 About Veeva Systems
+Veeva is a global leader in cloud software for the life sciences industry, driving faster delivery of therapies to patients. As a Public Benefit Corporation, Veeva blends commercial success with societal impact, guided by values of Customer Success, Employee Success, Do the Right Thing, and Speed.
+With a Work Anywhere model and operations in 15+ countries, Veeva empowers talented individuals to do meaningful work from wherever they thrive.
+
+🚀 Role Overview
+Join Veeva’s OpenData Commercial team as a Data Extraction Analyst and help deliver high-quality reference data to life sciences clients. You'll configure web crawlers, support data ingestion, and generate insightful reports that drive compliance, analytics, and sales execution. This role plays a key part in ensuring the freshness and accuracy of data used by customers worldwide.
+
+🔧 Key Responsibilities
+- Build and maintain scalable web crawlers using internal tools
+- Generate ad-hoc and scheduled reports
+- Prepare extracted data for platform processing using Python configurations
+- Ensure seamless data integration into the OpenData system
+- Collaborate across teams to deliver quality data solutions
+
+🎯 Required Qualifications
+- 4+ years of experience as a data analyst, with strong SQL skills
+- Solid understanding of data structures and modeling
+- Experience building scalable and reliable web crawlers
+- Familiarity with version control and collaborative code practices
+- Basic proficiency in Python scripting
+
+🌟 Bonus Skills
+- Experience with tools like Mozenda or Zyte
+- Familiarity with Redshift or other cloud data warehouses
+- Knowledge of Veeva Network or related products
+
+💰 Benefits & Perks
+- Equity package (RSUs), private pension contributions, and family health coverage
+- Annual charitable donation allowance
+- Fitness reimbursement
+- Flexible remote work anywhere in Portugal
+
+Veeva embraces diversity and inclusion at all levels. If you require accommodations during the hiring process, please reach out to: talent_accommodations@veeva.com.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'analyst-data-extraction-opendata-emea-remote--in-veeva-portugal-portugal'}, 
+
+
+{applyUrl: 'https://jobs.lever.co/veeva/de31357b-1060-4d23-bd62-bd3e086f3f3d', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Germany', jobTitle: 'Manager Data Extraction - OpenData EMEA (Remote)', jobType: 'Remote', jobCategory: 'Data', mainDescription: `💼 Job Title: Manager, Data Extraction – OpenData EMEA
+Location: Berlin, Germany (Remote within Germany)
+Department: Analytics – R&D Link Data Development
+Employment Type: Full-Time
+
+🏢 About Veeva Systems
+Veeva Systems is a leading industry cloud company serving life sciences organizations. As a Public Benefit Corporation (PBC), Veeva is committed to balancing customer success, employee well-being, societal contribution, and investor value. With over $2B in annual revenue and a remote-first work model, Veeva empowers teams globally to make a positive impact on health outcomes through technology.
+
+🚀 Role Overview
+Join Veeva’s OpenData Commercial team and lead a group of data analysts focused on extracting and curating high-quality reference data from healthcare ecosystems. This position plays a pivotal role in ensuring timely data delivery and maintaining the accuracy and freshness of the information customers rely on for compliance, analytics, and sales execution.
+
+🔧 Key Responsibilities
+- Manage and mentor a team of 6–8 data analysts
+- Oversee workload planning in coordination with product managers
+- Ensure data quality and timely extraction from web sources
+- Select and implement tools for efficient data crawling and reporting
+- Deliver ad-hoc analyses and visual data reports as required
+
+🎯 Required Qualifications
+- 3+ years leading technical teams
+- Experience building scalable and reliable web crawlers
+- Strong grasp of version control, code reviews, and task management best practices
+- Solid knowledge of data structures and modeling
+- Basic understanding of Python scripting
+
+🌟 Preferred Experience
+- Familiarity with tools like Mozenda or Zyte for web scraping
+- Experience working with Redshift or similar data warehouses
+- Exposure to Veeva products such as Network
+- Understanding of master/reference data management and vendor evaluation
+
+💰 Benefits & Perks
+- Equity package (RSUs), private pension support, and family health coverage
+- Annual contribution allocation for charitable giving
+- Fitness reimbursement
+- Remote work flexibility from anywhere in Germany
+
+Veeva is committed to diversity, equity, and inclusion. Applicants of all backgrounds are welcome. If accommodations are needed for any part of the hiring process, please contact talent_accommodations@veeva.com.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'manager-data-extraction-opendata-emea-remote--in-veeva-germany-germany'}, 
+
+
+{applyUrl: 'https://jobs.lever.co/veeva/e0135754-3a6a-43fb-977e-5068f6e4cc45', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'California', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Full-time', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering
+Location: Remote (California – Los Angeles preferred)
+Team: Vault Platform Engineering
+Schedule: Monday–Friday, 2:00 PM–10:00 PM PST
+Employment Type: Full-Time
+
+🏢 About Veeva Systems
+Veeva Systems is an industry cloud pioneer helping life sciences companies accelerate therapy delivery. With $2B+ in annual revenue and global scale, Veeva operates as a Public Benefit Corporation—legally committed to balancing customer success, employee well-being, societal impact, and investor value. Our Work Anywhere model allows team members to thrive from wherever they work best.
+
+🚀 Role Overview
+As a Senior Site Reliability Engineer, you’ll drive platform reliability, scalability, and engineering efficiency for Veeva’s enterprise Vault applications. This role demands deep Java expertise, hands-on experience with open-source tooling, and a systems-thinking mindset to manage production environments serving millions of users worldwide.
+
+🔧 Responsibilities
+- Architect and implement cloud infrastructure for mission-critical services
+- Ensure reliable platform performance across North America, Europe, and Asia
+- Lead incident response and mitigation, including on-call escalations
+- Automate operations to reduce manual effort and improve diagnostics speed
+- Deliver root cause analysis across full-stack systems
+- Advise engineers on scalable designs and participate in technical roadmap decisions
+- Partner cross-functionally with QA, Design, and Product to ensure operational excellence
+- Mentor fellow engineers and foster a collaborative, high-performance culture
+
+🎯 Requirements
+- 5+ years of Java development experience, preferably in cloud software environments
+- Expertise in Spring, Hibernate, MySQL, Solr, Tomcat, Git, Maven, AWS, Docker, and Kubernetes
+- Strong SQL skills and database experience (3+ years)
+- Proficiency in scripting languages: Bash, Python, Go, Ruby, or similar
+- Proven history of managing critical production incidents and leading engineering teams
+- Exceptional communication skills for cross-team coordination and stakeholder updates
+- Located in HST or PST time zones (must be authorized to work in the U.S.; no sponsorship available)
+
+💰 Compensation & Benefits
+- Base Salary Range: $110,000–$270,000 USD
+- Additional compensation may include variable bonuses and/or stock options
+- Full benefits package:
+- Medical, dental, vision, life insurance
+- Flexible PTO & paid holidays
+- Retirement programs
+- 1% charitable giving match
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-california-united-states'},
+
+  {applyUrl: 'https://jobs.lever.co/veeva/ef95cef4-c013-4c5a-b10a-e96e346229cb', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'California', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Full-time', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering (SRE)
+Location: Remote – California (San Luis Obispo preferred)
+Department: Engineering – Vault Platform
+Schedule: Monday–Friday, 2 PM–10 PM PST
+Type: Full-Time
+
+🏢 About Veeva Systems
+Veeva is a mission-driven cloud technology company transforming life sciences by accelerating therapy delivery to patients. As a Public Benefit Corporation with over $2B in annual revenue, Veeva is uniquely focused on balancing innovation, growth, and societal impact. Through our Work Anywhere model, employees thrive from home or office—wherever they do their best work.
+
+🚀 Role Overview
+Join Veeva’s Vault Platform team as a Senior Site Reliability Engineer (SRE) and help drive platform reliability and scalability across global regions. You'll apply deep technical knowledge in Java, cloud infrastructure, and modern open-source stacks to solve challenging production issues, build resilient systems, and shape engineering decisions for features used by millions.
+
+🔧 Responsibilities
+- Build, scale, and optimize cloud infrastructure supporting enterprise applications
+- Drive system reliability for thousands of global users
+- Lead incident triage and mitigation; participate in on-call rotations
+- Automate tools and workflows to reduce manual processes and accelerate diagnostics
+- Identify root causes for production issues across full-stack services
+- Guide engineering teams with scalable design recommendations
+- Actively engage in design reviews and roadmap discussions to improve operational excellence
+- Collaborate with Product, QA, and Design to deliver customer-impactful solutions
+- Lead backend development with opportunities to contribute across the stack
+- Mentor junior engineers and foster team excellence
+
+🎯 Requirements
+- 5+ years of Java development experience in enterprise SaaS environments
+- Operational expertise in high-volume, production-critical services
+- Hands-on experience with: Spring, MySQL, Hibernate, Solr, Maven, Git, Linux, AWS, Docker, Kubernetes
+- Strong SQL skills (3+ years relational database experience)
+- Proficient in scripting: Shell, Bash, Python, Go, or equivalent
+- Proven leadership in incident management and cross-team communication
+- Excellent code quality and system architecture judgment
+- Must reside in PST or HST time zones
+- Must have the unrestricted right to work in the United States; sponsorship not available
+
+💰 Compensation & Benefits
+- Salary Range: $110,000–$270,000 USD
+- Eligible for performance bonus and/or stock awards
+- Benefits include:
+- Medical, dental, vision, life insurance
+- Flexible PTO & paid holidays
+- Retirement programs
+- 1% charitable giving match
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-california-united-states1'}, 
+
+
   {
     id: 'Software-Engineer-Back-End-Kyiv-Ukraine',
     jobTitle: 'Software Engineer, Back-End',

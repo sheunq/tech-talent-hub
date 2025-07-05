@@ -15,7 +15,7 @@ export const jobPostingApiInputSchema = z.object({
   jobCategory: z.string(),
   salaryMin: z.number().optional(),
   salaryMax: z.number().optional(),
-  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid']),
+  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid', 'Remote']),
   location: z.string(),
   applicationDeadline: z.date().optional(),
   isFeatured: z.boolean().optional(),
@@ -37,7 +37,7 @@ const JobPostingApiInputBaseSchema = z.object({
     (val) => (String(val).trim() === "" || val === null || val === undefined ? undefined : parseFloat(String(val))),
     z.number({invalid_type_error: "Salary must be a number"}).positive().optional()
   ),
-  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid']),
+  jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid', 'Remote']),
   location: z.string().min(2, { message: 'Location must be specified.' }),
   applicationDeadline: z.coerce.date().optional(),
   isFeatured: z.boolean().default(false),
