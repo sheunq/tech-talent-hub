@@ -211,70 +211,244 @@ Leadership & Soft Skills
   },
   {
     id: 'mock-be-1',
-    jobTitle: 'Junior Backend Developer',
-    companyName: 'CodeCrafters Inc.',
-    companyLogo: 'https://placehold.co/100x100.png',
-    mainDescription: 'Eager to grow your backend development skills? Join our team to work on our core API services, learn from senior engineers, and contribute to a scalable microservices architecture.',
-    requirements: '1-2 years of experience with Node.js or Python. Understanding of REST APIs. Basic knowledge of databases (SQL or NoSQL). A passion for learning and problem-solving.',
-    jobCategory: 'Software Engineering',
+    jobTitle: 'Senior/Staff Machine Learning Engineer - Perception Offline Driving Intelligenc',
+    companyName: 'zoox',
+    companyLogo: '/images/zoox.png',
+    mainDescription: `💼 Job Title: Senior/Staff Machine Learning Engineer – Perception (Offline Driving Intelligence)
+Location: Foster City, CA
+Team: Software – Perception
+Type: Full-Time, Hybrid
+
+🏢 About Zoox
+Zoox is building a ground-up autonomous vehicle ecosystem to redefine urban mobility. With cutting-edge robotics, advanced sensor systems, and transformative design, we’re crafting a robotaxi service that’s safe, sustainable, and intelligent.
+
+🚀 Role Overview
+Join Zoox’s ODIN (Offline Driving Intelligence) team to build the next generation of multimodal large language models (LLMs) for environmental perception and off-vehicle analysis. Your work will directly impact how our autonomous vehicles understand complex urban contexts and make real-time driving decisions safely and efficiently.
+
+🔧 Responsibilities
+- Lead development of advanced multimodal LLMs to improve robotaxi environmental comprehension
+- Design novel model architectures and training strategies using extensive sensor data
+- Drive full-stack ML development—research, training, validation, and deployment
+- Collaborate across teams (Perception, Planning, Safety, Systems) to integrate models into onboard decision systems
+- Validate model performance using real-world driving data to ensure safety and responsiveness
+
+🧠 Required Qualifications
+- MS or PhD in Computer Science, Machine Learning, or similar discipline
+- Demonstrated experience deploying LLMs in production environments
+- Expertise in ML pipelines—data preprocessing, model training, evaluation
+- Proficiency in Python and libraries like PyTorch, NumPy
+- Experience working with massive datasets (tens of millions of video samples)
+
+🎓 Preferred Qualifications
+- Published research in top AI conferences (e.g., CVPR, ICCV, RSS, ICRA)
+- Experience with autonomous robotics or self-driving systems
+
+💰 Compensation
+- Base salary range: $230,000–$332,000 (varies by experience, interview performance, and location)
+- Additional components may include:
+- Amazon Restricted Stock Units (RSUs)
+- Zoox Stock Appreciation Rights
+- Sign-on bonus
+
+🌟 Benefits
+- Comprehensive health, disability, and life insurance
+- Paid time off (vacation, sick leave, bereavement)
+- Long-term care coverage
+- Career development within a future-focused, mission-driven organization
+`,
+    requirements: '',
+    jobCategory: 'Machine Learning',
     experienceLevel: 'Entry-level',
-    salaryMin: 75000,
-    salaryMax: 90000,
+    
     jobType: 'Full-time',
-    location: 'Remote',
+    location: 'Foster City',
     submittedDate: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: false,
-    applyUrl: 'https://www.linkedin.com/jobs/view/fake-be-1'
+    applyUrl: 'https://jobs.lever.co/zoox/cf049a4a-491e-45c3-bed7-1e8a45dac2bc'
   },
   {
     id: 'mock-pm-1',
-    jobTitle: 'Product Manager - Mobile',
-    companyName: 'Apptivate',
-    companyLogo: 'https://placehold.co/100x100.png',
-    mainDescription: 'Own the product roadmap for our flagship mobile application. You will work closely with engineering, design, and marketing to define features and drive growth.',
-    requirements: '4+ years of product management experience, with at least 2 years in mobile apps. Strong analytical skills and experience with agile methodologies.',
-    jobCategory: 'Product Management',
+    jobTitle: 'Manufacturing Data Analyst',
+    companyName: 'zoox',
+    companyLogo: '/images/zoox.png',
+    mainDescription: `💼 Job Title: Manufacturing Data Analyst
+Location: Foster City, CA
+Department: Manufacturing Operations Program Management
+Employment Type: Full-Time, On-Site
+
+🏢 About Zoox
+Zoox is building the first fully autonomous robotaxi system from the ground up—bringing together robotics, AI, and design to reshape urban mobility. We’re deploying a purpose-built fleet that’s safe, sustainable, and scalable for modern cities.
+
+🚀 Role Summary
+Zoox is seeking a data-driven, systems-minded Manufacturing Data Analyst to work closely with teams in Manufacturing, Logistics, Quality, and Test. This role will be central to enabling data-informed decisions by automating reporting pipelines, integrating cross-platform analytics, and developing real-time dashboards that drive operational excellence.
+
+🔧 Key Responsibilities
+- Translate operational pain points into structured metrics and actionable insights
+- Design and automate end-to-end data workflows across tools like Jira, SAP, 3DX, MES, and Ignition
+- Build user-friendly dashboards (Tableau, Looker) to monitor KPIs such as first pass yield, inbound cycle time, and defect rates
+- Lead cross-functional analytics initiatives with clear scoping, stakeholder alignment, and on-time delivery
+- Drive data quality through standardization and hygiene efforts
+- Create intermediate datasets and contribute to scalable data models for future analytics and AI/ML integration
+
+🧠 Qualifications
+Required:
+- Bachelor’s degree in Computer Science, Data Analytics, Statistics, or related field
+- 5+ years of experience in manufacturing, logistics, or service operations analytics
+- Proficient in SQL, Excel, and emerging AI tools
+- Experience building dashboards with Tableau, Looker, or Power BI
+- Strong collaboration, communication, and data storytelling skills
+Preferred:
+- Master’s degree in Business Analytics, Data Science, or Industrial Engineering
+- Experience with MES, SAP (EWM), or 3DX systems
+- Familiarity with lean manufacturing concepts and operational metrics
+- Proficiency in Python, R, and experience with KPI standardization
+- Knowledge of data modeling and governance for AI-ready analytics
+
+💰 Compensation & Benefits
+- Base Salary Range: $150,000–$206,000
+- Additional Components:
+- Amazon RSUs
+- Zoox Stock Appreciation Rights
+- Potential sign-on bonus
+- Full benefits package including:
+- Health, life, disability & long-term care insurance
+- Paid and unpaid time off
+- Financial wellness and retirement support
+
+🌈 Our Commitment
+Zoox is proud to be an equal opportunity employer. We value diverse perspectives and encourage candidates from all backgrounds to apply—even if your experience doesn’t align perfectly with every qualification listed. We’re building a team rooted in innovation, collaboration, and inclusion.
+`,
+    requirements: '',
+    jobCategory: 'Analyst',
     experienceLevel: 'Senior-level',
     jobType: 'Full-time',
-    location: 'San Francisco, CA',
+    location: 'Foster City',
     applicationDeadline: new Date('2024-11-30'),
     submittedDate: new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: false,
-    applyUrl: 'https://jobs.lever.co/apptivate/fghij-product-manager'
+    applyUrl: 'https://jobs.lever.co/zoox/f84bcac3-d36a-4526-a14d-68e4f4618c42'
   },
   {
     id: 'mock-cy-1',
-    jobTitle: 'Cybersecurity Analyst',
-    companyName: 'SecureNet',
-    companyLogo: 'https://placehold.co/100x100.png',
+    jobTitle: 'Senior/Staff Systems Engineer - Autonomy System Performance',
+    companyName: 'zoox',
+    companyLogo: '/images/zoox.png',
     mainDescription: 'Monitor our systems for security threats, analyze and respond to incidents, and help improve our overall security posture. This is a critical role in protecting our customer data.',
-    requirements: '2+ years in a cybersecurity role. Familiarity with SIEM tools, vulnerability scanning, and incident response procedures. Certifications like Security+ or CEH are a plus.',
-    jobCategory: 'Cybersecurity',
+    requirements: `💼 Job Title: Senior/Staff Systems Engineer – Autonomy System Performance
+Location: Foster City, California
+Team: System Design and Mission Assurance – Systems Engineering (Safety)
+Employment Type: Full-Time, On-Site
+
+🏢 About Zoox
+Zoox is reimagining urban mobility by building a full-stack autonomous robotaxi solution from the ground up. Our technology aims to safely transform transportation in cities, combining cutting-edge AI, robotics, and vehicle design.
+
+🚀 Role Summary
+Join Zoox as a Senior or Staff Systems Engineer focused on developing and evolving service and driving performance metrics for our autonomous systems. Your work will be central to evaluating readiness, informing launch decisions, and enhancing the safety and reliability of our Level 5 autonomous robotaxis.
+
+🔧 Key Responsibilities
+- Define and refine progress metrics for autonomy service performance
+- Develop methodologies to assess system readiness and maturity
+- Model the impact of autonomy behaviors and residual risks on service outcomes
+- Perform detailed system analyses to design verification and validation strategies
+- Translate complex metrics into actionable insights for diverse stakeholders
+- Ensure traceability of metrics to overall performance targets and strategic goals
+- Enable continuous feedback and data-driven refinement across teams
+
+🎯 Qualifications
+Required:
+- Master’s degree or higher in Engineering, Computer Science, or related field
+- 7+ years of experience in systems engineering, data analysis, or performance tracking
+- Skilled in metric development and data pipeline implementation
+- Strong Python skills for data modeling and analysis
+- Understanding of complex software systems in robotics, autonomous driving, or aerospace
+- Excellent communicator with experience presenting data to executives and cross-functional teams
+Preferred:
+- Previous metrics ownership in autonomous vehicle or robotics projects
+- Experience with safety-critical or regulated systems
+- Familiarity with risk assessment frameworks and V&V strategies
+- Proven ability to build and scale processes from the ground up
+
+💰 Compensation & Benefits
+- Base salary range: $201,000 – $278,000 (dependent on experience and level)
+- Additional compensation may include:
+- Amazon RSUs
+- Zoox Stock Appreciation Rights
+- Sign-on bonus (where applicable)
+- Comprehensive benefits package including:
+- Health, disability, life, and long-term care insurance
+- Generous PTO (vacation, sick leave, bereavement)
+- Retirement planning and financial wellness resource
+`,
+    jobCategory: 'Engineer',
     experienceLevel: 'Mid-level',
     jobType: 'Full-time',
-    location: 'London, UK',
+    location: 'Foster City',
     submittedDate: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: false,
-    applyUrl: 'https://boards.greenhouse.io/securenet/klmno-cyber-analyst'
+    applyUrl: 'https://jobs.lever.co/zoox/fca1320c-c37a-416a-94fd-8b5c1c9b74da'
   },
   {
     id: 'mock-mo-1',
-    jobTitle: 'Mobile Developer (React Native)',
-    companyName: 'ConnectSphere',
-    companyLogo: 'https://placehold.co/100x100.png',
+    jobTitle: 'Finance Control Analyst',
+    companyName: 'monzo',
+    companyLogo: '/images/monzo.png',
     mainDescription: 'Develop and maintain our cross-platform mobile application using React Native. Collaborate with a passionate team to deliver a seamless user experience.',
-    requirements: '3+ years of mobile development experience. Strong proficiency in React Native and JavaScript/TypeScript. Experience publishing apps to the App Store and Google Play.',
-    jobCategory: 'Mobile Development',
+    requirements: `💼 Job Title: Finance Control Analyst
+Location: London, UK (Hybrid or Remote within UK)
+Salary: £45,000 – £57,500 + Share Options
+
+🏢 About Monzo
+Monzo is redefining banking with a mission to make money work for everyone. We offer a wide range of banking services—from personal and business accounts to youth, savings, investment, and pension products. Known for our vibrant hot coral cards, intuitive features like “get paid early,” and standout customer service, we focus on solving problems and creating moments of delight through technology and empathy.
+
+💡 Role Overview
+Join our forward-thinking Finance team and help build world-class financial controls to support Monzo’s continued growth across the UK and EU. This role is ideal for a proactive, detail-oriented qualified accountant (or nearly qualified) with audit experience and a knack for process improvement and automation.
+
+🔧 Responsibilities
+- Lead month-end close activities including accruals, EIR adjustments, tax postings, and group consolidation
+- Produce insightful management commentary grounded in a deep understanding of Monzo’s products
+- Work with engineering and data teams to automate reporting and streamline accounting processes
+- Support implementation of a new accounting system and ensure optimal use of its features
+- Learn and apply SQL to improve financial reporting and data efficiency
+- Maintain and enhance financial controls and balance sheet substantiation
+- Partner with external auditors for year-end activities
+- Review accounting for new product launches and changes in financial standards
+- Ensure integrity of financial data including chart of accounts and static data
+- Provide ad-hoc support across finance functions (e.g. forecasting, valuations, tax, transfers)
+
+🎯 Requirements
+- Qualified or nearly qualified accountant (ACCA, ACA or equivalent), ideally with financial control experience in banking
+- Strong attention to detail and understanding of financial controls
+- Proactive and versatile—comfortable with everything from transactions to investor reports
+- Ability to communicate complex topics simply and effectively
+- Interest in data and automation (SQL experience is a plus)
+- Thrive in fast-paced, changing environments
+- Excited by Monzo’s mission to change lives through smarter money solutions
+
+🌟 Benefits
+- 💰 £45,000–£57,500 salary plus equity
+- 🏡 Flexible hybrid or remote working within the UK
+- 📚 £1,000 annual learning budget
+- 🧘 Mental health & wellbeing support
+- 💸 Pension contributions matched up to 6%
+- 💻 Home office setup support
+- ⏰ Flexible working hours
+
+🌈 Inclusivity at Monzo
+Diversity, equity and inclusion are foundational to our mission. We encourage applicants from all backgrounds—even if you don’t meet every requirement. We’re committed to building a team where everyone can do their best work and grow with confidence.
+
+Would you like help repackaging this as a résumé summary, LinkedIn headline, or tailored cover letter bullet points? I'm ready whenever you are.
+`,
+    jobCategory: 'Analyst',
     experienceLevel: 'Mid-level',
-    jobType: 'Part-time',
-    location: 'Remote (Europe)',
+    jobType: 'Full-time',
+    location: 'London',
     submittedDate: new Date(Date.now() - 8 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: false,
-    applyUrl: 'https://jobs.ashbyhq.com/connectsphere/pqrst-mobile-dev'
+    applyUrl: 'https://job-boards.greenhouse.io/monzo/jobs/6900159'
   },
   {
     id: '7',
@@ -324,6 +498,63 @@ Leadership & Soft Skills
     isFeatured: false,
     applyUrl: 'https://jobs.ashbyhq.com/pixelperfect/abcde-lead-ux'
   },
+ {
+    id: '10',
+    jobTitle: 'Senior Regulatory Reporting Analyst',
+    companyName: 'monzo',
+    companyLogo: '/images/monzo.png',
+    mainDescription: `💼 Job Title: Senior Regulatory Reporting Analyst
+Location: Dublin, Ireland (Hybrid)
+Department: Finance – Monzo EU
+Salary Range: €55,000 – €75,000 + equity & benefits
+
+🏢 About Monzo
+Monzo is on a mission to make money work for everyone. We’re redefining personal finance by removing complexity and creating magical customer experiences through innovation, transparency, and a deep understanding of modern banking needs. Our award-winning platform provides accounts for individuals, businesses, joint users, and young people—alongside savings, investments, and credit tools.
+
+⭐ Role Overview
+We are seeking a detail-driven and adaptive Senior Regulatory Reporting Analyst to join our growing Finance team at Monzo EU. This role is vital in setting up and managing Monzo’s prudential regulatory reporting processes, enabling compliance and insight across teams while supporting our broader business goals.
+
+🔧 Responsibilities
+- Develop and maintain processes for timely and accurate regulatory reporting (e.g. COREP, LCR, FINREP) and Pillar 3 disclosures
+- Interpret and document regulatory frameworks (e.g. CRR, Basel 3.1)
+- Implement data quality controls and governance mechanisms to ensure reporting integrity
+- Lead User Acceptance Testing (UAT) for enhancements to Monzo’s automated regulatory reporting system
+- Collaborate cross-functionally to support product launches and strategic decisions with regulatory input
+- Leverage tools like SQL and data visualization dashboards to monitor reporting accuracy and performance
+- Champion process automation and innovation to enhance scalability and efficiency
+
+🎯 What You Bring
+- Qualified or part-qualified accountant with experience in financial services
+- Understanding of regulatory frameworks and reporting (capital, liquidity, financial)
+- Proficiency in SQL, Excel, or Google Sheets
+- Proven experience meeting strict regulatory deadlines
+- Background in large-scale implementation or enhancement of reporting tools
+- A passion for automation and process improvement through technology
+- Open-minded, curious, and aligned with Monzo’s mission and values
+
+🙌 Perks & Benefits
+- 💰 Competitive salary (€55–75k) + stock options
+- 🏢 Hybrid work model from our Dublin office
+- 🏝 34 days paid leave annually (including public holidays)
+- 📚 €1,200 learning budget each year
+- 🏥 Private healthcare
+- 💸 Pension contributions matched up to 6%
+- 💛 Mental health and wellbeing support
+
+🌈 Inclusive Hiring
+Monzo is committed to building a diverse team and inclusive culture. We encourage candidates of all backgrounds to apply—even if your experience doesn’t match every requirement. We welcome part-time flexibility where possible, and support candidates needing adjustments during the hiring process.
+`,
+    requirements: '',
+    jobCategory: 'Analyst',
+    experienceLevel: 'Lead',
+    jobType: 'Hybrid',
+    location: 'Ireland',
+    submittedDate: new Date().toISOString(),
+    status: 'approved',
+    isFeatured: false,
+    applyUrl: 'https://job-boards.greenhouse.io/monzo/jobs/6999634'
+  },
+
 ];
 
 
