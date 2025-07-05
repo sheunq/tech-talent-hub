@@ -54,8 +54,7 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
   }
 
   const fullDescription = job.descriptionExcerpt;
-  const dateToFormat = job.postedDate ? new Date(job.postedDate) : new Date();
-  const formattedPostedDate = formatDistanceToNow(dateToFormat, { addSuffix: true });
+  const formattedPostedDate = job.postedDate ? formatDistanceToNow(new Date(job.postedDate), { addSuffix: true }) : null;
 
   return (
     <div className="container mx-auto py-8">
@@ -113,13 +112,15 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
                     </div>
                   </div>
                 )}
-                <div className="flex items-center p-3 bg-secondary/50 rounded-md col-span-2 md:col-span-1">
-                  <CalendarDays className="h-5 w-5 mr-2.5 text-primary" />
-                  <div>
-                    <span className="font-semibold">Posted:</span>
-                    <p className="text-muted-foreground">{formattedPostedDate}</p>
+                {formattedPostedDate && (
+                  <div className="flex items-center p-3 bg-secondary/50 rounded-md col-span-2 md:col-span-1">
+                    <CalendarDays className="h-5 w-5 mr-2.5 text-primary" />
+                    <div>
+                      <span className="font-semibold">Posted:</span>
+                      <p className="text-muted-foreground">{formattedPostedDate}</p>
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
 
               <div>

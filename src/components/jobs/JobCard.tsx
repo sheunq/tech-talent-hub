@@ -28,8 +28,7 @@ interface JobCardProps {
 }
 
 export function JobCard({ job }: JobCardProps) {
-  const dateToFormat = job.postedDate ? new Date(job.postedDate) : new Date();
-  const formattedPostedDate = formatDistanceToNow(dateToFormat, { addSuffix: true });
+  const formattedPostedDate = job.postedDate ? formatDistanceToNow(new Date(job.postedDate), { addSuffix: true }) : null;
 
   return (
     <Card className="hover:shadow-xl transition-shadow duration-200 flex flex-col h-full rounded-lg overflow-hidden border">
@@ -77,9 +76,13 @@ export function JobCard({ job }: JobCardProps) {
         )}
       </CardContent>
       <CardFooter className="p-5 bg-muted/30 flex justify-between items-center">
-        <div className="flex items-center text-xs text-muted-foreground">
-            <Clock className="h-3.5 w-3.5 mr-1.5" /> {formattedPostedDate}
-        </div>
+        {formattedPostedDate ? (
+            <div className="flex items-center text-xs text-muted-foreground">
+                <Clock className="h-3.5 w-3.5 mr-1.5" /> {formattedPostedDate}
+            </div>
+        ) : (
+            <div /> 
+        )}
         <Button asChild size="sm" variant="default">
           <Link href={`/jobs/${job.id}`}>View Details <ExternalLink className="ml-1.5 h-4 w-4" /></Link>
         </Button>
@@ -87,4 +90,3 @@ export function JobCard({ job }: JobCardProps) {
     </Card>
   );
 }
-    

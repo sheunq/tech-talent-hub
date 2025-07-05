@@ -42,7 +42,7 @@ export async function getAllJobs(): Promise<BackendStoredJob[]> {
 
       const submittedDate = data.submittedDate instanceof Timestamp
         ? data.submittedDate.toDate().toISOString()
-        : String(data.submittedDate);
+        : data.submittedDate ? String(data.submittedDate) : undefined;
 
       return {
         ...data,
@@ -53,7 +53,7 @@ export async function getAllJobs(): Promise<BackendStoredJob[]> {
     });
 
     // Sort the jobs in memory after fetching to avoid database index requirements during build.
-    jobs.sort((a, b) => new Date(b.submittedDate).getTime() - new Date(a.submittedDate).getTime());
+    jobs.sort((a, b) => new Date(b.submittedDate || 0).getTime() - new Date(a.submittedDate || 0).getTime());
 
     return jobs;
     
@@ -126,7 +126,7 @@ export async function findJobById(id: string): Promise<BackendStoredJob | null> 
 
     const submittedDate = data.submittedDate instanceof Timestamp
       ? data.submittedDate.toDate().toISOString()
-      : String(data.submittedDate);
+      : data.submittedDate ? String(data.submittedDate) : undefined;
 
     return {
       ...data,

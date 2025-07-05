@@ -46,9 +46,8 @@ We’re seeking Back-End Software Engineers to join our dynamic development team
 
 🤝 Our Commitment
 Grammarly is proud to be an equal opportunity employer. We celebrate diversity and strive to create an inclusive environment for all individuals—regardless of background, identity, or experience. We encourage applications from underrepresented communities in tech.`,
-    requirements: '5+ years of experience in backend development, expert in Java and Scala. Strong understanding of microservices architecture and cloud platforms. BSc in Computer Science or equivalent.',
+    requirements: '',
     jobCategory: 'Software Engineering',
-    experienceLevel: 'Senior-level',
     salaryMin: 120000,
     salaryMax: 160000,
     jobType: 'Hybrid',
@@ -59,59 +58,6 @@ Grammarly is proud to be an equal opportunity employer. We celebrate diversity a
     applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/6467233'
   },
 
-  {
-    id: 'Senior Frontend Engineer-in-Berlin-Germany-Grammarly',
-    jobTitle: 'Senior Frontend Engineer',
-    companyName: 'Grammarly',
-    companyLogo: '/images/Grammarly.png',
-    mainDescription: `💼 Job Title: Software Engineer – Infrastructure
-Location: Berlin, Germany (Hybrid)
-Department: Engineering Platform Team
-
-🏢 About Grammarly
-Grammarly is a trusted AI-powered communication assistant used by over 40 million individuals and 50,000 organizations, including leading brands like Atlassian, Databricks, and Zoom. Recognized by TIME, Forbes, Fast Company, and Inc., we’re transforming productivity with seamless integration into 500,000+ apps and websites.
-
-🌟 Role Overview
-We’re hiring a Software Engineer to join our Reliability Engineering group within the Engineering Platform team. This role focuses on designing and managing secure, cloud-native infrastructure to support scalable and reliable services for Grammarly’s growing user base. You’ll help establish a center of excellence around reliability, introducing automated systems and best practices across engineering teams.
-
-🔧 Key Responsibilities
-- Build scalable platforms using infrastructure tools like AWS
-- Lead reliability initiatives, including self-healing systems and autoscaling
-- Improve incident response workflows and build tooling for operational excellence
-- Manage Kubernetes clusters, cross-service infrastructure, and service discovery mechanisms
-- Develop frameworks for deployment, chaos testing, and observability
-- Participate in on-call rotations and lead response efforts during incidents
-
-🎯 Qualifications
-- 5+ years managing high-traffic production SaaS environments
-- Strong experience in Site Reliability Engineering (SRE) or centralized reliability teams
-- Expertise in Kubernetes, cloud-native solutions, and service orchestration
-- Background in software development with a focus on systems reliability
-- Familiarity with AWS (or equivalent experience in Azure/GCP)
-- Proficient in Go or similar backend programming languages
-- Collaborative mindset with excellent communication skills
-- Embodies Grammarly’s EAGER values (Ethical, Adaptable, Gritty, Empathetic, Remarkable) and embraces our MOVE principles (Move fast, Obsess over customer value, Value impact, Embrace healthy disagreement)
-
-🌱 What We Offer
-- Autonomy and flexibility to innovate
-- Professional development through training and feedback
-- Hybrid work model fostering collaboration and deep focus
-- Inclusive culture through employee resource groups like Grammarly Circles
-- Competitive compensation and wellness benefits for Germany-based candidates (mental health support, paid time off, pet care and home office stipends, and more)
-
-🌈 Commitment to Diversity
-Grammarly is proud to be an equal opportunity employer. We welcome applicants of all backgrounds, identities, and experiences. Our inclusive hiring process supports a safe and open workplace culture.
-`,
-    requirements: '',
-    jobCategory: 'Software Engineering',
-    experienceLevel: 'Senior-level',
-    jobType: 'Full-time',
-    location: 'Remote (USA)',
-    submittedDate: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
-    status: 'approved',
-    isFeatured: true,
-    applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/6988890'
-  },
   {
     id: 'AI-Engineering-Manager-in-France-mirakl',
     jobTitle: 'AI Engineering Manager',
@@ -167,8 +113,6 @@ Leadership & Soft Skills
 `,
     requirements: '',
     jobCategory: 'Engineer',
-    experienceLevel: 'Lead',
-  
     jobType: 'Full-time',
     location: 'France',
     applicationDeadline: new Date('2024-12-15'),
@@ -225,7 +169,6 @@ As an Operational Safety Data Engineer at Zoox, you will play a crucial role in 
 `,
     requirements: '',
     jobCategory: 'UX/UI Design',
-    experienceLevel: 'Lead',
     jobType: 'Hybrid',
     location: 'Foster City',
     submittedDate: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
@@ -233,64 +176,7 @@ As an Operational Safety Data Engineer at Zoox, you will play a crucial role in 
     isFeatured: true,
     applyUrl: 'https://jobs.lever.co/zoox/8b62411a-6d3a-4e3e-a9fd-158030eb82ec'
   },
-   {
-    id: 'Platform Engineer-in-Foster-City-zoox',
-    jobTitle: 'Platform Engineer',
-    companyName: 'zoox',
-    companyLogo: '/images/zoox.png',
-    mainDescription: 'Leverage data to drive business decisions. You will develop machine learning models, conduct statistical analysis, and present findings to stakeholders.',
-    requirements: `💼 Job Title: Platform Engineer
-Location: Foster City, CA (Hybrid)
-Department: Embedded Software & Systems Integration – Systems Reliability and Stability
-Type: Full-Time
-
-🏢 About Zoox
-Zoox is pioneering a ground-up autonomous mobility solution for urban environments, combining robotics, AI, and innovative design. We're developing a fully autonomous robotaxi fleet and the ecosystem needed to bring it safely to market.
-
-🚀 Role Summary
-Zoox is seeking a motivated and self-starting Platform Engineer to support and maintain mission-critical services in our Hardware-In-the-Loop (HIL) testing environment. You’ll be instrumental in improving uptime, reliability, and usability across test platforms that validate on-vehicle autonomous software systems.
-
-🔧 Key Responsibilities
-- Monitor and enhance the availability of engineering services essential to testing and validation
-- Drive full lifecycle ownership of services—from architecture to rollout, automation, and iterative improvement
-- Operate high-throughput data pipelines and manage compute-intensive systems involving CPUs and GPUs
-- Collaborate across teams to ensure stability and efficiency of the robot testing infrastructure
-
-🎯 Required Qualifications
-- Bachelor's degree in Engineering, Computer Science, Math, or related field
-- 5+ years supporting production-grade services, SRE tasks, and on-call rotations
-- Proficiency in Python or Golang
-- Hands-on experience with infrastructure resilience, CI/CD automation, and observability tooling (e.g., Grafana, open-telemetry)
-- Solid Linux system administration experience including kernel troubleshooting and driver development
-
-🌟 Bonus Skills
-- Full-stack backend development and API ownership
-- Familiarity with CI pipelines (Bamboo, Bazel) and test frameworks like Pytest
-- Experience with Infrastructure as Code (Terraform, Ansible, SaltStack)
-
-💰 Compensation & Benefits
-- Base Salary Range: $135,000 – $175,000 (varies by location and experience)
-- Additional components may include:
-- Amazon RSUs
-- Zoox Stock Appreciation Rights
-- Potential sign-on bonus
-- Comprehensive benefits package:
-- Health, disability, and life insurance
-- Paid and unpaid time off
-- Long-term care coverage
-
-🌈 Inclusion & Accommodations
-Zoox is committed to building a diverse, inclusive workforce. You’re encouraged to apply even if your background doesn't match every requirement. Accommodations are available upon request for applicants in the hiring process.
-`,
-    jobCategory: 'Engineer',
-    experienceLevel: 'Mid-level',
-    jobType: 'Hybrid',
-    location: 'Foster City',
-    submittedDate: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
-    status: 'approved',
-    isFeatured: false,
-    applyUrl: 'https://jobs.lever.co/zoox/b672e3cc-8e42-486c-b18f-67069406ff37'
-  },
+   
  {
     id: 'Senior-Staff-Machine-Learning-Engineer-Perception-Offline-Driving-Intelligence-in-Foster-City-zoox',
     jobTitle: 'Senior/Staff Machine Learning Engineer - Perception Offline Driving Intelligenc',
@@ -340,8 +226,6 @@ Join Zoox’s ODIN (Offline Driving Intelligence) team to build the next generat
 `,
     requirements: '',
     jobCategory: 'Machine Learning',
-    experienceLevel: 'Entry-level',
-    
     jobType: 'Full-time',
     location: 'Foster City',
     submittedDate: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
@@ -403,7 +287,6 @@ Zoox is proud to be an equal opportunity employer. We value diverse perspectives
 `,
     requirements: '',
     jobCategory: 'Analyst',
-    experienceLevel: 'Senior-level',
     jobType: 'Full-time',
     location: 'Foster City',
     applicationDeadline: new Date('2024-11-30'),
@@ -412,13 +295,12 @@ Zoox is proud to be an equal opportunity employer. We value diverse perspectives
     isFeatured: false,
     applyUrl: 'https://jobs.lever.co/zoox/f84bcac3-d36a-4526-a14d-68e4f4618c42'
   },
-   {
+     {
     id: 'Senior-Staff-Systems-Engineer-Autonomy-System-Performance-in-Foster-City-zoox',
     jobTitle: 'Senior/Staff Systems Engineer - Autonomy System Performance',
     companyName: 'zoox',
     companyLogo: '/images/zoox.png',
-    mainDescription: 'Monitor our systems for security threats, analyze and respond to incidents, and help improve our overall security posture. This is a critical role in protecting our customer data.',
-    requirements: `💼 Job Title: Senior/Staff Systems Engineer – Autonomy System Performance
+    mainDescription: `💼 Job Title: Senior/Staff Systems Engineer – Autonomy System Performance
 Location: Foster City, California
 Team: System Design and Mission Assurance – Systems Engineering (Safety)
 Employment Type: Full-Time, On-Site
@@ -463,8 +345,8 @@ Preferred:
 - Generous PTO (vacation, sick leave, bereavement)
 - Retirement planning and financial wellness resource
 `,
+    requirements: '',
     jobCategory: 'Engineer',
-    experienceLevel: 'Mid-level',
     jobType: 'Full-time',
     location: 'Foster City',
     submittedDate: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
@@ -524,7 +406,6 @@ Diversity, equity and inclusion are foundational to our mission. We encourage ap
 Would you like help repackaging this as a résumé summary, LinkedIn headline, or tailored cover letter bullet points? I'm ready whenever you are.
 `,
     jobCategory: 'Analyst',
-    experienceLevel: 'Mid-level',
     jobType: 'Full-time',
     location: 'London',
     submittedDate: new Date(Date.now() - 8 * 24 * 60 * 60 * 1000).toISOString(),
@@ -574,7 +455,6 @@ Grammarly is proud to be an equal opportunity employer. We celebrate diversity a
 `,
     requirements: '',
     jobCategory: 'Engineer',
-    experienceLevel: 'Senior-level',
     jobType: 'Hybrid',
     location: 'Germany',
     submittedDate: new Date().toISOString(),
@@ -629,7 +509,6 @@ Mirakl celebrates diversity and is committed to equal opportunity for all. We we
 `,
     requirements: '',
     jobCategory: 'Software Engineer',
-    experienceLevel: 'Senior-level',
     jobType: 'Full-time',
     location: 'France',
     submittedDate: new Date().toISOString(),
@@ -687,7 +566,6 @@ Mirakl is dedicated to fostering diversity, inclusion, and equal opportunity. We
 `,
     requirements: '',
     jobCategory: 'UX/UI Design',
-    experienceLevel: 'Lead',
     jobType: 'Contract',
     location: 'France',
     submittedDate: new Date().toISOString(),
@@ -743,7 +621,6 @@ Monzo is committed to building a diverse team and inclusive culture. We encourag
 `,
     requirements: '',
     jobCategory: 'Analyst',
-    experienceLevel: 'Lead',
     jobType: 'Hybrid',
     location: 'Ireland',
     submittedDate: new Date().toISOString(),
@@ -753,7 +630,7 @@ Monzo is committed to building a diverse team and inclusive culture. We encourag
   },
 
      {
-    id: 'Senior-Embedded-Software-Engineer-Embedded-Linux C++-in-Foster-City-zoox',
+    id: 'Senior-Embedded-Software-Engineer-Embedded-Linux-C-in-Foster-City-zoox',
     jobTitle: 'Senior Embedded Software Engineer - Embedded Linux C++',
     companyName: 'zoox',
     companyLogo: '/images/zoox.png',
@@ -801,7 +678,6 @@ Zoox values diversity and encourages applicants from all backgrounds. If you're 
 `,
     requirements: '',
     jobCategory: 'Software Engineering',
-    experienceLevel: 'Lead',
     jobType: 'Full-time',
     location: 'Foster City',
     submittedDate: new Date().toISOString(),
@@ -810,7 +686,7 @@ Zoox values diversity and encourages applicants from all backgrounds. If you're 
     applyUrl: 'https://jobs.lever.co/zoox/220a58f7-0ac3-4367-be04-8d5eca89f9ad'
   },
   {
-    id: 'Senior-Manager-Data-Enablement-&-Business-Intelligence-in-Toronto-eqbank',
+    id: 'Senior-Manager-Data-Enablement-Business-Intelligence-in-Toronto-eqbank',
     jobTitle: 'Senior Manager, Data Enablement & Business Intelligence',
     companyName: 'eqbank',
     companyLogo: '/images/eqbank.png',
@@ -860,8 +736,7 @@ Tooling & Infrastructure (10%)
 - JavaScript for dashboard customization and API integration
 `,
     requirements: '',
-    jobCategory: 'Business',
-    experienceLevel: 'Lead',
+    jobCategory: 'Software Engineering',
     jobType: 'Hybrid',
     location: 'Toronto',
     submittedDate: new Date().toISOString(),
@@ -919,7 +794,6 @@ As a Modern Workplace Analyst Intern, you’ll support endpoint management acros
 `,
     requirements: '',
     jobCategory: 'Analyst',
-    experienceLevel: 'Lead',
     jobType: 'Internship',
     location: 'Toronto',
     submittedDate: new Date().toISOString(),
@@ -927,7 +801,205 @@ As a Modern Workplace Analyst Intern, you’ll support endpoint management acros
     isFeatured: false,
     applyUrl: 'https://jobs.lever.co/eqbank/d8d1c9a8-3d33-4204-8562-ab58ff865a8a'
   },
+  {applyUrl: 'https://jobs.lever.co/saviynt/dba5ae2f-811f-4acd-9789-961be24ec5cd', companyName: 'saviynt', companyLogo: '/images/saviynt.png', location: 'Warsaw or Kraków, Poland', jobTitle: 'Identity Security - Practice Manager -Customer Experience - Poland', jobType: 'Full-time', jobCategory: 'Security', mainDescription: `💼 Job Title: Identity Security – Practice Manager, Customer Experience
+Location: Warsaw or Kraków, Poland (Remote)
+Department: Expert Services – Professional Services
+Employment Type: Full-Time
 
+🏢 About Saviynt
+Saviynt is the leading identity authority platform enabling secure, scalable digital transformation. Our Enterprise Identity Cloud provides unmatched visibility and governance across identity, access, and security, empowering organizations to manage cyber risk while ensuring seamless user access.
+
+🚀 Role Overview
+As Practice Manager – Customer Experience, you’ll lead the technical delivery and account management of identity solutions for Saviynt clients. You will manage project lifecycles, support pre- and post-sales efforts, and serve as the central point of contact for escalations. This role combines strategic oversight, client engagement, and technical expertise to ensure successful deployment and adoption of Saviynt’s platform.
+
+🔧 Key Responsibilities
+- Provide expert technical support throughout pre-sales and post-sales cycles
+- Analyze customer requirements and deliver tailored solution proposals
+- Own delivery execution for solution scope (SOW), manage implementation schedules
+- Develop scoping documents, estimates, and project plans
+- Lead weekly customer progress meetings and maintain technical documentation
+- Manage professional services delivery and resolve escalated issues
+- Coordinate with cross-functional teams: Engineering, Product Management, and Customer Success
+- Monitor support trends to enhance service quality and cost-efficiency
+- Oversee post-launch user training, feature adoption, and customer success initiatives
+- Communicate product roadmap and identify upsell opportunities
+- Forecast resource needs, manage timesheet approvals, and support invoicing
+
+🎯 Required Qualifications
+- Minimum 5+ years in IAM (Identity and Access Management) or IGA (Identity Governance & Administration)
+- Strong background in cybersecurity or compliance is a plus
+- Proven success leading project scoping, planning, and delivery for client solutions
+- Experience managing multiple client projects and engaging with cross-functional teams
+- Skilled in technical documentation, client communications, and resource planning
+- Familiarity with relevant technologies:
+- Web technologies: XML, SPML/SOAP, HTML
+- Databases: Oracle, Sybase, MSSQL, MySQL
+- Directories: LDAP, Active Directory
+- HR platforms: SAP, PeopleSoft
+- Programming: Java, .NET, or C++
+- IAM provisioning systems: Oracle, IBM, Novell, Sun
+- Security or IT audit experience
+📍 Note: Only candidates residing in Poland are eligible for this role.
+
+🔐 Compliance Requirements
+Upon joining, you must complete security & privacy training and review policies such as:
+- Data Classification & Retention
+- Incident Response & Business Continuity
+- Access Control & Personnel Security
+- Mobile Device & Account Management
+- General Privacy Protocols
+
+🌈 Why Work With Us
+- High-growth, dynamic tech environment
+- Critical impact on customer success and platform expansion
+- Challenging, rewarding work with global enterprise customers
+- Commitment to inclusion and diversity
+Saviynt is proud to be an equal opportunity employer. Applicants from all backgrounds are encouraged to apply.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'identity-security-practice-manager-customer-experience-poland-in-saviynt-foster-city-anywhere'},
+
+{applyUrl: 'https://job-boards.greenhouse.io/donorbox/jobs/4582083005', companyName: 'donorbox', companyLogo: '/images/donorbox.png', location: 'Canada', jobTitle: 'Senior Business Intelligence Analyst', jobType: 'Full-time', jobCategory: 'Business', mainDescription: `💼 Job Title: Senior Business Intelligence Analyst
+Location: Remote (Canada)
+Department: Data – Focus on Sales & Marketing Analytics
+Employment Type: Full-Time
+
+🏢 About Donorbox
+Donorbox is a top-rated fundraising and donor management platform helping nonprofits worldwide raise nearly $3 billion since 2014. Trusted by over 100,000 organizations, Donorbox empowers mission-driven teams with powerful tools for donor engagement, impact tracking, and financial growth.
+We are a fully distributed and diverse company of 150+ team members across more than 23 countries. Profitable, bootstrapped, and fast-growing—we’re on a mission to make fundraising frictionless.
+
+🚀 Role Overview
+Donorbox is seeking a data-savvy Senior Business Intelligence Analyst with a sharp focus on GTM (Go-To-Market) analytics to support Sales, Marketing, and Revenue Operations. In this strategic individual contributor role, you’ll develop dashboards, evaluate experiments, and provide insights that inform customer acquisition, engagement, and retention decisions.
+
+🔧 Key Responsibilities
+- Build and maintain dashboards tracking GTM KPIs (conversion rates, CAC, LTV, retention)
+- Analyze campaign ROI, channel performance, and lead quality across marketing efforts
+- Evaluate sales pipeline health, forecasting accuracy, and rep effectiveness
+- Partner cross-functionally to design and assess A/B experiments
+- Support customer journey mapping, audience segmentation, and attribution analysis
+- Conduct pricing impact assessments including elasticity modeling
+- Collaborate with data engineering to ensure data integrity and trust
+- Use BI tools (Power BI, Tableau, Superset) to deliver user-friendly visualizations
+- Write advanced SQL queries to manipulate large datasets
+- Translate analytical findings into clear, actionable insights for non-technical stakeholders
+
+🎯 What You Bring
+- 5+ years of analytics experience in SaaS (Sales, Marketing, or Revenue Ops)
+- Advanced SQL skills; confident working with large data sets
+- Strong BI tool proficiency (Looker, Tableau, Superset, Power BI)
+- Experience with CRM platforms like Salesforce or HubSpot
+- Deep understanding of data modeling, warehousing, and visualization best practices
+- Ability to communicate insights that influence strategic decision-making
+- Proven record of tying metrics to tangible business outcomes (growth, retention, ROI)
+- Comfortable with autonomy, shifting priorities, and a fast-paced remote work culture
+
+🌟 Bonus Experience
+- Prior exposure to nonprofit data or fundraising analytics
+
+💰 Compensation & Perks
+- Salary: $70,000–$75,000 USD (~$95,000–$102,000 CAD)
+- Remote-first work across Canada (ET hours)
+- Employee equity plan eligibility (stock options)
+- Generous paid time off (21 personal days + 9 holidays + 2 volunteer days)
+- Employer-sponsored health insurance
+- Reimbursement allowance for professional development & home office setup (up to $1,500)
+- Mindfulness and wellness programs
+
+📋 Application Process
+- Online Application & Questionnaire
+- Prescreen Call
+- Interview with Hiring Manager
+- Technical Assessment
+- Panel Interview
+- Reference & Background Checks`, status: 'approved', isFeatured: true, requirements: ''
+, submittedDate: new Date().toISOString(), id: 'senior-business-intelligence-analyst-in-donorbox-canada-canada'}, 
+
+{applyUrl: 'https://jobs.lever.co/wpromote/e6ae726b-c871-4a6a-92a2-6b51297f9645', companyName: 'wpromote', companyLogo: '/images/wpromote.png', location: 'United States', jobTitle: 'Engineering Manager - Data Pipelines', jobType: 'Full-time', jobCategory: 'Data', mainDescription:`💼 Job Title: Engineering Manager – Data Pipelines
+Location: Remote (United States)
+Department: Engineering & Technology
+Employment Type: Full-Time
+
+🏢 About Wpromote
+Wpromote is a digital marketing leader known for our rapid growth, inclusive culture, and innovative solutions. Our proprietary data and intelligence platform, Polaris, empowers marketers and clients through performance insights and collaborative tools. We're proud to be recognized by Ad Age, Adweek, and Glassdoor as a Best Place to Work—and we’re just getting started.
+
+🚀 Role Overview
+We're hiring a strategic and technically savvy Engineering Manager to lead our data pipeline team. In this hands-on leadership role, you’ll guide the development of scalable data integrations and analytics systems that drive Wpromote’s customer applications and internal data strategies. You’ll architect forward-thinking solutions, foster team excellence, and collaborate cross-functionally to accelerate product innovation.
+
+🔧 Key Responsibilities
+- Lead and mentor backend and data engineers managing large-scale data ingestion and delivery
+- Shape technical roadmap and strategic direction for data pipeline systems
+- Build robust architectures supporting fast, resilient integration with third-party services
+- Collaborate with Product, UX, and other departments to align objectives and deliver impactful results
+- Foster an inclusive, agile culture with a strong emphasis on test-driven development, CI/CD, and engineering best practices
+- Champion metrics-based performance monitoring and continuous improvement
+- Own key engineering projects with tangible business impact
+
+🧠 Required Qualifications
+- 10+ years in software development; 3+ years in engineering leadership
+- Expertise in Python or comparable backend language, SQL, and API frameworks
+- Experience integrating external platforms like Google and Meta via APIs
+- Hands-on exposure to cloud platforms and containerized architectures
+- Proven success in data-intensive SaaS environments and fast-paced dev cycles
+- Skilled in observability, scalability, and performance optimization
+- Effective communicator and decision-maker in technical and business contexts
+
+🌟 Bonus Experience
+- Familiarity with: GCP, Airflow, dbt, Spark, PostgreSQL, BigQuery, Iceberg
+- Experience expanding engineering teams
+- Background in agile delivery and data governance
+- Proficiency in monitoring tools like Prometheus, Datadog, Grafana
+
+💰 Compensation & Perks
+- Base Salary: $165,000 – $185,000 USD
+- Benefits include:
+- Unlimited PTO & Extended Winter Break
+- Fully remote with flexible hours and “work from anywhere” options
+- Paid parental leave
+- Comprehensive health, life, pet & disability insurance
+- 401(k) match
+- Annual ClassPass credits
+- Career growth and learning opportunities
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'engineering-manager-data-pipelines-in-wpromote-united-states-united-states'},
+{applyUrl: 'https://jobs.lever.co/veeva/fbf0253a-999d-495d-8206-fae684149a8d', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Indiana', jobTitle: 'Software Engineer - iOS', jobType: 'Full-time', jobCategory: 'Software Engineer', mainDescription: `💼 Job Title: Software Engineer – iOS
+Location: Remote (United States – Indiana Preferred)
+Department: Engineering
+Employment Type: Full-Time
+
+🏢 About Veeva Systems
+Veeva Systems is a mission-driven industry cloud company dedicated to helping life sciences organizations deliver therapies to patients faster. With more than $2B in annual revenue and a fast-growing global footprint, Veeva is transforming how pharma companies engage with healthcare professionals.
+Veeva is a Public Benefit Corporation, balancing purpose and profit by prioritizing customer success, employee well-being, societal impact, and shareholder value. Through its Work Anywhere model, Veeva empowers team members to work remotely or from an office—wherever they thrive.
+
+🚀 Role Overview
+Join Veeva’s iOS engineering team to build robust, enterprise-grade mobile applications that enable pharmaceutical companies to streamline engagement with healthcare providers worldwide. You’ll contribute to large-scale feature development, innovate alongside experienced engineers and product managers, and deliver polished, high-impact mobile experiences.
+
+🔧 Key Responsibilities
+- Design and implement complex iOS features using Core Data, SQLite, and UIKit
+- Translate technical designs into resilient, scalable code
+- Maintain high standards for performance tuning and resource optimization
+- Write and maintain unit tests to ensure feature reliability
+- Own feature delivery and contribute throughout the full development lifecycle
+- Collaborate cross-functionally with Product Managers and fellow Engineers
+- Evaluate and introduce emerging iOS technologies for architectural review
+
+🎯 Required Qualifications
+- 5+ years of experience developing iOS applications
+- Proficiency in Swift and Objective-C
+- Strong object-oriented programming foundation
+- Skilled with Apple frameworks (Core Data, SQLite, UIKit)
+- Familiarity with high-level software design principles
+- Knowledge of Apple’s UI guidelines and interface standards
+- Experience optimizing performance and managing resources in mobile environments
+- Excellent communication and problem-solving skills
+
+💰 Compensation & Benefits
+- Base Salary Range: $85,000–$225,000 (based on experience and location)
+- Additional benefits may include:
+- Variable bonus
+- Stock bonus
+- Comprehensive benefits package:
+- Medical, dental, vision, and life insurance
+- Flexible PTO & company holidays
+- Retirement programs
+- Charitable giving match (1%)
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'software-engineer-ios-in-veeva-indiana-united-states'}, 
 ];
 
 const fetchAllJobs = async (): Promise<BackendStoredJob[]> => {

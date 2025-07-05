@@ -50,16 +50,6 @@ const jobCategories = [
   "Other",
 ];
 
-const experienceLevels = [
-  "Entry-level",
-  "Mid-level",
-  "Senior-level",
-  "Lead",
-  "Manager",
-  "Executive",
-];
-
-
 type JobPostingFormValues = z.infer<typeof JobPostingApiInputSchema>;
 
 export function JobPostingForm() {
@@ -73,7 +63,6 @@ export function JobPostingForm() {
       mainDescription: '',
       requirements: '',
       jobCategory: undefined, 
-      experienceLevel: 'Mid-level',
       jobType: 'Full-time',
       location: '',
       salaryMin: undefined,
@@ -230,52 +219,28 @@ export function JobPostingForm() {
               )}
             />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <FormField
-                control={form.control}
-                name="jobCategory"
-                render={({ field }) => (
-                    <FormItem>
-                    <FormLabel className="text-base flex items-center"><Layers className="mr-2 h-4 w-4 text-muted-foreground"/>Job Category</FormLabel>
-                    <Select onValueChange={field.onChange} defaultValue={field.value}>
-                        <FormControl>
-                        <SelectTrigger className="text-base">
-                            <SelectValue placeholder="Select a job category" />
-                        </SelectTrigger>
-                        </FormControl>
-                        <SelectContent>
-                        {jobCategories.map(category => (
-                            <SelectItem key={category} value={category}>{category}</SelectItem>
-                        ))}
-                        </SelectContent>
-                    </Select>
-                    <FormMessage />
-                    </FormItem>
-                )}
-                />
-                <FormField
-                control={form.control}
-                name="experienceLevel"
-                render={({ field }) => (
-                    <FormItem>
-                    <FormLabel className="text-base flex items-center"><BarChart className="mr-2 h-4 w-4 text-muted-foreground"/>Experience Level</FormLabel>
-                    <Select onValueChange={field.onChange} defaultValue={field.value}>
-                        <FormControl>
-                        <SelectTrigger className="text-base">
-                            <SelectValue placeholder="Select experience level" />
-                        </SelectTrigger>
-                        </FormControl>
-                        <SelectContent>
-                        {experienceLevels.map(level => (
-                            <SelectItem key={level} value={level}>{level}</SelectItem>
-                        ))}
-                        </SelectContent>
-                    </Select>
-                    <FormMessage />
-                    </FormItem>
-                )}
-                />
-            </div>
+            <FormField
+            control={form.control}
+            name="jobCategory"
+            render={({ field }) => (
+                <FormItem>
+                <FormLabel className="text-base flex items-center"><Layers className="mr-2 h-4 w-4 text-muted-foreground"/>Job Category</FormLabel>
+                <Select onValueChange={field.onChange} defaultValue={field.value}>
+                    <FormControl>
+                    <SelectTrigger className="text-base">
+                        <SelectValue placeholder="Select a job category" />
+                    </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                    {jobCategories.map(category => (
+                        <SelectItem key={category} value={category}>{category}</SelectItem>
+                    ))}
+                    </SelectContent>
+                </Select>
+                <FormMessage />
+                </FormItem>
+            )}
+            />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <FormField

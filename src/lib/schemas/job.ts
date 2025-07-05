@@ -13,7 +13,6 @@ export const jobPostingApiInputSchema = z.object({
   mainDescription: z.string(),
   requirements: z.string(),
   jobCategory: z.string(),
-  experienceLevel: z.enum(['Entry-level', 'Mid-level', 'Senior-level', 'Lead', 'Manager', 'Executive']),
   salaryMin: z.number().optional(),
   salaryMax: z.number().optional(),
   jobType: z.enum(['Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid']),
@@ -30,7 +29,6 @@ const JobPostingApiInputBaseSchema = z.object({
   mainDescription: z.string().min(50, { message: 'Main description must be at least 50 characters.' }),
   requirements: z.string().min(20, { message: 'Requirements must be at least 20 characters.' }),
   jobCategory: z.string().min(1, { message: "Please select a job category." }),
-  experienceLevel: z.enum(['Entry-level', 'Mid-level', 'Senior-level', 'Lead', 'Manager', 'Executive']),
   salaryMin: z.preprocess(
     (val) => (String(val).trim() === "" || val === null || val === undefined ? undefined : parseFloat(String(val))),
     z.number({invalid_type_error: "Salary must be a number"}).positive().optional()
@@ -59,7 +57,7 @@ export type JobPostingApiInput = z.infer<typeof JobPostingApiInputSchema>;
 
 export const BackendStoredJobSchema = JobPostingApiInputBaseSchema.extend({
   id: z.string(),
-  submittedDate: z.string(), // ISO date string
+  submittedDate: z.string().optional(), // ISO date string
   status: z.enum(['pending', 'approved', 'rejected']),
 }).refine(data => {
     if (data.salaryMin !== undefined && data.salaryMax !== undefined) {

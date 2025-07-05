@@ -599,13 +599,6 @@ export default function AdminJobApprovalsPage() {
                     <p className="text-muted-foreground">{selectedJobDetails.jobCategory}</p>
                 </div>
             </div>
-            <div className="flex items-center gap-2">
-                <BarChart2 className="h-4 w-4 text-muted-foreground"/>
-                <div>
-                    <h4 className="font-semibold text-base">Experience Level</h4>
-                    <p className="text-muted-foreground">{selectedJobDetails.experienceLevel}</p>
-                </div>
-            </div>
             {(selectedJobDetails.salaryMin || selectedJobDetails.salaryMax) && (
               <div className="flex items-center gap-2">
                 <DollarSign className="h-4 w-4 text-muted-foreground"/>
