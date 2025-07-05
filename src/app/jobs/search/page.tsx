@@ -811,6 +811,64 @@ Tooling & Infrastructure (10%)
     isFeatured: false,
     applyUrl: 'https://jobs.lever.co/eqbank/e46aa90d-253d-44fc-befd-bf7a56d5900d'
   },
+   {
+    id: 'Modern-Workplace-Analyst-Intern-in-Toronto-eqbank',
+    jobTitle: 'Modern Workplace Analyst - Intern',
+    companyName: 'eqbank',
+    companyLogo: '/images/eqbank.png',
+    mainDescription: `💼 Position: Modern Workplace Analyst – Intern
+Location: Toronto, ON (Hybrid)
+Department: Information Technology
+Type: Internship (Fall Term: Sept 2–Dec 26, 2025)
+
+🏢 About Equitable Bank
+Equitable Bank—Canada’s Challenger Bank™—is transforming the banking experience. With over 670,000 customers, $125B+ in assets under management, and award-winning digital services through EQ Bank, we’re reshaping how Canadians manage their money. If you're curious, forward-thinking, and eager to help redefine what's possible, you'll thrive here.
+
+🚀 Internship Overview
+As a Modern Workplace Analyst Intern, you’ll support endpoint management across the bank’s laptops, mobile devices, and cloud environments. You'll work to enhance user experiences, streamline service delivery, and participate in shaping digital workspace policies. Expect hands-on collaboration and plenty of opportunities to grow.
+
+🔧 Key Responsibilities
+- Configure and manage physical endpoints using Microsoft Intune and Autopilot
+- Support and monitor Nerdio workspaces and auto-scaling functions
+- Assist in managing the Azure Virtual Desktop (AVD) environment
+- Deploy updates and maintain endpoint compliance
+- Build co-managed Windows 11 environments
+- Collaborate with the Cyber Defense Centre on policy and security settings
+- Troubleshoot Intune and Group Policy configurations
+- Participate in tabletop exercises and vulnerability remediation
+- Maintain usage and cost reports for Azure environments
+- Automate tasks using ITSM tools, scripting, or workflows
+- Test hardware/software rollouts under change management protocols
+
+🎯 What You Bring
+- Enrollment in post-secondary studies in IT or related field
+- Foundational knowledge of AVD, Azure, Enterprise Mobility, and Microsoft 365
+- Familiarity with Windows OS, MS Office, Intune, and CIS hardening techniques
+- Understanding of ITIL v4 and asset management systems
+- PowerShell scripting and problem management skills are a plus
+- Strong communication and ability to work independently
+
+📋 Application Requirements
+- You must be a current student returning to school
+- Submit a resume, cover letter, and unofficial transcript
+
+🌟 Why EQ Bank
+- Be part of one of Canada’s top-ranked digital banks
+- Work in a collaborative, agile, and inclusive culture
+- Access mentorship and hands-on experience
+- Contribute to meaningful projects in tech-enabled banking
+- Receive support for personal and professional growth
+`,
+    requirements: '',
+    jobCategory: 'Analyst',
+    experienceLevel: 'Lead',
+    jobType: 'Internship',
+    location: 'Toronto',
+    submittedDate: new Date().toISOString(),
+    status: 'approved',
+    isFeatured: false,
+    applyUrl: 'https://jobs.lever.co/eqbank/d8d1c9a8-3d33-4204-8562-ab58ff865a8a'
+  },
 ];
 
 

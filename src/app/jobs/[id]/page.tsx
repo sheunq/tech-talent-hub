@@ -105,7 +105,6 @@ Grammarly is proud to be an equal opportunity employer. We welcome applicants of
     requirements: '',
     jobCategory: 'Software Engineering',
     experienceLevel: 'Senior-level',
- 
     jobType: 'Full-time',
     location: 'Remote (USA)',
     submittedDate: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
