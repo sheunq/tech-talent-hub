@@ -38,13 +38,13 @@ export default function ContactPage() {
               </div>
               <div>
                 <h2 className="text-xl font-semibold font-headline mb-2 flex items-center">
-                  <Phone className="h-5 w-5 mr-2 text-accent" /> Call Us (Simulated)
+                  <Phone className="h-5 w-5 mr-2 text-accent" /> Call Us
                 </h2>
                 <p className="text-muted-foreground">+1 (555) 123-4567</p>
               </div>
               <div>
                 <h2 className="text-xl font-semibold font-headline mb-2 flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-accent" /> Our Office (Placeholder)
+                  <MapPin className="h-5 w-5 mr-2 text-accent" /> Our Office
                 </h2>
                 <p className="text-muted-foreground">123 Tech Avenue, Innovation City, CA 90210</p>
                  <div className="mt-4 rounded-lg overflow-hidden shadow-md">

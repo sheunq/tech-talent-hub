@@ -8,6 +8,2000 @@ import { getAllJobs } from '@/services/jobDbService';
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
 
+  
+{
+  applyUrl: "https://jobs.lever.co/zenogroup/35ea2845-9dfa-4c9f-837e-b4c3e8e6914d",
+  companyName: "Zenogroup",
+  companyLogo: "/images/Zenogroup.png",
+  location: "Foster City",
+  jobTitle: "Tech Lead",
+  jobType: "Hybrid",
+  jobCategory: "General",
+  mainDescription: `Here’s a structured and professional summary of the job posting for the Tech Lead role at Zeno Group in Kuala Lumpur:
+
+Job Title: Tech Lead
+Location: Kuala Lumpur, Malaysia (Hybrid)
+Department: Digital – Web & Technology Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Zeno Group is seeking a hands-on Tech Lead to guide technical strategy, mentor developers, and ensure the successful delivery of web, mobile, and AI-driven solutions. This role blends deep technical expertise with leadership, project oversight, and cross-functional collaboration.
+
+🔧 Key Responsibilities
+- Define and enforce coding standards, architecture, and development best practices
+- Lead technical decision-making and project architecture
+- Collaborate with stakeholders to translate business needs into technical plans
+- Mentor developers and foster a culture of continuous learning
+- Actively contribute to complex coding tasks and full SDLC participation
+- Communicate technical concepts clearly to both technical and non-technical audiences
+
+✅ Required Qualifications
+- 6–8 years of software development experience, with 2–3 years in a leadership role
+- Bachelor’s degree in Computer Information Systems or equivalent
+- Full-stack development experience (front-end, back-end, databases)
+- Strong background in PHP, JavaScript, Laravel 8+, React, Vue.js, Node.js
+- WordPress development expertise (themes, plugins, performance tuning)
+- Proficiency in Linux (Ubuntu/Red Hat), Git, Apache/Nginx, and AWS
+- Experience integrating OpenAI APIs and Python-based AI frameworks (e.g., TensorFlow)
+
+🌟 Preferred Skills
+- Familiarity with headless CMS (Strapi, Contentful, Hygraph)
+- CI/CD and cloud infrastructure scaling
+- AR/VR technologies (WebXR, Unity, ARKit/ARCore, Three.js)
+- Experience in agency or fast-paced product environments
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "tech-lead-in-zenogroup-foster-city-anywhere"
+}
+, 
+
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/criticalmass/jobs/6854275",
+  companyName: "Criticalmass",
+  companyLogo: "/images/Criticalmass.png",
+  location: "New York",
+  jobTitle: "Group Creative Director, Copy",
+  jobType: "Full-time",
+  jobCategory: "General",
+  mainDescription: `Job Title: Group Creative Director, Copy
+Location: New York, NY (Hybrid – minimum 3 days/week in office)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Critical Mass is seeking a master storyteller and strategic leader to guide large creative teams toward excellence in copywriting, campaign development, and digital experiences. As a Group Creative Director, you’ll shape brand narratives, mentor talent, and drive innovation across platforms—from social and web to AI and gaming.
+
+🔧 Key Responsibilities
+- Lead creative strategy, execution, and team development across major accounts
+- Write and oversee compelling copy that resonates with diverse audiences
+- Collaborate with multidisciplinary teams to deliver integrated digital solutions
+- Pitch to senior clients and manage external agency partnerships
+- Ensure creative quality, operational efficiency, and project delivery
+- Mentor and grow creative talent while shaping department staffing plans
+
+✅ Qualifications
+- 6+ years as a creative director or lead in an agency setting
+- Exceptional writing skills across formats, tones, and platforms
+- Deep understanding of digital ecosystems, UX/UI, and emerging tech
+- Proven leadership in campaign development and creative innovation
+- Strong communication, mentorship, and multitasking abilities
+
+💰 Compensation
+- Salary Range: $220,000 – $250,000 USD
+- Final offer based on experience, skills, and internal equity
+
+You can view the full job description and apply directly on Critical Mass’s careers page. Let me know if you’d like help crafting a tailored résumé or preparing a standout portfolio—I’d be happy to assist!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "group-creative-director-copy-in-criticalmass-new-york-united-states"
+}
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/ogury/5b48373b-a221-4ebe-9c56-4d5c7644b33a",
+  companyName: "Ogury",
+  companyLogo: "/images/Ogury.png",
+  location: "Paris",
+  jobTitle: "Data Engineer",
+  jobType: "Hybrid",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Engineer
+Location: Paris, France (Hybrid)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Ogury is seeking a hands-on Data Engineer to join its Data Reporting team. You’ll be responsible for optimizing the data stack, building robust pipelines, and ensuring timely, high-quality data delivery for internal and external stakeholders. This role is ideal for someone who enjoys operational problem-solving and cross-functional collaboration.
+
+🔧 Key Responsibilities
+- Reorganize and maintain the data stack to support product and reporting needs
+- Build and manage ETL pipelines and reporting systems
+- Collaborate with product managers, business owners, and engineering teams
+- Focus on data modeling, data quality, and sustainable architecture
+- Troubleshoot data workflows and provide operational support
+- Integrate systems across data platform, persona, and SSP teams
+
+✅ Required Qualifications
+- 3–4 years of experience in data engineering or a similar role
+- Strong SQL and Python skills; experience with DBT and data cataloging
+- Solid understanding of ETL processes and data modeling
+- Practical mindset with strong communication and stakeholder management skills
+- Passion for making data accessible and actionable
+
+🎁 Benefits & Perks
+- Competitive compensation
+- Flexible hours and hybrid work model
+- Comprehensive health and wellness support
+- Generous holiday allowance and daily meal vouchers
+- Inclusive, supportive workplace culture
+
+🌍 About Ogury
+Ogury is a global adtech company delivering privacy-first, persona-based advertising solutions. With a team of 500+ across 19 countries, Ogury is committed to innovation, inclusivity, and empowering employees to bring their authentic selves to work.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-engineer-in-ogury-paris-france"
+}
+,
+
+{
+  applyUrl: "https://jobs.lever.co/backmarket/1ae7f644-348e-4776-9095-9ac14c30b71a",
+  companyName: "Backmarket",
+  companyLogo: "/images/Backmarket.png",
+  location: "Foster City",
+  jobTitle: "Senior iOS Engineer (Japan Growth)",
+  jobType: "Hybrid",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior iOS Engineer – Japan Growth
+Location: Tokyo, Japan (On-site)
+Department: Bureau of Technology – Mobile
+Employment Type: Full-Time, Permanent
+
+📱 Role Overview
+Back Market is expanding its mobile presence in Japan and is looking for a Senior iOS Engineer to lead the localization and growth of its m-commerce app. You’ll be the first mobile engineer in the Tokyo office, working closely with local and global teams to adapt the app for Japanese users and build features that resonate with the market.
+
+🔧 Key Responsibilities
+- Collaborate with global squads to localize the app for Japan (language, address formats, payment methods like PayPay and Konbini)
+- Adapt the app’s Home, Navigation, and Product Pages to align with Japanese user expectations
+- Build new features tailored to the Japanese market in collaboration with local teams
+- Contribute to the global mobile engineering community and technical initiatives
+- Ensure high-quality, scalable, and maintainable iOS code using Swift, UIKit, and SwiftUI
+- Implement UI/UX enhancements, accessibility, and performance monitoring
+
+✅ Ideal Candidate Profile
+- 3–5+ years of iOS development experience, ideally in Japan or e-commerce
+- Strong autonomy and ability to propose impactful ideas
+- Deep understanding of Swift, MVVM-C architecture, and SOLID principles
+- Experience with UI animations, accessibility, and design systems
+- Familiarity with testing practices, performance monitoring (Datadog, Crashlytics), and dependency injection
+- Passion for user experience and business impact
+
+🛠 Tech & Tools
+- Swift, UIKit, SwiftUI
+- MVVM-C architecture, modularization
+- Datadog, Crashlytics
+- Unit/UI testing, E2E testing
+- Design System components
+
+💼 Recruitment Process
+- Phone screen with recruiter (1h)
+- Technical screening with iOS engineers (~30 min)
+- Live coding & system design (~1h45)
+- Team fit interview (~30 min)
+- Values interview with leadership (~45 min)
+
+🎁 Perks & Benefits
+- Mission-driven work with environmental impact
+- Hybrid work model (2 remote days/week + flex days)
+- 25 days PTO + remote work weeks
+- Modern office in Harajuku (WeWork)
+- Employee Resource Groups and mentorship programs
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-ios-engineer-japan-growth-in-backmarket-foster-city-anywhere"
+}
+, 
+  
+{
+  applyUrl: "https://jobs.lever.co/Bosta/fa341c24-f72c-4918-a4c7-d2b75a90b17b",
+  companyName: "Bosta",
+  companyLogo: "/images/Bosta.png",
+  location: "Cairo",
+  jobTitle: "Senior Data Analyst",
+  jobType: "Hybrid",
+  jobCategory: "Analyst",
+  mainDescription: `Here’s a clear and professional summary of the job posting for the Senior Data Analyst role at Bosta:
+
+Job Title: Senior Data Analyst
+Location: Cairo, Egypt (Hybrid)
+Department: Data & Analytics
+Employment Type: Full-Time
+
+🧠 Role Overview
+Bosta is seeking a Senior Data Analyst to transform complex datasets into actionable insights that drive strategic decisions and business growth. This role involves managing SQL databases, developing data pipelines, and creating impactful visualizations to support cross-functional teams.
+
+🔧 Key Responsibilities
+- Build and maintain SQL databases with a focus on performance, integrity, and security
+- Handle data extraction requests and optimize query performance
+- Develop efficient data extraction processes from multiple sources
+- Create clear, insightful visualizations using tools like Python, Tableau, or Power BI
+- Collaborate with planning/performance teams to translate business needs into analytical solutions
+- Promote a data-driven culture and stay current with analytics trends and tools
+
+✅ Requirements
+- Bachelor’s degree in Data Science, Statistics, Computer Science, or a related field
+- 3–5 years of experience as a Data Analyst
+- Strong SQL skills and database management experience
+- Advanced Python skills for analytics and automation
+- Experience with data visualization tools (Python, Tableau, Power BI preferred)
+- Strong analytical thinking and business acumen
+- Prior experience in a tech startup is a plus
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-data-analyst-in-bosta-cairo-egypt"
+}
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/attentive/5fa960fd-03cd-4168-b48c-b3f74c5b96a7",
+  companyName: "attentive",
+  companyLogo: "/images/attentive.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer, Data Platform",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Senior Software Engineer – Data Platform
+Location: Remote – United States
+Employment Type: Full-Time
+
+🧠 Role Overview
+Attentive is seeking a systems-oriented Senior Software Engineer to help build and scale its data platform. This role focuses on designing high-throughput, distributed systems that support AI, ML, and analytics initiatives. You’ll work across infrastructure layers to ensure performance, reliability, and extensibility of mission-critical data pipelines.
+
+🔧 Key Responsibilities
+- Architect scalable, high-throughput systems for data access and compute
+- Enhance the self-service data platform to support experimentation and innovation
+- Solve complex distributed systems challenges and streamline integrations
+- Champion modern technologies and best practices in data infrastructure
+- Collaborate with cross-functional teams to unify data and enable strategic outcomes
+
+✅ Required Expertise
+- Strong debugging skills across application and infrastructure layers
+- Deep understanding of distributed systems and storage performance trade-offs
+- Proficiency in Java and experience with Spark, Flink, or Kafka
+- Familiarity with data warehouses (e.g., Snowflake, Trino) and formats like Iceberg or Parquet
+- Experience with CDC, data modeling, and infrastructure-as-code (Terraform)
+- Ability to reason about system behavior under load and optimize for cost and performance
+
+🛠 Tech Stack Highlights
+- Infrastructure: Kubernetes (EKS), Istio, Terraform, Helm, Cloudflare
+- Data & Compute: Spark, Kinesis, Airflow, Snowflake, Postgres, Redis
+- Storage Formats: Iceberg, Parquet, Arrow, Hudi
+- Languages: Java, Python
+- ML & Automation: Metaflow, HuggingFace, PyTorch, TensorFlow
+
+💰 Compensation & Benefits
+- Salary Range: $144,840 – $210,000 USD
+- Includes equity and comprehensive benefits
+- Salary determined by role, level, and location
+
+🌍 Why Join Attentive
+Attentive is a leader in AI-powered mobile marketing, trusted by global brands like Samsung and Wayfair. The company fosters a high-performance, inclusive culture and has been recognized by Deloitte, LinkedIn, and Forbes for its rapid growth and innovation.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-data-platform-in-attentive-united-states-united-states"
+}
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/attentive/7bed15e4-f4b3-4249-8f11-9c05e65b31fb",
+  companyName: "attentive",
+  companyLogo: "/images/attentive.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer, BI Tooling and Platform",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – BI Tooling & Platform
+Location: Remote – United States
+Employment Type: Full-Time
+
+🧠 Role Overview
+Attentive is hiring a Senior Software Engineer to join its Business Intelligence (BI) Tooling & Platform team. In this role, you’ll help build the foundation for how metrics are created, accessed, and trusted across the company. You’ll collaborate with engineers, product managers, and stakeholders to develop scalable backend systems that power data-driven decision-making.
+
+🔧 Key Responsibilities
+- Design and implement backend systems that support BI metrics and reporting
+- Collaborate with product managers to balance user needs with technical quality
+- Prevent regressions through robust testing and code quality practices
+- Mentor junior engineers and advocate for long-term architectural improvements
+- Build scalable APIs, microservices, and data access layers
+- Translate business goals into technical roadmaps and deliverables
+
+✅ Required Qualifications
+- 5+ years of backend software development experience
+- Advanced proficiency in Java and object-oriented programming
+- Experience with microservices, GraphQL, and API development
+- Familiarity with relational and non-relational databases and streaming technologies
+- Strong communication skills and ability to work cross-functionally
+- Proven ability to deliver high-scale, high-quality applications
+
+🌟 Preferred Skills
+- Experience with SQL, data analysis, and data engineering
+- Familiarity with AWS, Airflow, and cloud infrastructure
+- Knowledge of Kafka, Pulsar, Docker, and Kubernetes
+
+🛠 Tech Stack Highlights
+- Languages & Frameworks: Java, Python, GraphQL
+- Data & Analytics: Snowflake, DBT, SQL, Looker
+- Infrastructure: AWS, Airflow, Spark, Kinesis, Postgres
+- DevOps: Docker, Kubernetes
+
+💰 Compensation & Benefits
+- Salary Range: $156,400 – $240,000 USD
+- Includes equity and comprehensive benefits
+- Salary determined by role, level, and location
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-bi-tooling-and-platform-in-attentive-united-states-united-states"
+}
+, 
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/attentive/cc058dd9-0ab9-4f3e-a346-821d3e981213",
+  companyName: "attentive",
+  companyLogo: "/images/attentive.png",
+  location: "United States",
+  jobTitle: "Staff Site Reliability Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Staff Site Reliability Engineer
+Location: Remote – United States
+Employment Type: Full-Time
+
+🧠 Role Overview
+Attentive is seeking a Staff Site Reliability Engineer to join its Platform Infrastructure team. You’ll play a strategic role in designing scalable, reliable systems that support billions of daily events across 100M+ users. This role is ideal for engineers who thrive in high-impact environments and want to shape the future of observability, automation, and platform resilience.
+
+🔧 Key Responsibilities
+- Design and implement systems to improve reliability, observability, and incident management
+- Lead cross-team initiatives and provide technical leadership
+- Collaborate with AI/ML, Data, Platform, and Product teams to deliver scalable services
+- Define and enforce production standards and operational best practices
+- Champion SLIs, SLOs, and reliability metrics across engineering
+- Mentor engineers and contribute to technical roadmaps
+- Drive innovation and continuous improvement in platform infrastructure
+
+✅ Required Qualifications
+- 7+ years in SRE, DevOps, or backend engineering roles
+- Strong coding skills in Golang, Python, Java, or TypeScript
+- Proven experience delivering large-scale, reliable systems
+- Deep understanding of SLIs, SLOs, and incident response
+- Excellent communication and cross-functional collaboration skills
+- Experience in fast-paced, production-critical environments
+
+🛠 Tech Stack Highlights
+- Infrastructure: Kubernetes (EKS), Istio, Terraform, Helm, Cloudflare
+- Monitoring: Datadog
+- Backend: Java/Spring Boot, DynamoDB, Kinesis, Redis, Postgres, Planetscale
+- Frontend: React, TypeScript, GraphQL, Storybook, Vite
+- ML/Automation: Python, Metaflow, HuggingFace, PyTorch, TensorFlow
+
+💰 Compensation & Benefits
+- Salary Range: $156,000 – $240,000 USD
+- Includes equity and comprehensive benefits
+- Salary determined by role, level, and location
+
+🌍 Why Join Attentive
+Attentive is a leader in AI-powered mobile marketing, trusted by global brands like Samsung and Wayfair. The company fosters a high-performance, inclusive culture and has been recognized by Deloitte, LinkedIn, and Forbes for its rapid growth and innovation.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-site-reliability-engineer-in-attentive-united-states-united-states"
+}
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/paytm/175c41e6-2ef0-4920-9b68-cf03c45b46eb",
+  companyName: "paytm",
+  companyLogo: "/images/paytm.png",
+  location: "Uttar Pradesh",
+  jobTitle: "DBA - Senior MySQL DBA",
+  jobType: "Full-time",
+  jobCategory: "General",
+  mainDescription: `Job Title: Senior MySQL Database Administrator (DBA)
+Location: Noida, Uttar Pradesh / Bangalore, Karnataka (On-site)
+Department: Infra Technology – Labs
+Employment Type: Full-Time, On-Roll
+
+🧠 Role Overview
+As a Senior MySQL DBA at Paytm, you’ll be responsible for ensuring the performance, integrity, and security of MySQL databases. This includes planning, development, and troubleshooting in a high-scale, cloud-based environment.
+
+🔧 Key Responsibilities
+- Manage and optimize MySQL databases, including AWS RDS and Aurora
+- Handle replication, user management, and backup/restore operations
+- Create and manage machines manually or via Terraform
+- Administer AWS infrastructure and AMI creation
+- Ensure database security, availability, and performance
+
+✅ Requirements
+- 3–6 years of experience in MySQL database administration
+- Strong hands-on experience with AWS RDS and Aurora
+- Proficiency in replication, AWS admin tasks, and Terraform
+- Experience with backup strategies and restoration processes
+
+🌟 Why Join Paytm
+- Work on high-impact systems supporting 500M+ users and 21M+ merchants
+- Collaborate across teams in a tech-driven, output-focused environment
+- Be part of India’s largest digital lending and payments ecosystem
+- Earn respect through contribution, not hierarchy
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "dba-senior-mysql-dba-in-paytm-uttar-pradesh-india"
+}
+, 
+{
+  applyUrl: 'https://jobs.lever.co/paytm/51b8894c-a048-432c-a301-b0f19b3562a7',
+  companyName: 'paytm',
+  companyLogo: '/images/paytm.png',
+  location: 'Uttar Pradesh',
+  jobTitle: 'Cassandra - Senior Lead DBA',
+  jobType: 'Full-time',
+  jobCategory: 'General',
+  mainDescription: `Job Title: Senior Lead DBA – Cassandra
+Location: Noida, Uttar Pradesh (On-site)
+Department: Infra Technology – Labs
+Employment Type: Full-Time, On-Roll
+
+🧠 Role Overview
+Paytm is seeking a seasoned Cassandra Database Administrator to lead the performance, integrity, and security of its distributed database systems. This role involves hands-on management of Cassandra clusters, performance tuning, and ensuring high availability and disaster recovery across mission-critical systems.
+
+🔧 Key Responsibilities
+- Configure, install, and manage Cassandra clusters (including multi-DC setups)
+- Monitor and optimize performance using tools like Grafana, Prometheus, and cqlsh
+- Handle node additions/removals, upgrades, and cluster scaling
+- Design and maintain data models (column families/tables)
+- Implement backup, restore, and disaster recovery strategies
+- Troubleshoot performance issues, including deadlocks and blocking
+- Translate business requirements into technical database designs
+- Maintain documentation and enforce database security best practices
+- Support MySQL and document management systems as needed
+
+✅ Required Experience & Skills
+- 6+ years of experience in Cassandra administration
+- Strong grasp of Cassandra architecture and distributed systems
+- Proficiency in query and script optimization
+- Experience with data migration and transformation
+- Familiarity with security, backup, and recovery procedures
+- Ability to work under pressure and meet tight deadlines
+
+🌟 Why Join Paytm
+- Be part of India’s largest digital lending and payments ecosystem
+- Collaborate across high-impact teams in a tech-driven environment
+- Contribute to scalable solutions that empower 500M+ users and 21M+ merchants
+- Earn respect through performance and peer recognition
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString(),
+  id: 'cassandra-senior-lead-dba-in-paytm-uttar-pradesh-india'
+}
+, 
+
+
+
+ {
+  applyUrl: 'https://jobs.lever.co/emma-sleep/0ea5bd23-14a1-4962-92d5-19f9c591fbde',
+  companyName: 'emma',
+  companyLogo: '/images/emma.png',
+  location: 'Berlin',
+  jobTitle: '(Senior) Data Scientist- Marketing Intelligence',
+  jobType: 'Remote',
+  jobCategory: 'Data',
+  mainDescription: `Job Title: (Senior) Data Scientist – Marketing Intelligence
+Location: Remote (Frankfurt, Lisbon, or Berlin)
+Department: Technology – Data
+Employment Type: Full-Time
+
+🧠 Role Overview
+Emma is seeking a (Senior) Data Scientist to join its Marketing Intelligence team. You’ll develop advanced models and analytics solutions that drive strategic marketing decisions across global markets. This role is ideal for someone passionate about applying machine learning and statistical modeling to optimize marketing performance and budget allocation.
+
+🔧 Key Responsibilities
+- Build and deploy machine learning models to support marketing decision-making
+- Evaluate marketing effectiveness using attribution modeling, incrementality testing, and media mix modeling
+- Conduct end-to-end data analysis: from data preparation to model training and evaluation
+- Promote best practices in ML, statistics, and predictive modeling within the team
+- Collaborate with data scientists, engineers, and analysts to deliver actionable insights
+
+✅ Requirements
+- Master’s or PhD in Computer Science, Data Science, Statistics, Applied Mathematics, or related field
+- 3+ years of industry experience as a Data Scientist
+- Strong knowledge of ML algorithms and statistical techniques
+- Proficiency in Python and libraries such as scikit-learn, TensorFlow, or PyTorch
+- Experience with cloud platforms (e.g., AWS), MLOps, and version control
+- Ability to deploy and maintain models in production
+- Strong communication skills and ability to translate technical insights for business stakeholders
+
+🌟 Why Join Emma
+- Work in a fast-growing, globally recognized D2C brand
+- Collaborate with a diverse team of over 60 nationalities
+- Contribute to a mission-driven company transforming the sleep industry
+- Enjoy a culture of ownership, innovation, and continuous learning
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString(),
+  id: '-senior-data-scientist-marketing-intelligence-in-emma-berlin-germany'
+}
+, 
+
+
+
+{
+  applyUrl: 'https://jobs.dropbox.com/listing/6859034',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'Poland',
+  jobTitle: 'Data Engineer, Analytics Data Engineering',
+  jobType: 'Remote',
+  jobCategory: 'Analyst',
+  mainDescription: `Job Title: Data Engineer – Analytics Data Engineering
+Location: Remote – Poland
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dropbox is seeking a Data Engineer to help build scalable analytics pipelines and data models from the ground up using modern big data technologies. This is a hands-on, high-impact role ideal for someone who thrives in greenfield environments and enjoys solving complex data architecture challenges.
+
+🔧 Key Responsibilities
+- Design and implement Spark, SparkSQL, and HiveSQL jobs to populate data models
+- Define data integrations, quality frameworks, and lineage tools
+- Architect scalable, reliable, and efficient data platforms
+- Collaborate with engineering, product, and data science teams to deliver insights
+- Build and launch sophisticated data models and visualizations
+- Optimize pipelines, dashboards, and frameworks for development efficiency
+- Occasionally participate in on-call rotations to support platform stability
+
+✅ Required Qualifications
+- 5+ years of experience with Spark, Python, Java, C++, or Scala
+- 5+ years of SQL and schema design experience, including medallion architecture
+- Experience with Databricks and data lake architectures
+- Strong communication and product strategy skills
+- Bachelor’s degree in Computer Science or related technical field
+
+🌟 Preferred Qualifications
+- 7+ years of SQL and data modeling experience
+- Experience with Airflow or similar orchestration tools
+- Familiarity with data quality monitoring tools like Monte Carlo
+
+💰 Compensation
+- Salary Range: 183,600 – 248,400 PLN annually
+- Includes eligibility for RSUs and corporate bonus program
+
+🎁 Benefits & Perks
+- Medical, dental, and vision coverage
+- Retirement savings plan
+- Flexible PTO and statutory holidays
+- Life and disability insurance
+- Wellness and learning perks allowance
+- Parental and fertility benefits
+- Mental health support
+
+🌍 Why Join Dropbox
+Dropbox is a Virtual First company that empowers distributed teams to build the future of work. The engineering team blends startup agility with enterprise scale, solving complex challenges that impact hundreds of millions of users.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString(),
+  id: 'data-engineer-analytics-data-engineering-in-dropbox-poland-poland'
+}
+, 
+
+{
+  applyUrl: 'https://jobs.dropbox.com/listing/6936162',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'United State',
+  jobTitle: 'Senior Android Software Engineer',
+  jobType: 'Remote',
+  jobCategory: 'Software',
+  mainDescription: `Job Title: Senior Android Software Engineer
+Location: Remote — U.S. (Zones 2 & 3 only)
+Employment Type: Full-Time
+
+📱 About the Role
+Dropbox is looking for a seasoned Senior Android Engineer to shape the future of its mobile platform. You’ll be responsible for creating high-quality, user-centric features on the Android app used by millions, while solving complex technical challenges and collaborating across disciplines in a distributed team.
+
+🔧 Key Responsibilities
+- Build and optimize new Android app features with a focus on user experience, performance, and scalability
+- Lead initiatives to resolve technical debt and guide architecture modernization
+- Promote engineering best practices including testing, code quality, and performance standards
+- Mentor and support junior engineers
+- Work cross-functionally to align product delivery with business and user needs
+- Stay current with Android trends and introduce innovative approaches
+- Participate in on-call rotations as part of operational support
+
+✅ Requirements
+- Bachelor’s degree in Computer Science or related technical field (or equivalent experience)
+- 8+ years of Android development experience
+- Deep understanding of Android architecture and large native codebases
+- Experience in team leadership and cross-functional collaboration
+- Passion for building well-designed, high-impact consumer applications
+
+🌟 Preferred Qualifications
+- Proficiency in Kotlin
+- Experience launching and maintaining applications at large scale (hundreds of thousands+ users)
+
+💰 Compensation
+| Zone | Base Salary Range (USD) | 
+| Zone 2 | $195,800 – $265,000 | 
+| Zone 3 | $174,100 – $235,500 | 
+
+
+Includes eligibility for RSUs and annual bonus. Zone 1 (SF, NYC, Seattle metro) is excluded for this role.
+
+🎁 Benefits & Perks
+- Medical, dental, and vision coverage
+- 401(k) with generous company match and immediate vesting
+- Flexible paid time off and holidays
+- Life and disability insurance
+- Monthly perks allowance (wellness, learning, groceries, etc.)
+- Parental leave, fertility, adoption, and lactation support
+- Global coworking access and remote-first flexibility
+- Mental health and neurodivergence support
+
+🌍 Why Join Dropbox
+As a Virtual First company, Dropbox empowers people to work collaboratively without location constraints. The mobile engineering team combines enterprise scale with startup energy—making every engineer a key contributor to building a better digital workspace for the world.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString(),
+  id: 'senior-android-software-engineer-in-dropbox-United-State'
+}
+, 
+
+
+
+{
+  applyUrl: 'https://jobs.dropbox.com/listing/6936165',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'Canada',
+  jobTitle: 'Senior Android Software Engineer',
+  jobType: 'Remote',
+  jobCategory: 'Software',
+  mainDescription: `Job Title: Senior Android Software Engineer
+Location: Remote – Canada (Open to Alberta, British Columbia, Ontario, and Saskatchewan)
+Employment Type: Full-Time
+
+📱 Role Overview
+As a Senior Android Software Engineer at Dropbox, you'll play a pivotal role in shaping mobile experiences for millions of users. You’ll drive the design, development, and optimization of advanced features in the Android app—ensuring it’s secure, scalable, and performance-oriented. This role offers significant ownership, influence across cross-functional teams, and the opportunity to lead technical problem-solving at scale.
+
+🔧 Key Responsibilities
+- Design and implement sophisticated Android features and frameworks
+- Tackle complex architectural and codebase challenges
+- Mentor junior engineers, promote engineering best practices, and lead by example
+- Improve application performance, scalability, and security
+- Lead cross-functional initiatives aligned with product strategy
+- Stay on the pulse of the latest Android development trends
+- Participate in on-call rotations when required
+
+✅ Basic Requirements
+- 8+ years of software engineering experience, with deep focus on Android development
+- Proficiency in Kotlin (preferred) and strong engineering fundamentals
+- Bachelor’s degree in Computer Science or related field
+- Experience building and supporting high-scale Android applications
+- Excellent communication and collaboration across disciplines
+- Passion for user-centered mobile development with intuitive, clean UI
+
+🌟 Preferred Qualifications
+- Experience leading Android development teams
+- Track record of launching apps used by hundreds of thousands of users
+- Strong debugging, testing, and CI/CD practices
+
+💰 Compensation & Benefits
+- Salary Range: $184,500 – $249,500 CAD (may vary by location)
+- Eligible for RSUs and company-wide performance bonuses
+- Flexible PTO, wellness and lifestyle perks
+- Health, dental, and vision coverage
+- Parental leave and fertility/adoption support
+- Retirement savings program and income protection plans
+- Mental health support and access to 10,000+ coworking spaces worldwide
+
+🌍 Why Join Dropbox
+Dropbox is a Virtual First company shaping the future of collaboration through human-centered technology. The mobile engineering team blends startup agility with enterprise scale, solving challenging problems to deliver delightful user experiences on a global stage.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString(),
+  id: 'senior-android-software-engineer-in-dropbox-canada-canada'
+}
+, 
+
+
+
+{
+  applyUrl: 'https://jobs.dropbox.com/listing/6936170',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'Mexico',
+  jobTitle: 'iOS Software Engineer, Mobile Collaboration',
+  jobType: 'Remote',
+  jobCategory: 'Software',
+  mainDescription: `Job Title: iOS Software Engineer – Mobile Collaboration
+Location: Remote – Mexico City, Mexico
+Employment Type: Full-Time
+
+📱 Role Overview
+Dropbox is looking for an iOS Software Engineer to join its Mobile Collaboration team. You’ll play a key role in designing and delivering elegant, intuitive experiences within the Dropbox mobile app. Your work will help users seamlessly engage with their content across platforms and enhance Dropbox's mission to simplify the way the world works.
+
+🔧 Key Responsibilities
+- Build user-centric features for the Dropbox iOS application
+- Solve high-impact technical challenges in a complex native codebase
+- Collaborate with product managers and designers to develop thoughtful, goal-aligned features
+- Maintain and improve code quality through rigorous reviews and adherence to best practices
+- Apply advanced debugging and performance optimization techniques
+- Stay current with iOS development trends and contribute to team learning
+- Foster effective team communication and support peer development
+- Participate in on-call rotations as needed
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or a related field, or equivalent technical experience
+- 5+ years of experience in mobile software development
+- Proficient in iOS development with strong engineering fundamentals
+- Experience working on large, complex native codebases
+- Proven team collaborator with a passion for building sleek, user-facing apps
+
+🌟 Preferred Skills
+- Proficiency in Swift
+- Experience building and supporting large-scale mobile applications
+
+🎁 Benefits & Perks
+- Medical, dental, and vision allowances
+- Income protection and retirement savings support
+- Flexible PTO, wellness resources, and mental health benefits
+- Parental leave and family-forming support (fertility, surrogacy, adoption)
+- Lifestyle and learning perks via Dropbox’s Perks Allowance
+- Travel and accident insurance for business trips
+
+🌍 Why Join Dropbox?
+As a Virtual First company, Dropbox empowers a globally distributed workforce with the autonomy to thrive. The Mobile Engineering team builds features used by millions every day—combining technical creativity with startup agility and enterprise scale.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString(),
+  id: 'ios-software-engineer-mobile-collaboration-in-dropbox-mexico-mexico'
+}
+, 
+
+{
+id:'senior-ios-software-engineer-in-dropbox-United-States',
+  applyUrl: 'https://jobs.dropbox.com/listing/6936176',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'United States',
+  jobTitle: 'Senior iOS Software Engineer',
+  jobType: 'Remote',
+  jobCategory: 'Software',
+  mainDescription: `Job Title: Senior iOS Software Engineer
+Location: Remote – U.S. (Zones 2 & 3 only)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dropbox’s Mobile Engineering team is reinventing how users manage and interact with digital content through intuitive mobile experiences. As a Senior iOS Engineer, you’ll play a critical role in building elegant, responsive features into the Dropbox app. You’ll work cross-functionally and lead efforts to elevate architectural scalability, code quality, and mobile UX.
+
+🔧 Key Responsibilities
+- Develop cutting-edge features for the Dropbox iOS app, focused on performance and user impact
+- Guide architectural improvements and address complex codebase challenges
+- Mentor team members and uphold best practices in testing, security, and efficiency
+- Drive end-to-end development and successful feature delivery
+- Stay on the forefront of iOS trends and lead tech-driven innovation
+- Foster open collaboration across engineering, product, and design
+
+✅ Qualifications
+- Bachelor’s degree in Computer Science or a related technical field
+- 8+ years of mobile software engineering experience
+- Deep knowledge of iOS architecture and app lifecycle
+- Skilled at debugging, scaling, and improving large native codebases
+- Strong collaboration and leadership experience
+- Passion for clean, consumer-grade UI design and development
+
+🌟 Preferred Skills
+- Proficiency in Swift
+- Experience shipping and supporting high-usage iOS applications
+- Familiarity with Agile practices and mobile performance optimization
+
+💰 Compensation
+| Location Zone | Salary Range (USD) | 
+| Zone 2 | $195,800 – $265,000 | 
+| Zone 3 | $174,100 – $235,500 | 
+
+
+Includes base salary and eligibility for bonuses and RSUs
+
+🎁 Benefits & Perks
+- Comprehensive health coverage
+- Flexible PTO, volunteer days, and holiday leave
+- 401(k) with company match
+- Parental and family support benefits
+- Mental health, wellness, and lifestyle perks
+- Quarterly phone/internet stipend
+- Global coworking access
+
+
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString()
+}
+, 
+
+
+
+
+{
+id:'Senior-iOS-Software-Engineer-in-Canada-at-Dropbox',
+  applyUrl: 'https://jobs.dropbox.com/listing/6936179',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'Canada',
+  jobTitle: 'Senior iOS Software Engineer',
+  jobType: 'Remote',
+  jobCategory: 'Software',
+  mainDescription: `Job Title: Senior iOS Software Engineer
+Location: Remote – Canada (Alberta, British Columbia, Ontario, Saskatchewan only)
+Department: Mobile Engineering
+Employment Type: Full-Time
+
+📱 Role Summary
+Dropbox’s Mobile Engineering team is redefining how users interact with digital content on the go. As a Senior iOS Software Engineer, you'll shape the Dropbox iOS app experience, working across platforms, solving complex technical challenges, and collaborating with multidisciplinary teams. Your contributions will reach millions of users and redefine mobile file interaction in a distributed-first environment.
+
+🔧 Key Responsibilities
+- Build innovative and user-friendly features for Dropbox’s iOS app
+- Lead architectural improvements and scalability upgrades across the codebase
+- Identify and resolve advanced performance, security, and reliability issues
+- Champion engineering best practices and mentor junior engineers
+- Guide cross-functional teams from feature development through production release
+- Stay current with iOS advancements and share insights with the team
+- Foster a collaborative, inclusive engineering culture
+
+✅ Required Qualifications
+- 8+ years of experience in iOS/mobile software development
+- Bachelor’s degree in Computer Science or equivalent technical background
+- Strong expertise in iOS software architecture and performance optimization
+- Experience working on large, complex native codebases
+- Leadership experience within cross-functional development teams
+- Passion for crafting clean, elegant, and consumer-focused interfaces
+
+🌟 Preferred Skills
+- Proficiency in Swift
+- Background in delivering and maintaining high-scale iOS apps
+- Experience supporting apps used by hundreds of thousands of users
+
+💰 Compensation (CAD)
+- Salary Range: $184,500 – $249,500 annually
+- Bonus and RSU (stock) eligibility included as part of total compensation package
+
+🎁 Benefits & Perks
+- Flexible paid time off and statutory holidays
+- Comprehensive health, dental, and vision coverage
+- Defined contribution pension or savings plan
+- Generous parental benefits and fertility support
+- Mental health, wellness, and perks allowance
+- Business travel and income protection insurance
+Learn more at go.atlassian.com/perksandbenefits (Note: Dropbox’s specific link may differ)
+
+🌍 About Dropbox
+Dropbox is a Virtual First company revolutionizing work through innovative tools like Dropbox Dash and Sign. With a remote-first structure and a collaborative, equity-driven culture, Dropbox empowers its engineers to ship bold solutions that scale globally and inspire the future of digital productivity.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString()
+}
+, 
+
+
+
+
+{
+id:'Senior-Backend-Product-Software-Engineer-Storage-Management-United-States-at-dropbox',
+  applyUrl: 'https://jobs.dropbox.com/listing/6936191',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'United States',
+  jobTitle: 'Senior Backend Product Software Engineer, Storage Management',
+  jobType: 'Remote',
+  jobCategory: 'Backend',
+  mainDescription: `Job Title: Senior Backend Product Software Engineer – Storage Management
+Location: Remote – U.S. (Zone 2 & Zone 3 only)
+Employment Type: Full-Time
+
+💡 About the Role
+Dropbox is integrating AI-powered capabilities like Dropbox Dash into its core File, Sync, and Share (FSS) platform. As a Senior Backend Product Engineer, you’ll reimagine how users interact with their files—building seamless, intelligent experiences powered by machine learning, semantic search, and generative AI.
+This is a strategic position with broad visibility and impact, focused on delivering intuitive, next-generation productivity experiences to millions.
+
+🔧 Key Responsibilities
+- Design and ship AI-driven backend features within Dropbox’s FSS platform
+- Embed intelligent workflows like onboarding and search powered by Dash (ask, summarize, search)
+- Collaborate cross-functionally with product, design, and AI platform teams
+- Take projects end-to-end—from concept and architecture through iteration and release
+- Participate in on-call rotations to maintain service reliability
+
+✅ Required Qualifications
+- 8+ years of software development experience, including 1–2 years working on AI/ML-powered features
+- Proven ability to build and ship production-ready AI-integrated products
+- Bachelor's in Computer Science or a related field (or equivalent practical experience)
+- Strong product instincts and comfort navigating ambiguity
+- Versatility working across tech stacks and system boundaries
+
+🌟 Preferred Experience
+- Familiarity with semantic search, embeddings, and LLM (large language model) UX design
+- Experience shipping full-stack or system-spanning features
+- Strong user-centric mindset and ability to define product behavior
+
+💰 Compensation
+| U.S. Zone | Annual Salary Range | 
+| Zone 2 | $195,800 – $265,000 USD | 
+| Zone 3 | $174,100 – $235,500 USD | 
+
+
+Note: This role is not available in Zone 1 (SF, NYC, Seattle metro).
+Dropbox compensation includes salary, bonus eligibility, and RSUs (Restricted Stock Units).
+
+🎁 Benefits & Perks
+- Competitive healthcare (medical, dental, vision)
+- Flexible paid time off & volunteer days
+- Retirement plan with immediate vesting
+- Perks allowance for wellness, learning, and essentials
+- Family & fertility benefits, adoption support
+- Access to 10,000+ coworking locations worldwide
+- Quarterly internet and cell phone stipend
+- Mental health and neurodivergence support
+
+🌍 Why Dropbox
+Dropbox is a Virtual First company that blends remote flexibility with deep team collaboration. By integrating AI into the heart of its platforms, Dropbox is shaping the future of work—focusing on simplicity, user empowerment, and joy in productivity.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString()
+}
+
+,
+
+{
+  id: 'Senior-Backend-Product-Software-Engineer-Storage-Management-in-Canada-at-dropbox',
+  applyUrl: 'https://jobs.dropbox.com/listing/6936194',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'Canada',
+  jobTitle: 'Senior Backend Product Software Engineer, Storage Management',
+  jobType: 'Remote',
+  jobCategory: 'Backend',
+  mainDescription: `Job Title: Senior Backend Product Software Engineer – Storage Management
+Location: Remote – Canada (Alberta, British Columbia, Ontario, Saskatchewan only)
+Employment Type: Full-Time
+
+🔍 Role Summary
+Dropbox is advancing its core platform by integrating AI-powered features directly into its File, Sync, and Share (FSS) experiences. This role centers on embedding Dropbox Dash—an AI universal search tool—into user workflows. As a Senior Backend Engineer, you’ll help reshape how users interact with their files through intelligent onboarding, semantic search, and generative AI-enhanced media management.
+
+💼 Key Responsibilities
+- Build and integrate AI-driven experiences directly into Dropbox’s core file system
+- Collaborate with cross-functional teams (design, product, AI platform) to ship end-to-end features
+- Streamline user onboarding and team workflows using smart automation
+- Integrate Dash tools like smart search, Q&A, and summarization
+- Prototype, implement, and iterate on production-ready features
+- Participate in on-call rotations as required by the team
+
+✅ Requirements
+- 8+ years in software development, including 1–2 years working on AI/ML-driven products
+- Bachelor’s in Computer Science or related field, or equivalent experience
+- Demonstrated success shipping AI-powered features to users
+- Strong product instincts and ability to navigate ambiguous challenges
+- Comfortable working across the stack and system boundaries
+
+🌟 Preferred Experience
+- Familiarity with LLMs, embeddings, or semantic search
+- History of shipping full-stack, production-scale solutions
+- Strong ability to define user-facing features and product experiences
+
+💰 Compensation (CAD)
+- Salary Range: $184,500 – $249,500
+- Eligible for annual bonus and RSUs (Restricted Stock Units)
+- Actual compensation may vary based on experience and market
+
+🎁 Benefits & Perks
+- Competitive healthcare coverage (medical, dental, vision)
+- Flexible PTO and national holiday observance
+- Defined contribution retirement plans
+- Wellness perks, learning allowances, and family-focused benefits
+- Comprehensive parental and fertility support programs
+Full details: go.atlassian.com/perksandbenefits (Note: placeholder link from earlier posts—Dropbox-specific link may differ)
+
+🌐 About Dropbox
+Dropbox is a distributed-first workplace where engineering drives innovation at scale. From syncing billions of files a day to launching AI-powered tools like Dropbox Dash, engineers at Dropbox solve deep technical problems that reshape collaboration. If you’re passionate about building intelligent experiences for global users, this is your opportunity to make a massive impact.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString()
+}
+,
+
+{
+id: "Senior-Software-Development-Engineer-in-Test-Dash-Connectors-in-polad-at-dropbox",
+  applyUrl: 'https://jobs.dropbox.com/listing/6946624',
+  companyName: 'dropbox',
+  companyLogo: '/images/dropbox.png',
+  location: 'Poland',
+  jobTitle: 'Senior Software Development Engineer in Test, Dash Connectors',
+  jobType: 'Remote',
+  jobCategory: 'Software',
+  mainDescription: `Job Title: Senior Software Development Engineer in Test (SDET) – Dash Connectors
+Location: Remote – Poland
+Team: Engineering – Dash Connectors
+Employment Type: Full-time
+
+🧠 Role Overview
+Dropbox is hiring a Senior SDET to help lead quality initiatives for its AI-powered Dash platform. You’ll design and implement robust test automation frameworks to ensure the performance, security, and reliability of the Connectors Platform. This role is key to delivering high-quality experiences and establishing scalable testing practices as Dropbox expands intelligent product capabilities.
+
+🧩 Key Responsibilities
+- Architect and build high-quality test automation solutions using tools like Playwright and Selenium
+- Own quality metrics, test strategies, and automation pipelines across Dash Connectors
+- Lead risk assessments for releases and advocate for test coverage and code quality
+- Collaborate cross-functionally with product managers, developers, and design to define and meet quality goals
+- Deliver testing strategies for both frontend (TypeScript, React) and backend (Python, Node.js) services
+- Enhance CI/CD pipelines and automate regression tests with Docker, Jenkins, or similar tools
+
+✅ Required Experience
+- 8+ years in software engineering, including 4+ years in automation and quality engineering
+- Proficiency in designing, implementing, and scaling end-to-end test frameworks
+- Strong command of Playwright, Selenium, or related UI testing libraries
+- Hands-on experience with modern frontend and backend stack testing
+- Familiarity with CI/CD infrastructure, containers, and build systems
+- Bachelor’s degree in Computer Science or equivalent practical experience
+
+🌟 Preferred Qualifications
+- Experience testing systems across platforms (Web, Mobile, API, Desktop)
+- Proven ability to define quality strategies for distributed systems
+- Strong focus on customer experience and product quality at scale
+- History of influencing technical direction across teams
+
+💰 Compensation Range (Poland):
+314,500 zł – 425,500 zł PLN annually
+Includes eligibility for bonuses and RSUs (equity)
+
+🎁 Benefits & Perks
+- Flexible PTO and local holidays
+- Competitive medical, dental, and vision coverage
+- Parental benefits and fertility support
+- Mental health and wellness programs
+- Monthly perks allowance for wellness, food, learning, and more
+- Retirement plan options and income protection
+- Remote-first working model
+
+🌍 About Dropbox
+Dropbox is a virtual-first, globally distributed company focused on creating intuitive, intelligent, and human-centered digital workspaces. Its platforms—including Dropbox Dash, Dropbox Sign, and core file sync—serve hundreds of millions of users, solving large-scale engineering challenges that transform how people work together.
+`,
+  status: 'approved',
+  isFeatured: true,
+  requirements: '',
+  submittedDate: new Date().toISOString()
+}
+
+,
+
+{
+id: "Frontend-Product-Software-Engineer-Design-Systems-in-Mexico-at-dropbox",
+  applyUrl: "https://jobs.dropbox.com/listing/6989198",
+  companyName: "dropbox",
+  companyLogo: "/images/dropbox.png",
+  location: "Mexico",
+  jobTitle: "Frontend Product Software Engineer, Design Systems",
+  jobType: "Remote",
+  jobCategory: "Product",
+  mainDescription: `Job Title: Frontend Product Software Engineer – Design Systems
+Location: Remote – Mexico City, Mexico
+Team: Engineering
+Employment Type: Full-Time
+
+🧠 Role Summary
+Dropbox is hiring a frontend engineer to join its Design Systems team. You will help develop and maintain DIG, Dropbox’s internal design system. Your contributions will empower product teams to build cohesive, accessible, and efficient user interfaces across Dropbox’s product suite.
+
+🔧 Key Responsibilities
+- Develop and maintain scalable and accessible UI components using modern front-end tools
+- Collaborate with designers and engineers to convert designs into reusable code
+- Ensure WCAG compliance and system-wide accessibility
+- Participate in architecture decisions and component documentation
+- Support cross-functional teams in using and extending the design system
+- Troubleshoot internal component issues and provide timely fixes
+- Continuously explore and apply best practices in frontend technology and design systems
+
+✅ Requirements
+- 2+ years of professional frontend engineering experience
+- Proficiency with HTML, CSS, JavaScript, and modern frameworks (React, Vue, Angular)
+- Experience working with design systems or component libraries
+- Familiarity with accessibility standards (WCAG, ARIA)
+- Ability to translate Figma designs into pixel-perfect components
+- Strong collaboration and communication skills
+- Bachelor’s degree in Computer Science or equivalent experience
+
+🌟 Preferred Experience
+- Built or maintained large-scale design systems in an agile environment
+- Familiarity with CI/CD, testing frameworks, and web accessibility testing
+- Strong grasp of CSS methodologies and responsive design
+- Experience with automated component library publishing
+
+🎁 Dropbox Benefits
+- Comprehensive health and wellness allowances
+- Flexible PTO plus national holidays
+- Perks Allowance for learning, wellness, or essentials
+- Generous parental benefits and mental health support
+- Remote-first work environment with deep emphasis on belonging and inclusion
+
+🌍 About Dropbox
+Dropbox builds collaboration tools that enhance how people work. With a startup mindset and enterprise-level impact, you’ll join a global team driving intuitive, scalable technology and shaping the future of distributed work.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString()
+}
+, 
+
+
+
+
+
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/19866', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Data Engineer', jobType: 'Remote', jobCategory: 'Data', mainDescription: `Job Title: Data Engineer
+Department: Analytics & Data Science
+Location: Bengaluru, India – Remote-Friendly
+Employment Type: Full-Time
+
+💡 Role Overview
+Atlassian is looking for an experienced Data Engineer to help scale its high-volume analytics platform that ingests over 180 billion events each month. This role supports data-driven decision-making across departments including finance, sales, customer support, growth, and marketing. You’ll contribute to building efficient data pipelines, modeling structured data, and developing metrics that shape product and business strategies.
+
+🔧 Key Responsibilities
+- Design and maintain scalable data models that meet evolving business requirements
+- Build robust batch and real-time data pipelines with Spark, Airflow, and microservices
+- Work cross-functionally with stakeholders to ensure data alignment and accuracy
+- Create and optimize datasets for analytics, reporting, and downstream applications
+- Continuously improve data quality and reliability by integrating new sources and business rules
+- Contribute to data engineering best practices and collaborative team development
+
+✅ Required Qualifications
+- Bachelor's degree (B.E/B.Tech) in Computer Science, Engineering, or Information Management
+- 4+ years of experience in data engineering
+- Strong programming skills in Python or Java
+- Proficiency with SQL and relational data modeling
+- Experience with Spark (SparkSQL), Airflow, DBT, and modern scheduling tools
+- Familiarity with AWS services and Apache ecosystem (Kafka, Hive, Flink)
+- Strong understanding of Agile practices, TDD, and CI/CD workflows
+- Resilience and a growth mindset: willingness to experiment, learn, and iterate
+
+🌟 Nice to Have
+- Exposure to streaming architecture and real-time data systems
+- Interest in shaping internal tools and engineering standards
+- Passion for working in cross-functional teams with a focus on continuous improvement
+
+🎁 Perks & Benefits
+- Health and wellness resources for you and your family
+- Paid volunteer days to engage with your community
+- Flexible distributed-first work model
+- Learn more: go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian builds tools that transform collaboration. From Confluence to Jira, their software supports teams globally across every industry. With an inclusive, innovation-driven culture, Atlassian believes that diverse voices and empowered individuals drive extraordinary results.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'data-engineer-in-atlassian-india-india'}, 
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/19912', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Product Security Engineer', jobType: 'Remote', jobCategory: 'Product', mainDescription: `Job Title: Product Security Engineer
+Department: Security
+Location: Remote — India
+Employment Type: Full-Time
+
+🧠 Role Overview
+Atlassian is seeking a Product Security Engineer to help fortify the security posture of their products and services throughout the software development lifecycle. You’ll work hand-in-hand with development teams, offering technical leadership, reviewing designs, and driving secure development practices. Your role will enhance Atlassian’s Product Security Program, emphasizing automation, tooling, and collaboration.
+
+🔐 Key Responsibilities
+- Collaborate with engineering teams to embed security in every development phase
+- Provide expertise and mentorship on secure coding practices and architecture
+- Strengthen and expand automation around product security tooling and processes
+- Conduct threat modeling and application security reviews
+- Promote best practices using SAST, DAST, SCA, and other AppSec tools
+- Act as a subject matter expert (SME) for cloud security infrastructure and architecture
+
+✅ Required Qualifications
+- Professional experience in security-focused roles
+- Familiarity with application security and Secure SDLC methodologies
+- Deep knowledge of SAST, DAST, SCA, and similar AppSec tools
+- Strong grasp of threat modeling strategies
+- Expertise in cloud-based security design
+- Proficiency in Java, Python, or Go, plus at least one scripting language
+- Experience guiding cross-functional teams on security improvements
+
+🌟 Nice-to-Have Skills
+- Contributions to the security community (publications, open-source, etc.)
+- Experience speaking or presenting at security or industry events
+
+🎁 Perks & Benefits
+- Remote-first, flexible work environment
+- Health and wellbeing support
+- Paid volunteer days
+- Full benefit details at: go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian builds tools that help global teams innovate, collaborate, and scale. With a distributed-first culture and an unwavering commitment to inclusion, they’re shaping the future of work for every kind of team.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'product-security-engineer-in-atlassian-india-india'}, 
+
+
+
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/19931', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Australia', jobTitle: 'Data Engineer - FinOps', jobType: 'Remote', jobCategory: 'Data', mainDescription: `Job Title: Data Engineer – FinOps
+Department: Engineering
+Location: Sydney, Australia or Remote
+Employment Type: Full-Time
+
+🧠 About the Role
+Atlassian is looking for a Data Engineer to join its FinOps Insights team within the Core Engineering organization. This team builds data products and scalable infrastructure to support cost efficiency and strategic decision-making across Atlassian. As a key contributor, you’ll be instrumental in managing cloud cost data, constructing analytics models, and supporting FinOps maturity through actionable insights.
+
+🔧 Key Responsibilities
+- Build and maintain high-scale data pipelines and models to support analytics, machine learning, and AI
+- Maintain cloud cost management systems and ensure accurate data integration across teams
+- Develop curated datasets and scalable frameworks for experimentation and business reporting
+- Collaborate with engineering, vendors, and stakeholders to align solutions with business goals
+- Drive innovation and continuously improve infrastructure reliability and efficiency
+
+✅ Basic Qualifications
+- 1–3+ years in data engineering or similar role
+- Proficiency in Python or Java for production-grade development
+- Strong SQL and experience designing structured, performant data models
+- Hands-on experience with Apache Spark, Airflow, and streaming data technologies
+- Familiarity with AWS and tools like Databricks
+- Experience designing datasets for data science and ML use cases
+- Strong analytical, communication, and multitasking skills
+- Agile development mindset with a focus on iteration and continuous improvement
+
+🌟 Preferred Qualifications
+- Degree in Computer Science or related discipline
+- Experience in SaaS, B2B or B2C data environments
+- Familiarity with LLM and deep learning projects
+- Proficiency with dashboard tools like Tableau or Databricks
+- Demonstrated success solving complex, ambiguous problems with scalable solutions
+
+🎁 Perks & Benefits
+- Health and wellbeing programs
+- Paid volunteer time
+- Flexible work arrangements
+- More at: go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian is committed to helping teams reach their full potential through powerful tools and inclusive culture. The company supports a globally distributed workforce and welcomes diversity in all forms.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'data-engineer-finops-in-atlassian-australia-australia'}, 
+
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/20004', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Canada', jobTitle: 'Principle Machine Learning System Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `Job Title: Principal Machine Learning Systems Engineer
+Department: Engineering
+Location: Remote – Canada
+Employment Type: Full-Time
+
+🧠 Role Summary
+Atlassian is seeking a Principal Machine Learning Systems Engineer to lead the development, deployment, and scalability of machine learning infrastructure. You'll collaborate cross-functionally to take complex ML models into production, build high-performance data pipelines, and optimize system performance. This is a pivotal role for ensuring robustness, reliability, and innovation in ML solutions that scale across Atlassian's global product suite.
+
+🔧 Key Responsibilities
+- Architect and scale ML systems and infrastructure
+- Translate ML research into production-ready services in collaboration with cross-functional teams
+- Optimize model performance, ensure operational reliability, and monitor model behavior
+- Guide cloud ML platform decisions focused on scalability, performance, and security
+- Implement automated and efficient data pipelines for training and inference workflows
+- Promote best practices in MLOps and support technical mentorship across the team
+- Stay current with AI/ML trends to guide platform strategy and long-term innovation
+
+✅ Ideal Candidate Profile
+- Strong foundation in distributed systems and machine learning infrastructure
+- Expertise in cloud computing (AWS, Azure, or GCP) and high-performance computing
+- Experience productionizing machine learning models at scale
+- Hands-on with building and optimizing ML pipelines, including data ingestion, training, and serving
+- Proven leadership in MLOps principles, monitoring, CI/CD for ML systems
+- Passion for mentoring, technical excellence, and strategic thinking
+
+🎁 Benefits & Perks
+- Wellness and mental health programs
+- Remote-first work environment
+- Paid volunteer days to support your community
+- More perks: go.atlassian.com/perksandbenefits
+
+🌏 Why Join Atlassian
+Atlassian builds tools that empower global teams—from startups to Fortune 500s. We believe diverse perspectives fuel innovation and are committed to fostering a culture of inclusion, flexibility, and continuous learning.
+
+Inspired to lead ML innovation at a global scale? Apply today or join the Atlassian Talent Community to stay up-to-date with future roles.
+Would you like help tailoring your résumé or a sample cover letter for this role? I’m happy to lend a hand.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'principle-machine-learning-system-engineer-in-atlassian-canada-canada'},
+
+
+
+
+   {applyUrl: 'https://www.atlassian.com/company/careers/details/20107', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Australia', jobTitle: 'Software engineer', jobType: 'Full-time', jobCategory: 'Software', mainDescription: `Job Title: Software Engineer
+Department: Engineering
+Location: Sydney, Australia or Auckland, New Zealand
+Employment Type: Full-Time (Remote-friendly)
+
+🧠 Role Overview
+Atlassian is seeking a frontend-focused Software Engineer to help build fast, scalable, and maintainable client-side applications. In this role, you’ll collaborate with design and engineering teams, lead development on features and projects, and contribute to a high-performance engineering culture.
+
+🔧 Key Responsibilities
+- Write efficient, testable, and high-quality frontend code
+- Collaborate with designers and engineers to address user needs
+- Lead feature development from architecture to deployment
+- Review code, document systems, and tackle complex bugs
+- Mentor junior engineers and onboard new team members
+
+✅ Required Qualifications
+- 2+ years of experience with JavaScript (ES6+), HTML5, and CSS
+- Strong background in a modern JavaScript framework (React, AngularJS, or Vue)
+- Familiarity with modern frontend tooling (bundling, linting, testing, and CI/CD pipelines)
+- Experience with testing frameworks like Jest, Cypress, Mocha, or Chai
+- Solid understanding of engineering scalable frontend applications
+- Degree in Computer Science or related field (or equivalent experience)
+- Experience working within Agile development environments
+- Strong focus on maintainable code and long-term software stability
+
+🌟 Preferred Attributes
+- You care about writing code that lasts and scales
+- Experience working on medium-to-large software systems
+- Passion for clean, performant user experiences and strong team collaboration
+
+🎁 Benefits & Perks
+- Health and wellbeing programs
+- Paid volunteer days
+- Flexible remote-first work culture
+- More info at: go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian builds tools that help global teams unlock their full potential. The company is committed to equity, diversity, and inclusion, ensuring a fair and welcoming experience for candidates and employees from all backgrounds.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'software-engineer-in-atlassian-australia-australia'}, 
+
+ 
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20130', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Principal Machine Learning System Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `Here’s a professionally structured and paraphrased version of the job posting for easy reference and application use:
+
+Job Title: Principal Machine Learning Systems Engineer
+Department: Engineering
+Location: Seattle or San Francisco, United States – or Remote within the U.S.
+Employment Type: Full-Time
+
+🧠 Role Overview
+Atlassian is seeking a seasoned Principal Machine Learning Systems Engineer to lead the design, development, and scaling of ML systems and infrastructure. You’ll be the bridge between data science and engineering, turning cutting-edge ML models into reliable, production-grade solutions. Your role will drive infrastructure decisions, optimize model pipelines, and ensure reliability and scalability across ML platforms.
+
+🔧 Key Responsibilities
+- Architect and deploy scalable, cloud-native ML systems
+- Collaborate with data scientists, engineers, and product leaders to translate models into robust solutions
+- Optimize model performance and automate ML pipelines
+- Lead infrastructure design for high-performance computing and cloud ML environments
+- Promote best practices in MLOps and mentor junior team members
+- Stay current on emerging AI/ML tech to guide long-term innovation strategy
+
+✅ Ideal Qualifications
+- Proven expertise in deploying and maintaining scalable machine learning infrastructure
+- Strong background in cloud platforms (AWS, GCP, or Azure) and high-performance computing
+- Experience in building efficient data pipelines and integrating ML systems in production
+- Demonstrated leadership in MLOps practices, reliability engineering, and system optimization
+- Passion for technical mentorship and a collaborative mindset
+
+💰 Compensation
+Atlassian aligns its pay scales by geographic zones in the U.S.:
+| Zone | Base Pay Range (USD) | 
+| A | $232,200 – $303,150 | 
+| B | $209,700 – $273,775 | 
+| C | $193,500 – $252,625 | 
+
+
+Eligible for equity, bonuses, and benefits. Final offer depends on experience and location.
+Details: go.atlassian.com/payzones
+
+🎁 Perks & Benefits
+- Health and wellness programs
+- Paid volunteer days
+- Community engagement support
+- Flexible remote-first work model
+Learn more at go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian builds tools that help global teams unlock their potential. Collaboration and innovation are at the heart of what we do. We embrace diversity and are committed to equity, accessibility, and inclusion in every aspect of our culture and hiring.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'principal-machine-learning-system-engineer-in-atlassian-united-states-united-states'},
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20235', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Cloud Migrations Manager', jobType: 'Remote', jobCategory: 'Cloud', mainDescription: `Here’s a clear, professional, and paraphrased version of the job posting, ready for a resume, application, or career portfolio context:
+
+Job Title: Cloud Migrations Manager
+Department: Support
+Location: Remote – India (Bengaluru or anywhere in India)
+Work Hours: 12:00 PM – 9:00/10:00 PM IST (EMEA shift)
+Employment Type: Full-Time
+
+🌐 Role Summary
+Atlassian is hiring a Cloud Migrations Manager to help customers in the EMEA region transition successfully to cloud-based versions of Atlassian products. You will oversee strategic migration projects, collaborating with both technical and non-technical stakeholders to ensure seamless outcomes for mid-market and enterprise clients. This is a customer-centric leadership role combining project management, change management, and product knowledge.
+
+🧩 Core Responsibilities
+- Lead and manage customer cloud migration projects from inception to completion
+- Collaborate with stakeholders to define technical and business migration requirements
+- Build trust with enterprise clients, manage expectations, and drive adoption
+- Handle customer concerns, escalations, and risk mitigation
+- Participate in public-facing engagements such as demos, presentations, and strategic calls
+- Work cross-functionally with product, engineering, and support teams to improve migration outcomes
+- Continuously improve processes and tooling to scale the migration program
+
+✅ Requirements
+- 8–13 years of experience in customer-facing roles (customer success, technical support, strategic migrations)
+- Strong project management and stakeholder management skills
+- Excellent verbal and written communication, including executive presentation skills
+- Hands-on experience with cloud or server-to-cloud migrations (preferably SaaS platforms)
+- Familiarity with working in DevOps or IT-led environments
+- Ability to navigate complex organizations and build internal/external relationships
+- Empathy-driven customer management, especially around change and transition
+
+🌟 Preferred Qualifications
+- Experience with Atlassian product suite
+- Background supporting SMB or Enterprise customers via phone/email
+- Strategic account management skills and consultative mindset
+
+🎁 Benefits & Culture at Atlassian
+- Flexible remote-first working options
+- Paid volunteer days and community engagement opportunities
+- Health and wellness programs for employees and families
+- Transparent, inclusive, and growth-focused work culture
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'cloud-migrations-manager-in-atlassian-india-india'}, 
+
+
+
+
+
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20243', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Data Engineer', jobType: 'Remote', jobCategory: 'Data', mainDescription: `Here’s a professional and streamlined version of the job posting, tailored for job boards or application-ready summaries:
+
+Job Title: Data Engineer
+Team: Analytics & Data Science
+Location: Remote – India (including Bengaluru)
+Employment Type: Full-Time
+
+🧭 Role Summary
+Atlassian is seeking an experienced Data Engineer to support the development of their AWS-based data lake infrastructure and high-volume streaming pipelines. This role offers the chance to design scalable data services, implement self-serve data solutions, and work closely with stakeholders across engineering and business functions.
+You’ll thrive here if you enjoy creating reliable services, working with modern open-source data tools, and solving complex data problems in a collaborative environment.
+
+⚙️ Key Responsibilities
+- Build and maintain scalable big data pipelines and lakehouse architectures
+- Enhance data ingestion efficiency and promote self-service data solutions
+- Collaborate with product and platform teams to drive data strategy
+- Utilize Spark, Airflow, and other streaming frameworks to process large-scale data
+- Develop and deploy software following Agile, TDD, and CI/CD practices
+- Proactively improve data quality and reliability using anomaly detection tools
+
+✅ Requirements
+- Bachelor’s degree in Computer Science or equivalent experience
+- 5+ years in software/data engineering
+- Strong programming skills in Python, Java, or Scala
+- Expert in SQL and data modeling/warehousing concepts
+- Experience with Spark, Hive, Airflow, Databricks, and AWS services (EMR, S3, Kinesis, etc.)
+- Proven focus on data quality, resilience, and scalable design
+
+🌟 Preferred Qualifications
+- Experience building self-serve data platforms or Kappa architecture systems
+- Contributions to open-source data tools (e.g., custom Airflow operators)
+- Familiarity with DBT for modern data modeling workflows
+
+🎁 Benefits & Perks
+- Flexible remote-first work model
+- Health and wellbeing support for employees and families
+- Paid volunteer time and global collaboration opportunities
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'data-engineer-in-atlassian-india-india'},
+
+
+
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/20253', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Senior Machine Learning Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `Job Title: Senior Machine Learning Engineer
+Department: Engineering
+Location: Remote – India (Including Bengaluru)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Atlassian is hiring a Senior Machine Learning Engineer to join the team powering Atlassian Intelligence. In this high-impact role, you’ll partner across product, engineering, and business teams to guide strategic decisions through quantitative research and AI/ML expertise. You’ll help shape product strategy, evaluate algorithmic success metrics, and elevate the value ML brings to Atlassian’s global user base.
+
+🔍 Key Responsibilities
+- Lead development of AI product features and roadmap insights
+- Guide strategy through advanced data analysis and data storytelling
+- Collaborate across disciplines to test hypotheses and validate solutions
+- Design A/B tests, build statistical models, and inform decision-making using data
+- Define and monitor success metrics for ML/LLM-driven features
+- Influence the direction of fast-evolving Atlassian Intelligence products
+- Shape the product development lifecycle by quantifying opportunities and monitoring impact
+
+✅ Required Qualifications
+- 5+ years in Machine Learning, Data Science, Generative AI, or similar
+- Expert in SQL and one scripting language (Python, R, etc.)
+- Proven experience transforming data into business or product strategy
+- Deep understanding of applied statistics (regression, clustering, A/B testing)
+- Ability to craft clear, actionable analysis and communicate to varied audiences
+- Proficiency with modern data visualization tools (e.g., Tableau, Looker, R-Shiny)
+- Familiarity with LLM-based systems and model performance evaluation
+
+🌟 Preferred Experience
+- Background working with Chat, Search, or LLM-enhanced features
+- Knowledge of SaaS business models and product lifecycle metrics
+- Experience with developer tooling and process automation solutions
+
+🎁 Benefits & Perks
+- Remote-first flexibility and distributed work culture
+- Health and wellness support for you and your family
+- Paid volunteer time and community engagement opportunities
+- Additional perks: go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian creates collaboration tools that help teams across the world unlock their full potential. The company values inclusion, continuous learning, and diverse perspectives. Atlassians work across borders, projects, and disciplines to make the impossible, possible—together.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-machine-learning-engineer-in-atlassian-india-india'}, 
+
+
+
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20254', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Machine Learning Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `Here’s a polished and paraphrased version of the job description formatted for clarity and professional use:
+
+Job Title: Machine Learning Engineer
+Department: Engineering
+Location: Remote (India – including Bengaluru)
+Employment Type: Full-Time
+
+🧠 About the Role
+Atlassian is looking for a Machine Learning Engineer to help shape the future of Atlassian Intelligence products. You’ll drive analytical strategy, collaborate with cross-functional teams, and translate data into actionable insights that impact product development and business decisions.
+
+🛠 Key Responsibilities
+- Influence AI feature development and contribute to long-term roadmaps
+- Collaborate with cross-functional stakeholders on complex product and business problems
+- Analyze data and run experiments to develop strategies that guide business decisions
+- Build and test hypotheses using statistical modeling, A/B testing, and machine learning approaches
+- Identify product improvement opportunities through insights and metric analysis
+- Measure the performance and value of ML-driven product features
+- Shape product direction by providing deep data insights and dashboards
+
+✅ Minimum Qualifications
+- 3+ years’ experience in Data Science, Machine Learning, or Generative AI
+- Proficiency in SQL and at least one programming language (e.g., Python or R)
+- Strong data storytelling skills and experience with data visualization tools (e.g., Tableau, Looker, R-Shiny)
+- Familiarity with LLM-based or ML-driven product algorithms and measurement techniques
+- Strong grasp of statistical concepts (e.g., regressions, clustering, A/B testing, probability)
+- Proven ability to translate data into strategic recommendations
+
+⭐️ Desirable Qualifications
+- Experience working on Chat, Search, or LLM-based features
+- Familiarity with SaaS business models and relevant product metrics
+- Experience building tools or insights to improve software development processes
+
+🎁 Benefits & Perks
+Atlassian offers a wide range of benefits to support your well-being, including:
+- Health and wellness resources
+- Paid volunteer days
+- Flexible remote-first environment
+Learn more at go.atlassian.com/perksandbenefits
+
+🌍 About Atlassian
+Atlassian creates software that empowers teams to collaborate from anywhere. We believe in inclusive hiring, diverse perspectives, and a culture of continuous learning and impact. From innovative products to compassionate people practices, we unleash the potential in every team—including yours.
+
+
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'machine-learning-engineer-in-atlassian-india-india'},
+
+
+
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/20314', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Principal Software Engineer - Bitbucket Cloud', jobType: 'Remote', jobCategory: 'Cloud', mainDescription: `Here's a clean and professional paraphrased version of the job posting for easy reference or application:
+
+Job Title: Principal Software Engineer – Bitbucket Cloud
+Team: Engineering
+Location: Remote (within the U.S.) or Seattle, WA
+Employment Type: Full-Time
+
+🧭 About the Role
+Join Atlassian’s Bitbucket Cloud team as a Principal Software Engineer and help shape the tools that empower millions of developers globally. As a senior technical leader, you’ll design and implement scalable services, guide cross-team solutions, and mentor fellow engineers. Your work will directly impact how teams collaborate, manage, and ship code across the cloud.
+
+🔧 Key Responsibilities
+- Lead the technical architecture and development of complex product features
+- Build and maintain scalable, distributed backend systems for version control tools
+- Ensure code quality, reliability, performance, and customer-centered delivery
+- Collaborate with product, design, and other engineering teams to set strategy
+- Promote engineering best practices, including operational excellence and blameless postmortems
+- Mentor and upskill engineers by sharing deep technical knowledge
+- Operate services in microservice-based environments using Kubernetes, Docker, AWS, or Azure
+
+✅ Required Qualifications
+- Proficiency in backend languages: Python, Java, or Go
+- Expertise designing and deploying large-scale, distributed cloud systems
+- Experience leading the development of high-traffic services in modern infrastructure
+- Familiarity with microservice architecture and container orchestration tools
+- Passion for mentoring and cross-functional collaboration
+- Strong interpersonal communication and a continuous learning mindset
+
+🌟 Nice-to-Have Skills
+- Background in Git or version control system development
+- Experience with PostgreSQL, DynamoDB, Redis, Memcached
+- Deep learning or LLM application experience
+- Familiarity with Unix system programming and networked file systems (e.g., NFS, autoFS)
+
+💰 Compensation
+Atlassian provides a competitive salary structure aligned with regional zones:
+| Zone | Base Salary Range (USD) | 
+| Zone A | $206,100 – $269,075 | 
+| Zone B | $186,300 – $243,225 | 
+| Zone C | $171,900 – $224,425 | 
+
+
+Eligible for bonuses, equity, and benefits.
+Details: go.atlassian.com/payzones
+
+🎁 Benefits & Perks
+- Paid volunteer days and community engagement
+- Mental health and wellness programs
+- Flexible remote-first work model
+- Additional perks listed at go.atlassian.com/perksandbenefits
+
+🌏 About Atlassian
+Atlassian creates tools that power collaboration for teams worldwide. We embrace diversity, foster inclusion, and build software that empowers people everywhere. You’ll be joining a values-driven company that supports your growth and well-being.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'principal-software-engineer-bitbucket-cloud-in-atlassian-united-states-united-states'}, 
+
+
+
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/20338', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Senior Security Engineering Manager', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `Here’s a clean and professional job description paraphrased and formatted for easy reading and job application portals:
+
+Job Title: Senior Security Engineering Manager
+Department: Engineering
+Location: Remote (Americas) or in-office (Mountain View, San Francisco, Austin, New York, Washington DC, or Canada)
+Employment Type: Full-Time
+
+🔐 About the Role
+Atlassian is seeking a Senior Security Engineering Manager to lead its Security Response Engineering team. Reporting to the Head of Detection and Response, you’ll be responsible for scaling operational security practices, mentoring a global team, and enhancing detection and response capabilities through advanced automation and AI.
+This is a high-impact role ideal for a seasoned leader with technical depth in security engineering, automation tooling, and ML-driven detection frameworks.
+
+🛠 Responsibilities
+• 	Lead and develop a high-performing team of security automation engineers
+• 	Drive the automation of security operations and scaling of detection and response tools
+• 	Guide the integration and refinement of ML/AI models in operational security contexts
+• 	Collaborate with internal stakeholders to align tools with operational goals
+• 	Establish and enforce robust detection, response, and remediation protocols
+• 	Mentor and grow future leaders in security engineering
+• 	Oversee execution of large-scale initiatives and ensure measurable outcomes
+
+✅ Requirements
+• 	3+ years in security engineering
+• 	2+ years managing global or distributed technical teams
+• 	Experience in public cloud platforms (AWS, Azure, GCP)
+• 	Proficiency in Python, Go, or Rust for automation
+• 	Deep familiarity with Security Detection & Response (including SOAR platforms)
+• 	Strong track record of delivering machine learning–powered solutions in security
+• 	Demonstrated experience leading complex technical projects from end to end
+
+🌟 Preferred Experience
+• 	Public contributions to the cybersecurity community
+• 	Conference speaking engagements or industry panel participation
+• 	Cross-functional collaboration with privacy, compliance, networking, or IT teams
+
+🎓 Qualifications
+• 	Bachelor’s or Master’s degree in Computer Science, Information Security, or a related discipline
+• 	Thorough understanding of modern cybersecurity practices and threat landscapes
+• 	Strong communication and leadership skills across all levels of an organization
+
+💰 Compensation
+Atlassian offers competitive and transparent compensation across U.S. zones:
+
+
+| Zone | Base Salary Range (USD) | 
+| Zone A | $206,100 – $269,075 | 
+| Zone B | $186,300 – $243,225 | 
+| Zone C | $171,900 – $224,425 | 
+
+
+
+This role is also eligible for bonuses, equity, and other benefits.
+
+🎁 Benefits & Perks
+• 	Paid volunteer days
+• 	Extensive wellness resources
+• 	Remote-first flexibility
+• 	Global work opportunities
+• 	And much more at go.atlassian.com/perksandbenefits
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-security-engineering-manager-in-atlassian-united-states-united-states'},
+
+
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/20366', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Australia', jobTitle: 'Software Engineer – ML Serving & Analytics', jobType: 'Remote', jobCategory: 'Analyst', mainDescription: `Job Title: Software Engineer – ML Serving & Analytics
+Team: Engineering
+Location: Sydney, Australia or Remote within Australia
+Employment Type: Full-Time
+
+🧠 About the Role
+Atlassian is looking for a versatile Software Engineer to help build systems for deploying, serving, and analyzing machine learning (ML) models in production. You’ll work at the intersection of machine learning, data infrastructure, and software engineering—bringing ML-powered features to life at scale.
+This role is part of a distributed-first team, giving you the freedom to work from home, an office, or wherever you do your best thinking.
+
+⚙️ Key Responsibilities
+- Develop and maintain robust backend services and APIs for ML model deployment
+- Collaborate with ML engineers and data scientists to operationalize models with high performance, reliability, and scalability
+- Design data pipelines and transformation systems to support dashboards, analytics, and informed decision-making
+- Write clean, efficient SQL for ad hoc analysis, reporting, and data tooling
+- Monitor and troubleshoot issues across data pipelines and infrastructure
+- Improve system reliability, observability, and maintainability through code quality and automation
+- Participate in design and architecture discussions to optimize scale and performance
+- Identify inefficiencies and proactively improve system design and tech stack
+
+🧩 What You Bring
+- Strong fundamentals in software engineering with a focus on scalable and maintainable systems
+- Proven experience deploying machine learning models in production environments
+- Solid understanding of end-to-end data workflows and transformation pipelines
+- Proficiency in writing and optimizing SQL for analytics
+- A curious mindset with a passion for understanding complex systems
+- Self-driven attitude with a strong desire for growth and learning new technologies
+- Nice to Have: Experience with data warehouses, observability tools, or metrics-layer architecture
+
+🎁 Benefits & Perks
+Atlassian offers a full range of benefits to support your health, well-being, and work-life balance, including:
+- Paid volunteer days
+- Wellbeing and mental health resources
+- Remote work flexibility
+- Community engagement and more
+Full details at go.atlassian.com/perksandbenefits
+
+🌏 About Atlassian
+Atlassian helps unleash the potential of every team. Our collaboration tools empower organizations worldwide to build, deliver, and innovate—together. We are proud to be a company driven by diverse perspectives, inclusion, and continuous learning.
+We welcome people of all backgrounds and are committed to maintaining a supportive and equitable workplace.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'software-engineer-ml-serving-analytics-in-atlassian-australia-australia'},
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20478', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Japan', jobTitle: 'Cloud Senior Support Engineer', jobType: 'Remote', jobCategory: 'Cloud', mainDescription: `Job Title: Cloud Senior Support Engineer
+Team: Support
+Location: Yokohama, Japan or Remote within Japan
+Employment Type: Full-Time
+
+🌐 About the Role
+Atlassian is seeking a seasoned Senior Technical Support Engineer to join their Cloud Product Support team serving customers in Japan. You’ll play a critical role in delivering exceptional support experiences, resolving complex issues, and contributing to a culture of technical excellence and continuous improvement. This role is part of a globally distributed team committed to making customers successful through top-tier service.
+
+🔧 Key Responsibilities
+- Diagnose and resolve advanced issues across multiple Atlassian cloud products
+- Perform triage, debugging, root cause analysis, and technical troubleshooting
+- Work closely with engineering teams to resolve critical incidents and product escalations
+- Mentor and coach junior support engineers to enhance their technical skills
+- Innovate and promote improved support strategies to strengthen customer satisfaction
+- Handle multiple support cases while maintaining quality standards
+- Assist in product onboarding and continuous learning
+
+🧩 Required Qualifications
+- 5+ years' experience in technical support, system administration, or software services
+- 2+ years handling complex technical problems in a customer-facing environment
+- Solid database skills (strong SQL knowledge)
+- Familiarity with scripting (Shell, Python, etc.)
+- Experience with web technologies: HTTP, DNS, REST, APIs
+- Hands-on experience with cloud platforms like AWS
+- Understanding of networking fundamentals: TCP/IP, LAN/WAN, OSI model, NAT, DHCP, SSL/TLS
+- Fluent in Japanese (spoken and written) and proficient in English at a business level
+
+✨ Preferred Qualifications
+- Experience supporting Java-based applications
+- Familiarity with Splunk or similar log aggregation tools
+- Understanding of AI-related technologies
+- Prior experience leading or managing technical support teams
+- Knowledge of Atlassian products (e.g., Jira, Confluence, Bitbucket)
+- Comfortable engaging customers at an executive level on technical matters
+
+🎁 Benefits and Perks
+Atlassian offers a rich array of benefits designed to support your well-being and lifestyle, including:
+- Comprehensive health and wellness resources
+- Paid volunteer days
+- Remote and flexible work model
+- Diverse and inclusive workplace culture
+For a full list of perks, visit: go.atlassian.com/perksandbenefits
+
+🌟 Why Atlassian?
+Atlassian creates collaboration tools used by millions worldwide. We're committed to building a workplace where diverse perspectives are valued and everyone can thrive. From onboarding to leadership, we aim to empower our teams to do their best work—wherever they are.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'cloud-senior-support-engineer-in-atlassian-japan-japan'}, 
+
+
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20503', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Poland', jobTitle: 'Junior Fullstack Engineer', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `Job Title: Junior Fullstack Engineer
+Department: Engineering
+Location: Gdańsk, Poland (Remote or On-site in Poland)
+Employment Type: Full-Time
+
+🧭 About the Role
+Atlassian is seeking a Junior Fullstack Software Engineer to help enhance tools and features that empower our engineering teams. You'll contribute to the development of Jira Align, an enterprise solution used by Fortune 500 companies to bridge the gap between business strategy and technical delivery.
+
+💼 Key Responsibilities
+- Design and ship scalable features and services in a globally distributed development environment
+- Work closely with engineers, architects, product managers, and designers in a collaborative environment
+- Perform thorough code reviews focusing on readability, security, performance, and maintainability
+- Support backend service visibility with logging, error reporting, and monitoring
+- Actively participate in Agile workflows—stand-ups, sprint planning, demos, and retrospectives
+- Report directly to your Engineering Manager
+
+🎯 Qualifications
+- 2+ years' experience developing and deploying RESTful microservices
+- Experience or interest in .NET Framework (C#)
+- Proficiency in modern object-oriented languages like Java, Go, Kotlin, Python, or Scala
+- Familiarity with RDBMS (PostgreSQL, Oracle) or NoSQL (DynamoDB, Cassandra) databases
+- Basic understanding of SaaS/PaaS/IaaS and cloud infrastructure (AWS, Azure, GAE)
+- Awareness of cloud architecture patterns and solid software engineering principles
+
+⚙️ Bonus Skills (Nice to Have)
+- CI/CD pipeline and deployment experience (e.g., Octopus)
+- Familiarity with AWS components like EC2 and VPC
+
+💸 Compensation & Perks
+- Annual Salary Range: 132,300 PLN – 176,400 PLN
+- Eligible for benefits, bonuses, equity, and commissions
+- Flexible work model (up to 90 remote workdays per year globally)
+- Wellness support, paid volunteer days, and a vibrant remote-first culture
+
+🌍 Why Join Atlassian
+With products that drive collaboration and innovation across the globe, Atlassian is on a mission to unleash the potential of every team. Our values promote inclusion, balance, and empowering individuals to make an impact—wherever they work from.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'junior-fullstack-engineer-in-atlassian-poland-poland'}, 
+
+
+
+{applyUrl: 'https://www.atlassian.com/company/careers/details/8233', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Senior Principal Engineer, Identity', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `Here’s a polished and professional paraphrased version of the job post, formatted for job boards, resumes, or applications:
+
+Job Title: Senior Principal Engineer, Identity (Site Reliability Engineering)
+Team: Site Reliability Engineering
+Location: Remote – Americas or Mountain View, United States
+Employment Type: Full-Time
+
+🌐 About the Role
+Atlassian is looking for a Senior Principal Engineer with deep expertise in reliability engineering and scaling Cloud services. You’ll work across teams to advocate for and implement best practices in system reliability, performance, scalability, and cost-efficiency—becoming a key influencer of Atlassian's technical direction.
+You will report directly to the Head of SRE and collaborate with platform, product, and infrastructure teams to embed resilience into the company's technology and culture. This role is fully remote within the Americas.
+
+🔍 Key Responsibilities
+- Champion reliability methodologies and help architect highly available distributed systems
+- Drive large, cross-team initiatives from inception to delivery
+- Collaborate across organizational boundaries to scale Cloud infrastructure effectively
+- Influence technical direction across departments and services
+- Mentor and coach engineers across SRE and development teams
+- Communicate technical issues and solutions effectively to diverse audiences
+
+✅ Required Experience and Skills
+- Programming Expertise: 8+ years’ experience in Java, Go, or Python
+- Cloud Infrastructure: 5+ years’ experience with AWS or equivalent (EC2, CloudFormation, RDS, SQS, caching)
+- System Design: Proven experience building fault-tolerant, scalable, production-ready software
+- Communication: Strong verbal and written communication, with the ability to explain complex topics to varied stakeholders
+- Leadership: Experience driving multi-team engineering initiatives
+- Mentorship: A passion for coaching and technical guidance
+
+⭐️ Preferred (Nice-to-Have) Skills
+- In-depth knowledge of datastore technologies: RDBMS, NoSQL, time-series DBs, and analytics engines
+- JVM performance tuning and garbage collection expertise
+
+💰 Compensation
+Atlassian maintains a transparent and equitable compensation structure with three geographic pay zones in the U.S.:
+| Zone | Salary Range (USD) | 
+| Zone A | $234,100 – $312,100 | 
+| Zone B | $210,700 – $280,900 | 
+| Zone C | $194,300 – $259,000 | 
+
+
+You may also be eligible for bonuses, equity, and benefits. Full details on geographic zones can be found at go.atlassian.com/payzones.
+
+✨ Why Join Atlassian
+- Work with global, mission-driven teams on cutting-edge technology
+- Drive impact at scale, influencing architecture for services used by millions
+- Enjoy a collaborative remote-first culture with diverse teammates
+- Competitive compensation, equity, and career development support
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-principal-engineer-identity-in-atlassian-united-states-united-states'}, 
+
+
+
+
+
+{applyUrl: 'https://careers.eleks.com/vacancies/15833/', companyName: 'eleks', companyLogo: '/images/eleks.png', location: 'Ukraine', jobTitle: 'SENIOR/ MIDDLE .NET SOFTWARE DEVELOPER', jobType: 'Full-time', jobCategory: 'General', mainDescription: `Job Title: Senior/Middle .NET Software Developer
+Location: Ukraine — Ternopil, Ivano-Frankivsk, Lviv, Kyiv, Uzhhorod, Chernivtsi, Zhytomyr, Rivne, Lutsk
+Department: Software Engineering and Development Office
+Commitment: Full-time
+
+💼 About the Client Project
+The position supports the development of a national registry tracking contaminated and mined territories in Ukraine, in collaboration with EGAP. The mission is meaningful and rooted in public good, contributing to the country’s transparency and safety.
+
+🛠 Key Responsibilities
+- Design and build high-performance, scalable .NET applications
+- Analyze user stories, review designs, estimate development tasks, and follow Agile or Waterfall methodology
+- Suggest refactoring and optimization based on best coding practices
+- Share technical knowledge across the developer community through presentations and code reviews
+- Stay current on technology trends and pursue relevant certifications
+- Mentor junior developers, assign and monitor tasks, and provide guidance
+
+✅ Required Qualifications
+- 4+ years of hands-on .NET development experience
+- Proficiency with .NET Core 8.0
+- Strong background in PostgreSQL and PostGIS
+
+🌟 Nice-to-Have Skills
+Experience with any of the following technologies is considered a plus:
+- ELK stack
+- Redis
+- Temporal
+- YARP
+- Aspire
+
+💡 What You’ll Gain at ELEKS
+- Direct collaboration with customers
+- Technically engaging and impactful projects
+- Influence over development and tech stack decisions
+- Professional growth and competence-building support
+- A highly skilled team and low-bureaucracy environment
+
+🏢 About ELEKS
+ELEKS is a globally recognized software engineering company founded in 1991. With 2,000+ professionals across Eastern Europe and commercial offices in Europe and North America, ELEKS provides full-cycle tech solutions—from design and development to consulting and dedicated teams.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-middle-net-software-developer-in-eleks-Ukraine'}, 
+
+
+{applyUrl: 'https://careers.eleks.com/vacancies/middle-senior-devops-engineer-6/', companyName: 'eleks', companyLogo: '/images/eleks.png', location: 'Ukraine', jobTitle: 'MIDDLE/SENIOR DEVOPS ENGINEER', jobType: 'Remote', jobCategory: 'General', mainDescription: `Job Title: Middle/Senior DevOps Engineer
+Location: Ukraine – Lviv, Ivano-Frankivsk, Ternopil, Kyiv
+Department: DevOps Office
+Commitment: Full-time
+
+About the Project
+This initiative focuses on enhancing transparency and regulatory compliance within the alcoholic beverage supply chain in Ukraine—from production to distribution.
+
+Role Overview
+ELEKS is seeking a skilled Middle or Senior DevOps Engineer to join its team in Ukraine. The ideal candidate will design and implement DevOps infrastructure from the ground up, support CI/CD workflows, and collaborate with technical stakeholders on deployment strategy. Leadership experience and mentorship in DevOps practices are a plus.
+
+Key Responsibilities
+- Architect and deploy end-to-end DevOps solutions
+- Configure new environments and infrastructure
+- Integrate CI/CD systems and deployment pipelines
+- Lead and mentor DevOps team members
+- Support environment setup, configuration, and documentation
+- Troubleshoot systems and write technical guides
+- Communicate with stakeholders to define and validate technical requirements
+- Assign tasks, track progress, and ensure timely delivery
+- Conduct internal training, knowledge-sharing sessions, and staff assessments
+- Present and justify proposed solutions based on technical evaluations
+
+Requirements
+- 3+ years’ experience as a DevOps Engineer
+- Strong command of Azure technologies (AKS, App Service, Functions, Azure Monitor, Application Insights)
+- Proficiency in Terraform for infrastructure as code
+- Valid technical certifications
+- Upper-intermediate English proficiency
+
+What ELEKS Offers
+- Direct collaboration with international clients
+- Impactful and challenging technical tasks
+- Influence over project technologies and architecture
+- Support for professional development and competency growth
+- A collaborative team culture with low bureaucracy
+
+About ELEKS
+ELEKS is a global custom software development firm established in 1991. With 2,000+ professionals across Eastern Europe and offices in Europe and North America, ELEKS delivers premium services across product engineering, QA, design, R&D, and technology consulting.
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'middle-senior-devops-engineer-in-eleks-Ukraine'},
+
+
+
 
 {applyUrl: 'https://careers.eleks.com/vacancies/senior-devops-engineer-24/', companyName: 'eleks', companyLogo: '/images/eleks.png', location: 'Poland', jobTitle: 'SENIOR DEVOPS ENGINEER', jobType: 'Remote', jobCategory: 'General', mainDescription: `💼 Job Title: Senior DevOps Engineer
 Location: Poland, Croatia, or Remote within Europe
