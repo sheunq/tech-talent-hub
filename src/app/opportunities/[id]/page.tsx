@@ -76,6 +76,27 @@ const mockOpportunities: Opportunity[] = [
     benefits: ['Incident Response and Threat Mitigation', 'A Worthwhile Investment', 'Time, Travel & Money','CEUs / CPE Credits'],
   },
   
+
+   {
+
+
+    
+    id: 'Generative-AI-Prompt-Engineering-course-by-linux-foundation',
+    type: 'Course',
+    title: 'Generative AI Prompt Engineering (RXM401)',
+    provider: 'Linux Foundation',
+    description: 'In this one-day course, you will learn to maximize the benefits of generative AI systems, mastering techniques that lead to optimal output as well as learning entirely new ways to generate and refine documents and images! Learn and practice with hands-on labs',
+    fullDescription: 'In this one-day course, you will learn to maximize the benefits of generative AI systems, mastering techniques that lead to optimal output as well as learning entirely new ways to generate and refine documents and images! Learn and practice with hands-on labs that will greatly improve your ability to fully leverage the power of generative AI systems.',
+    tags: ['Generative Models', 'Text-to-Image Models', 'GenAI', 'LLMs'],
+    icon: <BookOpen className="h-7 w-7 text-primary" />,
+    imageUrl: '/images/linux_foundation.png',
+    imageHint: 'linuxfoundation',
+    learnMoreUrl: 'https://training.linuxfoundation.org/training/gen-ai-prompt-engineering-rxm401/?utm_campaign=14251798-25Q3_July_B2C_Organic_Social&utm_content=334516373&utm_medium=social&utm_source',
+    duration: '1 day',
+    format: 'Online',
+    benefits: ['Live, instructor-led hands-on labs', 'Learn to incorporate generative AI in your every day process', 'Increase your productivity and improve the output you receive from AI systems'],
+    isFeatured: true,
+  },
   
   {
 

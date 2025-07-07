@@ -77,7 +77,25 @@ const mockOpportunities: Opportunity[] = [
     format: 'Hybrid',
     
   },
+   {
 
+
+    
+    id: 'Generative-AI-Prompt-Engineering-course-by-linux-foundation',
+    type: 'Course',
+    title: 'Generative AI Prompt Engineering (RXM401)',
+    provider: 'Linux Foundation',
+    description: 'In this one-day course, you will learn to maximize the benefits of generative AI systems, mastering techniques that lead to optimal output as well as learning entirely new ways to generate and refine documents and images! Learn and practice with hands-on labs',
+   
+    tags: ['Generative Models', 'Text-to-Image Models', 'GenAI', 'LLMs'],
+    icon: <BookOpen className="h-7 w-7 text-primary" />,
+    imageUrl: '/images/linux_foundation.png',
+    imageHint: 'linuxfoundation',
+    learnMoreUrl: 'https://training.linuxfoundation.org/training/gen-ai-prompt-engineering-rxm401/?utm_campaign=14251798-25Q3_July_B2C_Organic_Social&utm_content=334516373&utm_medium=social&utm_source',
+    duration: '1 day',
+    format: 'Online',
+    isFeatured: true,
+  },
 
 ];
 
