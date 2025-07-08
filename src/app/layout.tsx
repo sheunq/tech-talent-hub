@@ -4,6 +4,7 @@ import './globals.css';
 import { MainLayout } from '@/components/layout/MainLayout';
 import { Toaster } from '@/components/ui/toaster';
 import { AppProviders } from './providers';
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 
 
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export default function RootLayout({
           <MainLayout>{children}</MainLayout>
           <Toaster />
         </AppProviders>
+        <GoogleAnalytics />
       </body>
     </html>
   );

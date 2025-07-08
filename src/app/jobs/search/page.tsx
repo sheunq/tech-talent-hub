@@ -7,6 +7,1327 @@ import { Loader2 } from 'lucide-react';
 
 // Mock data to be used if the database is empty or fetching fails on the server.
 const mockJobsData: BackendStoredJob[] = [
+  {
+  applyUrl: "https://jobs.lever.co/3pillarglobal/edf427ee-d6bf-4dd8-b639-85997d5832b0",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "India",
+  jobTitle: "Senior Data Engineer",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Senior Data Engineer
+Location: Remote – India
+Department: Product Delivery
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Data Engineer to lead the design, development, and deployment of advanced data solutions. This role is ideal for a visionary technologist who thrives on solving complex problems and shaping the future of data-driven innovation across industries like healthcare, media, and urban tech.
+
+🔧 Key Responsibilities
+- Design and orchestrate complex data workflows using Luigi
+- Develop automation scripts with Python and Linux Bash
+- Manage and optimize SQL databases and Hadoop ecosystem tools
+- Deploy scalable data solutions using AWS services (EC2, S3, RDS, EMR)
+- Implement monitoring and alerting for real-time pipeline visibility
+- Lead cross-functional projects and mentor junior engineers
+- Collaborate with stakeholders to align technical solutions with business goals
+
+✅ Required Qualifications
+- 5–10 years of experience in data engineering
+- Strong hands-on expertise with Snowflake
+- Proficiency in Python, Bash, and SQL
+- Experience with data lakes, data governance, and security compliance
+- Familiarity with CI/CD tools and automation frameworks
+- Knowledge of Spark, Hive, and other big data technologies
+- Excellent communication and leadership skills
+
+🌟 Preferred Experience
+- Background in advanced analytics or data science
+- Experience collaborating with non-technical teams
+- Proven ability to design secure, scalable, and high-performance data architectures
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senor-data-engineer-in-3pillarglobal-at-india-india"
+}
+
+
+
+
+
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/f7dd4cfb-beb8-4a41-8017-a847187b9f87",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Noida, India",
+  jobTitle: "Sr. Software Engineer React.js",
+  jobType: "Hybrid",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Sr. Software Engineer – React.js
+Location: Noida, India (Hybrid)
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is looking for a Senior Software Engineer with expertise in React.js to help build high-quality, scalable, and responsive web applications. You’ll play a key role in delivering innovative digital products across industries like healthcare, media, and urban tech—while mentoring peers and driving engineering excellence.
+
+🔧 Key Responsibilities
+- Develop responsive UIs using React.js
+- Work with SQL Server APIs to manage and retrieve data
+- Implement localization and internationalization features
+- Apply OOP principles to build scalable and maintainable systems
+- Collaborate in Agile teams and contribute to sprint planning and retrospectives
+- Mentor junior engineers and support architectural decisions
+- Ensure code quality through unit testing and adherence to accessibility standards
+
+✅ Required Qualifications
+- 4–5 years of experience in React.js and frontend development
+- Basic understanding of SQL Server
+- Experience with AWS
+- Familiarity with Agile methodologies
+- Strong English communication skills
+- Proven ability to deliver performant, enterprise-grade applications
+
+🌟 Preferred Experience
+- User engagement tracking tools (e.g., Google Analytics, Mixpanel)
+- Knowledge of WCAG accessibility standards
+- Exposure to microservices architecture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "sr-software-engineer-react-js-in-3pillarglobal-at-Noida-India"
+}
+
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/f8c2e296-225e-4cfc-af97-8396c1f8e430",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "Sr AI/ML Engineer",
+  jobType: "Remote",
+  jobCategory: "AI",
+  mainDescription: `Job Title: Senior AI/ML Engineer
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior AI/ML Engineer to lead the design and deployment of scalable, production-grade AI systems. This role focuses on Generative AI, Agentic AI, and LLM-based applications, with a strong emphasis on innovation, mentorship, and ethical AI practices.
+
+🔧 Key Responsibilities
+- Collaborate with cross-functional teams to identify and solve business problems using AI
+- Fine-tune and deploy generative AI models for text, image, video, or audio generation
+- Integrate LLMs into scalable applications using frameworks like LangChain, LangGraph, and LangSmith
+- Implement Agent Chaining and deploy AI agents in production environments
+- Develop and refine prompts for optimal LLM performance
+- Maintain technical documentation and mentor junior engineers
+- Advocate for responsible AI adoption and best practices
+
+✅ Minimum Qualifications
+- Bachelor’s or Master’s in Computer Science, Engineering, or related field
+- 4–7 years of experience in ML, NLP, and deep learning
+- 2+ years of experience building production-grade Gen AI applications
+- Proficiency in Python, FastAPI, and SQL
+- Experience with Google Gemini LLM, Vertex AI, Cloud Run, and Cloud SQL
+- Strong understanding of LLM fine-tuning, RAG, MCP, and prompt engineering
+- Familiarity with CI/CD pipelines and AI model governance
+
+🌟 Preferred Experience
+- Experience with vector databases (e.g., FAISS, Pinecone), Hugging Face, and large datasets
+- Contributions to research, blogs, or open-source projects
+- Solid grasp of software engineering processes and AI ethics
+
+💼 Why Join 3Pillar?
+- Remote-first, flexible work environment
+- Global team with a focus on well-being and professional growth
+- Opportunities to work on impactful, industry-shaping projects
+- Inclusive culture rooted in collaboration and innovation
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "sr-ai-ml-engineer-in-3pillarglobal-at-Romania"
+}
+
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/fea8f9f5-e12c-4af8-94a1-dbf0d23a784e",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Mexico",
+  jobTitle: "Senior Fullstack Software Engineer PHP (Laravel) & React",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Fullstack Software Engineer – PHP (Laravel) & React
+Location: Remote – Mexico
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned Fullstack Engineer to build high-quality, scalable, and secure digital products for enterprise clients. This role emphasizes a product mindset, agile collaboration, and technical leadership across the full software development lifecycle.
+
+🔧 Key Responsibilities
+- Develop performant, testable, and secure code using PHP (Laravel) and React
+- Communicate effectively with stakeholders and present developed features
+- Participate in sprint planning, retrospectives, and agile ceremonies
+- Mentor peers and contribute to engineering communities of practice
+- Drive project delivery from architecture to deployment
+- Collaborate with cross-functional teams to solve user pain points and iterate on solutions
+
+✅ Minimum Qualifications
+- 5+ years of experience with React (JavaScript), PHP, and Laravel
+- Strong grasp of OOP principles, SOLID, and design patterns
+- Experience with UML, C4, or ArchiMate for high-level design
+- Familiarity with OWASP security practices
+- Proficiency in English and Agile methodologies
+- Experience mentoring engineers and influencing technical decisions
+
+🛠️ Technical Requirements
+- Object-Relational Mappers (ORMs)
+- Architectural patterns (Microservices, Serverless)
+- Design patterns (Factory, Singleton, Observer)
+- Unit testing and test-driven development
+- Cloud containerization with Docker/Kubernetes
+
+🎁 Benefits
+- 26 days of Christmas bonus
+- Vacation bonus and discretionary time off
+- Food coupons and major medical insurance
+- Optional life insurance and savings box
+- IMSS, Afore, Infonavit (legal benefits)
+- Career development plan and internal/external training support
+- Remote work setup and WFH support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-fullstack-software-engineer-php-laravel-react-in-3pillarglobal-at-mexico-mexico"
+}
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/ffdd7384-982b-426a-8e3f-9a16209164f5",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "India",
+  jobTitle: "Python Automaton Tester with Networking",
+  jobType: "Remote",
+  jobCategory: "Network",
+  mainDescription: `Job Title: Python Automaton Tester with Networking
+Location: Remote – India
+Department: Product Delivery
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior QA Engineer to lead quality assurance efforts across innovative, high-impact projects. This role goes beyond traditional testing—it's about driving quality excellence, mentoring junior engineers, and delivering robust, scalable solutions in a fast-paced, Agile environment.
+
+🔧 Key Responsibilities
+- Design and execute test strategies, plans, and documentation
+- Develop and maintain Python automation frameworks using Pytest
+- Perform backend testing and REST API validation
+- Lead QA initiatives in Agile/Scrum environments
+- Optimize test automation within CI/CD pipelines
+- Conduct complex data validation using SQL
+- Collaborate across teams to ensure product quality and performance
+
+✅ Required Qualifications
+- 5+ years in software QA with strong documentation and execution skills
+- 4+ years of Python automation experience
+- Proficiency in REST API testing, Linux OS, and backend validation
+- Strong knowledge of networking concepts
+- Experience with tools like Selenium, TestComplete, QTP/UFT
+- Familiarity with Jenkins, VMWare, Bash scripting, and CI/CD
+- Expertise in JIRA, Bugzilla, and defect tracking
+- Self-motivated, detail-oriented, and capable of managing multiple priorities
+
+🌟 Preferred Traits
+- Proven leadership in Agile QA strategy
+- Strong debugging and troubleshooting skills
+- Passion for mentoring and setting quality benchmarks
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "python-automaton-tester-with-networking-in-3pillarglobal-at-india-india"
+}
+, 
+
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/cie/jobs/4386003006",
+  companyName: "cie",
+  companyLogo: "/images/cie.png",
+  location: "United States",
+  jobTitle: "Senior DevOps Engineer",
+  jobType: "Full-time",
+  jobCategory: "Devops",
+  mainDescription: `Job Title: Senior DevOps Engineer
+Location: Remote – United States
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Apollo is seeking a Senior DevOps Engineer to manage and scale its infrastructure while contributing to backend development. This hybrid role blends DevOps expertise with C# backend engineering, supporting a fast-paced, data-driven edtech startup focused on improving student outcomes.
+
+🔧 Key Responsibilities
+- Build and maintain secure, scalable infrastructure across AWS or Azure
+- Collaborate with developers to optimize system performance and availability
+- Automate deployments, monitoring, and incident response
+- Manage containerized environments using Kubernetes and ECS Fargate
+- Monitor and troubleshoot database performance
+- Ensure compliance with security and PCI standards
+- Conduct load and performance testing
+- Continuously research and implement new technologies
+
+✅ Required Qualifications
+- Experience with:
+- AWS or Azure, Kubernetes, Kafka, Terraform, C#
+- TeamCity, Octopus Deploy, Azure DevOps
+- Linux, containers, and automated CI/CD pipelines
+- Familiarity with PostgreSQL, Redis, and Elasticsearch (preferred)
+- Strong understanding of SaaS architecture and security
+- Proven ability to manage production environments with high uptime SLAs
+- Excellent English communication skills
+
+💰 Compensation & Benefits
+- Salary: $150,000 – $170,000/year
+- Early-stage equity
+- Full benefits package
+- Unlimited PTO
+- Career development investment
+
+🌍 About Apollo & Cie
+Apollo is backed by Cie, a venture studio with a track record of launching successful startups. The team is composed of seasoned entrepreneurs and technologists from companies like Yahoo, Amazon, and eBay.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-devops-engineer-in-cie-at-United-States"
+}
+
+,
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/cie/jobs/4580523006",
+  companyName: "cie",
+  companyLogo: "/images/cie.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer
+Location: Remote – United States
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Apollo is an education technology startup focused on improving student outcomes through data-driven solutions. As a Senior Software Engineer, you’ll play a key role in designing and deploying scalable cloud-based systems. You’ll work closely with a seasoned leadership team and contribute to both product architecture and infrastructure in a fast-paced, startup environment.
+
+🔧 Key Responsibilities
+- Design and implement enterprise cloud architecture using .NET Core, C#, Angular, Redis, Kafka, PostgreSQL, and Elasticsearch
+- Translate high-level product requirements into technical solutions
+- Collaborate on product roadmaps and provide accurate time estimates
+- Build and maintain scalable infrastructure on AWS and Azure
+- Adapt quickly to evolving product needs and priorities
+- Communicate technical concepts clearly to non-technical stakeholders
+
+✅ Required Qualifications
+- Proven expertise in enterprise cloud environments
+- Strong experience with cloud services (especially AWS and Azure)
+- Ability to work independently and thrive in a startup culture
+- Excellent communication and collaboration skills
+- Passion for learning and staying current with emerging technologies
+
+💰 Compensation & Benefits
+- Salary range: $160,000 – $180,000/year
+- Early-stage equity
+- Full suite of benefits
+- Career development support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-in-cie-at-United-States"
+}
+
+
+,
+{
+  applyUrl: "https://job-boards.greenhouse.io/yext/jobs/6900125",
+  companyName: "yext",
+  companyLogo: "/images/yext.png",
+  location: "New York",
+  jobTitle: "Software Engineering Manager",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineering Manager
+Location: New York, NY (On-site)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Yext is seeking a Software Engineering Manager to lead the full software development lifecycle for its digital presence platform. You’ll manage a team of 5–10 engineers, drive product development, and collaborate with cross-functional teams to deliver scalable, high-impact solutions. This is a hands-on leadership role in a fast-paced, agile environment.
+
+🔧 Key Responsibilities
+- Lead design, implementation, and deployment of software features
+- Collaborate with executives to define product roadmaps
+- Mentor engineers and support their career growth
+- Ensure timely delivery through sprint planning and daily standups
+- Foster cross-team collaboration and innovation
+
+✅ Required Qualifications
+- BA/BS in Computer Science or related field
+- 7+ years of software development experience
+- 5+ years managing engineering teams
+- Strong background in software architecture and design
+- Proficiency in Java, C++, Python, or similar (Java preferred)
+- Adaptability to new technologies and startup environments
+
+💰 Compensation & Benefits
+- Annual base salary: $148,500 – $303,500 USD
+- Eligible for equity and performance-based bonuses
+- Comprehensive benefits: medical, dental, vision, life insurance, disability, 401(k), and generous PTO
+
+
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineering-manager-in-yext-at-new-york-united-states"
+}
+
+,
+
+{
+  applyUrl: "https://www.excella.com/careers/apply/4577634005",
+  companyName: "excella",
+  companyLogo: "/images/excella.png",
+  location: "United States",
+  jobTitle: "Senior Data Engineer",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Senior Data Engineer
+Location: Remote or Arlington, Virginia, USA
+Department: Data & Analytics
+Employment Type: Full-Time
+
+🧠 Role Overview
+Excella is seeking a Senior Data Engineer to design and build modern data products, including data lakes and cleansed repositories. You’ll work with batch and streaming pipelines, collaborate across departments, and lead technical delivery using Agile frameworks like Scrum or Kanban.
+
+🔧 Key Responsibilities
+- Architect and deploy data acquisition initiatives across multi-tenant environments
+- Design, develop, and maintain data pipelines and services on AWS
+- Implement automation for data ingestion and pipeline workflows
+- Present proof-of-concepts and technical recommendations to stakeholders
+- Apply best practices in test-driven development and infrastructure as code
+
+✅ Minimum Qualifications
+- 3+ years of experience in data engineering
+- Proficiency in SQL and Python for pipeline development
+- Experience with structured and unstructured data
+- Familiarity with orchestration tools like DBT, AWS Glue, Apache NiFi, Airflow
+- Experience with GitLab, CloudFormation, or Terraform
+
+🌟 Preferred Qualifications
+- Strong understanding of schema design and analytics over unstructured data
+- Ability to prototype and evaluate emerging technologies
+- Empathy and communication skills for stakeholder collaboration
+- Commitment to data privacy, integrity, and DevOps Research and Assessment (DORA) principles
+
+🎁 Benefits & Perks
+- Flexible remote-first work model
+- Top-tier medical, dental, and vision plans
+- 8 weeks of parental leave, pet insurance, Care.com membership
+- 15 vacation days, 6 federal holidays, 4 floating holidays
+- TechEleX program: choose your Mac/PC and keep it after 3 years
+- $25/month internet reimbursement
+- 3 days of paid professional development annually
+- Access to Headspace, Talkspace, and wellness events
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-data-engineer-in-excella-at-united-states-united-states"
+}
+
+, 
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/backblaze/jobs/4675043008",
+  companyName: "backblaze",
+  companyLogo: "/images/backblaze.png",
+  location: "Costa Rica",
+  jobTitle: "Front End Developer (Part-time)",
+  jobType: "Remote",
+  jobCategory: "Developer",
+  mainDescription: `Job Title: Front End Developer (Part-time)
+Location: Remote – Argentina, Colombia, Costa Rica, or Mexico
+Department: Web Development & Marketing
+Employment Type: Part-Time
+
+🧠 Role Overview
+Backblaze is seeking a part-time Front End Developer to build performant, accessible, and user-friendly web experiences. You’ll collaborate with engineering, UI/UX, and marketing teams to support both customer-facing features and internal initiatives. This role emphasizes modern front-end development, component reuse, and integration with third-party tools.
+
+🔧 Key Responsibilities
+- Build and maintain reusable front-end components using JavaScript, HTML, CSS, and jQuery
+- Support marketing campaigns, landing pages, and site updates
+- Improve site performance, accessibility, and maintainability
+- Collaborate on API integrations and third-party tool support (e.g., Google Tag Manager, HubSpot)
+- Work independently from a prioritized task queue and ensure code quality
+
+✅ Required Qualifications
+- 3+ years of experience with JavaScript, HTML, CSS, and jQuery
+- Familiarity with React, Redux, SASS, and Node.js
+- Understanding of cross-browser compatibility, SEO principles, and HTTP security
+- Experience with tools like Jira, Jenkins, Git, and Splunk
+- Comfortable with unit testing and code reviews
+- Bonus: Experience with Webflow, WordPress, Document360, and HubSpot
+
+🌍 Why Backblaze?
+- Publicly traded cloud storage leader with over 500K customers in 175+ countries
+- Culture of autonomy, collaboration, and continuous learning
+- Strong commitment to diversity, equity, and inclusion
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "front-end-developer-part-time-in-backblaze-at-costa-rica-costa-rica"
+}
+
+, 
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/backblaze/jobs/4741942008",
+  companyName: "backblaze",
+  companyLogo: "/images/backblaze.png",
+  location: "Costa Rica",
+  jobTitle: "Software Engineer III",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer III (Full Stack Developer)
+Location: Remote – Argentina, Colombia, Costa Rica, or Mexico
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Backblaze is seeking a mid-level Full Stack Web Developer to build both internal and customer-facing features. You’ll work across the stack—developing intuitive front-end interfaces and performant, multi-threaded backend services. This role is ideal for someone who thrives in a collaborative, quality-driven environment and is passionate about usability and scalable systems.
+
+🔧 Key Responsibilities
+- Develop front-end features using HTML, CSS, ReactJS, and jQuery
+- Build and maintain backend services using Java, Servlets, and Apache Tomcat
+- Convert mockups into functional, responsive web pages
+- Lead technical planning, estimation, and delivery of features
+- Troubleshoot and resolve customer issues
+- Mentor junior developers and contribute to code reviews
+
+✅ Required Qualifications
+- 3+ years of experience with Java, Servlets, and Apache Tomcat
+- Proficiency in HTML, CSS, JavaScript (ES5), and frameworks like Angular, React, or Vue.js
+- Experience with Bootstrap, AJAX, and cross-browser compatibility
+- Familiarity with tools like Jira, Jenkins, Git, and Splunk
+- Strong understanding of HTTP and web security best practices
+- Commitment to unit testing and stable code check-ins
+
+🌟 Nice to Have
+- Familiarity with ES2015+, Redux, SASS, Node.js
+- Experience with JSP, Python, Cassandra
+- Knowledge of Selenium WebDriver and automation testing
+- Understanding of SEO principles
+- Experience with large-scale systems and cross-platform development
+
+💡 Ideal Candidate Traits
+- Passionate about building user-friendly interfaces and APIs
+- Comfortable working independently with clear priorities
+- Quality-focused and detail-oriented
+- Collaborative and customer-centric mindset
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-iii-in-backblaze-at-costa-rica-costa-rica"
+}
+
+,
+
+
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/backblaze/jobs/4781854008",
+  companyName: "backblaze",
+  companyLogo: "/images/backblaze.png",
+  location: "Argentina, Colombia, Costa Rica, or Mexico",
+  jobTitle: "Data Analyst",
+  jobType: "Remote",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Data Analyst
+Location: Remote – Argentina, Colombia, Costa Rica, or Mexico
+Department: Revenue Strategy & Operations
+Employment Type: Full-Time
+
+🧠 Role Overview
+Backblaze is hiring a Data Analyst to support its Marketing and FP&A teams by delivering actionable insights from large datasets. You’ll work across marketing, sales, and product usage data to uncover trends, optimize ROI, and support strategic decision-making. This is a high-impact, individual contributor role in a fast-growing cloud storage company.
+
+🔧 Key Responsibilities
+- Build and maintain reporting for revenue metrics (e.g., NRR, GRR, ARPU)
+- Develop funnel analysis and marketing performance dashboards
+- Analyze cross-functional datasets to identify trends and insights
+- Design robust data tables, sources, and dashboards for long-term scalability
+
+✅ Required Qualifications
+- 2+ years in a data analytics role
+- Advanced SQL skills and experience with Snowflake, Tableau, and Salesforce
+- Strong analytical and visualization skills (Tableau dashboards)
+- Familiarity with marketing, sales, and finance KPIs
+- Ability to use AI tools for data analysis
+- Bachelor’s degree in a quantitative field (e.g., Math, Statistics, CS, Finance)
+- Excellent communication and problem-solving skills
+
+🌍 Why Backblaze?
+- Publicly traded, cloud storage leader managing over 3 billion GB of data
+- Over 500K customers in 175+ countries
+- Culture of learning, inclusion, and innovation
+- Committed to diversity, equity, and belonging
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-analyst-in-backblaze-at-costa-rica-costa-rica"
+}
+
+,
+
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/3cloud/jobs/7985803002",
+  companyName: "3cloud",
+  companyLogo: "/images/3cloud.png",
+  location: "Foster City",
+  jobTitle: "Architect - Cloud Platform",
+  jobType: "Remote",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Architect – Cloud Platform
+Location: Remote – United States
+Department: Cloud Platform Practice
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Cloud is hiring a Cloud Platform Architect to lead Azure-based infrastructure transformations for enterprise clients. This role blends technical leadership, pre-sales consulting, and solution architecture, with a focus on designing secure, scalable, and innovative cloud solutions. You’ll serve as a trusted advisor to clients and collaborate across departments to drive business value and technical excellence.
+
+🔧 Key Responsibilities
+- Build strong relationships with client stakeholders and guide their Azure transformation
+- Provide technical expertise during sales pursuits and solution design
+- Lead creation of reference architectures, reusable IP, and enablement content
+- Mentor team members and foster a culture of innovation and knowledge sharing
+- Collaborate cross-functionally to solve complex integration and infrastructure challenges
+- Drive development of accelerators and internal tools to enhance service delivery
+
+✅ Required Qualifications
+- 10+ years in IT with a focus on cloud computing, infrastructure, and security
+- 3–5 years of hands-on experience in cloud architecture and implementation
+- Deep expertise in Microsoft Azure; familiarity with AWS and GCP is a plus
+- Proven success in pre-sales and client-facing consulting
+- Strong communication, presentation, and mentoring skills
+- Experience with CI/CD, modern software development, and DevOps practices
+- Microsoft Certified: Azure Solutions Architect Expert (preferred)
+
+💰 Compensation
+- Base salary range: $133,600 – $193,700 USD
+- Includes eligibility for discretionary/utilization bonus
+- Final offer based on experience, skills, and location
+
+🎁 Benefits & Perks
+- Flexible remote-first work model
+- 401(k) with 50% match on 6% contributions
+- Generous PTO + 11 paid holidays
+- Medical, dental, and vision insurance
+- 100% employer-paid life and disability coverage
+- Paid parental leave and adoption assistance
+- $67/month tech and home office allowance
+- Employee Assistance Program
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "architect-cloud-platform-in-3cloud-at-foster-city-anywhere"
+}
+
+,
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/3cloud/jobs/7990652002",
+  companyName: "3cloud",
+  companyLogo: "/images/3cloud.png",
+  location: "Philippines",
+  jobTitle: "Lead Power BI Developer",
+  jobType: "Remote",
+  jobCategory: "Developer",
+  mainDescription: `Job Title: Lead Power BI Developer
+Location: Remote – Philippines
+Department: Data & Analytics
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Cloud is hiring a Lead Power BI Developer to design and deliver data-driven business intelligence solutions. This role emphasizes Power BI expertise, data modeling, and client engagement, with a strong focus on building scalable, high-performance reporting systems using Microsoft technologies and Databricks.
+
+🔧 Key Responsibilities
+- Conduct discovery meetings to gather reporting requirements
+- Design star schema data models with calculated columns and DAX measures
+- Build Power BI dashboards and reports from multiple data sources
+- Guide clients on Power BI licensing, deployment, and optimization
+- Develop and optimize data pipelines using Databricks
+- Support Power BI service deployment (Gateways, DirectQuery, DataFlows)
+- Lead and mentor team members on BI best practices
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Engineering, Data Science, or related field
+- 8+ years of experience in BI and data solutions (Power BI, SSRS, PowerPivot, etc.)
+- Strong knowledge of Power Query/M, DAX, and T-SQL
+- Experience with Databricks, data mashups, and dimensional modeling
+- Proven leadership and team management experience
+- Excellent communication and problem-solving skills
+
+🌟 Preferred Experience
+- Power BI tenant/workspace management
+- Custom visualizations using Python or R
+- Advanced SQL tuning and data quality assessment
+- Experience with Power BI Embedded and Report Server
+- Familiarity with Azure Data Factory, Data Lake, and Azure SQL DB
+
+💡 Professional Traits
+- Team-oriented and collaborative mindset
+- Passion for continuous learning and innovation
+- Strong analytical and client-facing communication skills
+- Ability to thrive in a fast-paced, dynamic environment
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "lead-power-bi-developer-in-3cloud-at-philippines-philippines"
+}
+
+,
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/3cloud/jobs/8048289002",
+  companyName: "3cloud",
+  companyLogo: "/images/3cloud.png",
+  location: "Philippines",
+  jobTitle: "Architect - AI",
+  jobType: "Remote",
+  jobCategory: "Architect",
+  mainDescription: `Job Title: Senior Power Platform Developer
+Location: Remote – Philippines
+Department: Consulting
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Cloud is seeking a Senior Power Platform Developer to lead the design and implementation of Azure-based business applications. This client-facing role focuses on building scalable, secure, and intuitive solutions using Power Apps, Power Automate, and related Microsoft technologies. You’ll work closely with project teams and clients to deliver impactful digital transformation initiatives.
+
+🔧 Key Responsibilities
+- Deploy Azure-based solutions that meet client needs for security, scalability, and performance
+- Translate business requirements into technical designs using Power Platform tools
+- Develop Power Apps (canvas and model-driven), Power Automate workflows, and custom connectors
+- Configure on-premises data gateways and optimize performance for hybrid data sources
+- Provide guidance on licensing, security, and best practices for Dataverse and Dynamics 365
+- Collaborate with clients and internal teams to ensure successful delivery
+
+✅ Required Qualifications
+- 5+ years of experience with Power Apps and Power Platform
+- Strong understanding of Dataverse, Power Platform licensing, and Office 365 security
+- Experience with Dynamics 365, data modeling, and reporting repositories
+- Proficiency in Power Automate, Power BI, and custom connector development
+- Background in C#/.NET and web/client-side development
+- Ability to design intuitive user interfaces and optimize performance
+
+🌟 Preferred Attributes
+- Experience with on-premises data integration
+- Familiarity with mid-shift hours (5pm–2am PHST)
+- Strong communication and client engagement skills
+
+💡 Why 3Cloud?
+3Cloud is a Microsoft Azure consulting firm known for its collaborative culture, innovation, and commitment to employee growth. The company fosters a diverse and inclusive environment where experimentation and feedback are encouraged.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "architect-ai-in-3cloud-at-Philippines"
+}
+
+, 
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/3cloud/jobs/8048289002",
+  companyName: "3cloud",
+  companyLogo: "/images/3cloud.png",
+  location: "United States",
+  jobTitle: "Architect - AI",
+  jobType: "Remote",
+  jobCategory: "Architect",
+  mainDescription: `Job Title: Architect – AI
+Location: Remote – United States
+Department: Data Practice
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Cloud is seeking an AI Architect to lead client-facing data strategy engagements and design modern data platforms using Microsoft Azure technologies. This role blends technical leadership, consulting, and solution architecture, with a focus on Gen AI, data governance, and analytics. You’ll collaborate with cross-functional teams to build strategic roadmaps that drive digital transformation and sustainable business value.
+
+🔧 Key Responsibilities
+- Lead delivery of data engagements and AI-driven solutions
+- Design modern data platform architectures (Azure SQL, Synapse, Data Lake, etc.)
+- Conduct workshops and assessments to define client needs and future-state strategies
+- Mentor teams and oversee implementation of scalable, secure solutions
+- Develop roadmaps, business cases, and technical documentation
+- Stay current with emerging technologies and influence 3Cloud’s offerings
+
+✅ Required Qualifications
+- Bachelor’s in Computer Science, IT, or related field
+- 10+ years in data and analytics; 5+ years in architecture; 2+ years with Azure AI
+- Expertise in:
+- Azure AI & Foundry (Prompt Flow, LLM Ops, Cognitive Services, RAG)
+- Data Warehousing (Azure SQL, Synapse)
+- ETL/ELT, Data Governance, Power BI, Azure Data Factory, Databricks
+- DevOps, ARM templates, Azure Bot Services
+- Experience with frameworks like DMM, DAMA, TOGAF
+- Strong communication, facilitation, and leadership skills
+
+🌟 Preferred Experience
+- Financial valuation of data and analytics
+- Custom Power BI visualizations (D3, jQuery)
+- Tools like GitHub Copilot, Replit, Cursor
+- Azure infrastructure design and DevOps pipelines
+- Certifications in Azure or related technologies
+
+💰 Compensation & Benefits
+- Base salary: $148,600 – $193,700 USD
+- Annual discretionary/utilization bonus
+- Flexible remote-first work model
+- 401(k) with 50% match on 6% contributions
+- Generous PTO + 11 paid holidays
+- Medical, dental, vision, life, and disability insurance
+- $67/month tech and home office allowance
+- Paid parental leave and adoption assistance
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "architect-ai-in-3cloud-at-United-States"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/1f85de05-bbbe-4f57-b6b0-5a17fb765fe6",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "Heredia",
+  jobTitle: "Java Developer",
+  jobType: "Hybrid",
+  jobCategory: "Developer",
+  mainDescription: `Job Title: Java Developer
+Location: Hybrid – Heredia, Costa Rica
+Department: Professional Services – Data Management
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Java Developer to join its Data Management team, which supports Professional and Enterprise Archive clients. You’ll design and implement legacy data migration solutions and automation tools that power Smarsh’s data engineering initiatives. This role is ideal for a senior engineer with strong Java expertise and experience in cloud-native microservices.
+
+🔧 Key Responsibilities
+- Architect and design data migration solutions
+- Develop technical documentation, including data flow diagrams and requirements analysis
+- Build and maintain migration modules and automation tools
+- Execute project plans and participate in peer code reviews
+- Manage source code using version control systems
+
+✅ Required Qualifications
+- 10+ years of experience in software design, development, and architecture
+- 5+ years of experience in financial services applications
+- Strong coding background in Java
+- Experience building microservices in AWS
+- Proficiency in Linux and Windows environments
+- Solid understanding of software development best practices: version control, unit testing, dependency management
+- Strong documentation habits and ability to roadmap productized code
+- BS/MS in Computer Science, IT, MIS, Math, or related field
+
+💰 Compensation
+- Monthly salary range: ₡2,400,000 – ₡2,800,000 CRC
+- Final offer based on experience, education, and local cost-of-living assessments
+
+🌍 About Smarsh
+Smarsh helps over 6,500 organizations manage risk and uncover insights in digital communications across 80+ channels. With a culture rooted in innovation, collaboration, and inclusion, Smarsh has earned consistent recognition as a top workplace and technology leader.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "java-developer-in-smarsh-at-heredia-costa-rica"
+}
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/39f1eae1-1910-4c70-8e49-95feaee341cb",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "India",
+  jobTitle: "Cloud Engineer III-Observability",
+  jobType: "Hybrid",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Cloud Engineer III – Observability
+Location: Hybrid – India
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Cloud Engineer III to join its Observability team, which powers the telemetry and monitoring infrastructure used across all product teams. You’ll help build scalable, secure, and cost-effective observability systems that enable real-time insights and operational excellence across the Smarsh platform.
+
+🔧 Key Responsibilities
+- Design and implement automation for provisioning and monitoring observability services
+- Develop reusable integrations with third-party tools (CI/CD, monitoring, container registries)
+- Analyze business and technical scenarios to guide observability strategy
+- Support production systems, perform root cause analysis, and implement fixes
+- Participate in a 24/7 on-call rotation for critical systems
+- Continuously improve resource utilization and delivery maturity through automation
+
+✅ Required Qualifications
+- Degree in Computer Science from a reputed institution
+- 4–6 years of experience in DevOps or software engineering roles
+- Expertise in Kubernetes on AWS and Infrastructure as Code (Terraform, CloudFormation)
+- Proficiency in Python scripting and automation
+- Experience with CI/CD tools (Concourse, Jenkins, Ansible)
+- Familiarity with observability tools: Prometheus, Grafana, ELK stack, distributed tracing
+- Knowledge of cloud-native tools: Istio, Argo CD, Keda, Karpenter, etc.
+- Understanding of SRE principles and concepts like SLIs, SLOs, and error budgets
+
+🌍 About the Team & Culture
+You’ll join the Fabric Insight group, a team that blends software and systems engineering to build secure, developer-friendly infrastructure. Smarsh fosters a culture of collaboration, humility, and innovation, and has been consistently recognized as a top workplace by Comparably.com.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "cloud-engineer-iii-observability-in-smarsh-at-india-india"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/3f37a279-0994-4143-9942-7724dd3dd082",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "United States",
+  jobTitle: "IT Microsoft Systems Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: IT Microsoft Systems Engineer
+Location: Remote – United States
+Department: Shared Services
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is seeking a seasoned IT Microsoft Systems Engineer to serve as the subject matter expert (SME) for all things Microsoft. This role involves supporting a distributed workforce across nine offices, managing enterprise-scale Microsoft environments, and leading complex IT projects with a focus on security, scalability, and operational excellence.
+
+🔧 Key Responsibilities
+- Lead and execute large-scale Microsoft infrastructure projects
+- Administer and optimize Azure Active Directory, Office 365, SCCM, Intune, and Windows Server environments
+- Manage hybrid environments including AutoPilot, mobile device management, and application deployment
+- Provide technical guidance and mentorship to junior staff
+- Collaborate cross-functionally to solve complex IT challenges
+- Maintain vendor relationships and ensure compliance with licensing and security standards
+
+✅ Required Qualifications
+- Professional graduate degree
+- 11+ years of corporate IT experience in fast-paced software/cloud environments
+- Deep expertise in Windows, Office 365, Skype for Business, Exchange, and SCCM
+- Strong troubleshooting, project management, and communication skills
+- Experience leading teams and reporting service desk metrics
+
+💰 Compensation
+- Base salary range: $132,000 – $165,000/year
+- Includes company bonus and stock options
+- Salary determined by experience, location, and internal equity
+
+🎁 Benefits
+- “Take what you need” holiday policy
+- Private medical, dental, and life insurance
+- Group income protection and wellness allowance
+- Adoption assistance and employee assistance program
+- Strong maternity/paternity leave and workplace pension
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "it-microsoft-systems-engineer-in-smarsh-at-United-States"
+}
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/4dfa1c24-bbe6-4bd5-af22-9f99f54d98a7",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "India",
+  jobTitle: "Full Stack Engineer (SE III)",
+  jobType: "Hybrid",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Full Stack Engineer (SE III)
+Location: Hybrid – India
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Full Stack Engineer to develop and maintain its API Administration Suite and API Portal. This role involves building scalable backend services with Java/Spring Boot and responsive frontend applications using Angular, with a strong focus on performance, security, and microservices architecture.
+
+🔧 Key Responsibilities
+Backend Development (50%)
+- Design and implement RESTful APIs using Java 11+ and Spring Boot
+- Integrate with Kong Gateway and Keycloak
+- Build microservices and implement caching, messaging, and performance optimizations
+- Develop automated test suites and ensure scalability
+Frontend Development (30%)
+- Build responsive UI components with Angular, TypeScript, and Material Design
+- Implement authentication flows and interactive dashboards
+- Optimize frontend performance and maintain reusable components
+Technical Design & Architecture (20%)
+- Design scalable microservices architecture
+- Create technical specifications and enforce security best practices
+- Participate in code reviews and mentor junior developers
+
+✅ Required Technical Expertise
+| Backend | Frontend | Additional | 
+| Java 11+, Spring Boot 2.x/3.x | Angular (2+), TypeScript | Git, CI/CD, Docker | 
+| Spring Security, Spring Cloud | RxJS, NgRx, HTML5/CSS3 | OAuth 2.0/OpenID Connect | 
+| RESTful APIs, Kafka, MongoDB | Jasmine, Karma | Elasticsearch, Monitoring & Logging | 
+| JUnit, Mockito | Responsive Design | Caching Strategies | 
+
+
+
+🎓 Qualifications
+- Bachelor’s or Master’s in Computer Science or related field
+- 5+ years of Java development experience
+- 3+ years of Angular development experience
+- Strong understanding of API design and microservices
+- Familiarity with cloud platforms (preferably AWS)
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "full-stack-engineer-se-iii-in-smarsh-at-india-india"
+}
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/709fe26d-8778-441b-ab96-861145daaecc",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "India",
+  jobTitle: "Senior Full Stack Developer",
+  jobType: "Hybrid",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Senior Full Stack Developer
+Location: Hybrid – India
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Senior Full Stack Developer to help build and scale its Enterprise Archive platform—a cloud-native system that handles petabytes of data for archiving, search, and discovery. You’ll work with cutting-edge technologies like Elasticsearch, MongoDB, Kafka, and Hazelcast to solve complex storage and performance challenges.
+
+🔧 Key Responsibilities
+- Design and develop enterprise-level full stack applications
+- Build scalable microservices using Java, Spring Boot, and REST APIs
+- Develop reusable UI components with Angular and TypeScript
+- Implement unit tests using Karma and Jasmine
+- Contribute to Micro Frontend architecture and Agile/Scrum workflows
+- Collaborate across teams to deliver high-quality, cloud-native solutions
+
+✅ Required Qualifications
+- Bachelor’s or Master’s degree in Engineering
+- 8–10 years of hands-on full stack development experience
+- Proficiency in Angular, TypeScript, Java, Spring Boot, and REST APIs
+- Experience with MongoDB and Microservices architecture
+- Familiarity with cloud-native development, deployment, and Agile practices
+
+🌟 Nice to Have
+- Experience with Kubernetes, CI/CD pipelines, and Elasticsearch
+
+🌍 About Smarsh
+Smarsh helps over 6,500 organizations manage risk and uncover insights in digital communications across 80+ channels. With a strong culture of innovation, collaboration, and inclusion, Smarsh has earned consistent recognition as a top workplace and technology leader.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-full-stack-developer-in-smarsh-at-india-india"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/804d289e-d520-4081-93f1-29bebb6fb0d9",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "Portland, Oregon",
+  jobTitle: "Cloud Platform Engineer – Networks",
+  jobType: "Hybrid",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Cloud Platform Engineer – Networks
+Location: Hybrid – Portland, Oregon
+Department: Corporate Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is seeking a Senior Cloud Platform Engineer to architect and maintain a next-generation hybrid cloud platform. This role blends deep expertise in cloud networking, security, DevOps, and infrastructure automation, with a focus on AWS environments. You’ll play a key role in ensuring platform reliability, scalability, and security across Smarsh’s enterprise systems.
+
+🔧 Key Responsibilities
+Platform Architecture (40%)
+- Design and implement cloud network architectures (VPCs, subnets, Transit Gateways)
+- Manage AWS services like Route 53, Direct Connect, and VPNs
+- Ensure multi-tenant isolation, high availability, and disaster recovery
+- Lead security incident response and define integration patterns for microservices
+Infrastructure Automation (40%)
+- Develop Infrastructure as Code (IaC) using Terraform
+- Implement GitOps workflows and CI/CD pipelines
+- Automate operational tasks and manage backup/recovery procedures
+Operations & Observability (20%)
+- Build monitoring and alerting systems using Prometheus and DataDog
+- Troubleshoot complex network issues and maintain runbooks
+- Participate in on-call rotations
+
+✅ Required Skills & Qualifications
+- 6+ years in platform or site reliability engineering roles
+- Strong experience with AWS, Terraform, Kubernetes, and Docker
+- Proficiency in scripting (e.g., Shell, Git, Concourse CI)
+- Deep understanding of network security, OAuth 2.0, OpenID Connect, and Keycloak
+- Bachelor’s or Master’s in Computer Science or related field
+- AWS Advanced Networking – Specialty Certification (preferred)
+
+💰 Compensation
+- Base salary range: $113,000 – $145,000/year
+- Includes company bonus, stock options, and local cost-of-living adjustments
+
+🎁 Benefits
+- “Take what you need” holiday policy
+- Private medical, dental, and life insurance
+- Group income protection and wellness allowance
+- Adoption assistance and strong parental leave
+- Employee assistance program and pension scheme
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "cloud-platform-engineer-–-networks-in-smarsh-at-Portland-Oregon"
+}
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/9c10c67b-8eee-471a-960d-7501f975e818",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "India",
+  jobTitle: "Full Stack Developer",
+  jobType: "Hybrid",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Full Stack Developer
+Location: Hybrid – India
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Full Stack Developer to join its Enterprise Engineering division. You’ll contribute to the development of Enterprise Archive, a cloud-based platform that handles petabytes of data for archiving, search, and discovery. The role involves building scalable, cloud-native applications using modern front-end and back-end technologies.
+
+🔧 Key Responsibilities
+- Develop enterprise-grade applications using Angular, TypeScript, Java, and Spring Boot
+- Implement and test UI components and services using Karma and Jasmine
+- Work within Agile/Scrum teams to deliver high-quality software
+- Contribute to micro frontend architecture and collaborate on scalable design
+- Ensure performance, maintainability, and security of applications
+
+✅ Required Qualifications
+- Bachelor’s or Master’s in Engineering or MCA
+- 3–6 years of hands-on software development experience
+- Proficiency in Angular, TypeScript, HTML5, CSS3
+- Strong foundation in Core Java and Spring Boot
+- Familiarity with unit testing frameworks and Agile methodologies
+- Experience with Micro Frontend patterns
+
+🌟 Preferred Qualifications
+- Understanding of Microservices architecture
+- Experience with MongoDB, Elasticsearch, and other NoSQL technologies
+- Familiarity with cloud-native development and deployment practices
+
+🌍 About Smarsh
+Smarsh helps over 6,500 organizations manage risk and uncover insights in digital communications across 80+ channels. With a strong culture of innovation, collaboration, and inclusion, Smarsh has earned consistent recognition as a top workplace and technology leader.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "full-stack-developer-in-smarsh-at-india-india"
+}
+
+,
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/aaecddde-66b8-424b-ad69-e833440e15be",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "India",
+  jobTitle: "Software Engineer III",
+  jobType: "Hybrid",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer III
+Location: Hybrid – India
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is seeking a Software Engineer III to help build scalable APIs, integrations, and open-source tools that power its Internal Developer Portal (IDP) ecosystem. You’ll work cross-functionally to design and maintain data pipelines, contribute to open-source projects, and develop developer-centric infrastructure that supports secure, high-performance data flow.
+
+🔧 Key Responsibilities
+- Design and maintain robust, secure APIs for IDP data ingestion
+- Build open-source integrations with third-party tools (e.g., Jenkins, GitLab, Prometheus)
+- Develop and manage data pipelines and transformation workflows
+- Contribute to and maintain open-source tools that enhance the IDP ecosystem
+- Collaborate with DevOps, Platform Engineering, and Security teams
+- Write unit/integration tests and conduct code reviews
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field (or equivalent experience)
+- Proficiency in Python and frameworks like FastAPI, Django REST, or Flask
+- Experience with event-driven architecture and queuing systems (Kafka, RabbitMQ, SQS)
+- Familiarity with RBAC, Kubernetes, Docker, and cloud platforms (AWS, GCP, Azure)
+- Strong understanding of data serialization (JSON, YAML) and ETL workflows
+- Experience with PostgreSQL, MongoDB, and GitHub workflows
+
+🌟 Preferred Qualifications
+- Familiarity with Port or other IDP tools
+- Experience with API security, Terraform, Pulumi, and CI/CD observability
+- Knowledge of DORA metrics and testing frameworks like pytest or unittest
+
+🎁 Why Join Smarsh?
+- Work with cutting-edge AI/ML and cloud technologies
+- Join a diverse, award-winning culture focused on innovation and collaboration
+- Contribute to open-source and developer-first tools
+- Be part of a global team that values authenticity and continuous learning
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-iii-in-smarsh-at-india-india"
+}
+
+,
+
+
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/c5846b19-6df6-4581-b14c-59ed172cf1fb",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "United Kingdom",
+  jobTitle: "Software Engineer II",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Software Engineer II
+Location: Remote – UK (including Belfast)
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Software Engineer II to join its Workload Management team, a core part of the Smarsh Fabric platform. This team builds secure, scalable infrastructure and data solutions that support enterprise applications. The role emphasizes DevOps culture and Site Reliability Engineering (SRE) principles.
+
+🔧 Key Responsibilities
+- Develop an API-first platform for infrastructure management
+- Write high-quality, reusable, and testable code
+- Automate workflows for data store infrastructure
+- Implement security best practices (auth, encryption, auditing)
+- Provide operational support for data clusters
+- Participate in on-call rotations to ensure system reliability
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Engineering, or equivalent experience
+- 2–4 years in DevOps or software engineering
+- Proficiency in Python, Java, or Go
+- Familiarity with Terraform and other IaC tools
+- Experience with AWS, Azure, or GCP
+- CI/CD experience (e.g., Jenkins, Tekton)
+- Hands-on with Kubernetes and container orchestration
+- Knowledge of observability tools (e.g., Prometheus, Grafana, ELK stack)
+- Strong problem-solving and API design skills
+
+🌟 Preferred Qualifications
+- Experience running production workloads on AWS
+- Familiarity with Elasticsearch, MongoDB, Kafka
+- Python experience, especially with Django
+
+🎁 Benefits & Perks
+- Competitive salary + company bonus
+- “Take what you need” holiday policy
+- Private medical and dental insurance
+- Group life assurance and income protection
+- Monthly wellness allowance
+- Stock options and adoption assistance
+- Strong maternity/paternity leave
+- Inclusive, award-winning culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-ii-in-smarsh-at-United-Kingdom"
+}
+
+, 
 
 {
   applyUrl: "https://jobs.lever.co/brillio-2/c510c2d4-5451-416f-b5b6-b22cd8d4cad6",
