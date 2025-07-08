@@ -12,7 +12,6 @@ import { ArrowLeft, MapPin, Briefcase, DollarSign, CalendarDays, Tag, AlertTrian
 import type { Job } from '@/components/jobs/JobCard';
 import { formatDistanceToNow } from 'date-fns';
 import { ApplicationButton } from '@/components/jobs/ApplicationButton';
-import { AdSenseUnit } from '@/components/ads/AdSenseUnit';
 
 interface JobDetailPageContentProps {
   jobId: string;
@@ -183,17 +182,7 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
         </div>
         
         <div className="lg:col-span-1">
-          <div className="sticky top-24">
-             <h3 className="font-semibold mb-2 text-center text-muted-foreground text-sm">Advertisement</h3>
-             <Card>
-                <CardContent className="p-2">
-                  <AdSenseUnit
-                    adClient="ca-pub-6433526967216348"
-                    adSlot="1203464476"
-                  />
-                </CardContent>
-             </Card>
-          </div>
+          {/* Ad unit removed */}
         </div>
       </div>
     </div>

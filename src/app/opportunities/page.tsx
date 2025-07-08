@@ -66,7 +66,7 @@ const mockOpportunities: Opportunity[] = [
     id: 'Dell-Technologies-World-2026',
     type: 'Event',
     title: 'Dell Technologies World 2026-We’re reshaping the future of business, together',
-    provider: 'Dell Technologies World',
+    provider: 'Dell Technologies',
     description: 'The premier event for DevOps professionals, featuring workshops, keynotes, and networking opportunities.',
     tags: ['Conference', 'Artificial Intelligence', 'Machine Learning'],
     icon: <CalendarDays className="h-7 w-7 text-primary" />,

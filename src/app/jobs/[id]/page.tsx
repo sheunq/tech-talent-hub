@@ -8,6 +8,2622 @@ import { getAllJobs } from '@/services/jobDbService';
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
 
+
+  
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/e60ee722-cbb9-42f2-a827-22c96c6e186b",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "Portland",
+  jobTitle: "Cloud Platform Engineer – Information Security",
+  jobType: "Hybrid",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Cloud Platform Engineer – Information Security
+Location: Hybrid – Portland, OR
+Department: Corporate Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is seeking a Senior Cloud Platform Engineer to architect and maintain a secure, scalable hybrid cloud platform. This role blends deep expertise in AWS, identity and access management, DevOps, and information security, with a focus on automation, observability, and operational excellence.
+
+🔧 Key Responsibilities
+Platform Architecture (40%)
+- Design and implement IAM environments and secure AWS accounts
+- Ensure multi-tenant isolation, resource management, and compliance
+- Lead security incident response and develop mitigation tools
+- Architect high-availability and disaster recovery solutions
+- Create architectural diagrams and define microservices integration patterns
+Infrastructure Automation (40%)
+- Use Terraform and GitOps to manage AWS infrastructure
+- Build and maintain CI/CD pipelines and automate operational tasks
+- Manage platform-wide backup and recovery procedures
+Operations & Observability (20%)
+- Implement monitoring with Prometheus and DataDog
+- Create alerting systems and dashboards
+- Troubleshoot complex platform issues and maintain runbooks
+- Participate in on-call rotation
+
+✅ Required Qualifications
+- 6+ years in platform/cloud engineering
+- Expert-level experience with AWS, Kubernetes, Terraform, and Helm
+- Strong background in network architecture, security, and DevOps
+- Proficiency in OAuth 2.0, OpenID Connect, Keycloak, and scripting (e.g., Python)
+- Familiarity with Git, Concourse CI, and GitOps workflows
+- Bachelor’s or Master’s in Computer Science or related field
+- AWS certifications preferred
+
+🎁 Benefits
+- Salary range: $113,000 – $145,000/year + bonus
+- “Take what you need” vacation policy
+- Private medical, dental, and life insurance
+- Group income protection and wellness allowance
+- Stock options and adoption assistance
+- Strong parental leave and pension scheme
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "cloud-platform-engineer-information-security-in-smarsh-at-Portland"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/f00391c2-0657-4076-a0b0-66590ca98b59",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "India",
+  jobTitle: "Cloud Engineer III-Kubernetes",
+  jobType: "Hybrid",
+  jobCategory: "Cloud",
+  mainDescription: `Here’s a structured and engaging summary of the Cloud Engineer III – Kubernetes role at Smarsh:
+
+🌥️ Job Title: Cloud Engineer III – Kubernetes
+Location: Hybrid – India
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is hiring a Cloud Engineer to help build and evolve their Kong-based API Gateway platform. This team delivers secure, scalable, and observable infrastructure to support Smarsh’s enterprise-grade APIs—leveraging cloud-native tools and DevOps excellence.
+
+🔧 Key Responsibilities
+- Provision, configure, and monitor observability services using automation
+- Build reusable integrations with CI/CD tools, monitoring platforms, and registries
+- Support API management infrastructure and troubleshoot production issues
+- Drive on-call support and create RCA documentation for incident resolution
+- Champion resource efficiency and process improvements through automation
+- Implement SRE principles including SLIs, SLOs, and fault tolerance
+
+✅ Required Qualifications
+- 4–6 years of experience in DevOps or cloud engineering roles
+- Deep expertise deploying Kubernetes in AWS environments
+- Strong skills with Terraform, Python scripting, and CI/CD tools (e.g., Jenkins, Ansible)
+- Exposure to observability platforms (Prometheus, Grafana, ELK) and cloud-native tools (Istio, Argo CD, etc.)
+- Solid understanding of SRE concepts, SLAs, and performance metrics
+- Degree in Computer Science or related field
+
+🎁 Benefits & Culture
+- Competitive salary and bonus package
+- “Take what you need” holiday policy for work-life balance
+- Private medical and dental insurance
+- Wellness allowance and employee assistance program
+- Parental leave, adoption support, and stock options
+- Ranked among Comparably’s Best Places to Work
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "cloud-engineer-iii-kubernetes-in-smarsh-at-india-india"
+}
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/smarsh/f748af29-5a54-42de-a03d-0ef0ee912009",
+  companyName: "smarsh",
+  companyLogo: "/images/smarsh.png",
+  location: "UK / Belfast",
+  jobTitle: "Platform Engineer III - Mongo DB",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Platform Engineer III – MongoDB
+Location: Remote – UK / Belfast
+Department: Enterprise Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Smarsh is seeking a Platform Engineer to support and scale MongoDB clusters within its enterprise platform. You’ll work on automation, performance optimization, and secure data infrastructure as part of the Workload Management team, which embraces DevOps and Site Reliability Engineering principles.
+
+🔧 Key Responsibilities
+- Design, implement, and maintain highly available MongoDB clusters
+- Automate workflows for scaling, provisioning, and replication lag
+- Monitor and troubleshoot performance across cloud-native and on-prem environments
+- Integrate MongoDB with Kubernetes and other containerized platforms
+- Ensure security best practices (authentication, encryption, auditing)
+- Collaborate with engineering teams on schema design and query tuning
+- Participate in Agile ceremonies and daily standups
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field (or equivalent experience)
+- 4–6 years in DevOps or software engineering
+- Proficiency in Python, Java, or Go
+- Experience with Terraform, AWS/Azure/GCP, and CI/CD tools (e.g. Jenkins, Tekton)
+- Hands-on with Kubernetes, observability tools (Prometheus, Grafana, ELK)
+- Deep knowledge of MongoDB (sharded clusters, replica sets, performance tuning)
+- Solid understanding of Linux systems and networking
+
+🌟 Preferred Experience
+- Running production workloads at scale on AWS
+- Familiarity with Elasticsearch, Kafka, and Django
+- Strong scripting and automation mindset
+
+🎁 Benefits
+- Competitive salary and company bonus
+- “Take what you need” holiday policy
+- Private medical and dental insurance
+- Group life assurance and income protection
+- Monthly wellness allowance and adoption assistance
+- Stock options and employee assistance program
+- Strong parental leave and pension scheme
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "platform-engineer-iii-mongo-db-in-smarsh-at-UK-Belfast"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/everbridge/41587e88-7029-43d3-afe9-6258c0ed8b03",
+  companyName: "everbridge",
+  companyLogo: "/images/everbridge.png",
+  location: "Auckland, New Zealand",
+  jobTitle: "Senior Software Engineer",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer
+Location: Remote – Auckland, New Zealand
+Department: R&D – Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Everbridge is hiring Senior Software Engineers to develop AI-powered Travel Risk Intelligence solutions that enhance employee safety. You’ll work on a diverse tech stack—primarily React, Java, and Node.js—and contribute to scalable, high-quality applications in a fully remote setup.
+
+🔧 Key Responsibilities
+- Collaborate with cross-functional teams to design and deploy applications and APIs
+- Lead technical discussions and improve system architecture and performance
+- Participate in code reviews and mentor junior engineers
+- Troubleshoot and resolve technical issues in production systems
+
+✅ Required Qualifications
+- Degree in Computer Science or equivalent experience
+- 5+ years as a professional software engineer
+- Experience with AI solutions or a strong interest in learning
+- Background in enterprise-grade software and large codebases
+- Familiarity with cloud platforms (preferably AWS)
+- Ownership mindset and attention to feature lifecycle details
+
+🎁 Perks & Benefits
+- Competitive salary package
+- Comprehensive healthcare coverage
+- Life & Total Permanent Disability Insurance
+- Fully remote work for optimal work-life balance
+- Supportive and inclusive work environment
+
+🌍 About Everbridge
+Everbridge provides critical event management (CEM) technology to help organizations respond to and recover from disruptions. Their platform combines intelligent automation with rich risk data to keep people safe and operations running smoothly.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-in-everbridge-at-Auckland-New-Zealand"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/vivenu/56add6f9-e646-439c-a1a6-6e8adcb8c940",
+  companyName: "vivenu",
+  companyLogo: "/images/vivenu.png",
+  location: "Darmstadt, Germany",
+  jobTitle: "(Senior) Full Stack Engineer (d/f/m)",
+  jobType: "Hybrid",
+  jobCategory: "Full Stack",
+  mainDescription: `
+Job Title: (Senior) Full Stack Engineer (d/f/m)
+Location: Darmstadt, Germany (Hybrid)
+Department: Product & Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+vivenu is seeking a Full Stack Engineer to help build and scale its API-first ticketing platform used by global brands like the Grammys and Stanford University. You’ll work across the stack—from backend logic to frontend UI—delivering high-performance, secure, and scalable solutions that redefine live entertainment tech.
+
+🔧 Key Responsibilities
+- Develop scalable applications using React, Node.js, PostgreSQL, and TypeScript
+- Design and implement REST APIs for high-traffic client apps
+- Own full services or modules such as checkout, dashboards, or analytics
+- Improve performance, security, and maintainability of the codebase
+- Participate in architecture decisions and code reviews
+- Contribute to UI component design (SSR, Next.js)
+- Grow into leadership roles depending on experience
+
+✅ Required Qualifications
+- Strong grasp of JavaScript (ES2015+); TypeScript is a plus
+- Experience with REST APIs, full-stack architectures, and service-oriented design
+- Familiarity with Docker, CI/CD, and Kubernetes
+- Understanding of relational data modeling, NoSQL, and web security
+- Ability to write clean, modular, testable code
+- Comfortable switching between frontend and backend tasks
+- Fluent English communication and problem-solving skills
+
+🌟 Why Join vivenu?
+- Mission-critical tech for global entertainment brands
+- Sustainable growth backed by $65M+ in funding
+- Top-tier team with alumni from Google, Slack, and Salesforce
+- Global culture across six offices
+- Fast-growing scale-up recognized by Sifted
+- Inclusive workplace that celebrates diverse perspectives
+
+
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "-senior-full-stack-engineer-d-f-m-in-vivenu-at-Darmstadt-Germany"
+}
+
+, 
+
+{
+  applyUrl: "http://nearearthautonomy.applytojob.com/apply/cOSKxLOmbw/C-Embedded-Software-Integration-Engineer",
+  companyName: "nearearthautonomy",
+  companyLogo: "/images/nearearthautonomy.png",
+  location: "Pittsburgh, PA",
+  jobTitle: "C++ Embedded Software Integration Engineer",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: C++ Embedded Software Integration Engineer
+Location: Pittsburgh, PA
+Employment Type: Full-Time
+Experience Level: Senior
+
+🧠 Company Overview
+Near Earth Autonomy develops autonomous flight systems for aerial logistics and inspection. Their technology spans platforms from small drones to full-scale helicopters. As part of the Nippon Express Group, they offer a dynamic environment focused on innovation, safety, and scalability in autonomous aviation.
+
+🔧 Key Responsibilities
+- Integrate and test autonomy software on robotic platforms (quadcopters to helicopters)
+- Conduct software-in-the-loop, hardware-in-the-loop, and field testing
+- Lead technical development through full project lifecycle
+- Configure sensors (RGB/IR cameras, lidar, radar) and process data
+- Collaborate across teams and contribute to system optimization
+- Travel for field testing and deployment
+
+✅ Required Qualifications
+- Bachelor’s degree in Robotics, Computer Science, or related field
+- 10+ years in robotics or autonomous flight domains
+- Strong avionics background and field testing experience
+- Proficiency in C++, ROS/ROS2, and Python
+- Experience with multi-threaded development and software benchmarking
+- Familiarity with Linux development environments
+- U.S. citizenship or permanent residency required
+
+🌟 Preferred Skills
+- Master’s or Ph.D. in relevant field
+- Experience designing modular, extensible C++ APIs
+- MIPI camera integration
+- Leadership or mentoring experience
+- Proven ability to deliver projects within schedule and budget
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "c-embedded-software-integration-engineer-in-nearearthautonomy-at-Pittsburgh-PA"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/cargo-partner/557a9f86-6096-4794-b262-eca929a33d13",
+  companyName: "cargopartner",
+  companyLogo: "/images/cargopartner.png",
+  location: "Slovakia",
+  jobTitle: "Junior Java Developer",
+  jobType: "Hybrid",
+  jobCategory: "Developer",
+  mainDescription: `Job Title: Junior Java Developer
+Location: Bratislava, Slovakia (Hybrid)
+Department: IT Application Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+cargo-partner is seeking a Junior Java Developer to join its application development team. You’ll contribute to enhancing the company’s in-house supply chain management solution, focusing on track-and-trace capabilities. This role offers mentorship, growth opportunities, and a collaborative environment within a global logistics leader.
+
+🔧 Key Responsibilities
+- Implement and maintain enterprise Java web applications
+- Collaborate with cross-functional teams in an agile environment
+- Contribute to technical documentation and knowledge sharing
+- Participate in code reviews to ensure product quality
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Software Engineering, or related field (or equivalent experience)
+- Programming experience with Java SE, Java EE, EJB, Kotlin, and Spring Boot
+- Familiarity with frontend frameworks like Vaadin, AngularJS, ReactJS, or Vue.js
+- Basic knowledge of SQL and relational databases
+- Understanding of software testing fundamentals (unit, integration, GUI tests)
+- Experience with standard development and collaboration tools
+
+💰 Compensation
+- Starting salary: €2,000 gross/month, with potential for higher compensation based on experience
+
+🎁 Benefits
+- Fully covered lunch vouchers (even during holidays or sick leave)
+- MultiSport card for health and wellness
+- Day off on your birthday
+- 13th salary
+- Financial contributions for personal and company anniversaries
+
+🌍 About cargo-partner
+With over 40 years in logistics and now part of the Nippon Express Group, cargo-partner is a top 5 global player offering air, sea, land transport, and warehousing services. The company emphasizes innovation, diversity, and employee growth.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "junior-java-developer-in-cargopartner-at-slovakia-slovakia"
+}
+
+,
+{
+  applyUrl: "https://accommodationsplusinternational.applytojob.com/apply/2CmMB2yy84/Principal-Software-Engineer",
+  companyName: "accommodationsplusinternational",
+  companyLogo: "/images/accommodationsplusinternational.png",
+  location: "Canada",
+  jobTitle: "Principal Software Engineer",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Principal Software Engineer
+Location: Markham, Ontario, Canada
+Employment Type: Full-Time
+
+🧠 Role Overview
+API is seeking a seasoned Principal Software Engineer to lead the architectural design and development of scalable, high-performance systems. This role requires deep technical expertise in Java, Angular, AWS, and relational databases like MySQL and PostgreSQL, along with a strong track record of technical leadership and cross-functional collaboration.
+
+🔧 Key Responsibilities
+- Lead the design, development, and deployment of robust software systems
+- Guide modernization of legacy systems through refactoring or re-architecture
+- Mentor engineering teams and promote best practices
+- Align multiple teams with varying coding standards and system maturity
+- Solve complex technical challenges with maintainable solutions
+- Conduct architecture and code reviews to ensure quality and compliance
+- Stay current with emerging technologies and recommend improvements
+
+✅ Required Qualifications
+- Proven experience as a Staff, Principal, or Lead Software Engineer
+- Strong hands-on proficiency in Java, Angular, and AWS
+- Experience with MySQL and PostgreSQL
+- Demonstrated success designing scalable, distributed systems
+- Ability to unify and elevate development efforts across diverse teams
+- Deep understanding of software architecture and engineering best practices
+- Excellent problem-solving and communication skills
+- Bachelor’s or Master’s degree in Computer Science or related field
+
+🌟 Preferred Qualifications
+- Experience with microservices architecture and containerization (Docker, Kubernetes)
+- Familiarity with CI/CD pipelines and DevOps practices
+- Prior experience mentoring and growing engineering teams
+
+🌍 About API
+Accommodations Plus International is a global leader in crew accommodation solutions. Their technology platform streamlines crew planning and enhances the layover experience, offering end-to-end integration for travel operations
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "principal-software-engineer-in-accommodationsplusinternational-at-canada-canada"
+}
+
+
+, 
+
+{
+  applyUrl: "https://accommodationsplusinternational.applytojob.com/apply/AbzpOzSksp/Data-Scientist",
+  companyName: "accommodationsplusinternational",
+  companyLogo: "/images/accommodationsplusinternational.png",
+  location: "Canada",
+  jobTitle: "Data Scientist",
+  jobType: "Full-time",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Scientist – Predictive Modeling
+Location: Markham, Ontario, Canada
+Employment Type: Full-Time
+
+🧠 Role Overview
+API is seeking a highly skilled Data Scientist with deep expertise in predictive modeling to join its analytics team. This role focuses on designing, developing, and deploying machine learning models that drive strategic business decisions. The ideal candidate will be fluent in Python and SQL, and capable of independently managing complex data science projects from start to finish.
+
+🔧 Key Responsibilities
+- Build and validate predictive models using structured and unstructured data
+- Implement models using Python libraries such as PyTorch, scikit-learn, and TensorFlow
+- Perform data wrangling, transformation, and feature engineering
+- Conduct exploratory data analysis in Jupyter Notebooks
+- Translate ambiguous business problems into actionable data science projects
+- Collaborate cross-functionally to align solutions with business goals
+- Document models and findings for both technical and non-technical audiences
+
+✅ Required Qualifications
+- 4+ years of experience building and deploying predictive models in production
+- Expert-level proficiency in Python (pandas, NumPy, scikit-learn, PyTorch, TensorFlow)
+- Advanced SQL skills for querying and manipulating large datasets
+- Strong understanding of machine learning fundamentals (supervised and unsupervised)
+- Proven ability to manage full project lifecycle independently
+- Experience with Jupyter Notebooks and data preparation techniques
+
+🌟 Preferred Qualifications
+- Experience deploying models into production environments
+- Familiarity with Git and version control
+- Master’s or Ph.D. in Data Science, Computer Science, Statistics, or related field
+
+🌍 About API
+Accommodations Plus International is a global leader in crew accommodation solutions. Their technology platform streamlines crew planning and enhances the layover experience, offering an end-to-end solution for travel operations
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-scientist-in-accommodationsplusinternational-at-canada-canada"
+}
+, 
+
+
+
+{
+  applyUrl: "https://accommodationsplusinternational.applytojob.com/apply/KDnz1oog3f/Senior-QA-Automation-Engineer",
+  companyName: "accommodationsplusinternational",
+  companyLogo: "/images/accommodationsplusinternational.png",
+  location: "Canada",
+  jobTitle: "Senior QA Automation Engineer",
+  jobType: "Hybrid",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior QA Automation Engineer
+Location: Markham, Ontario, Canada (Hybrid)
+Employment Type: Full-Time
+
+🧠 Role Overview
+API is seeking a detail-oriented Senior QA Automation Engineer to lead and implement robust testing strategies across UI, web services, and databases. This role emphasizes automation (60–70%) while maintaining a strategic manual testing component (30–40%). You’ll play a key role in ensuring software quality, mentoring QA engineers, and integrating tests into CI pipelines.
+
+🔧 Key Responsibilities
+- Design and develop sustainable automation tests integrated into CI pipelines
+- Maintain Jira dashboards and manage test plans using Xray
+- Collaborate with business and development teams to define testable acceptance criteria
+- Identify and escalate risks during release cycles
+- Participate in Scrum ceremonies and drive continuous improvement
+- Mentor QA engineers and champion QA best practices
+- Coordinate with offshore QA and development teams
+
+✅ Required Qualifications
+- Proven experience as a Senior QA Engineer with leadership and mentoring capabilities
+- Strong Java programming skills for scalable automation
+- In-depth understanding of DOM and API testing (RESTful and SOAP)
+- 3+ years of experience testing RESTful services
+- Proficiency in SQL and database management
+- Experience with Jira, Xray/Zephyr, Postman, SoapUI
+- Familiarity with Jenkins and CI/CD integration
+- Basic Unix skills for server access and log navigation
+- Strong documentation and communication skills
+
+🌍 About API
+Accommodations Plus International is a global leader in crew accommodation solutions. Their platform streamlines crew planning and enhances the layover experience, offering end-to-end travel operations support.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-qa-automation-engineer-in-accommodationsplusinternational-at-canada-canada"
+}
+,
+
+
+
+{
+  applyUrl: "https://accommodationsplusinternational.applytojob.com/apply/kOl6U3Sy6Z/Solutions-Architect",
+  companyName: "accommodationsplusinternational",
+  companyLogo: "/images/accommodationsplusinternational.png",
+  location: "Canada",
+  jobTitle: "Solutions Architect",
+  jobType: "Full-time",
+  jobCategory: "Architect",
+  mainDescription: `Job Title: Solutions Architect
+Location: Markham, Ontario, Canada
+Employment Type: Full-Time
+
+🧠 Role Overview
+API is seeking a seasoned Solutions Architect to lead the design and implementation of scalable, cloud-native enterprise applications. This role is ideal for a technical leader with a strong background in software engineering and architecture, particularly in Java-based ecosystems and AWS cloud infrastructure.
+
+🔧 Key Responsibilities
+- Translate business requirements into effective technical architectures
+- Design end-to-end solutions using Java, Angular, React, Microservices, PostgreSQL, and AWS
+- Own the full solution lifecycle—from discovery to optimization
+- Provide architectural guidance and mentorship across engineering teams
+- Contribute to technology strategy, tooling, and process improvements
+- Produce architectural documentation and ensure alignment with business goals
+- Stay current with emerging technologies and integrate innovative approaches
+
+✅ Required Qualifications
+- 8+ years in software engineering, including 2+ years in a technical leadership or architecture role
+- Strong proficiency in Java, Angular, React, Microservices, PostgreSQL, and AWS
+- Proven experience designing and deploying scalable cloud-native applications
+- Deep understanding of enterprise application design and solutioning lifecycle
+- Excellent communication and collaboration skills
+- Bachelor’s or Master’s degree in Computer Science or related field
+
+🌟 Preferred Qualifications
+- Experience with accounting systems or accommodation platforms
+- AWS certifications (e.g., AWS Certified Solutions Architect)
+- Familiarity with DevOps tools, CI/CD pipelines, Docker, and Kubernetes
+
+🌍 About API
+Accommodations Plus International is a global leader in crew accommodation solutions. Their technology platform streamlines crew planning and enhances the layover experience, offering an end-to-end solution for travel operations
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "solutions-architect-in-accommodationsplusinternational-at-canada-canada"
+}
+,
+
+
+{
+  applyUrl: "https://www.employeenavigator.com/careers/6975807",
+  companyName: "employeenavigator",
+  companyLogo: "/images/employeenavigator.png",
+  location: "Bethesda, MD or Salt Lake City",
+  jobTitle: "Senior Software Engineer (API)",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer (API)
+Location: Bethesda, MD or Salt Lake City, UT (Remote options available)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Employee Navigator is seeking a seasoned backend engineer to design, build, and maintain high-usage APIs that power its benefits enrollment platform. You’ll work closely with product, QA, and business teams to deliver scalable, production-grade APIs for both internal and external use.
+
+🔧 Key Responsibilities
+- Architect and implement real-world API features
+- Collaborate with product managers and internal stakeholders to iterate on functionality
+- Contribute to developer documentation and external-facing API portals
+- Conduct code reviews and support teammates
+- Maintain and refactor legacy code to reduce technical debt
+
+✅ Required Qualifications
+- 10+ years of professional software development experience
+- Strong expertise in C# and .NET (currently using .NET 8)
+- Experience with WebAPI, MVC, and JavaScript (Vue.js is a plus)
+- Familiarity with large-scale databases and advanced querying
+- Undergraduate degree in Computer Science or related field
+- Strong attention to detail and code readability
+
+💻 Tech Stack Highlights
+- Backend: C#, .NET 8, WebAPI, MVC
+- Frontend: Vue.js, JavaScript
+- Database: Large-scale relational databases with hundreds of millions of records
+- Development: Kanban process, Roslyn-based code generation, dynamic SQL, micro-ORM
+
+🌍 About Employee Navigator
+Employee Navigator is a leading SaaS platform used by over 100,000 companies to manage benefits enrollment. Their software supports HR teams, insurance brokers, and carriers with web-based tools and robust APIs that handle hundreds of thousands of daily B2B transactions.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-api-in-employeenavigator-at-Bethesda-MD-Salt-LakeCity"
+}
+, 
+
+
+{
+  applyUrl: "https://www.employeenavigator.com/careers/7003552",
+  companyName: "employeenavigator",
+  companyLogo: "/images/employeenavigator.png",
+  location: "Frederick",
+  jobTitle: "Associate QA Engineer",
+  jobType: "Internship",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Associate QA Engineer
+Location: Frederick, MD
+Employment Type: Full-Time
+
+🧠 Role Overview
+Employee Navigator is looking for a motivated recent graduate to join its QA Automation team. This entry-level role is ideal for someone passionate about software quality and eager to grow their skills in test automation, CI/CD, and UI testing. You’ll work alongside experienced engineers to build and maintain automated test suites that ensure the reliability of a platform used by over 50,000 businesses.
+
+🔧 Key Responsibilities
+- Collaborate with manual QA testers to understand and prioritize test automation
+- Write automated test scripts in Java using Selenium WebDriver
+- Launch, monitor, and debug test runs in IDEs and CI tools
+- Learn the platform and apply best practices in test design and automation
+- Contribute to automation frameworks and participate in code reviews
+- Stay current with testing technologies and seek feedback for improvement
+
+✅ Minimum Qualifications
+- Bachelor’s degree in Computer Science, Software Engineering, or related field
+- Strong interest in QA and test automation
+- Experience with object-oriented programming (Java or Python preferred)
+- Familiarity with web technologies and testing frameworks (e.g., JUnit, TestNG)
+- Understanding of version control (Git or GitLab)
+- Awareness of CI/CD practices and basic SQL knowledge
+- Willingness to learn API testing and mobile automation tools
+
+🌟 Nice-to-Have Skills
+- Experience with Selenium WebDriver
+- Exposure to RESTAssured or similar API testing tools
+- Familiarity with Docker or containerization concepts
+
+🌍 About Employee Navigator
+Employee Navigator is a fast-growing HR and insurance technology company serving over 50,000 businesses nationwide. Their platform simplifies benefits administration, onboarding, and HR management. With offices in Bethesda, Salt Lake City, and Frederick, MD, the company has been named a Washington Post Top Workplace for eight consecutive years.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "associate-qa-engineer-in-employeenavigator-at-Frederick"
+}
+, 
+
+
+
+{
+  applyUrl: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3280307",
+  companyName: "Amivero",
+  companyLogo: "/images/Amivero.png",
+  location: "Virginia, USA",
+  jobTitle: "Full Stack Developer (Java/ Angular)",
+  jobType: "Remote",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Full Stack Developer (Java/Angular)
+Location: Fully Remote – Virginia, USA
+Employment Type: Full-Time
+
+🧠 Role Overview
+Amivero is seeking a Full Stack Developer to support Agile software development for the Department of Homeland Security (DHS). You’ll design and implement scalable, modernized systems using Java, Angular, and Spring Boot, while collaborating with a mission-driven team focused on public service and digital transformation.
+
+🔧 Key Responsibilities
+- Design, develop, and implement custom software and database applications
+- Collaborate with product teams to ensure successful sprint execution
+- Participate in Agile ceremonies: sprint planning, testing, demos, retrospectives
+- Analyze complex technical challenges and propose innovative solutions
+- Create reusable libraries and responsive interfaces
+- Conduct code reviews and mentor junior engineers
+- Ensure product quality, performance, and scalability
+
+✅ Required Qualifications
+- Bachelor’s degree + 7 years of software development experience
+- U.S. Citizenship (required to obtain Public Trust clearance)
+- Experience with:
+- Java / C# (.NET Core)
+- Spring Boot, Spring MVC, Hibernate
+- PostgreSQL
+- Angular or React
+- Strong understanding of the full software development lifecycle
+- Familiarity with Git and concurrent development workflows
+- Passion for user-centric design and performance optimization
+- Excellent communication and collaboration skills
+
+🌟 Preferred Qualifications
+- DHS CBP Public Trust clearance
+- Experience with both Java and .NET Core microservices
+
+🌍 About Amivero
+Amivero is a woman-owned small business delivering digital services to federal agencies. Their human-centered, data-driven approach supports national security and public service missions through agile development, cloud modernization, and cybersecurity.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "full-stack-developer-java-angular-in-amivero-at-Virginia-USA"
+}
+, 
+
+
+
+{
+  applyUrl: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3280310",
+  companyName: "Amivero",
+  companyLogo: "/images/Amivero.png",
+  location: "Virginia, USA",
+  jobTitle: ".NET Developer",
+  jobType: "Remote",
+  jobCategory: "Developer",
+  mainDescription: `Job Title: .NET Developer
+Location: Fully Remote – Virginia, USA
+Employment Type: Full-Time
+
+🧠 Role Overview
+Amivero is seeking a skilled .NET Developer to support Agile development and operations for mission-critical government systems. This role involves building scalable web applications, modernizing legacy systems, and contributing to CI/CD pipelines in a collaborative, cloud-native environment.
+
+🔧 Key Responsibilities
+- Design and develop web applications using .NET Core, C#, EF Core, JavaScript, TypeScript, and RESTful APIs
+- Build SPAs with frameworks like Angular, React, or Vue
+- Implement UI components using libraries such as Material UI, Tailwind CSS, or Telerik
+- Automate builds, testing, and deployments using Docker, Kubernetes, and ArgoCD
+- Collaborate using Git and GitLab for version control and issue tracking
+- Design and optimize relational databases (PostgreSQL, MySQL, SQL Server)
+- Write and maintain SQL/PLSQL scripts and support database migrations
+
+✅ Required Qualifications
+- Bachelor’s degree + 5 years of relevant experience
+- U.S. Citizenship (required for Public Trust clearance)
+- Proficiency in .NET, .NET Core, MVC, C#, JavaScript, TypeScript, Web APIs
+- Experience with OODD, SOA, and Angular 2+ with NgRx
+- Strong SQL/PLSQL skills and experience with SQL Server or Oracle
+- Familiarity with CI tools, Git workflows, and database design
+
+🌟 Preferred Skills
+- Knowledge of Jenkins, Jest, Karma/Jasmine, Angular CLI, or NX
+- Understanding of accessibility (508 standards)
+- Certifications like CSM or CSD
+- Familiarity with message queuing, application security, and automated testing
+
+🌍 About Amivero
+Amivero is a mission-driven IT services firm supporting federal agencies with modern, human-centered digital solutions. Their team uses agile methods to deliver accessible, secure, and innovative software that impacts millions of people.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "-net-developer-in-amivero-at-Virginia-USA"
+}
+,
+
+
+{
+  applyUrl: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3280312",
+  companyName: "Amivero",
+  companyLogo: "/images/Amivero.png",
+  location: "Virginia, USA",
+  jobTitle: "Automated Tester",
+  jobType: "Remote",
+  jobCategory: "General",
+  mainDescription: `Job Title: Automated Tester
+Location: Fully Remote – Virginia, USA
+Employment Type: Full-Time
+
+🧠 Role Overview
+Amivero is seeking an experienced Automated Tester to support Agile software development for large-scale, mission-critical government systems. You’ll be responsible for designing, developing, and maintaining automated test frameworks and scripts, ensuring high-quality software delivery in a CI/CD environment.
+
+🔧 Key Responsibilities
+- Participate in Agile ceremonies (sprint planning, backlog refinement, demos, retrospectives)
+- Develop and maintain manual and automated test cases using Cucumber BDD, Selenium, Serenity, and Java
+- Create and execute API validation scripts using Rest Assured, Postman, Fiddler, and SoapUI
+- Perform full-scope testing: unit, integration, regression, 508 compliance, and usability
+- Conduct peer reviews of test scripts and ensure adherence to testing standards
+- Collaborate with Product Architects and Business Analysts to assess test impacts
+- Track and document testing progress and results in Jira with Xray
+
+✅ Required Qualifications
+- U.S. Citizenship (required for Public Trust clearance)
+- Bachelor’s degree in IT or related field
+- 7+ years of IT experience, including 2–3 years in test automation
+- Proficiency in Java (3–5 years), JavaScript, SOAP, XML
+- Experience testing applications built with Java, AngularJS, Oracle, and PostgreSQL
+- Hands-on experience with Selenium, Cucumber BDD, Serenity BDD, Maven
+- SQL CRUD scripting experience with Oracle and PostgreSQL
+- Familiarity with CI/CD practices and tools
+- Strong collaboration and communication skills
+
+🌍 About Amivero
+Amivero is a woman-owned small business delivering digital services to federal agencies. Their human-centered, data-driven approach supports national security and public service missions through agile development, cloud modernization, and cybersecurity.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "automated-tester-in-amivero-at-Virginia-USA"
+}
+,
+
+{
+  applyUrl: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3364942",
+  companyName: "Amivero",
+  companyLogo: "/images/Amivero.png",
+  location: "Reston, VA",
+  jobTitle: "Data Scientist",
+  jobType: "Full-time",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Scientist
+Location: Reston, VA (WFH Flexible – 1–2 days/week onsite)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Amivero is seeking a Data Scientist to develop machine learning and deep learning models that generate actionable insights for federal government clients. This role is ideal for someone with strong mathematical and analytical skills, a passion for public service, and experience applying advanced data science techniques to real-world problems.
+
+🔧 Key Responsibilities
+- Translate expert knowledge into derived algorithms
+- Analyze large datasets to uncover insights with statistical rigor
+- Design and deploy deep learning and predictive models
+- Build recommendation systems and custom data models
+- Evaluate new data sources and data gathering techniques
+- Monitor model performance and ensure data accuracy
+- Communicate results clearly to non-technical stakeholders
+
+✅ Required Qualifications
+- U.S. Citizenship (required for Public Trust clearance)
+- Active DHS or CBP Public Trust preferred
+- Bachelor’s degree in Computer Science, Statistics, Applied Math, or related field
+- 3+ years of experience in areas such as NLP, ML, text mining, or knowledge engineering
+- Proficiency in Python, JavaScript, R, or similar languages
+- Experience with SQL and statistical data analysis
+- Familiarity with machine learning algorithms, NLP, graph theory, and network analysis
+- Strong communication and collaboration skills
+- Experience working in a Scaled Agile Framework (SAFe) environment
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-scientist-in-amivero-at-Reston-VA"
+}
+
+
+,
+{
+  applyUrl: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3365098",
+  companyName: "Amivero",
+  companyLogo: "/images/Amivero.png",
+  location: "Reston, VA",
+  jobTitle: "Fraud Data Analyst",
+  jobType: "Full-time",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Fraud Data Analyst
+Location: Reston, VA (WFH Flexible)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Amivero is seeking a seasoned Fraud Data Analyst to support the federal government in developing fraud detection models and analytics. This role focuses on identifying suspicious activity, enhancing fraud prevention strategies, and improving data infrastructure in collaboration with Login.gov and other stakeholders.
+
+🔧 Key Responsibilities
+- Analyze account creation attempts and investigative findings to detect fraud patterns
+- Develop and maintain fraud models for identity fraud, account takeover, and synthetic identity detection
+- Collaborate with DevOps and SecOps teams to scale and operationalize analytics
+- Monitor fraud indicators using techniques like entity resolution, social network analysis, and anomaly detection
+- Integrate third-party data sources to enhance model performance
+- Build dashboards and KPIs for fraud alerting and leadership reporting
+- Conduct fraud risk assessments and develop response plans
+
+✅ Required Qualifications
+- U.S. Citizenship (required for Public Trust clearance)
+- Bachelor’s degree + 10 years of relevant experience
+- Proven experience with entity resolution
+- Strong background in fraud/identity operations
+- Proficiency in SQL, Python, and analytics tools
+- Experience with Tableau and both relational and non-relational databases
+- Excellent communication, analytical, and organizational skills
+- Ability to work independently and adapt to evolving priorities
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "fraud-data-analyst-in-amivero-at-Reston-VA"
+}
+
+, 
+
+{
+  applyUrl: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/3392690",
+  companyName: "Amivero",
+  companyLogo: "/images/Amivero.png",
+  location: "India",
+  jobTitle: "Ruby Developer",
+  jobType: "Full-time",
+  jobCategory: "Developer",
+  mainDescription: `Job Title: Software Engineer II – AI Infra
+Location: Remote – India (with occasional travel to Bengaluru)
+Department: Engineering – Applications
+Employment Type: Full-Time
+
+🧠 Role Overview
+Clari is seeking a skilled AI Engineer to help build scalable, AI-powered microservices that support its revenue intelligence platform. You’ll work on cutting-edge GenAI features, including retrieval-augmented generation (RAG), embeddings, and prompt pipelines, while collaborating across product, design, and engineering teams.
+
+🔧 Key Responsibilities
+- Design and deploy microservices using LLMs for summarization, Q&A, sentiment analysis, and more
+- Build ingestion pipelines to embed and index large datasets into vector stores (e.g., Elasticsearch, Pinecone)
+- Develop evaluation harnesses and implement safety guardrails (e.g., PII filtering, toxicity checks)
+- Rapidly iterate on features using A/B testing and feature flags
+- Write production-grade Python code (FastAPI, Ray), tests, and design documentation
+- Support other teams integrating LLMs by sharing best practices
+
+✅ Required Qualifications
+- 2+ years of engineering experience, with 1+ year working on LLM/GenAI features
+- Strong Python skills (typing, async, pytest)
+- Familiarity with frameworks like PyTorch, Hugging Face Transformers, LangChain, or LlamaIndex
+- Experience with vector databases (e.g., Elasticsearch k-NN, Pinecone, FAISS)
+- Solid backend fundamentals (REST, GraphQL, Kafka/SQS)
+- Understanding of prompt engineering, token cost optimization, and model tuning
+- Strong communication skills and ability to explain trade-offs to diverse stakeholders
+
+🌟 Bonus Points
+- Experience with Ray, Triton, or high-throughput inference stacks
+- Comfort reading research papers and prototyping new ideas
+
+🎁 Perks & Benefits
+- Flexible hours and remote-first culture
+- Life and accidental insurance
+- Mental health support via Silver Oak Health
+- Pre-IPO stock options
+- Paid parental leave and wellness stipends
+- Monthly “take a break” days and Focus Fridays
+- Charitable giving match and team events
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "ruby-developer-in-amivero-at-India"
+}
+, 
+
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/lwolf/1b804622-7f91-420b-89ae-81bbeb656e91",
+  companyName: "lwolf",
+  companyLogo: "/images/lwolf.png",
+  location: "Colombia",
+  jobTitle: "Software Developer III (ROR + React)",
+  jobType: "Hybrid",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Developer III (Ruby on Rails + React)
+Location: Medellín, Colombia (Hybrid)
+Department: Technology – Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Lone Wolf Technologies is hiring a skilled full stack developer to build and maintain web applications for the real estate industry. You’ll focus on developing performant, well-tested REST APIs using Ruby on Rails and crafting responsive, modern frontends in React and TypeScript.
+
+🔧 Key Responsibilities
+- Write clean, scalable code for new and existing web applications
+- Collaborate with cross-functional teams to deliver new features and resolve bugs
+- Work in an Agile environment to incrementally deliver high-quality software
+- Build and maintain SaaS solutions using Ruby on Rails and React
+- Participate in code reviews, performance tuning, and documentation
+- Research and evaluate emerging technologies to enhance product offerings
+
+✅ Required Skills
+- 3+ years of experience with Ruby on Rails
+- 3+ years of experience with React and TypeScript
+- Strong understanding of REST API design
+- Experience with relational databases (PostgreSQL or MySQL)
+- Proficiency in HTML, CSS, Git, and GitHub
+
+🌟 Bonus Skills
+- Experience with AWS or Azure
+- Familiarity with Elasticsearch or OpenSearch
+- Knowledge of GraphQL
+- Experience with Styled Components, React Query, or RelayJS
+- Understanding of Web Accessibility standards
+- Experience with shared component libraries
+
+🌍 About Lone Wolf Technologies
+Lone Wolf is a leading provider of real estate software solutions, helping agents and brokers manage transactions, marketing, and back-office operations. Their platforms are used by thousands of real estate professionals across North America.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-developer-iii-ror-react-in-lwolf-at-colombia-colombia"
+}
+,
+
+
+{
+  applyUrl: "https://crbworkforce.com/jobs/ai-python-developer-1551/",
+  companyName: "crbworkforce",
+  companyLogo: "/images/crbworkforce.png",
+  location: "United States",
+  jobTitle: "AI Python Developer",
+  jobType: "Remote",
+  jobCategory: "AI",
+  mainDescription: `Job Title: AI Python Developer
+Location: Remote – U.S. based (Salt Lake City preferred)
+Employment Type: Full-Time
+Salary Range: $150,000 – $180,000 annually
+Benefits: Full benefits package
+Sponsorship: Not available
+
+🧠 Role Overview
+CRB Workforce is seeking a highly skilled AI Python Developer to design and deploy scalable machine learning systems. This role focuses on building production-grade AI infrastructure and multimodal deep learning models to support personalized learning and automation—particularly in the healthcare education space.
+
+🔧 Key Responsibilities
+- Collaborate with leadership and engineering teams to develop AI systems
+- Automate video review processes using computer vision and AI
+- Build and maintain robust, scalable AI infrastructure
+- Develop multimodal deep learning models (video, text, voice)
+- Contribute to applied AI initiatives that enhance student outcomes
+
+✅ Required Qualifications
+- Strong expertise in Python, PyTorch, Pandas, and MLOps
+- Experience with NLP, LLMs, RLHF, and frameworks like LaneGraph
+- Familiarity with HTMX (major plus), FastAPI, Kafka, RabbitMQ, Websockets
+- Proven success in building scalable ML pipelines and production AI systems
+- Strong foundation in AI/ML, computer vision, and NLP
+- Bachelor’s degree in Computer Science or related field (or equivalent experience)
+- Ability to work cross-functionally and lead end-to-end implementation
+
+🌟 Preferred Skills
+- Experience with multimodal AI systems
+- Architect mindset with a self-starter attitude
+- Strong communication and collaboration skills
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "ai-python-developer-in-crbworkforce-at-United-States"
+}
+,
+
+{
+  applyUrl: "https://crbworkforce.com/jobs/data-engineer-1541/",
+  companyName: "crbworkforce",
+  companyLogo: "/images/crbworkforce.png",
+  location: "Seattle, Washington",
+  jobTitle: "Data Engineer",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Senior Data Engineer
+Location: Onsite – Seattle, Washington
+Employment Type: Full-Time
+Salary Range: $150,000 – $200,000 annually
+Benefits: Full benefits package
+Sponsorship: Not available
+
+🧠 Role Overview
+CRB Workforce is seeking a highly experienced Senior Data Engineer to architect and implement enterprise-scale data platforms. This role focuses on leveraging Databricks and Snowflake to build scalable, high-performance data solutions that support global analytics and reporting initiatives.
+
+🔧 Key Responsibilities
+- Design and implement modern data architecture for a global analytics platform
+- Ingest and transform data from diverse sources for analysis and reporting
+- Build scalable systems using Databricks and Snowflake
+- Collaborate with analytics, insights, and AI/ML teams on strategic data initiatives
+- Lead architectural discussions and mentor junior engineers
+- Review candidate profiles and contribute to building the data engineering team
+
+✅ Required Qualifications
+- 10–15+ years of experience in data engineering and architecture
+- Hands-on expertise in Databricks and Snowflake (design and implementation)
+- Proven ability to translate business needs into technical execution
+- Experience with Teradata, Informatica, Apache Spark, or Hadoop
+- Strong background in distributed systems and scalable data processing
+- Familiarity with DBT and modern batch ETL tools (a plus)
+- Excellent communication and leadership skills
+- Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent experience)
+
+🌍 About CRB Workforce
+CRB Workforce is a recruitment and consulting firm offering permanent, executive, and contract staffing solutions across multiple industries. They are headquartered in Thousand Oaks and operate remotely, with a strong focus on diversity, equity, and inclusion.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-engineer-in-crbworkforce-at-Seattle-Washington"
+}
+,
+
+
+{
+  applyUrl: "https://crbworkforce.com/jobs/senior-cloud-engineer-1534/",
+  companyName: "crbworkforce",
+  companyLogo: "/images/crbworkforce.png",
+  location: "Salt Lake City",
+  jobTitle: "Senior Cloud Engineer",
+  jobType: "Remote",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Senior Cloud Engineer
+Location: Onsite – Salt Lake City, Utah
+Employment Type: Full-Time
+Salary Range: $115,000 – $135,000 annually
+Benefits: Full benefits package
+Sponsorship: Not available
+
+🧠 Role Overview
+CRB Workforce is seeking a Senior Cloud Engineer to join a mission-driven organization focused on transforming education. This role involves designing and managing scalable, cloud-native infrastructure—primarily on AWS—and leading DevOps initiatives to ensure performance, reliability, and security of business-critical systems.
+
+🔧 Key Responsibilities
+- Design and implement scalable cloud infrastructure and automation solutions
+- Lead performance tuning, monitoring, and troubleshooting of cloud-based systems
+- Improve deployment workflows and optimize cloud resource usage
+- Mentor team members and define DevOps best practices
+- Ensure infrastructure meets security, compliance, and operational standards
+
+✅ Required Qualifications
+- 9+ years of experience in cloud infrastructure (preferably AWS)
+- Deep knowledge of DevOps practices and CI/CD tools (e.g., Jenkins, Git, Chef, SaltStack)
+- Strong scripting/programming skills (e.g., Bash, Python, Node.js)
+- Experience with virtualization, containerization, and distributed systems
+- Familiarity with infrastructure as code and observability tools (e.g., CloudWatch, New Relic)
+- Bachelor’s degree in IT or related field (or equivalent experience)
+- Excellent communication skills for technical and non-technical audiences
+
+🌟 Preferred Traits
+- Architect-level mindset with a proactive, self-starting attitude
+- Ability to lead infrastructure projects in Agile environments
+- Strong focus on cloud cost optimization and operational excellence
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-cloud-engineer-in-crbworkforce-at-Salt-Lake-City"
+}
+, 
+
+{
+  applyUrl: "https://crbworkforce.com/jobs/senior-software-engineer-1531/",
+  companyName: "crbworkforce",
+  companyLogo: "/images/crbworkforce.png",
+  location: "Salt Lake City, Utah",
+  jobTitle: "Senior Software Engineer",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer
+Location: Onsite – Salt Lake City, Utah
+Employment Type: Full-Time
+Salary Range: $115,000 – $135,000 annually
+Benefits: Full benefits package
+Sponsorship: Not available
+
+🧠 Role Overview
+CRB Workforce is seeking a Senior Software Engineer to join a mission-driven organization focused on transforming education. This role involves full-stack development using Java, TypeScript, Angular, and Nest.js, with a strong emphasis on scalable architecture, performance optimization, and mentoring junior developers.
+
+🔧 Key Responsibilities
+- Lead development of scalable web applications aligned with business goals
+- Collaborate with stakeholders to gather requirements and deliver robust solutions
+- Optimize performance for high-availability, 24/7 environments
+- Mentor junior developers and contribute to architectural planning
+- Ensure consistent documentation, testing, and adherence to best practices
+
+✅ Required Qualifications
+- 6+ years of experience in full-stack development
+- Proficiency in Java, TypeScript, Angular, and Nest.js
+- Strong understanding of REST APIs, debugging, and system integration
+- Experience with Agile methodologies, Git workflows, and CI/CD pipelines
+- Bachelor’s degree in Computer Science or equivalent experience
+- Excellent communication and collaboration skills
+
+🌟 Preferred Traits
+- Ability to design clean, maintainable architectures
+- Skilled in integrating third-party tools and working in distributed systems
+- Comfortable with legacy system integration and complex data models
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-in-crbworkforce-at-Salt-Lake-City-Utah"
+}
+,
+
+
+{
+  applyUrl: "https://crbworkforce.com/jobs/software-engineer-1538/",
+  companyName: "crbworkforce",
+  companyLogo: "/images/crbworkforce.png",
+  location: "Littleton, Colorado",
+  jobTitle: "Software Engineer",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer
+Location: Littleton, Colorado (Onsite)
+Employment Type: Full-Time (Direct Hire)
+Salary Range: $75,000 – $95,000 USD
+Benefits: Full benefits package
+Sponsorship: Not available (U.S. Citizen or Permanent Resident required)
+
+🧠 Role Overview
+CRB Workforce is seeking a mid-level Software Engineer to design, develop, and support scalable software solutions in a cloud-native environment. This role emphasizes backend development using Java and Spring Boot, with exposure to AWS infrastructure and modern DevOps practices.
+
+🔧 Key Responsibilities
+- Develop and test front-end and back-end components using Java, Spring, and AWS
+- Build scalable RESTful APIs and microservices
+- Collaborate with cross-functional teams to deliver complex software solutions
+- Participate in technical design discussions and agile ceremonies
+- Support CI/CD pipelines and troubleshoot system issues
+
+✅ Required Qualifications
+- 2–4 years of hands-on software development experience
+- Proficiency in Java, Spring/Spring Boot, and AWS
+- Strong understanding of REST APIs, object-oriented design, and data structures
+- Experience with Docker, Kubernetes, and event-driven architectures
+- Familiarity with DevOps, CI/CD, and system lifecycle management
+- Bachelor’s degree in Computer Science or related field (or equivalent experience)
+- Excellent communication and problem-solving skills
+
+🌟 Bonus Skills
+- Experience with Wireless OSS or Inventory Management systems
+- Knowledge of graph databases, pub/sub, and streaming tools
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-in-crbworkforce-at-Littleton-Colorado"
+}
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/0ded99c0-8773-48cd-8bfe-cf54d5a75e9c",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Costa Rica",
+  jobTitle: "Senior Full Stack Engineer - Java & Angular",
+  jobType: "Remote",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Senior Full Stack Engineer – Java & Angular
+Location: Remote – Costa Rica
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Full Stack Engineer to build high-quality, scalable software products for digital businesses. You’ll work with Java and Angular to develop customer-facing applications, collaborating with cross-functional teams and mentoring others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate project status and technical recommendations to stakeholders
+- Write performant, testable, and secure code using Java, Angular, and Spring Boot
+- Participate in agile ceremonies and sprint planning
+- Gather requirements and present developed features to clients
+- Mentor team members and contribute to engineering best practices
+- Collaborate with product managers, designers, and engineers to align technical decisions with business goals
+- Troubleshoot and resolve complex technical challenges
+
+✅ Required Qualifications
+- 4+ years of experience in full stack development
+- Proficiency in Java (11+), Spring Boot, Angular, RxJS, CSS, and microservices
+- Experience with agile development and documentation
+- Strong understanding of OOP and SOLID principles
+- Excellent English communication skills and ability to work independently with clients
+
+🌟 Preferred Experience
+- Background in banking or financial services
+- Familiarity with financial terminology and requirements gathering
+
+🎁 Benefits
+- Sponsored certifications and tech training
+- Private medical insurance and wellness programs
+- Paid time off for graduation, bereavement, and marriage
+- Beach house access and team-building events
+- Recognition programs and social responsibility initiatives
+- Partnerships with Costa Rican universities
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-full-stack-engineer-java-angular-in-3pillarglobal-at-costa-rica-costa-rica"
+}
+
+
+,
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/20553a8e-ed1d-4f07-a21a-db287f53470c",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Guatemala",
+  jobTitle: "Senior Full Stack Engineer - Java & Angular",
+  jobType: "Remote",
+  jobCategory: "Full Stack",
+  mainDescription: `
+Job Title: Senior Full Stack Engineer – Java & Angular
+Location: Remote – Guatemala
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Full Stack Engineer to build high-quality, scalable software products for digital businesses. You’ll work with Java and Angular to develop customer-facing applications, collaborate with cross-functional teams, and mentor others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate project status and technical recommendations to stakeholders
+- Write performant, testable, and secure code using Java, Angular, and Spring Boot
+- Participate in agile ceremonies and sprint planning
+- Gather requirements and present developed features to clients
+- Mentor team members and contribute to engineering best practices
+- Collaborate with product managers, designers, and engineers to align technical decisions with business goals
+- Troubleshoot and resolve complex technical challenges
+
+✅ Required Qualifications
+- 4+ years of experience in full stack development
+- Proficiency in Java (11+), Spring Boot, Angular, RxJS, CSS, and microservices
+- Experience with agile development and documentation
+- Strong understanding of OOP and SOLID principles
+- Excellent English communication skills and ability to work independently with clients
+
+🌟 Preferred Experience
+- Background in banking or financial services
+- Familiarity with financial terminology and requirements gathering
+
+🎁 Benefits
+- Sponsored certifications and tech training
+- Private medical insurance and wellness programs
+- Paid time off for graduation and special occasions
+- Virtual team-building activities and recognition programs
+- Discounts and social responsibility initiatives
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-full-stack-engineer-java-angular-in-3pillarglobal-at-guatemala-guatemala"
+}
+ 
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/2162a0ea-5f01-4856-8a73-d44edbe8fd37",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "United States",
+  jobTitle: "Data Architect GCP",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Architect – GCP
+Location: Remote – United States
+Department: Product Development
+Employment Type: Full-Time
+Salary Range: $120,000 – $165,000 USD
+
+🧠 Role Overview
+3Pillar Global is seeking a Data Architect to lead the design and implementation of modern data platforms using Google Cloud technologies. You’ll work closely with business leaders and data teams to define reference architectures, optimize data strategies, and deliver scalable analytics solutions that drive real-world impact.
+
+🔧 Key Responsibilities
+- Assess existing data components and conduct proof-of-concepts
+- Design end-to-end solutions for enterprise data challenges
+- Architect large-scale platforms for engineers, analysts, and scientists
+- Define tools and technologies for automated pipelines, ETL, dashboards, and insights
+- Ensure alignment with architecture goals, performance, and governance standards
+- Model databases, select optimal storage, and maintain documentation
+- Collaborate with stakeholders and mentor junior team members
+- Represent the Data Practice through thought leadership and internal initiatives
+
+✅ Required Qualifications
+- Hands-on expertise in SQL, Python, ERD, and GCP services (BigQuery, GCS, Cloud Functions, Composer)
+- Experience with DBT and managing 100TB+ big data environments
+- Strong background in data modeling, pipeline implementation, and system optimization
+- Familiarity with data mining, segmentation, and visualization tools
+- Must pass a code assessment in SQL and Python
+
+🌟 Perks & Benefits
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-architect-gcp-in-3pillarglobal-at-united-states-united-states"
+}
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/2303b70c-594e-48a3-a5f5-5b8246897b45",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Moldova",
+  jobTitle: "Architect Java + React + AEM",
+  jobType: "Remote",
+  jobCategory: "Architect",
+  mainDescription: `Job Title: Architect – Java + React + AEM
+Location: Remote – Moldova
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned Software Architect to lead transformative projects across industries such as urban development, media, and healthcare. This role involves designing cloud-native solutions using Java, React, and Adobe Experience Manager (AEM), while mentoring engineers and driving architectural excellence.
+
+🔧 Key Responsibilities
+- Serve as the technical owner from design through resolution of complex cloud-based solutions
+- Define functional and non-functional requirements with stakeholders
+- Assess new technologies and manage architectural risks
+- Influence long-term product and technical vision
+- Lead code reviews and produce architectural documentation
+- Mentor engineers and contribute to Communities of Practice
+- Ensure alignment with SDLC processes, KPIs, and design standards
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field
+- 5+ years of experience as a Software Architect
+- Proficiency in Java (backend), React (frontend), and AEM or similar CMS
+- Strong English communication skills for global collaboration
+- Expertise in SDLC, Agile methodologies, UML/C4/ArchiMate, and CI/CD practices
+- Operational excellence in architectural patterns across platforms
+
+🌟 Preferred Experience
+- Knowledge of data modeling, ETL flows, and distributed cloud-native data stores
+- Experience designing multi-platform applications (web, desktop, mobile)
+- SaaS architecture and financial ROI analysis
+- Certifications: AWS, Azure, GCP, TOGAF
+
+🎁 What It’s Like at 3Pillar
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "architect-java-react-aem-in-3pillarglobal-at-moldova-moldova"
+}
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/2cf49765-4545-4ae7-8b14-05ca2fbb9bea",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "Architect Java + React + AEM",
+  jobType: "Remote",
+  jobCategory: "Architect",
+  mainDescription: `Job Title: Architect – Java + React + AEM
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a visionary Software Architect to lead transformative cloud-based projects across industries like urban development, media, and healthcare. This role blends technical leadership with strategic influence, focusing on full-stack architecture using Java, React, and Adobe Experience Manager (AEM).
+
+🔧 Key Responsibilities
+- Own the technical design and resolution of complex cloud solutions
+- Define functional and non-functional requirements with stakeholders
+- Assess emerging technologies and manage architectural risks
+- Shape long-term product and technical vision
+- Lead code reviews and produce architectural documentation
+- Mentor engineers and contribute to Communities of Practice
+- Promote best practices in DevOps, CI/CD, and design methodologies
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field
+- 5+ years of experience as a Software Architect
+- Proficiency in Java (backend), React (frontend), and AEM or similar CMS
+- Strong English communication skills for global collaboration
+- Expertise in SDLC, Agile, UML/C4/ArchiMate, and architectural patterns
+- Experience with DevOps tools and CI/CD pipelines
+
+🌟 Preferred Experience
+- Knowledge of data modeling, ETL flows, and distributed cloud-native data stores
+- Experience designing multi-platform applications (web, desktop, mobile)
+- SaaS architecture and ROI analysis
+- Certifications: AWS, Azure, GCP, TOGAF
+
+🎁 What It’s Like at 3Pillar
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "architect-java-react-aem-in-3pillarglobal-at-Romania"
+}
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/2e5085a0-8c04-4856-bb4c-c9a6fe24a607",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "Senior QA Automation Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior QA Automation Engineer
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned QA Automation Engineer to lead quality assurance efforts across transformative software projects. This role blends technical leadership with strategic execution, focusing on automation, process improvement, and cross-functional collaboration to ensure delivery of high-quality, reliable products.
+
+🔧 Key Responsibilities
+- Implement and refine QA strategies in partnership with Product Development Managers
+- Lead test management, execution, and automation aligned with architectural standards
+- Drive adoption of advanced automation tools and CI/CD practices
+- Collaborate across departments to integrate QA into development workflows
+- Mentor QA team members and foster a culture of continuous improvement
+- Stay current with industry trends and introduce innovative QA methodologies
+- Provide strategic QA input during project planning and execution
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field (Master’s preferred)
+- 7+ years in IT with deep QA and automation experience
+- 4+ years in QA leadership roles
+- Expertise in tools like Selenium, Cypress, BrowserStack, TestComplete
+- Proficiency in JavaScript, Python, Java, or C#
+- Strong project management and stakeholder collaboration skills
+- Experience with CI/CD pipelines and DevOps methodologies
+- Business acumen and familiarity with industry standards
+- Excellent communication and problem-solving abilities
+
+🌟 Preferred Experience
+- QA or project management certifications (ISTQB, PMP, Agile/Scrum)
+- Cloud testing experience (AWS, Azure, GCP)
+- Strategic thinking and mentoring capabilities
+- Familiarity with emerging QA tools and practices
+
+🎁 What It’s Like at 3Pillar
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-qa-automation-engineer-in-3pillarglobal-at-Romania"
+}
+,
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/3b2df747-e2f3-4d1e-8b48-4e298b44d1d7",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Moldova",
+  jobTitle: "Senior QA Automation Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `
+Job Title: Senior QA Automation Engineer
+Location: Remote – Moldova
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned QA Automation Engineer to lead quality assurance efforts across transformative software projects. This role blends technical leadership with strategic execution, focusing on automation, process improvement, and cross-functional collaboration to ensure delivery of high-quality, reliable products.
+
+🔧 Key Responsibilities
+- Implement and refine QA strategies in partnership with Product Development Managers
+- Lead test management, execution, and automation aligned with architectural standards
+- Drive adoption of advanced automation tools and CI/CD practices
+- Collaborate across departments to integrate QA into development workflows
+- Mentor QA team members and foster a culture of continuous improvement
+- Stay current with industry trends and introduce innovative QA methodologies
+- Provide strategic QA input during project planning and execution
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field (Master’s preferred)
+- 7+ years in IT with deep QA and automation experience
+- 4+ years in QA leadership roles
+- Expertise in tools like Selenium, Cypress, BrowserStack, TestComplete
+- Proficiency in JavaScript, Python, Java, or C#
+- Strong project management and stakeholder collaboration skills
+- Experience with CI/CD pipelines and DevOps methodologies
+- Business acumen and familiarity with industry standards
+- Excellent communication and problem-solving abilities
+
+🌟 Preferred Experience
+- QA or project management certifications (ISTQB, PMP, Agile/Scrum)
+- Cloud testing experience (AWS, Azure, GCP)
+- Strategic thinking and mentoring capabilities
+- Familiarity with emerging QA tools and practices
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-qa-automation-engineer-in-3pillarglobal-at-moldova-moldova"
+}
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/3b41368c-af59-42c6-b81e-d0fbff26a398",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "Senior Software Engineer GO - MongoDB",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Senior Software Engineer – Go & MongoDB
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a dynamic Senior Go Engineer to design and optimize enterprise-grade features for Backup for MongoDB. You’ll collaborate with distributed teams, contribute to open-source projects, and help shape the roadmap for MongoDB tooling. This role blends backend engineering with community engagement and mentorship.
+
+🔧 Key Responsibilities
+- Design and implement new MongoDB-related tools and features
+- Collaborate with distributed teams and engage with the open-source community
+- Participate in code reviews and contribute to upstream projects
+- Build resilient database solutions with high availability and fault tolerance
+- Mentor junior developers and promote best practices
+- Evangelize the product through blogging, presentations, and community outreach
+- Work cross-functionally with QA, product managers, and other departments
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or equivalent experience
+- 5+ years of experience in Go development and object-oriented design
+- Strong understanding of MongoDB, NoSQL databases, and distributed systems
+- Experience with CI/CD tools (Jenkins, CircleCI, Travis)
+- Proficiency in compression/encryption algorithms, concurrency models, and debugging tools (gdb, strace)
+- Familiarity with Bash, Perl, Python scripting
+- Enthusiasm for AI/ML technologies and intelligent systems
+
+🌍 What It’s Like at 3Pillar
+- Remote-first work culture with global collaboration
+- Focus on well-being: fitness, mental health, and generous time off
+- Sponsored certifications and career development
+- Inclusive and diverse workplace values
+- Opportunities to work on impactful, industry-shaping projects
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-go-mongodb-in-3pillarglobal-at-Romania"
+}
+
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/418e220c-f87d-4118-9d2f-89b0fd4ab3b8",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Mexico",
+  jobTitle: "Senior Full Stack Software Engineer - Java/Kotlin",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Full Stack Software Engineer – Java/Kotlin
+Location: Remote – Mexico
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned full stack engineer to build high-performance, scalable software products for digital businesses. You’ll work with Java, Kotlin, and modern frameworks to deliver customer-facing applications, collaborating with cross-functional teams and mentoring others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate effectively with stakeholders and present developed features
+- Write efficient, secure, and testable code using Java, Kotlin, and Spring Boot
+- Lead planning, estimation, and agile ceremonies
+- Collaborate with designers, engineers, and managers to solve user pain points
+- Mentor peers and contribute to engineering best practices
+- Drive project delivery from concept to deployment
+
+✅ Required Qualifications
+- 5+ years of experience in full stack development
+- Proficiency in Java 8+ (preferably Java 11+), Spring Boot, and Kotlin
+- Experience with microservices, Kubernetes, and Helm charts
+- Strong knowledge of PostgreSQL, RESTful services, gRPC, and Protobuf
+- Familiarity with Git, Linux, and agile methodologies
+- Solid understanding of OOP, SOLID principles, and enterprise-level systems
+- Fluent English communication skills
+
+🌟 Preferred Experience
+- AWS cloud services and OpenAPI specs
+- Go (Golang), Bash scripting, and network protocols (SSH, SNMP, Modbus)
+- Time-series databases (InfluxDB, Prometheus)
+- Kotlin frameworks (Ktor, Exposed) and Gradle project management
+- Monitoring tools (Grafana, VictoriaMetrics), API Gateways, and JVM performance tuning
+- Authentication protocols (LDAP, OAuth) and MDC logging
+
+🎁 Benefits
+- 26 days of Christmas bonus and vacation bonus
+- Discretionary time off and law-based vacation from first anniversary
+- Food coupons, major medical insurance, optional life insurance
+- IMSS, Afore, Infonavit, and savings box
+- Career development plan, internal and external training support
+- Home office setup and WFH support
+- Referral bonuses and wellness programs
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-full-stack-software-engineer-java-kotlin-in-3pillarglobal-at-mexico-mexico"
+}
+,
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/46378820-7a4b-4834-965a-a5c9e683945f",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Czech Republic",
+  jobTitle: "Architect Java + React + AEM",
+  jobType: "Remote",
+  jobCategory: "Architect",
+  mainDescription: ``,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "architect-java-react-aem-in-3pillarglobal-at-czech-republic-czech-republic"
+}
+
+
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/4ba66649-59f3-4b0e-b411-73aabdb5ed02",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Noida, India",
+  jobTitle: "Senior Technical Lead Java and Reactjs",
+  jobType: "Hybrid",
+  jobCategory: "Technical",
+  mainDescription: `Job Title: Senior Technical Lead – Java and ReactJS
+Location: Noida, India (Hybrid)
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking an experienced Agile Technical Lead to architect and guide transformative software solutions. You’ll lead cross-functional teams, mentor engineers, and drive innovation across industries such as urban development, media, and healthcare. This role blends hands-on technical leadership with strategic vision and delivery excellence.
+
+🔧 Key Responsibilities
+- Lead design, development, and maintenance of scalable applications
+- Architect technical solutions for new features and improvements
+- Provide mentorship and technical guidance to development teams
+- Conduct code reviews and ensure adherence to best practices
+- Collaborate with stakeholders and project managers to meet goals
+- Stay current with industry trends and promote continuous improvement
+- Foster a culture of innovation and technical excellence
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field
+- 5+ years as a Software Architect or Technical Lead
+- Proficiency in Java 17, Spring Boot, Microservices, React, TypeScript, and JS frameworks
+- Strong understanding of SDLC, Agile methodologies, and CI/CD practices
+- Experience with UML, C4, ArchiMate design standards
+- Excellent communication and decision-making skills
+- Ability to manage multiple projects and mentor teams
+
+🌟 Preferred Experience
+- Knowledge of data modeling, ETL flows, and cloud-native data stores
+- Experience designing multi-platform applications (web, desktop, mobile)
+- SaaS architecture and ROI analysis
+- Certifications: AWS, Azure, GCP, TOGAF
+
+You can view the full listing and apply directly on Wellfound’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-technical-lead-java-and-reactjs-in-3pillarglobal-at-Noida-India"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/5487cd1f-170f-46a2-bb78-e89bd68e0268",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "QA Automation Engineer - Python & Networking",
+  jobType: "Remote",
+  jobCategory: "Network",
+  mainDescription: `Job Title: QA Automation Engineer – Python & Networking
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a QA Automation Engineer with strong Python and networking skills to lead quality assurance efforts across transformative software projects. This role goes beyond traditional testing—it's about driving quality excellence, mentoring junior engineers, and ensuring the delivery of high-impact, reliable products.
+
+🔧 Key Responsibilities
+- Develop and implement strategic QA plans in collaboration with technical leads
+- Lead test design and execution for high-impact features
+- Enhance automation frameworks and optimize testing processes
+- Collaborate cross-functionally with development and product teams
+- Mentor junior QA engineers and advocate for quality standards
+- Stay current with industry trends and introduce innovative QA practices
+- Support project planning and ensure QA integration throughout the lifecycle
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field (or equivalent experience)
+- 2+ years in software QA, including test strategy and documentation
+- 1+ year with automated testing tools (e.g., Selenium, TestComplete, QTP/UFT)
+- Proficiency in Python, Linux, REST APIs, and Bash scripting
+- Experience with CI/CD pipelines and DevOps tools (e.g., Jenkins, VMWare)
+- Strong networking knowledge and debugging experience
+- Familiarity with databases, SQL, and defect tracking tools (e.g., JIRA)
+- Excellent English communication and collaboration skills
+
+🌟 Preferred Experience
+- QA certifications (ISTQB Advanced Level, CSTE)
+- Performance testing (LoadRunner, JMeter)
+- Security testing (OWASP ZAP, Fortify)
+- Experience with virtualization tools and cloud-native environments
+- Strong process improvement and innovation mindset
+
+🎁 What It’s Like at 3Pillar
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "qa-automation-engineer-python-networking-in-3pillarglobal-at-roma-italy"
+}
+
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/61393427-dda3-454a-986b-4089ef949094",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Canada",
+  jobTitle: "Software Engineer - Full Stack - Java/Angular",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer – Full Stack (Java/Angular)
+Location: Remote – Canada
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a senior full stack engineer to build high-quality, scalable software products for digital businesses. You’ll work with Java and Angular to develop customer-facing applications, collaborate with cross-functional teams, and mentor others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate effectively with stakeholders and present developed features
+- Write performant, testable, and secure code using Java, Angular, and Spring Boot
+- Lead planning, estimation, and agile ceremonies
+- Conduct code reviews and establish development best practices
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Mentor peers and contribute to engineering communities of practice
+- Drive project delivery from concept to deployment
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or Software Engineering
+- 8+ years of experience in software development using Java
+- Experience with Spring Boot, Hibernate/JPA, and Angular 2+
+- Proficiency in RESTful services, JavaScript/TypeScript, HTML, and CSS
+- Strong SQL skills and familiarity with Git
+- Expertise in OOP, SOLID principles, and enterprise-level systems
+- Experience with unit, integration, and end-to-end testing
+- Strong communication and client-facing skills
+
+🌟 Nice-to-Have Experience
+- Familiarity with Struts, Backbone, Marionette
+- Knowledge of architectural and design patterns (e.g., Microservices, Factory, Singleton)
+- Experience with AWS, Azure, Docker, and Kubernetes
+
+🎁 Benefits & Culture
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-full-stack-java-angular-in-3pillarglobal-at-canada-canada"
+}
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/6c406da0-7498-43b6-9578-57f1fb6c5402",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Canada",
+  jobTitle: "Data Architect GCP",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Architect – GCP
+Location: Remote – Canada
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Data Architect to lead the design and implementation of modern data platforms using Google Cloud technologies. You’ll work closely with business leaders and data teams to define reference architectures, optimize data strategies, and deliver scalable analytics solutions that drive real-world impact.
+
+🔧 Key Responsibilities
+- Assess existing data components and conduct proof-of-concepts
+- Design end-to-end solutions for enterprise data challenges
+- Architect large-scale platforms for engineers, analysts, and scientists
+- Define tools and technologies for automated pipelines, ETL, dashboards, and insights
+- Ensure alignment with architecture goals, performance, and governance standards
+- Model databases, select optimal storage, and maintain documentation
+- Collaborate with stakeholders and mentor junior team members
+
+✅ Required Qualifications
+- Hands-on expertise in SQL, Python, ERD, and GCP services (BigQuery, GCS, Cloud Functions, Composer)
+- Experience with DBT and managing 100TB+ big data environments
+- Strong background in data modeling, pipeline implementation, and system optimization
+- Familiarity with data mining, segmentation, and visualization tools
+- Must pass a code assessment in SQL and Python
+
+🎁 Benefits & Culture
+- Remote-first work culture with flexible location options
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development opportunities
+- Inclusive and diverse workplace culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-architect-gcp-in-3pillarglobal-at-canada-canada"
+}
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/6d079956-ae1c-4fbf-91df-fd579658c627",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Mexico",
+  jobTitle: "Senior Full Stack Engineer - Java & Angular",
+  jobType: "Remote",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Senior Full Stack Engineer – Java & Angular
+Location: Remote – Mexico
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Full Stack Engineer to build high-quality, scalable software products for digital businesses. You’ll work with Java and Angular to develop customer-facing applications, collaborate with cross-functional teams, and mentor others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate effectively with stakeholders and present developed features
+- Write performant, testable, and secure code using Java, Angular, and Spring Boot
+- Lead planning, estimation, and agile ceremonies
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Enforce coding standards and mentor team members
+- Troubleshoot complex technical challenges and ensure successful UI delivery
+- Participate in engineering communities of practice
+
+✅ Required Qualifications
+- 4+ years of experience in full stack development
+- Proficiency in Java 11+, Spring Boot, Microservices, Angular, RxJS, and CSS
+- Experience with agile development and documentation
+- Strong understanding of OOP, SOLID principles, and enterprise-level systems
+- Fluent English communication skills and ability to work independently with clients
+
+🌟 Preferred Experience
+- Background in banking or financial services
+- Familiarity with financial terminology and requirements gathering
+
+🎁 Benefits
+- Vacation entitlement from first anniversary
+- Discretionary time off
+- 26 days of Christmas bonus
+- Food coupons and major medical insurance
+- Optional life insurance and savings box
+- Law benefits: IMSS, Afore, Infonavit
+- Career development plan and home office support
+- Internal and external training opportunities
+- Referral bonuses
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-full-stack-engineer-java-angular-in-3pillarglobal-at-mexico-mexico"
+}
+
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/6f5e3568-9111-45ed-b179-c688a615cf60",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Czech Republic",
+  jobTitle: "Sr AI/ML Engineer",
+  jobType: "Remote",
+  jobCategory: "AI",
+  mainDescription: `Job Title: Senior AI/ML Engineer
+Location: Remote – Czech Republic
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior AI/ML Engineer to lead the design and deployment of scalable machine learning systems. You’ll work with cutting-edge technologies like Generative AI, Agentic AI, and LLMs to build impactful, ethical solutions. This role blends hands-on engineering with mentorship and strategic innovation.
+
+🔧 Key Responsibilities
+- Collaborate with stakeholders to identify AI opportunities and deliver Gen AI solutions
+- Fine-tune and deploy generative models for text, image, video, or audio generation
+- Integrate LLMs into scalable applications and optimize performance
+- Implement agent chaining and prompt engineering for multi-agent collaboration
+- Maintain technical documentation and mentor junior engineers
+- Advocate for AI adoption and stay current with emerging technologies
+
+✅ Required Qualifications
+- Bachelor’s or Master’s in Computer Science, Engineering, or related field
+- 4–7 years of experience in ML, NLP, and deep learning
+- 2+ years building production-grade Gen AI applications
+- Proficiency in Python, FastAPI, SQL, and Google Cloud (Vertex AI, Cloud Run, Cloud SQL)
+- Experience with LLM frameworks (LangChain, LangGraph, LangSmith, Google GenAI SDK)
+- Strong understanding of LLM fine-tuning, RAG, MCP, and Agentic AI
+- Familiarity with CI/CD, AI ethics, and model governance
+- Excellent communication and problem-solving skills
+
+🌟 Preferred Experience
+- Working with large datasets and vector databases (FAISS, Pinecone)
+- Contributions to research, blogs, or open-source projects
+- Experience with Hugging Face and Gen AI deployment pipelines
+
+🎁 What It’s Like at 3Pillar
+- Remote-first work culture with flexible location options
+- Global collaboration and English-speaking environment
+- Focus on well-being with fitness, mental health, and generous time off
+- Sponsored certifications and career development
+- Inclusive and diverse workplace values
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "sr-ai-ml-engineer-in-3pillarglobal-at-czech-republic-czech-republic"
+}
+
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/758f83b1-21f2-4ef2-ab65-049c3a3e2cd7",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Mexico",
+  jobTitle: "Senior Software Engineer .Net (AWS)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – .NET (AWS)
+Location: Remote – Mexico
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Software Engineer to build high-performance, scalable applications using .NET Core and AWS. You’ll take ownership of projects from design to launch, collaborate with cross-functional teams, and contribute to enterprise-grade solutions that drive client success.
+
+🔧 Key Responsibilities
+- Write efficient, secure, and scalable code using .NET Core
+- Lead technical design and ensure high-quality implementation
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Manage project documentation, estimation, and reporting
+- Work within Agile methodologies and uphold quality standards
+- Contribute to architecture decisions and CI/CD pipeline development
+
+✅ Required Qualifications
+- 6+ years of experience with .NET Core
+- 3+ years working in AWS cloud environments
+- Experience with Relational and NoSQL databases
+- Strong background in microservices, Docker, and API development
+- Familiarity with unit testing, OOP, SOLID principles, and OWASP
+- High-level proficiency in English for global collaboration
+- Experience with UML, C4, ArchiMate, and adapting architecture to client needs
+
+🌟 Preferred Experience
+- Source control tools and SDLC understanding
+- Knowledge of HTTP protocols, JSON/XML, and document databases
+- CI/CD pipeline development and cloud-native applications
+
+🎁 Benefits
+- Vacation entitlement from first anniversary
+- 26 days of Christmas bonus and vacation bonus
+- Food coupons and major medical insurance
+- Optional life insurance and savings box
+- Law benefits: IMSS, Afore, Infonavit
+- Career development plan and home office support
+- Internal and external training opportunities
+- Referral bonuses and WFH support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-net-aws-in-3pillarglobal-at-mexico-mexico"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/818b87cf-ca95-4a0d-bd20-4ee4a9c02cb0",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Costa Rica",
+  jobTitle: "Senior Fullstack Software Engineer PHP (Laravel) & React",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Fullstack Software Engineer – PHP (Laravel) & React
+Location: Remote – Costa Rica
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned fullstack engineer to build high-quality, scalable software products for digital businesses. You’ll work with PHP (Laravel) and React to develop customer-facing applications, collaborate with cross-functional teams, and mentor others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate effectively with stakeholders and present developed features
+- Write performant, testable, and secure code using PHP, Laravel, and React
+- Lead planning, estimation, and agile ceremonies
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Enforce coding standards and mentor team members
+- Troubleshoot complex technical challenges and ensure successful delivery
+- Participate in engineering communities of practice
+
+✅ Required Qualifications
+- 5+ years of experience in fullstack development
+- Proficiency in React (JavaScript), PHP, and Laravel
+- Experience with Agile methodologies, OOP, and SOLID principles
+- Familiarity with UML / C4 / ArchiMate design standards
+- Strong understanding of OWASP and secure coding practices
+- Fluent English communication skills and ability to work independently with clients
+
+🌟 Technical Requirements
+- Experience with ORMs, unit testing, and design patterns (Factory, Singleton, Observer)
+- Familiarity with microservices, serverless architecture, and Docker/Kubernetes
+- Exposure to client-specific technologies (to be discussed during interview)
+
+🎁 Benefits
+- Access to a beach house and “Aseisthmus” association
+- Additional leave days for graduation, bereavement, and marriage
+- Sponsored certifications and tech training
+- Private medical insurance and legal benefits
+- Work-from-home flexibility and career development suppor
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-fullstack-software-engineer-php-laravel-react-in-3pillarglobal-at-costa-rica-costa-rica"
+}
+
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/837070a1-6ebe-4a9e-bf56-a5909a118dd0",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Costa Rica",
+  jobTitle: "Senior Software Engineer .Net (AWS)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – .NET (AWS)
+Location: Remote – Costa Rica
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Software Engineer to build high-performance, scalable applications using .NET Core and AWS. You’ll take ownership of projects from design to launch, collaborate with cross-functional teams, and contribute to enterprise-grade solutions that drive client success.
+
+🔧 Key Responsibilities
+- Write performant, testable, and secure code using .NET Core
+- Design and maintain scalable applications in AWS cloud environments
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Lead technical design, documentation, and project delivery
+- Implement CI/CD pipelines and automated testing frameworks
+- Troubleshoot production issues related to CPU, memory, and networking
+
+✅ Required Qualifications
+- 6+ years of experience with .NET Core
+- 3+ years working in AWS cloud environments
+- Experience with Relational and NoSQL databases
+- Strong background in microservices, Docker, and API development
+- Familiarity with unit testing, OOP, SOLID principles, and OWASP
+- High-level proficiency in English for global collaboration
+- Experience with UML, C4, ArchiMate, and adapting architecture to client needs
+
+🌟 Preferred Experience
+- Source control tools and SDLC understanding
+- Knowledge of HTTP protocols, JSON/XML, and document databases
+- CI/CD pipeline development and cloud-native applications
+- Familiarity with AWS services like EC2, S3, RDS, Lambda, and CloudFormation
+
+🎁 Benefits
+- Beach house access and “Aseisthmus” association
+- Additional leave days for graduation, bereavement, and marriage
+- Sponsored certifications and tech training
+- Private medical insurance and legal benefits
+- Work-from-home flexibility and career development suppor
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-net-aws-in-3pillarglobal-at-costa-rica-costa-rica"
+}
+
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/857863f4-65c0-4832-831c-094fef83d86f",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "Sr AI/ML Engineer",
+  jobType: "Remote",
+  jobCategory: "AI",
+  mainDescription: `Job Title: Senior AI/ML Engineer
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior AI/ML Engineer to lead the design and deployment of scalable machine learning systems. You’ll work with cutting-edge technologies like Generative AI, Agentic AI, and LLMs to build impactful, ethical solutions. This role blends hands-on engineering with mentorship and strategic innovation.
+
+🔧 Key Responsibilities
+- Collaborate with stakeholders to identify AI opportunities and deliver Gen AI solutions
+- Fine-tune and deploy generative models for text, image, video, or audio generation
+- Integrate LLMs into scalable applications and optimize performance
+- Implement agent chaining and prompt engineering for multi-agent collaboration
+- Maintain technical documentation and mentor junior engineers
+- Advocate for AI adoption and stay current with emerging technologies
+
+✅ Required Qualifications
+- Bachelor’s or Master’s in Computer Science, Engineering, or related field
+- 4–7 years of experience in ML, NLP, and deep learning
+- 2+ years building production-grade Gen AI applications
+- Proficiency in Python, FastAPI, SQL, and Google Cloud (Vertex AI, Cloud Run, Cloud SQL)
+- Experience with LLM frameworks (LangChain, LangGraph, LangSmith, Google GenAI SDK)
+- Strong understanding of LLM fine-tuning, RAG, MCP, and Agentic AI
+- Familiarity with CI/CD, AI ethics, and model governance
+- Excellent communication and problem-solving skills
+
+🌟 Preferred Experience
+- Working with large datasets and vector databases (FAISS, Pinecone)
+- Contributions to research, blogs, or open-source projects
+- Experience with Hugging Face and Gen AI deployment pipelines
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "sr-ai-ml-engineer-in-3pillarglobal-at-Romania"
+}
+
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/8bce13dd-68c6-4a00-834d-03d926a023c5",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "India",
+  jobTitle: "Automation Testing Lead (ETL/Data Pipeline)",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Automation Testing Lead – ETL/Data Pipeline
+Location: Remote – India
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a seasoned QA Automation Lead to drive quality assurance across data-centric projects. This role focuses on building robust automation frameworks, validating data pipelines, and ensuring the accuracy of Power BI dashboards. You’ll lead testing efforts, mentor junior engineers, and collaborate across teams to deliver high-impact solutions—especially in the healthcare domain.
+
+🔧 Key Responsibilities
+- Lead automation strategy and execution across multiple projects
+- Build frameworks using Selenium or Pytest with Python
+- Automate testing for APIs, UI, and data validations
+- Collaborate with DevOps and Data Engineering teams on ETL pipeline testing
+- Validate Synapse Data Pipelines and Power BI dashboards
+- Manage CI/CD integrations via Azure DevOps
+- Mentor junior QA engineers and promote quality best practices
+
+✅ Required Qualifications
+- 8+ years in automation testing with Python-based frameworks
+- Experience with ETL testing and data pipeline automation
+- Strong knowledge of Azure services (Data Factory, Storage)
+- Proficiency in Power BI testing (DAX, data modeling, report validation)
+- Familiarity with Agile/Scrum, test management, and defect tracking tools
+- Prior experience in the healthcare domain is mandatory
+- Excellent communication and leadership skills
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "automation-testing-lead-etl-data-pipeline-in-3pillarglobal-at-india-india"
+}
+
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/900b4950-9b2c-4471-9346-75e5ecb7eed1",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "India",
+  jobTitle: "Senior Software Engineer- Application Tech Support",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Senior Software Engineer – Application Tech Support
+Location: Remote – India
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Software Engineer to provide L2 and L3 technical support for production environments. This role focuses on troubleshooting ETL/data pipelines, supporting microservices in containerized environments, and collaborating across teams to ensure system reliability and performance.
+
+🔧 Key Responsibilities
+- Monitor and troubleshoot ETL/data pipelines across distributed systems
+- Provide L2/L3 support for production tickets and incident resolution
+- Perform root cause analysis using SQL, logs, and monitoring tools
+- Support microservices running in Docker and Kubernetes
+- Diagnose Linux server issues (disk, memory, networking, permissions)
+- Collaborate with DevOps/CloudOps on scaling and performance optimization
+- Automate system health checks using cron jobs, shell scripts, and cloud-native tools
+- Create RCA reports and implement preventive measures
+- Ensure SLA compliance and maintain accurate documentation
+
+✅ Required Qualifications
+- 5+ years in technical/application/production support
+- Strong experience with SQL, Linux, and AWS
+- Familiarity with monitoring tools like Datadog, Sumologic, or Zabbix
+- Hands-on experience with Docker, Kubernetes, and microservices architecture
+- Proficiency in API support and log debugging
+- Excellent problem-solving and communication skills
+
+🎁 Benefits
+- Competitive salary based on experience
+- Flexible work hours and remote-first culture
+- Medical insurance with premium options for family
+- Health check-up camps and recreational activities
+- Business casual work environment
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-application-tech-support-in-3pillarglobal-at-india-india"
+}
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/916c7038-ee3c-4d90-975c-4e5708c92686",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Romania",
+  jobTitle: "Senior QA Automation Engineer - Playwright & Javascript",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior QA Automation Engineer – Playwright & JavaScript
+Location: Remote – Romania
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior QA Automation Engineer to build high-quality automation frameworks and deliver exceptional product capabilities. You’ll work with technologies like Playwright, JavaScript/TypeScript, and Python to ensure scalable, secure, and performant software testing across client-facing applications.
+
+🔧 Key Responsibilities
+- Build and maintain robust automation frameworks
+- Track status, report progress, and estimate tasks using project tools
+- Gather requirements and maintain technical documentation
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Own projects from technical design through successful launch
+- Uphold quality standards and contribute to agile development practices
+
+✅ Required Qualifications
+- 7+ years of experience in JavaScript/TypeScript, Python, and Playwright/Selenium
+- Experience building automation frameworks from scratch
+- Familiarity with CI/CD (GitHub Actions) and Agile methodologies
+- Beginner to intermediate skills in SQL and relational databases
+- Flexibility to learn and adapt to new tech stacks
+
+🌟 Preferred Experience
+- Knowledge of source control tools
+- Understanding of SDLC and experience with data projects
+- Python and Pytest programming
+- Exposure to AWS Cloud services
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-qa-automation-engineer-playwright-javascript-in-3pillarglobal-at-Romania"
+}
+
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/96f80800-3e00-491c-b55c-e66af055e058",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Guatemala",
+  jobTitle: "Senior Software Engineer .Net (AWS)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – .NET (AWS)
+Location: Remote – Guatemala
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is seeking a Senior Software Engineer to build high-performance, scalable applications using .NET Core and AWS. You’ll take ownership of projects from technical design to launch, collaborate with cross-functional teams, and contribute to enterprise-grade solutions that drive client success.
+
+🔧 Key Responsibilities
+- Write performant, testable, and secure code using .NET Core
+- Design and maintain scalable applications in AWS cloud environments
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Lead technical documentation, estimation, and project delivery
+- Implement CI/CD pipelines and automated testing frameworks
+- Troubleshoot production issues related to CPU, memory, and networking
+
+✅ Required Qualifications
+- 6+ years of experience with .NET Core
+- 3+ years working in AWS cloud environments
+- Experience with Relational and NoSQL databases
+- Strong background in microservices, Docker, and API development
+- Familiarity with unit testing, OOP, SOLID principles, and OWASP
+- High-level proficiency in English for global collaboration
+- Experience with UML, C4, ArchiMate, and adapting architecture to client needs
+
+🌟 Preferred Experience
+- Source control tools and SDLC understanding
+- Knowledge of HTTP protocols, JSON/XML, and document databases
+- CI/CD pipeline development and cloud-native applications
+
+🎁 Benefits
+- Sponsored certifications and tech training
+- Private medical insurance and legal benefits
+- Additional leave days for graduation
+- Virtual team-building activities and badge discounts
+- Work-from-home flexibility and career development support
+
+You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-net-aws-in-3pillarglobal-at-guatemala-guatemala"
+}
+
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/ad17eb46-33df-4e89-bcc1-f5bf9b9c211d",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Guatemala",
+  jobTitle: "Senior Fullstack Software Engineer PHP (Laravel) & React",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Fullstack Software Engineer – PHP (Laravel) & React
+Location: Remote – Guatemala
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Fullstack Engineer to build high-quality, scalable software products for digital businesses. You’ll work with PHP (Laravel) and React to develop customer-facing applications, collaborate with cross-functional teams, and mentor others while applying agile methodologies and the company’s Product Mindset.
+
+🔧 Key Responsibilities
+- Communicate effectively with stakeholders and present developed features
+- Write performant, testable, and secure code using PHP, Laravel, and React
+- Lead planning, estimation, and agile ceremonies
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Enforce coding standards and mentor team members
+- Troubleshoot complex technical challenges and ensure successful delivery
+- Participate in engineering communities of practice
+
+✅ Required Qualifications
+- 5+ years of experience in fullstack development
+- Proficiency in React (JavaScript), PHP, and Laravel
+- Experience with Agile methodologies, OOP, and SOLID principles
+- Familiarity with UML / C4 / ArchiMate design standards
+- Strong understanding of OWASP and secure coding practices
+- Fluent English communication skills and ability to work independently with clients
+
+🌟 Technical Requirements
+- Experience with ORMs, unit testing, and design patterns (Factory, Singleton, Observer)
+- Familiarity with microservices, serverless architecture, and Docker/Kubernetes
+- Exposure to client-specific technologies (to be discussed during interview)
+
+🎁 Benefits
+- Sponsored certifications and tech training
+- Private medical insurance and legal benefits
+- Additional leave days for graduation
+- Virtual team-building activities and badge discounts
+- Work-from-home flexibility and career development support
+
+You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-fullstack-software-engineer-php-laravel-react-in-3pillarglobal-at-guatemala-guatemala"
+}
+
+
+
+
+, 
+{
+  applyUrl: "https://jobs.lever.co/3pillarglobal/b929fcdf-8cd7-4425-94dc-fe42146fee4d",
+  companyName: "3pillarglobal",
+  companyLogo: "/images/3pillarglobal.png",
+  location: "Guatemala",
+  jobTitle: "Senior Full Stack Software Engineer - Java/Kotlin",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Senior Full Stack Software Engineer – Java/Kotlin
+Location: Remote – Guatemala
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Full Stack Engineer to build scalable, high-performance software products for digital businesses. You’ll work with Java, Kotlin, and modern frameworks to deliver customer-facing applications, mentor peers, and contribute to agile development practices.
+
+🔧 Key Responsibilities
+- Communicate effectively with stakeholders and present developed features
+- Write efficient, secure, and testable code using Java, Kotlin, and Spring Boot
+- Lead planning, estimation, and agile ceremonies
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Mentor team members and contribute to engineering best practices
+- Drive project delivery from concept to deployment
+
+✅ Required Qualifications
+- 5+ years of experience in full stack development
+- Proficiency in Java 8+ (preferably Java 11+), Spring Boot, and Kotlin
+- Experience with microservices, Kubernetes, and Helm charts
+- Strong knowledge of PostgreSQL, RESTful services, gRPC, and Protobuf
+- Familiarity with Git, Linux, and agile methodologies
+- Solid understanding of OOP, SOLID principles, and enterprise-level systems
+- Fluent English communication skills
+
+🌟 Preferred Experience
+- AWS cloud services and OpenAPI specs
+- Go (Golang), Bash scripting, and network protocols (SSH, SNMP, Modbus)
+- Time-series databases (InfluxDB, Prometheus)
+- Kotlin frameworks (Ktor, Exposed) and Gradle project management
+- Monitoring tools (Grafana, VictoriaMetrics), API Gateways, and JVM performance tuning
+- Authentication protocols (LDAP, OAuth) and MDC logging
+
+🎁 Benefits
+- Sponsored certifications and tech training
+- Private medical insurance and legal benefits
+- Additional leave days for graduation
+- Virtual team-building activities and badge discounts
+- Work-from-home flexibility and career development support
+
+You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-full-stack-software-engineer-java-kotlin-in-3pillarglobal-at-guatemala-guatemala"
+}
+
+,
+
+
   {
   applyUrl: "https://jobs.lever.co/brillio-2/a584af2c-c119-46b4-a1c0-3e3c4864671c",
   companyName: "Brillio",
@@ -16,8 +2632,7 @@ const mockJobsData: BackendStoredJob[] = [
   jobTitle: "Azure Architect - R01552334",
   jobType: "Hybrid",
   jobCategory: "Architect",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Azure Architect – R01552334 role at Brillio:
-
+  mainDescription: `
 Job Title: Azure Architect
 Location: Maryland, United States (Hybrid – DMV area preferred)
 Department: Data and AI – Data Engineering
@@ -286,8 +2901,7 @@ Atlassian builds tools that help teams collaborate and unleash their full potent
   jobTitle: "Fullstack Engineer",
   jobType: "Remote",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Fullstack Engineer role at Atlassian in Poland:
-
+  mainDescription: `
 Job Title: Fullstack Engineer
 Location: Gdańsk, Poland (Remote or Onsite)
 Employment Type: Full-Time
@@ -1344,8 +3958,7 @@ insightsoftware is seeking a Principal Software Engineer to lead backend develop
   jobTitle: "Manager, Engineering (.Net/C#, SQL, AI and some frontend)",
   jobType: "Full-time",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Manager, Engineering (.Net/C#, SQL, AI and some frontend) role at insightsoftware:
-
+  mainDescription: `
 Job Title: Manager, Engineering (.Net/C#, SQL, AI and some frontend)
 Location: Bengaluru, Karnataka, India (Hybrid)
 Employment Type: Full-Time
@@ -1402,8 +4015,7 @@ insightsoftware is seeking a hands-on Engineering Manager to lead a team develop
   jobTitle: "Senior Business Intelligence Engineer (Power BI Data Engineer, Cloud and Finance)",
   jobType: "Remote",
   jobCategory: "Business",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Senior Business Intelligence Engineer (Power BI, Cloud & Finance) role at insightsoftware:
-
+  mainDescription: `
 Job Title: Senior Business Intelligence Engineer
 Location: Hyderabad, India (Remote)
 Shift: 5:00 PM – 2:00 AM IST
@@ -1675,8 +4287,7 @@ Ava Labs is the team behind Avalanche, a high-performance blockchain platform. B
   jobTitle: "Azure Architect - R01552334",
   jobType: "Hybrid",
   jobCategory: "Architect",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Azure Architect – R01552334 role at Brillio:
-
+  mainDescription: `
 Job Title: Azure Architect
 Location: Maryland, United States (Hybrid – DMV area preferred)
 Department: Data and AI – Data Engineering
@@ -1903,8 +4514,7 @@ Atlassian builds tools that help teams collaborate and unleash their full potent
   jobTitle: "Fullstack Engineer",
   jobType: "Remote",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Fullstack Engineer role at Atlassian in Poland:
-
+  mainDescription: `
 Job Title: Fullstack Engineer
 Location: Gdańsk, Poland (Remote or Onsite)
 Employment Type: Full-Time
@@ -2140,8 +4750,7 @@ Nordcloud is a European cloud leader with over 1300 employees across 10 countrie
   jobTitle: "Tech Lead",
   jobType: "Hybrid",
   jobCategory: "General",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Tech Lead role at Zeno Group in Kuala Lumpur:
-
+  mainDescription: `
 Job Title: Tech Lead
 Location: Kuala Lumpur, Malaysia (Hybrid)
 Department: Digital – Web & Technology Development
@@ -5192,7 +7801,7 @@ We’re hiring a Senior Fullstack Engineer with strong skills in Angular, Node.j
 - Pet adoption support
 - Bonus PTO
 - Team games and competitions
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-fullstack-engineer-angular-node--in-oowlish-brazil-brazil'}, 
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-fullstack-engineer-angular-node-in-oowlish-brazil-brazil'}, 
 
 
 {applyUrl: 'https://jobs.lever.co/livechatinc/8ce4625b-cf75-4ac6-86c0-d5bcffcf6a87', companyName: 'text', companyLogo: '/images/text.png', location: 'Wrocław, Poland', jobTitle: 'Senior Frontend Engineer', jobType: 'Hybrid', jobCategory: 'Frontend', mainDescription: `💼 Job Title: Senior Frontend Engineer
@@ -5950,7 +8559,7 @@ Join Veeva’s OpenData Commercial team as a Data Extraction Analyst and help de
 - Flexible remote work anywhere in Portugal
 
 Veeva embraces diversity and inclusion at all levels. If you require accommodations during the hiring process, please reach out to: talent_accommodations@veeva.com.
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'analyst-data-extraction-opendata-emea-remote--in-veeva-portugal-portugal'}, 
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'analyst-data-extraction-opendata-emea-remotein-veeva-portugal-portugal'}, 
 
 
 {applyUrl: 'https://jobs.lever.co/veeva/de31357b-1060-4d23-bd62-bd3e086f3f3d', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Germany', jobTitle: 'Manager Data Extraction - OpenData EMEA (Remote)', jobType: 'Remote', jobCategory: 'Data', mainDescription: `💼 Job Title: Manager, Data Extraction – OpenData EMEA
@@ -5991,7 +8600,7 @@ Join Veeva’s OpenData Commercial team and lead a group of data analysts focuse
 - Remote work flexibility from anywhere in Germany
 
 Veeva is committed to diversity, equity, and inclusion. Applicants of all backgrounds are welcome. If accommodations are needed for any part of the hiring process, please contact talent_accommodations@veeva.com.
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'manager-data-extraction-opendata-emea-remote--in-veeva-germany-germany'}, 
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'manager-data-extraction-opendata-emea-remote-in-veeva-germany-germany'}, 
 
 
 {applyUrl: 'https://jobs.lever.co/veeva/e0135754-3a6a-43fb-977e-5068f6e4cc45', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'California', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Full-time', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering

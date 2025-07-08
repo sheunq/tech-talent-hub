@@ -9,7 +9,6 @@ import { Button } from '@/components/ui/button';
 import { Loader2 } from 'lucide-react';
 import Image from 'next/image';
 import type { BackendStoredJob } from '@/lib/schemas/job';
-import { AdSenseUnit } from '@/components/ads/AdSenseUnit';
 import { Card, CardContent } from '@/components/ui/card';
 
 const JOBS_PER_PAGE = 6;
@@ -158,30 +157,6 @@ export function JobSearchPageContent({ initialJobs }: JobSearchPageContentProps)
   
   const filterKey = JSON.stringify(activeFilters);
 
-  const contentWithAds: ReactNode[] = [];
-  displayedJobs.forEach((job, index) => {
-    contentWithAds.push(<JobCard key={job.id} job={job} />);
-    // Insert an ad after the 3rd job (index 2)
-    if (index === 2) {
-      contentWithAds.push(
-        <div key="ad-unit-1" className="h-full">
-          <h3 className="font-semibold mb-2 text-center text-muted-foreground text-sm">Advertisement</h3>
-          <Card className="flex items-center justify-center h-full min-h-[450px]">
-            <CardContent className="p-2 w-full">
-              <AdSenseUnit
-                adClient="ca-pub-6433526967216348"
-                adSlot="6448052296"
-                adLayoutKey="-hg+7+e-5p+9r"
-                adFormat="fluid"
-              />
-            </CardContent>
-          </Card>
-        </div>
-      );
-    }
-  });
-
-
   return (
     <div className="container mx-auto py-8">
       <h1 className="text-4xl font-bold tracking-tight mb-8 text-center font-headline">Find Your Next Tech Role</h1>
@@ -212,7 +187,9 @@ export function JobSearchPageContent({ initialJobs }: JobSearchPageContentProps)
 
       {!isLoading && displayedJobs.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {contentWithAds}
+          {displayedJobs.map(job => (
+            <JobCard key={job.id} job={job} />
+          ))}
         </div>
       )}
 

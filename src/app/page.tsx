@@ -9,27 +9,27 @@ import { TekTunnelLogo } from '@/components/icons/TekTunnelLogo';
 
 const featuredOpportunities = [
     {
-      id: 'course1',
+      id: 'Generative-AI-Prompt-Engineering-course-by-linux-foundation',
       type: 'Course',
-      title: 'Advanced React & Next.js',
-      provider: 'TechLearn Academy',
-      description: 'Master modern frontend development with advanced concepts in React, Next.js, and server components.',
+      title: 'Generative AI Prompt Engineering (RXM401)',
+      provider: 'Linux Foundation',
+      description: 'In this one-day course, you will learn to maximize the benefits of generative AI systems, mastering techniques that lead to optimal output as well as learning entirely new ways to generate and refine documents and images! Learn and practice with hands-on labs',
       icon: <BookOpen className="h-8 w-8 text-primary" />,
     },
     {
-      id: 'bootcamp1',
-      type: 'Bootcamp',
-      title: 'Cybersecurity Professional Bootcamp',
-      provider: 'SecurePath Institute',
-      description: 'Intensive 16-week bootcamp covering network security, ethical hacking, and incident response.',
+      id: 'Dell-Technologies-World-2026',
+      type: 'Event',
+      title: 'Dell Technologies World 2026-We’re reshaping the future of business, together',
+      provider: 'Dell Technologies',
+      description: 'The premier event for DevOps professionals, featuring workshops, keynotes, and networking opportunities.',
       icon: <Lightbulb className="h-8 w-8 text-primary" />,
     },
      {
-      id: 'scholarship1',
-      type: 'Scholarship',
-      title: 'Future Leaders in AI Scholarship',
-      provider: 'Innovate AI Foundation',
-      description: 'Supporting outstanding students pursuing research and careers in Artificial Intelligence.',
+      id: 'Black-Hat-USA-2025',
+      type: 'Event',
+      title: 'Black Hat USA 2025',
+      provider: 'Black Hat',
+      description: 'Black Hat USA returns to the Mandalay Bay Convention Center in Las Vegas with a 6-day program.',
       icon: <BrainCircuit className="h-8 w-8 text-primary" />,
     },
 ];
@@ -122,7 +122,7 @@ export default function Home() {
             {[
               { id: 'Engineering-Manager-Growth-in-Berlin-Germany-Grammarly', title: 'Engineering Manager, Growth', company: 'Grammarly', location: 'Germany', type: 'Hybrid', tags: ['React', 'TypeScript'] , imageSrc: '/images/Grammarly.png', imageHint: 'Grammarly logo' },
               { id: 'Senior-Software-Engineer-Java-in-Bordeaux-mirakl', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
-              { id: 'Senior-Software-Engineer-Java-in-Paris-mirakl', title: 'Senior Software Engineer Java', company: 'mirakl', location: 'France', type: 'Full-time', tags: ['AWS','Docker','Java','Kafka'], imageSrc: '/images/mirakl.png', imageHint: 'mirakl logo' },
+              { id: 'cloud-platform-engineer-information-security-in-smarsh-at-Portland', title: 'Cloud Platform Engineer – Information Security', company: 'smarsh', location: 'Portland', type: 'Hybrid', tags: ['CI/CD','DevOps','AWS','Kubernetes'], imageSrc: '/images/smarsh.png', imageHint: 'smarsh logo' },
             ].map((job) => (
               <Card key={job.id} className="flex flex-col hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
                 <CardHeader className="p-6">
