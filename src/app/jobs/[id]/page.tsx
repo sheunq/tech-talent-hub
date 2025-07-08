@@ -7,8 +7,1364 @@ import { getAllJobs } from '@/services/jobDbService';
 
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
+{
+  applyUrl: "https://jobs.lever.co/brillio-2/c510c2d4-5451-416f-b5b6-b22cd8d4cad6",
+  companyName: "Brillio",
+  companyLogo: "/images/Brillio.png",
+  location: "United States",
+  jobTitle: "BI Architect - R01552192",
+  jobType: "Full-time",
+  jobCategory: "Architect",
+  mainDescription: `Job Title: BI Architect
+Location: On-site – Ashburn, Virginia (Virginia Beach preferred)
+Department: Data and AI – Data Engineering
+Employment Type: Full-Time (No sponsorship available)
+
+🧠 Role Overview
+Brillio is seeking a BI Architect to lead the design and implementation of a modern data platform using Snowflake, Azure, and Power BI. This role is central to the client’s data modernization journey and involves strategic architecture, hands-on development, and cross-functional collaboration.
+
+🔧 Key Responsibilities
+- Define and drive BI/data architecture strategy aligned with business goals
+- Design Medallion architecture on Snowflake (landing zones, DataMart, semantic layers)
+- Lead data modeling for domains like Marketing, Finance, and Supply Chain
+- Collaborate with Data Engineers and BI Developers to enforce best practices
+- Guide report rationalization and BI development
+- Provide architectural oversight and mentor delivery teams
+- Interface with stakeholders to ensure alignment with business outcomes
+- Support AI-driven BI initiatives (e.g., Cortex)
+
+✅ Required Qualifications
+- Extensive experience with Snowflake, Azure, and Power BI
+- Deep understanding of cloud data architectures, Medallion architecture, and data governance
+- Strong leadership and stakeholder management skills
+- Experience with orchestration/transformation tools like Daxter and DBT
+- Excellent communication skills
+- Willingness to work on-site in Virginia Beach (preferred)
+
+🛠️ Primary Skills
+- ETL Fundamentals, SQL (Basic + Advanced), Python
+- Snowflake tools: Snowpipe, SnowSQL, Zero Copy Cloning, Time Travel
+- Data modeling, Data Warehousing, PLSQL, T-SQL, Stored Procedures
+
+💰 Compensation
+- Estimated salary: $140,000 – $145,000/year
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "bi-architect-r01552192-in-brillio-at-united-states-united-states"
+}
+
+, 
+{
+  applyUrl: "https://careers.eleks.com/vacancies/senior-test-automation-engineer-7/",
+  companyName: "eleks",
+  companyLogo: "/images/eleks.png",
+  location: "Australia or New Zealand",
+  jobTitle: "SENIOR TEST AUTOMATION ENGINEER",
+  jobType: "Full-time",
+  jobCategory: "General",
+  mainDescription: `Job Title: Full Stack Engineer
+Location: Remote – Australia or New Zealand
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Atlassian is seeking a Full Stack Engineer to join a distributed-first team focused on building creative improvements for internal engineering teams. You’ll work across the stack to develop REST APIs, customer-facing components, and integrations that enhance the developer experience and platform reliability.
+
+🔧 Key Responsibilities
+- Develop and maintain REST APIs and React components
+- Configure monitoring and build CI/CD pipelines
+- Integrate with content management systems
+- Build scalable, reliable backend services
+- Collaborate with UX designers and cross-functional teams
+
+✅ Minimum Qualifications
+- 1–3+ years of experience with JavaScript/TypeScript, including React and Node.js
+- Bachelor’s or Master’s degree (preferably in Computer Science)
+- Experience with RESTful integrations and Git workflows
+- Familiarity with HTML, Sass/CSS, and cross-browser development
+- Exposure to Docker, NGINX, NPM, and Express
+- Strong collaboration and communication skills
+
+🌟 Preferred Qualifications
+- Experience with enterprise content management systems
+- Familiarity with AWS or other cloud platforms
+- Knowledge of Java, Rust, or WebGL
+
+🎁 Benefits & Perks
+- Health and wellbeing resources
+- Paid volunteer days
+- Flexible work arrangements through Team Anywhere
+- Inclusive and supportive work culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-test-automation-engineer-in-eleks-at-Australia-New-Zealand"
+}
 
 
+,
+
+{
+  applyUrl: "https://careers.eleks.com/vacancies/senior-test-automation-engineer-7/",
+  companyName: "eleks",
+  companyLogo: "/images/eleks.png",
+  location: "Kraków or Warsaw, Poland",
+  jobTitle: "SENIOR TEST AUTOMATION ENGINEER",
+  jobType: "Full-time",
+  jobCategory: "General",
+  mainDescription: `Job Title: Senior Test Automation Engineer
+Location: Kraków or Warsaw, Poland
+Department: Quality Assurance Office
+Employment Type: Full-Time
+
+🧠 Project Overview
+You’ll join a project focused on building a passwordless authentication platform that replaces traditional passwords with secure, device-based credentials and real-time risk analysis. Your work will directly contribute to a more secure and user-friendly digital future.
+
+🔧 Key Responsibilities
+- Lead performance testing, reporting, and delivery of automation solutions
+- Analyze project requirements and translate them into quality control artifacts
+- Prepare test data and develop, execute, and optimize automation scripts
+- Log and evaluate test results, documenting any deviations
+- Design test architecture aligned with business needs
+- Collaborate with team members and communicate directly with the client
+
+✅ Required Qualifications
+- 5+ years of experience in test automation or software development
+- Strong expertise in Java, JavaScript, or Python
+- Experience in automation strategy and QA best practices
+- Upper-intermediate or higher level of English
+- Leadership experience is a plus
+
+🎁 What You’ll Get with ELEKS
+- Close collaboration with international clients
+- Challenging and impactful tasks
+- Opportunities for professional growth and tech influence
+- A dynamic, low-bureaucracy environment
+- A team of experienced professionals
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-test-automation-engineer-in-eleks-at-Kraków-Warsaw-Poland"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://www.fanatee.com/openings/product-analyst-ai-expansion",
+  companyName: "fanatee",
+  companyLogo: "/images/fanatee.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "PRODUCT ANALYST - AI/EXPANSION",
+  jobType: "Hybrid",
+  jobCategory: "AI",
+  mainDescription: `Here’s a structured and engaging summary of the Product Analyst – AI/Expansion role at Fanatee:
+
+🎮 Job Title: Product Analyst – AI/Expansion
+Location: Hybrid – São Paulo, Brazil
+Department: Product
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fanatee is looking for a curious, hands-on, and analytical Product Analyst to support the expansion of its beloved word game, Stop. You’ll work closely with the Head of Product, blending content, data, and operations to improve game quality, leverage AI tools, and explore new markets and languages.
+
+🔧 Key Responsibilities
+Content Excellence
+- Support and improve game content quality and processes
+- Collaborate with editors and freelancers worldwide
+- Use AI tools to create, validate, and enrich puzzles
+Data & Insights
+- Analyze content and gameplay metrics
+- Identify opportunities based on player behavior
+- Deliver insights to guide product strategy
+Production Organization
+- Help manage content workflows and roadmap execution
+- Facilitate cross-team communication and remove blockers
+- Ensure smooth day-to-day operations
+
+✅ Requirements
+- Experience in product/project management (preferably in games)
+- Strong analytical and problem-solving skills
+- Familiarity with AI tools and applications
+- Excellent communication skills in English
+- Passion for word games, especially Stop
+- Bachelor’s in Business, Economics, Engineering, or related field
+
+🌟 Preferred Skills
+- Python and SQL for data analysis
+- Experience with APIs and HTTP requests
+- Data cleanup and database handling
+- Prompt engineering and generative AI knowledge
+
+🎁 What Fanatee Offers
+- Competitive salary and profit sharing
+- Flexible benefits and health/dental insurance
+- Career development support
+- Casual, creative work environment
+- Snack-filled rest areas and a relaxed dress code
+
+You can explore the full listing and apply directly on Fanatee’s official careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "product-analyst-ai-expansion-in-fanatee-at-Sao-Paulo-Brazil"
+}
+
+,
+
+
+{
+  applyUrl: "https://nordcloud-career.breezy.hr/p/fa9f0683b6ca01-managed-cloud-engineer",
+  companyName: "nordcloud",
+  companyLogo: "/images/nordcloud.png",
+  location: "Poland",
+  jobTitle: "Managed Cloud Engineer",
+  jobType: "Remote",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Managed Cloud Engineer
+Location: Remote – Poland (Poznań, Wrocław, Warszawa, Kraków, Łódź, Katowice, Bydgoszcz)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Nordcloud, an IBM company, is seeking a Managed Cloud Engineer to support clients on their cloud journey. You’ll work across infrastructure, automation, and performance optimization to ensure high availability and customer satisfaction in public cloud environments.
+
+🔧 Key Responsibilities
+- Monitor, troubleshoot, and load test cloud-native services
+- Develop automation and infrastructure-as-code (IaC) for customer environments
+- Improve service performance and availability in AWS or Azure
+- Participate in on-call support and customer satisfaction initiatives
+- Contribute to standards and best practices
+
+✅ Required Qualifications
+- Proficiency with AWS or Azure
+- Experience with Kubernetes and containerization
+- Scripting skills in Python, Bash, or PowerShell
+- OS administration experience (Linux or Windows)
+- Practical knowledge of Terraform and IaC concepts
+- Fluent English communication skills
+
+🌟 Preferred Qualifications
+- Incident resolution experience
+- CI/CD knowledge (e.g., AWS CodePipeline, GitHub Actions)
+- Experience with Openshift
+- Fluent Polish communication skills
+
+🎁 What Nordcloud Offers
+- Individual training budget and certification exam coverage
+- Flexible hours and remote-first work model
+- Laptop and equipment of your choice
+- Local benefits: private healthcare, life insurance, MyBenefit cafeteria
+- Workcation opportunities in selected locations
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "managed-cloud-engineer-in-nordcloud-at-Poland"
+}
+
+, 
+
+{
+  applyUrl: "https://job-boards.eu.greenhouse.io/rtbhouse/jobs/4632964101",
+  companyName: "rtbhouse",
+  companyLogo: "/images/rtbhouse.png",
+  location: "Poland",
+  jobTitle: "HR Data Analyst",
+  jobType: "Full-time",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: HR Data Analyst
+Location: Kraków or Warsaw, Poland (Hybrid/Remote flexibility)
+Department: Global HR Processes & Data Analysis
+Employment Type: Full-Time
+
+🧠 Role Overview
+RTB House is seeking an HR Data Analyst to transform complex HR data into actionable insights that support strategic decision-making. You’ll design dashboards, optimize ETL processes, and collaborate across departments to drive data-informed HR initiatives in a fast-paced, tech-driven environment.
+
+🔧 Key Responsibilities
+- Translate analytical findings into strategic HR insights
+- Present data-driven recommendations to HR and business stakeholders
+- Design and maintain dashboards in Looker Studio
+- Ensure data quality and reliability across ETL pipelines
+- Automate workflows and support cross-functional data projects
+- Deliver ad hoc analyses to support HR decision-making
+
+✅ Required Qualifications
+- 3+ years of experience in HR data analytics
+- Strong SQL skills; experience with Google BigQuery is a plus
+- Proficiency in data visualization tools (e.g., Looker Studio, Power BI, Tableau)
+- Exposure to scripting languages like Python or JavaScript
+- Self-starter with strong organizational and communication skills
+- Full professional fluency in Polish and English
+
+🎁 What RTB House Offers
+- Involvement in high-impact, cross-functional projects
+- Modern tech stack and Big Data learning opportunities
+- Flexible cooperation (B2B or contract of mandate)
+- Long-term, stable collaboration
+- Experience in the fast-growing RTB (Real-Time Bidding) advertising space
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "hr-data-analyst-in-rtbhouse-at-poland-poland"
+}
+
+
+,
+
+
+
+{
+  applyUrl: "https://snapsheet.applytojob.com/apply/s8d2449Guq/Software-Engineer-Data",
+  companyName: "snapsheet",
+  companyLogo: "/images/snapsheet.png",
+  location: "Foster City",
+  jobTitle: "Software Engineer - Data",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Software Engineer – Data
+Location: Remote – USA
+Department: Technology – Data Team
+Employment Type: Full-Time, Direct Hire
+
+🧠 Role Overview
+Snapsheet is hiring a Software Engineer to join its Data team, which powers internal tools and analytics across its claims management platform. This role focuses on building scalable data pipelines, improving data visibility, and supporting data-driven decision-making across the organization.
+
+🔧 Key Responsibilities
+- Build and maintain internal tools for data flows and reporting
+- Design and implement scalable ETL pipelines
+- Ensure data quality, reliability, and consistency
+- Collaborate with engineering, product, and business teams
+- Contribute to backend services and frontend interfaces
+- Participate in system design and agile ceremonies
+
+✅ Required Qualifications
+- 2–3 years of full-stack web development experience
+- Strong frontend skills in React, JavaScript, or similar frameworks
+- Foundational experience or interest in Ruby on Rails
+- Proficiency in SQL and relational databases (PostgreSQL or MySQL)
+- Curiosity about ETL, background job processing (e.g., Sidekiq), and data modeling
+- Understanding of modern web architecture and best practices
+- Strong attention to detail and collaborative mindset
+
+🛠️ Tech Stack
+- Frameworks: Ruby on Rails, React
+- Infrastructure: MySQL, S3, Redis, Elasticsearch, RabbitMQ, Lambda, Docker, CloudFront
+- Methodology: Agile
+
+🎁 Benefits & Perks
+- Medical, dental, and vision plans (Blue Cross Blue Shield)
+- Company-paid short/long-term disability and life insurance
+- 401(k) with 4% company match
+- Flexible PTO and 7.5 company holidays
+- Employee Assistance Program (EAP)
+- In-person events, Snapsheet swag, and surprise mailers
+- Career growth, wellness campaigns, and learning opportunities
+
+💰 Compensation
+- Base salary range: $110,000 – $150,000 USD
+- Actual compensation based on experience, skills, and location
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-data-in-snapsheet-at-foster-city-anywhere"
+}
+
+,  
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4753115007?gh_jid=4753115007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Firmware Engineer - Python Test Automation",
+  jobType: "Full-time",
+  jobCategory: "Engineer",
+  mainDescription: `Here’s a structured and professional summary of the job posting for the Firmware Engineer – Python Test Automation role at Anduril Industries:
+
+Job Title: Firmware Engineer – Python Test Automation
+Location: Costa Mesa, California (On-site)
+Department: Embedded Software & Systems Integration
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril Industries is seeking a Python-savvy Firmware Engineer to develop test automation frameworks for both manufacturing and firmware regression testing. You’ll work closely with electrical and firmware teams to build robust, scalable test environments that ensure the reliability of Anduril’s advanced defense technologies, including platforms like Menace, Dive-XL, Ghost, and Roadrunner.
+
+🔧 Key Responsibilities
+- Design and maintain test frameworks, environments, and reporting infrastructure
+- Collaborate with manufacturing and electrical teams to define test coverage
+- Maintain and analyze automated test suites; troubleshoot cross-domain issues
+- Integrate static analysis and code coverage tools
+- Support debugging across electrical, firmware, and software layers
+
+✅ Required Qualifications
+- BS/MS in Computer Science, Computer/Electrical Engineering, or equivalent experience
+- Strong Python development experience (architecture, design, implementation)
+- Familiarity with SDLC, Agile methodologies, and QA best practices
+- Experience with tools like JIRA, Jenkins, CircleCI
+- Proficiency with Linux systems and command-line tools
+- U.S. Person status (due to export control requirements)
+
+🌟 Preferred Qualifications
+- CI/CD pipeline experience
+- Bash scripting and automation of lab equipment (oscilloscopes, JTAG, etc.)
+- Familiarity with embedded C and microcontroller platforms (ARM, AVR, MSP430, PIC)
+- Understanding of bus protocols (USB, SPI, I2C, CAN, RS232, RS485, Ethernet)
+- Exposure to Nix-based environments
+
+💰 Compensation
+- Base salary range: $138,000 – $207,000 USD
+- Highly competitive equity grants included in most offers
+
+🎁 Benefits
+- Platinum-tier medical, dental, and vision coverage
+- 16 weeks of paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial services
+- Daily meals, commuter benefits, and relocation assistance
+- 401(k) with traditional and Roth options
+- Professional development stipend and generous PTO
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "firmware-engineer-python-test-automation-in-anduril-at-united-states-united-states"
+}
+
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/veeva/11964953-5818-429f-92a5-465e5ed8a3fc",
+  companyName: "veeva",
+  companyLogo: "/images/veeva.png",
+  location: "Kansas",
+  jobTitle: "Data Engineer",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Engineer
+Location: Remote – Kansas City, Missouri
+Department: Engineering – R&D OpenData Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Veeva Systems is hiring a Data Engineer to join its OpenData team, which delivers real-time reference data across the healthcare ecosystem. You’ll be responsible for building and maintaining data pipelines, tools, and reports that ensure high-quality reference data for commercial sales, compliance, and analytics in the life sciences industry.
+
+🔧 Key Responsibilities
+- Build and maintain Spark-based data pipelines using Python or Java
+- Develop algorithms to model complex data relationships
+- Create analytical data structures to support reporting
+- Implement and maintain data quality processes
+- Collaborate with product teams to adapt data workflows to evolving market needs
+
+✅ Required Qualifications
+- 3+ years of experience with cloud-managed Spark clusters (e.g., AWS EMR, Databricks)
+- Proficiency in Python or Java and Spark
+- Experience building tools to automate data workflows
+- Strong SQL/SparkSQL skills
+- Hands-on experience with Data Lakehouse architectures
+- Agile development experience and strong communication skills
+
+🌟 Nice to Have
+- Experience with DevOps pipelines and orchestration tools like Airflow
+- Familiarity with AWS services such as EMR and MWAA
+- Background in the life sciences sector
+
+🎁 Perks & Benefits
+- Medical, dental, vision, and life insurance
+- Flexible PTO and paid holidays
+- Retirement programs
+- 1% charitable giving program
+
+💰 Compensation
+- Base salary range: $75,000 – $130,000
+- May include variable bonus and/or stock bonus
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-engineer-in-veeva-at-kansas-united-states"
+}
+
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/veeva/1384525a-2583-48fb-a38e-b2cb17af2352",
+  companyName: "veeva",
+  companyLogo: "/images/veeva.png",
+  location: "Toronto, Canada",
+  jobTitle: "Software Engineer - Full Stack",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer – Full Stack
+Location: Remote – Toronto, Canada
+Department: Engineering – R&D OpenData Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Veeva Systems is hiring a Full Stack Software Engineer to join its OpenData team, which delivers real-time reference data across the healthcare ecosystem. You’ll work in an agile environment, building scalable web applications that support commercial sales, compliance, and analytics for life sciences companies.
+
+🔧 Key Responsibilities
+- Build scalable web applications using open-source technologies
+- Develop core features for the OpenData US platform
+- Contribute to architectural decisions and solve complex data challenges
+- Own the full development lifecycle: design, implementation, deployment, and support
+- Collaborate with product managers, engineers, and domain experts
+
+✅ Required Qualifications
+- 5+ years of experience building scalable, reliable web applications
+- Proficiency in Python and frameworks like FastAPI, Django, or Flask
+- Experience with JavaScript, TypeScript, and React
+- Strong understanding of software design patterns and data modeling (SQL/NoSQL)
+- Agile development experience and strong communication skills
+- Must have unrestricted U.S. work authorization (no H1B sponsorship)
+
+🌟 Nice to Have
+- Experience with containerized applications and cloud deployments
+- Background in data-intensive web applications
+- Familiarity with the life sciences industry
+
+🎁 Perks & Benefits
+- Medical, dental, vision, and life insurance
+- Paid time off and company holidays
+- Retirement programs
+- 1% charitable giving program
+
+💰 Compensation
+- Base salary range: $85,000 – $225,000 CAD
+- May include variable bonus and/or stock bonus
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-full-stack-in-veeva-at-Toronto-Canada"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/veeva/354b0262-c0c9-4e5c-baf1-ae5032b62191",
+  companyName: "veeva",
+  companyLogo: "/images/veeva.png",
+  location: "Pennsylvania",
+  jobTitle: "Data Engineer",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription:` Job Title: Data Engineer
+Location: Remote – Philadelphia, Pennsylvania
+Department: Engineering – R&D OpenData Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Veeva Systems is hiring a Data Engineer to join its OpenData team, which delivers real-time reference data across the healthcare ecosystem. You’ll be responsible for building and maintaining data pipelines, tools, and reports that ensure high-quality reference data for commercial sales, compliance, and analytics in the life sciences industry.
+
+🔧 Key Responsibilities
+- Build and maintain Spark-based data pipelines using Python or Java
+- Develop algorithms to model complex data relationships
+- Create analytical data structures to support reporting
+- Implement and maintain data quality processes
+- Collaborate with product teams to adapt data workflows to evolving market needs
+
+✅ Required Qualifications
+- 3+ years of experience with cloud-managed Spark clusters (e.g., AWS EMR, Databricks)
+- Proficiency in Python or Java and Spark
+- Experience building tools to automate data workflows
+- Strong SQL/SparkSQL skills
+- Hands-on experience with Data Lakehouse architectures
+- Agile development experience and strong communication skills
+
+🌟 Nice to Have
+- Experience with DevOps pipelines and orchestration tools like Airflow
+- Familiarity with AWS services such as EMR and MWAA
+- Background in the life sciences sector
+
+🎁 Perks & Benefits
+- Medical, dental, vision, and life insurance
+- Flexible PTO and paid holidays
+- Retirement programs
+- 1% charitable giving program
+
+💰 Compensation
+- Base salary range: $75,000 – $130,000
+- May include variable bonus and/or stock bonus`,
+
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-engineer-in-veeva-at-pennsylvania-united-states"
+}
+
+
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/veeva/73fc4da6-3d4f-4bc0-aabc-b5415c8d5847",
+  companyName: "veeva",
+  companyLogo: "/images/veeva.png",
+  location: "Canada",
+  jobTitle: "Data Engineer",
+  jobType: "Remote",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Engineer
+Location: Remote – Toronto, Canada
+Department: Engineering – R&D OpenData Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Veeva Systems is hiring a Data Engineer to join its OpenData team, which delivers real-time reference data across the healthcare ecosystem. You’ll be responsible for building and maintaining data pipelines, tools, and reports that ensure high-quality reference data for commercial sales, compliance, and analytics in the life sciences industry.
+
+🔧 Key Responsibilities
+- Build and maintain Spark-based data pipelines using Python or Java
+- Develop algorithms to model complex data relationships
+- Create analytical data structures to support reporting
+- Implement and maintain data quality processes
+- Collaborate with product teams to adapt data workflows to evolving market needs
+
+✅ Required Qualifications
+- 3+ years of experience with cloud-managed Spark clusters (e.g., AWS EMR, Databricks)
+- Proficiency in Python or Java and Spark
+- Experience building tools to automate data workflows
+- Strong SQL/SparkSQL skills
+- Hands-on experience with Data Lakehouse architectures
+- Agile development experience and strong communication skills
+
+🌟 Nice to Have
+- Experience with DevOps pipelines and orchestration tools like Airflow
+- Familiarity with AWS services such as EMR and MWAA
+- Background in the life sciences sector
+
+🎁 Perks & Benefits
+- Medical, dental, vision, and life insurance
+- Paid time off and company holidays
+- Retirement programs
+- 1% charitable giving program
+
+💰 Compensation
+- Base salary range: $100,000 – $175,000 CAD
+- May include variable bonus and/or stock bonus
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-engineer-in-veeva-at-canada-canada"
+}
+
+, 
+
+  {
+  applyUrl: "https://jobs.lever.co/veeva/f0bd7997-e6f8-47c8-898c-faeb5a745faf",
+  companyName: "veeva",
+  companyLogo: "/images/veeva.png",
+  location: "Kansas",
+  jobTitle: "Software Engineer - Full Stack",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer – Full Stack
+Location: Remote – Kansas City, Missouri
+Department: Engineering – R&D OpenData Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Veeva Systems is hiring a Full Stack Software Engineer to join its OpenData team, which delivers real-time reference data across the healthcare ecosystem. You’ll work in an agile environment, building scalable web applications that support commercial sales, compliance, and analytics for life sciences companies.
+
+🔧 Key Responsibilities
+- Build scalable web applications using open-source technologies
+- Develop core features for the OpenData US platform
+- Contribute to architectural decisions and solve complex data challenges
+- Own the full development lifecycle: design, implementation, deployment, and support
+- Collaborate with product managers, engineers, and domain experts
+
+✅ Required Qualifications
+- 5+ years of experience building scalable, reliable web applications
+- Proficiency in Python and frameworks like FastAPI, Django, or Flask
+- Experience with JavaScript, TypeScript, and React
+- Strong understanding of software design patterns and data modeling (SQL/NoSQL)
+- Agile development experience and strong communication skills
+- Must have unrestricted U.S. work authorization (no H1B sponsorship)
+
+🌟 Nice to Have
+- Experience with containerized applications and cloud deployments
+- Background in data-intensive web applications
+- Familiarity with the life sciences industry
+
+🎁 Perks & Benefits
+- Medical, dental, vision, and life insurance
+- Flexible PTO and paid holidays
+- Retirement programs
+- 1% charitable giving program
+
+💰 Compensation
+- Base salary range: $85,000 – $225,000
+- May include variable bonus and/or stock bonus
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-full-stack-in-veeva-at-kansas-united-states"
+}
+
+, 
+
+
+  {
+  applyUrl: "https://jobs.lever.co/veeva/fb000c83-53fe-45c1-beb6-e73f944ce91f",
+  companyName: "veeva",
+  companyLogo: "/images/veeva.png",
+  location: "Pennsylvania",
+  jobTitle: "Software Engineer - Full Stack",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer – Full Stack
+Location: Remote (based in Pennsylvania – Philadelphia preferred)
+Department: Engineering – R&D OpenData Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Veeva Systems is hiring a Full Stack Software Engineer to join its OpenData team, which delivers real-time reference data across the healthcare ecosystem. You’ll work in an agile environment, building scalable web applications that support commercial sales, compliance, and analytics for life sciences companies.
+
+🔧 Key Responsibilities
+- Build and maintain scalable web applications using open-source technologies
+- Develop core features for the OpenData US platform
+- Contribute to architectural decisions and solve complex data challenges
+- Own the full development lifecycle: design, implementation, deployment, and support
+- Collaborate with product managers, engineers, and domain experts
+
+✅ Required Qualifications
+- 5+ years of experience building scalable, reliable web applications
+- Proficiency in Python and frameworks like FastAPI, Django, or Flask
+- Experience with JavaScript, TypeScript, and React
+- Strong understanding of software design patterns and data modeling (SQL/NoSQL)
+- Agile development experience and strong communication skills
+- Must have unrestricted U.S. work authorization (no H1B sponsorship)
+
+🌟 Nice to Have
+- Experience with containerized applications and cloud deployments
+- Background in data-intensive web applications
+- Familiarity with the life sciences industry
+
+🎁 Perks & Benefits
+- Medical, dental, vision, and life insurance
+- Flexible PTO and paid holidays
+- Retirement programs
+- 1% charitable giving program
+
+💰 Compensation
+- Base salary range: $85,000 – $225,000
+- May include variable bonus and/or stock bonus
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-full-stack-in-veeva-at-pennsylvania-united-states"
+}
+
+
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/pollyex/83fdf067-a576-4fd7-b2e7-f0083361ba1b",
+  companyName: "pollyex",
+  companyLogo: "/images/pollyex.png",
+  location: "San Francisco",
+  jobTitle: "API Integrations and Documentation Lead",
+  jobType: "Hybrid",
+  jobCategory: "General",
+  mainDescription: `Here’s a structured and professional summary of the job posting for the API Integrations and Documentation Lead role at Polly:
+
+Job Title: API Integrations and Documentation Lead
+Location: Hybrid – San Francisco, CA / Dallas, TX
+Department: Account Management + Customer Success
+Employment Type: Full-Time
+
+🧠 Role Overview
+Polly is seeking an experienced API Integrations and Documentation Lead to serve as the primary technical liaison for partners integrating with its platform. This role blends technical writing, partner support, and integration strategy to ensure seamless onboarding and high-quality API experiences. You’ll work cross-functionally with engineering, product, and customer success teams to deliver scalable, developer-friendly solutions.
+
+🔧 Key Responsibilities
+- Create and maintain comprehensive API documentation, guides, and sample code
+- Support partners through onboarding, integration, and troubleshooting
+- Translate complex technical concepts into clear, accessible language
+- Collaborate with engineering to test APIs and SDKs before release
+- Manage partner testing environments and automate onboarding workflows
+- Provide feedback on API design and integration challenges
+- Standardize documentation using tools like Swagger, Postman, and formats like JSON, XML, Python
+- Stay current with industry trends and best practices in API integration
+
+✅ Required Qualifications
+- 5+ years of experience in API documentation and integration
+- Strong understanding of RESTful APIs, Webhooks, and developer tools
+- Experience with Git, Swagger, Postman, and data formats like SFTP, JSON, XML
+- Excellent communication and problem-solving skills
+- Ability to work independently and cross-functionally in a hybrid environment
+
+🌟 Preferred Qualifications
+- Background in SaaS or mortgage technology
+- Technical degree or software development experience
+- Familiarity with developer communities and partner ecosystems
+
+🎁 Why Join Polly?
+- Competitive salary and 100% paid medical, dental, vision, disability, and life insurance
+- Flexible vacation policy
+- Work in a hybrid environment (3x weekly in SF or Dallas innovation hubs)
+- Direct access to senior leadership and decision-makers
+- Opportunity to shape the future of mortgage capital markets technology
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "api-integrations-and-documentation-lead-in-pollyex-at-san-francisco-united-states"
+}
+
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/zoox/85f130dd-71fb-4a0d-ae5b-517d6cce129b",
+  companyName: "zoox",
+  companyLogo: "/images/zoox.png",
+  location: "San Diego, CA",
+  jobTitle: "Embedded Software Engineer - Controls Units",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Embedded Software Engineer – Controls Units
+Location: On-site – San Diego, CA
+Department: Embedded Software & Systems Integration
+Employment Type: Full-Time
+
+🧠 Role Overview
+Zoox is seeking an Embedded Software Engineer to join its Firmware Platforms team. You’ll be responsible for developing and maintaining real-time embedded software across multiple platforms for Zoox’s autonomous vehicles. This role involves close collaboration with electrical, embedded, and validation engineers to support advanced hardware and accelerate application development.
+
+🔧 Key Responsibilities
+- Architect, develop, debug, and test software for real-time embedded systems
+- Maintain board support packages (bootloaders, compilers, drivers, RTOS)
+- Build low-level frameworks and interfaces to streamline development
+- Support hardware bring-up and resolve low-level software issues
+- Contribute to all phases of the development cycle: prototyping to validation
+
+✅ Required Qualifications
+- Bachelor’s or Master’s in Computer Science, Electrical Engineering, or related field
+- 4+ years of experience with real-time embedded systems
+- Strong programming skills in C/C++
+- Experience with microcontrollers/microprocessors
+- Familiarity with Linux, QNX, FreeRTOS, or SafeRTOS
+
+🌟 Bonus Qualifications
+- Knowledge of automotive protocols: CAN, LIN, Ethernet, Wi-Fi, LTE, 5G, NFC, UWB
+- Ability to read and review PCB schematics
+- Experience with lab tools: DACs, debuggers, multimeters, power supplies
+
+💰 Compensation & Benefits
+- Base salary: $151,000 – $182,000/year
+- Additional compensation: Amazon RSUs and Zoox Stock Appreciation Rights
+- Benefits include:
+- Paid and unpaid time off
+- Health, life, and disability insurance
+- Long-term care coverage
+- Sign-on bonus (potential)
+
+🌍 About Zoox
+Zoox is building a fully autonomous vehicle fleet from the ground up, combining robotics, machine learning, and design to redefine urban mobility. The company is backed by Amazon and is focused on delivering a next-generation ride-hailing experience.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "embedded-software-engineer-controls-units-in-zoox-at-San-Diego-CA"
+},
+
+{
+  applyUrl: "https://jobs.lever.co/xero/379dd040-cc82-4357-9eb9-83f2cd280f7f",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "Melbourne, Australia",
+  jobTitle: "Staff Engineer - Data",
+  jobType: "Hybrid",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Staff Engineer – Data
+Location: Melbourne, Australia (Hybrid)
+Department: Product – Data & Product Analytics
+Employment Type: Permanent, Full-Time
+
+🧠 Role Overview
+Xero is hiring a Staff Engineer to lead the development of a stream-oriented data platform focused on operational data. This platform is designed to accelerate product development by delivering real-time data to internal teams. You’ll work with technologies like Flink, Kafka, Java, and AWS, and play a key role in shaping the platform’s architecture and mentoring engineers.
+
+🔧 Key Responsibilities
+- Lead the design and development of a real-time operational data platform
+- Mentor engineers and foster professional growth across the team
+- Run design sessions and contribute to the strategic data architecture
+- Oversee end-to-end project delivery using agile methodologies
+- Collaborate across cross-functional teams to deliver scalable solutions
+
+✅ Required Qualifications
+- Strong software engineering experience
+- Experience with at least some of the following:
+- Apache Flink, Kafka, Java, Go, Kubernetes, DynamoDB
+- Growth mindset and openness to learning from failure
+- Strong collaboration and communication skills
+- Ability to bring clarity to ambiguity and drive progress
+
+🎁 Why Join Xero?
+- Generous paid leave (plus statutory holidays)
+- Dedicated wellbeing leave and Employee Assistance Program
+- Health, life, and income protection insurance
+- 26 weeks of paid parental leave for primary caregivers
+- Employee Share Plan and career development support
+- Flexible working and beautiful office spaces
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-engineer-data-in-xero-at-Melbourne-Australia"
+}
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/xero/5da01a69-3f1d-4555-be52-95429c9c8a2f",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "Wellington or Auckland, New Zealand",
+  jobTitle: "Senior Engineer - Data",
+  jobType: "Hybrid",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Senior Engineer – Data
+Location: Hybrid – Wellington or Auckland, New Zealand
+Department: Product – Data & Product Analytics
+Employment Type: Permanent, Full-Time
+
+🧠 Role Overview
+Xero is seeking a Senior Engineer to help build a stream-oriented data platform that accelerates product development by delivering real-time operational data to internal teams. This foundational platform supports rapid feature delivery and is built using modern, scalable technologies.
+
+🔧 Key Responsibilities
+- Develop and maintain a real-time data platform focused on operational (not analytical) data
+- Collaborate with cross-functional teams to deliver scalable, high-performance solutions
+- Operate confidently at the intersection of application and data engineering
+- Contribute to platform architecture and design decisions
+- Continuously improve engineering practices and mentor peers
+
+✅ Required Qualifications
+- Strong software engineering experience
+- Experience with at least some of the following technologies:
+- Apache Flink, Kafka, Java, Go, Kubernetes, DynamoDB
+- Growth mindset and openness to learning from failure
+- Strong collaboration and communication skills
+- Ability to bring clarity to ambiguous situations and drive progress
+
+🎁 Why Join Xero?
+- Generous paid leave (plus statutory holidays)
+- Dedicated wellbeing leave and Employee Assistance Program
+- Free medical insurance and wellness programs
+- 26 weeks of paid parental leave for primary caregivers
+- Employee Share Plan and career development support
+- Flexible working and beautiful office spaces
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-engineer-data-in-xero-at-Wellington-Auckland-New-Zealand"
+}
+
+
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/xero/8dbe51b3-851b-4088-97c4-2facbae0ee8b",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "Auckland or Wellington, New Zealand",
+  jobTitle: "Staff Engineer - Data",
+  jobType: "Hybrid",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Staff Engineer – Data
+Location: Auckland or Wellington, New Zealand (Hybrid)
+Department: Product – Data & Product Analytics
+Employment Type: Permanent, Full-Time
+
+🧠 Role Overview
+Xero is hiring a Staff Engineer to lead the development of a stream-oriented data platform focused on operational (not analytical) data. This platform is designed to accelerate product development by delivering real-time data to internal product teams. You’ll work at the intersection of application and data engineering, using technologies like Flink, Kafka, Java, and AWS.
+
+🔧 Key Responsibilities
+- Lead the design and development of a real-time data platform
+- Mentor and guide engineers across the team
+- Run design sessions and contribute to long-term data architecture strategy
+- Oversee end-to-end project delivery using agile methodologies
+- Collaborate across cross-functional teams to deliver scalable solutions
+
+✅ Required Qualifications
+- Strong software engineering experience
+- Experience with at least some of the following:
+- Flink, Java, Go
+- Kafka, Kubernetes, DynamoDB
+- Ability to bring clarity to ambiguity and drive progress
+- Growth mindset and openness to learning from failure
+- Strong collaboration and communication skills
+
+🎁 Why Join Xero?
+- Generous paid leave (including wellbeing and volunteer days)
+- 26 weeks of paid parental leave for primary caregivers
+- Free medical insurance and Employee Assistance Program
+- Employee Share Plan and career development support
+- Flexible working, beautiful offices, and inclusive cultur
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-engineer-data-in-xero-at-Auckland-Wellington-New-Zealand"
+}
+
+
+, 
+
+{
+  applyUrl: "https://wise.jobs/job/staff-software-engineer-developer-enablement-in-london-jid-1176",
+  companyName: "wise",
+  companyLogo: "/images/wise.png",
+  location: "London",
+  jobTitle: "Staff Software Engineer - Developer Enablement",
+  jobType: "Hybrid",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Staff Software Engineer – Developer Enablement
+Location: London, UK (Hybrid)
+Department: Technology
+Employment Type: Full-Time
+Salary Range: £130,000 – £164,000 + RSUs
+
+🧠 Role Overview
+Wise is seeking a Staff Software Engineer to join its Developer Enablement Squad. This team empowers engineers to ship code with the speed of a startup and the security of a bank. You’ll build tools, frameworks, and best practices that streamline the software development lifecycle (SDLC), reduce cognitive load, and improve developer experience across the company.
+
+🔧 Key Responsibilities
+- Design and scale infrastructure and tooling for CI/CD, testing, and deployment
+- Lead projects that improve developer flow, feedback loops, and security
+- Collaborate with squads across Security, Cloud Platform, Reliability, and Data
+- Own and evolve SDLC systems with a focus on automation and resilience
+- Mentor engineers and contribute to engineering-wide architectural decisions
+
+✅ Required Qualifications
+- Strong coding skills in Go, Java, or Python
+- Experience designing and implementing CI/CD pipelines
+- Familiarity with cloud platforms (AWS or GCP)
+- Proficiency with Docker, Kubernetes, and microservices architecture
+- Understanding of SRE principles, service mesh, and secure SDLC practices
+- Ability to take end-to-end ownership and drive cross-team impact
+
+🌟 Nice to Have
+- Experience with GitHub Actions, Spinnaker, or Backstage
+- Familiarity with test automation frameworks and test data management
+- Background in regulated environments (PCI, SOC, DORA)
+
+🎁 Benefits
+- Competitive salary and equity (RSUs)
+- Hybrid work flexibility
+- Inclusive, international team culture
+- Career development through Wise’s Engineering Career Map
+- Access to mission days, sabbaticals, and wellness benefit
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-software-engineer-developer-enablement-in-wise-at-london-united-kingdom"
+}
+
+, 
+
+
+
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/All-Source-Intelligence-Analyst/306182",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "United States",
+  jobTitle: "All Source Intelligence Analyst",
+  jobType: "Full-time",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Microsoft Purview Compliance Engineer – Client Consulting
+Location: Fully Remote (North America preferred)
+Department: Compliance / IT Security
+Employment Type: Full-Time
+Seniority Level: Mid-Level
+Salary Range: $50,000 – $100,000
+
+🧠 Role Overview
+Cyclotron is seeking a technically skilled Microsoft Purview Compliance Engineer to implement and manage compliance, data governance, and risk management solutions across Microsoft 365 and Azure environments. You’ll work closely with a lead architect and client teams to deliver enterprise-grade deployments and serve as the first point of contact for technical execution.
+
+🔧 Key Responsibilities
+- Design and implement Microsoft Purview solutions for data classification, retention, and protection
+- Collaborate with architects and client compliance teams to align with regulatory standards
+- Monitor data access and usage using Purview’s governance tools
+- Integrate Purview with Microsoft 365 and Azure services
+- Provide technical guidance and create comprehensive as-built documentation
+- Stay current with Microsoft compliance and governance developments
+
+✅ Required Qualifications
+- Strong knowledge of Azure architecture, services, and security best practices
+- Proficiency in Microsoft 365 administration and security configurations
+- Hands-on experience with Microsoft Purview (data governance, compliance, risk assessment)
+- Familiarity with compliance frameworks: GDPR, HIPAA, ISO 27001, etc.
+- Excellent problem-solving, communication, and collaboration skills
+
+🌟 Preferred Qualifications
+- Microsoft certifications in Azure or Microsoft 365 security/compliance
+- Scripting experience with PowerShell, Azure CLI, or similar tools
+- Background in IT compliance, risk management, or related fields
+- Experience with tools like Microsoft Defender, Entra, Intune, and Exchange Online
+
+🎓 Education
+- Bachelor’s degree in Computer Science, Information Technology, Cybersecurity, or a related field
+
+You can apply directly through Cyclotron’s job portal or Remotive’s listing. Let me know if you’d like help preparing your résumé or answering the technical questionnaire!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "all-source-intelligence-analyst-in-deloitte-at-united-states-united-states"
+}
+,
+
+
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/All-Source-Intelligence-Analyst/306182",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "United States",
+  jobTitle: "All Source Intelligence Analyst",
+  jobType: "Full-time",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: All Source Intelligence Analyst
+Location: Arlington/Rosslyn, Virginia (Hybrid)
+Department: Finance and Accounting | Forensic Investigations and Fraud Services
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring an All Source Intelligence Analyst to support the Nation State Threat Center within the Department of Homeland Security (DHS). This role focuses on analyzing threats to U.S. economic security, including supply chain vulnerabilities, intellectual property theft, and foreign economic influence. You’ll produce actionable intelligence assessments and brief senior decision-makers.
+
+🔧 Key Responsibilities
+- Conduct all-source intelligence analysis using classified and unclassified data
+- Draft assessments on economic security threats (e.g., illicit trade, foreign investment risks)
+- Prepare and deliver briefings to senior government officials
+- Support meetings, working groups, and strategic planning sessions
+- Collaborate with DHS and other stakeholders to inform national security decisions
+
+✅ Required Qualifications
+- Bachelor’s degree
+- 2–8 years of experience in all-source intelligence analysis
+- Subject matter expertise in economic security threats
+- Experience briefing senior-level decision-makers
+- Active TS/SCI security clearance
+- Must be able to work on-site in Arlington/Rosslyn 3–5 days per week
+- U.S. work authorization without sponsorship
+
+💰 Compensation
+- Estimated salary range: $93,200 – $155,400 (Washington, DC market)
+- Eligible for discretionary annual incentive program
+
+🌟 About the Team
+You’ll join Deloitte’s Regulatory, Risk & Forensic team, which helps clients manage risk and navigate regulatory complexity using advanced data, AI, and emerging technologies. The team supports anti-money laundering, fraud investigations, and national security missions.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "all-source-intelligence-analyst-in-deloitte-at-united-states-united-states"
+}
+,
+
+
+
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/IT-Portfolio-Senior-Analyst-TS-SCI-On-site-in-Suffolk-VA/306209",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "United States",
+  jobTitle: "IT Portfolio Senior Analyst- TS/SCI (On-site in Suffolk, VA)",
+  jobType: "Full-time",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: IT Portfolio Senior Analyst – TS/SCI
+Location: On-site – Suffolk, VA (listed under Richmond, VA)
+Department: Engineering and Product | Security Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is seeking an IT Portfolio Senior Analyst with an active TS/SCI clearance to support Department of Defense (DoD) IT portfolio management. This role focuses on aligning IT investments with mission requirements, ensuring compliance with federal regulations, and supporting secure digital transformation initiatives.
+
+🔧 Key Responsibilities
+- Set investment priorities and align IT architecture with mission needs
+- Ensure compliance with DoD and DON policies for IT portfolio management
+- Review and validate Information Technology Procurement Requests (ITPRs)
+- Conduct Section 508 compliance reviews
+- Support interoperability and capital planning efforts
+
+✅ Required Qualifications
+- Bachelor’s degree in Information Technology or related field
+- Active TS/SCI security clearance
+- Must be local to Suffolk, VA and work full-time on-site
+- 3+ years of experience in DoD IT portfolio management
+- 3+ years of experience with ITPRs and Section 508 compliance
+- U.S. work authorization without sponsorship
+
+🌟 About the Team
+You’ll join Deloitte’s Government and Public Services (GPS) practice, specifically the Enterprise Security group, which focuses on secure development, cyber cloud capabilities, and application security for public sector clients.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "it-portfolio-senior-analyst-ts-sci-on-site-in-suffolk-va-in-deloitte-at-united-states-united-states"
+}
+
+, 
+
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Oracle-Cloud-Specialist-Master-Recruiting-Cloud-ORC-module/306190",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "United States",
+  jobTitle: "Oracle Cloud Specialist Master: Recruiting Cloud (ORC) module",
+  jobType: "Full-time",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Oracle Cloud Specialist Master – Recruiting Cloud (ORC) Module
+Location: Multiple U.S. locations (63 cities)
+Department: Package and Technology Enablement | Package Functional Enablement
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is seeking a seasoned Oracle HCM Cloud Specialist Master to lead the implementation of Oracle Recruiting Cloud (ORC) and related modules. You’ll guide clients through complex HR transformations, manage large teams, and deliver high-impact solutions that align with strategic business goals.
+
+🔧 Key Responsibilities
+- Lead full lifecycle implementations of Oracle HCM Cloud modules (Recruiting, Onboarding, Journeys)
+- Oversee design, configuration, testing, and production cutover
+- Manage project timelines, risks, and team deliverables
+- Build strong client relationships and mentor junior consultants
+- Ensure high-quality, client-ready work products
+
+✅ Required Qualifications
+- 6+ years of experience with Oracle HCM Cloud, including 4+ full lifecycle implementations
+- Deep functional/technical expertise in Recruiting Cloud (ORC) and related modules
+- Proven leadership in team and project management
+- Bachelor’s degree or equivalent experience
+- Willingness to travel up to 50%
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Qualifications
+- Oracle HCM Cloud Certification(s)
+- 6+ years of consulting experience
+- Proficiency in Excel, PowerPoint, and Visio for executive-level deliverables
+
+💰 Compensation
+- Estimated salary range: $130,800 – $241,000
+- Eligible for discretionary annual incentive program
+
+🎁 Benefits & Culture
+- Broad benefits package including health, wellness, and retirement plans
+- Inclusive and collaborative work environment
+- Opportunities for mentorship, leadership, and continuous learning
+- Purpose-driven culture focused on making an impact
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "oracle-cloud-specialist-master-recruiting-cloud-orc-module-in-deloitte-at-United-States"
+}
+
+
+, 
+
+
+
+
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Oracle-HCM-Cloud-Specialist-Senior-Oracle-Recruiting-Cloud-ORC-Module/306194",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "United States",
+  jobTitle: "Oracle HCM Cloud Specialist Senior: Oracle Recruiting Cloud (ORC) Module",
+  jobType: "Full-time",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Oracle HCM Cloud Specialist Senior – Oracle Recruiting Cloud (ORC) Module
+Location: Multiple US locations (63 cities listed)
+Department: Package and Technology Enablement | Package Functional Enablement
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is seeking a Specialist Senior to join its Oracle HCM Cloud practice, focusing on the Oracle Recruiting Cloud (ORC) module. You’ll work on complex, global HR transformation projects, helping clients implement and optimize Oracle HCM Cloud solutions. This role offers the opportunity to lead teams, deliver high-impact solutions, and build lasting client relationships.
+
+🔧 Key Responsibilities
+- Configure and implement Oracle HCM Cloud, especially the Recruiting, Onboarding, and Journeys modules
+- Lead teams and ensure timely delivery of project milestones
+- Maintain hands-on involvement in solution design and execution
+- Build strong client relationships and contribute to team development
+- Deliver accurate, high-quality work products
+
+✅ Required Qualifications
+- 4+ years of experience with Oracle HCM Cloud, including 2+ full life cycle implementations
+- Deep functional/technical knowledge of Oracle Recruiting Cloud (ORC)
+- Experience leading teams and managing project timelines
+- Bachelor’s degree or equivalent experience
+- Willingness to travel up to 50%
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Qualifications
+- Oracle HCM Cloud Certification(s)
+- 4+ years of consulting experience
+- Proficiency in Excel (pivot tables, VLOOKUP), PowerPoint, and Visio
+
+💰 Compensation
+- Estimated salary range: $107,600 – $198,400
+- Eligible for discretionary annual incentive program
+
+🎁 Benefits & Culture
+- Broad range of benefits including health, wellness, and professional development
+- Inclusive and collaborative work environment
+- Opportunities for mentorship, leadership, and continuous learning
+- Purpose-driven culture focused on making an impact
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "oracle-hcm-cloud-specialist-senior-oracle-recruiting-cloud-orc-module-in-deloitte-at-United-States"
+}
+
+, 
   
 
 {
@@ -80,8 +1436,7 @@ Operations & Observability (20%)
   jobTitle: "Cloud Engineer III-Kubernetes",
   jobType: "Hybrid",
   jobCategory: "Cloud",
-  mainDescription: `Here’s a structured and engaging summary of the Cloud Engineer III – Kubernetes role at Smarsh:
-
+  mainDescription: `
 🌥️ Job Title: Cloud Engineer III – Kubernetes
 Location: Hybrid – India
 Department: Enterprise Engineering
