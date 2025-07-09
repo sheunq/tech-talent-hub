@@ -8,6 +8,1061 @@ import { getAllJobs } from '@/services/jobDbService';
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
 
+  // 9-7-25
+{
+  applyUrl: "https://wise.jobs/job/software-engineering-lead-latin-america-in-sao-paulo-jid-1744",
+  companyName: "wise",
+  companyLogo: "/images/wise.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "Software Engineering Lead - Latin America",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineering Lead – Latin America
+Location: São Paulo, Brazil (Hybrid)
+Department: Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+Wise is establishing a new engineering hub in São Paulo and is hiring a foundational technical leader to head the Hispanic America Money Movement team. This role combines hands-on engineering, people leadership, and strategic influence to expand Wise’s money movement capabilities across Hispanic American markets.
+
+🔧 Key Responsibilities
+- Lead and grow a high-performing engineering team
+- Drive the team’s technical roadmap, architecture, and delivery
+- Design and build integrations with banks, payment providers, and local payment systems
+- Contribute directly to coding, testing, and deployment
+- Manage team performance, well-being, and career development
+- Participate in hiring and shape the São Paulo engineering culture
+- Collaborate with global teams to align on product vision and execution
+- Stay informed on LatAm payment trends and regulatory requirements
+
+✅ Required Qualifications
+- 1+ years of experience managing engineers
+- Strong background in Java, microservices architecture, and backend development
+- Proven ability to lead technical initiatives and deliver scalable systems
+- Excellent communication and problem-solving skills
+- Experience working with distributed/global teams
+- Fluent in English (written and spoken)
+
+🌟 Nice to Have
+- Experience with payment systems, financial integrations, or money movement in Hispanic American markets
+- Familiarity with financial regulations in the region
+
+💰 Compensation & Benefits
+- Monthly salary: R$26,154 – R$38,462 (based on experience)
+- Equity: Restricted Stock Units (RSUs)
+- Annual self-development budget
+- Flexible hybrid work model
+- Relocation support
+- Generous PTO and 6-week sabbatical after 4 years
+- 18 weeks of paid parental leave
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineering-lead-latin-america-in-wise-at-Sao-Paulo-Brazil"
+}
+
+, 
+
+
+{
+  applyUrl: "https://tquilaautomation-1717075446.teamtailor.com/jobs/6146976-uipath-test-cloud-solution-architect",
+  companyName: "tquilaautomation",
+  companyLogo: "/images/tquilaautomation.png",
+  location: "United States",
+  jobTitle: "UiPath Test Cloud Solution Architect",
+  jobType: "Hybrid",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: UiPath Test Cloud Solution Architect
+Location: United States (Hybrid)
+Department: Delivery
+Employment Type: Full-Time
+
+🧠 Role Overview
+TQA is seeking a seasoned technical architect to lead pre-sales and solution design for UiPath Test Cloud automation across North America. This hands-on role blends technical leadership, client advisory, and practice development, with a focus on building enterprise-scale test automation solutions that integrate UiPath’s intelligent testing capabilities.
+
+🔧 Key Responsibilities
+Pre-Sales & Technical Leadership
+- Lead discovery workshops and design sessions with enterprise clients
+- Build rapid proof-of-concepts and demos using UiPath Test Cloud
+- Collaborate with sales and solution architects to qualify opportunities
+Client Advisory & Enablement
+- Advise on testing frameworks, toolchains, and best practices
+- Compare UiPath Test Cloud with tools like Selenium, Tricentis, and TestComplete
+- Deliver technical presentations to both technical and executive audiences
+Solution Delivery & Mentorship
+- Provide hands-on support for pilot and early-stage implementations
+- Mentor internal teams and contribute to a repeatable delivery methodology
+- Document use cases and reference architectures
+Practice Growth & Thought Leadership
+- Identify new service offerings and vertical-specific use cases
+- Represent TQA at industry events and webinars
+- Provide feedback to product teams to influence roadmap
+
+✅ Required Skills & Experience
+- 5+ years in test automation architecture and implementation
+- Deep knowledge of UiPath Test Suite or similar RPA-driven testing tools
+- Strong scripting skills in C#, Python, or JavaScript
+- Familiarity with CI/CD pipelines (e.g., Jenkins, Azure DevOps)
+- Experience in pre-sales, solution consulting, and executive engagement
+- In-depth understanding of functional, regression, performance, and UI testing
+- Knowledge of industry standards like ISTQB and TMMi
+- Excellent communication and leadership skills
+
+🌍 Travel & Location
+- Based in North America
+- Willingness to travel up to 40%
+- Flexibility to support strategic accounts in the UK
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "uipath-test-cloud-solution-architect-in-tquilaautomation-at-foster-city-anywhere"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Azure-Cloud-Engineer/306273",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "United States",
+  jobTitle: "Azure Cloud Engineer",
+  jobType: "Full-time",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Azure Cloud Engineer
+Location: Multiple U.S. Locations (20+ cities)
+Department: Engineering and Product – Engineering Managed Services
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring an experienced Azure Cloud Engineer to support long-term client engagements under its Project Delivery Talent Model. This role focuses on Azure infrastructure support, container orchestration, and automation, with opportunities to work across infrastructure, networking, and DevOps domains.
+
+🔧 Key Responsibilities
+- Provide L1/L2 support for Azure infrastructure (Windows/Linux VMs)
+- Troubleshoot escalated issues and provide on-call support during U.S. business hours
+- Develop skills across infrastructure, containers, and networking
+- Contribute to knowledge bases and standard operating procedures
+- Lead client engagement workstreams focused on optimization and transformation
+- Communicate regularly with engagement managers and cross-functional teams
+
+✅ Required Qualifications
+- 5+ years of experience with Kubernetes and AKS
+- Expertise in OpenShift, Docker Swarm, and cloud automation (Ansible, Terraform)
+- Experience with Red Hat Quay, Vault, and CloudForms
+- Strong understanding of Azure landing zones, CI/CD pipelines, and autoscaling strategies
+- Bachelor’s degree in Computer Science or related field (or equivalent experience)
+- Ability to travel up to 10%
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Experience
+- Estimating cloud migration efforts (Rehost, Refactor, Redesign, etc.)
+- Troubleshooting firewall/network issues across hybrid environments
+- Managing high-availability OpenShift clusters and multi-cluster environments
+- Experience with Apache Tomcat and JBoss EAP7
+
+💰 Compensation & Benefits
+- Base salary range: $76,725 – $130,000 USD
+- Eligibility for annual incentive program
+- Access to professional development, mentorship, and inclusive culture
+- Comprehensive benefits package
+
+You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "azure-cloud-engineer-in-deloitte-at-United-States"
+}
+
+,
+
+{
+  applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Defense-Manager-Microsoft-Sentinel-EDR-XDR/306292",
+  companyName: "deloitte",
+  companyLogo: "/images/deloitte.png",
+  location: "Foster City",
+  jobTitle: "Cyber Defense & Manager - Microsoft Sentinel, EDR, XDR",
+  jobType: "Full-time",
+  jobCategory: "General",
+  mainDescription: `Job Title: Cyber Defense & Manager – Microsoft Sentinel, EDR, XDR
+Location: Multiple U.S. Locations (Travel up to 50%)
+Department: Cyber Architecture and Engineering Management
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is seeking a Cyber Defense Manager to lead the design, implementation, and optimization of Microsoft Sentinel, EDR, and XDR solutions. This role focuses on enhancing clients’ cloud security posture, managing SIEM migrations, and developing advanced detection and response capabilities across hybrid environments.
+
+🔧 Key Responsibilities
+- Architect and deploy Microsoft Sentinel, Defender XDR, and EDR solutions across Azure, AWS, and GCP
+- Develop KQL queries, custom analytics rules, dashboards, and automation via Azure Logic Apps
+- Lead SIEM migrations and integrate third-party data sources with custom parsers
+- Implement threat intelligence, UEBA, and incident response playbooks
+- Collaborate with stakeholders to define secure architectures (e.g., zoning, API, endpoint, and data security)
+- Mentor team members and manage delivery across the project lifecycle
+- Continuously improve detection capabilities and reduce false positives
+
+✅ Required Qualifications
+- 6+ years of experience in Microsoft security technologies (Sentinel, Defender, SIEM, EDR, DLP, IDS/IPS)
+- Strong hands-on experience with KQL, PowerShell, Python, Terraform, and Azure services
+- Deep understanding of MITRE ATT&CK, APT tactics, and network protocols
+- Experience with log management, custom dashboards, and incident escalation
+- Ability to lead technical teams and engage with vendor support
+
+🌟 Preferred Qualifications
+- Bachelor’s degree in Computer Science, Cybersecurity, or related field
+- Certifications: SC-200, CISSP, CCSP, CCNA, or CCNP
+- Completion of Sentinel Ninja Level 400 training
+- Familiarity with Microsoft Defender XDR stack, Azure Arc, and Sentinel pricing models
+
+💰 Compensation & Benefits
+- Base salary range: $130,800 – $241,000 USD
+- Eligibility for annual incentive program
+- Comprehensive benefits and professional development opportunities
+
+You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "cyber-defense-manager-microsoft-sentinel-edr-xdr-in-deloitte-at-foster-city-anywhere"
+}
+
+
+, 
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/strava/jobs/6855860",
+  companyName: "strava",
+  companyLogo: "/images/strava.png",
+  location: "San Francisco",
+  jobTitle: "Staff Server Engineer, Trust & Safety",
+  jobType: "Full-time",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Staff Server Engineer – Trust & Safety
+Location: San Francisco, CA (Hybrid: ~3 days/week on-site)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Strava is hiring a Staff Server Engineer to join its Trust & Safety team. This team builds the systems that protect the integrity of the platform and ensure a safe, trusted experience for over 150 million athletes worldwide. You’ll collaborate with AI/ML teams to develop abuse detection infrastructure and lead the development of scalable backend services that support user reporting, content moderation, and behavior detection.
+
+🔧 Key Responsibilities
+- Build and maintain Trust & Safety systems: user reporting, moderation, abuse prevention
+- Deliver scalable backend services in distributed systems
+- Collaborate with cross-functional teams (product, design, analytics, legal)
+- Provide technical leadership and mentor engineers
+- Partner with AI/ML, cybersecurity, and product teams to define technical vision
+- Contribute to a collaborative, hybrid work culture
+
+✅ Required Qualifications
+- Proven experience building production services in Ruby, Java, Scala, Python, Go, or similar
+- Strong knowledge of MySQL, Redis, Cassandra, or other relational/NoSQL databases
+- Familiarity with Kafka, Finagle, Kubernetes, Docker
+- Subject matter expertise in Trust & Safety, abuse detection, and mitigation
+- Passion for building secure, scalable, and ethical systems
+
+💰 Compensation & Benefits
+- Base salary: $230,000 – $250,000 USD
+- Additional compensation: equity and benefits
+- Flexible hybrid work model
+- Inclusive, mission-driven culture focused on movement and community
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-server-engineer-trust-safety-in-strava-at-san-francisco-united-states"
+}
+
+,
+// 9-7-25
+{
+  applyUrl: "https://jobs.dropbox.com/listing/6996289",
+  companyName: "dropbox",
+  companyLogo: "/images/dropbox.png",
+  location: "Poland",
+  jobTitle: "Software Development Engineer in Test, Core",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Development Engineer in Test – Core
+Location: Remote – Poland
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dropbox is hiring an SDET to help shape the quality engineering landscape of its core products. You’ll be a foundational member of a new team focused on building automation frameworks and testing strategies that improve developer productivity and product quality. Your work will directly impact the reliability, speed, and security of Dropbox’s platforms.
+
+🔧 Key Responsibilities
+- Build and maintain robust, scalable test automation frameworks
+- Define and implement test strategies, processes, and quality metrics
+- Collaborate with developers, product managers, and cross-functional teams
+- Ensure full test coverage and identify risks in product releases
+- Contribute to continuous integration and test pipelines
+
+✅ Required Qualifications
+- BS in Computer Science or equivalent experience
+- 4+ years in engineering, with 2+ years in automation framework development
+- Expertise in Playwright, Selenium, and other E2E testing tools
+- Experience testing frontend (TypeScript, React) and backend (Python, Node.js) systems
+- Familiarity with CI/CD tools like Docker and Jenkins
+
+🌟 Preferred Experience
+- Testing across Web, Desktop, Mobile, and API platforms
+- Involvement in technical strategy and cross-team initiatives
+- Strong attention to detail and customer-centric mindset
+
+💰 Compensation
+- IC2 Level: 200,600 zł – 271,400 zł PLN
+- IC3 Level: 256,700 zł – 347,300 zł PLN
+- Includes RSUs, bonus eligibility, and copyright tax benefits (where applicable)
+
+🎁 Benefits
+- Competitive medical, dental, and vision coverage
+- Virtual-first work model
+- Generous PTO and wellness leave
+- Family planning and mental health support
+- Professional development stipend
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-development-engineer-in-test-core-in-dropbox-at-poland-poland"
+}
+
+
+,
+
+{
+  applyUrl: "https://careers.eleks.com/vacancies/middle-strong-senior-test-engineer-3/",
+  companyName: "eleks",
+  companyLogo: "/images/eleks.png",
+  location: "Poland",
+  jobTitle: "MIDDLE STRONG/SENIOR TEST ENGINEER",
+  jobType: "Full-time",
+  jobCategory: "General",
+  mainDescription: `Job Title: Middle Strong/Senior Test Engineer
+Location: Poland (Remote or On-site)
+Department: Quality Assurance
+Employment Type: Full-Time
+
+🧠 Role Overview
+ELEKS is seeking an experienced QA professional to join a project for a UK-based health, sport, and leisure group. The role involves testing a membership ecosystem across iOS and Android platforms, ensuring high-quality delivery through manual and automated testing practices.
+
+🔧 Key Responsibilities
+- Execute and document tests across all planned levels
+- Create and maintain test documentation (test cases, test plans)
+- Analyze project requirements and convert them into QA artifacts
+- Perform mobile, client-server, and API testing
+- Work with logs, metrics, and debugging tools (Grafana, NewRelic, DataDog)
+- Define and improve test processes, metrics, and environments
+- Mentor junior test engineers and contribute to QA best practices
+- Collaborate with cross-functional teams in an Agile environment
+
+✅ Required Qualifications
+- 4+ years of QA experience
+- Strong experience with mobile testing (Android & iOS)
+- Proficiency in SQL, API testing, and proxy tools
+- Familiarity with GIT, Jira/Confluence, and Agile methodologies
+- Upper-intermediate English proficiency
+- Excellent communication and organizational skills
+
+🌟 What You’ll Gain at ELEKS
+- Direct collaboration with international clients
+- Challenging and impactful projects
+- Opportunities for professional growth and skill development
+- A dynamic and supportive team environment
+- Influence over project technologies and QA strategy
+
+You can view the full listing and apply directly on ELEKS’ careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "middle-strong-senior-test-engineer-in-eleks-at-poland-poland"
+}
+
+,
+
+{
+  applyUrl: "https://www.fanatee.com/openings/product-business-analyst",
+  companyName: "fanatee",
+  companyLogo: "/images/fanatee.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "PRODUCT BUSINESS ANALYST",
+  jobType: "Hybrid",
+  jobCategory: "Product",
+  mainDescription: `
+Job Title: Product Business Analyst
+Location: São Paulo, Brazil
+Department: Product
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fanatee is seeking a data-savvy Product Business Analyst to help scale and optimize the performance of its mobile games. You’ll collaborate with Engineering, Product, and Business Intelligence teams to uncover insights, shape product strategy, and drive growth across the game development lifecycle.
+
+🔧 Key Responsibilities
+- Analyze large datasets to optimize user LTV and acquisition funnels
+- Develop and manage growth roadmaps and coordinate cross-functional teams
+- Translate data into measurable product strategies and actionable features
+- Improve data quality, monitoring, and model performance
+- Research and implement new tools and technologies for data analysis
+- Build dashboards using Tableau, AWS Quicksight, or Power BI
+
+✅ Required Skills & Experience
+- Strong SQL skills and experience with Amazon Athena, Oracle, and Hadoop
+- Proficiency in Python (preferred)
+- Familiarity with machine learning, statistics, or predictive modeling
+- 3+ years in management, consulting, finance, or tech
+- Bachelor’s or Master’s in Business, Economics, Engineering, or Computer Science
+- Advanced English proficiency
+- Excellent communication, problem-solving, and analytical skills
+
+🌟 Bonus Points
+- Experience working on global products or in international teams
+- Background in gaming, data science, or product analytics
+
+🎁 What Fanatee Offers
+- Competitive compensation
+- VR + VT (meal and transportation vouchers)
+- Health and dental insurance
+- PLR (profit-sharing)
+- Casual, creative work environment with snacks and relaxation spaces
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "product-business-analyst-in-fanatee-at-Sao-Paulo-Brazil"
+}
+
+,
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4352228007?gh_jid=4352228007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Air Dominance & Strike - Full-Stack Software Engineer",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Full-Stack Software Engineer – Air Dominance & Strike
+Location: Costa Mesa, California (On-site with up to 30% travel)
+Department: Air Dominance & Strike
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring a Full-Stack Software Engineer to help build real-time, map-based interfaces and immersive web applications for commanding and visualizing data from autonomous aerial systems like Fury and Barracuda. You’ll work on Lattice for Mission Autonomy, enabling multi-domain robotic collaboration across complex missions.
+
+🔧 Key Responsibilities
+- Design and deploy real-time, map-based UIs for sensor data and asset control
+- Manage large data streams with performant rendering and responsive UX
+- Build immersive image-viewing experiences in a web-based platform
+- Own and deliver well-scoped projects from design to deployment
+- Collaborate with end-users to translate mission needs into features
+- Travel up to 30% for field testing and deployment
+
+✅ Required Qualifications
+- Eligible for U.S. Top Secret security clearance
+- 3+ years of experience with JavaScript, TypeScript, React
+- 3+ years working with Java, Python, C++, Rust, or Go
+- Degree in CS, Operations Research, EE, or related field
+- Experience with data-intensive or map-based frontend systems
+- Strong background in data processing, analysis, and UX design
+- Innovative problem-solving mindset and ability to deliver functional outcomes
+
+💰 Compensation & Benefits
+- Base salary: $138,000 – $252,000 USD
+- Equity grants included in most offers
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance (if eligible)
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "air-dominance-strike-full-stack-software-engineer-in-anduril-at-united-states-united-states"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4783133007?gh_jid=4783133007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Software Engineer, Battlespace",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Software Engineer – Battlespace
+Location: Fort Collins, Colorado (On-site)
+Department: Software Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring a Software Engineer to join its Battlespace team, where you’ll develop high-performance software and algorithms that power mission-critical defense systems. This role blends AI, machine learning, simulation, and full-stack development to deliver real-world impact through cutting-edge technology.
+
+🔧 Key Responsibilities
+- Prototype and implement advanced software solutions in an agile environment
+- Develop software for both tactical systems and web applications
+- Use modeling and simulation tools to validate system performance
+- Collaborate with customers to ensure mission success
+- Contribute across the entire software development lifecycle
+- Communicate technical concepts clearly to colleagues and stakeholders
+
+✅ Required Qualifications
+- Proficiency in C/C++, Python, and Matlab
+- Experience with big data, NoSQL, and database technologies
+- Full-stack development skills: AngularJS, Node.js, JavaScript
+- Strong foundation in software engineering, algorithm design, and optimization
+- Knowledge of machine learning (supervised/unsupervised, clustering, classification)
+- Applied mathematics: differential equations, linear algebra, statistics, optimization
+- Engineering principles: controls, estimation theory, digital signal processing
+- Eligible for Top Secret SCI security clearance
+
+💰 Compensation & Benefits
+- Base salary: $96,900 – $175,950 USD
+- Equity grants included in most offers
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-battlespace-in-anduril-at-united-states-united-states"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4783244007?gh_jid=4783244007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Infrastructure Reliability Engineer",
+  jobType: "Full-time",
+  jobCategory: "Engineer",
+  mainDescription: `
+Job Title: Infrastructure Reliability Engineer
+Location: Costa Mesa, California (Hybrid)
+Department: Infrastructure Reliability
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring an Infrastructure Reliability Engineer to manage and scale the self-hosted systems that power its engineering organization. This hybrid role blends DevOps, Site Reliability Engineering (SRE), and software engineering, offering end-to-end ownership of mission-critical developer tools like GitHub Enterprise, CircleCI, and Artifactory.
+
+🔧 Key Responsibilities
+- Own the lifecycle of core self-hosted developer tools
+- Design automated systems for patching, backups, and upgrades
+- Scale infrastructure to support rapid company growth
+- Manage environments using Infrastructure-as-Code tools (e.g., Terraform, Pulumi)
+- Operate and troubleshoot systems using Docker, Kubernetes, and cloud platforms (AWS, GCP, Azure)
+- Define and maintain SLOs for availability and performance
+- Lead incident response and root cause analysis
+- Collaborate with platform, security, and software teams
+
+✅ Required Qualifications
+- Experience with Docker and Kubernetes in production
+- Proficiency in at least one cloud platform: AWS, GCP, or Azure
+- Hands-on with Terraform or similar IaC tools
+- Strong scripting or development skills (e.g., Python, Go, Bash)
+- Familiarity with CI/CD pipelines and developer tooling
+- Ability to manage systems end-to-end
+- Eligible for U.S. Secret security clearance
+
+🌟 Preferred Experience
+- Experience with GitHub Enterprise Server, Artifactory, or CircleCI
+- Background in SRE or hybrid SWE/DevOps roles
+- Exposure to security best practices and compliance
+- Experience supporting large engineering teams
+
+💰 Compensation & Benefits
+- Base salary: $124,000 – $186,000 USD
+- Equity grants included in most offers
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance (if eligible)
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "infrastructure-reliability-engineer-in-anduril-at-united-states-united-states"
+}
+, 
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4783349007?gh_jid=4783349007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer, Anvil",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – Anvil
+Location: Costa Mesa, California (On-site with relocation assistance)
+Department: Tactical Recon and Strike (TRS)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring a Senior Software Engineer to help build and enhance Anvil, its autonomous kinetic interceptor designed for low-collateral defeat of aerial threats. You’ll work on cutting-edge robotics software, collaborate with hardware teams, and contribute to the broader Lattice OS ecosystem that powers Anduril’s defense platforms.
+
+🔧 Key Responsibilities
+- Develop and maintain robotics software for the Anvil platform
+- Lead feature development from design to deployment
+- Mentor and inspire other engineers on the team
+- Collaborate with hardware and manufacturing teams to influence product design
+- Integrate Anvil with other air defense systems within the Lattice ecosystem
+
+✅ Required Qualifications
+- 5+ years of experience with C++ or Rust in a Linux environment
+- Strong background in Robotics, Computer Science, or related fields
+- Proven leadership in project or team settings
+- Deep understanding of data structures, algorithms, concurrency, and optimization
+- Experience with Python or Matlab for data analysis
+- Eligible for U.S. DoD Security Clearance
+
+🌟 Preferred Experience
+- Robotics disciplines: motion planning, perception, localization, mapping, controls
+- Embedded systems and physical device programming
+- Linux performance analysis and debugging tools
+- Systems software (kernel, device drivers, system calls)
+- Sensor characterization and analysis
+
+💰 Compensation & Benefits
+- Base salary: $168,000 – $252,000 USD
+- Equity grants included in most offers
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-anvil-in-anduril-at-united-states-united-states"
+}
+
+,
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4783414007?gh_jid=4783414007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer, Battlespace Awareness",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – Battlespace Awareness
+Location: Fort Collins, Colorado, United States (Hybrid)
+Department: Perception
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril Industries is seeking a Senior Software Engineer to join its Battlespace Awareness team. This role focuses on developing high-performance software solutions that power real-time, mission-critical systems for U.S. and allied defense. You’ll work on cutting-edge technologies including AI, autonomy, sensor fusion, and networking, contributing to Anduril’s Lattice OS platform.
+
+🔧 Key Responsibilities
+- Lead and contribute to small, agile teams building tactical and web-based software
+- Prototype and implement advanced algorithms and real-time systems
+- Use modeling, simulation, and analysis tools to validate system performance
+- Collaborate with customers to ensure mission success
+- Engage in the full software development lifecycle
+- Communicate technical concepts clearly to both peers and stakeholders
+
+✅ Required Qualifications
+- Proficiency in C/C++ and Python
+- Experience with big data, NoSQL, and database technologies
+- Strong background in software design, testing, and optimization
+- Knowledge of machine learning (supervised/unsupervised, clustering, classification)
+- Applied mathematics: differential equations, linear algebra, optimization, statistics
+- Engineering principles: controls, estimation theory, digital signal processing
+- Eligible for U.S. Top Secret SCI security clearance
+
+💰 Compensation & Benefits
+- Base salary range: $142,000 – $214,000 USD
+- Equity grants included in most offers
+- Comprehensive medical, dental, and vision coverage
+- 16 weeks of paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance (if eligible)
+- Professional development stipend
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-battlespace-awareness-in-anduril-at-united-states-united-states"
+}
+
+,
+
+
+{
+  applyUrl: "https://jobs.comcast.com/job/philadelphia/sr-engineer-application-reliability-engineering-2495/47546/82975596176",
+  companyName: "comcast",
+  companyLogo: "/images/comcast.png",
+  location: "Pennsylvania",
+  jobTitle: "Sr. Engineer, Application Reliability Engineering-2495",
+  jobType: "Full-time",
+  jobCategory: "Application",
+  mainDescription: `
+Job Title: Sr. Engineer, Application Reliability Engineering
+Location: Philadelphia, PA (100% Remote Eligible)
+Department: Engineering – Comcast Advertising
+Employment Type: Full-Time
+
+🧠 Role Overview
+Comcast is seeking a senior-level engineer to lead the reliability and operational excellence of its SAP BRIM infrastructure. This role is pivotal in supporting Comcast Advertising’s mission to deliver premium video advertising across all screens. You’ll manage mission-critical SAP systems, automate operations, and ensure seamless integration with ITSM tools like ServiceNow.
+
+🔧 Key Responsibilities
+- Lead installation, configuration, and support of SAP NetWeaver ABAP/Java applications
+- Design and maintain SAP BRIM solutions including S/4HANA, Convergent Mediation, and Convergent Charging in cloud environments
+- Automate SAP BASIS operations using Shell and SQL scripting
+- Monitor SAP systems (e.g., Web Dispatcher, S/4HANA) for performance, logs, dumps, and traces
+- Integrate SAP with ServiceNow for incident and alert management
+- Manage user roles, security, and compliance with data privacy standards
+- Lead technical bridges, troubleshoot complex issues, and mentor junior engineers
+- Drive operational excellence through instrumentation, automation, and standardization
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Engineering, or related field
+- 5+ years of experience with SAP NetWeaver ABAP/Java
+- 3+ years of experience with SAP BRIM (S/4HANA, Convergent Mediation/Charging)
+- Experience with SAP private/public cloud, Shell scripting, and SQL
+- Familiarity with ServiceNow and ITSM integration
+- Strong leadership, troubleshooting, and documentation skills
+
+💰 Compensation & Benefits
+- Competitive base salary (exact range not disclosed)
+- Bonus eligibility (non-sales role)
+- Comprehensive benefits: health, dental, vision, life, disability
+- Tools and support for physical, financial, and emotional well-being
+
+You can view the full job listing and apply directly on Comcast’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "sr-engineer-application-reliability-engineering-2495-in-comcast-at-pennsylvania-united-states"
+}
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/livechatinc/7313c73c-7e56-464a-90fc-a174998b81b1",
+  companyName: "text",
+  companyLogo: "/images/text.png",
+  location: "Wrocław, Poland",
+  jobTitle: "Senior Frontend Engineer - Customer List",
+  jobType: "Hybrid",
+  jobCategory: "Frontend",
+  mainDescription: `
+Job Title: Senior Frontend Engineer – Customer List
+Location: Hybrid – Wrocław, Poland
+Department: Customer Data Platform
+Employment Type: Full-Time
+
+🧠 Role Overview
+Text is building a Customer Data Platform that unifies data from multiple sources—chats, tickets, tracking codes—into a single customer profile. As part of the Customer List sub-team, you’ll help surface real-time visitor intelligence by transforming high-throughput data streams into responsive, actionable user experiences. This role is ideal for a frontend expert who thrives on real-time systems and elegant UI design.
+
+🔧 Key Responsibilities
+- Develop and enhance features like the Traffic Page and Customer Details Sidebar
+- Architect and implement frontend solutions from scratch
+- Optimize performance and reduce security vulnerabilities in the TextApp
+- Engage in product discovery and deliver features in small, testable increments
+- Participate in engineering discussions and propose process improvements
+
+✅ Required Qualifications
+- Deep expertise in HTML, CSS, JavaScript, TypeScript, and React.js
+- Experience with WebSockets, real-time updates, and complex state management
+- Proficiency in writing tests using Jest and Playwright
+- Confident working with and debugging REST APIs
+- Familiarity with GitHub Actions, feature flags, and continuous deployment
+- Initiative-driven and comfortable solving problems independently
+- Basic backend experience with Node.js or Golang
+
+🌟 Why Join Text?
+- Work on a high-impact, real-time data product
+- Hybrid model: 3 days in-office (Wrocław or monthly visits if remote)
+- Collaborate with the makers of LiveChat, ChatBot, HelpDesk, and more
+- Culture of autonomy, creativity, and continuous learning
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-frontend-engineer-customer-list-in-text-at-Wrocław-Poland"
+}
+
+,
+
+{
+  applyUrl: "https://jobs.lever.co/eqbank/ae914b41-624a-47db-9bea-0d0164914769",
+  companyName: "eqbank",
+  companyLogo: "/images/eqbank.png",
+  location: "Toronto",
+  jobTitle: "Senior Data Engineer",
+  jobType: "Hybrid",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Senior Data Engineer
+Location: Hybrid – Toronto, Ontario, Canada
+Department: Data Management & Governance
+Employment Type: Full-Time
+
+🧠 Role Overview
+Equitable Bank is seeking a Senior Data Engineer to design, build, and maintain enterprise data pipelines and warehouse solutions using Microsoft Azure technologies. This role is central to enabling data-driven decision-making across the organization and ensuring the integrity, scalability, and performance of data systems.
+
+🔧 Key Responsibilities
+1. Data Pipeline Development (70%)
+- Build and maintain scalable Azure Synapse pipelines
+- Develop ETL scripts using T-SQL and Python
+- Design mapping dataflows and integrate REST APIs
+- Optimize performance of Azure Data Factory, Data Lake, Function Apps, and Logic Apps
+- Ensure data security, quality, and compliance
+2. Requirements & Documentation (10%)
+- Collaborate with business units to gather data/reporting needs
+- Maintain technical documentation for tools and processes
+3. Data Strategy & Planning (10%)
+- Contribute to cloud data enablement and innovation
+- Recommend scalable, cost-effective solutions
+4. Support & Maintenance (10%)
+- Troubleshoot data issues and improve pipeline efficiency
+- Support enterprise data warehouse operations
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or Engineering
+- 5+ years of experience in data engineering with Microsoft Azure
+- Proficiency in T-SQL, Python, and Mapping Dataflows
+- Hands-on experience with Azure Data Factory, Data Lake, Synapse, Function App, Logic App, and Event Hub
+- Strong understanding of data warehousing, data modeling, and structured/unstructured data
+- Excellent communication and multitasking skills
+
+🌟 Nice-to-Have Skills
+- Microsoft Certified: Azure Data Engineer Associate or Solutions Architect Expert
+- Experience with CI/CD, DevOps, and Apache Spark
+- Familiarity with Atlassian tools (JIRA, Confluence)
+- Background in financial services and Agile/Waterfall SDLC
+
+🎁 Benefits
+- Competitive bonus and RRSP match
+- Comprehensive health and dental coverage
+- Employee Share Purchase Plan
+- Parental leave top-up
+- Generous vacation and personal days
+- Annual professional development allowance
+- Hybrid work model from downtown Toronto
+
+You can view the full listing and apply directly on Built In or AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-data-engineer-in-eqbank-at-toronto-canada"
+}
+,
+
+{
+  applyUrl: "https://jobs.lever.co/zoox/723937cb-af99-43ed-804f-b29bd48c8829",
+  companyName: "zoox",
+  companyLogo: "/images/zoox.png",
+  location: "Foster City",
+  jobTitle: "Machine Learning Engineer - Prediction and Planning",
+  jobType: "Hybrid",
+  jobCategory: "Machine Learning",
+  mainDescription: `Job Title: Machine Learning Engineer – Prediction and Planning
+Location: Hybrid – Foster City, California
+Department: Software – Perception
+Employment Type: Full-Time
+
+🧠 Role Overview
+Zoox is hiring a Machine Learning Engineer to join its Offline Driving Intelligence team. You’ll develop foundation models for prediction and planning that power both on-vehicle driving behavior and off-vehicle simulation and validation. This role is central to improving the safety, comfort, and performance of Zoox’s autonomous driving system.
+
+🔧 Key Responsibilities
+- Design and train deep learning models using imitation learning and reinforcement learning
+- Evaluate driving plans across dimensions like safety, progress, comfort, and compliance
+- Contribute to large-scale ML infrastructure and pipelines
+- Develop tools and metrics to analyze system performance
+- Collaborate with Perception, Planning, and Simulation teams to solve complex urban driving challenges
+
+✅ Required Qualifications
+- MS or PhD in Computer Science or related field
+- 5+ years of industry experience in ML or robotics
+- Experience with transformer-based architectures and reinforcement learning
+- Proficiency in Python or C++ (with working knowledge of the other)
+- Strong background in algorithm design and ML pipelines
+
+🌟 Bonus Qualifications
+- Strong mathematics foundation
+- Experience in autonomous vehicle prediction or planning
+- Publications in top-tier ML or robotics conferences (e.g., CVPR, ICRA, RSS)
+
+💰 Compensation & Benefits
+- Base salary: $204,000 – $245,000/year
+- Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
+- Comprehensive benefits: health, life, disability insurance, and generous paid time off
+
+You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "machine-learning-engineer-prediction-and-planning-in-zoox-at-foster-city-united-states"
+}
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/zoox/8df66250-f2bd-4e4f-a807-239916ce84e6",
+  companyName: "zoox",
+  companyLogo: "/images/zoox.png",
+  location: "Foster City",
+  jobTitle: "Software Engineering Manager - Backend Services",
+  jobType: "Hybrid",
+  jobCategory: "Backend",
+  mainDescription: `Job Title: Software Engineering Manager – Backend Services
+Location: Hybrid – Foster City, California
+Department: Product Software
+Employment Type: Full-Time
+
+🧠 Role Overview
+Zoox is hiring a Software Engineering Manager to lead the Robot Link Platform team, which plays a pivotal role in enabling its driverless robotaxi service. This team operates at the intersection of robot software, cloud services, and fleet management tools, ensuring mission-critical communication between autonomous vehicles and backend systems.
+
+🔧 Key Responsibilities
+- Manage and mentor a team of backend engineers across diverse technologies
+- Provide technical leadership and define KPIs to drive continuous improvement
+- Allocate resources effectively and ensure project success
+- Collaborate cross-functionally to deliver high-quality, integrated solutions
+- Identify and mitigate risks related to schedule, quality, and features
+
+✅ Required Qualifications
+- BS/MS in Computer Science or related field
+- 10+ years of relevant software engineering experience
+- 5+ years of engineering management experience (including hiring and budgeting)
+- Proven track record of shipping large-scale backend platforms
+- Proficiency in TypeScript, Go, Java, or JavaScript
+- Experience working in agile, cross-functional environments
+
+🌟 Bonus Qualifications
+- Experience with networking stacks (e.g., TCP/IP, video streaming)
+- Background in autonomous vehicles or other mission-critical systems
+
+💰 Compensation & Benefits
+- Base salary: $241,000 – $289,000/year
+- Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
+- Comprehensive benefits package including health, life, and disability insurance
+
+🌍 About Zoox
+Zoox is building the first fully autonomous, purpose-built robotaxi and the ecosystem to support it. With a focus on urban mobility, Zoox blends robotics, machine learning, and design to redefine transportation.
+
+You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineering-manager-backend-services-in-zoox-at-foster-city-united-states"
+}
+
+
+,
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/zoox/a13a94f1-ba72-48a8-af09-7e3444b8c762",
+  companyName: "zoox",
+  companyLogo: "/images/zoox.png",
+  location: "Foster City",
+  jobTitle: "Senior/ Staff Machine Learning Engineer - Generative AI",
+  jobType: "Hybrid",
+  jobCategory: "Machine Learning",
+  mainDescription: `Job Title: Senior/Staff Machine Learning Engineer – Generative AI
+Location: Hybrid – Foster City, California
+Department: Software – Perception
+Employment Type: Full-Time
+
+🧠 Role Overview
+Zoox is hiring a Senior or Staff ML Engineer to lead the development of Generative AI models that create synthetic data for training and evaluating its autonomous driving stack. You’ll work with world models, radiance fields, and sensor-level scenario generation to improve the safety, scalability, and performance of Zoox’s perception systems.
+
+🔧 Key Responsibilities
+- Define and execute the ML roadmap for synthetic data generation
+- Design and deploy generative models (e.g., diffusion, GANs, NeRFs)
+- Build scalable ML pipelines using large-scale proprietary sensor data
+- Collaborate with cross-functional teams (perception, planning, simulation, safety)
+- Validate models using real-world driving scenarios
+
+✅ Required Qualifications
+- MS or PhD in Computer Science, Machine Learning, or related field
+- Proven experience with large generative models and ML training pipelines
+- Proficiency in Python, PyTorch, and NumPy
+- Experience working with large-scale datasets (e.g., tens of millions of videos)
+
+🌟 Bonus Qualifications
+- Publications in top-tier conferences (e.g., CVPR, ICCV, RSS, ICRA)
+- Experience with autonomous robotics systems
+- Familiarity with 4D Gaussian Splatting
+
+💰 Compensation & Benefits
+- Base salary: $230,000 – $318,000/year
+- Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
+- Comprehensive benefits: health, life, disability, long-term care insurance, and generous paid time off
+
+You can view the full listing and apply directly on AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-staff-machine-learning-engineer-generative-ai-in-zoox-at-foster-city-united-states"
+}
+,
+
+
+
+
+
+  //9-7-25
+
   {
   applyUrl: "https://jobs.lever.co/3pillarglobal/edf427ee-d6bf-4dd8-b639-85997d5832b0",
   companyName: "3pillarglobal",
@@ -1491,8 +2546,7 @@ You’ll join a project focused on building a passwordless authentication platfo
   jobTitle: "PRODUCT ANALYST - AI/EXPANSION",
   jobType: "Hybrid",
   jobCategory: "AI",
-  mainDescription: `Here’s a structured and engaging summary of the Product Analyst – AI/Expansion role at Fanatee:
-
+  mainDescription: `
 🎮 Job Title: Product Analyst – AI/Expansion
 Location: Hybrid – São Paulo, Brazil
 Department: Product
@@ -1721,8 +2775,7 @@ Snapsheet is hiring a Software Engineer to join its Data team, which powers inte
   jobTitle: "Firmware Engineer - Python Test Automation",
   jobType: "Full-time",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the Firmware Engineer – Python Test Automation role at Anduril Industries:
-
+  mainDescription: `
 Job Title: Firmware Engineer – Python Test Automation
 Location: Costa Mesa, California (On-site)
 Department: Embedded Software & Systems Integration
@@ -2122,8 +3175,7 @@ Veeva Systems is hiring a Full Stack Software Engineer to join its OpenData team
   jobTitle: "API Integrations and Documentation Lead",
   jobType: "Hybrid",
   jobCategory: "General",
-  mainDescription: `Here’s a structured and professional summary of the job posting for the API Integrations and Documentation Lead role at Polly:
-
+  mainDescription: `
 Job Title: API Integrations and Documentation Lead
 Location: Hybrid – San Francisco, CA / Dallas, TX
 Department: Account Management + Customer Success
