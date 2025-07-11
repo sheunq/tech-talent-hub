@@ -887,6 +887,7 @@ Monzo is hiring a Senior Analytics Engineer to help build a high-quality, scalab
 }
  , 
 
+
   // 9-7-25
 {
   applyUrl: "https://wise.jobs/job/software-engineering-lead-latin-america-in-sao-paulo-jid-1744",
@@ -1050,6 +1051,7 @@ Deloitte is hiring an experienced Azure Cloud Engineer to support long-term clie
 - Access to professional development, mentorship, and inclusive culture
 - Comprehensive benefits package
 
+You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1103,7 +1105,7 @@ Deloitte is seeking a Cyber Defense Manager to lead the design, implementation, 
 - Eligibility for annual incentive program
 - Comprehensive benefits and professional development opportunities
 
-You can view the full listing and apply directly on Deloitte’s careers page. 
+You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1232,7 +1234,7 @@ Department: Quality Assurance
 Employment Type: Full-Time
 
 🧠 Role Overview
-ELEKS is seeking an experienced QA professional to join a project for a UK-based health, sport, and leisure group. The role involves testing a membership ecosystem across iOS and Android platforms, ensuring high-quality delivery through manual and automated testing practices.
+ELEKS is seeking an experienced QA professional to join a project for a UK-based health, sport, and leisure group. This role involves testing a membership ecosystem across iOS and Android platforms, ensuring high-quality delivery through manual and automated testing practices.
 
 🔧 Key Responsibilities
 - Execute and document tests across all planned levels
@@ -1259,7 +1261,7 @@ ELEKS is seeking an experienced QA professional to join a project for a UK-based
 - A dynamic and supportive team environment
 - Influence over project technologies and QA strategy
 
-You can view the full listing and apply directly on ELEKS’ careers page. 
+You can view the full listing and apply directly on ELEKS’ careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1653,7 +1655,7 @@ Comcast is seeking a senior-level engineer to lead the reliability and operation
 - Comprehensive benefits: health, dental, vision, life, disability
 - Tools and support for physical, financial, and emotional well-being
 
-You can view the full job listing and apply directly on Comcast’s careers page.
+You can view the full job listing and apply directly on Comcast’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1768,7 +1770,7 @@ Equitable Bank is seeking a Senior Data Engineer to design, build, and maintain 
 - Annual professional development allowance
 - Hybrid work model from downtown Toronto
 
-You can view the full listing and apply directly on Built In or AIJobs.net.
+You can view the full listing and apply directly on Built In or AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1818,7 +1820,7 @@ Zoox is hiring a Machine Learning Engineer to join its Offline Driving Intellige
 - Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
 - Comprehensive benefits: health, life, disability insurance, and generous paid time off
 
-You can view the full listing and apply directly on Zoox’s careers page.
+You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1872,7 +1874,7 @@ Zoox is hiring a Software Engineering Manager to lead the Robot Link Platform te
 🌍 About Zoox
 Zoox is building the first fully autonomous, purpose-built robotaxi and the ecosystem to support it. With a focus on urban mobility, Zoox blends robotics, machine learning, and design to redefine transportation.
 
-You can view the full listing and apply directly on Zoox’s careers page. 
+You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1925,7 +1927,7 @@ Zoox is hiring a Senior or Staff ML Engineer to lead the development of Generati
 - Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
 - Comprehensive benefits: health, life, disability, long-term care insurance, and generous paid time off
 
-You can view the full listing and apply directly on AIJobs.net. 
+You can view the full listing and apply directly on AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1940,7 +1942,6 @@ You can view the full listing and apply directly on AIJobs.net.
 
 
   //9-7-25
-
   {
   applyUrl: "https://jobs.lever.co/3pillarglobal/edf427ee-d6bf-4dd8-b639-85997d5832b0",
   companyName: "3pillarglobal",
@@ -3263,8 +3264,6 @@ Smarsh is hiring a Software Engineer II to join its Workload Management team, a 
 
 , 
 
-
-
 {
   applyUrl: "https://jobs.lever.co/brillio-2/c510c2d4-5451-416f-b5b6-b22cd8d4cad6",
   companyName: "Brillio",
@@ -3468,7 +3467,7 @@ Production Organization
 - Casual, creative work environment
 - Snack-filled rest areas and a relaxed dress code
 
-You can explore the full listing and apply directly on Fanatee’s official careers page.
+You can explore the full listing and apply directly on Fanatee’s official careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -4400,7 +4399,7 @@ Cyclotron is seeking a technically skilled Microsoft Purview Compliance Engineer
 🎓 Education
 - Bachelor’s degree in Computer Science, Information Technology, Cybersecurity, or a related field
 
-You can apply directly through Cyclotron’s job portal or Remotive’s listing. 
+You can apply directly through Cyclotron’s job portal or Remotive’s listing. Let me know if you’d like help preparing your résumé or answering the technical questionnaire!
 `,
   status: "approved",
   isFeatured: true,
@@ -6088,7 +6087,7 @@ Employment Type: Full-Time
   companyName: "3pillarglobal",
   companyLogo: "/images/3pillarglobal.png",
   location: "Romania",
-  jobTitle: "Architect Java + React + AEM",
+  jobTitle: "Architect Java React AEM",
   jobType: "Remote",
   jobCategory: "Architect",
   mainDescription: `Job Title: Architect – Java + React + AEM
@@ -6420,7 +6419,7 @@ Employment Type: Full-Time
 - SaaS architecture and ROI analysis
 - Certifications: AWS, Azure, GCP, TOGAF
 
-You can view the full listing and apply directly on Wellfound’s job board. 
+You can view the full listing and apply directly on Wellfound’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -7103,7 +7102,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. 
+You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -7160,7 +7159,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar Global’s careers page. 
+You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -7222,7 +7221,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar Global’s careers page. 
+You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -7232,7 +7231,6 @@ You can view the full listing and apply directly on 3Pillar Global’s careers p
 }
 
 ,
-
 
   {
   applyUrl: "https://jobs.lever.co/brillio-2/a584af2c-c119-46b4-a1c0-3e3c4864671c",
@@ -7280,53 +7278,10 @@ Brillio is a fast-growing digital technology services company known for its inno
   submittedDate: new Date().toISOString(),
   id: "azure-architect-r01552334-in-brillio-at-united-states-united-states"
 }
-,
-
-
-
-
-{
-  applyUrl: "https://jobs.lever.co/lendbuzz/0cfe0005-d07a-402c-bf14-6e306cd700e2",
-  companyName: "lendbuzz",
-  companyLogo: "/images/lendbuzz.png",
-  location: "Tel Aviv, Israel",
-  jobTitle: "Application Security Engineer",
-  jobType: "Hybrid",
-  jobCategory: "Application",
-  mainDescription: `Job Title: Application Security Engineer
-Location: Tel Aviv, Israel (Hybrid)
-Employment Type: Full-Time
-
-🧠 Role Overview
-Lendbuzz is seeking an Application Security Engineer to help secure its financial technology products. You’ll work closely with development teams to embed security into the software development lifecycle, conduct assessments, and implement robust defenses against modern threats.
-
-🔐 Key Responsibilities
-- Integrate security controls into the SDLC
-- Perform code reviews, vulnerability scans, and penetration testing
-- Design solutions to mitigate threats like XSS, SQL injection, and auth bypass
-- Conduct threat modeling and architecture reviews
-- Develop secure coding standards and deliver developer training
-- Monitor and respond to security incidents
-- Collaborate with cross-functional teams to align security with product goals
-
-✅ Qualifications
-- Bachelor’s in Computer Science, Information Security, or related field
-- 3+ years in application security, ideally in a product-focused company
-- Strong grasp of OWASP Top 10, SSL/TLS, OAuth
-- Hands-on with tools like Burp Suite, OWASP ZAP, Nessus
-- Proficient in Ruby, Python, or JavaScript
-- Familiarity with cloud security (AWS, Azure, GCP)
-- Excellent communication skills for both technical and non-technical audiences
-`,
-  status: "approved",
-  isFeatured: true,
-  requirements: "",
-  submittedDate: new Date().toISOString(),
-  id: "application-security-engineer-in-lendbuzz-at-Tel-Aviv-Israel"
-}
 , 
 
- 
+
+
 
 
 {
@@ -7337,7 +7292,8 @@ Lendbuzz is seeking an Application Security Engineer to help secure its financia
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `
+  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
+
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
 Department: Engineering – Machine Learning Platform
@@ -7372,7 +7328,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-
+Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
 `,
   status: "approved",
   isFeatured: true,
@@ -7549,7 +7505,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-
+Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
 `,
   status: "approved",
   isFeatured: true,
@@ -8934,7 +8890,6 @@ Brillio is a fast-growing digital technology services company known for its inno
   submittedDate: new Date().toISOString(),
   id: "azure-architect-r01552334-in-brillio-at-united-states-united-states"
 }
-
 , 
 
 
@@ -8949,7 +8904,8 @@ Brillio is a fast-growing digital technology services company known for its inno
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `
+  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
+
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
 Department: Engineering – Machine Learning Platform
@@ -8984,7 +8940,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-
+Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
 `,
   status: "approved",
   isFeatured: true,
@@ -9161,7 +9117,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-
+Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
 `,
   status: "approved",
   isFeatured: true,
@@ -9349,7 +9305,1618 @@ Nordcloud is a European cloud leader with over 1300 employees across 10 countrie
 }
 , 
 
-  
+{
+  applyUrl: "https://nordcloud-career.breezy.hr/p/ef74c8b93d9201-aws-cloud-engineer-architect",
+  companyName: "nordcloud",
+  companyLogo: "/images/nordcloud.png",
+  location: "Unite States",
+  jobTitle: "AWS Cloud Engineer / Architect",
+  jobType: "Remote",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: Senior Software Engineer I, Security
+Location: Remote – USA
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dandy is seeking a Senior Security Engineer to join its platform engineering team and help build the security foundation for its dental technology platform. This is a high-impact role focused on securing applications, infrastructure, and customer data while shaping the company’s security posture from the ground up.
+
+🔧 Key Responsibilities
+- Design secure application architectures and influence feature development
+- Guide engineering teams on secure coding, API security, and data protection
+- Lead vulnerability management and remediation efforts
+- Select and integrate security tools (e.g., SAST, DAST, SCA, container scanning)
+- Develop and execute incident response processes and playbooks
+- Implement security controls across GCP environments
+- Promote a security-first culture through mentoring and education
+
+✅ Required Qualifications
+- 5+ years of hands-on cybersecurity experience, especially in application security
+- Deep knowledge of web and API security, threat modeling, and secure architecture
+- Experience collaborating with engineering teams on secure development practices
+- Proven track record in vulnerability triage and remediation
+- Familiarity with security tooling and infrastructure-level controls
+- Strong incident response and forensic analysis skills
+- Excellent communication and cross-functional collaboration abilities
+
+🌟 Bonus Points
+- Experience with PHI and data protection regulations
+- DevSecOps and CI/CD security integration
+- Scripting/automation skills (Python, Bash)
+- Technical certifications (e.g., OSCP, GWAPT, GCSA, CISSP, GCP Security Engineer)
+- Experience as an early security hire in a scaling tech company
+
+💰 Compensation & Benefits
+- Salary Range: $176,800 – $208,000 USD
+- Includes equity and bonus opportunities
+- Comprehensive benefits: healthcare, dental, mental health, parental support, retirement plans, and generous PTO
+
+🌍 About Dandy
+Dandy is revolutionizing the $200B dental industry by building a modern operating system for dental practices. Backed by top-tier investors, Dandy empowers clinicians with cutting-edge technology and world-class support to deliver better care.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "aws-cloud-engineer-architect-in-nordcloud-at-foster-city-anywhere"
+}
+,
+
+
+
+{
+  applyUrl: "https://www.meetdandy.com/careers/job/?ashby_jid=63580a15-d130-4ecf-8a44-21c7b03313bb",
+  companyName: "dandy",
+  companyLogo: "/images/dandy.png",
+  location: "Canada",
+  jobTitle: "Senior Data Analyst - Revenue",
+  jobType: "Remote",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Senior Data Analyst – Revenue
+Location: Remote – Canada
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dandy is seeking a Senior Data Analyst to support its Marketing, Sales, and Account Management teams. This highly cross-functional role focuses on using data to drive customer acquisition, retention, and revenue growth. You’ll work autonomously to uncover insights, define KPIs, and shape strategies that make Dandy’s services more compelling and effective.
+
+🔧 Key Responsibilities
+- Analyze customer lifecycle data to optimize acquisition, retention, and recurring revenue
+- Define KPIs, dashboards, and measurement frameworks for internal teams
+- Conduct ad hoc analysis and build self-service BI tools (e.g., Looker)
+- Design and execute A/B experiments to improve outcomes
+- Act as a strategic thought partner to cross-functional stakeholders
+- Mentor junior analysts and contribute to team development
+
+✅ Required Qualifications
+- 4+ years in revenue, retention, or customer lifecycle analytics (preferably B2B)
+- BA/BS in a quantitative or behavioral science field
+- Proficiency in SQL and Python
+- Strong communication and storytelling skills with data
+- Ability to work independently and navigate ambiguity
+- Critical thinking and statistical analysis expertise
+
+🌟 Bonus Points
+- Experience with B2B sales pipeline and revenue data (e.g., Shopify, Uber, Instacart)
+- Empathy for dental professionals and healthcare customers
+- Background in causal inference or predictive modeling
+- Familiarity with Looker, Hex, and dbt
+- Experience in early-stage or high-growth companies
+
+🎁 Benefits & Perks
+- Comprehensive healthcare, dental, and mental health support
+- Parental planning resources and retirement savings options
+- Generous paid time off
+- Inclusive, accessible workplace culture
+
+🌍 About Dandy
+Dandy is a fast-growing dental technology company backed by top-tier investors. With a mission to modernize the $200B dental industry, Dandy is building the operating system for dental offices worldwide—empowering clinicians with innovation and support to deliver better care.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-data-analyst-revenue-in-dandy-at-Canada"
+}
+, 
+
+
+{
+  applyUrl: "https://www.meetdandy.com/careers/job/?ashby_jid=94d85680-7c02-4b76-af3f-d58d1d0b35d0",
+  companyName: "dandy",
+  companyLogo: "/images/dandy.png",
+  location: "Brazil",
+  jobTitle: "Software Engineer II, DevEx Engineer (Brazil)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer II – DevEx Engineer
+Location: Remote – Brazil
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dandy is seeking a Software Engineer II to join its Platform team, focused on improving developer experience (DevEx). You’ll build internal tools, evolve CI/CD systems, and streamline engineering workflows to help teams ship high-quality software faster and more confidently.
+
+🔧 Key Responsibilities
+- Enhance CI/CD platforms for faster, more reliable feedback loops
+- Build and maintain internal tooling, build systems, and dev environments
+- Integrate AI-powered tools to boost developer productivity
+- Lead multi-month projects that improve engineering efficiency
+- Collaborate with product teams to identify and solve workflow pain points
+- Champion best practices in development, testing, and deployment
+- Contribute to roadmap planning and strategic DevEx initiatives
+
+✅ Required Qualifications
+- 3+ years of software engineering experience, with a focus on DevEx, infrastructure, or CI/CD
+- Proficiency with CI/CD tools (e.g., BuildKite, GitHub Actions, CircleCI)
+- Hands-on experience with cloud platforms (GCP, AWS, or Azure) and containerization (Docker, Kubernetes)
+- Skilled in at least one scripting or programming language (Python, Go, Bash)
+- Strong collaboration and communication skills
+- Passion for improving developer workflows and team productivity
+
+🌟 Bonus Points
+- Experience building internal developer platforms or portals
+- Familiarity with Infrastructure as Code (Terraform, Pulumi)
+- Knowledge of observability tools (Chronosphere, Prometheus, Grafana)
+
+🎁 Benefits & Perks
+- Comprehensive healthcare, dental, and mental health support
+- Parental planning resources and retirement savings options
+- Generous paid time off
+- Inclusive, accessible, and supportive work culture
+
+🌍 About Dandy
+Dandy is a fast-growing dental technology company backed by top-tier investors. With a mission to modernize the $200B dental industry, Dandy is building the operating system for dental offices worldwide—empowering clinicians with innovation and support to deliver better care.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-ii-devex-engineer-brazil-in-dandy-at-brazil-brazil"
+}
+,
+
+
+{
+  applyUrl: "https://www.meetdandy.com/careers/job/?ashby_jid=9bf540a2-db13-428c-a7d6-1c08daa9a902",
+  companyName: "dandy",
+  companyLogo: "/images/dandy.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer II, Production Management",
+  jobType: "Remote",
+  jobCategory: "Product",
+  mainDescription: `Job Title: Senior Software Engineer II – Production Management
+Location: Remote – USA
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dandy is seeking a seasoned full stack engineer to help build and scale its custom manufacturing platform. This role focuses on optimizing the supply chain stack—planning, routing, and delivering dental products—by developing secure, performant, and scalable software solutions.
+
+🔧 Key Responsibilities
+- Build and improve features across Dandy’s production management systems
+- Develop order routing logic and real-time order tracking capabilities
+- Collaborate with manufacturing automation teams (e.g., CAD → CAM workflows)
+- Design systems to balance demand and optimize production workloads
+- Partner with product and engineering teams to maintain high-quality standards
+- Own projects from concept through execution in a fast-paced, agile environment
+
+✅ Required Qualifications
+- 6+ years of full stack software engineering experience
+- Strong background in backend asynchronous systems
+- Experience with logistics, operations, or large-scale production systems
+- Proficiency in TypeScript, Node.js, NestJS, React/Redux, PostgreSQL, GCP, GraphQL
+- Ability to work independently and communicate complex ideas clearly
+- Experience with performance tuning and system optimization
+- Comfortable in iterative, agile development environments
+
+🌟 Bonus Points
+- Experience with TypeScript
+- Background in venture-backed startups during hyper-growth phases
+
+💰 Compensation & Benefits
+- Salary Range: $201,500 – $237,000 USD
+- Includes equity options
+- Comprehensive benefits: healthcare, dental, mental health, parental support, retirement plans, and generous PTO
+
+🌍 About Dandy
+Dandy is modernizing the $200B dental industry by building a global operating system for dental practices. Backed by top-tier investors, Dandy empowers clinicians with cutting-edge technology and world-class support to deliver better care.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-ii-production-management-in-dandy-at-United-States"
+}
+, 
+
+
+{
+  applyUrl: "https://www.meetdandy.com/careers/job/?ashby_jid=eeee2f87-aa55-4f2c-a532-c1d350c42f48",
+  companyName: "dandy",
+  companyLogo: "/images/dandy.png",
+  location: "Brazil",
+  jobTitle: "Senior Software Engineer II, Practice Engagement (Brazil)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer II – Practice Engagement
+Location: Remote – Brazil
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dandy is seeking a seasoned software engineer to join its Practice Engagement team, which is redefining how dentists interact with dental labs. You’ll help build innovative tools and services that streamline clinical workflows, reduce friction, and elevate the service experience for dental professionals.
+
+🔧 Key Responsibilities
+- Collaborate with engineers, designers, and product managers to develop new features and products
+- Own problems end-to-end, from UX and data modeling to scalability and metrics
+- Proactively improve team processes, codebases, and engineering best practices
+- Work with a modern tech stack: TypeScript, React, GraphQL, Node.js, and PostgreSQL
+
+✅ Required Qualifications
+- 8+ years of experience as a software engineer
+- Proficiency with modern web frameworks and tooling (e.g., TypeScript, React, Apollo, Storybook, Webpack)
+- Strong communication and interpersonal skills
+- Self-directed with a track record of delivering impactful solutions autonomously
+- Commitment to high engineering standards and collaborative development
+
+🎁 Benefits & Perks
+- Comprehensive healthcare, dental, and mental health support
+- Parental planning resources and retirement savings options
+- Generous paid time off
+- Inclusive, accessible, and supportive work culture
+
+🌍 About Dandy
+Dandy is a fast-growing dental technology company backed by top-tier investors. With a mission to modernize the $200B dental industry, Dandy is building the operating system for dental offices worldwide—empowering clinicians with innovation and support to deliver better care.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-ii-practice-engagement-brazil-in-dandy-at-brazil-brazil"
+}
+,
+
+
+
+
+{
+  applyUrl: "https://www.meetdandy.com/careers/job/?ashby_jid=eeee2f87-aa55-4f2c-a532-c1d350c42f48",
+  companyName: "dandy",
+  companyLogo: "/images/dandy.png",
+  location: "Brazil",
+  jobTitle: "Senior Software Engineer II, Practice Engagement (Brazil)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer I – Infrastructure
+Location: Remote – Brazil
+Employment Type: Full-Time
+
+🧠 Role Overview
+Dandy is seeking a skilled infrastructure engineer to join its Platform team. This role focuses on building and maintaining the cloud infrastructure, CI/CD systems, and developer tooling that power Dandy’s engineering organization. You’ll play a key role in improving developer productivity, system reliability, and security.
+
+🔧 Key Responsibilities
+- Evolve CI/CD platforms with a focus on automation and security
+- Design, build, and maintain core infrastructure on Google Cloud Platform (GCP)
+- Manage Kubernetes-based container orchestration systems
+- Implement Infrastructure as Code (IaC) using tools like Terraform or Pulumi
+- Lead multi-month infrastructure projects to improve system performance and stability
+- Collaborate with engineering teams to support their infrastructure needs
+- Champion best practices in cloud security and system reliability
+- Contribute to roadmap planning and identify high-impact improvements
+
+✅ Required Qualifications
+- 5+ years of experience in backend, infrastructure, or SRE roles
+- Deep hands-on experience with GCP, AWS, or Azure
+- Proficiency with Docker, Kubernetes, and IaC tools (Terraform, Pulumi)
+- Strong understanding of CI/CD systems (e.g., BuildKite, GitHub Actions, CircleCI)
+- Skilled in at least one scripting or programming language (Go, Python, Bash)
+- Excellent problem-solving and communication skills
+- Collaborative mindset and passion for scalable systems
+
+🌟 Bonus Points
+- Experience building internal developer platforms or portals
+- Familiarity with observability tools like Chronosphere, Prometheus, or Grafana
+
+🎁 Benefits & Perks
+- Comprehensive healthcare, dental, and mental health support
+- Parental planning resources and retirement savings options
+- Generous paid time off
+- Inclusive and accessible workplace culture
+
+🌍 About Dandy
+Dandy is a fast-growing dental technology company backed by top-tier investors. With a mission to modernize the $200B dental industry, Dandy is building the operating system for dental offices worldwide—empowering clinicians with innovation and support to deliver better care.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-ii-practice-engagement-brazil-in-dandy-at-brazil-brazil"
+}
+,
+
+
+{
+  applyUrl: "https://jobs.lever.co/xero/2b9983d4-50d8-4526-81b2-15879fd152b6",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "Seattle",
+  jobTitle: "Site Reliability Engineer",
+  jobType: "Hybrid",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Site Reliability Engineer
+Location: Hybrid – San Mateo, CA / Seattle, WA / Denver, CO
+Department: Product Engineering – Site Reliability
+Employment Type: Full-Time, Permanent
+
+🧠 Role Overview
+Xero is seeking a technically skilled Site Reliability Engineer (SRE) to join its Product SRE team. You’ll be embedded within a product team to drive reliability, observability, and performance across Xero’s SaaS platform. This role is ideal for engineers passionate about automation, incident response, and building high-performing systems.
+
+🔧 Key Responsibilities
+- Deliver day-to-day reliability improvements within a dedicated product SRE team
+- Implement observability best practices and ensure rapid detection of issues
+- Build long-term relationships with product teams to improve system reliability
+- Promote an “automation-first” culture and drive quality delivery
+- Contribute to error budget practices and SLA/SLO adherence
+- Provide training and mentorship on reliability standards
+- Monitor and report on SRE quality metrics and continuous improvement
+
+✅ Required Qualifications
+- Strong hands-on SRE and engineering background
+- Experience mentoring SRE teams in fast-paced environments
+- Deep understanding of cloud platforms (AWS, Azure, GCP)
+- Proficiency in one or more programming languages (e.g., C#, JavaScript, Java, Python)
+- Familiarity with infrastructure-as-code tools (e.g., Terraform, CloudFormation)
+- Experience with observability tools and distributed systems monitoring
+- Agile development experience with CI/CD practices
+- Strong communication and incident response skills
+
+💰 Compensation
+- Salary Range: $150,000 – $185,000 USD annually
+
+🎁 Benefits & Perks
+- Generous paid leave and wellness days
+- Comprehensive medical, dental, vision, and disability insurance
+- 401(k) matching and employee share plan
+- Paid parental leave (26 weeks for primary caregivers)
+- Fertility and family planning support
+- Mental health resources and employee assistance program
+- Flexible working and career development opportunities
+
+🌍 About Xero
+Xero is a global SaaS company helping small businesses thrive by automating tasks, surfacing insights, and connecting them with the right tools and advisors. With a human-first culture and a strong commitment to diversity and inclusion, Xero empowers its teams to do the best work of their lives.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "site-reliability-engineer-in-xero-at-seattle-united-states"
+}
+
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/xero/a36c6768-5da3-4cf9-ad31-d315dc689c36",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "Copenhagen, Denmark",
+  jobTitle: "Senior Data Analyst",
+  jobType: "Hybrid",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Senior Data Analyst
+Location: Copenhagen, Denmark (Hybrid)
+Department: Product
+Employment Type: Permanent
+
+🧠 Role Overview
+Planday is seeking a Senior Data Analyst to transform complex data into actionable insights that drive product development and strategic decision-making. You’ll collaborate across teams to define key metrics, build robust data models, and deliver compelling data narratives that support Planday’s mission to make shift work more human.
+
+🔧 Key Responsibilities
+- Partner with product, commercial, and leadership teams to define and track critical metrics
+- Design and maintain high-quality data models and assets
+- Build dashboards and visualizations using Tableau
+- Conduct advanced statistical analysis and predictive modeling using Python, R, and SQL
+- Translate complex data into clear, actionable insights through storytelling and presentations
+- Apply machine learning techniques to uncover new opportunities
+- Lead data wrangling, experimentation (e.g., A/B testing), and data quality initiatives
+
+✅ Ideal Candidate Profile
+- Advanced proficiency in Python, R, and SQL (including CTEs and window functions)
+- Strong experience with Tableau and product analytics tools (e.g., Mixpanel, Amplitude)
+- Skilled in statistical modeling, forecasting, and hypothesis testing
+- Proven ability to communicate insights to both technical and non-technical audiences
+- Experience in product opportunity sizing and metric development
+- Analytical mindset with a track record of solving complex data challenges
+
+🎯 Success Looks Like
+- Delivering trusted insights that influence product and commercial decisions
+- Creating intuitive dashboards that elevate data-driven decision-making
+- Driving measurable business impact through rigorous analysis
+- Implementing machine learning models that unlock new strategic opportunities
+
+🎁 Benefits & Perks
+- Pension, health insurance, and parental support
+- Employee Share Plan
+- Flexible remote work and generous vacation
+- Strong social culture and meaningful work
+- Growth and career progression opportunities
+- Inclusive and supportive workplace environment
+
+🌍 About Planday
+Planday, part of Xero, is a Copenhagen-based company helping businesses optimize shift scheduling. With a mission to improve work/life balance for shift workers, Planday leverages Agentic AI and advanced analytics to empower teams and managers worldwide.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-data-analyst-in-xero-at-Copenhagen-Denmark"
+}
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/xero/ab70fcf1-2ce6-42e2-a0b9-4fe2713db7c5",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "New Zealand",
+  jobTitle: "Senior Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior Engineer
+Location: Remote – New Zealand (Wellington or Auckland)
+Department: Product Engineering – Payroll Engineering
+Employment Type: Permanent
+
+🧠 Role Overview
+Xero is looking for a Senior Engineer to help build and manage scalable software solutions that support small businesses. You’ll work across the full development lifecycle, contribute to engineering standards, and mentor others while solving complex technical challenges in a collaborative, agile environment.
+
+🔧 Key Responsibilities
+- Develop high-quality, scalable software with a focus on automation and customer impact
+- Design and execute sophisticated testing strategies and coach others in quality practices
+- Troubleshoot and resolve production issues, contributing to post-mortems and incident response
+- Contribute to engineering standards and frameworks in collaboration with Lead and Principal Engineers
+- Champion CI/CD, infrastructure automation, and modern delivery practices
+- Participate in recruitment and mentor junior engineers
+- Drive continuous improvement and innovation across the engineering team
+
+✅ Required Qualifications
+- Expertise in C#, .NET, Docker, Kubernetes, and AWS
+- Strong debugging skills across the full technology stack
+- Experience designing distributed systems and refactoring monoliths
+- Proficiency with CI/CD tools (GitHub Actions a plus)
+- Advocate for TDD and automated testing
+- Strong collaboration and communication skills
+- Interest in AI tools like GitHub Copilot and Windsurf
+
+🎁 Benefits & Perks
+- Generous paid leave and statutory holidays
+- Paid wellbeing leave and Employee Assistance Program
+- Free medical insurance and wellness programs
+- 26 weeks paid parental leave for primary caregivers
+- Employee Share Plan and career development support
+- Flexible working and beautiful office spaces
+
+🌍 About Xero
+Xero is a global SaaS company helping small businesses thrive through beautiful software. With a strong focus on innovation, inclusion, and customer success, Xero empowers its teams to do the best work of their lives.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-engineer-in-xero-at-New-Zealand"
+}
+,
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/xero/f834e2f7-cdcf-4abf-9705-94d2d8927f9a",
+  companyName: "xero",
+  companyLogo: "/images/xero.png",
+  location: "Copenhagen, Denmark",
+  jobTitle: "Data Analyst - Maternity Cover (7 months)",
+  jobType: "Hybrid",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Data Analyst – Maternity Cover (7 months)
+Location: Copenhagen, Denmark (Hybrid)
+Department: Product
+Employment Type: Fixed Term
+
+🧠 Role Overview
+Planday, part of Xero, is seeking a Data Analyst to join its Data & Analytics team on a 7-month maternity cover contract. You’ll play a strategic role in transforming complex data into actionable insights that drive product development, customer understanding, and business growth.
+
+🔧 Key Responsibilities
+- Collaborate with product, commercial, and leadership teams to define and track key metrics
+- Design and maintain robust data models and ensure data quality
+- Build dashboards and visualizations using Tableau
+- Conduct advanced statistical analysis and predictive modeling using Python, R, and SQL
+- Translate complex data into compelling narratives and presentations
+- Support projects such as product-market fit analysis and customer lifecycle insights
+
+✅ Ideal Candidate Profile
+- Proficiency in Python, R, and advanced SQL (CTEs, window functions)
+- Strong data storytelling and visualization skills (Tableau)
+- Experience in product opportunity sizing and metric development
+- Skilled in data wrangling, cleaning, and experimentation (e.g., A/B testing)
+- Excellent communication skills for both technical and non-technical audiences
+- Practical experience applying machine learning to business problems
+
+🎁 Benefits & Perks
+- Pension, health insurance, and generous vacation
+- Flexible remote work
+- Strong social culture and meaningful, mission-driven work
+- Supportive, inclusive environment with a focus on work-life balance
+
+🌍 About Planday
+Planday is a Copenhagen-based workforce management platform helping businesses optimize shift scheduling. With a mission to make shift work more human, Planday leverages Agentic AI and data-driven innovation to improve work/life balance for shift workers globally.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-analyst-maternity-cover-7-months-in-xero-at-Copenhagen-Denmark"
+}
+,
+
+{
+  applyUrl: "https://jobs.lever.co/clari/593e9352-fb12-4a50-b879-f506ac9fdbba",
+  companyName: "clari",
+  companyLogo: "/images/clari.png",
+  location: "India",
+  jobTitle: "Software Engineer II, Copilot Foundations",
+  jobType: "Hybrid",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer II – Copilot Foundations
+Location: Bengaluru, India (Hybrid)
+Department: Engineering – Applications
+Employment Type: Full-Time
+
+🧠 Role Overview
+Clari is seeking a Software Engineer II to join its Copilot Foundations team. You’ll help build AI-driven, enterprise-grade applications that power Clari’s revenue intelligence platform. This role is ideal for engineers passionate about cloud technologies, scalable architecture, and delivering exceptional user experiences.
+
+🔧 Key Responsibilities
+- Design, develop, and improve scalable products and features
+- Collaborate with Product Managers, Architects, and Infrastructure Engineers
+- Drive innovation and contribute to large-scale design rollouts
+- Investigate and adopt modern frameworks and tools
+- Write modular, reusable code with strong test coverage and automation
+- Enhance user experience and code quality through reviews and best practices
+
+✅ Required Qualifications
+- 2+ years of experience building scalable, high-quality software
+- Proficiency in Spring Boot, Spring Security, Spring Data JPA
+- Experience with RESTful APIs and AWS ecosystem
+- Familiarity with MySQL, PostgreSQL, MongoDB, Trino
+- Exposure to messaging systems like Kafka or RabbitMQ
+- Bonus: Start-up experience
+
+🎁 Perks & Benefits
+- Flexible hours and hybrid work model
+- Life and accidental insurance
+- Mental health support (Silver Oak Health)
+- Pre-IPO stock options
+- Paid parental leave and wellness stipends
+- Monthly “take a break” days and Focus Fridays
+- Charitable giving match and team events
+
+🌍 About Clari
+Clari is a revenue intelligence platform used by leading companies like Adobe, Zoom, and Workday to improve forecasting accuracy and eliminate revenue leak. With a strong culture of innovation and inclusivity, Clari empowers teams to achieve remarkable outcomes.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-ii-copilot-foundations-in-clari-at-india-india"
+}
+,
+
+{
+  applyUrl: "https://jobs.lever.co/clari/5d590a7f-5f88-401d-9ea7-c6815f3e4c21",
+  companyName: "clari",
+  companyLogo: "/images/clari.png",
+  location: "India",
+  jobTitle: "Software Engineer II, AI Infra",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer II – AI Infra
+Location: Remote – India (with occasional travel to Bengaluru)
+Department: Engineering – Applications
+Employment Type: Full-Time
+
+🧠 Role Overview
+Clari is seeking a skilled AI Engineer to help build scalable, AI-powered microservices that support its revenue intelligence platform. You’ll work on cutting-edge GenAI features, including retrieval-augmented generation (RAG), embeddings, and prompt pipelines, while collaborating across product, design, and engineering teams.
+
+🔧 Key Responsibilities
+- Design and deploy microservices using LLMs for summarization, Q&A, sentiment analysis, and more
+- Build ingestion pipelines to embed and index large datasets into vector stores (e.g., Elasticsearch, Pinecone)
+- Develop evaluation harnesses and implement safety guardrails (e.g., PII filtering, toxicity checks)
+- Rapidly iterate on features using A/B testing and feature flags
+- Write production-grade Python code (FastAPI, Ray), tests, and design documentation
+- Support other teams integrating LLMs by sharing best practices
+
+✅ Required Qualifications
+- 2+ years of engineering experience, with 1+ year working on LLM/GenAI features
+- Strong Python skills (typing, async, pytest)
+- Familiarity with frameworks like PyTorch, Hugging Face Transformers, LangChain, or LlamaIndex
+- Experience with vector databases (e.g., Elasticsearch k-NN, Pinecone, FAISS)
+- Solid backend fundamentals (REST, GraphQL, Kafka/SQS)
+- Understanding of prompt engineering, token cost optimization, and model tuning
+- Strong communication skills and ability to explain trade-offs to diverse stakeholders
+
+🌟 Bonus Points
+- Experience with Ray, Triton, or high-throughput inference stacks
+- Comfort reading research papers and prototyping new ideas
+
+🎁 Perks & Benefits
+- Flexible hours and remote-first culture
+- Life and accidental insurance
+- Mental health support via Silver Oak Health
+- Pre-IPO stock options
+- Paid parental leave and wellness stipends
+- Monthly “take a break” days and Focus Fridays
+- Charitable giving match and team events
+
+🌍 About Clari
+Clari is a revenue intelligence platform used by companies like Adobe, Zoom, and Workday to improve forecasting accuracy and eliminate revenue leak. With a strong culture of innovation and inclusion, Clari empowers teams to achieve remarkable outcomes.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-ii-ai-infra-in-clari-at-india-india"
+}
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/wgsn/a58dadb6-d45f-46e5-9ea5-3e10d568fecf",
+  companyName: "wgsn",
+  companyLogo: "/images/wgsn.png",
+  location: "London",
+  jobTitle: "Salesforce Developer",
+  jobType: "Hybrid",
+  jobCategory: "Salesforce",
+  mainDescription: `Job Title: Salesforce Developer
+Location: London, UK (Hybrid)
+Department: Sales – Sales Management
+Employment Type: Fixed-Term (6 months)
+
+🧠 Role Overview
+WGSN is seeking a Salesforce Developer to join its Revenue Operations team. You’ll be responsible for delivering and maintaining Salesforce solutions across Sales Cloud and Service Cloud, managing integrations, and owning the DevOps framework. This role is ideal for someone with strong technical expertise and a passion for optimizing business systems.
+
+🔧 Key Responsibilities
+- Own and resolve change requests, projects, and technical issues
+- Design, build, test, and deploy Salesforce solutions
+- Manage AppExchange apps and integrations (e.g., Netsuite, Salesloft, ZoomInfo)
+- Lead DevOps processes and support team members
+- Monitor Salesforce releases and implement updates
+- Reduce technical debt and improve platform performance
+- Collaborate with third-party vendors and internal stakeholders
+
+✅ Required Qualifications
+- 4+ years of Salesforce development experience
+- Proficiency in SOQL, Apex, Aura, and Lightning Web Components
+- Experience with Salesforce CPQ, Sales Cloud, and Service Cloud
+- Familiarity with Einstein / Agentforce (preferred)
+- Salesforce certifications:
+- Certified Administrator
+- Advanced Administrator
+- Platform App Builder
+- Platform Developer I
+- Experience with DevOps (2+ years) and Atlassian tools (JIRA, Confluence)
+- Netsuite experience preferred
+
+🎁 Benefits & Perks
+- 25 days holiday (option to buy/sell 5 days)
+- Pension, life assurance, and income protection
+- Flexible benefits (private medical, dental, critical illness)
+- Employee assistance program, season ticket loan, cycle to work scheme
+- Volunteering and charitable giving options
+- Learning and development opportunities
+
+🌍 About WGSN
+WGSN is the global authority on consumer trend forecasting, helping brands design the right products at the right time. With a focus on innovation, sustainability, and inclusivity, WGSN empowers teams to shape the future of consumer behavior and product design.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "salesforce-developer-in-wgsn-at-london-united-kingdom"
+}
+, 
+
+{
+  applyUrl: "https://careers.radarhealthcare.com/jobs/6095628-senior-react-engineer",
+  companyName: "radarhealthcare",
+  companyLogo: "/images/radarhealthcare.png",
+  location: "Leeds",
+  jobTitle: "Senior React Engineer",
+  jobType: "Hybrid",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior React Engineer
+Location: Leeds, UK (Hybrid – 1 day/month in office)
+Department: Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Radar Healthcare is seeking a seasoned Senior React Engineer to lead the front-end evolution of its healthcare platform. As the most experienced React developer in the organization, you’ll serve as the subject matter expert (SME), guiding architectural decisions, mentoring peers, and ensuring the React codebase is scalable, secure, and maintainable.
+
+🔧 Key Responsibilities
+- Own and evolve the React codebase and front-end architecture
+- Act as the go-to expert for React development across the organization
+- Set and uphold front-end development standards and best practices
+- Identify and resolve technical challenges proactively
+- Collaborate with cross-functional teams to align technical and business goals
+
+✅ Required Qualifications
+- Extensive experience with React and its ecosystem
+- Strong proficiency in JavaScript, TypeScript, Webpack, Babel
+- Proven track record with complex web applications
+- Expertise in accessibility (a11y), internationalization (i18n), and localization (l10n)
+- Familiarity with testing tools like Cypress and unit testing best practices
+
+🌟 Preferred Skills
+- Experience in healthcare tech
+- Strong technical leadership and mentoring capabilities
+- Ability to evaluate and advocate for front-end technology trade-offs
+
+🎁 Benefits & Perks
+- Competitive salary based on experience
+- £1,000 annual learning & development budget
+- Flexible working with minimal in-office requirements
+- 25+ days holiday (plus bank holidays), increasing with tenure
+- Birthday leave and surprise gift
+- Charity leave and mental health support
+- Healthcare coverage via Medicash
+- Inclusive, values-led culture and Great Place to Work-Certified
+
+🌍 About Radar Healthcare
+Radar Healthcare is a health-tech company on a mission to improve patient safety and care quality. With a platform built in collaboration with healthcare professionals, Radar helps organizations meet regulatory standards and deliver better outcomes. The company is proud of its open, supportive, and inclusive culture, and is committed to making a real impact in the healthcare space.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-react-engineer-in-radarhealthcare-at-Leeds"
+}
+,
+
+{
+  applyUrl: "https://jobs.smartrecruiters.com/Insightsoftware/744000066946633",
+  companyName: "insightsoftware",
+  companyLogo: "/images/insightsoftware.png",
+  location: "India",
+  jobTitle: "Principal Software Engineer (Backend - .Net C#, SQL)",
+  jobType: "Hybrid",
+  jobCategory: "Backend",
+  mainDescription: `Job Title: Principal Software Engineer (Backend – .Net C#, SQL)
+Location: Hyderabad, India (Hybrid)
+Work Hours: 11:00 AM – 8:00 PM IST
+Employment Type: Full-Time
+
+🧠 Role Overview
+insightsoftware is seeking a Principal Software Engineer to lead backend development for its Equity Management SaaS platform. You’ll guide a team of engineers in designing scalable, high-performance systems using .NET, C#, and Oracle PL/SQL. This role emphasizes technical leadership, quality-first development, and continuous learning.
+
+🔧 Key Responsibilities
+- Lead development of new features, enhancements, and bug fixes
+- Design and optimize Oracle-based database solutions
+- Write and tune complex SQL queries for performance and scalability
+- Ensure code quality through unit testing and code reviews
+- Mentor junior engineers and lead architecture discussions
+- Collaborate across teams to resolve technical dependencies
+- Participate in Agile ceremonies and drive sprint deliverables
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or equivalent experience
+- 9+ years of backend development experience with .NET/.NET Core, C#, and SQL
+- 5+ years of Oracle database and PL/SQL development
+- Experience with AI tools (e.g., Copilot, Claude.AI, Devin, Cursor)
+- Strong skills in data modeling, performance tuning, and database security
+- Familiarity with Agile/Scrum, Git, and enterprise-scale applications
+- Excellent communication and collaboration skills
+
+🌟 Preferred Skills
+- Experience in financial domain applications
+- Exposure to Angular and web application development
+- Knowledge of data warehousing and ETL processes
+- Familiarity with cloud platforms (AWS, Azure, Oracle Cloud)
+
+🎁 Additional Information
+- Background checks required (where permitted)
+- No sponsorship available for this role
+- Equal opportunity employer committed to diversity and inclusion
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "principal-software-engineer-backend-net-c-sql-in-insightsoftware-at-india-india"
+}
+, 
+
+{
+  applyUrl: "https://jobs.smartrecruiters.com/Insightsoftware/744000068148675",
+  companyName: "insightsoftware",
+  companyLogo: "/images/insightsoftware.png",
+  location: "India",
+  jobTitle: "Manager, Engineering (.Net/C#, SQL, AI and some frontend)",
+  jobType: "Full-time",
+  jobCategory: "Engineer",
+  mainDescription: `
+Job Title: Manager, Engineering (.Net/C#, SQL, AI and some frontend)
+Location: Bengaluru, Karnataka, India (Hybrid)
+Employment Type: Full-Time
+
+🧠 Role Overview
+insightsoftware is seeking a hands-on Engineering Manager to lead a team developing and maintaining its suite of Enterprise Performance Management products. This role combines technical leadership with people management, focusing on backend (.NET/C#, SQL), cloud infrastructure, and frontend technologies (Angular). You’ll drive architecture, mentor engineers, and ensure high-quality, scalable software delivery.
+
+🔧 Key Responsibilities
+- Lead all aspects of software product development: planning, architecture, sprint execution, and delivery
+- Guide technical design, create PoCs, and review code
+- Influence product roadmap with long-term architectural vision
+- Improve development processes and team efficiency
+- Conduct 1:1s, performance reviews, and provide real-time feedback
+- Oversee cloud-based application development and infrastructure (Azure/AWS)
+- Collaborate with product teams to define technical approaches
+- Own SDLC from requirements to testing, including backend and frontend development
+- Lead cross-team efforts and resolve technical dependencies
+
+✅ Required Qualifications
+- Bachelor’s in Computer Science or equivalent experience
+- 12+ years in SaaS web application development using .NET/C#
+- 3+ years in engineering management
+- 5+ years with SQL and Entity Framework
+- 3+ years with cloud platforms (Azure or AWS)
+- Full-stack experience including Angular, HTML5, CSS/SASS, TypeScript
+- Strong REST API development and database design skills
+- Experience with Agile/Scrum, Git, unit testing, and mocking frameworks
+- Excellent communication and collaboration skills
+
+🌟 Preferred Skills
+- Experience with Oracle databases and complex SQL scripting
+- Background in financial domain applications
+- Familiarity with AI tools and agentic AI (e.g., Copilot, Claude.AI)
+
+🎁 Additional Information
+- Background checks required (where permitted)
+- No sponsorship available for this role
+- Equal opportunity employer committed to diversity and inclusion
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "manager-engineering-net-c-sql-ai-and-some-frontend-in-insightsoftware-at-india-india"
+}
+,
+
+
+{
+  applyUrl: "https://jobs.smartrecruiters.com/Insightsoftware/744000068170996",
+  companyName: "insightsoftware",
+  companyLogo: "/images/insightsoftware.png",
+  location: "India",
+  jobTitle: "Senior Business Intelligence Engineer (Power BI Data Engineer, Cloud and Finance)",
+  jobType: "Remote",
+  jobCategory: "Business",
+  mainDescription: `
+Job Title: Senior Business Intelligence Engineer
+Location: Hyderabad, India (Remote)
+Shift: 5:00 PM – 2:00 AM IST
+Employment Type: Full-Time
+
+🧠 Role Overview
+insightsoftware is seeking a Senior BI Engineer with deep expertise in Power BI and financial reporting. This role bridges technical and business teams, translating complex financial data into actionable insights that drive strategic decisions. You’ll play a key role in building scalable data models, ensuring data quality, and supporting enterprise-wide reporting initiatives.
+
+🔧 Key Responsibilities
+- Develop and maintain a comprehensive financial reporting suite
+- Translate financial metrics (e.g., recurring revenue, renewals, retention) into BI models
+- Align business and technical teams to refine data pipelines and models
+- Monitor and improve data quality and availability
+- Perform complex data analysis and resolve data-related issues
+- Collaborate with cross-functional teams to ensure shared understanding of financial data
+- Define and manage data assets and documentation
+
+✅ Required Qualifications
+- 5+ years in data engineering with a focus on BI
+- 5+ years in financial reporting and Power BI development
+- 3+ years in BI architecture and modeling
+- 2+ years in cloud BI engineering (AWS or Azure)
+- Proficiency in Agile methodologies
+
+🌟 Preferred Skills
+- AWS or Azure data certifications
+- Experience with Databricks, Spark, Python, and machine learning
+- Familiarity with Salesforce for CRM and data integration
+
+🎁 What insightsoftware Offers
+- Remote-first flexibility
+- Fast-paced, growth-oriented environment
+- Inclusive and supportive culture
+- Equal opportunity employer with strong DEI values
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-business-intelligence-engineer-power-bi-data-engineer-cloud-and-finance-in-insightsoftware-at-india-india"
+}
+, 
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/1uphealth/jobs/4579971006",
+  companyName: "1uphealth",
+  companyLogo: "/images/1uphealth.png",
+  location: "United States",
+  jobTitle: "Senior Software Engineer (Patient Access)",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – Patient Access
+Location: Remote – United States
+Employment Type: Full-Time
+
+🧠 Role Overview
+1upHealth is seeking a bold and collaborative Senior Software Engineer to help shape the future of healthcare data access. You’ll contribute to building secure, standards-based APIs and applications that enable seamless data sharing and improve patient outcomes. This role is ideal for engineers passionate about interoperability, performance, and meaningful impact in healthcare.
+
+🔧 Key Responsibilities
+- Drive the technical vision and architecture of the Patient Access team
+- Design and develop secure, scalable software applications and APIs
+- Build external interfaces for third-party data sharing
+- Participate in code reviews, refactoring, and engineering best practices
+- Collaborate across teams to improve products and services
+- Mentor team members and model engineering excellence
+
+✅ Required Qualifications
+- 5+ years of experience building performant, scalable applications in modern languages (e.g., TypeScript, Python, Java, Go)
+- 3+ years working with relational and non-relational databases (e.g., Postgres, MySQL, Redis, DynamoDB, ElasticSearch)
+- 2+ years of experience with cloud infrastructure (AWS or GCP)
+- Expertise in designing and consuming secure RESTful APIs
+- Strong communication skills with technical and non-technical stakeholders
+
+🌟 Preferred Skills
+- Experience with healthcare technologies (e.g., HL7, FHIR)
+- Familiarity with Docker, Kubernetes, and CI/CD environments
+- Experience with OAuth2, OIDC, SAML, and access control models (RBAC, ABAC)
+- Keycloak experience
+- Frontend experience with React or Vue
+
+🎁 Benefits & Perks
+- 100% paid BCBS medical and dental insurance
+- Vision insurance
+- Unlimited PTO
+- Equity and 401(k)
+- Home office stipend and lifestyle savings account
+- Parental leave: 16 weeks (birthing), 6 weeks (non-birthing)
+
+🌍 About 1upHealth
+1upHealth is a leader in FHIR® interoperability, building a data ecosystem that empowers healthcare organizations to access, integrate, and share data. Their mission is to unlock health data and improve industry outcomes through digital transformation.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-patient-access-in-1uphealth-at-United-States"
+}
+, 
+
+{
+  applyUrl: "https://jobs.lever.co/pano/00825f52-2faf-4209-9504-002bdd4b88c7",
+  companyName: "pano",
+  companyLogo: "/images/pano.png",
+  location: "California",
+  jobTitle: "Senior Software Engineer - Full Stack",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Engineer – Full Stack
+Location: Remote – Pacific or Mountain Time Zone (U.S.)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Pano AI is seeking a full stack engineer to help build scalable, secure, and maintainable systems that support early wildfire detection. You’ll lead major projects, develop new features, and collaborate across teams to deliver impactful solutions that protect communities and ecosystems.
+
+🔧 Key Responsibilities
+- Build and maintain scalable full stack applications
+- Drive end-to-end project development from concept to deployment
+- Develop tools, frameworks, and workflows to support evolving business needs
+- Ensure performance, uptime, and security of production systems
+- Participate in on-call rotation and incident response
+- Create runbooks, metrics, and dashboards for operational visibility
+
+✅ Required Qualifications
+- 5+ years of software engineering experience
+- 3+ years in a fast-paced SaaS or similar environment
+- Expertise in JavaScript, TypeScript, HTML5, CSS3, and React
+- Backend experience with Java and Spring
+- Proficiency in SQL and RDBMS (preferably PostgreSQL)
+- Strong troubleshooting and system design skills
+- Effective communicator and team collaborator
+
+🌟 Preferred Skills
+- Experience with GCP or AWS
+- Familiarity with Docker, Kubernetes, and Linux systems
+- Knowledge of caching tools (Redis, Memcached, Varnish)
+- UI/UX design fundamentals
+- DevOps tools (Git, CI/CD) and security frameworks (SOC2, ISO 27001)
+
+💰 Compensation & Benefits
+- Salary Range: $150,000 – $205,000 USD
+- Stock options
+- Comprehensive health insurance
+- Paid time off
+- 401(k) retirement plan
+
+🌍 About Pano AI
+Pano AI is a climate tech company using AI, hardware, and software to detect wildfires early and deliver real-time intelligence to first responders. With over $89M in funding and operations across the U.S., Australia, and Canada, Pano is protecting over 30 million acres of land and has been recognized by MIT Technology Review and Fast Company for its innovation.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-full-stack-in-pano-at-california-united-states"
+}
+,
+
+{
+  applyUrl: "https://jobs.lever.co/pano/8a7033ab-3cc4-4bd1-8d53-65d08928fd33",
+  companyName: "pano",
+  companyLogo: "/images/pano.png",
+  location: "California",
+  jobTitle: "Software Engineer - Frontend",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer – Frontend
+Location: Remote – Pacific or Mountain Time Zone (U.S.)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Pano AI is seeking a Frontend Engineer to help design and implement the user interface for its wildfire detection platform. You’ll work on a single-page application that integrates real-time data, maps, and video, contributing to a mission-critical system that helps first responders act faster and more effectively.
+
+🔧 Key Responsibilities
+- Lead development of new features and maintain existing codebase
+- Conduct code reviews and advocate for clean, testable, accessible code
+- Collaborate with product, QA, and backend teams to deliver high-impact solutions
+- Evaluate new technologies and contribute to evolving best practices
+- Prioritize and address technical debt while supporting legacy systems
+- Integrate RESTful APIs and ensure cross-device compatibility
+
+✅ Required Qualifications
+- 2+ years of frontend engineering experience
+- Proficiency in HTML, CSS, TypeScript, React, React Testing Library, Jest
+- Experience with state management (e.g., Recoil, Redux)
+- Familiarity with Material Design and component libraries like Material-UI
+- Strong debugging skills and REST API integration experience
+- Effective communicator and team collaborator
+
+🌟 Bonus Skills
+- Experience with HTML Canvas or map technologies
+- Familiarity with accessibility and security best practices
+
+💰 Compensation & Benefits
+- Salary Range: $130,000 – $165,000 USD
+- Stock options
+- Comprehensive health insurance
+- Paid time off
+- 401(k) retirement plan
+
+🌍 About Pano AI
+Pano AI is a climate tech company using AI, hardware, and software to detect wildfires early and deliver real-time intelligence to first responders. With over $89M in funding and operations across the U.S., Australia, and Canada, Pano is protecting over 30 million acres of land and has been recognized by MIT Technology Review and Fast Company for its innovation.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-frontend-in-pano-at-california-united-states"
+}
+, 
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/avalabs/jobs/5572737004",
+  companyName: "avalabs",
+  companyLogo: "/images/avalabs.png",
+  location: "Brooklyn, NY",
+  jobTitle: "Senior Site Reliability Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior Site Reliability Engineer
+Location: Brooklyn, NY or Remote (North America)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Ava Labs is seeking a Senior Site Reliability Engineer to help scale and secure the infrastructure powering the Avalanche blockchain network. You’ll be responsible for release pipelines, observability, and system reliability, working closely with developers to improve velocity, uptime, and operational excellence.
+
+🔧 Key Responsibilities
+- Develop and optimize scalable, reliable infrastructure using SRE best practices
+- Implement monitoring, logging, and tracing tools (e.g., Datadog, Grafana)
+- Maintain SLOs, SLIs, and error budgets for critical systems
+- Automate infrastructure deployment with Terraform, Terragrunt, and Argo CD
+- Improve CI/CD pipelines (GitHub Actions preferred)
+- Identify and resolve single points of failure and cost inefficiencies
+- Participate in on-call rotations and incident response
+- Foster a culture of continuous improvement and blameless post-mortems
+
+✅ Required Qualifications
+- BS in Computer Science or related field
+- 7+ years in SRE, DevOps, or Cloud Engineering
+- Strong AWS experience (EKS, ECS, VPC, S3, ELB)
+- Proficiency with Kubernetes, Docker, and Infrastructure as Code (Terraform, Ansible)
+- Experience with observability tools (Prometheus, Grafana, ELK Stack)
+- CI/CD pipeline experience (GitHub Actions, Jenkins, etc.)
+- Scripting skills in Python or Go
+- Familiarity with Linux (Ubuntu preferred) and distributed systems
+
+💰 Compensation
+- Salary Range: $158,440 – $188,147.50 USD
+- Final offer may vary based on experience and location
+- NYC metro candidates expected in-office 2–3x/week (exceptions apply)
+
+🌍 About Ava Labs
+Ava Labs is the team behind Avalanche, a high-performance blockchain platform. Backed by top-tier investors like Andreessen Horowitz and Initialized Capital, Ava Labs is redefining how people build and use decentralized applications. The company is committed to diversity, innovation, and building a more open Web3 ecosystem
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-site-reliability-engineer-in-avalabs-at-Brooklyn-NY"
+}
+,
+
+
+  {
+  applyUrl: "https://jobs.lever.co/brillio-2/a584af2c-c119-46b4-a1c0-3e3c4864671c",
+  companyName: "Brillio",
+  companyLogo: "/images/Brillio.png",
+  location: "United States",
+  jobTitle: "Azure Architect - R01552334",
+  jobType: "Hybrid",
+  jobCategory: "Architect",
+  mainDescription: `
+Job Title: Azure Architect
+Location: Maryland, United States (Hybrid – DMV area preferred)
+Department: Data and AI – Data Engineering
+Employment Type: Full-Time (No sponsorship available)
+
+🧠 Role Overview
+Brillio is seeking a seasoned Azure Data Architect to lead the design and deployment of scalable, secure, and high-performance data solutions on Microsoft Azure. This role is ideal for a hands-on architect with deep technical expertise and a passion for driving enterprise-wide data initiatives.
+
+🔧 Key Responsibilities
+- Architect and implement end-to-end data solutions using Azure services (Synapse, ADF, ADLS Gen2, SQL DB, Azure Fabric)
+- Design data models, ETL/ELT pipelines, and data warehouses for analytics and reporting
+- Ensure compliance with data governance, security, and privacy standards (e.g., HIPAA, GDPR)
+- Collaborate with stakeholders to translate business needs into scalable data architectures
+- Mentor junior engineers and promote a culture of innovation and quality
+- Serve as SME on Azure data architecture and recommend tools and patterns
+
+✅ Required Qualifications
+- 10–13 years of experience in data architecture and engineering
+- 5+ years of hands-on experience with Microsoft Azure data platforms
+- Expertise in Azure Synapse, ADF, ADLS Gen2, Azure SQL, Azure Fabric
+- Strong knowledge of data modeling, big data tools (e.g., Spark, Delta Lake), and ETL/ELT design
+- Experience with data security, access control, and compliance frameworks
+- Excellent communication and stakeholder management skills
+- Proven success in leading architecture design and delivering enterprise-scale solutions
+
+💰 Compensation
+- Salary Range: $140,000 – $150,000 USD annually
+
+🌍 About Brillio
+Brillio is a fast-growing digital technology services company known for its innovation, client-centric culture, and award-winning workplace. With a focus on cutting-edge technologies and digital transformation, Brillio empowers Fortune 1000 clients to turn disruption into opportunity.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "azure-architect-r01552334-in-brillio-at-united-states-united-states"
+}
+, 
+
+
+
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/tripadvisor/jobs/7044945",
+  companyName: "Tripadvisor",
+  companyLogo: "/images/Tripadvisor.png",
+  location: "Poland",
+  jobTitle: "ML Operations Engineer II (Viator)",
+  jobType: "Hybrid",
+  jobCategory: "Engineer",
+  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
+
+Job Title: ML Operations Engineer II
+Location: Kraków, Poland (Hybrid)
+Department: Engineering – Machine Learning Platform
+Employment Type: Full-Time
+
+🧠 Role Overview
+Viator, a Tripadvisor company, is expanding its Machine Learning Platform to meet growing demand. As an ML Ops Engineer, you’ll empower data scientists by building scalable infrastructure and tools that support the full ML lifecycle—from development to deployment and monitoring.
+
+🔧 Key Responsibilities
+- Build and maintain infrastructure for batch, real-time, and pre-computed ML models
+- Support AWS cloud migration and adopt modern services
+- Develop tools that streamline ML workflows and improve productivity
+- Collaborate across UI, backend, big data, and CI/CD layers
+- Foster innovation by proposing and implementing new ideas in ML Ops
+
+✅ Required Qualifications
+- 2+ years of experience in ML engineering or ML Ops
+- Hands-on experience with AWS
+- Proficiency with Infrastructure-as-Code tools (Terraform, CloudFormation)
+- Familiarity with Python, Spark, Docker, Kubernetes
+- Experience with CI/CD pipelines and cross-functional collaboration
+- Strong problem-solving and communication skills
+
+🎁 Perks & Benefits
+- Competitive salary, bonus, and equity
+- Flexible hybrid work model
+- Tuition assistance and lifestyle benefit
+- Travel discounts and donation matching
+- Comprehensive health coverage and employee assistance programs
+
+🌍 About Viator
+Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
+
+You can view the full listing and apply directly on Tripadvisor’s careers page.
+Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "ml-operations-engineer-ii-viator-in-tripadvisor-at-poland-poland"
+}
+, 
+
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/fullscript/351b7f3e-1090-42ea-ad10-dbbc59d9a11f",
+  companyName: "Fullscript",
+  companyLogo: "/images/Fullscript.png",
+  location: "Canada",
+  jobTitle: "Senior Software Developer – Lab Integrations",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Software Developer – Lab Integrations
+Location: Remote (Canada)  Toronto, ON  Ottawa, ON
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fullscript is seeking a Senior Software Developer to lead the development of lab integrations and data pipelines that power its Labs Product. This high-autonomy role is ideal for engineers who thrive on ownership, quality, and building scalable systems that improve healthcare outcomes.
+
+🔧 Key Responsibilities
+- Design, build, test, and ship new integrations with lab partners
+- Develop scalable data pipelines for ingesting and processing lab results
+- Architect storage and service layers for lab operations
+- Review code, mentor peers, and advocate for high-quality development practices
+- Contribute to architectural decisions and communicate them effectively
+
+✅ Ideal Candidate Profile
+- Passionate about software craftsmanship and user experience
+- Strong bias toward action and high-leverage problem solving
+- Experience with Ruby, Python, Node.js, or similar languages
+- Enjoys mentoring and collaborating with junior engineers
+- Lifelong learner with curiosity and initiative
+
+🌟 Bonus Skills
+- Experience scaling high-traffic web applications
+- Familiarity with AI tooling for development or product features
+- Knowledge of healthcare data standards (e.g., HL7)
+- Experience with React, GraphQL, or modern JavaScript frameworks
+
+🎁 Benefits & Perks
+- Flexible PTO and competitive compensation
+- RRSP match and stock options
+- Customizable health benefits and HSA
+- Discounts on wellness products
+- Training budget and continuous learning opportunities
+- Remote-first flexibility with hybrid options
+
+🌍 Why Join Fullscript
+Fullscript is on a mission to make healthcare whole by connecting practitioners and patients through evidence-based tools and diagnostics. With a culture rooted in innovation, mentorship, and balance, Fullscript offers a meaningful opportunity to build impactful technology in a supportive environment.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-developer-–-lab-integrations-in-fullscript-at-canada-canada"
+}
+, 
+
+
+
+
+{
+  applyUrl: "https://www.atlassian.com/company/careers/details/20312",
+  companyName: "atlassian",
+  companyLogo: "/images/atlassian.png",
+  location: "Australia",
+  jobTitle: "Senior Principal Software Engineer - Kubernetes Compute",
+  jobType: "Remote",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Senior Principal Software Engineer – Kubernetes Compute
+Location: Remote – Sydney, Australia or Auckland, New Zealand
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Atlassian is seeking a deeply experienced Senior Principal Engineer to lead the technical direction of its Central Compute organization. This role focuses on designing scalable, resilient compute infrastructure using Kubernetes and cloud-native technologies. You’ll collaborate across departments, mentor engineers, and drive architectural excellence in a distributed-first environment.
+
+🔧 Key Responsibilities
+- Define technical direction and OKRs for Central Compute
+- Lead complex architecture and implementation projects across teams
+- Champion adoption of new technologies and methodologies
+- Drive company-wide initiatives and cross-functional collaboration
+- Own outcomes of critical microservices-based projects
+- Promote best practices for scalability, reliability, and performance
+- Improve developer productivity and operational excellence
+- Mentor engineers and contribute to a culture of innovation
+
+✅ Required Qualifications
+- 10+ years of experience building enterprise-grade platforms
+- Expertise in containerized and serverless compute technologies
+- Proven ability to resolve complex technical issues at scale
+- Experience with sharding, cell-based architecture, and vendor limitations
+- Strong cross-organizational collaboration and leadership skills
+- Track record of designing infrastructure used by hundreds of service owners
+
+🌟 Preferred Skills
+- Experience with AWS or other public cloud platforms
+- Proficiency with Kubernetes and service mesh technologies
+- Familiarity with cloud storage, networking, and security
+- Passion for driving architectural strategy across large engineering orgs
+
+🎁 Benefits & Perks
+- Flexible work model (office, remote, or hybrid)
+- Health and wellbeing resources
+- Paid volunteer days
+- Global distributed-first culture
+More details: Atlassian Perks & Benefits
+
+🌍 About Atlassian
+Atlassian builds tools that help teams collaborate and unleash their full potential. With a distributed-first culture and a commitment to diversity, Atlassian empowers employees to work where they thrive and make a global impact.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-principal-software-engineer-kubernetes-compute-in-atlassian-at-australia-australia"
+}
+,
+
+
+{
+  applyUrl: "https://www.atlassian.com/company/careers/details/20504",
+  companyName: "atlassian",
+  companyLogo: "/images/atlassian.png",
+  location: "Poland",
+  jobTitle: "Fullstack Engineer",
+  jobType: "Remote",
+  jobCategory: "Engineer",
+  mainDescription: `
+Job Title: Fullstack Engineer
+Location: Gdańsk, Poland (Remote or Onsite)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You’ll help build features that connect business and software development teams, focusing on performance, scalability, and security for enterprise-scale customers. This role offers flexibility to work remotely within Poland or onsite in Gdańsk, with up to 90 days of remote work abroad per year.
+
+🔧 Key Responsibilities
+- Develop REST APIs and customer-facing React components
+- Configure backend monitoring and build CI/CD pipelines
+- Integrate with content management systems
+- Build reliable, scalable features and services
+
+✅ Required Qualifications
+- 4+ years of experience with JavaScript/TypeScript (e.g., React, Node, ES6)
+- Experience or interest in .NET Framework (C#)
+- Bachelor’s or Master’s in Computer Science or equivalent experience
+- Experience with REST APIs, Git, HTML/Sass/CSS, and UX collaboration
+- Familiarity with server tech (Docker, NGINX, Express/Node)
+- Experience with enterprise CMS and cloud platforms (e.g., AWS)
+- Bonus: Java, Freemarker, or Rust experience
+
+🌟 Preferred Skills
+- DevOps experience with CI/CD tools (e.g., Octopus)
+- Familiarity with AWS fundamentals (VPC, EC2)
+
+💰 Compensation
+- Salary Range: 184,500 – 246,000 PLN annually
+- Includes bonuses, equity, and benefits
+
+🎁 Benefits & Perks
+- Health and wellbeing resources
+- Paid volunteer days
+- Flexible work arrangements
+- Global distributed-first culture
+More details: Atlassian Perks & Benefits
+
+You can view the full listing and apply directly on Atlassian’s careers page.
+Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "fullstack-engineer-in-atlassian-at-poland-poland"
+}
+
+
+, 
+
+{
+  applyUrl: "https://www.fanatee.com/openings/product-analyst-ai-expansion",
+  companyName: "fanatee",
+  companyLogo: "/images/fanatee.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "PRODUCT ANALYST - AI/EXPANSION",
+  jobType: "Hybrid",
+  jobCategory: "AI",
+  mainDescription: `Job Title: Product Analyst – AI/Expansion
+Location: Hybrid – São Paulo, Brazil
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fanatee is seeking a curious, hands-on, and analytical Product Analyst to support the growth and content strategy of its flagship word game, Stop. You’ll work closely with the Head of Product to improve content quality, leverage AI tools, and identify opportunities for global expansion.
+
+🔧 Key Responsibilities
+Content Excellence
+- Support content development and continuous improvement
+- Collaborate with editors and freelancers to ensure quality and consistency
+- Enhance content creation and review processes
+- Use AI tools to generate and validate game content
+Data & Insights
+- Analyze content and gameplay performance metrics
+- Identify opportunities based on player behavior
+- Deliver actionable insights to guide product strategy
+Production Organization
+- Help organize workflows and execute the product roadmap
+- Facilitate communication across teams
+- Remove blockers and improve operational efficiency
+
+✅ Requirements
+- Experience in product or project management (preferably in gaming)
+- Strong analytical and problem-solving skills
+- Familiarity with AI tools and their applications
+- Excellent communication skills
+- Fluency in English
+- Passion for word games, especially Stop
+- Bachelor’s degree in Business, Economics, Engineering, or related field
+
+🌟 Preferred Skills
+- Python and SQL for data analysis
+- Experience with APIs and HTTP requests
+- Data cleanup and database handling
+- Prompt engineering and generative AI knowledge
+
+🎁 What Fanatee Offers
+- Competitive salary and profit sharing
+- Flexible benefits and health/dental insurance
+- Life insurance and career development support
+- Casual, creative work environment with snacks and relaxation spaces
+
+🌍 About Fanatee
+Founded in 2013, Fanatee is a mobile gaming company with over 300 million downloads worldwide. With a focus on quality and innovation, the team is passionate about building games that are both fun and impactful.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "product-analyst-ai-expansion-in-fanatee-at-foster-city-anywhere"
+}
+, 
+
+{
+  applyUrl: "https://www.fanatee.com/openings/product-business-analyst",
+  companyName: "fanatee",
+  companyLogo: "/images/fanatee.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "PRODUCT BUSINESS ANALYST",
+  jobType: "Hybrid",
+  jobCategory: "General",
+  mainDescription: `Job Title: Product Business Analyst
+Location: São Paulo, Brazil (Hybrid)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fanatee is seeking a data-savvy and strategic Product Business Analyst to help scale and optimize the performance of its mobile games. You’ll work cross-functionally with Engineering, Product, and BI teams to uncover insights, shape product strategies, and drive growth through data-informed decisions.
+
+🔧 Key Responsibilities
+- Analyze large datasets to optimize user lifetime value (LTV) and acquisition funnels
+- Develop growth roadmaps and coordinate cross-team resources
+- Translate data insights into measurable product strategies and features
+- Improve operational efficiency through process enhancements
+- Ensure data quality via monitoring and alerting systems
+- Optimize data models for performance and scalability
+- Research and implement new tools and technologies for data analysis
+- Build dashboards using Tableau, AWS Quicksight, or Power BI
+
+✅ Required Qualifications
+- 3+ years of experience in management, consulting, finance, or tech
+- Strong SQL skills and experience with Amazon Athena, Oracle, or Hadoop
+- Proficiency in Python (preferred)
+- Experience with high-volume, multi-source datasets
+- Strong communication and problem-solving skills
+- Bachelor’s or Master’s in Business, Economics, Engineering, or Computer Science
+- Advanced English proficiency
+
+🌟 Preferred Skills
+- Experience with machine learning, statistics, or predictive modeling
+- Familiarity with APIs and data transformation workflows
+- Experience working on global products or in international teams
+
+🎁 What Fanatee Offers
+- Competitive compensation
+- Meal and transportation benefits (VR + VT)
+- Health and dental insurance
+- Profit sharing (PLR)
+- Relaxed, creative work environment with snacks and lounge space
+
+🌍 About Fanatee
+Founded in 2013, Fanatee is a mobile gaming company with over 300 million downloads worldwide. The team is passionate about turning great ideas into global hits and fostering a culture of innovation, collaboration, and fun.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "product-business-analyst-in-fanatee-at-foster-city-anywhere"
+}
+,
+
+
+{
+  applyUrl: "https://nordcloud-career.breezy.hr/p/ef74c8b93d9201-aws-cloud-engineer-architect",
+  companyName: "nordcloud",
+  companyLogo: "/images/nordcloud.png",
+  location: "Gothenburg, Sweden",
+  jobTitle: "AWS Cloud Engineer / Architect",
+  jobType: "Hybrid",
+  jobCategory: "Cloud",
+  mainDescription: `Job Title: AWS Cloud Engineer / Architect
+Location: Gothenburg, Sweden (Hybrid – Remote and On-Site)
+Department: Professional Services
+Employment Type: Full-Time
+
+🧠 Role Overview
+Nordcloud, an IBM company, is seeking a proactive and passionate AWS Cloud Engineer / Architect to lead customer transformation journeys. You’ll work on diverse cloud projects—from infrastructure builds to big data solutions—while building long-term, high-trust relationships with enterprise clients.
+
+🔧 Key Responsibilities
+- Lead customer projects involving infrastructure builds, migrations, audits, and big data
+- Implement configuration management and automation solutions
+- Deliver technical workshops and strategic recommendations
+- Act as a trusted advisor and co-manage customer roadmaps with the sales team
+- Follow projects end-to-end, from design to release
+- Travel within Sweden and Europe as needed
+
+✅ Required Qualifications
+- 3+ years of hands-on AWS experience (Azure or GCP is a plus)
+- Proficiency with Infrastructure-as-Code tools (Terraform, CloudFormation)
+- Scripting and automation mindset (Python, Bash, AWS CLI)
+- DevOps/DevSecOps or Platform Engineering experience
+- Fluent in English and Swedish
+
+🌟 Preferred Skills
+- Familiarity with on-prem technologies (VMware, OpenStack, Hyper-V)
+- Experience with containers (Kubernetes, ECS, Docker)
+- CI/CD pipeline development
+- Configuration management tools (Ansible, Chef, Puppet)
+
+🎁 What Nordcloud Offers
+- Individual training budget and certification support
+- Flexible hours and remote work options
+- Laptop and equipment of your choice
+- Six weeks of vacation, pension plan, private healthcare (EuroAccident)
+- Wellness benefits (Friskvårdsbidrag) via benify.se
+- Collective bargaining agreement (Almegas Kollektivavtal – Tech Sverige)
+
+🌍 About Nordcloud
+Nordcloud is a European cloud leader with over 1300 employees across 10 countries. As a triple-certified partner (AWS, Azure, GCP), Nordcloud delivers cloud-native solutions and has completed over 1000 successful cloud projects. Recognized by Gartner as a “Visionary” in Public Cloud IT Services.
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "aws-cloud-engineer-architect-in-nordcloud-at-Gothenburg-Sweden"
+}
+, 
+
 {
   applyUrl: "https://jobs.lever.co/zenogroup/35ea2845-9dfa-4c9f-837e-b4c3e8e6914d",
   companyName: "Zenogroup",
@@ -9434,7 +11001,7 @@ Critical Mass is seeking a master storyteller and strategic leader to guide larg
 - Salary Range: $220,000 – $250,000 USD
 - Final offer based on experience, skills, and internal equity
 
-You can view the full job description and apply directly on Critical Mass’s careers page.
+You can view the full job description and apply directly on Critical Mass’s careers page. Let me know if you’d like help crafting a tailored résumé or preparing a standout portfolio—I’d be happy to assist!
 `,
   status: "approved",
   isFeatured: true,
@@ -10764,9 +12331,9 @@ Atlassian is seeking a seasoned Principal Machine Learning Systems Engineer to l
 💰 Compensation
 Atlassian aligns its pay scales by geographic zones in the U.S.:
 | Zone | Base Pay Range (USD) | 
-| A | $232,200 – $303,150 | 
-| B | $209,700 – $273,775 | 
-| C | $193,500 – $252,625 | 
+| Zone A | $232,200 – $303,150 | 
+| Zone B | $209,700 – $273,775 | 
+| Zone C | $193,500 – $252,625 | 
 
 
 Eligible for equity, bonuses, and benefits. Final offer depends on experience and location.
@@ -11117,6 +12684,7 @@ Full details at go.atlassian.com/perksandbenefits
 Atlassian helps unleash the potential of every team. Our collaboration tools empower organizations worldwide to build, deliver, and innovate—together. We are proud to be a company driven by diverse perspectives, inclusion, and continuous learning.
 We welcome people of all backgrounds and are committed to maintaining a supportive and equitable workplace.
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'software-engineer-ml-serving-analytics-in-atlassian-australia-australia'},
+
 {applyUrl: 'https://www.atlassian.com/company/careers/details/20478', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'Japan', jobTitle: 'Cloud Senior Support Engineer', jobType: 'Remote', jobCategory: 'Cloud', mainDescription: `Job Title: Cloud Senior Support Engineer
 Team: Support
 Location: Yokohama, Japan or Remote within Japan
@@ -11135,7 +12703,7 @@ Atlassian is seeking a seasoned Senior Technical Support Engineer to join their 
 - Assist in product onboarding and continuous learning
 
 🧩 Required Qualifications
-- 5+ years' experience in technical support, system administration, or software services
+- 5+ years’ experience in technical support, system administration, or software services
 - 2+ years handling complex technical problems in a customer-facing environment
 - Solid database skills (strong SQL knowledge)
 - Familiarity with scripting (Shell, Python, etc.)
@@ -11940,6 +13508,7 @@ Ongoing contributions:
 - CSR Charter
 - Tech stack & teams
 
+Let me know if you’d like help tailoring this for your résumé, cover letter, or recruiter pitch—I can help sharpen your edge.
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'devops-engineer-in-360learning-paris-france'}, 
 
 
@@ -11999,6 +13568,7 @@ Join a team of five DevOps professionals to build and manage scalable infrastruc
 
 Would you like help tailoring this into a résumé summary or outreach message for recruiters? I’d be happy to assist.
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'devops-engineer-in-360learning-spain-spain'}, 
+
 
 
 
@@ -12088,6 +13658,8 @@ As a Senior Frontend Engineer, you’ll lead the design and development of impac
 - Office-wide events, happy hours, and learning sessions
 - LinkedIn Learning access and continuous mentorship
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-frontend-in-arrivelogistics-foster-city-anywhere'}, 
+
+
 
 
 {applyUrl: 'https://www.arrivelogistics.com/job/software-engineer-back-end-3/', companyName: 'arrivelogistics', companyLogo: '/images/arrivelogistics.png', location: ' Chicago, IL', jobTitle: 'Software Engineer', jobType: 'Hybrid', jobCategory: 'Software', mainDescription: `💼 Job Title: Software Engineer – Full Stack
@@ -12335,7 +13907,7 @@ We’re seeking an experienced Backend Developer to join our remote team and con
 - International project exposure
 - English language training (technical & conversational)
 - Total Pass fitness program
-- Pet adoption incentive
+- Pet adoption support
 - Bonus paid time off
 - Team games and competitions
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'backend-developer-nodejs-in-oowlish-brazil-brazil'}, 
@@ -12489,7 +14061,7 @@ Join Veeva’s Vault Platform team as a Senior Site Reliability Engineer to stre
 - Equity (stock bonus)
 - Benefits include:
 - Medical, dental, vision, and life insurance
-- Flexible paid time off and holidays
+- Flexible PTO and paid holidays
 - Retirement programs
 - 1% charitable giving match
 
@@ -12565,7 +14137,7 @@ Veeva’s Engineering Development Program (EDP) is designed for upcoming graduat
 - Solid foundation in computer science: data structures, algorithms, and object-oriented design
 - Proficient in Java
 - Must be legally authorized to work in the U.S. (no visa sponsorship available)
-- Reside near Pleasanton, CA and available for on-site work 4 days/week for first 2 years
+- Reside near Pleasanton, CA and available for on-site work 4 days/week for the first 2 years
 
 🌟 Bonus Skills
 - Familiarity with frontend technologies: JavaScript, HTML, React
@@ -12669,7 +14241,7 @@ Join Veeva’s Vault Operations Team as a Senior Systems Administrator, supporti
 💰 Compensation & Benefits
 - Base Salary Range: $70,000–$150,000 USD
 - Additional benefits:
-- Medical, dental, vision, and life insurance
+- Medical, dental, vision, life insurance
 - Flexible PTO and paid company holidays
 - Retirement programs
 - 1% charitable giving match
@@ -12801,7 +14373,7 @@ Join the OpenData team as a QA Engineer responsible for validating large-scale d
 - Design and execute test cases for ETL processes
 - Write SQL queries simulating ETL mapping logic
 - Automate regression tests for ETL systems
-- Validate accuracy, completeness, and data schema consistency
+- Validate data accuracy, completeness, and data schema consistency
 - Verify source formats, perform data counts, and ensure structural integrity
 
 🎯 Required Qualifications
@@ -12944,11 +14516,11 @@ As a Senior Site Reliability Engineer (SRE) on the Vault Platform team, you’ll
 - Design and build cloud infrastructure aligned with software best practices
 - Ensure platform scalability, performance, and reliability across global regions
 - Lead incident response and root cause analysis (on-call required)
-- Develop automation tools to streamline diagnostics and eliminate manual processes
+- Develop automation tools to streamline diagnostics and reduce manual processes
 - Collaborate on engineering design reviews and product scalability initiatives
 - Engage cross-functionally with Product Management, QA, and Design
 - Mentor junior engineers and foster a positive team culture
-- Communicate effectively across technical and executive audiences during high-impact events
+- Communicate effectively across technical and non-technical teams during outages
 
 🎯 Qualifications
 - 5+ years of Java development in enterprise cloud environments
@@ -13120,12 +14692,9 @@ Join Veeva’s Vault Platform team as a Senior Site Reliability Engineer to ensu
 - Base Salary Range: $110,000–$270,000 USD
 - Potential for variable bonus and stock options
 - Full benefits package:
-- Medical, dental, vision, life insurance
-- Flexible paid time off and holidays
-- Retirement plans
-- Charitable giving program
-
-Veeva welcomes applicants from all backgrounds and offers accommodations throughout the hiring process. For assistance, contact: talent_accommodations@veeva.com.
+- Medical, disability, life, and long-term care insurance
+- Generous PTO (vacation, sick leave, bereavement)
+- Retirement planning and financial wellness resource
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-hawaii-united-states'},
 
    {applyUrl: 'https://jobs.lever.co/veeva/d65c7188-b86b-4308-b0a1-5810e0b7af54', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Portugal', jobTitle: 'Analyst Data Extraction - OpenData EMEA (Remote)', jobType: 'Remote', jobCategory: 'Analyst', mainDescription: `💼 Job Title: Analyst – Data Extraction (OpenData EMEA)
@@ -13166,7 +14735,7 @@ Join Veeva’s OpenData Commercial team as a Data Extraction Analyst and help de
 - Flexible remote work anywhere in Portugal
 
 Veeva embraces diversity and inclusion at all levels. If you require accommodations during the hiring process, please reach out to: talent_accommodations@veeva.com.
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'analyst-data-extraction-opendata-emea-remotein-veeva-portugal-portugal'}, 
+`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'analyst-data-extraction-opendata-emea-remote-in-veeva-portugal-portugal'}, 
 
 
 {applyUrl: 'https://jobs.lever.co/veeva/de31357b-1060-4d23-bd62-bd3e086f3f3d', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Germany', jobTitle: 'Manager Data Extraction - OpenData EMEA (Remote)', jobType: 'Remote', jobCategory: 'Data', mainDescription: `💼 Job Title: Manager, Data Extraction – OpenData EMEA
@@ -13251,7 +14820,7 @@ As a Senior Site Reliability Engineer, you’ll drive platform reliability, scal
 - 1% charitable giving match
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-california-united-states'},
 
-  {applyUrl: 'https://jobs.lever.co/veeva/ef95cef4-c013-4c5a-b10a-e96e346229cb', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'California', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Full-time', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering (SRE)
+ {applyUrl: 'https://jobs.lever.co/veeva/ef95cef4-c013-4c5a-b10a-e96e346229cb', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'California', jobTitle: 'Senior Software Engineer - SRE', jobType: 'Full-time', jobCategory: 'Software', mainDescription: `💼 Job Title: Senior Software Engineer – Site Reliability Engineering (SRE)
 Location: Remote – California (San Luis Obispo preferred)
 Department: Engineering – Vault Platform
 Schedule: Monday–Friday, 2 PM–10 PM PST
@@ -13295,7 +14864,7 @@ Join Veeva’s Vault Platform team as a Senior Site Reliability Engineer (SRE) a
 - Retirement programs
 - 1% charitable giving match
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-software-engineer-sre-in-veeva-california-united-states1'}, 
-
+ 
 
   {
     id: 'Software-Engineer-Back-End-Kyiv-Ukraine',
@@ -13336,7 +14905,7 @@ We’re seeking Back-End Software Engineers to join our dynamic development team
 
 🤝 Our Commitment
 Grammarly is proud to be an equal opportunity employer. We celebrate diversity and strive to create an inclusive environment for all individuals—regardless of background, identity, or experience. We encourage applications from underrepresented communities in tech.`,
-    requirements: '',
+    requirements: '5+ years of experience in backend development, expert in Java and Scala. Strong understanding of microservices architecture and cloud platforms. BSc in Computer Science or equivalent.',
     jobCategory: 'Software Engineering',
     salaryMin: 120000,
     salaryMax: 160000,
@@ -13409,9 +14978,9 @@ Leadership & Soft Skills
     submittedDate: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: false,
-    applyUrl: 'https://www.mirakl.com/careers/5576621004'
+    applyUrl: 'https://boards.greenhouse.io/skynet/67890-devops-architect'
   },
-   {
+  {
     id: 'Operational-Safety-Data-Engineer-in-Foster-City-zoox',
     jobTitle: 'Operational Safety Data Engineer',
     companyName: 'zoox',
@@ -13466,8 +15035,8 @@ As an Operational Safety Data Engineer at Zoox, you will play a crucial role in 
     isFeatured: true,
     applyUrl: 'https://jobs.lever.co/zoox/8b62411a-6d3a-4e3e-a9fd-158030eb82ec'
   },
-   
- {
+  
+  {
     id: 'Senior-Staff-Machine-Learning-Engineer-Perception-Offline-Driving-Intelligence-in-Foster-City-zoox',
     jobTitle: 'Senior/Staff Machine Learning Engineer - Perception Offline Driving Intelligenc',
     companyName: 'zoox',
@@ -13523,7 +15092,7 @@ Join Zoox’s ODIN (Offline Driving Intelligence) team to build the next generat
     isFeatured: false,
     applyUrl: 'https://jobs.lever.co/zoox/cf049a4a-491e-45c3-bed7-1e8a45dac2bc'
   },
- {
+  {
     id: 'Manufacturing-Data-Analyst-in-Foster-City-zoox',
     jobTitle: 'Manufacturing Data Analyst',
     companyName: 'zoox',
@@ -13585,7 +15154,7 @@ Zoox is proud to be an equal opportunity employer. We value diverse perspectives
     isFeatured: false,
     applyUrl: 'https://jobs.lever.co/zoox/f84bcac3-d36a-4526-a14d-68e4f4618c42'
   },
-     {
+  {
     id: 'Senior-Staff-Systems-Engineer-Autonomy-System-Performance-in-Foster-City-zoox',
     jobTitle: 'Senior/Staff Systems Engineer - Autonomy System Performance',
     companyName: 'zoox',
@@ -13753,60 +15322,6 @@ Grammarly is proud to be an equal opportunity employer. We celebrate diversity a
     applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/7007380'
   },
   {
-  id: 'Senior-Software-Engineer-Java-in-Bordeaux-mirakl',
-    jobTitle: 'Senior Software Engineer Java',
-    companyName: 'mirakl',
-    companyLogo: '/images/mirakl.png',
-    mainDescription: `💼 Job Title: Senior Software Engineer – Java
-Location: Bordeaux, Paris, or Remote within France
-Department: Mirakl Labs – Tech
-Employment Type: Full-Time, Permanent (CDI)
-
-🏢 About Mirakl
-Mirakl is the global leader in e-commerce platform solutions, empowering B2C and B2B enterprises to scale digital operations efficiently and sustainably. Since 2012, we’ve helped more than 450 market leaders—including Airbus, Decathlon, H&M, and Sonepar—drive digital transformation through marketplaces, dropshipping, catalog management, payment processing, and personalized customer experiences.
-
-🧪 About Mirakl Labs
-Our R&D teams, Mirakl Labs, are based in Paris and Bordeaux and operate in agile squads composed of developers, PMs, and QAs. Each squad owns a functional scope and contributes to feature development and microservice APIs. Teams such as Infrastructure, Security, Data, and UX support product-wide excellence.
-Innovation, ownership, and open collaboration define our culture. We’re active participants in tech events like Devoxx, ProductConf, and ReactEurope.
-
-🔧 Responsibilities
-- Design, develop, and deploy new business features across full-stack layers (UI/API, business logic, database schemas)
-- Own product coherence and stability with a strong influence on architectural decisions
-- Act as a technical leader within your squad and mentor junior developers
-- Participate in sprint ceremonies, stand-ups, and quarterly roadmap planning
-- Collaborate closely with PMs, designers, and other squads to ensure high-quality, scalable solutions
-- Debug, monitor, and optimize production environments (you build it, you run it)
-- Continuously improve development practices and track adoption and impact of shipped features
-
-💻 Tech Stack
-- Languages/Frameworks: Java 21, Spring Boot, Go
-- Front-End: React, Redux
-- Data/Infrastructure: PostgreSQL, Elasticsearch, Kafka
-- DevOps: Docker, Kubernetes
-- Cloud: AWS, Google Cloud
-
-🎯 Who You Are
-- 7–8+ years of Java & Spring development experience
-- Strong technical leadership and mentoring background
-- Experience in high-load distributed systems and microservices architecture
-- Advocate of clean, high-quality code and thoughtful design
-- Able to drive architectural decisions and collaborate across teams
-- Fluent in professional English
-- Eager to learn, grow, and contribute in a dynamic environment
-
-🌈 Our Commitment to Diversity
-Mirakl celebrates diversity and is committed to equal opportunity for all. We welcome candidates from all backgrounds, identities, and experiences.
-`,
-    requirements: '',
-    jobCategory: 'Software Engineer',
-    jobType: 'Full-time',
-    location: 'France',
-    submittedDate: new Date().toISOString(),
-    status: 'approved',
-    isFeatured: false,
-    applyUrl: 'https://www.mirakl.com/careers/5580100004'
-  },
-  {
     id: 'Senior-Software-Engineer-Java-in-Paris-mirakl',
     jobTitle: 'Senior Software Engineer Java',
     companyName: 'mirakl',
@@ -13918,378 +15433,6 @@ Monzo is committed to building a diverse team and inclusive culture. We encourag
     isFeatured: false,
     applyUrl: 'https://job-boards.greenhouse.io/monzo/jobs/6999634'
   },
-
-     {
-    id: 'Senior-Embedded-Software-Engineer-Embedded-Linux-C-in-Foster-City-zoox',
-    jobTitle: 'Senior Embedded Software Engineer - Embedded Linux C++',
-    companyName: 'zoox',
-    companyLogo: '/images/zoox.png',
-    mainDescription: `💼 Job Title: Senior Embedded Software Engineer – Embedded Linux C++
-Location: Foster City, CA (On-Site)
-Department: Embedded Software & Systems Integration
-Employment Type: Full-Time
-
-🏢 About Zoox
-Zoox is redefining mobility with a fully autonomous vehicle platform built from scratch. Merging advanced design, robotics, and machine learning, we’re building a next-gen robotaxi fleet and ecosystem for safe, scalable urban transportation.
-
-🚀 Role Summary
-As a Senior Embedded Software Engineer at Zoox, you'll join the Embedded Linux team responsible for developing, maintaining, and extending embedded platforms for autonomous vehicles. You'll collaborate closely with software and validation teams to enable advanced systems and accelerate development across multiple projects, using your deep experience in modern C++ and open-source systems.
-
-🔧 Key Responsibilities
-- Architect, implement, debug, optimize, and test Linux-based embedded software
-- Integrate open-source technologies to enhance platform capabilities
-- Build and maintain features for custom embedded Linux boards
-- Apply modern C++ skills in an embedded Linux context
-- Engage in all phases of the software lifecycle including design, prototyping, implementation, and validation
-
-🎯 Required Qualifications
-- Bachelor’s degree with 12+ years, or Master’s degree with 10+ years, in Computer Science, Electrical Engineering, or related field
-- 6+ years of Linux development experience
-- Expertise in modern C++ for native user-mode applications
-- Proficient in Python and shell scripting
-
-🌟 Bonus Skills
-- Experience with Linux kernel development
-- Familiarity with Yocto or other embedded Linux build tools
-- Background in networking technologies and Linux audio systems
-
-💰 Compensation & Benefits
-- Base Salary Range: $180,000 – $245,000 (based on experience and interview outcome)
-- Additional Compensation:
-- Amazon RSUs
-- Zoox Stock Appreciation Rights
-- Potential sign-on bonus
-- Comprehensive benefits include:
-- Health, life, disability & long-term care insurance
-- Paid time off (vacation, sick leave, bereavement)
-- Retirement support
-
-Zoox values diversity and encourages applicants from all backgrounds. If you're passionate about autonomous technology and want to shape the future of mobility, we’d love to hear from you!
-`,
-    requirements: '',
-    jobCategory: 'Software Engineering',
-    jobType: 'Full-time',
-    location: 'Foster City',
-    submittedDate: new Date().toISOString(),
-    status: 'approved',
-    isFeatured: false,
-    applyUrl: 'https://jobs.lever.co/zoox/220a58f7-0ac3-4367-be04-8d5eca89f9ad'
-  },
-  {
-    id: 'Senior-Manager-Data-Enablement-Business-Intelligence-in-Toronto-eqbank',
-    jobTitle: 'Senior Manager, Data Enablement & Business Intelligence',
-    companyName: 'eqbank',
-    companyLogo: '/images/eqbank.png',
-    mainDescription: `💼 Job Title: Senior Manager – Data Enablement & Business Intelligence
-Location: Toronto, ON (Hybrid)
-Department: Payments, Analytics & Fraud Strategy
-Employment Type: Full-Time
-
-🏢 About EQ Bank
-EQ Bank is Canada’s leading digital challenger bank, redefining financial services with data-driven innovation. Focused on strategy, technology, and agility, we’re reshaping customer banking experiences with smart insights and powerful tools.
-
-🚀 Role Overview
-We're looking for a visionary Senior Manager in Business Intelligence to architect and lead EQ Bank’s data enablement strategy. This role blends deep technical expertise with strategic influence, driving dashboard creation, real-time analytics, and scalable data infrastructure across departments. You’ll partner with senior leaders to build a culture of data-informed decision making at one of Canada’s most progressive fintech firms.
-
-🔧 Key Responsibilities
-Product & Executive Dashboarding (60%)
-- Build dynamic dashboards for Product, Strategy, and Marketing teams
-- Drive self-service analytics and automation for real-time insights
-- Conduct deep-dive analyses using SQL and Python
-- Develop agile ETL/ELT pipelines for product experimentation
-Data Strategy & Integration (30%)
-- Co-lead data acquisition roadmap and migration to Azure Fabric
-- Ensure seamless, compliant data integration with Tech & Engineering
-- Identify and resolve gaps in analytics-ready data availability
-Tooling & Infrastructure (10%)
-- Design modern data tooling with Enterprise Data and Cloud Ops
-- Build cases for enhanced data products to improve efficiency
-- Own and optimize real-time data pipelines for marketing and communications
-
-🎯 Qualifications
-- Bachelor’s or Master’s in Computer Science, Data Science, Engineering, or related field
-- 8+ years experience in BI, analytics, or data engineering
-- Proven success scaling data pipelines and real-time analytics in Azure
-- Strong cross-functional leadership across Product, Marketing, and Engineering
-- Advanced SQL expertise and data modeling proficiency
-
-💻 Technical Expertise
-- Python or Scala for distributed systems and data workflows
-- Scalable ETL/ELT pipeline design and API development
-- Hands-on experience with:
-- Azure tools (Data Factory, Power BI, ML)
-- Snowflake, BigQuery, Redshift
-- Spark, Hadoop, Airflow, dbt, Fivetran
-- RESTful APIs and real-time messaging (Kafka, RabbitMQ, SQS)
-- Advanced SQL techniques for large dataset manipulation
-- Interactive data visualization using Power BI, Tableau, or web frameworks
-- JavaScript for dashboard customization and API integration
-`,
-    requirements: '',
-    jobCategory: 'Software Engineering',
-    jobType: 'Hybrid',
-    location: 'Toronto',
-    submittedDate: new Date().toISOString(),
-    status: 'approved',
-    isFeatured: false,
-    applyUrl: 'https://jobs.lever.co/eqbank/e46aa90d-253d-44fc-befd-bf7a56d5900d'
-  },
-  {
-    id: 'Modern-Workplace-Analyst-Intern-in-Toronto-eqbank',
-    jobTitle: 'Modern Workplace Analyst - Intern',
-    companyName: 'eqbank',
-    companyLogo: '/images/eqbank.png',
-    mainDescription: `💼 Position: Modern Workplace Analyst – Intern
-Location: Toronto, ON (Hybrid)
-Department: Information Technology
-Type: Internship (Fall Term: Sept 2–Dec 26, 2025)
-
-🏢 About Equitable Bank
-Equitable Bank—Canada’s Challenger Bank™—is transforming the banking experience. With over 670,000 customers, $125B+ in assets under management, and award-winning digital services through EQ Bank, we’re reshaping how Canadians manage their money. If you're curious, forward-thinking, and eager to help redefine what's possible, you'll thrive here.
-
-🚀 Internship Overview
-As a Modern Workplace Analyst Intern, you’ll support endpoint management across the bank’s laptops, mobile devices, and cloud environments. You'll work to enhance user experiences, streamline service delivery, and participate in shaping digital workspace policies. Expect hands-on collaboration and plenty of opportunities to grow.
-
-🔧 Key Responsibilities
-- Configure and manage physical endpoints using Microsoft Intune and Autopilot
-- Support and monitor Nerdio workspaces and auto-scaling functions
-- Assist in managing the Azure Virtual Desktop (AVD) environment
-- Deploy updates and maintain endpoint compliance
-- Build co-managed Windows 11 environments
-- Collaborate with the Cyber Defense Centre on policy and security settings
-- Troubleshoot Intune and Group Policy configurations
-- Participate in tabletop exercises and vulnerability remediation
-- Maintain usage and cost reports for Azure environments
-- Automate tasks using ITSM tools, scripting, or workflows
-- Test hardware/software rollouts under change management protocols
-
-🎯 What You Bring
-- Enrollment in post-secondary studies in IT or related field
-- Foundational knowledge of AVD, Azure, Enterprise Mobility, and Microsoft 365
-- Familiarity with Windows OS, MS Office, Intune, and CIS hardening techniques
-- Understanding of ITIL v4 and asset management systems
-- PowerShell scripting and problem management skills are a plus
-- Strong communication and ability to work independently
-
-📋 Application Requirements
-- You must be a current student returning to school
-- Submit a resume, cover letter, and unofficial transcript
-
-🌟 Why EQ Bank
-- Be part of one of Canada’s top-ranked digital banks
-- Work in a collaborative, agile, and inclusive culture
-- Access mentorship and hands-on experience
-- Contribute to meaningful projects in tech-enabled banking
-- Receive support for personal and professional growth
-`,
-    requirements: '',
-    jobCategory: 'Analyst',
-    jobType: 'Internship',
-    location: 'Toronto',
-    submittedDate: new Date().toISOString(),
-    status: 'approved',
-    isFeatured: false,
-    applyUrl: 'https://jobs.lever.co/eqbank/d8d1c9a8-3d33-4204-8562-ab58ff865a8a'
-  },
-  {applyUrl: 'https://jobs.lever.co/saviynt/dba5ae2f-811f-4acd-9789-961be24ec5cd', companyName: 'saviynt', companyLogo: '/images/saviynt.png', location: 'Warsaw or Kraków, Poland', jobTitle: 'Identity Security - Practice Manager -Customer Experience - Poland', jobType: 'Full-time', jobCategory: 'Security', mainDescription: `💼 Job Title: Identity Security – Practice Manager, Customer Experience
-Location: Warsaw or Kraków, Poland (Remote)
-Department: Expert Services – Professional Services
-Employment Type: Full-Time
-
-🏢 About Saviynt
-Saviynt is the leading identity authority platform enabling secure, scalable digital transformation. Our Enterprise Identity Cloud provides unmatched visibility and governance across identity, access, and security, empowering organizations to manage cyber risk while ensuring seamless user access.
-
-🚀 Role Overview
-As Practice Manager – Customer Experience, you’ll lead the technical delivery and account management of identity solutions for Saviynt clients. You will manage project lifecycles, support pre- and post-sales efforts, and serve as the central point of contact for escalations. This role combines strategic oversight, client engagement, and technical expertise to ensure successful deployment and adoption of Saviynt’s platform.
-
-🔧 Key Responsibilities
-- Provide expert technical support throughout pre-sales and post-sales cycles
-- Analyze customer requirements and deliver tailored solution proposals
-- Own delivery execution for solution scope (SOW), manage implementation schedules
-- Develop scoping documents, estimates, and project plans
-- Lead weekly customer progress meetings and maintain technical documentation
-- Manage professional services delivery and resolve escalated issues
-- Coordinate with cross-functional teams: Engineering, Product Management, and Customer Success
-- Monitor support trends to enhance service quality and cost-efficiency
-- Oversee post-launch user training, feature adoption, and customer success initiatives
-- Communicate product roadmap and identify upsell opportunities
-- Forecast resource needs, manage timesheet approvals, and support invoicing
-
-🎯 Required Qualifications
-- Minimum 5+ years in IAM (Identity and Access Management) or IGA (Identity Governance & Administration)
-- Strong background in cybersecurity or compliance is a plus
-- Proven success leading project scoping, planning, and delivery for client solutions
-- Experience managing multiple client projects and engaging with cross-functional teams
-- Skilled in technical documentation, client communications, and resource planning
-- Familiarity with relevant technologies:
-- Web technologies: XML, SPML/SOAP, HTML
-- Databases: Oracle, Sybase, MSSQL, MySQL
-- Directories: LDAP, Active Directory
-- HR platforms: SAP, PeopleSoft
-- Programming: Java, .NET, or C++
-- IAM provisioning systems: Oracle, IBM, Novell, Sun
-- Security or IT audit experience
-📍 Note: Only candidates residing in Poland are eligible for this role.
-
-🔐 Compliance Requirements
-Upon joining, you must complete security & privacy training and review policies such as:
-- Data Classification & Retention
-- Incident Response & Business Continuity
-- Access Control & Personnel Security
-- Mobile Device & Account Management
-- General Privacy Protocols
-
-🌈 Why Work With Us
-- High-growth, dynamic tech environment
-- Critical impact on customer success and platform expansion
-- Challenging, rewarding work with global enterprise customers
-- Commitment to inclusion and diversity
-Saviynt is proud to be an equal opportunity employer. Applicants from all backgrounds are encouraged to apply.
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'identity-security-practice-manager-customer-experience-poland-in-saviynt-foster-city-anywhere'},
-
-{applyUrl: 'https://job-boards.greenhouse.io/donorbox/jobs/4582083005', companyName: 'donorbox', companyLogo: '/images/donorbox.png', location: 'Canada', jobTitle: 'Senior Business Intelligence Analyst', jobType: 'Full-time', jobCategory: 'Business', mainDescription: `💼 Job Title: Senior Business Intelligence Analyst
-Location: Remote (Canada)
-Department: Data – Focus on Sales & Marketing Analytics
-Employment Type: Full-Time
-
-🏢 About Donorbox
-Donorbox is a top-rated fundraising and donor management platform helping nonprofits worldwide raise nearly $3 billion since 2014. Trusted by over 100,000 organizations, Donorbox empowers mission-driven teams with powerful tools for donor engagement, impact tracking, and financial growth.
-We are a fully distributed and diverse company of 150+ team members across more than 23 countries. Profitable, bootstrapped, and fast-growing—we’re on a mission to make fundraising frictionless.
-
-🚀 Role Overview
-Donorbox is seeking a data-savvy Senior Business Intelligence Analyst with a sharp focus on GTM (Go-To-Market) analytics to support Sales, Marketing, and Revenue Operations. In this strategic individual contributor role, you’ll develop dashboards, evaluate experiments, and provide insights that inform customer acquisition, engagement, and retention decisions.
-
-🔧 Key Responsibilities
-- Build and maintain dashboards tracking GTM KPIs (conversion rates, CAC, LTV, retention)
-- Analyze campaign ROI, channel performance, and lead quality across marketing efforts
-- Evaluate sales pipeline health, forecasting accuracy, and rep effectiveness
-- Partner cross-functionally to design and assess A/B experiments
-- Support customer journey mapping, audience segmentation, and attribution analysis
-- Conduct pricing impact assessments including elasticity modeling
-- Collaborate with data engineering to ensure data integrity and trust
-- Use BI tools (Power BI, Tableau, Superset) to deliver user-friendly visualizations
-- Write advanced SQL queries to manipulate large datasets
-- Translate analytical findings into clear, actionable insights for non-technical stakeholders
-
-🎯 What You Bring
-- 5+ years of analytics experience in SaaS (Sales, Marketing, or Revenue Ops)
-- Advanced SQL skills; confident working with large data sets
-- Strong BI tool proficiency (Looker, Tableau, Superset, Power BI)
-- Experience with CRM platforms like Salesforce or HubSpot
-- Deep understanding of data modeling, warehousing, and visualization best practices
-- Ability to communicate insights that influence strategic decision-making
-- Proven record of tying metrics to tangible business outcomes (growth, retention, ROI)
-- Comfortable with autonomy, shifting priorities, and a fast-paced remote work culture
-
-🌟 Bonus Experience
-- Prior exposure to nonprofit data or fundraising analytics
-
-💰 Compensation & Perks
-- Salary: $70,000–$75,000 USD (~$95,000–$102,000 CAD)
-- Remote-first work across Canada (ET hours)
-- Employee equity plan eligibility (stock options)
-- Generous paid time off (21 personal days + 9 holidays + 2 volunteer days)
-- Employer-sponsored health insurance
-- Reimbursement allowance for professional development & home office setup (up to $1,500)
-- Mindfulness and wellness programs
-
-📋 Application Process
-- Online Application & Questionnaire
-- Prescreen Call
-- Interview with Hiring Manager
-- Technical Assessment
-- Panel Interview
-- Reference & Background Checks`, status: 'approved', isFeatured: true, requirements: ''
-, submittedDate: new Date().toISOString(), id: 'senior-business-intelligence-analyst-in-donorbox-canada-canada'}, 
-
-{applyUrl: 'https://jobs.lever.co/wpromote/e6ae726b-c871-4a6a-92a2-6b51297f9645', companyName: 'wpromote', companyLogo: '/images/wpromote.png', location: 'United States', jobTitle: 'Engineering Manager - Data Pipelines', jobType: 'Full-time', jobCategory: 'Data', mainDescription:`💼 Job Title: Engineering Manager – Data Pipelines
-Location: Remote (United States)
-Department: Engineering & Technology
-Employment Type: Full-Time
-
-🏢 About Wpromote
-Wpromote is a digital marketing leader known for our rapid growth, inclusive culture, and innovative solutions. Our proprietary data and intelligence platform, Polaris, empowers marketers and clients through performance insights and collaborative tools. We're proud to be recognized by Ad Age, Adweek, and Glassdoor as a Best Place to Work—and we’re just getting started.
-
-🚀 Role Overview
-We're hiring a strategic and technically savvy Engineering Manager to lead our data pipeline team. In this hands-on leadership role, you’ll guide the development of scalable data integrations and analytics systems that drive Wpromote’s customer applications and internal data strategies. You’ll architect forward-thinking solutions, foster team excellence, and collaborate cross-functionally to accelerate product innovation.
-
-🔧 Key Responsibilities
-- Lead and mentor backend and data engineers managing large-scale data ingestion and delivery
-- Shape technical roadmap and strategic direction for data pipeline systems
-- Build robust architectures supporting fast, resilient integration with third-party services
-- Collaborate with Product, UX, and other departments to align objectives and deliver impactful results
-- Foster an inclusive, agile culture with a strong emphasis on test-driven development, CI/CD, and engineering best practices
-- Champion metrics-based performance monitoring and continuous improvement
-- Own key engineering projects with tangible business impact
-
-🧠 Required Qualifications
-- 10+ years in software development; 3+ years in engineering leadership
-- Expertise in Python or comparable backend language, SQL, and API frameworks
-- Experience integrating external platforms like Google and Meta via APIs
-- Hands-on exposure to cloud platforms and containerized architectures
-- Proven success in data-intensive SaaS environments and fast-paced dev cycles
-- Skilled in observability, scalability, and performance optimization
-- Effective communicator and decision-maker in technical and business contexts
-
-🌟 Bonus Experience
-- Familiarity with: GCP, Airflow, dbt, Spark, PostgreSQL, BigQuery, Iceberg
-- Experience expanding engineering teams
-- Background in agile delivery and data governance
-- Proficiency in monitoring tools like Prometheus, Datadog, Grafana
-
-💰 Compensation & Perks
-- Base Salary: $165,000 – $185,000 USD
-- Benefits include:
-- Unlimited PTO & Extended Winter Break
-- Fully remote with flexible hours and “work from anywhere” options
-- Paid parental leave
-- Comprehensive health, life, pet & disability insurance
-- 401(k) match
-- Annual ClassPass credits
-- Career growth and learning opportunities
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'engineering-manager-data-pipelines-in-wpromote-united-states-united-states'},
-{applyUrl: 'https://jobs.lever.co/veeva/fbf0253a-999d-495d-8206-fae684149a8d', companyName: 'veeva', companyLogo: '/images/veeva.png', location: 'Indiana', jobTitle: 'Software Engineer - iOS', jobType: 'Full-time', jobCategory: 'Software Engineer', mainDescription: `💼 Job Title: Software Engineer – iOS
-Location: Remote (United States – Indiana Preferred)
-Department: Engineering
-Employment Type: Full-Time
-
-🏢 About Veeva Systems
-Veeva Systems is a mission-driven industry cloud company dedicated to helping life sciences organizations deliver therapies to patients faster. With more than $2B in annual revenue and a fast-growing global footprint, Veeva is transforming how pharma companies engage with healthcare professionals.
-Veeva is a Public Benefit Corporation, balancing purpose and profit by prioritizing customer success, employee well-being, societal impact, and shareholder value. Through its Work Anywhere model, Veeva empowers team members to work remotely or from an office—wherever they thrive.
-
-🚀 Role Overview
-Join Veeva’s iOS engineering team to build robust, enterprise-grade mobile applications that enable pharmaceutical companies to streamline engagement with healthcare providers worldwide. You’ll contribute to large-scale feature development, innovate alongside experienced engineers and product managers, and deliver polished, high-impact mobile experiences.
-
-🔧 Key Responsibilities
-- Design and implement complex iOS features using Core Data, SQLite, and UIKit
-- Translate technical designs into resilient, scalable code
-- Maintain high standards for performance tuning and resource optimization
-- Write and maintain unit tests to ensure feature reliability
-- Own feature delivery and contribute throughout the full development lifecycle
-- Collaborate cross-functionally with Product Managers and fellow Engineers
-- Evaluate and introduce emerging iOS technologies for architectural review
-
-🎯 Required Qualifications
-- 5+ years of experience developing iOS applications
-- Proficiency in Swift and Objective-C
-- Strong object-oriented programming foundation
-- Skilled with Apple frameworks (Core Data, SQLite, UIKit)
-- Familiarity with high-level software design principles
-- Knowledge of Apple’s UI guidelines and interface standards
-- Experience optimizing performance and managing resources in mobile environments
-- Excellent communication and problem-solving skills
-
-💰 Compensation & Benefits
-- Base Salary Range: $85,000–$225,000 (based on experience and location)
-- Additional benefits may include:
-- Variable bonus
-- Stock bonus
-- Comprehensive benefits package:
-- Medical, dental, vision, and life insurance
-- Flexible PTO & company holidays
-- Retirement programs
-- Charitable giving match (1%)
-`, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'software-engineer-ios-in-veeva-indiana-united-states'}, 
 ];
 
 const fetchAllJobs = async (): Promise<BackendStoredJob[]> => {
@@ -14324,6 +15467,9 @@ export async function generateMetadata(
     openGraph: {
       title: `${job.jobTitle} at ${job.companyName}`,
       description: description,
+    },
+    alternates: {
+        canonical: `/jobs/${job.id}`,
     },
   };
 }

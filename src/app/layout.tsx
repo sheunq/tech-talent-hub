@@ -8,10 +8,14 @@ import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://tektunnel.com'),
   title: 'TekTunnel - Your Next Career Move',
   description: 'TekTunnel is a premier platform connecting tech talent with innovative companies.',
   verification: {
     google: 'ANTIs-nVe-Ow4cuUMCFdH6_VjcrU3Inr2o5xA3X3C00',
+  },
+  alternates: {
+    canonical: '/',
   },
 };
 

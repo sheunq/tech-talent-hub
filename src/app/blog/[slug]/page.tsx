@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import type { Metadata, ResolvingMetadata } from 'next';
+import { useParams } from 'next/navigation';
 
 // Mock data for a single post - in a real app, this would be fetched based on slug
 const mockBlogPosts = [
@@ -496,40 +497,11 @@ const mockBlogPosts = [
   },
 ];
 
-interface BlogSlugPageProps {
-  params: {
-    slug: string;
-  };
-}
 
-// THIS FUNCTION IS NOW REMOVED FROM THE CLIENT COMPONENT
-// export async function generateMetadata(
-//   { params }: { params: { slug: string } },
-//   parent: ResolvingMetadata
-// ): Promise<Metadata> {
-//   const slug = params.slug;
-//   const post = mockBlogPosts.find(p => p.slug === slug);
-
-//   if (!post) {
-//     return {
-//       title: 'Post Not Found | TekTunnel Blog',
-//       description: 'The blog post you are looking for could not be found.',
-//     };
-//   }
-
-//   return {
-//     title: `${post.title} | TekTunnel Blog`,
-//     description: post.excerpt,
-//     openGraph: {
-//       title: post.title,
-//       description: post.excerpt,
-//       images: [post.imageUrl],
-//     },
-//   };
-// }
-
-export default function BlogSlugPage({ params }: BlogSlugPageProps) {
-  const post = mockBlogPosts.find(p => p.slug === params.slug);
+export default function BlogSlugPage() {
+  const params = useParams();
+  const slug = params.slug as string;
+  const post = mockBlogPosts.find(p => p.slug === slug);
 
   if (!post) {
     return (
