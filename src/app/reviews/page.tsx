@@ -18,7 +18,7 @@ interface CompanyForReview {
 }
 
 const mockCompaniesForReview: CompanyForReview[] = [
-  { id: 'innovate-solutions', name: 'Innovate Solutions', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'Innovate Solutions logo', reviewCount: 2, averageRating: 4.5, industry: 'SaaS' },
+  { id: 'Grammarly', name: 'Grammarly', logoUrl: '/images/grammarly.png', imageHint: 'grammarly logo', reviewCount: 2, averageRating: 4.5, industry: 'AI assistan' },
   { id: 'skynet-systems', name: 'SkyNet Systems', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'SkyNet Systems logo', reviewCount: 1, averageRating: 3.0, industry: 'Cloud Infrastructure' },
   { id: 'pixel-perfect-co', name: 'Pixel Perfect Co.', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'Pixel Perfect logo', reviewCount: 0, averageRating: 0, industry: 'Design Agency' },
   { id: 'dev-solutions', name: 'DevSolutions', logoUrl: '/images/devsolutions-logo.png', imageHint: 'DevSolutions logo', reviewCount: 1, averageRating: 5.0, industry: 'Developer Tools' },

@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next'
 
 // In a real app, this would be your production domain from environment variables
-const URL = 'https://tektunnel-app.web.app'
+const URL = 'https://tektunnel.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // For dynamic routes (like jobs or blog posts), you would fetch the data

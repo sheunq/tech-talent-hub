@@ -8,6 +8,885 @@ import { getAllJobs } from '@/services/jobDbService';
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
 
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/brillio-2/b3ded03a-67a0-427f-84f1-61e678b72ba0",
+  companyName: "Brillio",
+  companyLogo: "/images/Brillio.png",
+  location: "United States",
+  jobTitle: "Data Architect - R01549535",
+  jobType: "Hybrid",
+  jobCategory: "Data",
+  mainDescription: `Job Title: Data Architect – R01549535
+Location: Edison, New Jersey (Hybrid – 3 days onsite/week in Plainsboro)
+Department: Data and AI – Data Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Brillio is hiring a Lead Data Engineer to architect and optimize data integration solutions for its Life Sciences practice. This role blends technical excellence in ETL and data warehousing with strategic consulting, enabling business stakeholders to unlock value through data. You’ll lead a team, drive migration to Snowflake, and collaborate across functions to deliver scalable, high-performance solutions.
+
+🔧 Key Responsibilities
+- Design and optimize ETL workflows using Informatica PowerCenter and IICS
+- Architect scalable solutions on Snowflake Data Warehouse
+- Build dimensional data models and define performance thresholds
+- Act as a strategic advisor to stakeholders, translating business needs into data solutions
+- Lead data migration from legacy systems to Snowflake
+- Deliver technical documentation and executive-level presentations
+- Guide a team of data engineers through complex integration efforts
+
+✅ Required Qualifications
+- 8+ years in data engineering and ETL development
+- Advanced SQL skills and performance tuning experience
+- Hands-on expertise with Informatica PowerCenter and IICS
+- Proven experience with Snowflake architecture and optimization
+- Strong foundation in dimensional modeling and data warehouse design
+- Pharma domain experience with IQVIA, Komodo, and VEEVA datasets (preferred)
+- Excellent communication, stakeholder engagement, and project leadership skills
+
+🌟 Preferred Qualifications
+- SnowPro certification
+- Experience writing business process and technical documentation
+- Consultative mindset with ability to influence cross-functional teams
+
+💰 Compensation & Benefits
+- Salary: $130,000 – $140,000 USD
+- Great Place to Work® certified employer
+- Opportunities to work on cutting-edge digital and AI projects
+- Career development and leadership opportunities
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "data-architect-r01549535-in-brillio-at-united-states-united-states"
+}
+, 
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/tripadvisor/jobs/7044947",
+  companyName: "Tripadvisor",
+  companyLogo: "/images/Tripadvisor.png",
+  location: "Poland",
+  jobTitle: "ML Operations Engineer II (Viator)",
+  jobType: "Hybrid",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: ML Operations Engineer II
+Location: Kraków, Poland (Hybrid)
+Department: Machine Learning Platform
+Employment Type: Full-Time (Permanent Contract)
+
+🧠 Role Overview
+Viator, a Tripadvisor company, is hiring an ML Ops Engineer to enhance its Machine Learning Platform and support the growing demands of data science and AI across the business. You’ll empower data scientists with scalable infrastructure, contribute to AWS cloud migration, and help deploy real-time and batch models that improve travel experiences for millions of users.
+
+🔧 Key Responsibilities
+- Build and maintain infrastructure for pre-computed, batch, and real-time ML models
+- Support tech stack evolution and AWS cloud migration
+- Provide tools and infrastructure for seamless ML execution
+- Contribute across the stack: UI, backend microservices, big data, CI/CD automation
+- Promote innovation and solve complex ML Ops challenges
+- Collaborate with cross-functional teams in a fast-paced environment
+
+✅ Required Qualifications
+- 2+ years of experience in ML engineering
+- Hands-on experience with AWS
+- Proficiency with Terraform, CloudFormation, and CI/CD platforms
+- Exposure to Python, Spark, Docker, and Kubernetes
+- Strong problem-solving and communication skills
+- Ownership mindset and ability to work across diverse technologies
+
+💰 Compensation & Benefits
+- Competitive base salary, annual bonus, and equity
+- Flexible schedule and remote-friendly collaboration
+- Health and dental insurance, lifestyle and travel perks
+- Tuition assistance, donation matching, and wellness benefits
+- Employee assistance program and career development support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "ml-operations-engineer-ii-viator-in-tripadvisor-at-poland-poland"
+}
+, 
+
+
+
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/pagerduty/jobs/5574765004",
+  companyName: "Pagerduty",
+  companyLogo: "/images/Pagerduty.png",
+  location: "Atlanta, Georgia",
+  jobTitle: "Staff Software Engineer V - PagerDuty Automation",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Staff Software Engineer V – PagerDuty Automation
+Location: Atlanta, Georgia (Hybrid – 1 day/month in office)
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+PagerDuty is hiring a Staff Software Engineer V to lead the technical vision and architecture of its Workflow Automation platform, which empowers enterprise teams to automate incident response and operational workflows. You’ll drive cross-domain initiatives, mentor senior engineers, and deliver scalable, cloud-native solutions that enhance reliability and performance across the organization.
+
+🔧 Key Responsibilities
+- Define and lead the technical strategy and architecture for Workflow Automation
+- Deliver complex solutions across multiple engineering teams
+- Collaborate with product and engineering leadership to identify long-term tech investments
+- Act as a technical leader and mentor, fostering engineering excellence
+- Own the full lifecycle of technology initiatives—from prototyping to operational maturity
+- Champion continuous improvement in engineering practices and tools
+
+✅ Required Qualifications
+- 12+ years of software development experience, including technical leadership
+- Expertise in Java, Node.js, TypeScript, and RESTful APIs
+- Deep experience with AWS services (ECS/EKS, Lambda, DynamoDB, API Gateway)
+- Strong knowledge of DevOps, including Terraform, CI/CD, observability, and Kubernetes
+- Proven success in delivering strategic, cross-team technical initiatives
+- Willingness to participate in on-call rotations for mission-critical systems
+
+🌟 Preferred Experience
+- Building workflow automation systems or event-driven platforms at scale
+- Defining SLOs, performance metrics, and operational standards
+- Industry thought leadership (e.g., conference speaking, open-source contributions)
+- Ability to align technical strategy with executive-level business goals
+
+💰 Compensation & Benefits
+- Base salary: $172,000 – $261,000 USD
+- Bonus, commission, equity, and comprehensive benefits
+- Paid parental leave, wellness days, and volunteer time off
+- Flexible work arrangements and professional development support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-software-engineer-v-pagerduty-automation-in-pagerduty-at-Atlanta-Georgia"
+}
+
+,
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/pagerduty/jobs/5585394004",
+  companyName: "Pagerduty",
+  companyLogo: "/images/Pagerduty.png",
+  location: "Toronto",
+  jobTitle: "Staff Software Engineer V - PagerDuty Automation",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Staff Software Engineer V – PagerDuty Automation
+Location: Toronto, Ontario (Hybrid – 1 day/month in office)
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+PagerDuty is hiring a Staff Software Engineer V to lead the technical vision and architecture of its Workflow Automation platform, which empowers enterprise teams to automate incident response and operational workflows. You’ll drive cross-domain initiatives, mentor senior engineers, and deliver scalable, cloud-native solutions that enhance reliability and performance across the organization.
+
+🔧 Key Responsibilities
+- Define and lead the technical strategy and architecture for Workflow Automation
+- Deliver complex solutions across multiple engineering teams
+- Collaborate with product and engineering leadership to identify long-term tech investments
+- Act as a technical leader and mentor, fostering engineering excellence
+- Own the full lifecycle of technology initiatives—from prototyping to operational maturity
+- Champion continuous improvement in engineering practices and tools
+
+✅ Required Qualifications
+- 12+ years of software development experience, including technical leadership
+- Expertise in Java, Node.js, TypeScript, and RESTful APIs
+- Deep experience with AWS services (ECS/EKS, Lambda, DynamoDB, API Gateway)
+- Strong knowledge of DevOps, including Terraform, CI/CD, observability, and Kubernetes
+- Proven success in delivering strategic, cross-team technical initiatives
+- Willingness to participate in on-call rotations for mission-critical systems
+
+🌟 Preferred Experience
+- Building workflow automation systems or event-driven platforms at scale
+- Defining SLOs, performance metrics, and operational standards
+- Industry thought leadership (e.g., conference speaking, open-source contributions)
+- Ability to align technical strategy with executive-level business goals
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "staff-software-engineer-v-pagerduty-automation-in-pagerduty-at-toronto-canada"
+}
+
+
+, 
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/pagerduty/jobs/5585526004",
+  companyName: "Pagerduty",
+  companyLogo: "/images/Pagerduty.png",
+  location: "Toronto",
+  jobTitle: "Senior Software Engineer IV - PagerDuty Automation",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `
+Job Title: Senior Software Engineer IV – PagerDuty Automation
+Location: Toronto, Ontario (Hybrid – 1 day/month in office)
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+PagerDuty is hiring a Senior Software Engineer IV to lead the development of workflow automation, AI agents, and platform-wide automation features. This role is central to building scalable, cloud-native systems that streamline incident response and operational workflows for enterprise clients. You’ll collaborate across engineering, product, and business teams to drive architectural decisions and deliver high-impact solutions.
+
+🔧 Key Responsibilities
+- Lead design, development, and deployment of workflow automation features
+- Architect scalable Node.js + TypeScript applications and RESTful APIs
+- Mentor engineers and promote best practices in SaaS architecture
+- Collaborate with cross-functional teams to define technical solutions
+- Evaluate and improve system performance, reliability, and maintainability
+- Participate in on-call rotations to support mission-critical systems
+- Influence engineering direction and contribute to cross-team planning
+
+✅ Required Qualifications
+- 10+ years in software engineering, including 2+ years in technical leadership
+- Expertise in Node.js, TypeScript, and AWS services (Lambda, ECS/EKS, DynamoDB, RDS)
+- Proven experience with microservices architecture and scalable SaaS platforms
+- Strong communication skills and ability to lead cross-team initiatives
+
+🌟 Preferred Experience
+- Familiarity with event-driven architectures, workflow engines, or automation platforms
+- Experience with CI/CD pipelines, Terraform, and monitoring tools like Datadog
+- Knowledge of Docker, Kubernetes, and infrastructure-as-code
+- Track record of mentoring and fostering engineering excellence
+
+💰 Compensation & Benefits
+- Base salary: 137,000 – 207,000 CAD
+- Bonus, commission, equity, and comprehensive benefits
+- Paid parental leave, wellness days, and volunteer time off
+- Flexible work arrangements and professional development support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-iv-pagerduty-automation-in-pagerduty-at-toronto-canada"
+}
+
+
+
+, 
+{
+  applyUrl: "https://job-boards.greenhouse.io/smithrx/jobs/8069588002",
+  companyName: "Smithrx",
+  companyLogo: "/images/Smithrx.png",
+  location: "United States",
+  jobTitle: "Proposals Pricing Analyst",
+  jobType: "Remote",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Proposals Pricing Analyst
+Location: Remote (Eligible U.S. states only)
+Department: Sales & Analytics
+Employment Type: Full-Time
+
+🧠 Role Overview
+SmithRx is hiring a Proposals Pricing Analyst to support its presales efforts by conducting claims analysis and preparing high-impact deliverables that showcase the company’s value to potential clients, consultants, and benefit brokers. This role is pivotal in driving growth and collaborating across internal teams to deliver data-backed insights that support strategic decision-making.
+
+🔧 Key Responsibilities
+- Analyze large datasets and generate ad hoc reports with actionable insights
+- Conduct claims repricing and risk assessments using historical data
+- Prepare client-ready deliverables for sales presentations and proposals
+- Collaborate with internal teams (Sales, Analytics, Clinical) to align on strategy
+- Ensure quality control through audits and evaluation processes
+- Communicate findings clearly across email, Slack, video calls, and more
+- Provide ad hoc analyses to demonstrate the impact of SmithRx’s solutions
+
+✅ Required Qualifications
+- 3–5 years of professional experience
+- Background in software, employee benefits, or healthcare (preferred)
+- Strong analytical skills and ability to extract insights from data
+- Proficiency in Excel, SQL, Looker, and Tableau
+- Excellent communication, presentation, and project management skills
+- Ability to manage multiple projects in a fast-paced environment
+- Must reside in one of the eligible U.S. states (e.g., CA, TX, FL, NY, etc.)
+
+💰 Compensation & Benefits
+- Competitive salary and 401(k) retirement savings
+- Medical, dental, vision, life, and disability insurance
+- Flexible Spending Accounts and commuter benefits
+- Paid parental leave, 12 paid holidays, and discretionary PTO
+- Access to Employee Assistance Program (EAP)
+- Professional development and training opportunities
+- Well-stocked kitchens in office locations
+
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "proposals-pricing-analyst-in-smithrx-at-foster-city-anywhere"
+}
+
+
+
+,
+
+
+
+{
+  applyUrl: "https://www.fanatee.com/openings/product-analyst-ai-expansion",
+  companyName: "fanatee",
+  companyLogo: "/images/fanatee.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "PRODUCT ANALYST - AI/EXPANSION",
+  jobType: "Hybrid",
+  jobCategory: "AI",
+  mainDescription: `Job Title: Product Analyst – AI/Expansion
+Location: Hybrid (São Paulo, Brazil)
+Department: Product
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fanatee is hiring a Product Analyst to support the growth and content strategy of Stop, one of the world’s most beloved word games. You’ll work closely with the Head of Product to improve content quality, leverage AI tools, and uncover insights that drive expansion into new markets and languages. This role blends product management, data analysis, and operational coordination in a fast-paced, creative environment.
+
+🔧 Key Responsibilities
+Content Excellence
+- Support development and continuous improvement of game content
+- Collaborate with editors and freelancers to ensure quality and consistency
+- Implement and refine content creation and review processes
+- Use AI tools to generate and validate new puzzles
+Data & Insights
+- Analyze performance metrics and player behavior
+- Identify opportunities to improve content and game mechanics
+- Provide actionable insights to guide product strategy
+Production Organization
+- Coordinate workflows and roadmap execution
+- Facilitate communication across teams and remove blockers
+- Ensure smooth day-to-day operations within the content team
+
+✅ Required Qualifications
+- Experience in product or project management, ideally in game development
+- Strong analytical and problem-solving skills
+- Familiarity with AI tools and their practical applications
+- Excellent communication skills (written and verbal)
+- Fluency in English
+- Passion for word games, especially Stop
+- Bachelor’s degree in Business, Economics, Engineering, or related field
+
+🌟 Preferred Skills
+- Proficiency in Python and SQL
+- Experience with HTTP requests, APIs, and database handling
+- Knowledge of prompt engineering and generative AI models
+
+💰 Compensation & Benefits
+- Competitive salary
+- Flexible benefits
+- Health, dental, and life insurance
+- Profit sharing
+- Career development support
+- Casual work environment and dress code
+- Relaxation space with snacks, fruits, and drinks
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "product-analyst-ai-expansion-in-fanatee-at-foster-city-anywhere"
+}
+
+, 
+
+
+
+{
+  applyUrl: "https://www.fanatee.com/openings/product-business-analyst",
+  companyName: "fanatee",
+  companyLogo: "/images/fanatee.png",
+  location: "São Paulo, Brazil",
+  jobTitle: "PRODUCT BUSINESS ANALYST",
+  jobType: "Hybrid",
+  jobCategory: "General",
+  mainDescription: `Job Title: Product Business Analyst
+Location: São Paulo, Brazil
+Department: Product
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fanatee is seeking a data-driven Product Business Analyst to help scale and optimize the performance of its globally successful mobile games. You’ll collaborate with Engineering, Product, and Business Intelligence teams to uncover growth opportunities, shape product strategies, and influence game development through actionable insights. This role blends analytical rigor with creative problem-solving in a fast-paced, game-centric environment.
+
+🔧 Key Responsibilities
+- Analyze user behavior and performance metrics to optimize LTV and acquisition funnels
+- Develop and manage growth roadmaps, coordinating cross-functional resources
+- Present clear, measurable product strategies and business cases
+- Design and implement process improvements for operational efficiency
+- Enhance data quality monitoring, alerting, and model scalability
+- Research and deploy new tools and technologies for data analysis
+- Build dashboards using Tableau, AWS Quicksight, or PowerBI
+
+✅ Required Qualifications
+- 3+ years in management, consulting, finance, or tech
+- Strong experience analyzing large datasets and extracting insights
+- Proficiency in SQL and data querying across platforms like Amazon Athena, Oracle, and Hadoop
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "product-business-analyst-in-fanatee-at-foster-city-anywhere"
+}
+, 
+
+
+
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4784016007?gh_jid=4784016007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Senior Thermal Engineer Aircraft and Missiles",
+  jobType: "Full-time",
+  jobCategory: "Engineer",
+  mainDescription: `Job Title: Senior Thermal Engineer – Aircraft and Missiles
+Location: Costa Mesa, California (On-site)
+Department: Hardware Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring a Senior Thermal Engineer to lead the thermal design and analysis of drones, aircraft, and missile systems. You’ll apply first-principles thinking to develop rugged thermal architectures, simulate performance, and validate designs through testing. This role is central to ensuring mission-critical platforms operate reliably across extreme environments.
+
+🔧 Key Responsibilities
+- Own thermal architecture and analysis for airborne platforms
+- Perform hand calculations, spreadsheet modeling, and MATLAB/Python simulations
+- Develop and validate FEA/CFD models using tools like STAR-CCM+, ANSYS, Icepak, or Flotherm
+- Define edge-case scenarios and red/yellow design limits
+- Collaborate with cross-disciplinary teams to document power dissipation and system constraints
+- Execute prototype builds and thermal tests, including sensor selection and data acquisition
+- Present findings in internal and customer-facing reviews
+- Build internal tools to streamline analysis and support root-cause investigations
+
+✅ Required Qualifications
+- MS or higher in Engineering or Applied Physics (focus on heat transfer and fluid dynamics)
+- 5+ years designing thermal systems for aerospace hardware
+- Experience with passive and active thermal management systems
+- Proficiency in thermal testing, CAD tools (SolidWorks or Siemens NX), and FEA software
+- U.S. Person status (required for export-controlled data access)
+- Passion for national defense and aerospace innovation
+
+🌟 Preferred Experience
+- Coding in Python or MATLAB for thermal simulations
+- Familiarity with lumped thermal capacitance models
+- Eligibility for U.S. Top Secret security clearance
+
+💰 Compensation & Benefits
+- Base salary: $150,000 – $200,000 USD
+- Competitive equity grants
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial services
+- Daily meals and stocked micro-kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance (if eligible)
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-thermal-engineer-aircraft-and-missiles-in-anduril-at-united-states-united-states"
+}
+, 
+
+
+
+
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4784232007?gh_jid=4784232007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "UI Software Engineer, EW",
+  jobType: "Full-time",
+  jobCategory: "Software",
+  mainDescription: `Job Title: UI Software Engineer – EW
+Location: Costa Mesa, California (On-site with up to 30% travel)
+Department: Electronic Warfare
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring a UI Software Engineer to help build immersive, web-based image-viewing experiences for its cutting-edge Electronic Warfare systems. These systems detect, analyze, and counter enemy electromagnetic signals, contributing to real-time battlespace awareness. You’ll work closely with end-users and cross-functional teams to deliver intuitive, data-rich interfaces that support mission-critical operations.
+
+🔧 Key Responsibilities
+- Design and develop immersive UI experiences for EW platforms
+- Own and deliver well-scoped frontend projects with clear objectives
+- Collaborate with end-users to translate operational needs into features
+- Balance UX design with engineering constraints and performance
+- Travel up to 30% for field testing and real-world deployment
+
+✅ Required Qualifications
+- 1+ years of relevant experience
+- Degree in Computer Science, Operations Research, Electrical Engineering, or related field
+- Experience building frontend applications, especially data-intensive or map-based systems
+- Proficiency in JavaScript, TypeScript, and React
+- Strong problem-solving mindset and ability to deliver functional outcomes
+- Eligible for U.S. Top Secret SCI security clearance
+
+💰 Compensation & Benefits
+- Base salary: $114,000 – $171,000 USD
+- Equity grants included in most offers
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance (if eligible)
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "ui-software-engineer-ew-in-anduril-at-united-states-united-states"
+}
+, 
+
+
+
+
+
+
+  
+
+{
+  applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4784333007?gh_jid=4784333007&gh_src=",
+  companyName: "anduril",
+  companyLogo: "/images/anduril.png",
+  location: "United States",
+  jobTitle: "Senior Robotics Engineer, Maneuver Dominance",
+  jobType: "Full-time",
+  jobCategory: "Robot",
+  mainDescription: `Job Title: Senior Robotics Engineer – Maneuver Dominance
+Location: Costa Mesa, California (On-site with travel up to 25%)
+Department: Maneuver Dominance
+Employment Type: Full-Time
+
+🧠 Role Overview
+Anduril is hiring a Senior Robotics Engineer to develop multi-asset autonomy systems that integrate platforms like Ghost and Altius drones into the Lattice OS ecosystem. You’ll solve complex robotics challenges involving networking, autonomy, sensor integration, and systems engineering, contributing to mission-critical defense capabilities.
+
+🔧 Key Responsibilities
+- Develop and maintain core robotics libraries (e.g., frame transformations, targeting, guidance)
+- Lead feature development and rollout for autonomous platforms
+- Design and implement sensor integrations for human and autonomous agents
+- Collaborate with hardware and manufacturing teams to influence product design
+- Partner with end-users to translate mission needs into technical features
+- Travel to test and deploy systems in real-world environments
+
+✅ Required Qualifications
+- 6+ years of professional experience in C++ or Rust in a Linux environment
+- Strong background in Robotics, Computer Science, or related fields
+- Expertise in one or more areas: sensor integration, motion planning, localization, mapping, guidance, controls
+- Proficiency in data structures, algorithms, concurrency, and code optimization
+- Experience with Linux debugging tools (e.g., gdb, ASAN, bpftrace, perf)
+- Eligible for U.S. Secret security clearance
+
+🌟 Preferred Experience
+- MS in Robotics or related field
+- Programming for embedded and physical devices
+- Understanding of systems software and resource optimization
+- Experience with sensor characterization and complex frame transformations
+
+💰 Compensation & Benefits
+- Base salary: $168,000 – $252,000 USD
+- Highly competitive equity grants
+- Platinum healthcare (medical, dental, vision)
+- 16 weeks paid Caregiver & Wellness Leave
+- Fertility, adoption, and parenting support
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
+- 401(k) with traditional and Roth options
+- Relocation assistance (if eligible)
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-robotics-engineer-maneuver-dominance-in-anduril-at-united-states-united-states"
+}
+,
+
+
+
+
+{
+  applyUrl: "https://www.arrivelogistics.com/job/senior-software-engineer-3/",
+  companyName: "arrivelogistics",
+  companyLogo: "/images/arrivelogistics.png",
+  location: "Foster City",
+  jobTitle: "Senior Software Engineer – Backend",
+  jobType: "Full-time",
+  jobCategory: "Backend",
+  mainDescription: `Job Title: Senior Software Engineer – Backend
+Location: Austin, Texas (Hybrid)
+Department: Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+Arrive Logistics is hiring a Senior Backend Engineer to help build and scale its proprietary ArriveNOW platform, which automates freight brokerage operations. You’ll lead the design and development of enterprise-grade software solutions, mentor engineers, and collaborate across teams to deliver high-quality, impactful systems.
+
+🔧 Key Responsibilities
+- Design and implement medium to large-scale technical solutions
+- Own the full SDLC: development, testing, deployment, and monitoring
+- Collaborate with Product, Data, and Engineering teams to solve cross-functional challenges
+- Establish and promote engineering best practices and standards
+- Conduct code reviews and ensure test coverage and documentation
+- Mentor team members and contribute to technical leadership
+- Participate in guild talks and organization-wide initiatives
+
+✅ Required Qualifications
+- 4+ years of software engineering experience
+- Strong experience with .NET and enterprise software development
+- Proficiency in system design, architecture, and problem-solving
+- Experience with Microsoft Azure, React, Redux, and GraphQL (preferred)
+- Strong communication skills for technical and non-technical audiences
+- Passion for documentation, monitoring, and alerting
+
+💰 Compensation & Benefits
+- Base salary: $132,000 – $165,000 USD
+- Matching 401(k) program
+- Medical, dental, vision, life, and disability coverage
+- 100% paid parental leave
+- Paid holidays, vacation, and wellness days
+- Onsite gym, coffee bar, and free parking
+- Relocation assistance available
+- Casual dress code and vibrant office culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-software-engineer-backend-in-arrivelogistics-at-foster-city-anywhere"
+}
+, 
+
+
+{
+  applyUrl: "https://jobs.lever.co/oowlish/f796b0c8-46b5-47c6-a9b3-7b2b4a231355",
+  companyName: "oowlish",
+  companyLogo: "/images/oowlish.png",
+  location: "Brazil",
+  jobTitle: "Full Stack Developer – React.js + Node.js (GCP & AI Integration)",
+  jobType: "Remote",
+  jobCategory: "Full Stack",
+  mainDescription: `Job Title: Full Stack Developer – React.js + Node.js (GCP & AI Integration)
+Location: Remote (Brazil, Argentina, Mexico, or other LATAM regions)
+Department: IT Operations – JavaScript Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Oowlish Technology is hiring a Full Stack Developer to lead the migration of an existing Elixir/Phoenix platform to a modern stack using React.js, Node.js, and PostgreSQL. This hands-on role involves full ownership of development, deployment, and optimization, with a strong emphasis on AI integration and Google Cloud Platform (GCP) infrastructure.
+
+🔧 Key Responsibilities
+- Migrate legacy systems to React + Node.js + PostgreSQL
+- Build scalable front-end applications using React.js
+- Develop robust back-end services with Node.js (Express, Nest.js, etc.)
+- Integrate AI APIs (OpenAI, Claude, Gemini) for advanced features
+- Deploy and manage applications on GCP, including CI/CD and hosting
+- Work with SQL and NoSQL databases (PostgreSQL, Firestore)
+- Collaborate with stakeholders to ensure best practices in architecture and deployment
+
+✅ Required Skills
+- Proven experience with React.js and Node.js
+- Familiarity with AI API integration (LLMs and external services)
+- Strong knowledge of PostgreSQL and Firestore
+- Hands-on experience with GCP and Firebase
+- Ownership of DevOps, including CI/CD pipelines and cloud hosting
+
+🌟 Nice to Have
+- Experience with TypeScript
+- Familiarity with Python or Elixir for legacy codebase understanding
+
+💰 Benefits & Perks
+- Remote work and flexible hours
+- Competitive compensation
+- Career development plans
+- International projects
+- Oowlish English Program (technical and conversational)
+- Fitness program with Total Pass
+- Pet adoption incentive
+- PTO bonus, games, and competitions
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "full-stack-developer-react-js-node-js-gcp-ai-integration-in-oowlish-at-brazil-brazil"
+}
+, 
+
+
+
+
+  
+
+{
+  applyUrl: "https://jobs.lever.co/eqbank/449d1526-80b9-46b0-a1f5-214b16e1a591",
+  companyName: "eqbank",
+  companyLogo: "/images/eqbank.png",
+  location: "Toronto",
+  jobTitle: "Senior Security Engineer",
+  jobType: "Hybrid",
+  jobCategory: "Security",
+  mainDescription: `Job Title: Senior Security Engineer
+Location: Toronto, Ontario (Hybrid)
+Department: Information Security
+Employment Type: Full-Time
+
+🧠 Role Overview
+Equitable Bank is seeking a Senior Security Engineer with deep expertise in cloud security, Zero Trust architecture, and SASE models. You’ll lead efforts in threat detection, incident response, and security engineering, while supporting compliance and audit requirements. This role is pivotal in strengthening the bank’s security posture across cloud and on-prem environments.
+
+🔧 Key Responsibilities
+- Monitor and tune ZTNA services, SIEM, and WAF tools
+- Lead incident response, forensic investigations, and mitigation strategies
+- Deploy and maintain Akamai Web Application Security, Aqua Security, and other cloud-native tools
+- Integrate security into Azure DevOps, AKS, PCF, and Docker pipelines
+- Develop dashboards, playbooks, and detection use cases
+- Collaborate with internal teams and external vendors, auditors, and regulators
+- Conduct vulnerability assessments and penetration testing
+- Maintain documentation and support compliance (e.g., PCI DSS, ISO 27001, NIST)
+
+✅ Required Qualifications
+- 8+ years in information security roles
+- Advanced degree in Computer Science or related field (preferred)
+- Experience with AWS, Azure, GCP, and cloud security tooling
+- Familiarity with SIEM, SOAR, DLP, IAM, PKI, and endpoint protection
+- Strong knowledge of network protocols (TCP/IP, DNS, SSL, etc.)
+- CISSP or equivalent certification (preferred)
+- Excellent communication and analytical skills
+- Experience in banking or financial services (asset)
+
+💰 Compensation & Benefits
+- Competitive discretionary bonus
+- Market-leading RRSP match program
+- Medical, dental, vision, life, and disability coverage
+- Employee Share Purchase Plan
+- Maternity/Parental top-up
+- Generous vacation and personal days
+- Annual professional development allowance
+- Virtual events and inclusive culture
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-security-engineer-in-eqbank-at-toronto-canada"
+}
+, 
+
+
+
+
+{
+  applyUrl: "https://jobs.lever.co/eqbank/e3fece20-97cd-4d3c-99c5-ab957f848925",
+  companyName: "eqbank",
+  companyLogo: "/images/eqbank.png",
+  location: "Toronto",
+  jobTitle: "Software Engineer II, Full-stack - Money Movement or Global FX",
+  jobType: "Hybrid",
+  jobCategory: "Software",
+  mainDescription: `Job Title: Software Engineer II, Full-stack – Money Movement or Global FX
+Location: Toronto, Ontario (Hybrid)
+Department: Digital Banking & Channel Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+Equitable Bank is hiring a Full-stack Software Engineer to help evolve its experience platform into a modern micro-frontend architecture using Azure Cloud, DevOps, and API/PaaS services. You’ll work on high-impact money movement and FX systems, collaborating with cross-functional teams to deliver scalable, secure, and customer-centric banking solutions.
+
+🔧 Key Responsibilities
+- Develop and maintain front-end and back-end applications
+- Collaborate with Senior Engineers and Tech Leads on architecture and delivery
+- Participate in code reviews, enforce coding standards, and optimize performance
+- Troubleshoot complex technical issues and support production deployments
+- Integrate frontend applications with RESTful APIs and third-party services
+- Contribute to CI/CD pipelines, testing, and technical documentation
+- Participate in SCRUM meetings and agile development cycles
+
+✅ Required Skills & Experience
+- Bachelor’s degree in Computer Science or equivalent
+- 5–7 years of experience in web & API development
+- Proficiency in JavaScript/TypeScript, Angular, CSS, HTML, Java 7+, and Spring Boot
+- Experience with Flutter or React Native is a plus
+- Strong understanding of OOP, functional programming, and secure coding practices
+- Familiarity with SQL databases, Git, CI/CD tools, and automated testing
+- Excellent communication, problem-solving, and collaboration skills
+
+💰 Compensation & Benefits
+- Competitive discretionary bonus
+- Market-leading RRSP match program
+- Medical, dental, vision, life, and disability benefits
+- Employee Share Purchase Plan
+- Maternity/Parental top-up
+- Generous vacation and personal days
+- Annual professional development allowance
+- Virtual events and career growth support
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "software-engineer-ii-full-stack-money-movement-or-global-fx-in-eqbank-at-toronto-canada"
+}
+, 
+
+{
+  applyUrl: "https://job-boards.greenhouse.io/monzo/jobs/6076740",
+  companyName: "monzo",
+  companyLogo: "/images/monzo.png",
+  location: "Cardiff",
+  jobTitle: "Senior Analytics Engineer",
+  jobType: "Remote",
+  jobCategory: "Analyst",
+  mainDescription: `Job Title: Senior Analytics Engineer
+Location: Cardiff, London, or Remote (UK)
+Department: Data Science & Analytics
+Employment Type: Full-Time
+
+🧠 Role Overview
+Monzo is hiring a Senior Analytics Engineer to help build a high-quality, scalable, and performant data warehouse that powers decision-making, financial reconciliation, and advanced analytics. You’ll work closely with product, engineering, and data science teams to define best practices and optimize data pipelines across the business.
+
+🔧 Key Responsibilities
+- Build robust data models downstream of backend services (primarily in BigQuery)
+- Optimize warehouse performance and reduce complexity and cost
+- Define and manage data modeling, metadata, and testing standards
+- Collaborate across teams to improve data quality and governance
+- Support internal reporting, machine learning, and regulatory use cases
+- Participate in on-call support for pipelines you contribute to
+
+✅ Required Qualifications
+- Strong passion for data modeling, ETL, and Big Data
+- Proficiency in SQL and general data warehousing concepts
+- Experience working with financial, transactional, and operational data streams
+- Strategic thinking around business banking and data-driven insights
+- Commitment to continuous improvement and cross-functional collaboration
+
+🌟 Nice-to-Have Skills
+- Experience in finance, accounting, or regulated industries
+- Knowledge of regulatory reporting and treasury operations
+- Exposure to Python, Go, Airflow, Luigi, dbt, or dataform
+- Familiarity with Agile methodologies (Kanban, Scrum)
+
+💰 Compensation & Benefits
+- Salary: £76,500 – £95,000 per year
+- Visa sponsorship and relocation support available
+- Flexible working hours and remote-friendly within the UK
+- £1,000 annual learning budget
+- Generous PTO and paid sabbatical after 4 years
+- 18 weeks paid parental leave
+`,
+  status: "approved",
+  isFeatured: true,
+  requirements: "",
+  submittedDate: new Date().toISOString(),
+  id: "senior-analytics-engineer-in-monzo-at-cardiff-united-kingdom"
+}
+ , 
+
   // 9-7-25
 {
   applyUrl: "https://wise.jobs/job/software-engineering-lead-latin-america-in-sao-paulo-jid-1744",
@@ -171,7 +1050,6 @@ Deloitte is hiring an experienced Azure Cloud Engineer to support long-term clie
 - Access to professional development, mentorship, and inclusive culture
 - Comprehensive benefits package
 
-You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -225,7 +1103,7 @@ Deloitte is seeking a Cyber Defense Manager to lead the design, implementation, 
 - Eligibility for annual incentive program
 - Comprehensive benefits and professional development opportunities
 
-You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Deloitte’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -381,7 +1259,7 @@ ELEKS is seeking an experienced QA professional to join a project for a UK-based
 - A dynamic and supportive team environment
 - Influence over project technologies and QA strategy
 
-You can view the full listing and apply directly on ELEKS’ careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on ELEKS’ careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -775,7 +1653,7 @@ Comcast is seeking a senior-level engineer to lead the reliability and operation
 - Comprehensive benefits: health, dental, vision, life, disability
 - Tools and support for physical, financial, and emotional well-being
 
-You can view the full job listing and apply directly on Comcast’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full job listing and apply directly on Comcast’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -890,7 +1768,7 @@ Equitable Bank is seeking a Senior Data Engineer to design, build, and maintain 
 - Annual professional development allowance
 - Hybrid work model from downtown Toronto
 
-You can view the full listing and apply directly on Built In or AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Built In or AIJobs.net.
 `,
   status: "approved",
   isFeatured: true,
@@ -940,7 +1818,7 @@ Zoox is hiring a Machine Learning Engineer to join its Offline Driving Intellige
 - Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
 - Comprehensive benefits: health, life, disability insurance, and generous paid time off
 
-You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Zoox’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -994,7 +1872,7 @@ Zoox is hiring a Software Engineering Manager to lead the Robot Link Platform te
 🌍 About Zoox
 Zoox is building the first fully autonomous, purpose-built robotaxi and the ecosystem to support it. With a focus on urban mobility, Zoox blends robotics, machine learning, and design to redefine transportation.
 
-You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Zoox’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -1047,7 +1925,7 @@ Zoox is hiring a Senior or Staff ML Engineer to lead the development of Generati
 - Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
 - Comprehensive benefits: health, life, disability, long-term care insurance, and generous paid time off
 
-You can view the full listing and apply directly on AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on AIJobs.net. 
 `,
   status: "approved",
   isFeatured: true,
@@ -2590,7 +3468,7 @@ Production Organization
 - Casual, creative work environment
 - Snack-filled rest areas and a relaxed dress code
 
-You can explore the full listing and apply directly on Fanatee’s official careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can explore the full listing and apply directly on Fanatee’s official careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -3522,7 +4400,7 @@ Cyclotron is seeking a technically skilled Microsoft Purview Compliance Engineer
 🎓 Education
 - Bachelor’s degree in Computer Science, Information Technology, Cybersecurity, or a related field
 
-You can apply directly through Cyclotron’s job portal or Remotive’s listing. Let me know if you’d like help preparing your résumé or answering the technical questionnaire!
+You can apply directly through Cyclotron’s job portal or Remotive’s listing. 
 `,
   status: "approved",
   isFeatured: true,
@@ -5542,7 +6420,7 @@ Employment Type: Full-Time
 - SaaS architecture and ROI analysis
 - Certifications: AWS, Azure, GCP, TOGAF
 
-You can view the full listing and apply directly on Wellfound’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Wellfound’s job board. 
 `,
   status: "approved",
   isFeatured: true,
@@ -6225,7 +7103,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. 
 `,
   status: "approved",
   isFeatured: true,
@@ -6282,7 +7160,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on 3Pillar Global’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -6344,7 +7222,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on 3Pillar Global’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -6459,8 +7337,7 @@ Lendbuzz is seeking an Application Security Engineer to help secure its financia
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
-
+  mainDescription: `
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
 Department: Engineering – Machine Learning Platform
@@ -6495,7 +7372,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -6672,7 +7549,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -8072,8 +8949,7 @@ Brillio is a fast-growing digital technology services company known for its inno
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
-
+  mainDescription: `
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
 Department: Engineering – Machine Learning Platform
@@ -8108,7 +8984,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -8285,7 +9161,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -8558,7 +9434,7 @@ Critical Mass is seeking a master storyteller and strategic leader to guide larg
 - Salary Range: $220,000 – $250,000 USD
 - Final offer based on experience, skills, and internal equity
 
-You can view the full job description and apply directly on Critical Mass’s careers page. Let me know if you’d like help crafting a tailored résumé or preparing a standout portfolio—I’d be happy to assist!
+You can view the full job description and apply directly on Critical Mass’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -11064,7 +11940,6 @@ Ongoing contributions:
 - CSR Charter
 - Tech stack & teams
 
-Let me know if you’d like help tailoring this for your résumé, cover letter, or recruiter pitch—I can help sharpen your edge.
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'devops-engineer-in-360learning-paris-france'}, 
 
 

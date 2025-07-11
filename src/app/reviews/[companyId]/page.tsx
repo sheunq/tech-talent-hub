@@ -40,7 +40,7 @@ interface Review {
 }
 
 const mockCompanies: Company[] = [
-  { id: 'innovate-solutions', name: 'Innovate Solutions', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'Innovate Solutions logo' },
+  { id: 'Grammarly', name: 'Grammarly', logoUrl: '/images/grammarly.png', imageHint: 'grammarly logo' },
   { id: 'skynet-systems', name: 'SkyNet Systems', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'SkyNet Systems logo' },
   { id: 'pixel-perfect-co', name: 'Pixel Perfect Co.', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'Pixel Perfect logo' },
   { id: 'dev-solutions', name: 'DevSolutions', logoUrl: '/images/devsolutions-logo.png', imageHint: 'DevSolutions logo' },
