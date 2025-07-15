@@ -249,7 +249,7 @@ Xero is hiring a Software Engineer to build high-quality, scalable software that
 - Employee Share Plan and flexible working arrangements
 - Career development and beautiful offices with shared meals
 
-You can view the full listing and apply directly on Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Built In’s job board. 
 `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-in-xero-at-vancouver-canada"},
 
 
@@ -397,7 +397,7 @@ LexisNexis Risk Solutions is hiring a Software Engineer III to join its Site Rel
 - Health savings and commuter spending accounts
 - Paid time off and volunteer leave
 
-You can view the full listing and apply directly on Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Built In’s job board. 
 `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "technology-software-engineer-iii-in-lexisnexis-at-united-states-united-states"},
 
 
@@ -439,7 +439,7 @@ ICIS is the world’s largest information provider for petrochemical and energy 
 
 
 
-,{ applyUrl: "https://easebuzz.hire.trakstar.com/jobs/fk0pgej/", companyName: "easebuzz", companyLogo: "/images/easebuzz.png", location: "Pune, India", jobTitle: "Data Engineering", jobType: "Full-time", jobCategory: "Data", mainDescription: `Here’s a structured and professional summary of the Data Engineering role at Easebuzz:
+,{ applyUrl: "https://easebuzz.hire.trakstar.com/jobs/fk0pgej/", companyName: "easebuzz", companyLogo: "/images/easebuzz.png", location: "Pune, India", jobTitle: "Data Engineering", jobType: "Full-time", jobCategory: "Data", mainDescription: `
 
 Job Title: Associate Manager (Research) – Data Engineering
 Location: Pune, India
@@ -624,7 +624,7 @@ Deloitte is hiring a hands-on Full-Stack Software Engineering Manager to lead hi
 - Eligibility for discretionary annual incentive program
 - Broad range of benefits including health, retirement, and professional development
 
-You can view the full listing and apply directly on Deloitte’s careers portal. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Deloitte’s careers portal.
 `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "manager-full-stack-net-software-engineer-tax-domain-in-deloitte-at-United-States"},
 
 
@@ -877,8 +877,7 @@ CRB Workforce is hiring a Solutions Architect to lead the design and implementat
 
 
 
-{ applyUrl: "https://jobs.lever.co/3pillarglobal/0548ad67-613f-4a20-93c6-ea470f1fba8f", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Czech Republic", jobTitle: "Senior DevOps Engineer", jobType: "Remote", jobCategory: "Devops", mainDescription: `Here’s a structured and professional summary of the Senior DevOps Engineer role at 3Pillar Global:
-
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/0548ad67-613f-4a20-93c6-ea470f1fba8f", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Czech Republic", jobTitle: "Senior DevOps Engineer", jobType: "Remote", jobCategory: "Devops", mainDescription: `
 Job Title: Senior DevOps Engineer
 Location: Remote – Czech Republic
 Department: Product Development
@@ -1356,7 +1355,7 @@ Fox Corporation is hiring a Systems Engineer to design, deploy, and evolve its e
 - 401(k) plan and paid time off
 - Additional benefits per union agreements
 
-You can view the full listing and apply directly on Fox Careers. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Fox Careers.
 `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "systems-engineer-in-foxcareers-at-new-york-united-states"},
 
 
@@ -1401,7 +1400,7 @@ Epiq is hiring a Senior Power BI Developer to lead the design and deployment of 
 `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-power-bi-in-epiqsystems-at-foster-city-anywhere"},
 
 
-{ applyUrl: "https://jobs.lever.co/compassx/7744cb50-db6d-40b1-a034-1b3d6ecd71d5", companyName: "compassx", companyLogo: "/images/compassx.png", location: "EU/UK", jobTitle: "Data Analyst (Data Governance and Power BI) (EU Based)", jobType: "Remote", jobCategory: "Analyst", mainDescription: `Here’s a structured and professional summary of the Data Analyst (Data Governance and Power BI) role at CompassX:
+{ applyUrl: "https://jobs.lever.co/compassx/7744cb50-db6d-40b1-a034-1b3d6ecd71d5", companyName: "compassx", companyLogo: "/images/compassx.png", location: "EU/UK", jobTitle: "Data Analyst (Data Governance and Power BI) (EU Based)", jobType: "Remote", jobCategory: "Analyst", mainDescription: `
 
 Job Title: Data Analyst – Data Governance and Power BI
 Location: Remote – EU/UK Based
@@ -2766,7 +2765,7 @@ Deloitte is hiring a Project Delivery Specialist to support its Government and P
 `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "project-delivery-specialist-java-development-in-deloitte-at-united-states-united-states"}, 
 
 
-{ applyUrl: "https://job-boards.greenhouse.io/strava/jobs/6855860", companyName: "strava", companyLogo: "/images/strava.png", location: "San Francisco", jobTitle: "Staff Server Engineer, Trust & Safety", jobType: "Full-time", jobCategory: "Engineer", mainDescription: `Here’s a structured and professional summary of the Staff Server Engineer – Trust & Safety role at Strava:
+{ applyUrl: "https://job-boards.greenhouse.io/strava/jobs/6855860", companyName: "strava", companyLogo: "/images/strava.png", location: "San Francisco", jobTitle: "Staff Server Engineer, Trust & Safety", jobType: "Full-time", jobCategory: "Engineer", mainDescription: `
 
 Job Title: Staff Server Engineer – Trust & Safety
 Location: San Francisco, California (Hybrid – ~3 days/week on-site)
@@ -3630,7 +3629,7 @@ Deloitte is hiring an experienced Azure Cloud Engineer to support long-term clie
 - Access to professional development, mentorship, and inclusive culture
 - Comprehensive benefits package
 
-You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Deloitte’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -3684,7 +3683,7 @@ Deloitte is seeking a Cyber Defense Manager to lead the design, implementation, 
 - Eligibility for annual incentive program
 - Comprehensive benefits and professional development opportunities
 
-You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Deloitte’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -3840,7 +3839,7 @@ ELEKS is seeking an experienced QA professional to join a project for a UK-based
 - A dynamic and supportive team environment
 - Influence over project technologies and QA strategy
 
-You can view the full listing and apply directly on ELEKS’ careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on ELEKS’ careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -4234,7 +4233,7 @@ Comcast is seeking a senior-level engineer to lead the reliability and operation
 - Comprehensive benefits: health, dental, vision, life, disability
 - Tools and support for physical, financial, and emotional well-being
 
-You can view the full job listing and apply directly on Comcast’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full job listing and apply directly on Comcast’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -4349,7 +4348,7 @@ Equitable Bank is seeking a Senior Data Engineer to design, build, and maintain 
 - Annual professional development allowance
 - Hybrid work model from downtown Toronto
 
-You can view the full listing and apply directly on Built In or AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Built In or AIJobs.net. 
 `,
   status: "approved",
   isFeatured: true,
@@ -4399,7 +4398,7 @@ Zoox is hiring a Machine Learning Engineer to join its Offline Driving Intellige
 - Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
 - Comprehensive benefits: health, life, disability insurance, and generous paid time off
 
-You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Zoox’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -4453,7 +4452,7 @@ Zoox is hiring a Software Engineering Manager to lead the Robot Link Platform te
 🌍 About Zoox
 Zoox is building the first fully autonomous, purpose-built robotaxi and the ecosystem to support it. With a focus on urban mobility, Zoox blends robotics, machine learning, and design to redefine transportation.
 
-You can view the full listing and apply directly on Zoox’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Zoox’s careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -4506,7 +4505,7 @@ Zoox is hiring a Senior or Staff ML Engineer to lead the development of Generati
 - Additional compensation: Amazon RSUs, Zoox Stock Appreciation Rights, and potential sign-on bonus
 - Comprehensive benefits: health, life, disability, long-term care insurance, and generous paid time off
 
-You can view the full listing and apply directly on AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on AIJobs.net.
 `,
   status: "approved",
   isFeatured: true,
@@ -6046,7 +6045,7 @@ Production Organization
 - Casual, creative work environment
 - Snack-filled rest areas and a relaxed dress code
 
-You can explore the full listing and apply directly on Fanatee’s official careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can explore the full listing and apply directly on Fanatee’s official careers page. 
 `,
   status: "approved",
   isFeatured: true,
@@ -6978,7 +6977,7 @@ Cyclotron is seeking a technically skilled Microsoft Purview Compliance Engineer
 🎓 Education
 - Bachelor’s degree in Computer Science, Information Technology, Cybersecurity, or a related field
 
-You can apply directly through Cyclotron’s job portal or Remotive’s listing. Let me know if you’d like help preparing your résumé or answering the technical questionnaire!
+You can apply directly through Cyclotron’s job portal or Remotive’s listing.
 `,
   status: "approved",
   isFeatured: true,
@@ -8998,7 +8997,7 @@ Employment Type: Full-Time
 - SaaS architecture and ROI analysis
 - Certifications: AWS, Azure, GCP, TOGAF
 
-You can view the full listing and apply directly on Wellfound’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on Wellfound’s job board. 
 `,
   status: "approved",
   isFeatured: true,
@@ -9681,7 +9680,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on 3Pillar’s careers page or Built In’s job board. 
 `,
   status: "approved",
   isFeatured: true,
@@ -9738,7 +9737,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on 3Pillar Global’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -9800,7 +9799,7 @@ Employment Type: Full-Time
 - Virtual team-building activities and badge discounts
 - Work-from-home flexibility and career development support
 
-You can view the full listing and apply directly on 3Pillar Global’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+You can view the full listing and apply directly on 3Pillar Global’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -9907,7 +9906,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -10084,7 +10083,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -11519,7 +11518,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -11696,7 +11695,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -13131,7 +13130,7 @@ Viator, a Tripadvisor company, is expanding its Machine Learning Platform to mee
 Viator is the world’s leading marketplace for travel experiences, offering over 300,000 activities. With a mission to make every day extraordinary, Viator empowers travelers with flexibility, last-minute availability, and unforgettable memories.
 
 You can view the full listing and apply directly on Tripadvisor’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -13308,7 +13307,7 @@ Atlassian is looking for a Fullstack Engineer to join the Jira Align team. You�
 More details: Atlassian Perks & Benefits
 
 You can view the full listing and apply directly on Atlassian’s careers page.
-Let me know if you’d like help tailoring your résumé or prepping for the interview—I’d be happy to assist!
+
 `,
   status: "approved",
   isFeatured: true,
@@ -13580,7 +13579,7 @@ Critical Mass is seeking a master storyteller and strategic leader to guide larg
 - Salary Range: $220,000 – $250,000 USD
 - Final offer based on experience, skills, and internal equity
 
-You can view the full job description and apply directly on Critical Mass’s careers page. Let me know if you’d like help crafting a tailored résumé or preparing a standout portfolio—I’d be happy to assist!
+You can view the full job description and apply directly on Critical Mass’s careers page.
 `,
   status: "approved",
   isFeatured: true,
@@ -16087,7 +16086,7 @@ Ongoing contributions:
 - CSR Charter
 - Tech stack & teams
 
-Let me know if you’d like help tailoring this for your résumé, cover letter, or recruiter pitch—I can help sharpen your edge.
+
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'devops-engineer-in-360learning-paris-france'}, 
 
 
