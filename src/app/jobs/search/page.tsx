@@ -8,6 +8,1398 @@ import { Loader2 } from 'lucide-react';
 // Mock data to be used if the database is empty or fetching fails on the server.
 const mockJobsData: BackendStoredJob[] = [
 
+{ applyUrl: "https://job-boards.greenhouse.io/harbingermotors/jobs/4769309007", companyName: "harbingermotors", companyLogo: "/images/harbingermotors.png", location: "Garden Grove, California, USA", jobTitle: "Software Test Engineer, Infotainment", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Software Test Engineer – Infotainment
+Location: Garden Grove, California, USA
+Employment Type: Full-Time
+Salary Range: $100,000 – $140,000 USD
+
+🧠 Role Overview
+Harbinger Motors is hiring a Software Test Engineer to ensure the quality and reliability of its advanced infotainment systems for electric vehicles. You’ll develop automated testing frameworks, validate embedded systems, and collaborate with cross-functional teams to deliver high-performance user experiences.
+
+🔧 Key Responsibilities
+- Build and maintain automated test frameworks using Python, Pytest, and OpenCV
+- Apply Behavior-Driven Development (BDD) with Gherkin syntax
+- Conduct system-level testing on Yocto and Automotive Grade Linux (AGL)
+- Develop and execute test plans, strategies, and cases
+- Identify and track software defects, collaborating with developers for resolution
+- Participate in design/code/test case reviews
+- Continuously improve testing tools and methodologies
+- Provide clear test reports and metrics to stakeholders
+
+✅ Required Skills & Experience
+- Proficiency in Python, Pytest, and OpenCV
+- Experience with embedded Linux systems and infotainment testing
+- Familiarity with BDD methodologies and Gherkin syntax
+- Strong grasp of software testing principles and version control (e.g., Git)
+- Excellent problem-solving and communication skills
+- Ability to work independently in a fast-paced environment
+
+🌟 Preferred Qualifications
+- Bachelor’s degree in Computer Science, Electrical Engineering, or related field
+- Experience with CAN, Ethernet, and CI/CD pipelines
+- Familiarity with Jira, TestRail, and HMI testing
+
+💼 Benefits & Perks
+- 100% employer-covered Health, Dental & Vision
+- Early-stage stock options
+- 401(k), HSA, and FSA retirement savings
+- Generous PTO and parental leave
+- Annual vacation bonus
+- Wellness & fertility benefits
+- Cell phone stipend
+- Complimentary meals and stocked kitchens
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-test-engineer-infotainment-in-harbingermotors-at-Garden-Grove-California-USA"}
+
+,
+{ applyUrl: "https://job-boards.greenhouse.io/harbingermotors/jobs/4771620007", companyName: "harbingermotors", companyLogo: "/images/harbingermotors.png", location: "Garden Grove, California", jobTitle: "Intern, Test Engineering", jobType: "Hybrid", jobCategory: "Engineer", mainDescription: `Job Title: Intern, Test Engineering
+Location: Garden Grove, California, USA
+Employment Type: Full-Time Internship
+Pay Range: $25–$35 USD/hour
+
+🧠 Role Overview
+Harbinger Motors is seeking an ambitious engineering student to join its Test Engineering team. You’ll contribute to the development and validation of vehicle components for Harbinger’s innovative EV platform, working alongside experts in battery, drivetrain, and manufacturing engineering.
+
+🔧 Key Responsibilities
+- Assist in testing mechanical, electrical, and thermal components for performance and reliability
+- Set up and monitor test equipment and collect data
+- Analyze results and document findings for senior engineers
+- Support development of test procedures and infrastructure
+- Collaborate with cross-functional teams to suggest improvements
+- Maintain and calibrate lab equipment
+- Participate in team meetings and assist with root-cause analysis
+
+✅ Required Qualifications
+- Enrolled in a Bachelor’s or higher program in electrical, mechanical, or mechatronics engineering
+- Familiarity with schematics, data acquisition hardware, and test scripting
+- Authorized to work in the U.S. or able to obtain a work visa
+- Motivated to learn and take ownership of projects
+
+🌟 Preferred Skills
+- Experience with CATIA 3DExperience, Python, and LabVIEW
+- Understanding of GD&T, HV architecture, and manufacturing processes
+- Prior experience in automotive projects
+
+💼 Benefits & Perks
+- 100% employer-covered Health, Dental & Vision
+- Early-stage stock options
+- 401(k), HSA, FSA retirement savings
+- Generous PTO & parental leave
+- Annual vacation bonus
+- Wellness & fertility benefits
+- Cell phone stipend
+- Complimentary meals and stocked kitchens
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "intern-test-engineering-in-harbingermotors-at-Garden-Grove-California"},
+
+
+
+{ applyUrl: "https://smrtr.io/rKqMc", companyName: "portonics", companyLogo: "/images/portonics.png", location: "Bangladesh", jobTitle: "Software Engineer (iOS)", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Software Engineer (iOS)
+Location: Gulshan Avenue, Dhaka, Bangladesh (Hybrid)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Portonics is hiring an iOS Developer to build high-performance mobile applications that serve millions of users across telecom, payments, e-commerce, and financial sectors. You’ll work on advanced features, collaborate across teams, and contribute to digital transformation initiatives in a fast-paced, innovation-driven environment.
+
+🔧 Key Responsibilities
+- Design and develop advanced iOS applications using SwiftUI
+- Collaborate with cross-functional teams to define and ship new features
+- Conduct unit testing and improve app performance and reliability
+- Integrate Device APIs like Core Location, Contacts, and AVFoundation
+- Participate in full product lifecycle: requirements, design, development, testing, deployment
+- Conduct code reviews and resolve complex technical issues
+- Stay current with mobile development trends and lead strategic responses
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field
+- 3+ years of experience in iOS development
+- Strong proficiency in SwiftUI, MVVM-C, Combine, and Reactive Programming
+- Experience with RESTful APIs, CocoaPods, and Package Dependency
+- Familiarity with Apple’s design principles, UI/UX best practices, and version control tools (GitHub, Bitbucket)
+- Knowledge of third-party libraries like Alamofire and Firebase
+
+🌟 Preferred Experience
+- Cross-platform development (Flutter, Android Studio)
+- CI/CD tools (Xcode Cloud, Jenkins)
+- Experience with containerization, virtualization, and App Store deployment
+- Familiarity with Postman, Android SDK, and Emulators
+
+💼 Work Culture & Benefits
+- Hybrid work model with global collaboration
+- Flat culture that encourages ownership and creativity
+- Opportunity to work on high-traffic applications with 40M+ users
+- Offices in Bangkok, Dhaka, and the US
+- Inclusive and diverse team environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-ios-in-portonics-at-bangladesh-bangladesh"}
+
+
+
+,{ applyUrl: "https://smrtr.io/rKqT6", companyName: "portonics", companyLogo: "/images/portonics.png", location: "Bangladesh", jobTitle: "Software Engineer (Flutter)", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Software Engineer (Flutter)
+Location: Gulshan Avenue, Dhaka, Bangladesh (Hybrid)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Portonics is hiring a Flutter Developer to build high-performance mobile applications for Android, iOS, and web platforms. You’ll work on large-scale, high-traffic products used by over 40 million users, collaborating with cross-functional teams to deliver innovative digital solutions across telecom, payments, e-commerce, and financial sectors.
+
+🔧 Key Responsibilities
+- Design and develop advanced native applications using Flutter and Dart
+- Collaborate with UI/UX designers and testers to ensure app quality
+- Implement secure coding practices and data protection measures
+- Monitor app performance and user feedback for continuous improvement
+- Participate in the full product lifecycle: requirements, design, development, testing, deployment
+- Resolve complex technical issues and contribute to architectural decisions
+- Maintain and update apps with bug fixes and new features
+- Stay current with technology trends and apply them to development
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or related field
+- 3+ years of experience in Flutter and native Android/iOS development
+- Proficiency in Dart, Android Studio, VS Code, and Xcode
+- Strong understanding of OOP, state management, and app architecture
+- Experience with RESTful APIs, Firebase, Apple Push Notification, and Huawei Mobile Services
+- Familiarity with BLoC, Provider, or Riverpod patterns
+- Skilled in Git, Gradle, ProGuard, and writing unit/instrumented tests
+
+🌟 Preferred Experience
+- Knowledge of gRPC/GraphQL integration
+- Familiarity with Android lifecycle, coroutines, and Postman
+- Experience publishing apps to Play Store and App Store
+- Understanding of virtualization and containerization for scalability
+
+💼 Work Culture & Benefits
+- Hybrid work model with global collaboration
+- Flat culture that encourages ownership and creativity
+- Opportunity to work on impactful products with millions of users
+- Offices in Bangkok, Dhaka, and the US
+- Inclusive and diverse team environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-flutter-in-portonics-at-bangladesh-bangladesh"},
+
+
+
+
+{ applyUrl: "https://smrtr.io/sm-KD", companyName: "portonics", companyLogo: "/images/portonics.png", location: "Bangladesh", jobTitle: "AI Engineer", jobType: "Hybrid", jobCategory: "AI", mainDescription: `Job Title: AI Engineer
+Location: Gulshan Avenue, Dhaka, Bangladesh (Hybrid)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Portonics is hiring an AI Engineer to design and implement cutting-edge AI solutions using Large Language Models (LLMs) and modern orchestration frameworks. You’ll work on real-world applications across telecom, payments, e-commerce, and financial sectors, contributing to digital transformation initiatives in emerging markets.
+
+🔧 Key Responsibilities
+- Develop AI solutions using LLMs like Llama, Mistral, and GPT variants
+- Build applications with LangChain, LlamaIndex, and similar tools
+- Integrate AI with existing systems and applications
+- Create custom pipelines using RAG, vector databases, and semantic search
+- Build and maintain MLOps pipelines for deployment and monitoring
+- Implement prompt engineering strategies and frameworks
+- Collaborate with cross-functional teams to gather requirements and deliver solutions
+- Stay current with AI research and industry best practices
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, AI, or related field
+- 3+ years of experience in AI development
+- Strong proficiency in Python and modern development practices
+- Familiarity with Transformer-based architectures and embedding models
+- Understanding of vector databases and performance optimization
+
+🌟 Preferred Experience
+- Experience with AWS, Azure, or Google Cloud
+- Familiarity with Hadoop, Spark, or Kafka
+- Strong communication skills for technical and non-technical audiences
+
+💼 Work Culture & Benefits
+- Hybrid work model with global collaboration
+- Opportunity to work on high-traffic applications with 40M+ users
+- Flat culture that encourages ownership and creativity
+- Offices in Bangkok, Dhaka, and the US
+- Inclusive and diverse team environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "ai-engineer-in-portonics-at-bangladesh-bangladesh"}
+,  
+{ applyUrl: "https://jobs.lever.co/xero/53f5c6de-54e9-4f11-9a52-2d0c07b7790a", companyName: "xero", companyLogo: "/images/xero.png", location: "Vancouver", jobTitle: "Software Engineer", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Software Engineer
+Location: Vancouver, Canada (Hybrid)
+Department: Technology – Engineering
+Employment Type: Permanent
+
+🧠 Role Overview
+Xero is hiring a Software Engineer to build high-quality, scalable software that supports small businesses. You’ll work across the full development lifecycle—from design and testing to deployment and incident response—while contributing to a collaborative, agile team focused on innovation and continuous improvement.
+
+🔧 Key Responsibilities
+- Develop robust, scalable software with a focus on technical excellence
+- Automate manual processes and contribute to solution design
+- Design and implement automated testing strategies
+- Triage and resolve production issues, communicating impact clearly
+- Maintain and monitor infrastructure in production environments
+- Practice agile development and improve team processes
+- Mentor junior engineers and contribute to a culture of learning
+
+✅ Required Qualifications
+- Proficiency in Java, TypeScript, or C# .NET (bonus)
+- Specialization in one or more areas of the development stack
+- Strong debugging skills across the technology stack
+- Experience with cloud infrastructure rollout and maintenance
+- Familiarity with security best practices and resilient design patterns
+- Regular practice of test-driven development and trunk-based development
+- Proven ability to respond to production incidents
+
+💰 Compensation & Benefits
+- Salary range: $121,300 – $148,300 CAD
+- Generous paid leave and statutory holidays
+- Dedicated wellbeing leave and Employee Assistance Program
+- Health, dental, and vision coverage with a healthcare spending account
+- Fertility and family forming financial support
+- 26 weeks of parental leave for primary caregivers
+- Employee Share Plan and flexible working arrangements
+- Career development and beautiful offices with shared meals
+
+You can view the full listing and apply directly on Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-in-xero-at-vancouver-canada"},
+
+
+{ applyUrl: "https://risk.lexisnexis.com/about-us/careers/jobs/R91098", companyName: "lexisnexis", companyLogo: "/images/lexisnexis.png", location: "Netherlands", jobTitle: "Technology\nSenior Software Engineer II", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer II
+Location: Amsterdam, Netherlands (Hybrid Work Model)
+Contract Type: Fixed Term
+Schedule: 36 hours/week
+
+🧠 Role Overview
+Nextens, a division of LexisNexis Risk Solutions, is hiring a Senior Software Engineer to build robust tax software that processes millions of filings annually. You’ll design scalable systems, implement complex fiscal rules, and collaborate with domain experts to deliver accurate, future-proof solutions that support fair and efficient tax processes.
+
+🔧 Key Responsibilities
+- Develop calculation algorithms for flawless tax processing
+- Translate complex fiscal regulations into reliable software logic
+- Create and integrate submission messages for tax filings
+- Build reports and calculations that provide actionable insights
+- Collaborate with domain experts to optimize tax return workflows
+- Guide architectural decisions and take ownership of technical areas
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or equivalent experience
+- 6+ years of experience in .NET Core and Azure development
+- Fluency in Dutch and proficiency in English
+- Strong analytical and problem-solving skills
+- Collaborative mindset and ability to work across teams
+
+💼 Why Join Nextens?
+- Shape the technical direction of mission-critical systems
+- Work on software that directly impacts fiscal transparency
+- Enjoy a hybrid work model with flexibility and autonomy
+- Generous vacation days and 20 days/year to work from abroad
+- Access to a modern office near Amsterdam Sloterdijk with a gym and canteen
+- Inclusive culture focused on innovation and professional growth
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "technology-senior-software-engineer-ii-in-lexisnexis-at-netherlands-netherlands"},
+
+
+
+
+{ applyUrl: "https://risk.lexisnexis.com/about-us/careers/jobs/R91771", companyName: "lexisnexis", companyLogo: "/images/lexisnexis.png", location: "United States", jobTitle: "Technology\n.Net Core Senior Software Engineer", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: .Net Core Senior Software Engineer
+Location: Berkeley Heights, New Jersey (Hybrid)
+Department: Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+LexisNexis Risk Solutions is hiring a Senior Software Engineer to join its advanced Vector Search platform team. You’ll work across the full stack to develop AI-driven solutions that support government HR policy implementation. This role blends backend and frontend development with cloud-native architecture and a strong emphasis on technical innovation.
+
+🔧 Key Responsibilities
+- Develop and maintain backend systems using .Net Core, C#, and SQL
+- Build frontend interfaces with Angular, JavaScript, and XML
+- Design cloud-based solutions on AWS or Azure
+- Write unit tests and thrive in a test-driven development (TDD) environment
+- Collaborate with cross-functional teams to finalize requirements and translate them into software designs
+- Implement coding best practices and conduct code reviews
+- Mentor junior engineers and stay current with emerging technologies
+- Work with complex data models and resolve technical issues
+
+✅ Required Qualifications
+- Extensive experience in .Net Core, C#, and SQL
+- Strong frontend skills in Angular, JavaScript, and XML
+- Experience with cloud platforms (AWS or Azure)
+- Familiarity with unit testing and TDD
+- Passion for AI and interest in driving innovation
+- Ability to work in Agile, Waterfall, or hybrid environments
+- Strong communication and mentoring skills
+
+💰 Compensation & Benefits
+- Salary range: $102,800 – $171,300 USD
+- Comprehensive health benefits (medical, dental, vision)
+- 401(k) with match and Employee Share Purchase Plan
+- Wellness programs and Headspace subscription
+- Paid time off and volunteer leave
+- Family benefits including bonding, adoption, and surrogacy support
+- Health savings and commuter spending accounts
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "technology-net-core-senior-software-engineer-in-lexisnexis-at-united-states-united-states"}
+
+,
+
+
+
+
+{ applyUrl: "https://risk.lexisnexis.com/about-us/careers/jobs/R93931", companyName: "lexisnexis", companyLogo: "/images/lexisnexis.png", location: "India", jobTitle: "Technology\nSenior Software Engineer II", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer II
+Location: Mumbai, Maharashtra, India
+Brand: LexisNexis Risk Solutions
+Employment Type: Full-Time (40 hours/week)
+
+🧠 Role Overview
+LexisNexis Risk Solutions is hiring a Senior Software Engineer II to lead the design and development of data, API, and web solutions within its government vertical. You’ll work across multiple systems, mentor junior engineers, and translate complex customer needs into scalable software designs that support risk assessment and operational efficiency.
+
+🔧 Key Responsibilities
+- Design and develop complex system components across multiple platforms
+- Collaborate with technical teams to finalize requirements and translate them into software designs
+- Implement coding best practices, conduct code reviews, and resolve technical issues
+- Operate in Agile, Waterfall, and hybrid environments
+- Mentor junior engineers and support their onboarding and growth
+- Stay current with emerging technologies and industry best practices
+- Work with complex data models and optimize data manipulation
+
+✅ Required Qualifications
+- 7+ years of hands-on experience in Java 11+, Spring Boot, and REST APIs
+- 3+ years of experience with Angular 12+ (backend/frontend ratio: 60%/40%)
+- Strong understanding of normalized/dimensional data modeling and multiple data storage subsystems
+- Proficiency in test-driven development, data manipulation languages, and optimization techniques
+- Experience with NoSQL databases, XML/JSON, and secure coding practices (e.g., JWT, Spring Security)
+- Familiarity with DevOps tools (Docker, Jenkins, Terraform, GitHub) and cloud services (AWS preferred)
+- Excellent communication and collaboration skills
+
+🌍 About LexisNexis Risk Solutions
+LexisNexis Risk Solutions provides data-driven tools for risk assessment, helping government agencies and law enforcement improve efficiency, integrity, and decision-making. The company fosters a culture of inclusion, innovation, and continuous learning.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "technology-senior-software-engineer-ii-in-lexisnexis-at-india-india"},
+
+
+
+{ applyUrl: "https://risk.lexisnexis.com/about-us/careers/jobs/R97721", companyName: "lexisnexis", companyLogo: "/images/lexisnexis.png", location: "United States", jobTitle: "Technology\nSoftware Engineer III", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Software Engineer III
+Location: Alpharetta, Georgia, USA
+Department: Technology
+Employment Type: Full-Time (40 hours/week)
+
+🧠 Role Overview
+LexisNexis Risk Solutions is hiring a Software Engineer III to join its Site Reliability Engineering (SRE) team. You’ll be responsible for maintaining system reliability, configuring proactive alerting, and supporting disaster recovery efforts. This role blends hands-on engineering with platform management and automation in a dynamic, data-driven environment.
+
+🔧 Key Responsibilities
+- Partner with development teams to improve services through testing and release procedures
+- Participate in system design consulting, platform management, and capacity planning
+- Create sustainable systems and services through automation
+- Write and review specifications for moderately complex system components
+- Resolve technical issues and complete bug fixes
+- Operate in Agile, Waterfall, and hybrid environments
+- Stay current with emerging technologies and best practices
+- Join the on-call rotation and support disaster recovery tests
+
+✅ Required Qualifications
+- 3+ years of software engineering experience
+- Bachelor’s degree in Engineering, Computer Science, or equivalent
+- Proficiency in Java/J2EE, JavaScript, JSP, C/C++, HTML, XML, SQL, Windows, and Python
+- Experience with Azure and Kubernetes
+- Familiarity with test-driven development, data manipulation languages, and data storage subsystems
+- Strong communication and collaboration skills
+
+💼 Benefits & Perks
+- Comprehensive health benefits (medical, dental, vision)
+- 401(k) with match and Employee Share Purchase Plan
+- Wellness platform, Headspace subscription, and time-off programs
+- Disability, life, and critical illness insurance
+- Family benefits including bonding leave, adoption, and surrogacy support
+- Health savings and commuter spending accounts
+- Paid time off and volunteer leave
+
+You can view the full listing and apply directly on Built In’s job board. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "technology-software-engineer-iii-in-lexisnexis-at-united-states-united-states"},
+
+
+
+{ applyUrl: "https://risk.lexisnexis.com/about-us/careers/jobs/R98236", companyName: "lexisnexis", companyLogo: "/images/lexisnexis.png", location: "United Kingdom", jobTitle: "Data, Research & Analytics\nSenior Product Analyst I", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `Job Title: Senior Product Analyst I
+Location: London, United Kingdom
+Brand: ICIS (part of LexisNexis Risk Solutions Group)
+Employment Type: Full-Time (35 hours/week)
+
+🧠 Role Overview
+ICIS is seeking a data-savvy Senior Product Analyst to support its transition into a data and analysis-driven company. You’ll play a key role in shaping product strategy by delivering insights into customer engagement, product performance, and innovation impact. This role is central to developing ICIS’s Product Success Score (PSS) and advancing its analytics capabilities.
+
+🔧 Key Responsibilities
+- Develop and maintain dashboards and metrics to guide product decisions
+- Collaborate with product managers to define KPIs for new and existing offerings
+- Analyze customer behavior to uncover trends and improvement opportunities
+- Lead the development of a company-wide product analytics strategy
+- Translate business questions into actionable, data-driven insights
+- Ensure data quality and availability in collaboration with engineering teams
+- Support continuous improvement of product documentation and processes
+- Manage relationships with internal and external analytics tool providers
+
+✅ Required Qualifications
+- Strong analytical thinking and creative problem-solving skills
+- Proficiency in Python, R, and SQL
+- Familiarity with Adobe Analytics, Google Analytics, and other web analytics platforms
+- Ability to communicate complex insights clearly to diverse audiences
+- Experience with data visualization tools (e.g., Tableau) is a plus
+- Collaborative mindset and ability to work across teams
+- Motivation to learn and grow in a dynamic environment
+- Background in a quantitative field (formal degrees welcome but not required)
+
+🌍 About ICIS
+ICIS is the world’s largest information provider for petrochemical and energy markets, helping companies make strategic, sustainable decisions through market transparency. With a global footprint, ICIS delivers pricing data, forecasts, news, and supply-demand intelligence across value chains.
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-research-analytics-senior-product-analyst-i-in-lexisnexis-at-united-kingdom-united-kingdom"}
+
+
+
+
+,{ applyUrl: "https://easebuzz.hire.trakstar.com/jobs/fk0pgej/", companyName: "easebuzz", companyLogo: "/images/easebuzz.png", location: "Pune, India", jobTitle: "Data Engineering", jobType: "Full-time", jobCategory: "Data", mainDescription: `Here’s a structured and professional summary of the Data Engineering role at Easebuzz:
+
+Job Title: Associate Manager (Research) – Data Engineering
+Location: Pune, India
+Department: Easebuzz Research & Innovation Lab
+Employment Type: Full-Time
+
+🧠 Role Overview
+Easebuzz is hiring a Data Engineering Associate Manager to design and operationalize large-scale enterprise data solutions. You’ll work with cutting-edge AWS technologies and third-party tools to build real-time data pipelines, optimize infrastructure, and support analytics across the fintech ecosystem.
+
+🔧 Key Responsibilities
+- Build and maintain ETL pipelines, data lakes, and ingestion frameworks
+- Design scalable data architecture using AWS services (Spark, EMR, RedShift, DynamoDB, Glue, Lambda, Kinesis)
+- Implement real-time data processing with Kafka/Kinesis
+- Automate high-volume data delivery and internal processes
+- Collaborate with cross-functional teams to support data infrastructure needs
+- Ensure data security across multiple regions and data centers
+- Develop tools for analytics and data science teams
+- Evangelize high standards for data model quality and performance
+
+✅ Required Experience & Skills
+- Strong background in ETL, data modeling, and data architecture
+- Experience with NoSQL databases (DynamoDB, MongoDB)
+- Proficiency in SQL and AWS big data technologies
+- Familiarity with real-time use cases and cloud-native development
+- Ability to create prototypes and drive iterative development
+- Proven track record in process automation and infrastructure optimization
+
+🏢 About Easebuzz
+Easebuzz is a fast-growing fintech company offering plug-and-play payment solutions. With a recent $30M funding round and RBI authorization as a payment aggregator, it’s scaling rapidly across India. The company fosters a culture of openness, ownership, and collaboration, with offices in Pune, Delhi, Mumbai, Kolkata, Bengaluru, and Gurugram.
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-engineering-in-easebuzz-at-Pune-India"},
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/pano/2903cf0f-8bb7-4373-85c4-77f1a7ddf7df", companyName: "pano", companyLogo: "/images/pano.png", location: "California", jobTitle: "Site Reliability Engineer", jobType: "Remote", jobCategory: "Engineer", mainDescription: `Job Title: Site Reliability Engineer
+Location: Remote – United States (Preference for Pacific/Mountain Time Zone)
+Department: Engineering – Platform Team
+Employment Type: Full-Time
+
+🧠 Role Overview
+Pano AI is hiring a Site Reliability Engineer to ensure the reliability, performance, and scalability of its wildfire detection platform. You’ll bridge development and infrastructure operations, automate systems, and proactively solve problems in a fast-paced, mission-driven startup environment.
+
+🔧 Key Responsibilities
+- Implement and maintain monitoring systems to detect issues early
+- Automate deployments, infrastructure management, and incident response
+- Diagnose and resolve production incidents quickly
+- Improve system scalability and performance for peak loads
+- Plan future capacity needs and optimize cost-efficiency
+- Collaborate with development teams to ensure reliable system design
+- Build tools for infrastructure automation
+- Define and track SLIs/SLOs for service reliability
+- Mitigate risks associated with deployments and infrastructure changes
+- Support smooth release and deployment processes
+
+✅ Required Qualifications
+- 5+ years in a SaaS or similar environment
+- 3+ years as a Site Reliability Engineer or DevOps Engineer
+- 3+ years with cloud platforms (GCP, AWS, Azure)
+- Experience with Docker, Kubernetes, and IaC tools (Terraform, Pulumi, Puppet)
+- Strong troubleshooting skills in distributed systems
+- Effective communicator and collaborator
+
+🌟 Preferred Skills
+- Advanced knowledge of GCP services (GKE, GCS, IAM)
+- Experience with Java/JVM/Python containerized services
+- Familiarity with PostgreSQL and CI/CD tools (GitHub Actions, Buildkite, Jenkins)
+- Strong scripting in Python or Bash
+- Linux system administration
+- Understanding of SOC2 / ISO 27001 frameworks
+
+💰 Compensation & Benefits
+- Salary range: $150,000 – $205,000 USD
+- Stock options
+- Comprehensive health insurance
+- Paid time off
+- 401(k) retirement plan
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "site-reliability-engineer-in-pano-at-california-united-states"},
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/avalabs/jobs/5584478004", companyName: "avalabs", companyLogo: "/images/avalabs.png", location: "Brooklyn, NY", jobTitle: "Senior Backend Engineer, Custody Wallets", jobType: "Remote", jobCategory: "Backend", mainDescription: `Job Title: Senior Backend Engineer – Custody Wallets
+Location: Brooklyn, NY or Remote (North America)
+Department: Crypto Custody Team
+Employment Type: Full-Time
+
+🧠 Role Overview
+Ava Labs is hiring a Senior Backend Engineer to help design and scale secure, high-performance crypto wallet infrastructure. You’ll work on cutting-edge blockchain solutions, including multi-party computation (MPC) and multi-signature (multi-sig) protocols, while collaborating across teams to deliver modular, scalable systems that support mass adoption of Ava Labs products.
+
+🔧 Key Responsibilities
+- Develop crypto wallet systems using Golang
+- Architect secure, scalable backend systems
+- Collaborate with partners and internal teams to optimize configurations
+- Provide technical guidance across product, security, and engineering
+- Recommend solutions tailored to client needs
+- Take ownership of backend delivery and product excellence
+
+✅ Required Qualifications
+- 5+ years of backend engineering experience (Golang preferred)
+- Experience building crypto wallets or blockchain products
+- Deep understanding of UTXO and Account models, consensus mechanisms, and state management
+- Strong grasp of secure coding practices and blockchain security principles
+- Familiarity with cloud platforms and competitive technologies
+- Independent, proactive mindset with strong problem-solving skills
+
+🌟 Preferred Experience
+- 3+ years in solutions architecture
+- Experience with MPC protocols and advanced security testing
+- Infrastructure engineering with Kubernetes, CI/CD, and AWS/GCP/Azure
+- Prior senior-level experience in a blockchain or crypto organization
+
+💰 Compensation & Work Model
+- Salary range: $158,440 – $198,050 USD
+- NYC metro candidates: 2–3 days/week in office (exceptions apply)
+- Remote-friendly across North America
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-backend-engineer-custody-wallets-in-avalabs-at-Brooklyn-NY"},
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cybersecurity-and-IA-Specialist-TS-SCI-in-Suffolk-VA/306661", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Cybersecurity and IA Specialist (TS/SCI in Suffolk, VA)", jobType: "Full-time", jobCategory: "Cybersecurity", mainDescription: `Job Title: Cybersecurity and Information Assurance (IA) Specialist
+Location: Suffolk, VA (On-site, 5 days/week)
+Department: Strategy, Growth, and Transformation – Standardized Strategic Support Services
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring a Cybersecurity and IA Specialist to support Risk Management Framework (RMF) authorization processes for Navy systems. You’ll perform vulnerability and risk assessments throughout the system development lifecycle and contribute to the design of cyber governance and assurance programs.
+
+🔧 Key Responsibilities
+- Conduct vulnerability/risk assessments for Navy systems and applications
+- Support RMF authorization through development of Security Assessment Plans (SAP) and Security Assessment Reports (SAR)
+- Collaborate with cross-functional teams to ensure cyber posture aligns with strategic objectives
+- Maintain compliance with Navy IA and cybersecurity standards
+
+✅ Required Qualifications
+- Bachelor’s degree
+- Active TS/SCI clearance
+- Must reside in the Hampton Roads area and be available on-site in Suffolk, VA
+- Navy Qualified Validator (NQV) certification
+- One of the following certifications: SEC+CE, CAP, ENSA, CISA, CASP, GSLC, CISSP, or CISM
+- 5+ years of Navy IA/cybersecurity experience, including:
+- 1+ year with RMF components and instructions
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cybersecurity-and-ia-specialist-ts-sci-in-suffolk-va-in-deloitte-at-united-states-united-states"},
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Manager-Full-Stack-NET-Software-Engineer-Tax-Domain/306686", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Manager, Full-Stack .NET Software Engineer - Tax Domain", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Manager, Full-Stack .NET Software Engineer – Tax Domain
+Location: Multiple U.S. Locations (Hybrid)
+Department: Engineering and Product – Software Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring a hands-on Full-Stack Software Engineering Manager to lead high-impact projects within its Tax domain. You’ll collaborate across teams to design, develop, and deploy advanced software solutions using modern frameworks and cloud-native technologies. This role blends technical leadership, engineering craftsmanship, and customer-centric delivery.
+
+🔧 Key Responsibilities
+- Lead full-stack development using C#, .NET Core, Angular, and React
+- Architect scalable, maintainable, and secure solutions
+- Drive Agile and DevSecOps practices for automated daily deployments
+- Translate business needs into technical specifications and code
+- Mentor engineers and review code to ensure quality KPIs are met
+- Collaborate with product managers, UX designers, and delivery teams
+- Engage with customers to ensure solutions meet real-world needs
+- Promote incremental delivery and rapid experimentation
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Software Engineering, or related field
+- 6+ years in full-stack development with Angular, React, C#, and .NET Core
+- 6+ years of cloud-native engineering experience (AWS preferred)
+- 4+ years implementing domain-driven systems with complex business rules
+- 2+ years working with AI/ML and Generative AI tools
+- Experience in US & International Payroll & Reward Taxation, including Tax Equalization, Withholding, and Gross Up
+- Limited immigration sponsorship available
+- Ability to travel up to 10%
+
+🌟 Preferred Experience
+- Master’s degree in a technical discipline
+- 8+ years in full-stack and cloud-native development
+- Familiarity with tools like GitHub, SonarQube, ADO, and SAFe
+
+💰 Compensation & Benefits
+- Salary range: $107,700 – $221,200 USD
+- Eligibility for discretionary annual incentive program
+- Broad range of benefits including health, retirement, and professional development
+
+You can view the full listing and apply directly on Deloitte’s careers portal. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "manager-full-stack-net-software-engineer-tax-domain-in-deloitte-at-United-States"},
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Oracle-Cloud-Supply-Chain-Senior-Consultant/306682", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Oracle Cloud Supply Chain Senior Consultant", jobType: "Full-time", jobCategory: "Cloud", mainDescription: `Job Title: Oracle Cloud Supply Chain Senior Consultant
+Location: Multiple U.S. Locations (Hybrid)
+Department: Package and Technology Enablement – Package Functional Transformation
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring a Senior Consultant to lead Oracle Cloud SCM implementations, focusing on Transportation Management (OTM) and Global Trade Management (GTM). You’ll drive strategy, design, and delivery across complex workstreams, helping clients improve performance, streamline operations, and capture business value.
+
+🔧 Key Responsibilities
+- Lead planning, design, and implementation of Oracle Cloud SCM solutions
+- Manage client relationships and day-to-day interactions with executives
+- Deliver functional design, prototyping, testing, and training
+- Support business development and proposal strategies
+- Mentor delivery teams and contribute to staffing and retention
+
+✅ Required Qualifications
+- 2+ full lifecycle implementations of Oracle Cloud OTM or GTM
+- 3+ years of experience with OTM/GTM functionalities
+- Expertise in business process design, fit-gap analysis, and functional configuration
+- Bachelor’s degree
+- Willingness to travel up to 50%
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Experience
+- Experience with Oracle Cloud Order Management, Inventory, WMS, or Procurement
+- Understanding of Order to Cash and Procure to Pay processes
+- Strong communication and presentation skills
+- Advanced degree and experience leading Oracle workstreams
+
+💰 Compensation & Benefits
+- Salary range: $113,325 – $188,875 USD
+- Eligibility for discretionary annual incentive program
+- Broad range of employee benefits
+- Professional development and inclusive culture
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "oracle-cloud-supply-chain-senior-consultant-in-deloitte-at-United-States"}
+
+
+
+,{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Oracle-HCM-Absence-Support/306649", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Oracle HCM Absence Support", jobType: "Hybrid", jobCategory: "General", mainDescription: `Job Title: Oracle HCM Absence Support Specialist
+Location: Hybrid – Multiple U.S. Locations (Gilbert, Lake Mary, Mechanicsburg, Atlanta, Charlotte, Dallas, Houston, Philadelphia)
+Department: Package and Technology Enablement
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring an Oracle HCM Absence Support Specialist to lead functional workstreams in Oracle HCM Cloud implementations, specifically focusing on the Absence Management module. You’ll collaborate with clients to optimize HR processes, drive business results, and support transformation initiatives across government and public service sectors.
+
+🔧 Key Responsibilities
+- Lead Oracle HCM Absence module implementations: planning, design, configuration, testing
+- Enhance Absence processes to align with business goals
+- Deliver services across complex projects
+- Collaborate with cross-functional teams to support HR transformation
+
+✅ Required Qualifications
+- 2+ years of experience with Oracle HCM Cloud solutions
+- Hands-on experience configuring the Absence module
+- Full lifecycle implementation experience (requirements, design, build, go-live, testing)
+- Bachelor’s degree
+- Must be legally authorized to work in the U.S. without sponsorship
+
+🌟 Preferred Qualifications
+- Oracle HCM Absence Certification
+
+🧭 Work Model & Travel
+- Hybrid work model: must live within commuting distance of a designated Deloitte Delivery Center or Geo-Hub
+- Co-location expectation: up to 30% of time on-site
+- Travel: up to 10% overnight
+- Relocation required within 12 weeks if not already within commuting distance
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "oracle-hcm-absence-support-in-deloitte-at-United-States"}
+
+
+,
+{ applyUrl: "https://job-boards.greenhouse.io/strava/jobs/6900539", companyName: "strava", companyLogo: "/images/strava.png", location: "San Francisco", jobTitle: "Senior Data Scientist", jobType: "Full-time", jobCategory: "Data", mainDescription: `Job Title: Senior Data Scientist
+Location: San Francisco, CA (Hybrid – ~3 days/week on-site)
+Department: Data Science
+Employment Type: Full-Time
+
+🧠 Role Overview
+Strava is hiring a Senior Data Scientist to lead the development of machine learning models, experimentation frameworks, and data-driven insights that enhance athlete experiences and drive business impact. You’ll collaborate cross-functionally to shape product strategy and deploy scalable solutions using Strava’s vast dataset.
+
+🔧 Key Responsibilities
+- Develop ML models using supervised, unsupervised, and reinforcement learning
+- Design and implement experimentation strategies (A/B testing, causal inference, quasi-experimental designs)
+- Build models for propensity, LTV prediction, forecasting, and user segmentation
+- Analyze large-scale behavioral data to uncover trends and growth opportunities
+- Stay current with transformers, LLMs, and deep learning techniques
+- Collaborate with product managers, engineers, and marketers to scale solutions
+
+✅ Required Qualifications
+- MS degree or equivalent experience in Computer Science, Mathematics, or Statistics
+- 3+ years in data science roles with proven impact
+- Hands-on experience with ML techniques, including deep learning and LLMs
+- Strong grasp of A/B testing, causal inference, and statistical analysis
+- Experience deploying models in production using AWS or equivalent
+- Excellent communication and cross-functional collaboration skills
+
+💰 Compensation & Benefits
+- Base salary: $209,000 – $222,000 USD
+- Additional equity and benefits available
+- Market-based pay structure tailored to location and experience
+- Inclusive workplace with mentorship and growth opportunities
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-data-scientist-in-strava-at-san-francisco-united-states"},
+  
+{ applyUrl: "https://www.employeenavigator.com/careers/7063184", companyName: "employeenavigator", companyLogo: "/images/employeenavigator.png", location: "Bethesda, MD  Frederick, MD Salt Lake City, UT", jobTitle: "Senior Software Engineer", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer
+Location: Bethesda, MD • Frederick, MD • Salt Lake City, UT (On-site)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Employee Navigator is hiring a Senior Software Engineer to lead the development of scalable, high-performance web applications and APIs that support online benefits enrollment for over 70,000 companies. You’ll work with a large codebase and database, contributing to real-world products used by millions of employees nationwide.
+
+🔧 Key Responsibilities
+- Plan and design features with a focus on scalability and maintainability
+- Build and maintain full-stack applications using C#, .NET Core, MVC, and Vue.js
+- Rapidly iterate and deploy new code using a Kanban process
+- Collaborate with DevOps and Front-End Engineers to improve tooling and UI components
+- Design and implement web service APIs
+- Review teammates’ code and coach on design techniques
+- Work closely with product owners and executives to define and solve the right problems
+
+✅ Required Qualifications
+- Bachelor’s degree
+- 8+ years of professional experience in full-stack development
+- Proven expertise in C# and .NET technologies
+- Strong attention to detail
+- Experience with JavaScript; Vue.js is a plus
+- Must be legally authorized to work in the U.S. without visa sponsorship
+
+💼 Tech Environment
+- Backend: C#, .NET Core, Micro-ORM, dynamic SQL, stored procedures
+- Frontend: Vue.js, JavaScript, MVC
+- Development: Roslyn-based API generators, functional programming, Kanban workflow
+- Collaboration: Cross-functional teams with product owners and executives
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-in-employeenavigator-at-Bethesda-Frederick-Salt-Lake-City-UT"},
+
+  
+{ applyUrl: "https://www.employeenavigator.com/careers/342761", companyName: "employeenavigator", companyLogo: "/images/employeenavigator.png", location: "Bethesda, MD or Salt Lake City", jobTitle: "Software Engineer", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Software Engineer
+Location: On-site in Bethesda, MD or Salt Lake City, UT
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Employee Navigator is hiring a Software Engineer to build and maintain web applications and APIs that support online benefits enrollment for over 70,000 companies. You’ll work with a large-scale codebase and database, contributing to real-world products used by millions of employees nationwide.
+
+🔧 Key Responsibilities
+- Plan and design scalable, performant, and secure code
+- Collaborate with teammates on code reviews and feature planning
+- Rapidly iterate and deploy new features using a Kanban process
+- Work with DevOps Engineers to improve tooling and pipelines
+- Partner with Front-End Engineers to enhance UI components
+- Design and maintain web service APIs
+
+✅ Required Qualifications
+- Bachelor’s degree
+- 5+ years of experience in full-stack development
+- Proven expertise in C# and .NET Core
+- Familiarity with MVC, Vue.js, and JavaScript
+- Strong attention to detail and problem-solving skills
+- Must be legally authorized to work in the U.S. without visa sponsorship
+
+💼 Tech Stack & Environment
+- Backend: C#, .NET Core, Micro-ORM, SQL
+- Frontend: Vue.js, JavaScript, MVC
+- Development: Kanban, Roslyn-based API generators, functional programming techniques
+- Collaboration: Close interaction with product owners and executives
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-in-employeenavigator-at-Bethesda-MD-Salt-Lake-City"}
+
+
+,{ applyUrl: "https://recruiting2.ultipro.com/AME1115AFIN/JobBoard/e55b3c8e-89f1-4499-b372-fcb95745331a/OpportunityDetail?opportunityId=8613627a-a22c-44f1-9300-8dad986b2df2", companyName: "almericanfinancing", companyLogo: "/images/almericanfinancing.png", location: "Colorado", jobTitle: "Senior Software Engineer", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer
+Location: Remote – United States
+Department: Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+American Financing is seeking a Senior Software Engineer to design and develop high-quality software systems that automate workflows and support both internal operations and customer-facing solutions. You’ll play a key role in maintaining existing systems and building new platforms that drive business growth in the mortgage lending space.
+
+🔧 Key Responsibilities
+- Design and develop scalable software systems
+- Prioritize and execute tasks across the software development lifecycle
+- Automate development and testing processes for efficiency
+- Review, debug, and test code to ensure quality standards
+- Collaborate with internal teams to align on architecture, security, and observability
+- Create and maintain technical documentation
+
+✅ Required Qualifications
+- 5+ years of software development experience
+- Proficiency in .NET, C#, .NET Core, ASP.NET MVC, and WebApi
+- Experience with SQL Server, ORM frameworks, and MongoDB (preferred)
+- Familiarity with OAuth 2.0, SAML, and security best practices
+- Agile development experience using JIRA
+- Strong time management and multitasking skills
+
+🌟 Preferred Experience
+- DevOps tools: Azure, Bitbucket, JIRA
+- Containerization: Docker, Kubernetes
+- Cloud platforms: Google Cloud Platform
+- Mortgage industry experience
+
+💰 Compensation & Benefits
+- Salary range: $110,000–$130,000 USD
+- Medical, dental, and vision insurance
+- 401(k) retirement plan
+- Paid time off, holidays, and sick leave
+- Paid maternity and bonding leave
+- Long-term disability coverage
+- Full desk equipment provided
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-in-almericanfinancing-at-colorado-united-states"},
+
+
+
+{ applyUrl: "https://crbworkforce.com/jobs/solutions-architect-1561/", companyName: "crbworkforce", companyLogo: "/images/crbworkforce.png", location: "Toronto, Canada", jobTitle: "Solutions Architect", jobType: "Remote", jobCategory: "Architect", mainDescription: `Job Title: Solutions Architect
+Location: Remote – Toronto, Canada
+Department: Engineering
+Employment Type: Full-Time, Direct Hire
+
+🧠 Role Overview
+CRB Workforce is hiring a Solutions Architect to lead the design and implementation of cloud-native architecture solutions across major platforms like Azure, AWS, and GCP. You’ll guide hybrid delivery teams, ensure governance and compliance, and act as a trusted advisor to clients across initiatives in App Modernization, Data & AI, and Security.
+
+🔧 Key Responsibilities
+- Lead client engagement and requirements analysis
+- Architect secure, scalable cloud solutions
+- Oversee technical delivery across hybrid teams
+- Author SOWs and maintain technical documentation and POCs
+- Ensure governance and high availability through DevOps and CI/CD automation
+- Identify strategic opportunities to drive innovation
+- Translate business needs into holistic technical solutions
+- Cultivate strong stakeholder relationships
+
+✅ Required Qualifications
+- 5+ years designing and implementing cloud architecture
+- Proficiency in Java, C#, JavaScript, or PHP
+- Strong understanding of DevOps, CI/CD, and tools like GitHub Actions, Jenkins, Azure DevOps
+- Familiarity with IAM, Zero Trust Framework, and security best practices
+- Proven ability to lead multi-disciplinary teams and present to senior executives
+
+🌟 Preferred Experience
+- 10+ years of development experience
+- 5 years of project leadership or architecture experience
+
+💰 Compensation & Benefits
+- Salary: $115,000 – $135,000 CAD
+- Full benefits package
+- Remote work flexibility
+- No sponsorship available
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "solutions-architect-in-crbworkforce-at-Toronto-Canada"}
+,
+
+
+
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/0548ad67-613f-4a20-93c6-ea470f1fba8f", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Czech Republic", jobTitle: "Senior DevOps Engineer", jobType: "Remote", jobCategory: "Devops", mainDescription: `Here’s a structured and professional summary of the Senior DevOps Engineer role at 3Pillar Global:
+
+Job Title: Senior DevOps Engineer
+Location: Remote – Czech Republic
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior DevOps Engineer to lead the development of scalable, secure, and high-performance infrastructure solutions. You’ll work on transformative projects across industries like healthcare, media, and urban innovation, contributing to backend systems and automation frameworks that drive client success.
+
+🔧 Key Responsibilities
+- Develop performant, testable, and secure infrastructure code
+- Lead technical design and full project lifecycle from concept to launch
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Maintain documentation and ensure quality standards
+- Provide accurate status tracking and estimation
+- Execute activities within Agile methodologies
+
+✅ Required Qualifications
+- 5+ years of experience in Go or Python
+- Proficiency with Terraform, Ansible, and virtualization tools
+- Strong knowledge of Linux, networking, and backend systems
+- Experience with SQL and relational databases
+- Familiarity with Agile development
+- Fluent in English
+
+🌟 Preferred Experience
+- Source control tools (e.g., Git)
+- Understanding of SDLC and OOP principles
+- Knowledge of HTTP, JSON/XML, and document databases
+- Experience with unit testing and performance optimization
+
+💼 Work Culture & Benefits
+- Remote-first flexibility across the Czech Republic
+- Global collaboration and English-speaking environment
+- Focus on well-being with fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in Intrinsic Dignity and Open Collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-devops-engineer-in-3pillarglobal-at-czech-republic-czech-republic"},
+
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/6bcd26e0-17ae-46a4-bbdb-714f4ed561b4", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Canada", jobTitle: "Senior Software Engineer - Full Stack Java/Angular", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Full Stack Java/Angular
+Location: Remote – Canada
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Full Stack Engineer to build and deliver high-quality web applications using Java, Spring Boot, and Angular. You’ll work on data-driven solutions that empower clients across industries, from healthcare to media, while collaborating with global teams and contributing to agile development practices.
+
+🔧 Key Responsibilities
+- Design, develop, test, and deploy scalable web applications
+- Build RESTful APIs and responsive UIs using Angular 12+ and Java
+- Analyze business requirements and translate them into technical solutions
+- Conduct unit and integration testing, debug issues, and support releases
+- Participate in design sessions, code reviews, and Agile ceremonies
+- Provide third-level application support and mentor peers
+- Maintain documentation and ensure high development standards
+
+✅ Required Qualifications
+- 5+ years of experience in full stack development
+- Proficiency in Java, Spring Boot, Hibernate, and SQL
+- Strong frontend skills in HTML5, CSS/SCSS, JavaScript, TypeScript, and Angular 12+
+- Experience integrating with AWS services
+- Familiarity with Git, Agile methodologies, and unit testing
+- Fluent in English
+
+🌟 Preferred Experience
+- Angular 15+ or 16+
+- Mobile application development
+- Authentication and authorization (Web/API)
+- Experience writing web services and APIs
+
+💼 Work Culture & Benefits
+- Remote-first flexibility across Canada
+- Global collaboration and English-speaking environment
+- Focus on well-being with fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in Intrinsic Dignity and Open Collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-full-stack-java-angular-in-3pillarglobal-at-canada-canada"}
+
+,
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/81d41f3f-aeeb-4770-a208-5ff2f65e1779", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "United States", jobTitle: "Senior Software Engineer - Full Stack - .NET/Node.js", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Full Stack (.NET/Node.js)
+Location: Remote – United States
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Full Stack Engineer to architect and deliver high-performance software solutions using .NET, Node.js, and modern JavaScript frameworks. You’ll lead transformative projects across industries like healthcare, media, and urban innovation, while mentoring peers and driving technical excellence.
+
+🔧 Key Responsibilities
+- Design and develop scalable, secure, and testable client code
+- Communicate effectively with stakeholders and lead project delivery
+- Translate business requirements into technical solutions
+- Collaborate across engineering, design, and product teams
+- Participate in Agile ceremonies and engineering communities
+- Mentor others and contribute to technical capability growth
+
+✅ Required Qualifications
+- 5–7+ years in Agile development teams
+- Expert in JavaScript (ES6+ and TypeScript)
+- Deep experience with C#, .NET Framework, and SQL Server
+- Proficient in Node.js and modern JS frameworks
+- Strong understanding of microservices, REST/GraphQL APIs, and serverless architecture
+- Experience with AWS Lambda, Azure Functions, and cloud infrastructure
+- Skilled in writing unit and E2E tests
+
+🌟 Preferred Experience
+- Familiarity with Ruby, Rails, Shopify, and AI-assisted tooling
+- Experience with Docker, Kubernetes, and orchestration services
+- Passion for continuous learning and staying current with tech trends
+
+💼 Work Culture & Benefits
+- Remote-first flexibility across the U.S.
+- Global team collaboration and English-speaking environment
+- Focus on well-being with fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in Intrinsic Dignity and Open Collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-full-stack-net-node-js-in-3pillarglobal-at-united-states-united-states"},
+
+
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/9d039979-7dbb-4180-bf97-86e891ff2dfb", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Moldova", jobTitle: "DevOps Engineer", jobType: "Remote", jobCategory: "Devops", mainDescription: `Job Title: DevOps Engineer
+Location: Remote – Moldova
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a DevOps Engineer to help build and maintain scalable, secure, and high-performance infrastructure solutions. You’ll work on transformative projects across industries such as healthcare, media, and urban innovation, contributing to backend systems and automation frameworks that drive client success.
+
+🔧 Key Responsibilities
+- Develop performant, testable, and secure client code
+- Lead technical design and full project lifecycle from concept to launch
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Maintain documentation and ensure quality standards
+- Provide accurate status tracking and estimation
+- Execute activities within Agile methodologies
+
+✅ Required Qualifications
+- 5+ years of experience in Go or Python
+- Proficiency with Terraform, Ansible, and virtualization tools
+- Strong knowledge of Linux, networking, and backend systems
+- Experience with SQL and relational databases
+- Familiarity with Agile development
+- Fluent in English
+
+🌟 Preferred Experience
+- Source control tools (e.g., Git)
+- Understanding of SDLC and OOP principles
+- Knowledge of HTTP, JSON/XML, and document databases
+- Experience with unit testing and performance optimization
+
+💼 Work Culture & Benefits
+- Remote-first flexibility with global collaboration
+- Focus on well-being with fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in Intrinsic Dignity and Open Collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "devops-engineer-in-3pillarglobal-at-moldova-moldova"},
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/d1420a2e-4abe-4cd6-9f36-a4d3ac260ce7", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Roma", jobTitle: "Senior Software Engineer - Full Stack Java/React", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Full Stack Java/React
+Location: Remote – Romania only
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Full Stack Engineer to lead the development of scalable, high-quality software solutions using Java and React. You’ll collaborate with global teams to deliver transformative products across industries such as healthcare, media, and urban innovation. This role blends technical leadership, agile delivery, and cross-functional collaboration.
+
+🔧 Key Responsibilities
+- Develop performant, testable, and secure client code
+- Lead technical design and full project lifecycle from concept to launch
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Participate in Agile ceremonies and engineering communities
+- Maintain documentation and ensure quality standards
+- Provide accurate status tracking and estimation
+
+✅ Required Qualifications
+- 5+ years of experience in Java and React (or Ember.js)
+- Strong knowledge of Linux, networking, and virtualization tools
+- Experience with SQL and relational databases
+- Familiarity with Agile methodologies
+- Proven ability to build backend applications at scale
+- Fluent in English
+
+🌟 Preferred Experience
+- Source control tools (e.g., Git)
+- Understanding of SDLC and OOP principles
+- Knowledge of HTTP, JSON/XML, and document databases
+- Experience with unit testing and performance optimization
+
+💼 Work Culture & Benefits
+- Remote-first flexibility with global collaboration
+- Focus on well-being with fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in Intrinsic Dignity and Open Collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-full-stack-java-react-in-3pillarglobal-at-roma-italy"},
+
+
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/d43fda26-0af1-4289-bdf0-bcb4ff2791ef", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Roma", jobTitle: "Senior Software Engineer - Java", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Java
+Location: Remote – Romania
+Department: Product Delivery
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior Java Engineer to lead the development of high-quality, scalable backend systems. You’ll collaborate with cross-functional teams to deliver transformative solutions across industries such as healthcare, media, and urban innovation. This role blends technical leadership, agile delivery, and mentorship in a remote-first environment.
+
+🔧 Key Responsibilities
+- Architect and develop efficient, scalable, and secure backend systems
+- Communicate project status and technical recommendations to stakeholders
+- Lead requirement gathering, estimation, and feature delivery
+- Collaborate with engineers, designers, and managers to solve user pain points
+- Participate in Agile ceremonies and engineering communities
+- Mentor peers and support technical capability growth
+- Own project delivery from design to deployment
+
+✅ Required Qualifications
+- 5+ years of experience in Java backend development
+- Strong grasp of OOP principles, SOLID, and OWASP standards
+- Experience with UML, C4, or ArchiMate design methodologies
+- Proven ability to build enterprise-level systems
+- Familiarity with Agile development and unit testing
+- Proficiency in English
+
+🌟 Preferred Experience
+- Knowledge of ORMs, design patterns, and microservices/serverless architectures
+- Experience with Docker/Kubernetes and cloud platforms
+- Exposure to Adobe Experience Manager (AEM) or similar CMS
+
+💼 Work Culture & Benefits
+- Remote-first flexibility with global collaboration
+- Focus on well-being, including fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in Intrinsic Dignity and Open Collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-java-in-3pillarglobal-at-roma-italy"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/3pillarglobal/e4204b60-3c52-42b9-bc10-558b89e780bd", companyName: "3pillarglobal", companyLogo: "/images/3pillarglobal.png", location: "Moldova", jobTitle: "Senior DevOps Engineer", jobType: "Remote", jobCategory: "Devops", mainDescription: `Job Title: Senior DevOps Engineer
+Location: Remote – Moldova
+Department: Product Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+3Pillar Global is hiring a Senior DevOps Engineer to lead the development and deployment of scalable, secure, and high-performance infrastructure solutions. You’ll work on transformative projects across industries like urban innovation, media, and healthcare, while mentoring teammates and driving operational excellence.
+
+🔧 Key Responsibilities
+- Develop performant, testable, and secure client code
+- Lead technical design and full project lifecycle from concept to launch
+- Collaborate with cross-functional teams to solve user pain points
+- Maintain documentation and ensure quality standards
+- Provide accurate status tracking and estimation
+- Foster Agile development practices and continuous improvement
+
+✅ Required Qualifications
+- 5+ years of experience in Go or Python
+- Proficiency with Terraform, Ansible, and virtualization tools
+- Strong knowledge of Linux, networking, and backend systems
+- Experience with SQL and relational databases
+- Familiarity with Agile methodologies
+- Fluent in English
+
+🌟 Preferred Experience
+- Source control tools (e.g., Git)
+- Understanding of SDLC and OOP principles
+- Experience with HTTP, JSON/XML, and document databases
+- Unit testing and performance optimization
+
+💼 Work Culture & Benefits
+- Remote-first flexibility with global collaboration
+- Focus on well-being with fitness and mental health support
+- Generous time off and professional development opportunities
+- Inclusive culture rooted in dignity and open collaboration
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-devops-engineer-in-3pillarglobal-at-moldova-moldova"},
+
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/yext/jobs/7011931", companyName: "yext", companyLogo: "/images/yext.png", location: "Washington", jobTitle: "Software Engineer", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Software Engineer
+Location: Washington, D.C. (Hybrid – 3 days/week in office)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Yext is hiring a Software Engineer to help build and scale its digital presence platform. You’ll work in an agile environment alongside top-tier engineers, contributing to full lifecycle development of highly reliable systems. This role is ideal for early-career developers eager to work hands-on with code and collaborate across teams.
+
+🔧 Key Responsibilities
+- Participate in full lifecycle software development
+- Design, implement, and deploy scalable and reliable systems
+- Build storage systems, libraries, and frameworks
+- Contribute ideas for new features and proactively identify improvements
+- Collaborate across engineering and non-engineering teams
+- Write clean, tested, and well-documented code
+
+✅ Required Qualifications
+- BA/BS in Computer Science or related field
+- 0–1 years of industry experience
+- Strong foundation in data structures, algorithms, and software design
+- Fluency in Java, C++, Python, or similar (Java preferred)
+- Openness to new technologies and creative solutions
+- Comfortable in a fast-paced startup environment
+
+💰 Compensation & Benefits
+- Annual base salary: $98,100 – $199,000 USD
+- Medical, dental, and vision insurance
+- Life and disability coverage
+- 401(k) retirement plan
+- Vacation and sick leave
+- Equity and performance-based compensation
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-in-yext-at-washington-united-states"},
+
+
+
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/yext/jobs/7034100", companyName: "yext", companyLogo: "/images/yext.png", location: "Hungary", jobTitle: "Data Scientist", jobType: "Hybrid", jobCategory: "Data", mainDescription: `Job Title: Data Scientist
+Location: Budapest, Hungary (Hybrid)
+Department: Hearsay Team (now part of Yext)
+Employment Type: Full-Time
+
+🧠 Role Overview
+Yext is hiring a Data Scientist to lead and contribute to high-impact machine learning and data science projects that enhance product performance and support strategic decision-making. You’ll work with structured and unstructured data, apply generative AI techniques, and collaborate across teams to deliver actionable insights.
+
+🔧 Key Responsibilities
+- Develop and improve ML models using structured/unstructured data
+- Apply large language models (e.g., GPT, LLaMA) using RAG and instruction tuning
+- Ensure data quality through cleaning, preparation, and validation
+- Collaborate with Product, Engineering, and business stakeholders
+- Promote data-driven decision-making and mentor colleagues
+- Enhance the data stack and support agile delivery processes
+
+✅ Required Qualifications
+- 2+ years of experience in data science or analytics
+- Proven experience with supervised and unsupervised ML models
+- Proficiency in Python (NumPy, Pandas, scikit-learn) and SQL
+- Hands-on experience with cloud platforms (AWS, GCP, or Azure)
+- Strong analytical and problem-solving skills
+- Bachelor’s or Master’s degree in Computer Science, Engineering, or Mathematics
+- Passion for social media data and digital behavior analysis
+- Excellent communication and collaboration skills
+
+💼 Work Environment & Culture
+- Hybrid work model: remote flexibility with 1+ day/week on-site
+- Inclusive and diverse culture with strong emphasis on employee wellbeing
+- Recognized globally as a Best Place to Work by Built In, Fortune, and Great Place To 
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-scientist-in-yext-at-hungary-hungary"},
+
+
+
+{ applyUrl: "https://jobs.lever.co/airdna/523ae7fc-e274-4e9c-8968-18d4e345d58f", companyName: "airdna", companyLogo: "/images/airdna.png", location: "Remote – EU Based", jobTitle: "Fullstack Software Engineer", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Fullstack Software Engineer
+Location: Remote – EU Based
+Department: Engineering
+Employment Type: Contractor (Full-Time)
+
+🧠 Role Overview
+AirDNA is hiring a Fullstack Software Engineer to help build and enhance its core product features. You’ll work across backend services and user interfaces using Ruby (Hanami), PostgreSQL, and modern JavaScript frameworks. This role is ideal for developers who thrive in fast-moving, data-rich environments and enjoy both frontend and backend work.
+
+🔧 Key Responsibilities
+- Develop fullstack features across backend services and user interfaces
+- Write clean, maintainable code and participate in code reviews
+- Collaborate with product managers and designers to shape technical approaches
+- Participate in Agile ceremonies (sprint planning, standups, retrospectives)
+- Test thoroughly and support QA and deployment pipelines
+- Investigate and resolve bugs and performance issues
+- Contribute to internal documentation and engineering process improvements
+
+✅ Required Qualifications
+- 4–8 years of experience in web application development
+- Proficiency in Ruby (Hanami preferred) and SQL/PostgreSQL
+- Experience with JavaScript, HTML/CSS, and frameworks like Ember or React
+- Familiarity with RESTful APIs, Git workflows, and Agile teams
+- Ability to break down complex problems and deliver independently or collaboratively
+
+🌟 Preferred Experience
+- Experience with JSONAPI, Sidekiq, or cloud deployment tools
+- Knowledge of frontend performance debugging and accessibility standards
+- Prior experience in short-term rental property management systems
+
+🧰 Tech Stack
+- Ruby / Hanami / rom-rb
+- JavaScript / Ember
+- PostgreSQL / Redis
+- Sidekiq
+- AWS
+- GitHub / GitLab
+
+💰 Contractor Benefits (Outside Spain)
+- Indefinite contract
+- Competitive salary
+- 36 holidays per year
+- Flexible remote environment
+- Continuing education stipend
+- Language lessons via Preply
+- Collaborative team culture and growth opportunities
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "fullstack-software-engineer-in-airdna-at-Remote-EU-Based"},
+
+
+
+
+{ applyUrl: "https://jobs.jjkeller.com/job/Neenah-Sr_-SAP-Developer-WI-54956/1306019100/", companyName: "jjkeller", companyLogo: "/images/jjkeller.png", location: "Neenah, Wisconsin, USA", jobTitle: "Sr. SAP Developer", jobType: "Hybrid", jobCategory: "SAP", mainDescription: `Job Title: Sr. SAP Developer
+Location: Neenah, Wisconsin, USA (Hybrid: In-office/Partial Remote)
+Department: Information Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+- Keller is seeking a seasoned SAP Developer to lead complex development projects and deliver scalable, high-quality SAP solutions. You’ll work closely with business users and project teams to translate requirements into robust technical designs, while mentoring junior developers and driving technical excellence across the organization.
+
+🔧 Key Responsibilities
+- Lead full lifecycle SAP development: coding, configuration, testing, deployment
+- Develop custom enhancements using ABAP, WebDynPro, Web UI, and .NET techniques
+- Configure SAP modules including C4C, SD, ECC, S/4, and NetWeaver
+- Prepare and migrate master data for implementations and upgrades
+- Collaborate across IT to resolve integration and data issues
+- Mentor junior developers and promote SAP best practices
+- Recommend innovative solutions to improve performance and business processes
+
+✅ Required Qualifications
+- Bachelor’s degree in MIS, Business, or related technology field
+- 6+ years in application system development and support
+- 3+ years of SAP development and configuration experience
+- Proficiency in SAP programming languages, ABAP, and WebDynPro
+- Strong communication skills and ability to work with technical and non-technical users
+- Experience with service-oriented architecture and system integration
+
+💼 Work Environment & Culture
+- Hybrid work model from Neenah/Appleton/Oshkosh area
+- Standard business hours
+- Collaborative, mission-driven culture focused on safety and compliance
+- Recognized as a Top 100 Most Loved Workplace® and Great Place to Work®
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "sr-sap-developer-in-jjkeller-at-Neenah-Wisconsin-USA"},
+
+
+{ applyUrl: "https://www.foxcareers.com/Search/JobDetail/R50029223/systems-engineer-fox-corporation", companyName: "foxcareers", companyLogo: "/images/foxcareers.png", location: "New York", jobTitle: "SYSTEMS ENGINEER", jobType: "Hybrid", jobCategory: "General", mainDescription: `Job Title: Systems Engineer
+Location: New York, NY (Hybrid)
+Department: Enterprise Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+Fox Corporation is hiring a Systems Engineer to design, deploy, and evolve its enterprise IT infrastructure. You’ll work across virtual environments, directory services, and VDI platforms to ensure performance, security, and scalability. This role supports major brands like FOX News Media, FOX Sports, and Tubi Media Group.
+
+🔧 Key Responsibilities
+- Build and support enterprise-grade infrastructure solutions
+- Provide technical support for VMware, Active Directory, DNS/DHCP, and VDI systems
+- Enforce infrastructure standards and security best practices
+- Collaborate with engineering, cybersecurity, and PMO teams
+- Document architectures and drive operational excellence
+- Monitor infrastructure health and proactively mitigate risks
+
+✅ Required Qualifications
+- Experience managing enterprise IT infrastructure projects
+- Proficiency with VMWare, HyperV, Nutanix, and multi-domain AD environments
+- Strong scripting skills in PowerShell or Python
+- Familiarity with Linux/Windows systems, network protocols, and cloud platforms (AWS preferred)
+- Experience with backup and endpoint protection tools (e.g., Veeam, Rubrik, CrowdStrike)
+- Knowledge of identity federation protocols (AD, LDAP, SAML, OIDC, Okta)
+
+🌟 Preferred Experience
+- Infrastructure-as-Code and DevOps methodologies
+- CI/CD pipelines and Agile project delivery
+- Media and broadcast industry background
+
+💰 Compensation & Benefits
+- Salary range: $92,000–$129,000 annually
+- Annual discretionary bonus
+- Medical, dental, vision insurance
+- 401(k) plan and paid time off
+- Additional benefits per union agreements
+
+You can view the full listing and apply directly on Fox Careers. Let me know if you’d like help tailoring your résumé or prepping for the interview!
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "systems-engineer-in-foxcareers-at-new-york-united-states"},
+
+
+
+
+{ applyUrl: "https://epiqsystems.wd5.myworkdayjobs.com/en-US/Epiq_Careers/job/IND-Hyderabad-Sohini-Tech-Park-3rd-Floor-Financial-District/Senior-Software-Engineer---Power-BI_R0031006", companyName: "epiqsystems", companyLogo: "/images/epiqsystems.png", location: "Foster City", jobTitle: "Senior Software Engineer - Power BI", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Power BI
+Location: Hyderabad, India (Hybrid – Part-Time Office Presence)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Epiq is hiring a Senior Power BI Developer to lead the design and deployment of dynamic dashboards and business intelligence solutions. You’ll work closely with data engineers, analysts, and UX designers to transform raw data into actionable insights, supporting enterprise-wide reporting and decision-making.
+
+🔧 Key Responsibilities
+- Build and optimize Power BI dashboards, reports, and datasets
+- Create advanced DAX calculations and data models
+- Collaborate with stakeholders to gather requirements and define business logic
+- Integrate dashboards using Embedded Analytics and ensure security compliance
+- Document business requirements and maintain governance assets
+- Continuously evolve BI capabilities with tools like Microsoft Fabrics and CoPilot
+- Work across Agile Scrum teams and support US East Coast hours
+
+✅ Required Qualifications
+- Bachelor’s or Master’s in Computer Science or related field
+- 7–10 years of experience in Power BI, Snowflake, and SQL
+- Strong proficiency in DAX, data modeling, and SharePoint integration
+- Ability to write complex SQL queries and views
+- Experience in Agile methodology and BI best practices
+
+🌟 Preferred Experience
+- Exposure to Tableau, Microsoft Azure Ecosystem, and PowerShell scripting
+- Familiarity with Purview, MPARR, and Log Analytics Workspace
+- Background in Legal Tech or client-facing consulting roles
+- Advanced skills in Microsoft Excel
+
+💼 Core Competencies
+- Integrity and accountability in work and communication
+- Strong client focus and relationship-building skills
+- Results-driven mindset with urgency and initiative
+- Entrepreneurial orientation and innovation
+- Decisiveness in complex or ambiguous situations
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-power-bi-in-epiqsystems-at-foster-city-anywhere"},
+
+
 
 { applyUrl: "https://jobs.lever.co/compassx/7744cb50-db6d-40b1-a034-1b3d6ecd71d5", companyName: "compassx", companyLogo: "/images/compassx.png", location: "EU/UK", jobTitle: "Data Analyst (Data Governance and Power BI) (EU Based)", jobType: "Remote", jobCategory: "Analyst", mainDescription: `Here’s a structured and professional summary of the Data Analyst (Data Governance and Power BI) role at CompassX:
 
