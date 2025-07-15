@@ -97,6 +97,58 @@ const mockOpportunities: Opportunity[] = [
     isFeatured: true,
   },
 
+
+ 
+   
+  {
+    id: 'IFA-Berlin-2025',
+    type: 'Event',
+    title: 'IFA Berlin 2025',
+      provider: 'IFA Berlin',
+    description: "IFA Berlin is the world's largest home & consumer tech event",
+    tags: ['AI-driven innovations', 'appliances', 'Next‑gen display tech'],
+    icon: <CalendarDays className="h-7 w-7 text-primary" />,
+    imageUrl: '/images/IFA Berlin 2025.png',
+    imageHint: 'IFA Berlin 2025',
+    learnMoreUrl: 'https://www.ifa-berlin.com/',
+    duration: '4 Days',
+    format: 'In-Person',
+    
+  }
+  , 
+    {
+    id: 'Meta-Connect-2025',
+    type: 'Event',
+    title: 'Meta Connect 2025',
+    provider: 'Meta',
+    description: "Building AI experiences for everyone.Check out these world-expanding products and Building AI experiences for everyone ",
+    
+    tags: ['AI-driven innovations', 'products', 'Next‑gen display tech'],
+    icon: <CalendarDays className="h-7 w-7 text-primary" />,
+    imageUrl: '/images/meta.png',
+    imageHint: 'meta',
+    learnMoreUrl: 'https://www.meta.com/connect/',
+    duration: '1 Day',
+    format: 'Hybrid',
+    
+  }
+  ,
+        {
+    id: 'Oracle-CloudWorld',
+    type: 'Event',
+    title: 'Oracle CloudWorld',
+    provider: 'Oracle',
+    description: "At CloudWorld 2025, you’ll see the latest Oracle product and technology innovations, learn how they’re being applied, and share ideas with Oracle experts, partners, and your peers. You’ll come away with tools and insights to make an immediate impact within your organization.",
+    tags: ['GenAI', 'Cloud', 'Database'],
+    icon: <CalendarDays className="h-7 w-7 text-primary" />,
+    imageUrl: '/images/oracle.png',
+    imageHint: 'oracle',
+    learnMoreUrl: 'https://www.oracle.com/cloudworld/',
+    duration: '1 Day',
+    format: 'Hybrid',
+    }
+  ,
+
 ];
 
 export default function OpportunitiesPage() {

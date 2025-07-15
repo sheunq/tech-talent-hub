@@ -410,7 +410,7 @@ const mockBlogPosts = [
     title: "Navigating Your First Tech Job: A Beginner's Guide",
     excerpt: "Landing your first job in the tech industry can be exciting and daunting. This guide provides essential tips for new graduates and career changers to succeed.",
     author: "Chris Lee, Tech Mentor",
-    date: "October 29, 2024",
+    date: "May 05, 2025",
     imageUrl: '/images/Navigating Your First Tech Job.png',
     imageHint: 'desk computer learning',
     category: "Career Development",
@@ -494,6 +494,155 @@ const mockBlogPosts = [
 <p>Your first tech job will stretch you—and that's a good thing. You'll face bugs, blockers, awkward meetings, and “I-have-no-idea-what-I'm-doing” moments. That's part of the process.</p>
 <p class="mt-4">The goal isn't to be flawless. It's to be resilient, communicative, and eager to improve. So breathe, show up, and give yourself the grace to grow. You've already made it this far—and that's something to be proud of.</p>
 `
+  },
+
+
+  
+   {
+    slug: 'Latest-Tech-events-in-2025',
+    title: "Latest Tech events and trends in 2025",
+    excerpt: "Discover latest tech events in 2025. Explore upcoming global tech conferences, networking with tech professionals, and how to make the most of your event experience.",
+    author: "Chris Lee, Tech Mentor",
+    date: "May 05, 2025",
+    imageUrl: '/images/Tech Events 2025 Highlights.png',
+    imageHint: 'Tech Events',
+    category: "Career Development",
+    tags: ["Cloud", "AI", "FinTech", "Web"],
+   content: `
+      <p>Discover latest tech events in 2025. Explore upcoming global tech conferences, networking with tech professionals, and how to make the most of your event experience.</p>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">Why You Should Attend Tech Events</h2>
+<p>Tech events aren't just about swag and selfies. They’re strategic investments in your personal and professional growth. Here's why they matter:</p>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Knowledge Transfer – Learn from real-world case studies, product launches, and emerging trends.</li>
+  <li>Networking – Meet recruiters, investors, and collaborators who could define your next career move.</li>
+  <li>Brand Visibility – Speak, sponsor, or showcase your product to a targeted, engaged audience.</li>
+  <li>Skill Acceleration – Hands-on workshops and bootcamps can add real firepower to your toolkit.</li>
+</ul>
+
+<img src="/images/oracle.png" alt="oracle" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.oracle.com/cloudworld/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    1. Oracle CloudWorld
+  </a>
+</h2>
+<p>At CloudWorld 2025, you’ll see the latest Oracle product and technology innovations, learn how they’re being applied, and share ideas with Oracle experts, partners, and your peers. You’ll come away with tools and insights to make an immediate impact within your organization. It’s time to get excited about what AI-powered cloud applications, databases, and infrastructure can do for you. At Oracle CloudWorld, you’ll find keynotes, hundreds of educational sessions and labs, plus networking opportunities at receptions, The Party, and the CloudWorld Hub.</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">October 13–16, 2025, in Las Vegas</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Uplevel your skills</li>
+  <li>Be the first to know</li>
+  <li>Get industry insights</li>
+   <li>Experience new technologies firsthand</li>
+  <li>See what’s possible with our partners</li>
+  <li>Glimpse the future</li>
+  <li>Collaborate on solutions</li>
+  <li>Build relationships</li>
+</ul>
+
+<img src="/images/meta.png" alt="meta" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.meta.com/connect/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    2. Meta Connect 2025 
+  </a>
+</h2>
+<p>Building AI experiences for everyone. Check out these world-expanding products and Building AI experiences for everyone.</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">September 17 - 18, 2025</h3>
+
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>AI glasses for a fresh perspective</li>
+  <li>Quest 3S brings the magic of mixed reality</li>
+</ul>
+
+<img src="/images/IFA Berlin 2025.png" alt="IFA Berlin 2025" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.ifa-berlin.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    3. IFA Berlin 2025
+  </a>
+</h2>
+<p>FA Berlin is the world's largest consumer electronics and home appliances trade fair held each year in Berlin.IFA brings together global brands, visionary start-ups and tech pioneers from around the world. Discover groundbreaking products, explore the latest trends and connect with the companies redefining the future of technology.</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">5–9 September 2025</h3>
+
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Immersive experiences redefined with IFA Moments.</li>
+  <li>Gaming, content creation & community</li>
+  <li>Shaping the future of commerce</li>
+  <li>IFA Next is the innovation platform with the world’s leading brands, startups, and institutions, and redefine what is possible</li>
+  <li>IFA is the ultimate platform to captivate consumers and trade visitors with the latest technology.</li>
+  
+</ul>
+
+<img src="/images/singapore fintech festival.png" alt="IFA Berlin 2025" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.fintechfestival.sg/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    4. Singapore Fintech Festival
+  </a>
+</h2>
+<p>The Singapore FinTech Festival (SFF) is the annual global gathering of policymakers, regulators, central bankers, fintechs, technologists, investors and the finance industry. Designed to foster impactful connections and collaborations, SFF is a platform to explore the intersections of cutting-edge financial solutions, evolving regulatory landscapes, and the latest technological innovations.</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">12 - 14 November 2025, Singapore</h3>
+
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Celebrating the Last Decade of Progress</li>
+  <li>Building the Future Pathways for Growth</li>
+  <li>Addressing the Unresolved Challenges</li>  
+</ul>
+
+<img src="/images/reuters.png" alt="routers" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://events.reutersevents.com/momentum?utm_source=reutersevents&utm_medium=website&utm_campaign=listing" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    5. Scale AI to optimize your enterprise
+  </a>
+</h2>
+<p>Momentum AI is a two-day conference exploring how AI can improve the way large companies operate and deliver products and services.
+
+
+Uniting an audience of enterprise technology and data leaders from some of the largest organizations in the world, Momentum AI will equip you with everything you could possibly need to benchmark, evaluate, deploy, and scale AI in your business.</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">15 – 16 July, San Jose</h3>
+
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>The Realities of AI in 2025</li>
+  <li>The Great AI Crossroads: Open Highways vs. Walled Gardens</li>
+  <li>Integrating and Scaling AI to Drive Enterprise-Wide Transformation</li>  
+  <li>AI and the Acceleration of Industry 4.0: The TDK Story</li>  
+  
+</ul>
+
+
+
+<img src="/images/web_summit.png" alt="web summit" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://websummit.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    6. Web Summit 2025
+  </a>
+</h2>
+<p>The world's largest tech conference</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">11 – 14 Nov,Lisbon</h3>
+
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Future-focused: Gain expert knowledge through masterclasses led by industry experts and visionaries from some of the world's top companies, defining what's next, offering deep insights, practical skills, and a clear path forward.</li>
+  <li>Find your people: With 70,000+ attendees, making the right connections can feel overwhelming, but not at Web Summit. Our AI-powered recommendation system helps you find the people who matter most to you, based on shared interests, industries, and goals.</li>
+  <li>Where the future takes shape: Companies like Revolut, Uber, Stripe, Twilio, Cloudflare and Canva once showcased their ideas as part of our startup programme, now they're global success stories.</li>  
+  <li>Where deals are done: The energy of Web Summit extends beyond the conference floor. As the sun sets, the city comes alive with curated networking events, informal meetups, and industry gatherings set in some of the most iconic locations</li>  
+  
+</ul>
+
+
+
+     `
   },
 ];
 

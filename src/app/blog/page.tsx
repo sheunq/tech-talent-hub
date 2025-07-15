@@ -89,6 +89,21 @@ const mockBlogPosts: BlogPost[] = [
     category: "Career Development",
     tags: ["Data Science", "Python", "Machine Learning", "Visualization"],
       },
+
+         {
+
+    slug: 'Latest-Tech-events-in-2025',
+    title: "Latest Tech events and trends in 2025",
+    excerpt: "Discover latest tech events in 2025. Explore upcoming global tech conferences, networking with tech professionals, and how to make the most of your event experience.",
+    author: "Chris Lee, Tech Mentor",
+    date: "May 05, 2025",
+    imageUrl: '/images/Tech Events 2025 Highlights.png',
+    imageHint: 'Tech Events',
+    category: "Career Development",
+    tags: ["Cloud", "AI", "FinTech", "Web"]
+  
+  
+  },
 ];
 
 export default function BlogPage() {

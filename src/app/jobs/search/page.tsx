@@ -9,6 +9,1406 @@ import { Loader2 } from 'lucide-react';
 const mockJobsData: BackendStoredJob[] = [
 
 
+{ applyUrl: "https://jobs.lever.co/compassx/7744cb50-db6d-40b1-a034-1b3d6ecd71d5", companyName: "compassx", companyLogo: "/images/compassx.png", location: "EU/UK", jobTitle: "Data Analyst (Data Governance and Power BI) (EU Based)", jobType: "Remote", jobCategory: "Analyst", mainDescription: `Here’s a structured and professional summary of the Data Analyst (Data Governance and Power BI) role at CompassX:
+
+Job Title: Data Analyst – Data Governance and Power BI
+Location: Remote – EU/UK Based
+Department: Solutions – Data
+Employment Type: Independent Contractor (4-month contract)
+
+🧠 Role Overview
+CompassX is seeking a Data Analyst to help build governed, scalable data pipelines that support enterprise-wide reporting and analytics. You’ll work at the intersection of data governance and business intelligence, ensuring clarity, consistency, and trust in the data before visualization begins.
+
+🔧 Key Responsibilities
+- Create and maintain data governance assets (business glossary, data dictionary, source-to-target mappings)
+- Model enterprise datasets and develop semantic layers for reuse and clarity
+- Document data lineage, traceability, and business context
+- Translate validated models into Power BI dashboards
+- Collaborate with stakeholders across multiple data domains
+
+✅ Required Qualifications
+- Experienced consultant with ability to lead and advise across business and technical teams
+- Comfortable owning workstreams end-to-end: from requirements to dashboard delivery
+- Strong communication and organizational skills
+- Experience in regulated industries (e.g., pharma, healthcare, financial services)
+- Skilled in Power BI, SQL, DAX, and data governance tools
+
+🌟 Preferred Experience
+- Familiarity with Informatica IICS, Azure Synapse Analytics, and Azure Data Lake
+
+💰 Compensation
+- Hourly rate: $60–$70 USD, depending on experience
+- Work Type: Remote, must be located in an EU or UK country
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-analyst-data-governance-and-power-bi-eu-based-in-compassx-at-EU-UK"},
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/phaidra/jobs/4565620005", companyName: "phaidra", companyLogo: "/images/phaidra.png", location: "UK/USA/Canada", jobTitle: "AI Research Scientist (Sequential Decision Making)", jobType: "Remote", jobCategory: "AI", mainDescription: `Job Title: AI Research Scientist – Sequential Decision Making
+Location: Remote (UK preferred; also open to select regions in USA and Canada)
+Department: Research
+Employment Type: Full-Time
+
+🧠 Role Overview
+Phaidra is hiring an AI Research Scientist to develop novel algorithmic architectures for intelligent control systems in the industrial sector. You’ll apply reinforcement learning, optimization, and planning techniques to real-world problems, helping facilities evolve from static infrastructure to adaptive, self-improving systems.
+
+🔧 Key Responsibilities
+- Collaborate on applied research to enhance algorithmic capabilities
+- Design prediction and decision algorithms for complex dynamic systems
+- Build benchmarking platforms for performance evaluation
+- Present findings internally and externally
+- Lead collaborative research projects and mentor engineers
+- Maintain relationships with external research labs
+
+✅ Required Qualifications
+- PhD or equivalent experience in Planning, Reinforcement Learning, or Optimization
+- 1+ years of applied research experience
+- Proficiency in Python and ML libraries (e.g., PyTorch, TensorFlow, Keras, Ray)
+- Experience contributing to open-source software
+- Strong alignment with Phaidra’s values: curiosity, ownership, transparency, outcome-based performance, and customer empathy
+
+🌟 Preferred Experience
+- Track record of publications
+- Experience applying AI to real-world industrial scenarios
+
+🧰 Tech Stack
+- Python, PyTorch, SciPy
+- Kubernetes, Docker, Ray
+- Google Cloud Platform (GCP)
+
+💰 Compensation & Benefits
+| Region | Salary Range | 
+| USA | $171,169 – $200,000 USD | 
+| UK | £108,834 – £127,168 GBP | 
+| Canada | $179,063 – $209,225 CAD | 
+
+
+- Equity included
+- Unlimited PTO (minimum 20 days/year)
+- Paid parental leave
+- Health insurance (varies by region)
+- Home office setup allowance & MacBook
+- Digital nomad policy & remote-first culture
+
+🧭 Onboarding Timeline
+- 30 Days: Immersed in product and research tracks
+- 60 Days: Building relationships and planning first project
+- 90 Days: Fully integrated and contributing to research
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "ai-research-scientist-sequential-decision-making-in-phaidra-at-foster-city-anywhere"},
+
+
+{ applyUrl: "https://www.smartrecruiters.com/RodeoFX/744000068904605", companyName: "rodeofx", companyLogo: "/images/rodeofx.png", location: "Canada", jobTitle: "Pipeline Developer", jobType: "Hybrid", jobCategory: "Developer", mainDescription: `Job Title: Pipeline Developer – Review & Automation Workflows
+Location: Montreal, QC, Canada (Hybrid)
+Department: Technology
+Employment Type: Full-Time
+
+🧠 Role Overview
+Rodeo FX is hiring a Pipeline Developer to lead the development of tools and APIs that support review, dailies, and automation systems across its global VFX pipeline. You’ll unify platforms like RV, ShotGrid, and xStudio, build intuitive interfaces, and contribute to the studio’s graph-based automation engine. This role is central to streamlining editorial, production, and delivery workflows.
+
+🔧 Key Responsibilities
+- Develop scalable tools integrating RV, ShotGrid, Hiero, and internal platforms
+- Extend APIs for dailies automation, playlist generation, and editorial cut tracking
+- Build graph-based logic for ingest, publish, and review workflows
+- Ensure clean metadata flow between production and editorial systems
+- Design user-facing interfaces with Qt (PySide2/PyQt) and command-line utilities
+- Collaborate with VFX supervisors and production teams to refine tool specs
+- Follow best practices in version control, CI/CD, and testing
+
+✅ Required Qualifications
+- 8+ years as a Pipeline Developer or Tools Engineer in a VFX studio
+- BSc or MSc in Computer Science, Software Engineering, or related field
+- Expert-level Python skills
+- Proven experience with RV, ShotGrid, and Hiero
+- Strong UX design and Qt development experience
+- Familiarity with Linux, CLI tools, and Git workflows
+
+🌟 Preferred Experience
+- Experience with C++, Flask, FastAPI, or React
+- Knowledge of ACES, OCIO, and LUT workflows
+- Familiarity with Rez, Avid, Final Cut Pro, or DaVinci Resolve
+
+💰 Compensation & Benefits
+- Full-time, permanent contract
+- Hybrid work structure (minimum 3 days in-studio)
+- 5 paid sick/personal days
+- Group insurance and access to Dialogue and EAP
+- RRSP with employer contribution
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "pipeline-developer-in-rodeofx-at-canada-canada"},
+
+
+{ applyUrl: "https://jobs.lever.co/companial/0f4ef127-c5cb-4187-80d6-7b0055f0fe32", companyName: "companial", companyLogo: "/images/companial.png", location: "Vilnius or Kaunas, Lithuania", jobTitle: "Senior .NET Backend Developer", jobType: "Hybrid", jobCategory: "Backend", mainDescription: `Job Title: Senior .NET Backend Developer
+Location: Vilnius or Kaunas, Lithuania (Hybrid or Remote)
+Department: Operations, Platform & IT – Research & Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Companial is hiring a Senior Backend Developer to join its R&D team focused on building high-quality web applications and distributed systems. You’ll be a technical cornerstone, guiding architecture decisions, mentoring developers, and working with cutting-edge Microsoft technologies to support global Dynamics partners.
+
+🔧 Key Responsibilities
+- Develop web applications using .NET Core v8 (C#)
+- Lead architecture decisions and mentor team members
+- Ensure code quality through TDD, coding standards, and code reviews
+- Evaluate new projects and propose best practices
+- Collaborate in an agile team using Azure DevOps for CI/CD
+
+✅ Required Qualifications
+- 5+ years of experience with C#/.NET Core and Framework
+- 2+ years in a senior or technical-lead role
+- Expertise in ASP.NET Core, microservices, and distributed systems
+- Experience with Dapper, Cosmos DB SDK, and EF Core
+- Hands-on with Azure App Services, Kubernetes, Functions, and Service Bus
+- Strong communication and problem-solving skills
+
+🌟 Preferred Experience
+- Familiarity with Infrastructure as Code (ARM, Bicep, Terraform)
+- Experience with Azure AD, Microsoft Graph API, and Managed Identities
+- Integration with Microsoft Partner Center APIs
+- Knowledge of security/compliance standards (ISO, GDPR, CIS)
+- Experience with Blazor Pages and Azure Functions
+
+💰 Compensation & Benefits
+- Monthly salary: €4500 – €6500 gross, based on experience
+- Flexible working hours and remote options
+- Additional vacation days
+- Health and life insurance
+- Flex benefits focused on wellbeing
+- Annual team events and workout classes
+- Training and development opportunities
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-net-backend-developer-in-companial-at-Vilnius-Kaunas-Lithuania"},
+
+
+{ applyUrl: "https://jobs.lever.co/companial/1ebe6bc6-54eb-4b38-a6ab-b2065f4fb86e", companyName: "companial", companyLogo: "/images/companial.png", location: "Albania", jobTitle: "Lead NAV/Business Central developer", jobType: "Hybrid", jobCategory: "Business", mainDescription: `Job Title: Lead NAV/Business Central Developer
+Location: Albania (Hybrid)
+Department: Technical Services – Business Central Development
+Employment Type: Full-Time
+
+🧠 Role Overview
+Companial is hiring a Lead Developer to spearhead Microsoft Dynamics 365 Business Central upgrade and development projects. You’ll architect solutions, lead teams, and work with cutting-edge technologies like Visual Studio Code AL, DevOps, and Power Platform. This role offers direct collaboration with Microsoft and access to early insights into new technologies.
+
+🔧 Key Responsibilities
+- Lead upgrade and development projects for Microsoft Partners and ISVs
+- Architect solutions and develop Business Central extensions using AL language
+- Work with both on-premises and SaaS deployments of Dynamics NAV/Business Central
+- Stay aligned with global technologies and contribute to continuous improvement
+- Collaborate with a diverse international team and implement innovative ideas
+
+✅ Required Qualifications
+- 5+ years of experience with Microsoft Dynamics NAV/Business Central
+- 1+ year working with Business Central extensions and Visual Studio Code AL
+- Experience leading multi-developer projects
+- Basic knowledge of DevOps, Git, and PowerShell
+- Strong English communication skills
+- Team-oriented and willing to share knowledge
+
+💰 Compensation & Benefits
+- Flexible hours and remote work options
+- Training and development (conferences, courses, business trips)
+- Informal work environment and team-building events
+- Opportunities to grow within a highly skilled international team
+- Access to the latest Microsoft technologies and direct consulting
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "lead-nav-business-central-developer-in-companial-at-albania-albania"},
+
+
+{ applyUrl: "https://jobs.lever.co/companial/202d3b2a-1a15-43d9-aa96-95ed105dbc25", companyName: "companial", companyLogo: "/images/companial.png", location: "Vilnius or Kaunas, Lithuania", jobTitle: "Junior developer (Join our IT Academy!)", jobType: "Hybrid", jobCategory: "General", mainDescription: `Job Title: Junior Developer – IT Academy
+Location: Vilnius, Lithuania (On-site required)
+Department: Technical Services – Business Central Development
+Employment Type: Full-Time or Part-Time (Hybrid)
+
+🧠 Role Overview
+Companial is launching its IT Academy to train and onboard Junior Developers into its Microsoft Dynamics 365 Business Central team. You’ll begin with a 1-month internal training program, followed by hands-on experience in upgrade and development projects for global Microsoft partners. This structured 6-step adaptation program includes regular performance reviews and a clear path to becoming an Experienced Developer within 3 years.
+
+🔧 Key Responsibilities
+- Participate in upgrade and development projects for Microsoft Dynamics 365 Business Central
+- Collaborate with international teams and learn new technologies
+- Progress through a structured training and mentorship program
+- Contribute to global solutions for Microsoft partners
+
+✅ Required Qualifications
+- Knowledge of at least one programming language
+- Basic understanding of object-oriented programming
+- Good spoken and written English
+- Motivation to learn and grow
+- Open to students, coding academy graduates, and IT enthusiasts
+
+💰 Compensation & Benefits
+- Monthly salary: €1300 gross
+- Flexible working hours (study/work balance supported)
+- 2 additional business days of annual vacation
+- Life and risk insurance
+- Annual team events
+- Full-time employment (40 hours/week)
+- Training and development opportunities
+- Start date: September 15, 2025
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "junior-developer-join-our-it-academy-in-companial-at-Vilnius-Lithuania"},
+
+
+{ applyUrl: "https://jobs.lever.co/companial/25e2a923-31f7-4ed6-88b8-fedd7e5b27c3", companyName: "companial", companyLogo: "/images/companial.png", location: "Vilnius or Kaunas, Lithuania", jobTitle: "Dynamics 365 CRM/CE & Power Platform Developer", jobType: "Hybrid", jobCategory: "Developer", mainDescription: `Job Title: Dynamics 365 CRM/CE & Power Platform Developer
+Location: Vilnius, Lithuania (Hybrid or Remote)
+Department: Technical Services – Power Platform & Dynamics CRM
+Employment Type: Full-Time
+
+🧠 Role Overview
+Companial is hiring a Developer to design and deliver technical solutions across Microsoft Power Platform and Dynamics 365 Customer Engagement (CE). You’ll work closely with consultants to build scalable apps, automate business processes, and integrate external systems. This role is ideal for someone eager to deepen their expertise in Power Platform technologies and contribute to high-impact projects for global Dynamics partners and ISVs.
+
+🔧 Key Responsibilities
+- Develop scalable solutions using Power Apps, Power Automate, Copilot Studio, Power Pages, and Dynamics 365 CE
+- Build integrations using connectors, APIs, Azure services, and custom components
+- Customize Dynamics 365 CE with plugins, workflows, JavaScript, and server-side logic
+- Ensure solutions follow Microsoft best practices and enterprise architecture standards
+- Provide technical support during UAT and post go-live stages
+
+✅ Required Qualifications
+- 1+ years of experience with Dynamics 365 CE customizations and configurations
+- 2+ years of experience developing Power Platform solutions
+- Proficiency in at least three technologies: C#, JavaScript, PowerApps, Power Automate, CRM SDK, Power Pages, Copilot Studio, or Azure Integration Services
+- Good spoken and written English
+
+🌟 Preferred Experience
+- Knowledge of Microsoft Azure services like Logic Apps and Azure Functions
+
+💰 Compensation & Benefits
+- Monthly salary: €2500 – €4500 gross, based on experience
+- Flexible working hours and location (remote or offices in Vilnius/Kaunas)
+- Life and risk insurance
+- Additional vacation days and health insurance based on tenure
+- Training and development opportunities (certifications, conferences)
+- Informal and social work environment in a fast-growing international IT organization
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "dynamics-365-crm-ce-power-platform-developer-in-companial-at-Vilnius-Kaunas-Lithuania"}
+
+
+,{ applyUrl: "https://jobs.smartrecruiters.com/CPPInvestmentsInvestissementsRPC/744000063510131", companyName: "cppinvestments", companyLogo: "/images/cppinvestments.png", location: "Canada", jobTitle: "Lead DevOps Engineer", jobType: "Full-time", jobCategory: "Devops", mainDescription: `Job Title: Lead DevOps Engineer
+Location: Toronto, Canada (Hybrid)
+Department: Information Technology – Cloud & DevOps
+Employment Type: Full-Time
+
+🧠 Role Overview
+CPP Investments is hiring a Lead DevOps Engineer to architect and implement scalable, resilient infrastructure solutions across enterprise platforms. You’ll drive automation, CI/CD maturity, and observability using modern cloud-native tools, while collaborating with cross-functional teams to optimize performance and developer efficiency.
+
+🔧 Key Responsibilities
+- Design and build robust DevOps practices across the organization
+- Architect cloud environments using Kubernetes, Terraform, and GitOps pipelines
+- Implement reusable CI/CD frameworks with GitHub Actions, Vault, Ansible, and Sonarqube
+- Lead Elastic Observability platform optimization and management
+- Analyze and modernize DevOps pipelines to eliminate bottlenecks
+- Evangelize DevOps adoption and mentor teams on best practices
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science or Computer Engineering
+- 10+ years of hands-on experience in DevOps automation and CI/CD
+- Expertise in Terraform, GitHub Actions, Vault, Consul, Docker, Kubernetes, Linux, and AWS
+- Strong skills in building pipelines with tools like npm, Java, Python, and Pypi
+- Excellent communication and problem-solving abilities
+
+🌟 Preferred Experience
+- Familiarity with Windows-based platforms
+- Experience with Artifactory, Elastic Observability, and SRE frameworks
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Hybrid-flexible work environment
+- Access to global career development and professional growth
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "lead-devops-engineer-in-cppinvestments-at-canada-canada"}
+
+
+,{ applyUrl: "https://jobs.smartrecruiters.com/CPPInvestmentsInvestissementsRPC/744000067082970", companyName: "cppinvestments", companyLogo: "/images/cppinvestments.png", location: "Canada", jobTitle: "Lead Engineer, Finance Systems, Enterprise Systems Technology", jobType: "Full-time", jobCategory: "Finance", mainDescription: `Technology role at CPP Investments:
+
+Job Title: Lead Engineer – Finance Systems
+Location: Toronto, Canada
+Department: Technology and Data – Enterprise Systems
+Employment Type: Full-Time
+
+🧠 Role Overview
+CPP Investments is hiring a Lead Software Engineer to architect and deliver end-to-end technology solutions that support Finance, Talent, Legal, and Communications teams. You’ll lead agile development efforts, drive engineering excellence, and collaborate across departments to build scalable, cloud-native systems that enable complex business capabilities.
+
+🔧 Key Responsibilities
+- Design, build, test, and support full-stack solutions in an Agile environment
+- Provide technical leadership and coaching to drive engineering excellence
+- Guide teams through root-cause analysis, experimentation, and continuous improvement
+- Maintain strong relationships with business partners and vendor teams
+- Promote a culture of feedback, learning, and professional growth
+
+✅ Required Qualifications
+- Undergraduate degree or diploma in Engineering, Computer Science, or related field
+- 6+ years of experience in software engineering
+- Proficiency in Python, C++, Java, and cloud-native development (AWS preferred)
+- Experience with version control, testing methodologies, and Agile SDLC
+- Hands-on experience with Oracle SaaS Finance systems (preferred)
+- Familiarity with Playwright for UI test automation (preferred)
+
+💼 Why Join CPP Investments?
+- Work at one of the world’s most respected institutional investors
+- Access to global career development and intellectually stimulating projects
+- Hybrid-flexible work environment with emphasis on collaboration
+- Culture rooted in integrity, partnership, and high performance
+- Contribute to a mission with real social impact for Canadians
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "lead-engineer-finance-systems-enterprise-systems-technology-in-cppinvestments-at-canada-canada"},
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/backend-software-engineer-pune-maharashtra-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Backend Software Engineer", jobType: "Hybrid", jobCategory: "Backend", mainDescription: `
+Job Title: Backend Software Engineer
+Location: Pune, Maharashtra, India (Hybrid)
+Department: Engineering – Commerce Division
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Backend Software Engineer to join its Terminal Management team, which oversees the lifecycle of Poynt Smart Terminals and related hardware. You’ll build scalable APIs, manage over-the-air updates, and develop systems for diagnostics, provisioning, and analytics that support global device operations.
+
+🔧 Key Responsibilities
+- Develop and maintain APIs for managing payment terminals across global markets
+- Design scalable OTA systems for secure OS and app updates
+- Implement real-time log collection and diagnostics for rapid issue resolution
+- Integrate telemetry data into analytics and machine learning pipelines
+- Build provisioning systems for diverse customer environments
+- Support full device lifecycle from factory to field
+- Enable partners and resellers with remote device management tools
+
+✅ Required Qualifications
+- 3+ years in server-side programming (Java or Golang preferred)
+- Experience building secure cloud applications on AWS (ECS, EC2)
+- Skilled in designing external-facing APIs
+- Proficient in distributed systems and event-driven architectures
+- Strong knowledge of SQL and NoSQL databases
+
+🌟 Preferred Experience
+- 2+ years with Java/Golang backend development
+- Familiarity with Kafka, RabbitMQ, or AWS SNS/SQS
+- Experience with AWS Lambda or similar event-driven platforms
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "backend-software-engineer-in-godaddy-at-india-india"},
+
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/director-of-artificial-intelligence-and-machine-learning-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Director of Artificial Intelligence and Machine Learning", jobType: "Hybrid", jobCategory: "AI", mainDescription: `Job Title: Director of Artificial Intelligence and Machine Learning
+Location: Gurugram or Pune, India (Hybrid)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a visionary Director of AI/ML to define and lead its three-year strategic roadmap for enterprise-scale AI and Machine Learning solutions. You’ll spearhead the development of Agentic AI systems, architect global pipelines, and collaborate across teams to deliver intelligent, adaptive applications that accelerate customer acquisition and business growth.
+
+🔧 Key Responsibilities
+- Develop and champion GoDaddy’s AI/ML strategy and roadmap
+- Lead initiatives in Agentic AI, enabling autonomous, adaptive systems
+- Architect and implement end-to-end AI/ML pipelines for global deployment
+- Ensure scalability, governance, and compliance across diverse regions
+- Collaborate with engineering, product, and data science teams to deliver impactful solutions
+- Stay ahead of AI/ML advancements and integrate emerging technologies
+- Mentor and grow high-performing AI/ML teams
+
+✅ Required Qualifications
+- 8+ years in AI/ML leadership roles within agile tech or SaaS environments
+- Proven expertise in Agentic AI, autonomous systems, or multi-agent architectures
+- Experience designing and scaling global AI/ML systems
+- Strong background in customer-facing applications powered by AI/ML
+- Deep knowledge of ML tools, frameworks, and cloud platforms
+- Exceptional leadership, communication, and strategic execution skills
+
+🌟 Preferred Experience
+- Advanced degree in Computer Science, Machine Learning, or Artificial Intelligence
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "director-of-artificial-intelligence-and-machine-learning-in-godaddy-at-india-india"},
+
+
+{ applyUrl: "https://careers.godaddy/jobs/full-stack-software-engineer-aws-cdk-colombia", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "Colombia", jobTitle: "Full Stack Software Engineer -AWS CDK", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Full Stack Software Engineer – AWS CDK
+Location: Remote – Colombia
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Full Stack Software Engineer to help build a central CI/CD platform for its global engineering teams. You’ll work on automating infrastructure, enhancing developer workflows, and delivering features that improve security, consistency, and efficiency across hundreds of applications. This role blends backend and frontend development with a strong focus on AWS and GitHub Actions.
+
+🔧 Key Responsibilities
+- Deliver features that improve developer experience and platform resilience
+- Build and maintain infrastructure automation using AWS CDK
+- Develop backend and frontend components using Node.js
+- Collaborate with internal engineering teams to solve platform challenges
+- Continuously improve quality, observability, and customer satisfaction
+
+✅ Required Qualifications
+- 5+ years of experience in software development
+- 3+ years of hands-on coding in Node.js (backend and frontend)
+- Strong experience with AWS CDK
+- Familiarity with CI/CD tools like GitHub Actions or Jenkins
+- Agile mindset and proactive problem-solving approach
+
+🌟 Preferred Experience
+- Experience developing GitHub Actions and automating cloud infrastructure
+- Familiarity with Elastic stack, OpenTelemetry, Cypress, and TDD
+- Skills in Markdown, TypeScript, CSS, Next.js, and React.js
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "full-stack-software-engineer-aws-cdk-in-godaddy-at-colombia-colombia"},
+
+
+{ applyUrl: "https://careers.godaddy/jobs/principal-security-engineer-india-1f26b8ac-8c46-419c-aca2-bfcabc5e7f98", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Principal Security Engineer", jobType: "Remote", jobCategory: "Security", mainDescription: `
+Job Title: Principal Security Engineer
+Location: Remote – India
+Department: Engineering – Product Security
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Principal Security Engineer to lead large-scale, cross-company security initiatives. You’ll work closely with engineering teams to identify threats, perform security certifications, and implement scalable solutions that protect applications and infrastructure. This role blends technical depth, strategic leadership, and hands-on development in a dynamic global environment.
+
+🔧 Key Responsibilities
+- Perform security certifications including architecture reviews, threat modeling, code reviews, and cloud audits
+- Identify and remediate security threats across applications and infrastructure
+- Build tools to automate security processes and frameworks
+- Promote secure-by-design and secure-by-default development strategies
+- Lead resolution of security events, policy questions, and technical risks
+- Support risk acceptance and exception processes
+
+✅ Required Qualifications
+- 10+ years of experience in security engineering with expertise in Secure Development Lifecycle
+- Strong scripting skills in JavaScript and Python
+- Experience with manual code reviews, static analysis tools, and vulnerability identification
+- Excellent interpersonal and problem-solving skills
+- Deep technical understanding of application security, architecture, and threat modeling
+
+🌟 Preferred Experience
+- Experience developing security automation tools
+- Background in DevSecOps and integrating SAST tools into CI/CD pipelines
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "principal-security-engineer-in-godaddy-at-india-india"},
+
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/principal-software-engineer-colombia-a9ef842b-78aa-47af-aa59-b340f2ceac02", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "Colombia", jobTitle: "Principal Software Engineer", jobType: "Remote", jobCategory: "Software", mainDescription: `
+
+Job Title: Principal Software Engineer
+Location: Remote – Colombia
+Department: Engineering – Cloud Platforms
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Principal Software Engineer to lead its cloud transformation journey. You’ll architect and build platform technologies that empower thousands of internal developers and support millions of small businesses globally. This role blends technical leadership, hands-on development, and inclusive collaboration to drive innovation at scale.
+
+🔧 Key Responsibilities
+- Provide architectural guidance and establish best practices for cloud-native development on AWS
+- Design and build scalable, reliable, and secure systems using microservices, containers, and serverless technologies
+- Integrate AI tools and emerging AWS services to enhance platform capabilities
+- Promote operational excellence through code reviews, monitoring, testing, and documentation
+- Mentor engineers and foster cross-team collaboration
+- Lead initiatives that improve productivity, security, and engineering direction
+
+✅ Required Qualifications
+- 7+ years of experience building large-scale distributed systems
+- Proficiency in multiple languages: Python, Java, Go, Node.js
+- 2+ years of hands-on experience with AWS, GCP, or Azure
+- Strong understanding of data structures, algorithms, system design, and containerized deployments
+- Familiarity with CI/CD pipelines, testing strategies, and automated deployments
+- Excellent communication and collaboration skills
+
+🌟 Preferred Experience
+- Production experience with Kubernetes and Docker
+- Agile development and DevOps practices
+- Exposure to AI/ML integration and LLM-enhanced workflows
+- Experience designing enterprise-grade cloud-native architectures
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "principal-software-engineer-in-godaddy-at-colombia-colombia"},
+
+
+
+
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/senior-full-stack-software-development-engineer-gurugram-haryana-india-138e0d39-7a98-433f-97b1-cf936f3e2f27", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Senior Full Stack Software Development Engineer", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Senior Full Stack Software Development Engineer
+Location: Gurugram, Haryana, India (Hybrid)
+Department: Engineering – Care Transformation Team
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Senior Full Stack Engineer to build innovative tools for customer relationship management. You’ll work on a next-generation messaging platform that enhances customer interactions and drives platform insights. This role blends frontend and backend development with a strong focus on scalability, performance, and user experience.
+
+🔧 Key Responsibilities
+- Design and build responsive UI components using React or Vue.js
+- Write maintainable, testable code with strong coverage and performance optimization
+- Translate business requirements into robust technical solutions
+- Troubleshoot and resolve production issues with urgency
+- Collaborate with backend, product, and design teams on feature development
+- Contribute to code reviews, documentation, and mentoring
+
+✅ Required Qualifications
+- 4+ years as a full-stack engineer with frontend focus
+- Proficiency in JavaScript, React, NodeJS, Go, MySQL, DynamoDB
+- Experience with unit testing, mocking frameworks, and asynchronous programming
+- Proven deployment experience on AWS and CI/CD pipelines
+- Comfortable with Agile development and Git-based workflows
+
+🌟 Preferred Experience
+- Experience with AI tools like Claude, Copilot, or Cursor
+- Deep understanding of UI development best practices
+- Familiarity with GitHub Actions or similar CI tools
+- Degree in Computer Science or equivalent experience
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-full-stack-software-development-engineer-in-godaddy-at-india-india"},
+
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/senior-full-stack-software-engineer-serbia", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "Serbia", jobTitle: "Senior Full Stack Software Engineer", jobType: "Remote", jobCategory: "Software", mainDescription: `Job Title: Senior Full Stack Software Engineer
+Location: Serbia (Hybrid or Fully Remote)
+Department: Engineering – Partners Experience Team
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Senior Full Stack Engineer to help build and scale tools for Web Designers and Developers (WDD). You’ll work on intuitive, high-performance experiences for managing WordPress, Hosting, Security, and pro tools. This role blends frontend and backend development with a strong focus on observability, security, and modern architecture.
+
+🔧 Key Responsibilities
+- Maintain and modernize the Partners Experience product stack (ReactJS frontend, NodeJS APIs)
+- Strengthen security posture, fault tolerance, and observability
+- Use JavaScript tooling (e.g., Webpack) and infrastructure tools like GitHub Actions
+- Migrate architecture to NodeJS (TypeScript) and ReactJS on AWS
+- Collaborate with product and engineering teams to enhance UI workflows and capabilities
+- Lead coding standards, test automation, and security best practices
+- Advocate for modern tech stacks and solve problems with broad impact
+
+✅ Required Qualifications
+- 3+ years developing full-stack applications using JavaScript
+- Experience maintaining JVM-based deployments
+- Deep hands-on experience with AWS cloud platforms
+- Familiarity with CI/CD pipelines, DevOps, and Agile principles
+- Strong understanding of fault-tolerant systems, REST APIs, Git, HTML, CSS
+
+🌟 Preferred Experience
+- Experience with Webpack and other JavaScript tooling libraries
+- Familiarity with PHP and infrastructure tooling
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-full-stack-software-engineer-in-godaddy-at-serbia-serbia"},
+
+
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/senior-rpa-developer-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Senior RPA Developer", jobType: "Remote", jobCategory: "Developer", mainDescription: `Job Title: Senior RPA Developer
+Location: Remote – India
+Department: IT Operations – FDAT (Finance Data, Automation, and Technology)
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Senior RPA Developer to lead end-to-end automation initiatives across its finance and operations teams. You’ll architect and maintain UiPath-based RPA solutions, identify automation opportunities, and champion digital transformation across the organization. This role blends technical leadership, process improvement, and stakeholder engagement.
+
+🔧 Key Responsibilities
+- Drive RPA automation strategy, architecture, development, and maintenance
+- Troubleshoot and optimize existing UiPath Orchestrator and Studio automations
+- Identify and assess new automation opportunities across business units
+- Lead implementation and process development activities within the RPA team
+- Collaborate with business and technical stakeholders to promote automation adoption
+- Apply current development methodologies and uphold GoDaddy’s documentation standards
+
+✅ Required Qualifications
+- 4–6 years in enterprise improvement roles
+- 5+ years in process improvement or consultancy with digital transformation exposure
+- Experience as a business analyst in RPA programs with hands-on implementation
+- UiPath Automation Solution Architect Developer license (preferred)
+- Proven success managing change in complex organizations
+- Strong communication and relationship-building skills across cross-functional teams
+
+💰 Compensation & Benefits
+- Paid time off and retirement savings plans
+- Bonus/incentive eligibility and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-rpa-developer-in-godaddy-at-india-india"},
+
+
+
+
+
+{ applyUrl: "https://careers.godaddy/jobs/senior-site-reliability-engineer-india-52f27a01-2e10-4dd5-8ac4-652a3e59787d", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Senior Site Reliability Engineer", jobType: "Remote", jobCategory: "Engineer", mainDescription: `Job Title: Senior Site Reliability Engineer
+Location: Remote – India
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Senior Site Reliability Engineer to help build and maintain its eCommerce platform. You’ll collaborate with global development teams to ensure smooth deployments, robust infrastructure, and scalable release processes. This role blends DevOps, cloud engineering, and automation to support mission-critical systems.
+
+🔧 Key Responsibilities
+- Build and manage CI/CD pipelines for automated deployments
+- Own and improve the release process for scalability and quality
+- Deploy infrastructure components in distributed environments
+- Support production updates and hotfixes across multiple products
+- Collaborate with engineering, product, and business teams
+- Mentor junior engineers and participate in on-call rotations
+
+✅ Required Qualifications
+- 5+ years in Site Reliability Engineering
+- Hands-on experience with AWS and Kubernetes (EKS, AKS, GKE, Fargate)
+- Strong Linux administration skills
+- Proficiency in Go, Python, or Ruby
+- Experience with Infrastructure as Code tools (Pulumi, Terraform, Ansible, CDK)
+
+🌟 Preferred Experience
+- SQL systems (MySQL, PostgreSQL)
+- CI/CD tools and version control (Jenkins, Gradle, Maven)
+- Distributed infrastructure and networking principles
+
+💰 Compensation & Benefits
+- Paid time off and retirement savings plans
+- Incentive eligibility and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-site-reliability-engineer-in-godaddy-at-india-india"}, 
+
+
+
+
+
+  
+{ applyUrl: "https://careers.godaddy/jobs/senior-software-engineer-android-pune-maharashtra-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Senior Software Engineer Android", jobType: "Hybrid", jobCategory: "Software", mainDescription: 
+`
+Job Title: Senior Software Engineer – Android
+Location: Pune, Maharashtra, India (Hybrid)
+Department: Engineering – Payments OS and Apps
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Senior Android Engineer to lead development of Smart Point of Sale (POS) Terminals and associated device software. You’ll collaborate with product managers and engineering leaders to build secure, scalable, and intuitive payment solutions for merchants and banking partners. This role blends technical leadership, Android customization, and customer-focused innovation.
+
+🔧 Key Responsibilities
+- Own domain areas like Payment Fragment, Transaction UI Flows, and Middleware
+- Drive initiatives to reduce technical debt and strengthen platform architecture
+- Mentor junior developers and lead code reviews
+- Translate product requirements into scalable engineering solutions
+- Lead release cycles, incident response, and roadmap planning
+- Solve merchant issues with creative, high-quality solutions
+
+✅ Required Qualifications
+- 5+ years of experience in Java/Kotlin and Android SDK development
+- Strong grasp of algorithms, data structures, and SOLID principles
+- Expertise in designing secure, intuitive RESTful APIs
+- Experience with CI/CD, testing, and monitoring for production-grade quality
+- Proficient in Agile/Scrum methodologies
+
+🌟 Preferred Experience
+- 2+ years in AOSP customization and embedded systems
+- Background in payments or risk domains
+- Experience with event-driven systems, messaging, and microservices
+
+💰 Compensation & Benefits
+- Paid time off, retirement savings, and equity grants
+- Health benefits and parental leave
+- Employee stock purchase plan
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups and professional development
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-android-in-godaddy-at-india-india"}
+
+,
+
+{ applyUrl: "https://careers.godaddy/jobs/senior-software-engineer-customer-engagement-data-team-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Senior Software Engineer - Customer Engagement Data Team", jobType: "Hybrid", jobCategory: "Data", mainDescription: `Job Title: Senior Software Engineer – Customer Engagement Data Team
+Location: Pune, Maharashtra, India (Hybrid)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+GoDaddy is hiring a Senior Software Engineer to lead the development of its Customer Engagement Platform Data Pipeline, which powers real-time messaging, notifications, and outbound communications (email, SMS, etc.) for over 21 million customers. You’ll design scalable data systems, ensure platform observability, and collaborate across teams to enhance customer experience and drive business outcomes.
+
+🔧 Key Responsibilities
+- Own and maintain the Customer Engagement Platform Data Pipeline
+- Design systems with a “Shift Left” focus on security and data integrity
+- Collaborate with engineering, marketing, QA, and operations teams
+- Apply Agile, Scrum, CI/CD, and testing automation best practices
+- Integrate internal and external systems with high observability and SLA tracking
+
+✅ Required Qualifications
+- 7+ years in software engineering, including 4+ years with AWS
+- Proficiency in C#, Python, SQL, and Spark
+- Experience with AWS services: Lambda, Step Functions, API Gateway, Fargate, ECS, S3, SQS, Kinesis, Firehose, DynamoDB, RDS, Athena, Glue
+- Strong foundation in data structures, algorithms, and design patterns
+- Familiarity with RESTful and GraphQL APIs
+- Minimum 3-hour overlap with US-Pacific time zone
+
+🌟 Preferred Experience
+- DevOps tools: GitHub, GitHub Actions, Docker
+- CI/CD and container orchestration technologies
+
+💰 Compensation & Benefits
+- Paid time off and retirement savings plans
+- Bonus/incentive eligibility and equity grants
+- Employee stock purchase plan
+- Health benefits and parental leave
+- Inclusive culture and support for side hustles
+- Access to Employee Resource Groups`
+, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-customer-engagement-data-team-in-godaddy-at-india-india"},
+
+
+{ applyUrl: "https://careersatbhg.com/openings/senior-data-scientist?id=69719dd9-75ee-4d60-b542-d5749d7003fe", companyName: "bhg", companyLogo: "/images/bhg.png", location: "United States", jobTitle: "SENIOR DATA SCIENTIST", jobType: "Remote", jobCategory: "General", mainDescription: `Job Title: Senior Data Scientist
+Location: Remote (USA)
+Department: Business Analytics / Revenue – Model Risk
+Employment Type: Full-Time
+
+🧠 Role Overview
+BHG Financial is hiring a Senior Data Scientist to lead the development of advanced analytics solutions that drive strategic decision-making. You’ll design predictive models, uncover actionable insights, and collaborate across teams to optimize risk assessment, credit scoring, and loan origination. This role blends technical depth with business impact in a fast-paced fintech environment.
+
+🔧 Key Responsibilities
+- Build and maintain predictive models for credit, pricing, and risk
+- Explore internal and external data sources for feature engineering
+- Apply statistical and machine learning techniques to solve business problems
+- Monitor emerging risks and opportunities through robust frameworks
+- Communicate findings to technical and non-technical stakeholders
+- Collaborate with cross-functional teams to identify high-impact use cases
+
+✅ Required Qualifications
+- Master’s or PhD in Statistics, Mathematics, Data Science, or related field
+- 3+ years of experience in data science, preferably in FinTech or financial services
+- Proficiency in Python or R, and SQL for large-scale data analysis
+- Strong analytical and problem-solving skills
+- Excellent communication and storytelling abilities
+- Self-starter with strong organizational skills
+
+🌟 Preferred Experience
+- Familiarity with Databricks or cloud-based analytics platforms
+- Experience with FCRA-regulated data (e.g., credit bureau attributes)
+- Knowledge of Power BI or Tableau for data visualization
+
+💰 Benefits & Culture
+- Medical coverage for employees and eligible family members
+- Competitive PTO and vacation policies
+- 401(k) with employer contributions after one year
+- On-site gym access and memberships
+- Quarterly award ceremonies and performance bonuses
+- Volunteer opportunities through BHG Cares
+- Culture built on positive mental attitude, teamwork, and loyalty
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-data-scientist-in-bhg-at-United-States"}, 
+
+
+ { applyUrl: "https://job-boards.greenhouse.io/headway/jobs/5317114004", companyName: "headway", companyLogo: "/images/headway.png", location: "United States", jobTitle: "Senior Backend Software Engineer", jobType: "Remote", jobCategory: "Backend", mainDescription: `
+Job Title: Senior Backend Software Engineer
+Location: Remote (United States)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Headway is hiring a Senior Backend Engineer to help build a new mental healthcare system that’s accessible to everyone. You’ll design and scale backend systems that support financial processing, insurance claims, internal tooling, and therapist practice management. This role blends technical depth with mission-driven impact, supporting over 45,000 providers and 1 million patients nationwide.
+
+🔧 Key Responsibilities
+- Architect and maintain scalable backend systems using Python 3, FastAPI, and SQLAlchemy
+- Build APIs and services that power financial operations, claims processing, and provider tools
+- Collaborate with cross-functional teams to shape technical requirements and product strategy
+- Mentor engineers and contribute to technical leadership across the organization
+- Evaluate new technologies and make build vs. buy decisions
+
+✅ Required Qualifications
+- Experience building systems that support modern web applications
+- Strong proficiency in at least one programming language (Python preferred)
+- Familiarity with Postgres, Redis, and AWS infrastructure (Fargate, ECS, S3)
+- Ability to lead architectural design and roadmap planning
+- Experience mentoring engineers and shaping team culture
+
+🛠️ Tech Stack
+- Languages: Python 3, TypeScript
+- Frameworks: FastAPI, SQLAlchemy, React, Remix, Next.js
+- Datastores: Postgres, Redis
+- Infrastructure: AWS, Spark, Kafka
+- Monitoring & Security: Datadog, PagerDuty, Sentry, Snyk, Semgrep, Lacework
+
+💰 Compensation & Benefits
+- Base salary: $164,900 – $233,000 USD
+- Performance-based variable compensation and equity grant
+- Medical, dental, and vision coverage
+- HSA / FSA, 401(k), and work-from-home stipend
+- Therapy reimbursement and fertility support
+- 16-week paid parental leave
+- 13 paid holidays + year-end holiday break
+- Flexible PTO and professional development support
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-backend-software-engineer-in-headway-at-United-States"}, 
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/headway/jobs/5585814004", companyName: "headway", companyLogo: "/images/headway.png", location: "United States", jobTitle: "Staff Software Engineer (Provider Growth)", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Staff Software Engineer – Provider Growth
+Location: New York, NY (Remote-friendly with office options)
+Department: Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Headway is hiring a Staff Software Engineer to lead initiatives that expand its network of mental health providers. You’ll architect scalable systems, drive technical strategy, and build tools that simplify onboarding, referrals, and growth for therapists across the U.S. This role is central to Headway’s mission of making mental healthcare more accessible and affordable.
+
+🔧 Key Responsibilities
+- Architect and build systems that support provider referrals, SEO-driven growth, and onboarding optimization
+- Lead technical vision and strategy across multiple teams
+- Establish engineering standards and mentor senior engineers
+- Collaborate with product and design to shape user-centric solutions
+- Drive platform evolution to support pre-licensed clinician supervision
+
+✅ Required Qualifications
+- Experience building modern web applications across the stack
+- Strong proficiency in at least one programming language (e.g., Python, TypeScript)
+- Proven track record of leading complex technical initiatives
+- Ability to write and review technical design documents
+- Experience mentoring engineers and influencing engineering culture
+
+🛠️ Tech Stack
+- Languages: Python 3, TypeScript
+- Frameworks: FastAPI, React, Remix, Next.js
+- Infrastructure: AWS (Fargate, ECS, S3), Spark, Kafka
+- Monitoring: Datadog, PagerDuty, Sentry
+- Version Control: GitHub
+
+💰 Compensation & Benefits
+- Base salary: $233,000 – $276,000 USD
+- Performance-based variable compensation and equity grant
+- Medical, dental, and vision coverage
+- HSA / FSA, 401(k), and work-from-home stipend
+- Therapy reimbursement and fertility support
+- 16-week paid parental leave
+- 13 paid holidays + year-end holiday break
+- Flexible PTO and professional development support
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "staff-software-engineer-provider-growth-in-headway-at-united-states-united-states"}, 
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/xero/48d4c71e-fd51-493a-ae7a-72eddbaf381d", companyName: "xero", companyLogo: "/images/xero.png", location: "Johannesburg, South Africa", jobTitle: "Senior Security Engineer - GCP", jobType: "Full-time", jobCategory: "Security", mainDescription: `
+Job Title: Senior Security Engineer – GCP
+Location: Johannesburg, South Africa (On-site)
+Department: Technology – Cyber Security Engineering
+Employment Type: Contractor
+
+🧠 Role Overview
+Xero is hiring a Senior Security Engineer to strengthen its Google Cloud Platform (GCP) environment and align Syft’s infrastructure with Xero’s security standards. You’ll work hands-on to build scalable, resilient systems, automate security operations, and collaborate across teams to deliver secure, high-quality products.
+
+🔧 Key Responsibilities
+- Uplift Syft’s GCP environment to meet Xero’s security benchmarks
+- Contribute to design and planning of remediation tasks
+- Prepare and test implementation plans to minimize service disruption
+- Collaborate on execution of remediation efforts
+- Engage with Xero and Syft teams to ensure stakeholder alignment
+
+✅ Required Qualifications
+- Experience with GCP services including IAM, Compute, Networking, Cloud Storage, and Databases
+- Background in security engineering and eagerness to grow in the field
+- Proficiency in Python or other scripting languages
+- Understanding of network and system administration security
+- Familiarity with agile delivery practices and coaching others
+- Strong team collaboration and communication skills
+- Passion for delivering high-quality, secure products
+
+💰 Benefits & Perks
+- Generous paid leave and statutory holidays
+- Dedicated wellness leave and Employee Assistance Program
+- Cash referral bonuses and employee resource groups
+- 26 weeks of paid parental leave for primary caregivers
+- Employee Share Plan
+- Beautiful offices with snacks, coffee, and relaxation spaces
+- Flexible working and career development support
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-security-engineer-gcp-in-xero-at-Johannesburg-South-Africa"}, 
+
+
+
+
+
+
+
+{ applyUrl: "https://wise.jobs/job/senior-data-analyst-cloud-economics-in-london-jid-1968", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Data Analyst - Cloud Economics", jobType: "Full-time", jobCategory: "Analyst", mainDescription: ``, status: "approved", isFeatured: true, requirements: `Job Title: Senior Data Analyst – Cloud Economics
+Location: London, UK
+Department: Analytics – Platform Engineering Tribe
+Employment Type: Full-Time
+
+🧠 Role Overview
+Wise is hiring a Senior Data Analyst to optimize its cloud infrastructure spend across AWS and GCP, directly supporting its mission to make global money transfers instant, transparent, and eventually free. You’ll be the first dedicated analyst in this space, shaping how Wise approaches cloud economics and driving millions in savings that benefit customers.
+
+🔧 Key Responsibilities
+- Develop dashboards and monthly reviews to track unit costs across teams
+- Build forecasting models for cloud spend and executive-level reporting
+- Improve Airflow pipelines, automate anomaly detection, and enhance cost attribution
+- Analyze compute usage to recommend rightsizing, reserved instances, and storage tiering
+- Collaborate with engineering and finance to align cloud spend with business outcomes
+
+✅ Required Qualifications
+- Proficient in SQL, Python, and data visualization tools (e.g., Looker, CloudZero)
+- Experience with AWS, GCP, and their cost structures
+- Skilled in pipeline tools like DBT and Airflow
+- Strong communication and strategic influence across technical teams
+- Curious mindset with a passion for FinOps and cloud optimization
+
+💰 Compensation & Benefits
+- Salary: £60,000 – £75,000 GBP
+- Competitive stock options
+- Flexible working conditions
+- Annual budget for personal and professional development
+- Inclusive culture with global team collaboration
+
+
+`, submittedDate: new Date().toISOString(), id: "senior-data-analyst-cloud-economics-in-wise-at-london-united-kingdom"}, 
+
+
+
+
+
+{ applyUrl: "https://wise.jobs/job/senior-data-analyst-paid-search-in-london-jid-1967", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Data Analyst - Paid Search", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `Job Title: Senior Data Analyst – Paid Search
+Location: London, UK
+Department: Analytics – Marketing Analytics
+Employment Type: Full-Time
+
+🧠 Role Overview
+Wise is hiring a Senior Data Analyst to optimize its Paid Search performance across platforms like Google Ads, Bing, and Apple Search Ads. You’ll collaborate with marketing teams to refine bidding strategies, analyze campaign performance, and develop data-driven insights that improve customer acquisition and drive growth.
+
+🔧 Key Responsibilities
+- Analyze keywords, ad copy, landing pages, and targeting to extract actionable insights
+- Collaborate with Paid Search Managers to optimize bidding strategies and conversion events
+- Develop metrics and reporting frameworks to track campaign performance
+- Present findings to stakeholders in a clear and engaging way
+- Stay current with SEM trends and best practices
+
+✅ Required Qualifications
+- 2+ years of hands-on experience in Paid Search Analytics
+- Proficiency in SQL and Python (or R); knowledge of dbt is a plus
+- Familiarity with Google Ads, Bing Ads, Apple Search Ads, and their APIs
+- Strong understanding of CAC, LTV, and Payback metrics
+- Experience in mobile app environments and with MMPs
+- Ability to connect insights to experiments and business outcomes
+
+💰 Compensation & Benefits
+- Base salary: £60,000 – £75,000 GBP
+- RSUs: £50k new joiner grant + £25k annual top-ups
+- Work from (almost) anywhere in the world for up to 90 days/year
+- Flexible working and private medical insurance
+- Paid 6-week sabbatical after 4 years
+- 26 weeks maternity leave at full pay
+- Annual self-development budget and Mission Days festival
+- Pet-friendly offices and group activities like yoga and board games
+
+You can view the full listing and apply directly on Wise’s careers page. `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-data-analyst-paid-search-in-wise-at-london-united-kingdom"},
+
+
+
+
+{ applyUrl: "https://wise.jobs/job/senior-software-engineer-ii-money-movement-in-london-jid-1959", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Software Engineer II - Money Movement", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer II – Money Movement
+Location: London, UK (Hybrid)
+Department: Technology – Settlements & Reconciliation
+Employment Type: Full-Time
+
+🧠 Role Overview
+Wise is hiring a Senior Software Engineer to design and build backend systems that power global money movement. You’ll work on high-performance Java applications and microservices that support operational consistency, regulatory compliance, and cost optimization. This role blends technical depth with product strategy, offering the chance to shape how millions of users move money across borders.
+
+🔧 Key Responsibilities
+- Develop and maintain scalable Java-based applications
+- Architect microservices and manage relational databases
+- Collaborate with frontend teams to integrate server-side logic
+- Translate product requirements into technical specifications
+- Participate in product roadmapping and strategy sessions
+- Mentor junior developers and uphold code quality standards
+- Stay current with backend development trends and technologies
+
+✅ Required Qualifications
+- Strong experience with Java, Spring framework, and microservice architecture
+- Product mindset with a focus on customer experience
+- Excellent communication skills for technical and non-technical audiences
+- Expertise in relational databases, schema design, and query optimization
+- Familiarity with CI/CD pipelines, distributed systems, and concurrency
+
+🌟 Preferred Experience
+- Background in financial or payments systems
+- First-hand experience with global money transfer challenges
+- Experience using Wise and identifying product improvement opportunities
+
+💰 Compensation & Benefits
+- Salary: £105,000 – £130,000 GBP
+- RSUs (Restricted Stock Units)
+- Inclusive, international team culture
+- Flexible hybrid work model
+- Mission-driven environment focused on building money without borders
+`, status: "approved", isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: "senior-software-engineer-ii-money-movement-in-wise-at-london-united-kingdom"}, 
+
+
+
+
+{ applyUrl: "https://wise.jobs/job/senior-sre-engineer-i-resilience-engineering-in-london-jid-1966", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior SRE Engineer I - Resilience Engineering", jobType: "Hybrid", jobCategory: "Engineer", mainDescription: "", status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-sre-engineer-i-resilience-engineering-in-wise-at-london-united-kingdom"}, 
+
+
+{ applyUrl: "https://jobs.lever.co/clari/81d4f9f0-4199-4eac-ae28-17bc0a33be4c", companyName: "clari", companyLogo: "/images/clari.png", location: "Poland", jobTitle: "Software Engineer II, DevOps (CI/CD) - Hybrid, Poland", jobType: "Hybrid", jobCategory: "Software", mainDescription: "", status: "approved", isFeatured: true, requirements: `Job Title: Software Engineer II – DevOps (CI/CD)
+Location: Kraków, Poland (Hybrid)
+Department: Engineering – Infrastructure
+Employment Type: Full-Time
+
+🧠 Role Overview
+Clari is hiring a DevOps-focused Software Engineer to join its Developer Productivity Team, which builds tools and systems that empower engineering teams to deliver code efficiently and reliably. You’ll help design and implement CI/CD pipelines, internal developer portals, and cloud-native workflows that support Clari’s mission to deliver revenue intelligence at scale.
+
+🔧 Key Responsibilities
+- Build and maintain CI/CD pipelines, internal developer portals, and remote debugging tools
+- Design self-service provisioning systems and distributed tracing capabilities
+- Collaborate across engineering teams to solve complex infrastructure challenges
+- Contribute to functional specifications and roadmap delivery
+- Advocate for cloud-native standards and deployment best practices
+
+✅ Required Qualifications
+- 2+ years of experience in CI/CD pipeline design and automation
+- Hands-on with tools like GitHub Actions, GitLab CI/CD, or TeamCity
+- Experience with build automation (Bazel, Gradle, Maven, Yarn) and artifact management
+- Familiarity with containerization (Docker, Jib) and Kubernetes/AWS EKS
+- Strong problem-solving mindset and data-driven approach
+- Comfortable working in remote-first or distributed environments
+
+💰 Perks & Benefits
+- Flexible working hours and remote opportunities
+- Annual Well-being and Professional Development Stipends
+- Private healthcare and Multisport Pass
+- Paid maternity and paternity leave
+- Stock options and team-bonding events
+`, submittedDate: new Date().toISOString(), id: "software-engineer-ii-devops-ci-cd-hybrid-poland-in-clari-at-poland-poland"}, 
+
+
+
+
+{ applyUrl: "https://cyclotroninc.applytojob.com/apply/aR7Q8j2abf/Microsoft-Identity-Devices-Security-Architect-Client-Consulting", companyName: "cyclotroninc", companyLogo: "/images/cyclotroninc.png", location: "North America", jobTitle: "Microsoft Identity & Devices Security Architect - Client Consulting", jobType: "Remote", jobCategory: "Security", mainDescription: `Job Title: Microsoft Identity & Devices Security Architect – Client Consulting
+Location: Remote (Anywhere in North America)
+Department: Client Consulting
+Employment Type: Full-Time
+
+🧠 Role Overview
+Cyclotron is hiring a Security Architect to lead enterprise deployments of Microsoft 365 Identity and Device Management tools, including Microsoft Entra, Intune, and Azure Virtual Desktop. You’ll work directly with clients to design and implement secure, scalable solutions that protect Microsoft-based assets across cloud and on-premises environments. This role blends technical leadership with client-facing consulting and innovation.
+
+🔧 Key Responsibilities
+- Architect and deploy Microsoft identity and device management solutions
+- Lead technical discovery, design, validation, and deployment workshops
+- Combine low-code platforms with custom security components
+- Collaborate across business units to integrate threat protection and compliance
+- Contribute to new service offerings and technical thought leadership
+- Champion Responsible AI principles in solution design
+
+✅ Required Experience
+- 8+ years in software engineering, data engineering, or solution architecture
+- 3+ years focused on AI/ML or data-intensive systems
+- Expertise in Microsoft tools:
+- Windows 365 Cloud PC, Azure Virtual Desktop, Intune, Configuration Manager
+- Entra ID, SSO, Active Directory, Windows Server
+- Strong proficiency in Python and libraries like Hugging Face, Pandas, spaCy
+- Experience with RESTful APIs, FastAPI, Flask, and microservices
+- Familiarity with Azure AI services, Defender XDR, and Microsoft Purview
+- Excellent communication and architectural documentation skills
+
+🌟 Preferred Qualifications
+- Hands-on with agentic frameworks: LangChain, Semantic Kernel, AutoGPT
+- Experience with vector databases (e.g., Pinecone, Azure AI Search)
+- Certifications:
+- Microsoft 365 Security Administrator Associate
+- Azure Security Engineer Associate
+- CISSP or CISM
+- Familiarity with MLOps, Databricks, MLflow, and DevOps practices
+
+💰 Compensation & Benefits
+- Base salary: $130,000 – $180,000 USD
+- Fully remote work environment
+- Inclusive culture with a focus on diversity, equity, and inclusion
+- Opportunity to work on cutting-edge Microsoft security projects
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "microsoft-identity-devices-security-architect-client-consulting-in-cyclotroninc-at-North-America"}, 
+ 
+
+
+
+{ applyUrl: "https://easebuzz.hire.trakstar.com/jobs/fk0pgcn/", companyName: "easebuzz", companyLogo: "/images/easebuzz.png", location: "India", jobTitle: "Linux Systems Administrator (Cloud)", jobType: "Full-time", jobCategory: "Cloud", mainDescription: `
+
+Job Title: Linux Systems Administrator (Cloud)
+Location: Pune, Maharashtra, India
+Department: Infrastructure & DevOps
+Employment Type: Full-Time
+
+🧠 Role Overview
+Easebuzz is hiring a Linux Systems Administrator to manage and optimize its cloud-based infrastructure. You’ll work with Ubuntu Pro or RHEL-based servers, configure secure file-sharing services, and deploy high-performance web applications using Apache Tomcat and Nginx. This role blends traditional system administration with AWS cloud expertise, supporting a fast-growing fintech platform.
+
+🔧 Key Responsibilities
+- Administer and maintain Linux servers in production and staging environments
+- Configure and secure SFTP, SAMBA, and NFS for data integration
+- Deploy and tune Apache Tomcat and Nginx for web hosting
+- Perform OS hardening, patching, and automation using scripting tools
+- Manage user accounts, firewalls, logs, and system monitoring
+- Troubleshoot infrastructure performance and connectivity issues
+
+☁️ Cloud & DevOps (AWS)
+- Provision and manage EC2, EBS, and VPC resources
+- Configure ELB, IAM roles, S3 buckets, and EFS mounts
+- Set up and troubleshoot Route 53 DNS
+- Apply best practices for cloud security and scalability
+
+✅ Required Skills
+- Proven experience with RHEL/CentOS/Ubuntu Pro
+- Strong knowledge of file-sharing protocols and security best practices
+- Hands-on with Tomcat (WAR deployment, server.xml tuning) and Nginx (SSL, reverse proxy)
+- Deep understanding of systemd, iptables, netplan, and kernel tuning
+
+🌟 Preferred Qualifications
+- Experience with Bash, Ansible, or Terraform
+- Familiarity with monitoring stacks: Prometheus, Grafana, ELK, CloudWatch
+- Certifications: RHCSA/RHCE, AWS SysOps Administrator or Solutions Architect – Associate
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "linux-systems-administrator-cloud-in-easebuzz-at-india-india"},
+
+
+{ applyUrl: "https://tquilaautomation-1717075446.teamtailor.com/jobs/6147065-agentic-automation-solution-architect-na-lead", companyName: "tquilaautomation", companyLogo: "/images/tquilaautomation.png", location: "United States", jobTitle: "Agentic Automation Solution Architect (NA Lead)", jobType: "Hybrid", jobCategory: "Architect", mainDescription:`
+
+Job Title: Agentic Automation Solution Architect (NA Lead)
+Location: United States (Hybrid)
+Department: Delivery
+Employment Type: Full-Time
+
+🧠 Role Overview
+TQA is seeking a hands-on technical leader to architect agentic automation ecosystems that blend enterprise platforms with custom AI solutions. This is a pre-sales technical authority role focused on designing innovative, scalable systems that combine low-code tools like Microsoft Power Platform and UiPath with advanced data architectures and LLM-powered agents. You’ll inspire clients and guide delivery teams with a bold yet achievable technical vision.
+
+🔧 Key Responsibilities
+- Lead technical discovery workshops and architect end-to-end agentic solutions
+- Design hybrid architectures combining low-code platforms with custom microservices
+- Build and present proofs of concept integrating multiple technologies
+- Advise clients and teams on emerging trends in agentic AI, LLMs, and MLOps
+- Evaluate foundational technologies for scalability and performance
+- Collaborate with sales to ensure technical feasibility of proposals
+- Embed Responsible AI principles into every solution
+
+✅ Required Qualifications
+- 8+ years in software engineering, data engineering, or solution architecture
+- 3+ years designing and deploying AI/ML or data-intensive systems
+- Expertise in at least one enterprise automation platform:
+- Microsoft Power Platform (Copilot Studio, Power Automate)
+- UiPath
+- ServiceNow
+- Strong proficiency in Python and libraries like Hugging Face, Pandas, spaCy
+- Deep understanding of LLMs, RAG, prompt engineering, and fine-tuning
+- Experience with RESTful APIs, FastAPI, Flask, and microservices
+- Cloud AI architecture experience (Azure preferred)
+- Excellent client-facing communication and presentation skills
+
+🌟 Preferred Experience
+- Hands-on with agentic frameworks: LangChain, Semantic Kernel, LlamaIndex, AutoGPT
+- Familiarity with vector databases (e.g., Pinecone, Weaviate, Azure AI Search)
+- Experience with graph databases (e.g., Neo4j)
+- Knowledge of MLOps tools (e.g., Databricks, MLflow) and DevOps practices
+- Broader programming experience in C#/.NET, Java, or TypeScript/JavaScript
+- Exposure to enterprise data platforms like Databricks or Microsoft Fabric
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "agentic-automation-solution-architect-na-lead-in-tquilaautomation-at-United-States"}, 
+
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Architect-Project-Delivery-Specialist-AI-Engineering/306543", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Architect – Project Delivery Specialist – AI & Engineering", jobType: "Full-time", jobCategory: "Engineer", mainDescription: `Job Title: Architect – Project Delivery Specialist – AI & Engineering
+Location: Dallas, Texas (Hybrid)
+Department: Engineering and Product | Software Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring an experienced Architect to lead development efforts for telecommunication and B2B web-based solutions. This role is part of the AI & Engineering team, which builds and deploys integrated sector solutions powered by software, data, AI, and hybrid cloud infrastructure. You’ll guide client engagements, optimize workflows, and deliver mission-critical systems with minimal travel.
+
+🔧 Key Responsibilities
+- Lead development of telecom and web-based applications
+- Collaborate with Engagement Managers and cross-functional teams
+- Drive process improvement and operational transformation
+- Implement best practices and lead client-facing workstreams
+- Deliver technical demonstrations and solution architecture
+
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, IT, or related field (or equivalent experience)
+- 8+ years in architecture and software development
+- Deep knowledge of telecom business solutions
+- Ability to travel up to 10%
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Experience
+- Strong analytical and decision-making skills
+- Ability to manage multiple projects independently
+- Excellent written and verbal communication
+- Experience delivering technical demos and stakeholder presentations
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "architect-project-delivery-specialist-ai-engineering-in-deloitte-at-united-states-united-states"},
+
+
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Oracle-Cloud-Supply-Chain-Senior-Consultant/306577", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Oracle Cloud Supply Chain Senior Consultant", jobType: "Full-time", jobCategory: "Cloud", mainDescription: `Job Title: Oracle Cloud Supply Chain Senior Consultant
+Location: Multiple U.S. locations available
+Department: Package and Technology Enablement | Package Functional Transformation
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring a Senior Consultant to lead Oracle Cloud Supply Chain Management (SCM) implementations for enterprise clients. You’ll drive strategy, design, and delivery across full project lifecycles, helping organizations improve performance, streamline operations, and unlock measurable business value. This role blends technical expertise with client-facing leadership and business development.
+
+🔧 Key Responsibilities
+- Lead planning, design, and implementation of Oracle Cloud SCM solutions
+- Manage client relationships and day-to-day engagement delivery
+- Oversee functional design, prototyping, testing, and training
+- Guide package selection and business case realization
+- Collaborate with cross-functional teams and Program Steering Committees
+- Contribute to business development and proposal pricing strategies
+- Mentor junior staff and support recruitment and retention efforts
+
+✅ Required Qualifications
+- 2+ full lifecycle implementations of Oracle Cloud SCM
+- 3+ years of total Oracle implementation experience
+- Hands-on experience with modules such as:
+- Oracle Demand Planning
+- Oracle Supply Planning & Backlog Management
+- Oracle Cloud Order Management & GOP
+- Oracle Inventory & Cost Management
+- Warehouse Management Software (WMS)
+- Plan to Manufacture (PTM)
+- Oracle RMCS, Field Service, or Subscription Management
+- Experience with fit-gap analysis, business process design, CRPs, and functional configuration
+- Bachelor’s degree
+- Willingness to travel up to 50%
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Experience
+- Advanced degree in a relevant field
+- Strong communication and presentation skills
+- Experience leading Oracle application workstreams
+- Proficiency in MS Visio and PowerPoint
+- Ability to manage multiple tasks independently
+
+💰 Compensation & Benefits
+- Base salary range: $113,325 – $188,875 USD
+- Eligible for discretionary annual incentive program
+- Broad range of benefits, including health coverage, professional development, and inclusive culture initiatives
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "oracle-cloud-supply-chain-senior-consultant-in-deloitte-at-united-states"}, 
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Project-Delivery-Specialist-II-Senior-Developer/306579", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Project Delivery Specialist II Senior Developer", jobType: "Full-time", jobCategory: "Developer", mainDescription: `
+Job Title: Project Delivery Specialist II – Senior Developer
+Location: Sacramento, California (Hybrid)
+Department: Engineering and Product | Software Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring a Senior Developer to join its Government and Public Services (GPS) practice, supporting technology transformation for public sector clients. You’ll lead and contribute to systems implementation, software development, and operations management projects that enhance customer experience through Generative AI, analytics, and digital innovation.
+
+🔧 Key Responsibilities
+- Lead and support workstreams in systems implementation, operations & maintenance, and software development
+- Guide junior professionals and review deliverables for quality
+- Apply best practices in implementation and operations management
+- Understand client environments and project scope
+- Collaborate with cross-functional teams to deliver impactful solutions
+
+✅ Required Qualifications
+- Experience with state public assistance systems (eligibility, benefits determination, case management)
+- Experience supporting state clients in benefits calculation, issuance, or information management
+- Ability to travel up to 20%
+- Bachelor’s degree
+- Must be local to Sacramento or Los Angeles
+
+💰 Compensation & Benefits
+- Base salary range: $102,750 – $171,250 USD
+- Eligible for discretionary annual incentive program
+- Access to Deloitte’s full suite of benefits, professional development, and inclusive culture initiatives
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "project-delivery-specialist-ii-senior-developer-in-deloitte-at-united-states-united-states"}, 
+
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Project-Delivery-Specialist-Java-Development/306594", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Project Delivery Specialist - Java Development", jobType: "Full-time", jobCategory: "General", mainDescription:`Job Title: Project Delivery Specialist – Java Development
+Location: San Francisco, California (Hybrid)
+Department: Engineering and Product | Software Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Deloitte is hiring a Project Delivery Specialist to support its Government and Public Services (GPS) practice. You’ll lead and contribute to systems implementation, software development, and operations management projects that enhance customer experience through innovative technologies, including Generative AI, analytics, and digital transformation.
+
+🔧 Key Responsibilities
+- Lead and support workstreams in systems implementation, operations & maintenance, and software development
+- Guide junior professionals and review deliverables for quality
+- Apply best practices in implementation and operations management
+- Understand client environments and project scope
+- Collaborate with cross-functional teams to deliver impactful solutions
+
+✅ Required Qualifications
+- Experience with state public assistance systems (eligibility, benefits determination, case management)
+- Bachelor’s degree
+- Ability to travel up to 20%
+- Must be local to San Francisco, CA
+- Limited immigration sponsorship may be available
+
+🌟 Preferred Experience
+- Ability to manage small to mid-size engagements or workstreams
+- Strong leadership and stakeholder management skills
+
+💰 Compensation & Benefits
+- Base salary range: $107,900 – $179,900 USD
+- Eligible for discretionary annual incentive program
+- Access to Deloitte’s full suite of benefits, professional development, and inclusive culture initiatives
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "project-delivery-specialist-java-development-in-deloitte-at-united-states-united-states"}, 
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/strava/jobs/6855860", companyName: "strava", companyLogo: "/images/strava.png", location: "San Francisco", jobTitle: "Staff Server Engineer, Trust & Safety", jobType: "Full-time", jobCategory: "Engineer", mainDescription: `Here’s a structured and professional summary of the Staff Server Engineer – Trust & Safety role at Strava:
+
+Job Title: Staff Server Engineer – Trust & Safety
+Location: San Francisco, California (Hybrid – ~3 days/week on-site)
+Department: Trust & Safety Engineering
+Employment Type: Full-Time
+
+🧠 Role Overview
+Strava is hiring a Staff Server Engineer to build and scale backend systems that protect the integrity of its platform and ensure a safe, trusted experience for over 150 million athletes worldwide. You’ll lead development of Trust & Safety infrastructure, collaborate with AI/ML teams, and shape the technical roadmap for abuse prevention, content moderation, and user protection.
+
+🔧 Key Responsibilities
+- Develop core Trust & Safety capabilities: user reporting, content moderation, and abuse detection
+- Build scalable, reliable backend services and distributed systems
+- Collaborate with product, design, analytics, and operations teams
+- Provide technical leadership and mentor engineers
+- Partner with AI/ML teams to support intelligent safety infrastructure
+- Define and implement technical vision alongside engineering managers
+
+✅ Required Qualifications
+- Proven experience building production services in Ruby, Java, Scala, Python, Go, or similar
+- Strong knowledge of MySQL, Redis, Cassandra, or other relational/NoSQL databases
+- Familiarity with distributed systems tools like Kafka, Kubernetes, Docker, and Finagle
+- Subject matter expertise in Trust & Safety, including abuse detection and mitigation
+- Ability to lead technical conversations and mentor peers across teams
+
+💰 Compensation & Benefits
+- Base salary: $230,000 – $250,000 USD
+- Additional equity and benefits available
+- Flexible hybrid work model
+- Inclusive workplace culture and professional development support
+- Health coverage, wellness perks, and travel discounts
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "staff-server-engineer-trust-safety-in-strava-at-san-francisco-united-states"} 
+//17-7-25
+  ,
+
 
 {
   applyUrl: "https://jobs.lever.co/brillio-2/b3ded03a-67a0-427f-84f1-61e678b72ba0",
@@ -113,6 +1513,8 @@ Viator, a Tripadvisor company, is hiring an ML Ops Engineer to enhance its Machi
 
 
 
+
+
 {
   applyUrl: "https://www.fanatee.com/openings/product-analyst-ai-expansion",
   companyName: "fanatee",
@@ -171,7 +1573,7 @@ Production Organization
   isFeatured: true,
   requirements: "",
   submittedDate: new Date().toISOString(),
-  id: "product-analyst-ai-expansion-in-fanatee-at-foster-city-anywhere"
+  id: "product-analyst-ai-expansion-in-fanatee-at-United-States"
 }
 
 , 
@@ -212,7 +1614,7 @@ Fanatee is seeking a data-driven Product Business Analyst to help scale and opti
   isFeatured: true,
   requirements: "",
   submittedDate: new Date().toISOString(),
-  id: "product-business-analyst-in-fanatee-at-foster-city-anywhere"
+  id: "product-business-analyst-in-fanatee-at-Sao-Paulo-Brazil"
 }
 , 
 
@@ -281,6 +1683,7 @@ Anduril is hiring a Senior Thermal Engineer to lead the thermal design and analy
 
 
 
+
 {
   applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4784232007?gh_jid=4784232007&gh_src=",
   companyName: "anduril",
@@ -289,39 +1692,37 @@ Anduril is hiring a Senior Thermal Engineer to lead the thermal design and analy
   jobTitle: "UI Software Engineer, EW",
   jobType: "Full-time",
   jobCategory: "Software",
-  mainDescription: `Job Title: Senior Software Engineer – Battlespace
-Location: Broomfield, Colorado (On-site)
-Department: Battlespace Software Engineering
+  mainDescription: `Job Title: UI Software Engineer – EW
+Location: Costa Mesa, California (On-site with up to 30% travel)
+Department: Electronic Warfare
 Employment Type: Full-Time
 
 🧠 Role Overview
-Anduril is seeking a Senior Software Engineer to develop high-performance software solutions for its Battlespace systems, which power real-time, AI-driven command and control capabilities. You’ll work in small, agile teams to prototype and deploy mission-critical technologies that support U.S. and allied defense operations.
+Anduril is hiring a UI Software Engineer to help build immersive, web-based image-viewing experiences for its cutting-edge Electronic Warfare systems. These systems detect, analyze, and counter enemy electromagnetic signals, contributing to real-time battlespace awareness. You’ll work closely with end-users and cross-functional teams to deliver intuitive, data-rich interfaces that support mission-critical operations.
 
 🔧 Key Responsibilities
-- Lead and contribute to the direction of a small engineering team
-- Prototype and implement software across tactical systems and web applications
-- Use modeling, simulation, and analysis tools to quantify system performance
-- Engage directly with customers to ensure successful mission outcomes
-- Own all aspects of the software development lifecycle
-- Communicate technical decisions clearly to colleagues and stakeholders
+- Design and develop immersive UI experiences for EW platforms
+- Own and deliver well-scoped frontend projects with clear objectives
+- Collaborate with end-users to translate operational needs into features
+- Balance UX design with engineering constraints and performance
+- Travel up to 30% for field testing and real-world deployment
 
 ✅ Required Qualifications
-- Proficiency in C/C++, Python, and Matlab
-- Experience with Big Data, NoSQL, and database technologies
-- Strong background in software engineering, including design, testing, and optimization
-- Knowledge of machine learning, including supervised/unsupervised learning and classification
-- Applied mathematics expertise (e.g., differential equations, statistics, optimization)
-- Engineering experience in controls, estimation theory, and digital signal processing
+- 1+ years of relevant experience
+- Degree in Computer Science, Operations Research, Electrical Engineering, or related field
+- Experience building frontend applications, especially data-intensive or map-based systems
+- Proficiency in JavaScript, TypeScript, and React
+- Strong problem-solving mindset and ability to deliver functional outcomes
 - Eligible for U.S. Top Secret SCI security clearance
 
 💰 Compensation & Benefits
-- Base salary: $142,000 – $214,000 USD
-- Highly competitive equity grants
+- Base salary: $114,000 – $171,000 USD
+- Equity grants included in most offers
 - Platinum healthcare (medical, dental, vision)
 - 16 weeks paid Caregiver & Wellness Leave
 - Fertility, adoption, and parenting support
-- Mental health resources and legal/financial services
-- Daily meals and stocked micro-kitchens (in-office)
+- Mental health resources and legal/financial support
+- Daily meals and stocked kitchens (in-office)
 - 401(k) with traditional and Roth options
 - Relocation assistance (if eligible)
 `,
@@ -331,14 +1732,14 @@ Anduril is seeking a Senior Software Engineer to develop high-performance softwa
   submittedDate: new Date().toISOString(),
   id: "ui-software-engineer-ew-in-anduril-at-united-states-united-states"
 }
-,
+, 
 
 
 
 
 
 
-
+  
 
 {
   applyUrl: "https://boards.greenhouse.io/andurilindustries/jobs/4784333007?gh_jid=4784333007&gh_src=",
@@ -404,7 +1805,7 @@ Anduril is hiring a Senior Robotics Engineer to develop multi-asset autonomy sys
   applyUrl: "https://www.arrivelogistics.com/job/senior-software-engineer-3/",
   companyName: "arrivelogistics",
   companyLogo: "/images/arrivelogistics.png",
-  location: "Foster City",
+  location: "Austin, Texas",
   jobTitle: "Senior Software Engineer – Backend",
   jobType: "Full-time",
   jobCategory: "Backend",
@@ -447,7 +1848,7 @@ Arrive Logistics is hiring a Senior Backend Engineer to help build and scale its
   isFeatured: true,
   requirements: "",
   submittedDate: new Date().toISOString(),
-  id: "senior-software-engineer-backend-in-arrivelogistics-at-foster-city-anywhere"
+  id: "senior-software-engineer-backend-in-arrivelogistics-at-Austin-Texas"
 }
 , 
 
@@ -509,6 +1910,7 @@ Oowlish Technology is hiring a Full Stack Developer to lead the migration of an 
 
 
 
+  
 
 {
   applyUrl: "https://jobs.lever.co/eqbank/449d1526-80b9-46b0-a1f5-214b16e1a591",
@@ -670,10 +2072,10 @@ Monzo is hiring a Senior Analytics Engineer to help build a high-quality, scalab
   submittedDate: new Date().toISOString(),
   id: "senior-analytics-engineer-in-monzo-at-cardiff-united-kingdom"
 }
+ , 
 
-,
+
   // 9-7-25
-
 {
   applyUrl: "https://wise.jobs/job/software-engineering-lead-latin-america-in-sao-paulo-jid-1744",
   companyName: "wise",
@@ -784,10 +2186,12 @@ Practice Growth & Thought Leadership
   isFeatured: true,
   requirements: "",
   submittedDate: new Date().toISOString(),
-  id: "uipath-test-cloud-solution-architect-in-tquilaautomation-at-foster-city-anywhere"
+  id: "uipath-test-cloud-solution-architect-in-tquilaautomation-at-United-States"
 }
 
 , 
+
+
 
 {
   applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Azure-Cloud-Engineer/306273",
@@ -834,7 +2238,7 @@ Deloitte is hiring an experienced Azure Cloud Engineer to support long-term clie
 - Access to professional development, mentorship, and inclusive culture
 - Comprehensive benefits package
 
-You can view the full listing and apply directly on Deloitte’s careers page. 
+You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -849,7 +2253,7 @@ You can view the full listing and apply directly on Deloitte’s careers page.
   applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Defense-Manager-Microsoft-Sentinel-EDR-XDR/306292",
   companyName: "deloitte",
   companyLogo: "/images/deloitte.png",
-  location: "Foster City",
+  location: "United States",
   jobTitle: "Cyber Defense & Manager - Microsoft Sentinel, EDR, XDR",
   jobType: "Full-time",
   jobCategory: "General",
@@ -888,13 +2292,13 @@ Deloitte is seeking a Cyber Defense Manager to lead the design, implementation, 
 - Eligibility for annual incentive program
 - Comprehensive benefits and professional development opportunities
 
-You can view the full listing and apply directly on Deloitte’s careers page. 
+You can view the full listing and apply directly on Deloitte’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
   requirements: "",
   submittedDate: new Date().toISOString(),
-  id: "cyber-defense-manager-microsoft-sentinel-edr-xdr-in-deloitte-at-foster-city-anywhere"
+  id: "cyber-defense-manager-microsoft-sentinel-edr-xdr-in-deloitte-at-United-States"
 }
 
 
@@ -945,6 +2349,7 @@ Strava is hiring a Staff Server Engineer to join its Trust & Safety team. This t
 }
 
 ,
+// 9-7-25
 {
   applyUrl: "https://jobs.dropbox.com/listing/6996289",
   companyName: "dropbox",
@@ -999,8 +2404,8 @@ Dropbox is hiring an SDET to help shape the quality engineering landscape of its
   id: "software-development-engineer-in-test-core-in-dropbox-at-poland-poland"
 }
 
-,
 
+,
 
 {
   applyUrl: "https://careers.eleks.com/vacancies/middle-strong-senior-test-engineer-3/",
@@ -1016,7 +2421,7 @@ Department: Quality Assurance
 Employment Type: Full-Time
 
 🧠 Role Overview
-ELEKS is seeking an experienced QA professional to join a project for a UK-based health, sport, and leisure group. The role involves testing a membership ecosystem across iOS and Android platforms, ensuring high-quality delivery through manual and automated testing practices.
+ELEKS is seeking an experienced QA professional to join a project for a UK-based health, sport, and leisure group. This role involves testing a membership ecosystem across iOS and Android platforms, ensuring high-quality delivery through manual and automated testing practices.
 
 🔧 Key Responsibilities
 - Execute and document tests across all planned levels
@@ -1043,7 +2448,7 @@ ELEKS is seeking an experienced QA professional to join a project for a UK-based
 - A dynamic and supportive team environment
 - Influence over project technologies and QA strategy
 
-You can view the full listing and apply directly on ELEKS’ careers page.
+You can view the full listing and apply directly on ELEKS’ careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1338,10 +2743,7 @@ Anduril is hiring a Senior Software Engineer to help build and enhance Anvil, it
   id: "senior-software-engineer-anvil-in-anduril-at-united-states-united-states"
 }
 
-
-
-, 
-
+,
 
 
 {
@@ -1440,7 +2842,7 @@ Comcast is seeking a senior-level engineer to lead the reliability and operation
 - Comprehensive benefits: health, dental, vision, life, disability
 - Tools and support for physical, financial, and emotional well-being
 
-You can view the full job listing and apply directly on Comcast’s careers page. 
+You can view the full job listing and apply directly on Comcast’s careers page. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1555,7 +2957,7 @@ Equitable Bank is seeking a Senior Data Engineer to design, build, and maintain 
 - Annual professional development allowance
 - Hybrid work model from downtown Toronto
 
-You can view the full listing and apply directly on Built In or AIJobs.net.
+You can view the full listing and apply directly on Built In or AIJobs.net. Let me know if you’d like help tailoring your résumé or prepping for the interview!
 `,
   status: "approved",
   isFeatured: true,
@@ -1564,6 +2966,7 @@ You can view the full listing and apply directly on Built In or AIJobs.net.
   id: "senior-data-engineer-in-eqbank-at-toronto-canada"
 }
 ,
+
 
 {
   applyUrl: "https://jobs.lever.co/zoox/723937cb-af99-43ed-804f-b29bd48c8829",
