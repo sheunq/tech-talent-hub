@@ -5,10 +5,1486 @@ import type { Job } from '@/components/jobs/JobCard';
 import type { BackendStoredJob } from '@/lib/schemas/job';
 import { getAllJobs } from '@/services/jobDbService';
 
+
 // Mock data to be used if the database is empty or a specific mock job is requested
 const mockJobsData: BackendStoredJob[] = [
 
 
+  { applyUrl: "https://www.google.com/about/careers/applications/jobs/results/105747700384703174-technical-lead-manager-google-notifications?page=1", companyName: "Google", companyLogo: "/images/Google.png", location: "Israel", jobTitle: "Technical Lead Manager, Google Notifications", jobType: "Full-time", jobCategory: "Technical ", mainDescription: `🧭 Role Overview: Technical Lead Manager – Google Notifications
+This role combines technical leadership with people management, guiding a team of engineers to build and enhance iOS notification systems that support Google’s ecosystem. You’ll influence architecture, drive performance, and foster cross-functional collaboration.
+
+🏛 About the Team: Core Engineering
+- Mission: Build foundational technologies and infrastructure that power Google’s flagship products
+- Scope: Developer platforms, product components, system design, and innovation enablement
+- Culture: Engineering excellence, collaboration, and impact at scale
+
+🛠️ Key Responsibilities
+- Lead technical development: requirements, design, implementation, and success metrics
+- Manage and grow a team of engineers, fostering a culture of innovation and learning
+- Drive performance, scalability, and reliability of notification systems
+- Oversee iOS notification capabilities and enable new use cases across Google apps
+- Build partnerships with internal stakeholders to align strategy and execution
+
+🧠 What Google Is Looking For
+✅ Minimum Qualifications
+- Bachelor’s degree or equivalent practical experience
+- 8+ years in software development
+- 5+ years in product testing, launching, and 3+ years in software design/architecture
+- Experience in a leadership or people management role
+✅ Preferred Qualifications
+- Master’s or PhD in Engineering, Computer Science, or related field
+- Experience with iOS or mobile development
+- 3+ years in technical leadership roles
+- Experience in matrixed organizations and cross-functional projects
+
+📈 What Success Looks Like
+- You’ve delivered scalable notification solutions that enhance user engagement
+- You’ve built and led a high-performing engineering team
+- You’ve influenced technical strategy across Google’s mobile ecosystem
+- You’ve fostered a collaborative and growth-oriented team culture
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not disclosed | 
+| Location | Tel Aviv, Israel | 
+| Work Model | Onsite or hybrid (not specified) | 
+| Equity & Benefits | Competitive packages typical of Google | 
+
+
+
+🌍 Culture & Inclusion
+Google is committed to building a diverse and inclusive workforce. They offer equal opportunity employment and provide accommodations throughout the hiring process.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned engineering leader with mobile/iOS experience
+- Want to shape user engagement through cutting-edge notification systems
+- Thrive in a high-impact, cross-functional environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "technical-lead-manager-google-notifications-in-google-at-israel-israel"}
+
+,{ applyUrl: "https://www.google.com/about/careers/applications/jobs/results/135927868638012102-software-engineer-kernel-and-firmware?page=1", companyName: "Google", companyLogo: "/images/Google.png", location: "India", jobTitle: "Software Engineer, Kernel and Firmware", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Software Engineer – Kernel and Firmware
+This role is part of Google’s hardware and embedded systems engineering team. You’ll design and develop firmware and Linux kernel drivers for next-generation smart devices, optimizing performance and power consumption.
+
+🛠️ Key Responsibilities
+- Design software applications that interface with hardware accelerators
+- Implement and validate firmware and Linux drivers for power and performance
+- Develop embedded software drivers for smart devices
+- Debug and resolve system issues across hardware, network, and services
+- Write development code for products and systems
+
+🧠 What Google Is Looking For
+✅ Minimum Qualifications
+- Bachelor’s degree in Electrical, Electronics, or Computer Engineering (or equivalent experience)
+- 2+ years of experience in embedded systems development
+- Proficiency in C/C++ and Linux kernel/device driver development
+- Experience with embedded programming and firmware
+✅ Preferred Qualifications
+- Mastery of data structures, algorithms, and software design
+- Experience reading schematics and working with hardware designers
+- Familiarity with ARM or other low-power SoC architectures
+- Knowledge of RTOS, BIOS, and hardware/software integration
+- Experience in performance/power analysis and optimization
+
+📈 What Success Looks Like
+- You’ve built reliable firmware and kernel drivers for smart devices
+- You’ve optimized system performance and power usage
+- You’ve collaborated effectively with hardware and software teams
+- You’ve contributed to Google’s mission of seamless, powerful computing
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Level | Mid-level | 
+| Location | Bengaluru, India | 
+| Salary | Not disclosed | 
+| Work Model | Onsite or hybrid (not specified) | 
+| Benefits | Competitive packages typical of Google | 
+
+
+
+🌍 Culture & Inclusion
+Google is committed to building a diverse and inclusive workforce. They offer equal opportunity employment and provide accommodations throughout the hiring process.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are passionate about embedded systems and firmware development
+- Want to work on cutting-edge hardware/software integration
+- Thrive in a collaborative, innovation-driven environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-kernel-and-firmware-in-google-at-india-india"},
+
+
+
+
+
+
+{ applyUrl: "https://careers.eleks.com/vacancies/tech-lead-python-developer/", companyName: "eleks", companyLogo: "/images/eleks.png", location: "Ternopil/Ivano-Frankivsk/Lviv", jobTitle: "TECH LEAD PYTHON DEVELOPER", jobType: "Full-time", jobCategory: "General", mainDescription: `🧭 Role Overview: Tech Lead Python Developer
+This role involves leading a team of Python developers to build and maintain high-performance software for a fintech client focused on risk-managed, outcome-focused investing. You’ll guide technical decisions, mentor developers, and ensure code quality across the project.
+
+🧠 About the Project
+- Client Focus: Digital access to structured financial products (ETFs, annuities, hedging tools)
+- Founded: 2015
+- Mission: Make sophisticated financial instruments accessible via intuitive tech platforms
+
+🛠️ Key Responsibilities
+- Lead a team of 3+ developers in technical execution and delivery
+- Design and develop scalable, reliable software using Python and related technologies
+- Analyze requirements, estimate tasks, and review designs
+- Propose refactoring and optimization improvements
+- Share knowledge through tech talks and internal mentorship
+- Stay current with modern technologies and pursue certifications
+- Support junior developers with training and task distribution
+
+🧠 What ELEKS Is Looking For
+✅ Required Skills
+- 5–6 years of Python development experience
+- 1–2 years of technical leadership experience
+- Proficiency in Flask, SQLAlchemy, Jinja2
+- Understanding of microservices and containerization (Docker/Kubernetes)
+- Experience with CI/CD (GitLab), Agile methodologies
+- Database experience: PostgreSQL, MySQL, Redis
+- Familiarity with AWS, Git, Bash
+- Strong analytical skills and attention to detail
+- Fluent English for client communication
+
+📈 What Success Looks Like
+- You’ve delivered performant, scalable backend systems
+- You’ve led a team effectively and elevated code quality
+- You’ve influenced architectural decisions and technology choices
+- You’ve mentored junior developers and contributed to ELEKS’s developer community
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Lviv, Ivano-Frankivsk, Ternopil (Ukraine) | 
+| Work Model | Client-facing, collaborative | 
+| Benefits | Low bureaucracy, tech influence, competence development | 
+
+
+
+🌍 Culture & Inclusion
+ELEKS fosters a dynamic, professional environment with a focus on innovation, collaboration, and continuous learning. They support career growth and encourage knowledge sharing across teams.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned Python developer ready to lead and mentor
+- Want to work on impactful fintech solutions
+- Thrive in a collaborative, low-bureaucracy environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "tech-lead-python-developer-in-eleks-at-Ternopil-Ivano-Frankivsk-Lviv"},
+
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/livechatinc/aeb1504f-1624-4567-9cb5-72d521523b22", companyName: "text", companyLogo: "/images/text.png", location: "Wrocław, Poland", jobTitle: "Senior Frontend Engineer - Conversational AI Experience", jobType: "Hybrid", jobCategory: "Frontend", mainDescription: `🧭 Role Overview: Senior Frontend Engineer – Conversational AI
+This role is part of the Conversational AI Experience team at Text. You’ll design and develop frontend features that integrate large language models (LLMs) into customer support workflows, helping agents focus on what matters most.
+
+🤖 About the Team & Mission
+- Team Focus: Build tools that streamline customer service using LLMs
+- Product Vision: Make Text a one-stop platform for support agents
+- Collaboration: Work closely with ML engineers, product managers, and designers
+
+🛠️ Key Responsibilities
+- Design and build experiments to shape product direction
+- Collaborate with ML engineers to integrate LLM-driven features
+- Troubleshoot AI reasoning and improve Copilot functionality
+- Optimize performance and maintain high code quality
+- Participate in product planning and strategy
+- Respond to user feedback and data to refine features
+
+🧠 What Text Is Looking For
+✅ Core Skills & Traits
+- Strong experience with TypeScript, React, and Node.js
+- Familiarity with Docker (bonus)
+- Understanding of AI concepts: LLMs, RAG, prompt engineering
+- Ability to read and debug AI reasoning logs
+- Product-driven mindset with a focus on user experience
+- Independent and proactive work style
+- Clean, testable code and commitment to craftsmanship
+- Experience building or scaling SaaS products
+- Data-informed decision-making
+
+📈 What Success Looks Like
+- You’ve shipped intuitive, AI-powered features that improve agent workflows
+- You’ve helped shape product strategy through experimentation and feedback
+- You’ve collaborated effectively across engineering and AI teams
+- You’ve elevated code quality and performance across the frontend stack
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Wrocław, Poland | 
+| Work Model | Hybrid (approx. 3 days/week onsite) | 
+| Impact | Direct influence on AI-powered user experiences | 
+| Culture | Fast-paced, collaborative, mission-driven | 
+
+
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a frontend engineer excited about AI and user experience
+- Want to shape the future of customer support through LLMs
+- Thrive in a fast-moving, product-focused environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-frontend-engineer-conversational-ai-experience-in-text-at-foster-city-anywhere"},
+
+
+
+{ applyUrl: "https://jobs.lever.co/wealthsimple/7d176d85-e923-4e50-8bf8-35067a4329df", companyName: "wealthsimple", companyLogo: "/images/wealthsimple.png", location: "Foster City", jobTitle: "Senior PostgreSQL Administrator", jobType: "Remote", jobCategory: "General", mainDescription: `🧭 Role Overview: Senior PostgreSQL Administrator
+This role is part of Wealthsimple’s Data Stores team within the Data Platform Engineering org. You’ll be responsible for designing, maintaining, and optimizing PostgreSQL environments that support critical financial operations and client data.
+
+💼 About Wealthsimple
+- Mission: Help everyone achieve financial freedom through transparent, low-cost financial services
+- Reach: 4M+ users, $70B+ in assets
+- Culture: Remote-first, inclusive, innovation-driven
+- Team: Over 1,000 employees across North America
+
+🛠️ Key Responsibilities
+- Design and maintain PostgreSQL infrastructure across dev, test, and prod
+- Optimize query performance and database efficiency
+- Implement backup/recovery and disaster recovery strategies
+- Manage database security (access controls, encryption)
+- Automate tasks using Python scripts
+- Collaborate with engineering teams on schema and query optimization
+- Plan and execute upgrades and migrations
+- Maintain documentation and participate in on-call rotation
+
+🧠 What Wealthsimple Is Looking For
+✅ Required Skills
+- 5+ years of PostgreSQL administration in production environments
+- Proficient in Python scripting
+- Deep understanding of PostgreSQL internals and performance tuning
+- Experience with high-availability setups and disaster recovery
+- Familiarity with AWS Aurora RDS
+- Knowledge of database security and compliance
+- Experience with Terraform, GitHub, and infrastructure-as-code
+- Strong problem-solving and attention to detail
+✅ Nice-to-Have Skills
+- Experience in fintech and regulatory environments
+- Familiarity with Kubernetes and container orchestration
+- Knowledge of other databases (Redis, Redshift)
+- Contributions to open-source database tools
+- Experience with observability tools (Datadog, Preset)
+- AWS/PostgreSQL certifications
+
+📈 What Success Looks Like
+- You’ve built scalable, secure, and performant PostgreSQL systems
+- You’ve automated key database operations and improved reliability
+- You’ve collaborated across teams to optimize data workflows
+- You’ve contributed to Wealthsimple’s mission of financial accessibility
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Competitive | 
+| Retirement Plan | Matching via Wealthsimple for Business | 
+| Time Off | 20 vacation days + unlimited sick/mental health days | 
+| Wellness & Development | $1,500/year for each | 
+| Remote Work | 90-day international work program | 
+| DEI & ERGs | Active employee resource groups | 
+| Location | Remote (North America) | 
+
+
+
+🌍 Culture & Inclusion
+Wealthsimple is committed to building a diverse, inclusive, and accessible workplace. They encourage applications from all backgrounds and offer accommodations throughout the hiring process.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned PostgreSQL expert with a passion for automation and performance
+- Want to work in a remote-first, mission-driven fintech company
+- Thrive in a collaborative, fast-paced environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-postgresql-administrator-in-wealthsimple-at-Wroclaw-Poland"},
+
+
+
+{ applyUrl: "https://jobs.lever.co/saviynt/bcefdeeb-2c34-45c0-8169-7af82984fafe", companyName: "saviynt", companyLogo: "/images/saviynt.png", location: "Bengaluru, India", jobTitle: "Senior Platform Support Engineer", jobType: "Hybrid", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: Senior Platform Support Engineer – Cloud Operations
+This role is part of Saviynt’s Cloud Operations Center. You’ll ensure the stability, performance, and reliability of the Enterprise Identity Cloud platform, with a strong focus on application-layer troubleshooting, operational ownership, and cross-team collaboration.
+
+🛠️ Key Responsibilities
+- Troubleshoot pod-level issues in AKS/EKS beyond basic restarts
+- Analyze performance issues in applications (Java, Grails, Hibernate) and databases (MySQL, RDS)
+- Monitor SaaS applications and infrastructure (Kubernetes, VPNs, Elastic Search)
+- Manage alerts, incidents, and service requests via FreshService
+- Develop and maintain runbooks, procedures, and documentation
+- Collaborate with engineering teams to resolve complex issues
+- Ensure SLA and KPI adherence for operational performance
+- Plan and execute maintenance with minimal service disruption
+- Guide junior engineers and participate in on-call rotations
+
+🧠 What Saviynt Is Looking For
+✅ Required Skills
+- 6–8 years in IT/cloud operations and application support
+- Strong experience with Java-based applications and performance analysis
+- Deep understanding of AWS and Azure cloud platforms
+- Proficiency in Kubernetes and container orchestration
+- Experience with VPN troubleshooting and network fundamentals (DNS, IP, LDAP)
+- Familiarity with monitoring tools and log analysis (Elastic Search)
+- Hands-on MySQL troubleshooting and performance monitoring
+- Experience with ITSM tools (preferably FreshService)
+- Strong communication and documentation skills
+- Ability to work in a 24/7 operational model
+✅ Nice-to-Have Skills
+- Experience with Grafana dashboards
+- Scripting skills (Python, Bash)
+- SaaS environment experience
+- Automation and runbook development
+- Familiarity with compliance and security policies
+
+📈 What Success Looks Like
+- You’ve resolved complex performance and infrastructure issues
+- You’ve improved operational efficiency and reduced incident rates
+- You’ve maintained high service availability and met SLA targets
+- You’ve contributed to documentation and knowledge sharing
+- You’ve supported junior engineers and elevated team capabilities
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | Not specified (competitive, based on experience) | 
+| Bonus Eligibility | Discretionary bonus plan | 
+| Location | Bengaluru, India (Hybrid) | 
+| Work Model | 24/7 operational support | 
+| Growth Opportunities | High-growth, learning-focused environment | 
+
+
+
+🌍 Culture & Inclusion
+Saviynt promotes a welcoming, inclusive, and high-growth environment. They are committed to equal opportunity and encourage applications from all backgrounds.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned cloud operations engineer with strong troubleshooting skills
+- Thrive in a fast-paced SaaS environment
+- Want to work on mission-critical identity infrastructure
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-platform-support-engineer-in-saviynt-at-Bengaluru-India"},
+
+
+{ applyUrl: "https://jobs.lever.co/eqbank/e8dee105-dd34-407c-8f8a-8ed12657f716", companyName: "eqbank", companyLogo: "/images/eqbank.png", location: "Toronto", jobTitle: "Senior Data Engineer", jobType: "Hybrid", jobCategory: "Data", mainDescription: `🧭 Role Overview: Senior Data Engineer – Digital Banking
+This role is part of EQ Bank’s Digital Banking & Channel Technology team. You’ll design and maintain data pipelines and storage solutions using Microsoft Fabric and Azure technologies, supporting real-time and batch data processing for financial applications.
+
+🏦 About EQ Bank
+- Mission: Challenge traditional banking with innovative, tech-driven solutions
+- Reach: 670,000+ customers, $125B+ in assets under management
+- Recognition: Named one of Canada’s top banks by Forbes since 2021
+- Culture: Agile, inclusive, and growth-focused
+
+🛠️ Key Responsibilities
+- Gather technical requirements and assess compatibility
+- Design and build scalable data pipelines (batch and real-time)
+- Develop data storage solutions for lakehouses and warehouses
+- Implement API integrations (REST) for seamless data flow
+- Ensure data security and compliance with industry standards
+- Monitor and optimize pipeline performance and scalability
+- Troubleshoot and resolve data-related issues
+- Collaborate with cross-functional teams to support data consumers
+
+🧠 What EQ Bank Is Looking For
+✅ Required Skills
+- Bachelor’s in Computer Science or Engineering
+- 5+ years of experience as a Data Engineer with Microsoft Azure
+- Proficiency in T-SQL, Python, and Spark
+- Hands-on experience with Azure tools (Synapse, Fabric, Event Hub)
+- Strong understanding of lakehouse and warehouse architecture
+- Experience with structured, semi-structured, and unstructured data
+- Excellent communication and organizational skills
+✅ Nice-to-Have Skills
+- Microsoft Azure certifications (Data Engineer Associate or Solutions Architect)
+- Experience with DevOps and CI/CD pipelines
+- Data quality routines and cleansing
+- Financial industry experience
+- Familiarity with Agile/Waterfall methodologies and Atlassian tools
+
+📈 What Success Looks Like
+- You’ve built efficient, secure, and scalable data infrastructure
+- You’ve enabled real-time insights and improved data accessibility
+- You’ve contributed to EQ Bank’s mission of redefining banking
+- You’ve adapted to evolving technologies and project complexities
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Bonus | Competitive discretionary bonus | 
+| Retirement | Market-leading RRSP match | 
+| Benefits | Medical, dental, vision, life, disability | 
+| Parental Leave | Top-up support | 
+| Vacation | Generous policy + personal days | 
+| Development | Annual allowance + career growth program | 
+| Equity | Employee Share Purchase Plan | 
+| Location | Toronto, Canada (Hybrid) | 
+
+
+
+🌍 Culture & Inclusion
+EQ Bank is committed to diversity, equity, and inclusion. They offer a barrier-free recruitment process and support personal and professional growth for all employees.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned data engineer with Azure expertise
+- Want to shape the future of digital banking through data
+- Thrive in a collaborative, fast-paced fintech environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-data-engineer-in-eqbank-at-toronto-canada"},
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/monzo/jobs/5758065", companyName: "monzo", companyLogo: "/images/monzo.png", location: "Cardiff", jobTitle: "Data Science Manager, Financial Crime", jobType: "Remote", jobCategory: "Data", mainDescription: `🧭 Role Overview: Data Science Manager – Financial Crime
+This role leads a cross-functional data team within Monzo’s Financial Crime product area. You’ll drive strategy, manage a team of data scientists and analysts, and collaborate with product, risk, and engineering to build world-class fraud detection and prevention systems.
+
+🏦 About Monzo
+- Mission: Make money work for everyone
+- Reach: Millions of UK customers across personal, business, and youth banking
+- Culture: Transparent, inclusive, and customer-first
+- Recognition: Forbes World’s Best Banks list since 2021
+
+🛠️ Key Responsibilities
+- Lead and grow a team of data scientists and analysts
+- Drive strategic insights to shape Monzo’s financial crime roadmap
+- Collaborate with product, risk, and engineering teams in an agile environment
+- Champion data strategy and ensure high-quality data collection
+- Use data science tools to improve fraud detection and mitigation
+- Structure complex projects and ensure timely execution
+- Influence executive-level decisions with data-driven insights
+
+🧠 What Monzo Is Looking For
+✅ Required Experience
+- 4+ years as a Data Science Manager, including 2+ years managing teams of 4+
+- Strong strategic leadership and stakeholder management skills
+- Experience working with C-level executives
+- Proficiency in Python and SQL
+- Familiarity with data science tools (BI, experimentation, ML, causal inference)
+- Passion for Monzo’s mission and customer-centric approach
+✅ Bonus Experience
+- Background in financial crime, fraud detection, or trust & safety
+- Experience in fast-paced, evolving tech environments
+
+📈 What Success Looks Like
+- You’ve built a high-performing data team
+- You’ve delivered insights that shape Monzo’s fraud strategy
+- You’ve improved detection systems and reduced financial crime risk
+- You’ve influenced product development through rigorous analytics
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | £110,000–£130,000 + stock options | 
+| Location | London, Cardiff, or remote (UK only) | 
+| Visa Support | Sponsorship and relocation available | 
+| Flexibility | Flexible hours and remote-friendly | 
+| Learning Budget | £1,000/year for books, courses, conferences | 
+| Additional Perks | Full benefits list available on Monzo’s site | 
+
+
+
+🌍 Culture & Inclusion
+Monzo is deeply committed to diversity, equity, and inclusion. They offer a supportive environment for all employees and publish regular reports on gender pay and D&I progress.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a strategic data leader passionate about fighting financial crime
+- Want to shape the future of banking through data
+- Thrive in a collaborative, mission-driven fintech environment
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-science-manager-financial-crime-in-monzo-at-cardiff-united-kingdom"},
+
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/monzo/jobs/6704489", companyName: "monzo", companyLogo: "/images/monzo.png", location: "Cardiff", jobTitle: "Lead Machine Learning Scientist, Personalisation", jobType: "Remote", jobCategory: "Machine Learning", mainDescription: `🧭 Role Overview: Lead Machine Learning Scientist – Personalisation
+This is a senior individual contributor (IC) role within Monzo’s Personalisation Data team. You’ll design and deploy advanced ML models that deliver tailored recommendations, insights, and experiences to help customers make smarter financial decisions.
+
+🧠 About the Personalisation Team
+- Mission: Make banking seamless, intuitive, and customer-first through personalization
+- Disciplines: Analytics Engineering, Data Analysis, Machine Learning, Data Science
+- Focus Areas: Real-time recommendations, predictive insights, personalized ranking
+
+🛠️ Key Responsibilities
+- Lead the design and deployment of advanced ML models (e.g., segmentation, contextual bandits, ranking algorithms)
+- Build scalable, explainable, and responsible AI solutions
+- Collaborate with product managers, engineers, and designers in agile squads
+- Mentor other ML scientists and raise technical standards across the discipline
+- Work with the ML platform team to improve tooling and lifecycle management
+- Scope and prioritize high-impact personalization opportunities
+
+🧠 What Monzo Is Looking For
+✅ Required Skills & Experience
+- Multiple years of experience developing and deploying ML models in production
+- Proven track record of delivering business impact through ML
+- Strong Python and SQL skills; willingness to learn Go
+- Product mindset with a focus on customer outcomes
+- Ability to navigate ambiguity and drive clarity
+- Passion for personalization and consumer applications
+- Strong communication skills, especially around complex ML concepts
+✅ Nice-to-Haves
+- Experience with neural networks, graph-based models, sequence architectures, or LLMs
+- Experience writing production code and working with microservices
+- Background in personalization for consumer-facing products
+
+📈 What Success Looks Like
+- You’ve shipped ML models that improve customer engagement and satisfaction
+- You’ve led technical initiatives and mentored peers
+- You’ve influenced product strategy through data and experimentation
+- You’ve helped Monzo stay at the forefront of responsible AI innovation
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | £105,000–£140,000 + benefits | 
+| Location | London, Cardiff, or remote (UK only) | 
+| Visa Support | Sponsorship and relocation available | 
+| Flexibility | Flexible hours and part-time options | 
+| Learning Budget | £1,000/year for books, courses, conferences | 
+| Additional Perks | Full benefits list available on Monzo’s site | 
+
+
+
+🌍 Culture & Inclusion
+Monzo is deeply committed to diversity, equity, and inclusion. They offer a supportive environment for all employees and publish regular reports on gender pay and D&I progress.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a senior ML expert passionate about personalization
+- Want to shape the future of banking through intelligent, customer-first experiences
+- Thrive in a fast-paced, collaborative fintech environment
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "lead-machine-learning-scientist-personalisation-in-monzo-at-cardiff-united-kingdom"},
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/monzo/jobs/7061954", companyName: "monzo", companyLogo: "/images/monzo.png", location: "Cardiff", jobTitle: "Full Stack Engineer", jobType: "Remote", jobCategory: "Full Stack", mainDescription: `🧭 Role Overview: Full Stack Engineer
+This role is part of Monzo’s broader engineering organization, which spans 400+ engineers working across product, infrastructure, security, payments, and more. As a Full Stack Engineer, you’ll collaborate with cross-functional squads to build impactful features and systems that power Monzo’s banking experience.
+
+🏦 About Monzo Engineering
+- Mission: Make money work for everyone through intuitive, tech-driven banking
+- Tech Stack: Go, Cassandra, Kafka, Kubernetes, Docker, AWS, GCP, React
+- Culture: Technically agnostic, inclusive, and product-focused
+- Structure: Engineers work in squads within collectives like Core Banking, Payments, Growth, Fincrime, Platform, etc.
+
+🛠️ Key Responsibilities
+- Build and support customer-facing and internal banking products
+- Collaborate with product managers, designers, analysts, and other engineers
+- Write backend services in Go and frontend applications in React
+- Design resilient distributed systems and performant web experiences
+- Participate in system design, technical planning, and code reviews
+- Contribute to Monzo’s open-source efforts and internal tooling
+
+🧠 What Monzo Is Looking For
+✅ Required Skills
+- Strong backend experience (Go, Java, Scala, etc.)
+- Experience building modern JavaScript applications (React, Vue, Angular)
+- Interest in distributed systems and resilient software design
+- Product mindset with a focus on customer outcomes
+- Comfortable working in ambiguous, fast-paced environments
+- Passion for building intuitive, performant UIs
+✅ Bonus Traits
+- Experience with Kafka, Cassandra, Kubernetes, Docker
+- Familiarity with RPC, Envoy Proxy, AWS/GCP infrastructure
+- Interest in financial technology and consumer applications
+
+📈 What Success Looks Like
+- You’ve shipped features that improve customer experience
+- You’ve contributed to scalable backend systems and elegant UIs
+- You’ve collaborated effectively across disciplines
+- You’ve helped shape product direction through technical insight
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | £95,000–£130,000 + stock options | 
+| Location | London, Cardiff, or remote (UK only) | 
+| Visa Support | Sponsorship and relocation available | 
+| Flexibility | Flexible hours and remote-friendly | 
+| Learning Budget | £1,000/year for books, courses, conferences | 
+| Additional Perks | Full benefits list available on Monzo’s site | 
+
+
+
+🌍 Culture & Inclusion
+Monzo is deeply committed to diversity, equity, and inclusion. They offer a supportive environment for all employees and encourage applications from underrepresented groups.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a full stack engineer passionate about building impactful products
+- Want to work in a collaborative, mission-driven fintech
+- Thrive in a flexible, technically agnostic environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "full-stack-engineer-in-monzo-at-cardiff-united-kingdom"},
+{ applyUrl: "https://wise.jobs/job/senior-data-analyst-reliability-platform-engineering-in-london-jid-1981", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Data Analyst - Reliability/Platform Engineering", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `🧭 Role Overview: Senior Data Analyst – Reliability/Platform Engineering
+Wise is seeking a data analyst who can bridge the gap between technical reliability metrics and customer experience. This role sits within the Platform Engineering Tribe and focuses on ensuring Wise’s infrastructure is resilient, reliable, and scalable.
+
+🎯 Key Responsibilities
+1. Business Service Availability
+- Build a customer-centric view of Wise’s service uptime
+- Create executive-level dashboards showing how reliability impacts revenue
+- Develop new methodologies to measure availability from the user’s perspective
+2. Service Quality Metrics Framework
+- Design a framework linking technical metrics to customer experience
+- Automate scoring systems to assess reliability posture
+- Benchmark reliability across services and build predictive models
+3. Cross-Team Strategic Influence
+- Collaborate with engineering and product teams to set reliability targets
+- Build models that connect engineering decisions to customer satisfaction
+
+🧠 What Wise Is Looking For
+✅ Technical Skills
+- Strong SQL and experience with visualization tools (Looker, Grafana, ELK, Superset)
+- Familiarity with reliability engineering concepts (SLIs, SLOs, error budgets)
+- Experience with DBT, Airflow, and Python for analysis and automation
+✅ Soft Skills
+- Systems thinking and ability to understand service interdependencies
+- Data storytelling: translating metrics into business impact
+- Collaborative mindset and curiosity about system behavior
+
+💼 Why This Role Is Exciting
+- Direct Business Impact: Your insights will shape Wise’s reliability strategy and affect millions of users.
+- Career Growth: You’ll work at the intersection of engineering and business, influencing decisions at a strategic level.
+- Technical Challenge: Analyze distributed systems and solve reliability puzzles.
+- Cross-Functional Collaboration: Partner with multiple teams to drive change.
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | £60,000–£75,000 | 
+| Stock Options | Competitive in a profitable company | 
+| Work Flexibility | Supportive of work-life balance | 
+| Development Budget | Annual allowance for personal/pro growth | 
+
+
+
+🌍 Culture & Inclusion
+Wise emphasizes diversity, equity, and inclusion. They celebrate differences and aim to create an environment where everyone feels respected and empowered.
+
+📍 Location
+- Based in London, UK
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Love turning complex data into actionable insights
+- Want to work on high-impact problems at scale
+- Thrive in cross-functional, fast-paced environments
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-data-analyst-reliability-platform-engineering-in-wise-at-london-united-kingdom"}
+
+
+
+,{ applyUrl: "https://wise.jobs/job/senior-software-engineer-ii-receive-risk-in-london-jid-1571", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Software Engineer II - Receive Risk", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Senior Software Engineer II – Receive Risk
+Wise is hiring a backend engineer to join their Receive Risk team, which focuses on securing the platform against fraud while maintaining a seamless experience for legitimate users. This role is deeply technical and product-focused, with a strong emphasis on building scalable systems that protect customers and Wise’s infrastructure.
+
+🔐 About the Receive Risk Team
+- Mission: Make receiving money into Wise accounts safe and seamless.
+- Scope: Supports products like account details, payment links, and invoicing.
+- Collaboration: Works closely with Financial Crime teams to balance user experience with fraud prevention.
+
+🛠️ Key Responsibilities
+- Build intelligent systems to detect and prevent fraud
+- Develop backend services that scale globally
+- Collaborate across teams to improve security and user experience
+- Contribute to automation and reliability of receive products
+- Solve technical challenges in distributed systems
+
+🧠 What Wise Is Looking For
+✅ Core Skills & Experience
+- Strong product mindset and user-centric thinking
+- Clear communication across technical and non-technical audiences
+- Experience building production-grade web apps and distributed systems
+- Clean, maintainable, and well-tested code
+- Familiarity with CI/CD, code reviews, and engineering best practices
+- Database experience (relational and non-relational)
+- Bonus: Java, Spring Boot, Kafka
+✅ Soft Skills
+- Self-starter with collaborative spirit
+- Ability to break down complex problems into shippable milestones
+- Empathy for users and understanding of real-world impact
+
+📈 What Success Looks Like
+- You understand how your work connects to Wise’s mission
+- You’re solving customer payment issues and contributing to automation
+- You’ve built empathy for users and are improving their experience
+- You’re helping scale Wise’s global banking product
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | £105,000–£130,000 | 
+| Stock Options | Competitive in a profitable company | 
+| Work Flexibility | Supportive of work-life balance | 
+| Development Budget | Annual allowance for personal/pro growth | 
+
+
+
+🌍 Culture & Inclusion
+Wise champions diversity, equity, and inclusion. They celebrate differences and aim to create an environment where everyone feels respected and empowered.
+
+📍 Location
+- Based in London, UK
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are passionate about backend engineering and fraud prevention
+- Want to work on high-impact systems that protect millions of users
+- Thrive in a fast-paced, product-driven environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-ii-receive-risk-in-wise-at-london-united-kingdom"},
+
+
+
+
+
+{ applyUrl: "https://wise.jobs/job/senior-software-engineer-servicing-platform-in-budapest-jid-1982", companyName: "wise", companyLogo: "/images/wise.png", location: "Budapest", jobTitle: "Senior Software Engineer - Servicing Platform", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Senior Software Engineer – Servicing Platform
+This role focuses on building scalable, real-time systems that manage risk and compliance across Wise’s global money movement infrastructure. You’ll be part of the Servicing Platform team, which powers fraud detection, AML controls, and identity verification through high-performance backend services.
+
+🛡️ About the Servicing Platform Team
+- Mission: Enable seamless, compliant money movement by building plug-and-play risk management solutions.
+- Core Systems: Risk Engine, Feature Store, Identity Linking
+- Collaboration: Works with AML, Fraud, Data Science, and Engineering teams
+
+🛠️ Key Responsibilities
+- Develop backend systems for real-time risk assessment and fraud prevention
+- Optimize for latency and throughput under high transaction volumes
+- Collaborate with cross-functional teams to deliver scalable solutions
+- Own end-to-end delivery of technical solutions
+- Continuously improve automation and system reliability
+
+🧠 What Wise Is Looking For
+✅ Technical Skills
+- 6+ years with Java or JVM-based languages
+- Deep knowledge of Spring framework, JDBC, and database internals
+- Experience with CI/CD, distributed systems, and concurrency
+- Strong database skills (relational & non-relational, schema design, query optimization)
+- Test-driven development and clean coding practices
+- Real-time system performance optimization
+✅ Soft Skills
+- Strong communication across technical and non-technical teams
+- Independent problem-solving and ownership mindset
+- Collaborative and feedback-driven approach
+
+📈 What Success Looks Like
+- You’ve built systems that prevent financial crime and protect users
+- You understand Wise’s tribe vision and contribute meaningfully
+- You’ve automated processes to support product scaling
+- You’ve solved customer pain points with technical solutions
+- You’ve helped build a world-class money transfer product
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | 1,700,000 – 2,100,000 HUF/month | 
+| Stock Options | Competitive in a profitable company | 
+| Work Flexibility | Supportive of work-life balance | 
+| Development Budget | Annual allowance for personal/pro growth | 
+
+
+
+🌍 Culture & Inclusion
+Wise promotes diversity, equity, and inclusion. They celebrate differences and aim to create an environment where everyone feels respected and empowered.
+
+📍 Location
+- Based in Budapest, Hungary
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Have deep backend engineering experience and love solving real-time performance challenges
+- Want to build systems that directly protect users from fraud and financial crime
+- Thrive in a collaborative, fast-paced environment with global impact
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-servicing-platform-in-wise-at-budapest-hungary"}
+
+
+
+,{ applyUrl: "https://wise.jobs/job/software-engineer-getpaid-android-in-london-jid-1986", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Software Engineer - GetPaid - Android", jobType: "Hybrid", jobCategory: "Software", mainDescription: `🧭 Role Overview: Software Engineer – GetPaid (Android)
+This role focuses on building Android experiences that make receiving money internationally seamless, fast, and affordable. You’ll work on customer-facing features like Payment Links, Invoicing, QuickPay, and Wise’s in-network payment method — Pay With Wise.
+
+💸 About the GetPaid Team
+- Mission: Build tools that help customers receive money into their Wise accounts easily and affordably.
+- Products: Payment Links, Invoice, QuickPay, Pay With Wise
+- Scope: Serve both consumers and businesses across multiple regions
+- Collaboration: Work with 60+ mobile engineers across Wise to improve UX and code quality
+
+📱 Key Responsibilities
+- Build and scale Android features for receiving payments
+- Collaborate with other mobile engineers to improve app architecture and performance
+- Influence UX and design decisions across the app
+- Expand Wise’s payment capabilities into new regions
+- Ensure high-quality, testable, and maintainable code
+
+🧠 What Wise Is Looking For
+✅ Core Skills
+- Strong proficiency in Kotlin
+- Experience building and deploying customer-facing Android apps
+- Familiarity with modern Android architectures (e.g. Unidirectional Data Flow, Dependency Injection, Kotlin Coroutines)
+- Understanding of REST API design
+- Passion for user experience and data-driven product decisions
+- Excellent communication and collaboration skills
+✅ Nice to Have
+- Experience with Jetpack Compose
+- Familiarity with Gradle and CI/CD pipelines (GitHub Actions)
+
+📈 What Success Looks Like
+- You’ve shipped features that improve how customers receive money
+- You’ve contributed to app-wide improvements in UX and code quality
+- You’ve helped expand Wise’s payment tools to new markets
+- You’ve collaborated effectively across teams and influenced product direction
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | £65,000–£85,000 | 
+| Stock Options | Competitive in a profitable company | 
+| Work Flexibility | Hybrid work model | 
+| Development Budget | Annual allowance for personal/pro growth | 
+
+
+
+🌍 Culture & Inclusion
+Wise promotes diversity, equity, and inclusion. They celebrate differences and aim to create an environment where everyone feels respected and empowered.
+
+📍 Location
+- Based in London, UK
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are passionate about mobile development and Kotlin
+- Want to build intuitive, scalable Android features for a global audience
+- Thrive in a collaborative, product-driven environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-getpaid-android-in-wise-at-london-united-kingdom"},
+
+
+
+
+{ applyUrl: "https://wise.jobs/job/staff-software-engineer-latin-america-in-sao-paulo-jid-1745", companyName: "wise", companyLogo: "/images/wise.png", location: "São Paulo", jobTitle: "Staff Software Engineer, Latin America", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Staff Software Engineer – Latin America
+This is a foundational role in Wise’s new São Paulo engineering hub. You’ll lead technical efforts to build and scale Wise’s products for the Brazilian market, particularly around PIX, KYC/KYB, and integrations with local financial systems. It’s a high-impact opportunity to shape both product and engineering culture in Latin America.
+
+🌎 About the Brazil Regional Team
+- Mission: Build tailored solutions for Brazilian customers while contributing to Wise’s global platform.
+- Focus Areas: PIX optimization, onboarding automation, bank/payment provider integrations, compliance workflows
+- Collaboration: Work closely with global teams and other LatAm engineering squads
+
+🛠️ Key Responsibilities
+- Design and build backend services for Brazil-specific products
+- Integrate with local banks, payment systems, and identity verification vendors
+- Optimize onboarding and compliance flows (KYC/KYB)
+- Lead architectural decisions and technical strategy
+- Mentor engineers and help grow the São Paulo hub
+- Collaborate across global teams to align product vision and execution
+- Stay informed on Brazilian financial regulations and market trends
+
+🧠 What Wise Is Looking For
+✅ Core Skills
+- Proven experience as a Staff Engineer with backend and microservices expertise
+- Strong Java proficiency
+- Experience designing scalable, compliant systems
+- Excellent communication and leadership skills
+- Ability to mentor and coach engineers
+- Experience working with distributed/global teams
+- Fluency in English
+✅ Nice to Have
+- Experience with PIX and Brazilian financial systems
+- Familiarity with LatAm compliance requirements
+- Background in FinTech or payments
+
+📈 What Success Looks Like
+- You’ve delivered impactful improvements for Brazilian customers
+- You’ve helped shape Wise’s engineering culture in São Paulo
+- You’ve mentored engineers and elevated technical standards
+- You’ve contributed to Wise’s global platform evolution
+- You’ve built scalable, compliant systems tailored to Brazil
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "staff-software-engineer-latin-america-in-wise-at-Sao-Paulo"},
+
+
+
+
+
+{ applyUrl: "https://jobs.smartrecruiters.com/Insightsoftware/744000070917005", companyName: "insightsoftware", companyLogo: "/images/insightsoftware.png", location: "Raleigh", jobTitle: "Director, Product Management, Data Fabric & Integrations", jobType: "Full-time", jobCategory: "Data", mainDescription: `🧭 Role Overview: Director, Product Management – Data Fabric & Integrations
+This role leads the vision, strategy, and execution of insightsoftware’s data integration and connectivity products. You’ll be responsible for driving product innovation, market fit, and commercial success across ERP integrations and internal data connectivity solutions.
+
+🔗 About the Product Domain
+- Focus Areas: ERP integrations, Open Business Data Fabric, API products, internal data connectivity
+- Goal: Enable seamless, secure, and scalable data movement across financial systems
+- Impact: Drive revenue, margin, customer satisfaction, and product adoption
+
+🛠️ Key Responsibilities
+- Define and execute product vision and strategy for data fabric and integration solutions
+- Conduct market analysis and segmentation to identify opportunities
+- Prioritize initiatives using financial modeling and ROI analysis
+- Collaborate with engineering to ensure scalable, compliant, and user-friendly API products
+- Own product lifecycle: requirements, roadmap, delivery, and go-to-market
+- Drive commercial success: bookings, revenue, margin, retention
+- Lead product launches and cross-functional enablement
+- Serve as internal and external product evangelist
+- Improve customer experience and NPS through product enhancements
+- Monitor competitive landscape and inform strategic decisions
+
+🧠 What insightsoftware Is Looking For
+✅ Core Skills
+- 8+ years in product management, with 3+ in enterprise data integration or ERP systems
+- Experience with data fabric architectures, API management, and middleware
+- Strong technical acumen in cloud infrastructure and modern data stacks
+- SaaS experience with subscription-based models
+- Strategic mindset with strong execution capabilities
+- Excellent communication and cross-functional leadership skills
+- Bachelor’s degree in Business, Engineering, or related field
+✅ Nice to Have
+- AI/ML experience in data integration (e.g. anomaly detection, NLP, entity resolution)
+- Familiarity with automated data quality frameworks
+- Product management certifications (e.g. Pragmatic Marketing)
+- Experience with BI tools and data governance
+
+📈 What Success Looks Like
+- You’ve launched high-impact integration products that drive revenue and retention
+- You’ve aligned cross-functional teams around a clear product vision
+- You’ve improved customer experience and NPS
+- You’ve influenced technical architecture and product strategy
+- You’ve mentored teams and elevated product management practices
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not specified | 
+| Travel | Up to 20% | 
+| Sponsorship | Not available | 
+| Location | Raleigh, NC | 
+| Background Check | Required | 
+
+
+
+🌍 Culture & Inclusion
+insightsoftware is committed to diversity, equity, and inclusion. They promote a high-performance, collaborative culture and are proud to be an equal opportunity employer.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a strategic product leader with deep experience in data integration
+- Thrive in cross-functional environments and enjoy driving commercial success
+- Want to shape the future of financial data connectivity for the Office of the CFO`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "director-product-management-data-fabric-integrations-in-insightsoftware-at-Raleigh"},
+
+
+
+{ applyUrl: "https://jobs.smartrecruiters.com/Insightsoftware/744000070980881", companyName: "insightsoftware", companyLogo: "/images/insightsoftware.png", location: "India", jobTitle: "Consultant, Technical(SQL Query Writing + Implementations + Installations) EST Time", jobType: "Full-time", jobCategory: "General", mainDescription: `🧭 Role Overview: Technical Consultant – Installations & SQL
+This position centers around software installation, deployment, and integration for enterprise clients. You’ll be the technical lead during onboarding, ensuring smooth implementation of insightsoftware’s financial reporting solutions.
+
+🔧 Key Responsibilities
+🛠 Installation & Deployment
+- Lead full-cycle software installations and system configurations
+- Conduct infrastructure assessments and develop tailored installation plans
+- Execute deployments and validate system performance post-installation
+🤝 Client Onboarding & Support
+- Serve as the primary technical contact during installations
+- Guide clients through prerequisites and setup
+- Troubleshoot issues and manage escalations
+- Conduct handover and knowledge transfer sessions
+🗄 Configuration & Optimization
+- Configure database connections and data migration
+- Write and execute SQL scripts for setup and validation
+- Ensure data integrity and system functionality
+🔗 Integration & Testing
+- Integrate software with client systems
+- Perform system testing and resolve compatibility issues
+- Document procedures and maintain configuration records
+📣 Communication & Documentation
+- Communicate technical processes clearly to clients
+- Provide regular updates and post-installation support
+
+🧠 What insightsoftware Is Looking For
+✅ Technical Skills
+- Advanced SQL scripting and troubleshooting (especially financial data)
+- Strong relational database query experience
+- Experience with software deployment and configuration
+- Familiarity with system integration and performance tuning
+✅ Communication Skills
+- Excellent English (written and verbal)
+- Ability to explain technical concepts to non-technical audiences
+- Strong client-facing presence and facilitation skills
+✅ Experience & Education
+- Bachelor’s in Computer Science, IT, or related field
+- 3+ years in software installation or implementation roles
+- Experience with enterprise-level deployments
+✅ Preferred Qualifications
+- Experience with cloud platforms and automation tools
+- Technical certifications in installation technologies
+- Familiarity with deployment pipelines
+
+📈 Key Competencies
+| Competency | Description | 
+| Installation Expertise | Deep understanding of deployment and configuration processes | 
+| Problem-Solving | Ability to resolve complex technical and integration issues | 
+| Client Focus | Commitment to smooth onboarding and client satisfaction | 
+| Adaptability | Flexibility across platforms and environments | 
+| Project Management | Ability to manage multiple installations and coordinate stakeholders | 
+
+
+
+📍 Location & Logistics
+- Location: Hyderabad, India
+- Time Zone: EST support hours
+- Sponsorship: Not available
+- Background check: Required
+
+🌍 Culture & Inclusion
+insightsoftware promotes a diverse and inclusive workplace. They value teamwork, growth mindset, and disciplined execution.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Enjoy hands-on technical work and client interaction
+- Have strong SQL and troubleshooting skills
+- Want to lead enterprise software deployments and make a direct impact
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "consultant-technical-sql-query-writing-implementations-installations-est-time-in-insightsoftware-at-india-india"}
+
+
+
+
+,
+
+
+
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/avalabs/jobs/5559924004", companyName: "avalabs", companyLogo: "/images/avalabs.png", location: "New York", jobTitle: "Senior Platform Engineer", jobType: "Remote", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: Senior Platform Engineer – Developer Infrastructure
+This role sits within Ava Labs’ Developer Infrastructure team, part of Platform Engineering. You’ll build systems that support CI/CD, observability, chaos engineering, and performance testing for Avalanche — a high-performance blockchain platform.
+
+🔗 About Ava Labs & Platform Engineering
+- Mission: Empower developers to build scalable Web3 solutions on Avalanche
+- Team Scope: Consensus engines, virtual machines, P-chain, developer tools
+- Culture: Founded by Cornell scientists and Web3 pioneers, backed by top-tier VCs
+
+🛠️ Key Responsibilities
+- Build and evolve CI/CD pipelines (GitHub Actions) with robust testing layers
+- Create systems to launch ad-hoc Avalanche networks across environments (local, Kubernetes, distributed)
+- Develop observability tools to track performance, regressions, and improvements
+- Implement chaos engineering and fuzzing to test resilience of consensus and p2p protocols
+- Use data to drive performance optimization and strategy
+- Collaborate across engineering to improve code quality and developer velocity
+
+🧠 What Ava Labs Is Looking For
+✅ Core Skills
+- 10+ years of programming experience
+- 2+ years with GoLang and/or Rust
+- 4+ years working on large codebases collaboratively
+- Experience with CI/CD tools (GitHub Actions preferred)
+- Infrastructure-as-code and large-scale observability experience
+- Unix system programming or Kubernetes orchestration
+- Strong foundation in computer science and software engineering
+✅ Mindset & Traits
+- Passion for reliability, maintainability, and developer enablement
+- Proactive, self-directed, and collaborative
+- Curious about Web3 and blockchain technology
+- Comfortable navigating fluid boundaries between infrastructure and application layers
+
+📈 What Success Looks Like
+- You’ve built tools that improve developer productivity and code quality
+- You’ve created scalable infrastructure for testing and observability
+- You’ve contributed to the resilience and performance of Avalanche
+- You’ve helped shape technical strategy and mentored peers
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $214,990–$228,427 (based on experience/location) | 
+| Location | New York, NY (Remote eligible) | 
+| Equity | Backed by top-tier VCs (Andreessen Horowitz, Polychain) | 
+| Culture | Web3 pioneers, global team, startup energy | 
+
+
+
+🌍 Culture & Inclusion
+Ava Labs is committed to diversity and equal opportunity. They value curiosity, collaboration, and innovation across disciplines.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned engineer passionate about infrastructure and developer tooling
+- Want to work on bleeding-edge blockchain technology
+- Thrive in a fast-paced, high-autonomy environment
+`, status: "approved", isFeatured: true, requirements:"", submittedDate: new Date().toISOString(), id: "senior-platform-engineer-in-avalabs-at-new-york-united-states"}
+
+
+
+,
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/AWS-Infrastructure-DevOps-Engineer-Kubernetes/306812", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "AWS Infrastructure/DevOps Engineer, Kubernetes", jobType: "Hybrid", jobCategory: "Devops", mainDescription: `🧭 Role Overview: AWS Infrastructure/DevOps Engineer – Kubernetes
+This role is part of Deloitte’s Hybrid Cloud and Infrastructure Engineering team. You’ll work on designing and implementing DevOps pipelines, managing cloud environments, and deploying containerized applications using AWS and Kubernetes.
+
+🏛 About the Team: Government & Public Services (GPS)
+- Mission: Help federal, state, and local government clients modernize operations and fulfill their mission
+- Focus: Hybrid cloud environments, AI infrastructure, and cutting-edge engineering solutions
+- Culture: Impact-driven, collaborative, and innovation-focused
+
+🛠️ Key Responsibilities
+- Build and manage CI/CD pipelines and automation scripts
+- Deploy and maintain multiple DevOps environments
+- Support release management across development and production
+- Troubleshoot deployment issues and coordinate with engineering teams
+- Mentor junior engineers and guide DevOps best practices
+- Recommend new tools and processes to improve velocity and reliability
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s degree in IT or equivalent experience
+- 6+ years in DevOps, cloud infrastructure, or consulting
+- 1+ year experience with Kubernetes
+- Active Secret security clearance
+- U.S. work authorization (no sponsorship available)
+- Must live within ~100 miles of one of these locations:
+- Atlanta, GA
+- Charlotte, NC
+- Dallas, TX
+- Gilbert, AZ
+- Houston, TX
+- Lake Mary, FL
+- Mechanicsburg, PA
+- Philadelphia, PA
+- Willingness to travel up to 10% and co-locate up to 30% of the time
+✅ Preferred Skills
+- Deep understanding of DevOps practices (CI/CD, IaC, monitoring)
+- Experience with tools like Jenkins, Git, Bitbucket, Chef, Ansible
+- Familiarity with AWS services (EKS, ECS, Fargate, EC2, S3, VPC, etc.)
+- Experience with cloud deployment languages (Terraform, CloudFormation)
+- Knowledge of containerization and orchestration
+- Integration with automated testing and deployment verification
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not specified | 
+| Travel | Up to 10% | 
+| Co-location | Up to 30% at designated delivery site | 
+| Clearance | Active Secret required | 
+| Sponsorship | Not available | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte promotes an inclusive culture that values diverse perspectives and empowers individuals to make a difference. They offer professional development, mentorship, and a purpose-driven work environment.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are an experienced DevOps engineer with strong AWS and Kubernetes skills
+- Want to work on mission-critical infrastructure for public sector clients
+- Thrive in a collaborative, high-impact consulting environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "aws-infrastructure-devops-engineer-kubernetes-in-deloitte-at-United-States"},
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/AWS-Infrastructure-DevOps-Engineer-Windows/306813", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "Foster City", jobTitle: "AWS Infrastructure/DevOps Engineer, Windows", jobType: "Hybrid", jobCategory: "Devops", mainDescription: `🧭 Role Overview: AWS Infrastructure/DevOps Engineer – Windows
+This position is part of Deloitte’s Hybrid Cloud and Infrastructure Engineering team within the Government and Public Services (GPS) practice. You’ll focus on building and managing DevOps pipelines, automating deployments, and supporting Windows-based cloud infrastructure on AWS.
+
+🏛 About the Team: Government & Public Services (GPS)
+- Mission: Help public sector clients modernize operations and fulfill their mission
+- Focus: Hybrid cloud environments, AI infrastructure, and engineering innovation
+- Culture: Purpose-driven, collaborative, and impact-oriented
+
+🛠️ Key Responsibilities
+- Implement and manage CI/CD pipelines and DevOps tools
+- Automate deployment processes and maintain multiple environments
+- Support release management across development and production
+- Troubleshoot deployment issues and collaborate with engineering teams
+- Mentor junior engineers and promote DevOps best practices
+- Recommend tools and processes to improve delivery velocity
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s degree in IT or equivalent experience
+- 6+ years in DevOps, cloud infrastructure, or consulting
+- 2+ years of Windows systems administration experience
+- Active Secret security clearance
+- U.S. work authorization (no sponsorship available)
+- Must live within ~100 miles of one of these locations:
+- Atlanta, GA
+- Charlotte, NC
+- Dallas, TX
+- Gilbert, AZ
+- Houston, TX
+- Lake Mary, FL
+- Mechanicsburg, PA
+- Philadelphia, PA
+- Willingness to travel up to 10% and co-locate up to 30% of the time
+✅ Preferred Skills
+- Deep understanding of DevOps practices (CI/CD, IaC, monitoring)
+- Experience with Jenkins, Git, Bitbucket, Chef, Ansible
+- Familiarity with AWS services (EC2, S3, VPC, EKS, ECS, Fargate)
+- Experience with deployment languages (Terraform, CloudFormation)
+- Containerization and orchestration experience (Docker, Kubernetes)
+- Integration with automated testing and deployment verification
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not specified | 
+| Travel | Up to 10% | 
+| Co-location | Up to 30% at designated delivery site | 
+| Clearance | Active Secret required | 
+| Sponsorship | Not available | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte fosters an inclusive culture that values diverse perspectives and empowers individuals to make a difference. They offer mentorship, professional development, and a purpose-driven work environment.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Have strong Windows administration and AWS DevOps experience
+- Want to work on mission-critical infrastructure for public sector clients
+- Thrive in a collaborative, high-impact consulting environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "aws-infrastructure-devops-engineer-windows-in-deloitte-at-United-States"},
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Identity-Data-Privacy-Manager/306905", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Cyber Identity - Data Privacy Manager", jobType: "Full-time", jobCategory: "Data", mainDescription: `🧭 Role Overview: Data Privacy Manager – Cyber Identity
+This role is part of Deloitte’s Cyber team within the Security Engineering practice. You’ll lead the design, implementation, and management of privacy technology solutions, helping clients comply with global regulations and enhance customer trust.
+
+🛡️ About the Team: Cyber Identity
+- Mission: Protect users and data integrity across digital platforms
+- Focus: Privacy technologies, identity management, and regulatory compliance
+- Culture: Innovation-driven, collaborative, and impact-focused
+
+🛠️ Key Responsibilities
+🔍 Design
+- Identify privacy technology gaps and define future-state architecture
+- Lead stakeholder sessions to gather requirements and use cases
+🧱 Architect
+- Integrate privacy solutions into complex IT environments
+- Align technology deployments with global privacy regulations
+🚀 Implement
+- Configure and deploy privacy tools (e.g., OneTrust, BigID, Securiti.ai)
+- Manage testing, troubleshooting, and end-to-end integrations
+📊 Manage
+- Oversee SDLC activities and lead cross-functional teams
+- Maintain technical documentation and rollout strategies
+- Provide technical oversight and mentorship
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s in Computer Science, Engineering, or related field
+- 7+ years in software design and implementation
+- 2+ years with privacy tools (OneTrust, etc.)
+- Willingness to travel 25–75%
+- Limited sponsorship may be available
+✅ Preferred Skills
+- Experience with SaaS implementations and system integrations
+- Familiarity with APIs, RESTful services, and cloud platforms
+- Knowledge of privacy laws (GDPR, CCPA, LGPD)
+- Hands-on experience with JavaScript, SQL, NoSQL, HTML/CSS
+- Experience with marketing platforms, MDM, and middleware
+- Certifications: CIPT, CIPM, CISSP, CPDSE, Agile/Scrum Master
+- Understanding of Ad-Tech/Mar-Tech ecosystems
+
+📈 What Success Looks Like
+- You’ve deployed privacy solutions that meet regulatory and business needs
+- You’ve led cross-functional teams and mentored junior professionals
+- You’ve improved customer experience and compliance posture
+- You’ve contributed to Deloitte’s reputation as a leader in privacy tech
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $144,200–$265,600 | 
+| Incentive Program | Eligible for discretionary annual bonus | 
+| Travel | 25–75% based on client/project needs | 
+| Sponsorship | Limited availability | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte fosters an inclusive culture that values diverse perspectives and empowers individuals to make a difference. They offer mentorship, professional development, and purpose-driven work.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned privacy technologist with leadership experience
+- Want to shape enterprise privacy strategies and deploy cutting-edge tools
+- Thrive in a fast-paced, client-facing consulting environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cyber-identity-data-privacy-manager-in-deloitte-at-United-States"}
+
+
+
+
+,{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Security-IA-Engineer-TS-SCI-Required/306824", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Cyber Security IA Engineer (TS/SCI Required)", jobType: "Full-time", jobCategory: "Security", mainDescription: `🧭 Role Overview: Cyber Security IA Engineer – RMF & Vulnerability Assessment
+This role is part of Deloitte’s Cyber Strategy & Transformation team. You’ll perform vulnerability and risk assessments across the system development lifecycle to support RMF (Risk Management Framework) authorization processes for federal clients.
+
+🛡️ About the Team: Cyber Strategy & Transformation
+- Mission: Align cyber programs with strategic goals, regulatory requirements, and risk appetite
+- Focus: Cyber governance, risk assessments, and organizational design
+- Culture: Security-first, mission-driven, and compliance-oriented
+
+🛠️ Key Responsibilities
+- Conduct vulnerability and risk assessments of systems and applications
+- Support RMF authorization throughout the system development lifecycle
+- Ensure compliance with DoD cybersecurity standards
+- Collaborate with stakeholders to identify and mitigate risks
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s degree in a technical field (e.g., Computer Science, Engineering)
+- Cyber certification per DoD 8140.03-M (e.g., Security+, CISSP, CEH)
+- Active TS/SCI clearance with Polygraph
+- U.S. work authorization (no sponsorship available)
+- Ability to work 100% onsite in Suffolk, VA
+- Willingness to travel up to 25%
+✅ Preferred Skills
+- Familiarity with RMF processes and NIST cybersecurity frameworks
+- Experience with vulnerability scanning tools and risk analysis
+- Strong understanding of secure system design and architecture
+- Ability to communicate findings to technical and non-technical audiences
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not specified | 
+| Clearance | TS/SCI with Polygraph required | 
+| Location | Suffolk, VA (100% onsite) | 
+| Travel | Up to 25% | 
+| Sponsorship | Not available | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte promotes an inclusive culture that values diverse perspectives and empowers individuals to make a difference. They offer mentorship, professional development, and purpose-driven work.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Hold an active TS/SCI clearance and want to work on national security projects
+- Have deep experience in cybersecurity risk assessments and RMF
+- Thrive in a high-security, mission-critical environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cyber-security-ia-engineer-ts-sci-required-in-deloitte-at-united-states-united-states"},
+
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Senior-Manager-Vendor-Master-Data-Management/306844", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Senior Manager, Vendor Master Data Management", jobType: "Full-time", jobCategory: "Data", mainDescription: `🧭 Role Overview: Senior Manager – Vendor Master Data Management
+This role leads the global strategy and operations for vendor master data within Deloitte’s SAP ecosystem. You’ll drive data quality, process improvement, and fraud mitigation while onboarding new business units and geographies.
+
+🏛 About the Team: Global Finance Services
+- Mission: Deliver a fully managed, global financial solution using cutting-edge technology
+- Focus: Efficiency, compliance, and consistency across Deloitte’s global network
+- Culture: Process-driven, innovation-focused, and collaborative
+
+🛠️ Key Responsibilities
+- Oversee end-to-end vendor master data processes
+- Lead onboarding of new business units and geographies to the SAP MDG platform
+- Drive data validation, quality assurance, and automation initiatives
+- Mitigate fraud risks related to vendor payments
+- Review and approve vendor add/change requests via SAP MDG
+- Develop and deliver training materials and sessions for internal stakeholders
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- 10+ years of experience in SAP Vendor Master Data or Accounts Payable
+- Associate’s degree (minimum); higher education preferred
+- Deep understanding of SAP Vendor Master and Procure-to-Pay (PTP) processes
+- Strong analytical and problem-solving skills
+- Ability to interpret and explain master data policies
+- Excellent presentation and training skills
+✅ Preferred Skills
+- SQL proficiency
+- Experience with SAP Master Data Governance (MDG)
+- Background in global finance operations and compliance
+
+📈 What Success Looks Like
+- You’ve improved vendor data quality and reduced fraud risk
+- You’ve successfully onboarded new regions and business units
+- You’ve driven automation and process innovation
+- You’ve trained internal teams and elevated data governance standards
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not specified | 
+| Locations | Available in 9 locations | 
+| Requisition Code | 306844 | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte Global promotes an inclusive culture that values diverse perspectives and empowers individuals to make a difference. They offer mentorship, professional development, and purpose-driven work.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned SAP data leader with a passion for governance and process improvement
+- Want to drive global transformation in vendor master data management
+- Thrive in a cross-functional, high-impact environment
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-manager-vendor-master-data-management-in-deloitte-at-United-States"},
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Target-Digital-Network-Analyst-TS-SCI-w-FS-Poly/306866", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Target Digital Network Analyst (TS/SCI w/ FS Poly)", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `🧭 Role Overview: Target Digital Network Analyst (TDNA)
+This role is part of Deloitte’s Forensic Investigations and Fraud Services within the Government and Public Services (GPS) practice. You’ll analyze digital footprints, communications, and metadata to generate intelligence insights and support national security operations.
+
+🕵️ About the Team: Forensic, Discovery & Financial Crime
+- Mission: Help government clients combat financial crime, fraud, and emerging threats
+- Focus: Anti-money laundering, investigations, and intelligence analysis
+- Culture: Mission-driven, data-powered, and security-focused
+
+🛠️ Key Responsibilities
+- Analyze targets’ communications, network usage, and digital footprints
+- Use multiple disciplines (e.g., metadata, social network analysis, OSINT)
+- Translate complex technical systems for language analysts and SMEs
+- Create, document, and teach new analysis tradecraft
+- Understand target behaviors, technologies, and cultural context
+- Use a broad set of intelligence tools and platforms
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Active TS/SCI clearance with Full Scope Polygraph
+- Bachelor’s degree (Liberal Arts preferred, but any field accepted)
+- 5+ years of experience as a TDNA
+- Experience with intelligence analysis tools and collection technologies
+- Ability to work onsite 5 days/week in Baltimore, MD
+- U.S. work authorization (no sponsorship available)
+✅ Preferred Skills
+- Experience with open source intelligence (OSINT)
+- Ability to work across diverse data types and translate technical concepts
+- Strong documentation and training capabilities
+- Familiarity with IC mission needs and agency operations
+
+📈 What Success Looks Like
+- You’ve generated actionable intelligence insights from complex data
+- You’ve developed and taught new analysis techniques
+- You’ve supported national security missions with precision and discretion
+- You’ve collaborated effectively with analysts and technical teams
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $93,225–$155,375 | 
+| Incentive Program | Eligible for discretionary annual bonus | 
+| Location | Baltimore, MD (onsite required) | 
+| Clearance | TS/SCI w/ FS Poly required | 
+| Sponsorship | Not available | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte fosters an inclusive culture that values diverse perspectives and empowers individuals to make a difference. They offer mentorship, professional development, and purpose-driven work.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are a seasoned intelligence analyst with deep TDNA experience
+- Hold an active TS/SCI clearance with FS Poly
+- Want to contribute to national security through advanced digital analysis
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "target-digital-network-analyst-ts-sci-w-fs-poly-in-deloitte-at-united-states-united-states"},
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/strava/jobs/7075718", companyName: "strava", companyLogo: "/images/strava.png", location: "San Francisco", jobTitle: "Senior Identity and Access Management Engineer", jobType: "Full-time", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: Senior IAM Engineer – Security Team
+This role is part of Strava’s Security Team, which protects the company’s people, data, and infrastructure. You’ll lead the design and implementation of scalable IAM controls across AWS, GitHub, and Okta, enabling secure and efficient access for engineers and employees.
+
+🛡️ About the Team: Strava Security
+- Mission: Proactively secure Strava’s platform, infrastructure, and data
+- Scope: Product security, incident response, governance, infrastructure, and IAM
+- Culture: Collaborative, engineering-first, and impact-driven
+
+🛠️ Key Responsibilities
+- Design and implement IAM controls (least privilege, JIT, PAM) across cloud and production environments
+- Build automation for access provisioning, reviews, and role management
+- Develop guardrails and workflows that balance security with developer velocity
+- Collaborate with Engineering, Infrastructure, and Security teams to align IAM strategy
+- Embed IAM into CI/CD pipelines and runtime environments
+- Continuously improve access control policies across AWS, GitHub, and Okta
+
+🧠 What Strava Is Looking For
+✅ Required Skills
+- Experience designing IAM systems in cloud-native environments (AWS, GitHub, Okta)
+- Deep understanding of RBAC/ABAC, least privilege, and secure-by-default patterns
+- Hands-on experience with JIT access, PAM, and session monitoring
+- Familiarity with infrastructure-as-code and CI/CD integration
+- Scripting skills (Python, Bash, etc.) for automation
+- Strong communication and cross-functional collaboration abilities
+✅ Mindset & Traits
+- Detail-oriented and self-motivated
+- Pragmatic and adaptable
+- Security-conscious with a developer-friendly approach
+
+📈 What Success Looks Like
+- You’ve reduced Strava’s attack surface through robust access controls
+- You’ve built scalable IAM automation that supports business growth
+- You’ve enabled secure engineering workflows without friction
+- You’ve aligned IAM strategy with compliance and operational needs
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $172,000–$183,000 (base only) | 
+| Equity & Benefits | Additional compensation available | 
+| Work Model | Hybrid (approx. 3 days/week onsite) | 
+| Location | San Francisco, CA | 
+
+
+
+🌍 Culture & Inclusion
+Strava is committed to building an inclusive workplace that reflects its global community of athletes. They value diverse backgrounds and perspectives and offer reasonable accommodations throughout the hiring process.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are passionate about securing cloud-native environments
+- Want to lead IAM strategy and automation at scale
+- Thrive in a collaborative, high-growth tech company
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-identity-and-access-management-engineer-in-strava-at-san-francisco-united-states"},
 { applyUrl: "https://job-boards.greenhouse.io/harbingermotors/jobs/4769309007", companyName: "harbingermotors", companyLogo: "/images/harbingermotors.png", location: "Garden Grove, California, USA", jobTitle: "Software Test Engineer, Infotainment", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Software Test Engineer – Infotainment
 Location: Garden Grove, California, USA
 Employment Type: Full-Time
@@ -1361,7 +2837,7 @@ You can view the full listing and apply directly on Fox Careers.
 
 
 
-{ applyUrl: "https://epiqsystems.wd5.myworkdayjobs.com/en-US/Epiq_Careers/job/IND-Hyderabad-Sohini-Tech-Park-3rd-Floor-Financial-District/Senior-Software-Engineer---Power-BI_R0031006", companyName: "epiqsystems", companyLogo: "/images/epiqsystems.png", location: "Foster City", jobTitle: "Senior Software Engineer - Power BI", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Power BI
+{ applyUrl: "https://epiqsystems.wd5.myworkdayjobs.com/en-US/Epiq_Careers/job/IND-Hyderabad-Sohini-Tech-Park-3rd-Floor-Financial-District/Senior-Software-Engineer---Power-BI_R0031006", companyName: "epiqsystems", companyLogo: "/images/epiqsystems.png", location: "Hyderabad, India", jobTitle: "Senior Software Engineer - Power BI", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Senior Software Engineer – Power BI
 Location: Hyderabad, India (Hybrid – Part-Time Office Presence)
 Department: Engineering
 Employment Type: Full-Time
@@ -1397,7 +2873,7 @@ Epiq is hiring a Senior Power BI Developer to lead the design and deployment of 
 - Results-driven mindset with urgency and initiative
 - Entrepreneurial orientation and innovation
 - Decisiveness in complex or ambiguous situations
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-power-bi-in-epiqsystems-at-foster-city-anywhere"},
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-power-bi-in-epiqsystems-at-Hyderabad-India"},
 
 
 { applyUrl: "https://jobs.lever.co/compassx/7744cb50-db6d-40b1-a034-1b3d6ecd71d5", companyName: "compassx", companyLogo: "/images/compassx.png", location: "EU/UK", jobTitle: "Data Analyst (Data Governance and Power BI) (EU Based)", jobType: "Remote", jobCategory: "Analyst", mainDescription: `
@@ -1484,7 +2960,7 @@ Phaidra is hiring an AI Research Scientist to develop novel algorithmic architec
 - 30 Days: Immersed in product and research tracks
 - 60 Days: Building relationships and planning first project
 - 90 Days: Fully integrated and contributing to research
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "ai-research-scientist-sequential-decision-making-in-phaidra-at-foster-city-anywhere"},
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "ai-research-scientist-sequential-decision-making-in-phaidra-at-UK-USA-Canada"},
 
 
 { applyUrl: "https://www.smartrecruiters.com/RodeoFX/744000068904605", companyName: "rodeofx", companyLogo: "/images/rodeofx.png", location: "Canada", jobTitle: "Pipeline Developer", jobType: "Hybrid", jobCategory: "Developer", mainDescription: `Job Title: Pipeline Developer – Review & Automation Workflows
@@ -9870,8 +11346,7 @@ Brillio is a fast-growing digital technology services company known for its inno
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
-
+  mainDescription: `
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
 Department: Engineering – Machine Learning Platform
@@ -11482,8 +12957,7 @@ Brillio is a fast-growing digital technology services company known for its inno
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
-
+  mainDescription: `
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
 Department: Engineering – Machine Learning Platform
@@ -13094,7 +14568,7 @@ Brillio is a fast-growing digital technology services company known for its inno
   jobTitle: "ML Operations Engineer II (Viator)",
   jobType: "Hybrid",
   jobCategory: "Engineer",
-  mainDescription: `Here’s a polished and structured summary of the job posting for the ML Operations Engineer II (Viator) role in Kraków, Poland:
+  mainDescription: `
 
 Job Title: ML Operations Engineer II
 Location: Kraków, Poland (Hybrid)
@@ -13708,7 +15182,7 @@ Back Market is expanding its mobile presence in Japan and is looking for a Senio
   jobTitle: "Senior Data Analyst",
   jobType: "Hybrid",
   jobCategory: "Analyst",
-  mainDescription: `Here’s a clear and professional summary of the job posting for the Senior Data Analyst role at Bosta:
+  mainDescription: `
 
 Job Title: Senior Data Analyst
 Location: Cairo, Egypt (Hybrid)
@@ -14833,7 +16307,7 @@ Atlassian is seeking a Principal Machine Learning Systems Engineer to lead the d
 Atlassian builds tools that empower global teams—from startups to Fortune 500s. We believe diverse perspectives fuel innovation and are committed to fostering a culture of inclusion, flexibility, and continuous learning.
 
 Inspired to lead ML innovation at a global scale? Apply today or join the Atlassian Talent Community to stay up-to-date with future roles.
-Would you like help tailoring your résumé or a sample cover letter for this role? I’m happy to lend a hand.
+
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'principle-machine-learning-system-engineer-in-atlassian-canada-canada'},
 
 
@@ -14881,7 +16355,7 @@ Atlassian builds tools that help global teams unlock their full potential. The c
 
  
 
-{applyUrl: 'https://www.atlassian.com/company/careers/details/20130', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Principal Machine Learning System Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `Here’s a professionally structured and paraphrased version of the job posting for easy reference and application use:
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20130', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Principal Machine Learning System Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `
 
 Job Title: Principal Machine Learning Systems Engineer
 Department: Engineering
@@ -14928,7 +16402,7 @@ Learn more at go.atlassian.com/perksandbenefits
 Atlassian builds tools that help global teams unlock their potential. Collaboration and innovation are at the heart of what we do. We embrace diversity and are committed to equity, accessibility, and inclusion in every aspect of our culture and hiring.
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'principal-machine-learning-system-engineer-in-atlassian-united-states-united-states'},
 
-{applyUrl: 'https://www.atlassian.com/company/careers/details/20235', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Cloud Migrations Manager', jobType: 'Remote', jobCategory: 'Cloud', mainDescription: `Here’s a clear, professional, and paraphrased version of the job posting, ready for a resume, application, or career portfolio context:
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20235', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Cloud Migrations Manager', jobType: 'Remote', jobCategory: 'Cloud', mainDescription: `
 
 Job Title: Cloud Migrations Manager
 Department: Support
@@ -14974,7 +16448,7 @@ Atlassian is hiring a Cloud Migrations Manager to help customers in the EMEA reg
 
 
 
-{applyUrl: 'https://www.atlassian.com/company/careers/details/20243', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Data Engineer', jobType: 'Remote', jobCategory: 'Data', mainDescription: `Here’s a professional and streamlined version of the job posting, tailored for job boards or application-ready summaries:
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20243', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Data Engineer', jobType: 'Remote', jobCategory: 'Data', mainDescription: `
 
 Job Title: Data Engineer
 Team: Analytics & Data Science
@@ -15058,7 +16532,7 @@ Atlassian creates collaboration tools that help teams across the world unlock th
 
 
 
-{applyUrl: 'https://www.atlassian.com/company/careers/details/20254', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Machine Learning Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `Here’s a polished and paraphrased version of the job description formatted for clarity and professional use:
+{applyUrl: 'https://www.atlassian.com/company/careers/details/20254', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'India', jobTitle: 'Machine Learning Engineer', jobType: 'Remote', jobCategory: 'Machine Learning', mainDescription: `
 
 Job Title: Machine Learning Engineer
 Department: Engineering
@@ -15161,7 +16635,7 @@ Atlassian creates tools that power collaboration for teams worldwide. We embrace
 
 
 
- {applyUrl: 'https://www.atlassian.com/company/careers/details/20338', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Senior Security Engineering Manager', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `Here’s a clean and professional job description paraphrased and formatted for easy reading and job application portals:
+ {applyUrl: 'https://www.atlassian.com/company/careers/details/20338', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Senior Security Engineering Manager', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `
 
 Job Title: Senior Security Engineering Manager
 Department: Engineering
@@ -15352,7 +16826,7 @@ With products that drive collaboration and innovation across the globe, Atlassia
 
 
 
-{applyUrl: 'https://www.atlassian.com/company/careers/details/8233', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Senior Principal Engineer, Identity', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `Here’s a polished and professional paraphrased version of the job post, formatted for job boards, resumes, or applications:
+{applyUrl: 'https://www.atlassian.com/company/careers/details/8233', companyName: 'atlassian', companyLogo: '/images/atlassian.png', location: 'United States', jobTitle: 'Senior Principal Engineer, Identity', jobType: 'Remote', jobCategory: 'Engineer', mainDescription: `
 
 Job Title: Senior Principal Engineer, Identity (Site Reliability Engineering)
 Team: Site Reliability Engineering
@@ -16020,7 +17494,7 @@ We celebrate diversity and inclusion, foster continuous learning, and deeply inv
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'senior-data-scientist-in-vendavo-foster-city-anywhere'}, 
 
 
-{applyUrl: 'https://jobs.lever.co/360learning/29743337-41c5-400a-9169-f832b7e51d25', companyName: '360learning', companyLogo: '/images/360learning.png', location: 'Paris', jobTitle: 'Devops Engineer', jobType: 'Remote', jobCategory: 'Devops', mainDescription: `Here’s a professionally paraphrased version of the job listing—ideal for résumé updates, recruiter messages, or job board summaries:
+{applyUrl: 'https://jobs.lever.co/360learning/29743337-41c5-400a-9169-f832b7e51d25', companyName: '360learning', companyLogo: '/images/360learning.png', location: 'Paris', jobTitle: 'Devops Engineer', jobType: 'Remote', jobCategory: 'Devops', mainDescription: `
 
 💼 Job Title: DevOps Engineer
 Location: Remote – France (Paris-based team)
@@ -16091,7 +17565,8 @@ Ongoing contributions:
 
 
 
-{applyUrl: 'https://jobs.lever.co/360learning/29cdc1b3-7e06-46d9-969b-ce875dea8285', companyName: '360learning', companyLogo: '/images/360learning.png', location: 'Spain', jobTitle: 'Devops Engineer', jobType: 'Remote', jobCategory: 'Devops', mainDescription: `Here’s a professionally paraphrased version of the job listing for recruiter platforms or résumé targeting:
+
+{applyUrl: 'https://jobs.lever.co/360learning/29cdc1b3-7e06-46d9-969b-ce875dea8285', companyName: '360learning', companyLogo: '/images/360learning.png', location: 'Spain', jobTitle: 'Devops Engineer', jobType: 'Remote', jobCategory: 'Devops', mainDescription: `
 
 💼 Job Title: DevOps Engineer
 Location: Remote – Spain
@@ -16144,7 +17619,7 @@ Join a team of five DevOps professionals to build and manage scalable infrastruc
 - Convexity Work Culture
 - 360Learning CSR Charter
 
-Would you like help tailoring this into a résumé summary or outreach message for recruiters? I’d be happy to assist.
+
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'devops-engineer-in-360learning-spain-spain'}, 
 
 
@@ -16285,7 +17760,7 @@ Arrive Logistics is an equal opportunity employer with employee-founded resource
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'software-engineer-in-arrivelogistics-foster-city-anywhere'},
 
 
- {applyUrl: 'https://jobs.lever.co/oowlish/3bc56874-28de-4079-94c2-0d8707cb5e38', companyName: 'oowlish', companyLogo: '/images/oowlish.png', location: 'Brazil', jobTitle: 'Business Data Analyst', jobType: 'Remote', jobCategory: 'Business', mainDescription: `Here’s a professionally paraphrased version of the job listing, formatted for career platforms or recruiter outreach:
+ {applyUrl: 'https://jobs.lever.co/oowlish/3bc56874-28de-4079-94c2-0d8707cb5e38', companyName: 'oowlish', companyLogo: '/images/oowlish.png', location: 'Brazil', jobTitle: 'Business Data Analyst', jobType: 'Remote', jobCategory: 'Business', mainDescription: `
 
 💼 Job Title: Business Data Analyst
 Location: Remote – Latin America (Available in São Paulo, Fortaleza, Rio de Janeiro, Porto Alegre, Recife, Buenos Aires, Mexico City)
@@ -16330,7 +17805,7 @@ We're seeking a Business Data Analyst to transform raw data into insights that i
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'business-data-analyst-in-oowlish-brazil-brazil'}, 
 
 
-{applyUrl: 'https://jobs.lever.co/oowlish/7c18b6df-389b-4c35-8a18-0c97bd7e0821', companyName: 'oowlish', companyLogo: '/images/oowlish.png', location: 'Guadalajara', jobTitle: 'Staff Senior DevOps Engineer', jobType: 'Full-time', jobCategory: 'Devops', mainDescription: `Here’s a professionally paraphrased version of the job listing for career boards or recruiter summaries:
+{applyUrl: 'https://jobs.lever.co/oowlish/7c18b6df-389b-4c35-8a18-0c97bd7e0821', companyName: 'oowlish', companyLogo: '/images/oowlish.png', location: 'Guadalajara', jobTitle: 'Staff Senior DevOps Engineer', jobType: 'Full-time', jobCategory: 'Devops', mainDescription: `
 
 💼 Job Title: Staff DevOps Engineer
 Location: Remote – Latin America (Argentina, Mexico, Colombia)
@@ -16375,6 +17850,7 @@ Join as a Staff DevOps Engineer to lead infrastructure modernization for a cloud
 - PTO bonuses
 - Team games and social activities
 `, status: 'approved', isFeatured: true, requirements: '', submittedDate: new Date().toISOString(), id: 'staff-senior-devops-engineer-in-oowlish-guadalajara-spain'},
+
 
 
 
@@ -17840,7 +19316,7 @@ Join our forward-thinking Finance team and help build world-class financial cont
 🌈 Inclusivity at Monzo
 Diversity, equity and inclusion are foundational to our mission. We encourage applicants from all backgrounds—even if you don’t meet every requirement. We’re committed to building a team where everyone can do their best work and grow with confidence.
 
-Would you like help repackaging this as a résumé summary, LinkedIn headline, or tailored cover letter bullet points? I'm ready whenever you are.
+
 `,
     jobCategory: 'Analyst',
     jobType: 'Full-time',
