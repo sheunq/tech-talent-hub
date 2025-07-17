@@ -520,7 +520,7 @@ const mockBlogPosts = [
   <li>Skill Acceleration – Hands-on workshops and bootcamps can add real firepower to your toolkit.</li>
 </ul>
 
-<img src="/images/oracle.png" alt="oracle" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<img src="/images/Oracle.png" alt="oracle" class="w-full h-auto my-4 rounded-lg shadow-lg">
 
 
 <h2 class="text-2xl font-semibold mt-6 mb-3">

@@ -49,8 +49,8 @@ const mockCompanies: Company[] = [
   { 
     id: 'job-salary-interview-review-in-Grammarly', 
     name: 'Grammarly', 
-    logoUrl: '/images/grammarly.png', 
-    imageHint: 'grammarly logo',
+    logoUrl: '/images/Grammarly.png', 
+    imageHint: 'Grammarly logo',
     industry: 'AI & Natural Language Processing',
     headquarters: 'San Francisco, CA',
     website: 'https://www.grammarly.com/jobs',
@@ -79,7 +79,7 @@ We founded Harbinger with a mission to modernize the medium-duty vehicle industr
   { 
     id: 'job-salary-interview-review-in-Xero', 
     name: 'Xero', 
-    logoUrl: '/images/Xero.png', 
+    logoUrl: '/images/xero.png', 
     imageHint: 'Pixel Perfect logo',
     industry: 'Accounting Software',
     headquarters: 'New York, NY',

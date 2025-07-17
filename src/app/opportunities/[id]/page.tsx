@@ -143,7 +143,7 @@ const mockOpportunities: Opportunity[] = [
     fullDescription: "At CloudWorld 2025, you’ll see the latest Oracle product and technology innovations, learn how they’re being applied, and share ideas with Oracle experts, partners, and your peers. You’ll come away with tools and insights to make an immediate impact within your organization. It’s time to get excited about what AI-powered cloud applications, databases, and infrastructure can do for you. At Oracle CloudWorld, you’ll find keynotes, hundreds of educational sessions and labs, plus networking opportunities at receptions, The Party, and the CloudWorld Hub",
     tags: ['GenAI', 'Cloud', 'Database'],
     icon: <CalendarDays className="h-7 w-7 text-primary" />,
-    imageUrl: '/images/oracle.png',
+    imageUrl: '/images/Oracle.png',
     imageHint: 'oracle',
     learnMoreUrl: 'https://www.oracle.com/cloudworld/',
     duration: '1 Day',

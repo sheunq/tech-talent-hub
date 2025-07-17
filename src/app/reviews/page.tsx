@@ -18,9 +18,9 @@ interface CompanyForReview {
 }
 
 const mockCompaniesForReview: CompanyForReview[] = [
-  { id: 'job-salary-interview-review-in-Grammarly', name: 'Grammarly', logoUrl: '/images/grammarly.png', imageHint: 'grammarly logo', reviewCount: 2, averageRating: 4.5, industry: 'AI & Natural Language Processing' },
+  { id: 'job-salary-interview-review-in-Grammarly', name: 'Grammarly', logoUrl: '/images/Grammarly.png', imageHint: 'grammarly logo', reviewCount: 2, averageRating: 4.5, industry: 'AI & Natural Language Processing' },
   { id: 'job-salary-interview-review-in-harbingermotors', name: 'harbingermotors', logoUrl: '/images/harbingermotors.png', imageHint: 'harbingermotors', reviewCount: 1, averageRating: 4.5, industry: 'vehicle industry' },
-  { id: 'job-salary-interview-review-in-Xero', name: 'Xero', logoUrl: '/images/Xero.png', imageHint: 'Xero logo', reviewCount: 0, averageRating: 4.5, industry: 'Accounting Software' },
+  { id: 'job-salary-interview-review-in-Xero', name: 'Xero', logoUrl: '/images/xero.png', imageHint: 'Xero logo', reviewCount: 0, averageRating: 4.5, industry: 'Accounting Software' },
   { id: 'job-salary-interview-review-in-portronics', name: 'Portronics', logoUrl: '/images/portronics.png', imageHint: 'portronics logo', reviewCount: 1, averageRating: 5.0, industry: 'Tech Accessories' },
   { id: 'job-salary-interview-review-in-deloitte', name: 'Deloitte', logoUrl: '/images/deloitte.png', imageHint: 'deloitte logo', reviewCount: 0, averageRating: 4.5, industry: 'Consulting Firm' },
   { id: 'job-salary-interview-review-in-easebuzz', name: 'Easebuzz', logoUrl: '/images/easebuzz.png', imageHint: 'easebuzz logo', reviewCount: 0, averageRating: 4.5, industry: 'Software as a Service' },
