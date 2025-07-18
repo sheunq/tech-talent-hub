@@ -10,6 +10,2271 @@ import { getAllJobs } from '@/services/jobDbService';
 const mockJobsData: BackendStoredJob[] = [
 
 
+{ applyUrl: "https://jobs.lever.co/xero/74fd29fa-b038-491c-85d4-0c5362ea28c1", companyName: "xero", companyLogo: "/images/xero.png", location: "Foster City", jobTitle: "Lead Engineer, Site Reliability", jobType: "Hybrid", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: Lead Engineer – Site Reliability
+As the Team Lead of a Product SRE team, you’ll be responsible for the deliverables and strategic direction of embedded SRE engineers within product teams. You’ll foster a culture of automation, observability, and continuous improvement while ensuring high-quality, reliable services across Xero’s platform.
+
+🧮 About Xero
+- Mission: Empower small businesses through automation, insights, and connectivity
+- Impact: Strengthening economies by simplifying business operations
+- Culture: Human-first, inclusive, and innovation-driven
+- Product: Cloud-based accounting software and business tools
+
+🛠️ Key Responsibilities
+- Lead a dedicated product SRE team focused on reliability and performance
+- Build long-term relationships with product engineering teams
+- Champion automation-first culture and high-quality delivery
+- Implement and monitor error budgets and SLA/SLO adherence
+- Drive observability best practices for fast issue detection
+- Promote continuous improvement in product reliability
+- Provide training on reliability requirements across the organization
+- Empower engineers to raise the bar on quality and outcomes
+- Report regularly on SRE quality standards and performance
+
+🧠 What Xero Is Looking For
+✅ Required Experience
+- Proven leadership of highly technical SRE teams
+- Strong engineering background with hands-on SRE expertise
+- Experience building embedded SRE teams in fast-growing environments
+- Track record of driving operational excellence and continuous improvement
+- Deep understanding of cloud platforms (AWS, Azure, GCP)
+- Strong product mindset and customer-first approach
+- Expertise in incident response and remediation
+- Analytical and data-driven decision-making
+- Technical depth in SRE tools and automation
+
+📈 What Success Looks Like
+- You’ve built a high-performing, empowered SRE team
+- You’ve improved system reliability and reduced incident impact
+- You’ve embedded observability and automation into product workflows
+- You’ve influenced product design with reliability best practices
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $182,100–$220,000 USD | 
+| Location | San Mateo, CA (Hybrid) | 
+| Equity | Employee Share Plan | 
+| Retirement | 401(k) matching | 
+| Leave | Generous PTO + 26 weeks paid parental leave | 
+| Health & Wellness | Medical, dental, vision, disability, fertility support | 
+| Mental Health | EAP, wellbeing programming, Headspace access | 
+| Flexibility | Flexible working options | 
+| Culture | Inclusive, human-first, career development focused | 
+
+
+
+🌍 Culture & Inclusion
+Xero is committed to diversity and inclusion. They encourage applicants from all backgrounds—even if you don’t meet every requirement. Accommodations are available throughout the application and interview process.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "lead-engineer-site-reliability-in-xero-at-foster-city-anywhere"}
+
+
+
+
+
+
+
+,{ applyUrl: "https://wise.jobs/job/senior-data-analyst-reliability-in-london-jid-1981", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Data Analyst - Reliability", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `🧭 Role Overview: Senior Data Analyst – Reliability
+This role sits within Wise’s Platform Engineering Tribe, specifically the Reliability squad. You’ll be the analytical force behind Wise’s reliability strategy, connecting technical metrics to customer experience and business impact. Your work will shape how Wise designs, builds, and operates its systems to ensure seamless global money movement.
+
+🌍 About Wise
+- Mission: Build money without borders—instant, transparent, and eventually free
+- Reach: $100B+ processed annually for 16M+ customers
+- Culture: Inclusive, mission-driven, and globally connected
+- Product: International payments, multi-currency accounts, and financial services
+
+🛠️ Key Responsibilities
+🧩 Business Service Availability
+- Build a customer-centric view of service availability
+- Create visualizations that link reliability to business outcomes
+- Develop methodologies that reflect real user experiences
+📊 Service Quality Metrics Framework
+- Design a framework connecting technical metrics to customer experience
+- Implement automated scoring systems and benchmarking tools
+- Build predictive models to identify reliability risks
+🤝 Cross-Team Reliability Initiatives
+- Partner with engineering and product teams to set reliability targets
+- Build data models that link engineering decisions to customer satisfaction
+- Influence strategic decisions across observability and application engineering
+
+🧠 What Wise Is Looking For
+✅ Technical Skills
+- Advanced SQL and experience with visualization tools (Looker, Grafana, ELK, Superset)
+- Understanding of SRE concepts (SLIs, SLOs, error budgets)
+- Experience with DBT, Airflow, and Python for analysis and automation
+✅ Soft Skills
+- Systems thinking and ability to understand service interdependencies
+- Strong storytelling ability to translate metrics into business impact
+- Collaborative mindset with cross-functional influence
+- Deep curiosity about system behavior and failure modes
+
+📈 What Success Looks Like
+- You’ve built frameworks that improve reliability and engineering efficiency
+- You’ve influenced product and engineering decisions with data
+- You’ve helped Wise prevent and resolve issues before they affect customers
+- You’ve shaped how reliability is measured and improved across the company
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | £60,000–£75,000 GBP | 
+| Equity | Competitive stock options | 
+| Location | London (Hybrid) | 
+| Development | Annual budget for personal/professional growth | 
+| Flexibility | Supportive work-life balance | 
+
+
+
+🌍 Culture & Inclusion
+Wise is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and offer equal opportunity in employment practices. Their mission is for everyone, everywhere—without judgment or prejudice.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-data-analyst-reliability-in-wise-at-london-united-kingdom"},
+
+
+{ applyUrl: "https://wise.jobs/job/senior-software-engineer-i-compute-in-london-jid-1992", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Software Engineer I - Compute", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Senior Software Engineer I – Compute
+This role is part of Wise’s Compute team, a foundational group within Platform Engineering. You’ll design and implement scalable, secure, and automated cloud-native infrastructure that empowers product engineers to deploy and manage services efficiently. Your work will directly impact the reliability and speed of Wise’s global financial platform.
+
+🌍 About Wise
+- Mission: Build money without borders—instant, transparent, and eventually free
+- Reach: $100B+ processed annually for 16M+ customers
+- Culture: Inclusive, mission-driven, and globally connected
+- Product: International payments, multi-currency accounts, and financial services
+
+🛠️ Key Responsibilities
+- Architect and enhance Wise’s platform infrastructure for scale and security
+- Automate core platform components at both AWS and application levels
+- Lead initiatives in cloud-native development and Kubernetes adoption
+- Collaborate across teams to mentor, share knowledge, and refine engineering practices
+- Assess system-wide improvements and preemptively address scalability and reliability challenges
+- Build tools and services that streamline deployment and accelerate product delivery
+
+🧠 What Wise Is Looking For
+✅ Required Skills
+- Experience building reliable, scalable, secure cloud-native platforms (preferably on AWS)
+- Production experience with containerization and orchestration (Kubernetes)
+- Strong understanding of systems and software engineering fundamentals
+- Linux sysadmin skills (debugging disk, networking, OS performance issues)
+- Familiarity with infrastructure-as-code and automation tools (Terraform, Ansible)
+✅ Mindset & Approach
+- Problem-seeker with a proactive, impact-driven mindset
+- Collaborative and curious, with a passion for continuous learning
+- Strategic thinker with hands-on technical execution
+- Committed to improving systems and outcomes for customers
+
+📈 What Success Looks Like
+- You’ve built infrastructure that scales with Wise’s global growth
+- You’ve automated deployment and operational workflows
+- You’ve empowered product engineers with robust platform tools
+- You’ve contributed to Wise’s mission through technical excellence
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | £85,000–£105,000 GBP | 
+| Equity | RSUs (Restricted Stock Units) | 
+| Location | London (Hybrid) | 
+| Development | Annual budget for personal/professional growth | 
+| Flexibility | Supportive work-life balance | 
+| Leave | Mission days, me days, sabbaticals | 
+
+
+
+🌍 Culture & Inclusion
+Wise is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and celebrate differences. Inclusive teams help Wise live its values and ensure every employee feels respected and empowered.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-i-compute-in-wise-at-london-united-kingdom"},
+
+
+{ applyUrl: "https://wise.jobs/job/senior-software-engineer-ii-business-kyc-in-london-jid-1989", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Senior Software Engineer II - Business KYC", jobType: "Hybrid", jobCategory: "Business", mainDescription: `🧭 Role Overview: Senior Software Engineer II – Business KYC
+This role sits within Wise’s Business Onboarding Verification team. You’ll lead backend development efforts to streamline and automate the KYC (Know Your Customer) process for business users. Your work will directly impact how quickly and smoothly businesses gain access to Wise’s financial services.
+
+🌍 About Wise
+- Mission: Build money without borders—instant, transparent, and eventually free
+- Reach: $100B+ processed annually for 16M+ customers
+- Culture: Inclusive, mission-driven, and globally connected
+- Product: International payments, multi-currency accounts, and financial services
+
+🛠️ Key Responsibilities
+- Design and build scalable backend services using Java, Spring Boot, and cloud technologies
+- Lead technical initiatives to improve verification systems (automation, reliability, performance)
+- Translate business requirements into technical solutions in collaboration with product managers
+- Mentor junior engineers and conduct code reviews
+- Drive architectural decisions and technical strategy for KYC systems
+- Build internal tools for verification agents
+- Contribute to engineering culture through knowledge sharing and best practices
+
+🧠 What Wise Is Looking For
+✅ Required Skills
+- 3+ years of backend development experience
+- Strong system design skills for distributed, high-throughput services
+- Proficiency in SQL and database management
+- Experience leading technical initiatives and mentoring engineers
+- Understanding of security and data protection principles
+- Excellent problem-solving and communication skills
+✅ Bonus Skills
+- Experience with financial systems or KYC verification platforms
+
+📈 What Success Looks Like
+- You’ve built backend systems that accelerate and improve business verification
+- You’ve led technical strategy and mentored engineers
+- You’ve contributed to a seamless onboarding experience for global businesses
+- You’ve helped Wise scale its infrastructure and meet regulatory requirements
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | £105,000–£130,000 GBP | 
+| Equity | RSUs (Restricted Stock Units) | 
+| Location | London (Hybrid) | 
+| Development | Career map, tech stack transparency, engineering blog | 
+| Flexibility | Supportive work-life balance | 
+
+
+
+🌍 Culture & Inclusion
+Wise is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and celebrate differences. Inclusive teams help Wise live its values and ensure every employee feels respected and empowered.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-ii-business-kyc-in-wise-at-london-united-kingdom"},
+
+
+{ applyUrl: "https://wise.jobs/job/software-engineer-business-kyc-in-london-jid-1988", companyName: "wise", companyLogo: "/images/wise.png", location: "London", jobTitle: "Software Engineer - Business KYC", jobType: "Hybrid", jobCategory: "Business", mainDescription: `🧭 Role Overview: Software Engineer – Business KYC
+This role is part of Wise’s Business Onboarding Verification team. You’ll contribute to building scalable backend systems that improve the speed, accuracy, and user experience of business verification. Your work will help small businesses access financial services faster and more securely.
+
+🌍 About Wise
+- Mission: Build money without borders—instant, transparent, and eventually free
+- Reach: $100B+ processed annually for 16M+ customers
+- Culture: Inclusive, mission-driven, and globally connected
+- Product: International payments, multi-currency accounts, and financial services
+
+🛠️ Key Responsibilities
+- Develop and maintain backend services using Java, Spring Boot, and cloud technologies
+- Collaborate with product managers and designers to translate requirements into technical solutions
+- Participate in code reviews and provide constructive feedback
+- Build internal tools to support verification agents
+- Share knowledge and promote best practices within the team
+
+🧠 What Wise Is Looking For
+✅ Required Skills
+- 1–3 years of backend development experience
+- Experience working with SQL databases
+- Strong problem-solving skills and attention to detail
+- Ability to communicate technical concepts clearly
+- Decent system design skills for distributed services
+
+📈 What Success Looks Like
+- You’ve contributed to backend systems that improve business verification
+- You’ve collaborated effectively across product and engineering teams
+- You’ve helped deliver a smoother onboarding experience for global businesses
+- You’ve grown your technical skills in a high-impact fintech environment
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | £65,000–£85,000 GBP | 
+| Equity | RSUs (Restricted Stock Units) | 
+| Location | London (Hybrid) | 
+| Development | Career map, tech stack transparency, engineering blog | 
+| Flexibility | Supportive work-life balance | 
+| Leave | Mission days, me days, sabbaticals | 
+
+
+
+🌍 Culture & Inclusion
+Wise is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and celebrate differences. Inclusive teams help Wise live its values and ensure every employee feels respected and empowered.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-business-kyc-in-wise-at-london-united-kingdom"},
+
+
+
+
+{ applyUrl: "https://careers.tqasolutions.com/jobs/5841228-cloud-engineer", companyName: "tquilaautomation", companyLogo: "/images/tquilaautomation.png", location: "Manila", jobTitle: "Cloud Engineer", jobType: "Hybrid", jobCategory: "Cloud", mainDescription: `🧭 Role Overview: Cloud Engineer – AWS & UiPath
+As the first AWS Support Engineer in TQA’s Managed Services Team, you’ll be responsible for ensuring the performance, availability, and security of AWS-hosted UiPath environments. You’ll collaborate with clients, troubleshoot infrastructure issues, and optimize cloud systems to support automation solutions.
+
+🌐 About TQA
+- Founded: 2020
+- Headquarters: Texas, USA
+- Global Presence: Offices in the US, UK, Romania, LATAM, and the Philippines
+- Mission: Help organizations harness automation, AI, and data to revolutionize industries
+- Culture: Innovation-driven, inclusive, and growth-focused
+
+🛠️ Key Responsibilities
+- Manage AWS cloud infrastructure supporting UiPath RPA solutions
+- Respond to and resolve incidents affecting AWS environments
+- Monitor and optimize performance for speed, scalability, and efficiency
+- Implement security measures and maintain compliance
+- Collaborate with clients to tailor AWS configurations to their needs
+- Stay current with AWS advancements and apply new features to improve systems
+
+🧠 What TQA Is Looking For
+✅ Required Skills
+- 4+ years of experience with AWS services (EC2, S3, RDS, VPC)
+- Familiarity with UiPath RPA platform and AWS integrations
+- Strong troubleshooting and problem-solving abilities
+- Excellent communication skills for client interaction
+- Bachelor’s degree in Computer Science, IT, or equivalent experience
+- AWS Solution Architect Associate/Professional certification (preferred)
+✅ Bonus Skills
+- Other AWS certifications
+- Experience with Azure or GCP
+- Scripting/programming (Python, PowerShell)
+- Knowledge of ITIL or IT service management frameworks
+
+📈 What Success Looks Like
+- You’ve ensured high availability and performance of AWS-hosted UiPath environments
+- You’ve resolved infrastructure issues quickly and effectively
+- You’ve optimized cloud systems to support automation at scale
+- You’ve built strong client relationships through expert guidance and support
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Manila (Hybrid) | 
+| Department | Delivery | 
+| Career Path | Accelerated growth and leadership opportunities | 
+| Culture | Inclusive, innovative, and impact-driven | 
+
+
+
+🌍 Culture & Inclusion
+TQA is an equal opportunity employer committed to diversity and inclusion. They value different perspectives and believe that a diverse workforce is central to their success.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are an experienced AWS engineer passionate about automation and cloud infrastructure
+- Want to support global clients with cutting-edge RPA solutions
+- Thrive in a fast-paced, collaborative, and growth-oriented environment
+
+Would you like a comparison table of all sixty roles you’ve shared so far? Or help crafting a tailored resume or cover letter for this one?
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cloud-engineer-in-tquilaautomation-at-Manila"},
+
+
+
+  
+{ applyUrl: "https://careers.tqasolutions.com/jobs/6146976-uipath-test-cloud-solution-architect", companyName: "tquilaautomation", companyLogo: "/images/tquilaautomation.png", location: "United States", jobTitle: "UiPath Test Cloud Solution Architect", jobType: "Hybrid", jobCategory: "Cloud", mainDescription: `🧭 Role Overview: UiPath Test Cloud Solution Architect
+As a key member of TQA’s pre-sales organization, you’ll lead technical discovery, design enterprise-scale test automation solutions, and drive adoption of UiPath Test Cloud. You’ll serve as a trusted advisor to clients, helping shape TQA’s go-to-market strategy and expand its Test Automation practice.
+
+🌐 About TQA
+- Founded: 2020
+- Headquarters: Texas, USA
+- Global Reach: Offices in the US, UK, Romania, LATAM, and the Philippines
+- Mission: Help organizations harness automation, AI, and data to transform industries
+- Culture: Innovation-driven, inclusive, and growth-focused
+
+🛠️ Key Responsibilities
+🔧 Pre-Sales Technical Leadership
+- Qualify test automation opportunities with Sales and Solution Architects
+- Lead discovery workshops and solution design sessions
+- Build rapid POCs and demos showcasing UiPath Test Cloud capabilities
+🧠 Client Advisory & Education
+- Advise clients on testing frameworks, processes, and ROI comparisons
+- Deliver technical presentations to diverse audiences, including executives
+🚀 Solution Delivery & Enablement
+- Provide hands-on support for pilot and early production engagements
+- Mentor internal teams and refine implementation methodologies
+- Document use cases and reference architectures
+🌱 Practice Growth & Thought Leadership
+- Identify new service offerings and vertical-specific use cases
+- Represent TQA at industry events and webinars
+- Provide feedback to product teams to influence roadmap
+
+🧠 What TQA Is Looking For
+✅ Required Skills & Experience
+Technical Expertise
+- 5+ years in test automation architecture and implementation
+- Deep knowledge of UiPath Test Suite or similar RPA-driven tools
+- Strong programming skills (C#, Python, JavaScript)
+- Familiarity with CI/CD tools (Jenkins, Azure DevOps)
+Pre-Sales & Consulting
+- Experience in technical pre-sales or solution consulting
+- Ability to lead discovery, build POCs, and present to executives
+Testing Domain Knowledge
+- Understanding of functional, regression, performance, and UI testing
+- Experience with tools like Selenium, Postman, JMeter, Tricentis Tosca
+Communication & Leadership
+- Exceptional verbal and written communication
+- Team leadership or people management experience preferred
+Geographic Focus
+- Based in North America
+- Willingness to travel up to 40%
+- Flexibility to support strategic UK accounts
+
+📈 What Success Looks Like
+- You’ve led successful client engagements and driven UiPath Test Cloud adoption
+- You’ve built scalable test automation solutions and mentored delivery teams
+- You’ve influenced TQA’s service offerings and contributed to thought leadership
+- You’ve helped shape the future of enterprise testing through intelligent automation
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | United States (Hybrid) | 
+| Travel | Up to 40% across North America and EMEA | 
+| Career Path | Accelerated growth into leadership roles | 
+| Culture | Inclusive, innovative, and impact-driven | 
+
+
+
+🌍 Culture & Inclusion
+TQA is an equal opportunity employer committed to diversity and inclusion. They celebrate different perspectives and believe a diverse workforce is central to their success.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "uipath-test-cloud-solution-architect-in-tquilaautomation-at-United-States"},
+
+
+
+{ applyUrl: "https://careers.tqasolutions.com/jobs/6147065-agentic-automation-solution-architect-na-lead", companyName: "tquilaautomation", companyLogo: "/images/tquilaautomation.png", location: "United States", jobTitle: "Agentic Automation Solution Architect (NA Lead)", jobType: "Hybrid", jobCategory: "Architect", mainDescription: `🧭 Role Overview: Agentic Automation Solution Architect (NA Lead)
+This role blends deep technical architecture with strategic pre-sales leadership. You’ll design bespoke agentic ecosystems that combine low-code platforms like Microsoft Power Platform and UiPath with custom code, advanced data architectures, and generative AI. You’ll guide clients and internal teams through complex solution envisioning, prototyping, and delivery.
+
+🌐 About TQA
+- Founded: 2020
+- Headquarters: Texas, USA
+- Global Reach: Offices in the US, UK, Romania, LATAM, and the Philippines
+- Mission: Help organizations harness automation, AI, and data to transform industries
+- Culture: Innovation-driven, inclusive, and growth-focused
+
+🛠️ Key Responsibilities
+🔧 Solution Envisioning & Design
+- Lead technical discovery workshops with enterprise clients
+- Architect end-to-end agentic solutions combining low-code platforms and custom components
+🧪 Hybrid Architecture Development
+- Design blueprints integrating platforms like Copilot Studio, UiPath, and ServiceNow with microservices and data pipelines
+🚀 POC & Prototyping
+- Build hands-on proofs of concept showcasing real-world value across technologies
+📣 Technical Evangelism & Thought Leadership
+- Advise on agentic AI trends (LLMs, vector databases, MLOps)
+- Speak at industry events and contribute to product feedback
+🤝 Pre-Sales Collaboration
+- Partner with sales to shape proposals and ensure technical feasibility
+🛡️ AI Governance & Ethics
+- Embed Responsible AI principles (security, fairness, traceability, explainability) into solution design
+
+🧠 What TQA Is Looking For
+✅ Required Skills & Experience
+Technical Expertise
+- 8+ years in software/data engineering or solution architecture
+- 3+ years designing AI/ML or data-intensive systems
+- Strong Python skills and familiarity with libraries like Hugging Face, Pandas, spaCy
+- Deep understanding of LLMs, RAG, prompt engineering, and function calling
+- Experience with RESTful APIs and microservices (FastAPI, Flask)
+- Cloud AI architecture (Azure preferred)
+Enterprise Automation
+- Expertise in platforms like Power Platform, UiPath, or ServiceNow
+Communication & Leadership
+- Exceptional presentation and stakeholder engagement skills
+- Experience leading teams or practices preferred
+Travel & Geography
+- Based in North America
+- Willingness to travel up to 40%
+- Flexibility to support UK strategic accounts
+✅ Preferred Qualifications
+- Experience with agentic frameworks (LangChain, Semantic Kernel, AutoGPT)
+- Knowledge of vector/graph databases (Pinecone, Weaviate, Neo4j)
+- Familiarity with MLOps tools (Databricks, MLflow) and DevOps practices
+- Broader programming experience (C#, Java, TypeScript)
+- Exposure to enterprise data platforms (Microsoft Fabric, Databricks)
+
+📈 What Success Looks Like
+- You’ve architected and delivered innovative agentic automation solutions
+- You’ve influenced client strategy and internal delivery practices
+- You’ve helped TQA grow its automation and AI offerings
+- You’ve advanced Responsible AI principles in enterprise environments
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | United States (Hybrid) | 
+| Travel | Up to 40% across North America and UK | 
+| Career Path | Accelerated growth into leadership roles | 
+| Culture | Inclusive, innovative, and impact-driven | 
+
+
+
+🌍 Culture & Inclusion
+TQA is an equal opportunity employer committed to diversity and inclusion. They celebrate different perspectives and believe a diverse workforce is central to their success.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "agentic-automation-solution-architect-na-lead-in-tquilaautomation-at-United-States"},
+
+
+{ applyUrl: "https://gloriumtech.com/career/jobs/backend-python-developer/", companyName: "gloriumtech", companyLogo: "/images/gloriumtech.png", location: "Poland", jobTitle: "Backend (Python) Developer", jobType: "Remote", jobCategory: "Backend", mainDescription: `🧭 Role Overview: Backend (Python) Developer – IoT Platform
+You’ll join a team developing a scalable and resilient IoT platform that handles electricity usage data, sensor configuration, and user administration. The focus is on backend development, database management, and integration of web services and APIs.
+
+🌐 About Glorium Technologies
+- Founded: 2010
+- Headquarters: Global presence with remote-first culture
+- Mission: Deliver compliant, scalable software solutions across industries
+- Culture: Flexible, growth-oriented, and collaborative
+
+🛠️ Key Responsibilities
+- Design, develop, and enhance backend features for scalability and performance
+- Maintain and optimize the cloud infrastructure hosted on DigitalOcean
+- Provide technical support to operations for platform stability
+- Integrate external APIs and services (e.g., Salesforce CRM, ERP systems)
+- Collaborate with cross-functional teams including Product and Data
+
+🧠 What Glorium Is Looking For
+✅ Must-Have Skills
+- Strong Python fundamentals
+- Experience with Django framework
+- API development and data validation
+- MongoDB integration with Python
+- Basic SQL knowledge
+- Familiarity with Linux environments
+- Experience with web communication protocols (HTTP, MQTT, WebSocket)
+- DevOps tools and practices (CI/CD, Git, TeamCity)
+- Proficient English communication skills
+✅ Nice-to-Have Skills
+- Experience with Pydantic
+- Raspberry Pi familiarity
+- Basic Flask knowledge
+- Understanding of IoT protocols (Modbus, MBus, LoRa)
+- French language skills
+✅ Soft Skills
+- Analytical mindset and business process awareness
+- Team-oriented with a strong sense of responsibility
+- Autonomous decision-making and task execution
+
+📈 What Success Looks Like
+- You’ve built scalable backend systems that support IoT data visualization and device management
+- You’ve maintained a stable cloud infrastructure and supported operations
+- You’ve integrated external systems and APIs seamlessly
+- You’ve contributed to a collaborative and agile development environment
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Remote (Ukraine or Poland) | 
+| Level | Middle | 
+| Leave | 25 paid days off per year | 
+| Learning | Paid English classes, training, certifications | 
+| Bonuses | Special occasion bonuses | 
+| Flexibility | Work-from-home or office options | 
+| Reviews | Regular performance reviews | 
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "backend-python-developer-in-gloriumtech-at-poland-poland"},
+
+{ applyUrl: "https://gloriumtech.com/career/jobs/middle-senior-odoo-developer/", companyName: "gloriumtech", companyLogo: "/images/gloriumtech.png", location: "Cyprus", jobTitle: "Middle-Senior Odoo developer", jobType: "Remote", jobCategory: "General", mainDescription: `🧭 Role Overview: Middle–Senior Odoo Developer
+You’ll join a team building scalable, efficient business applications using the Odoo framework. The role involves module development, system integration, performance optimization, and collaboration with consultants to translate business needs into technical solutions.
+
+🌐 About Glorium Technologies
+- Founded: 2010
+- Headquarters: Global presence with remote-first culture
+- Mission: Deliver compliant, scalable software solutions across industries
+- Culture: Flexible, growth-oriented, and collaborative
+
+🛠️ Key Responsibilities
+- Design, develop, and customize Odoo modules based on business requirements
+- Collaborate with Odoo consultants to analyze and translate business processes
+- Perform upgrades and version migrations with data integrity
+- Develop and maintain API integrations with third-party systems
+- Optimize code for performance and maintainability
+- Debug and troubleshoot issues across modules
+- Write documentation for features and customizations
+- Participate in code reviews and follow best practices
+- Provide technical support and assist with user training
+
+🧠 What Glorium Is Looking For
+✅ Required Skills
+- 3+ years of Python development experience
+- 2+ years of hands-on experience with Odoo
+- Deep understanding of Odoo architecture and framework
+- Experience with PostgreSQL, XML, and JavaScript
+- Proficiency with Git or other version control systems
+- Ability to analyze and optimize existing Odoo code
+- Strong problem-solving and collaboration skills
+- Upper-Intermediate or higher English proficiency
+✅ Bonus Skills
+- Experience in technical scoping
+- Strong written and verbal communication
+
+📈 What Success Looks Like
+- You’ve delivered customized Odoo modules that meet business needs
+- You’ve maintained system integrity through upgrades and migrations
+- You’ve built reliable integrations and optimized performance
+- You’ve contributed to a collaborative and agile development environment
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Remote (Ukraine, Poland, Cyprus) | 
+| Level | Middle–Senior | 
+| Leave | 25 paid days off per year | 
+| Learning | Paid English classes, training, certifications | 
+| Bonuses | Special occasion bonuses | 
+| Flexibility | Work-from-home or office options | 
+| Reviews | Regular performance reviews | 
+
+
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "middle-senior-odoo-developer-in-gloriumtech-at-cyprus-cyprus"},
+
+
+{ applyUrl: "https://gloriumtech.com/career/jobs/senior-net-developer-with-docker-and-kubernetes/", companyName: "gloriumtech", companyLogo: "/images/gloriumtech.png", location: "Poland", jobTitle: "Senior .Net developer with Docker and Kubernetes", jobType: "Remote", jobCategory: "General", mainDescription: `🧭 Role Overview: Senior .NET Developer – Docker & Kubernetes
+You’ll lead the migration of a complex healthcare SaaS platform from .NET Framework to .NET Core, while designing and maintaining CI/CD pipelines for Docker and Kubernetes deployments. Your work will directly impact the scalability, performance, and reliability of software used by US-based hospitals and medical equipment providers.
+
+🌐 About Glorium Technologies
+- Founded: 2010
+- Headquarters: Global presence with remote-first culture
+- Mission: Deliver compliant, scalable software solutions across industries
+- Culture: Flexible, growth-oriented, and collaborative
+
+🛠️ Key Responsibilities
+- Design and maintain CI/CD pipelines using Octopus Deploy for Docker/Kubernetes
+- Lead migration of applications from .NET Framework to .NET Core
+- Collaborate with DevOps and engineering teams on containerization strategies
+- Optimize applications for performance, scalability, and security
+- Troubleshoot deployment and orchestration issues in Kubernetes environments
+
+🧠 What Glorium Is Looking For
+✅ Required Skills
+- 5+ years of .NET development experience
+- Strong knowledge of Docker containerization
+- Hands-on experience with Kubernetes orchestration
+- Proven track record of .NET to .NET Core migration
+- Experience with CI/CD pipelines and automation
+- Familiarity with RESTful APIs and microservices architecture
+- Understanding of modern software design patterns
+✅ Bonus Skills
+- Experience with cloud platforms (Azure, AWS, GCP)
+- Experience with Octopus Deploy
+
+📈 What Success Looks Like
+- You’ve successfully migrated legacy .NET applications to .NET Core
+- You’ve implemented robust CI/CD pipelines for containerized deployments
+- You’ve optimized application performance in cloud-native environments
+- You’ve resolved deployment and orchestration challenges with Kubernetes
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Remote (Ukraine or Poland) | 
+| Level | Senior | 
+| Leave | 25 paid days off per year | 
+| Learning | Paid English classes, training, certifications | 
+| Bonuses | Special occasion bonuses | 
+| Flexibility | Work-from-home or office options | 
+| Reviews | Regular performance reviews | 
+
+
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-net-developer-with-docker-and-kubernetes-in-gloriumtech-at-poland-poland"},
+
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Identity-Data-Privacy-Senior-Consultant/306933", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Cyber Identity - Data Privacy Senior Consultant", jobType: "Full-time", jobCategory: "Data", mainDescription: `🧭 Role Overview: Data Privacy Senior Consultant – Cyber Identity
+You’ll be part of Deloitte’s Cyber team, helping clients navigate the evolving data privacy landscape through strategic design, technical implementation, and management of privacy tools and frameworks. This role blends technical architecture with regulatory insight and cross-functional collaboration.
+
+🏢 About Deloitte Cyber
+- Mission: Help clients operate with resilience and confidence in a complex cybersecurity environment
+- Focus: Trust, safety, identity, and privacy across digital platforms
+- Culture: Inclusive, collaborative, and innovation-driven
+
+🛠️ Key Responsibilities
+🔍 Design
+- Identify privacy technology gaps and strategize future-state solutions
+- Lead working sessions to gather requirements and define use cases
+🧱 Architect
+- Navigate complex IT architectures to integrate privacy technologies
+- Align deployments with global and domestic privacy regulations
+- Integrate with third-party tools and APIs
+🚀 Implement
+- Configure, test, and deploy privacy tools (e.g., OneTrust, BigID)
+- Coordinate with vendors and stakeholders to troubleshoot and validate integrations
+- Support change management and rollout planning
+📊 Manage
+- Lead project activities across the SDLC
+- Manage cross-functional stakeholder groups
+- Maintain technical documentation and oversee deployment
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Engineering, or related field
+- 4+ years in software design and technology implementation
+- 2+ years with privacy technologies (e.g., OneTrust)
+- Willingness to travel 25–75%
+- Limited sponsorship may be available
+✅ Preferred Qualifications
+Technical Skills
+- Experience with marketing tech, consent management, and tag solutions
+- SaaS implementation experience
+- API integration knowledge (GET/POST, RESTful APIs)
+- Familiarity with platforms like Salesforce, Informatica MDM, MuleSoft, Kafka
+- Programming/scripting: JavaScript, Python, .NET, C#
+- Database: SQL, NoSQL
+- Tools: Apigee, Postman
+- Agile/Scrum methodology
+Privacy & Compliance
+- Knowledge of GDPR, CCPA, LGPD, and other regulations
+- Experience with privacy program components (DSRs, consent, DPIAs, etc.)
+- Certifications: CIPT, CIPM, CISSP, CPDSE, Agile/Scrum Master
+Soft Skills
+- Strong communication and stakeholder engagement
+- Project management and change management experience
+- Team collaboration and leadership
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $118,700–$218,600 USD | 
+| Incentives | Eligible for discretionary annual bonus | 
+| Travel | 25–75% based on client needs | 
+| Locations | Available in 52 US cities | 
+| Benefits | Broad range of health, wellness, and career perks | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte is committed to diversity, equity, and inclusion. They offer accommodations for applicants with disabilities and foster a culture of empowerment and belonging.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cyber-identity-data-privacy-senior-consultant-in-deloitte-at-United-States"},
+
+
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Identity-Entra-ID-Consultant/306936", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "united states", jobTitle: "Cyber Identity - Entra ID Consultant", jobType: "Full-time", jobCategory: "General", mainDescription: `🧭 Role Overview: Entra ID Consultant – Cyber Identity
+You’ll support clients in assessing, designing, and implementing Microsoft Identity solutions, including Active Directory (AD) and Entra ID. This role involves technical consulting, architecture, deployment, and remediation across complex enterprise environments.
+
+🏢 About Deloitte Cyber
+- Mission: Help clients operate securely and confidently in a dynamic threat landscape
+- Focus: Identity, access, trust, and safety across digital platforms
+- Culture: Inclusive, collaborative, and innovation-driven
+
+🛠️ Key Responsibilities
+🔍 Assessment & Design
+- Conduct health checks and analysis of AD/Entra ID environments
+- Architect and design large-scale deployments, migrations, and upgrades
+- Recommend configurations for tenant hardening, MFA, SSO, conditional access, B2B/B2C
+🚀 Implementation & Migration
+- Deploy Entra ID services and integrate legacy applications
+- Migrate identity platforms and clean up AD environments
+- Configure security and compliance tools (e.g., Defender for Identity)
+🧱 Infrastructure & Security
+- Manage LDAP environments, GPO policies, and domain hardening
+- Support DR planning and trial runs
+- Monitor and troubleshoot AD/Entra ID services
+📊 Documentation & Support
+- Document technical issues and resolutions
+- Provide technical support and liaise with Microsoft
+- Contribute to whitepapers and thought leadership
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Cybersecurity, or related field
+- 2+ years of experience with Microsoft Identity solutions (AD, Entra ID)
+- Experience with IAM protocols (SAML, OAuth, OpenID Connect)
+- Hands-on experience with AD trusts, federation, and GPO management
+- Willingness to travel 25–50%
+- Limited immigration sponsorship may be available
+✅ Preferred Qualifications
+- Certifications: SC-300, CISSP, CCSP, CCSK, MCSE, MCSA
+- Experience with Defender for Identity, ADFS, and ESAE implementations
+- Familiarity with application integration and federation
+- Strong communication and project management skills
+
+📈 What Success Looks Like
+- You’ve led successful AD/Entra ID deployments and migrations
+- You’ve improved identity security posture and reduced attack surfaces
+- You’ve supported clients through mergers, acquisitions, and domain consolidations
+- You’ve contributed to Deloitte’s thought leadership in identity and access management
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $80,400–$148,000 USD | 
+| Incentives | Eligible for discretionary annual bonus | 
+| Travel | 25–50% based on client needs | 
+| Locations | Available in 52 US cities | 
+| Benefits | Comprehensive health, wellness, and career perks | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte fosters an inclusive culture that values diverse perspectives and empowers individuals to make a difference. Accommodations are available for applicants with disabilities.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cyber-identity-entra-id-consultant-in-deloitte-at-united-states"}
+
+
+
+,{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Identity-SailPoint-Consultant/306932", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Cyber Identity - SailPoint Consultant", jobType: "Full-time", jobCategory: "General", mainDescription:`🧭 Role Overview: Okta Senior Consultant – Cyber Identity
+You’ll join Deloitte’s Cyber Risk team to help clients manage digital identities and access controls using Okta. This role involves technical architecture, integration, troubleshooting, and performance optimization of IAM systems across complex enterprise environments.
+
+🏢 About Deloitte Cyber Risk
+- Mission: Help organizations proactively manage cyber risks while pursuing growth and innovation
+- Focus: Secure, vigilant, resilient IAM and cybersecurity solutions
+- Culture: Inclusive, collaborative, and transformation-driven
+
+🛠️ Key Responsibilities
+🔧 Implementation & Integration
+- Design, develop, and implement secure IAM solutions using Okta
+- Integrate Okta with applications, directories, and identity sources
+- Configure and customize Okta features to meet business needs
+- Troubleshoot access-related issues and support escalations
+📊 Architecture & Optimization
+- Architect IAM systems with advanced authentication protocols (SAML, OAuth, WS-Fed)
+- Monitor and optimize Okta performance and scalability
+- Identify and resolve system bottlenecks and compliance gaps
+🤝 Collaboration & Documentation
+- Work with cross-functional teams to gather requirements and deliver IAM solutions
+- Collaborate with application owners for seamless integration
+- Document configurations, processes, and procedures
+📈 Project Management & Client Engagement
+- Manage project scope, schedule, and documentation
+- Build strong client relationships and exceed expectations
+- Supervise staff and deliver advanced services
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- 4+ years in IAM and 3+ years in systems architecture or implementation
+- 4+ years of Okta deployment and integration experience
+- 2+ years with Java, JavaScript, JSP/Servlets, SQL
+- Familiarity with Unix, Linux, Windows OS
+- Experience managing full SDLC projects
+- Bachelor’s degree in CS, Cybersecurity, IT, or related field
+- Willingness to travel 25–50%
+- Limited immigration sponsorship may be available
+✅ Preferred Qualifications
+- Prior consulting or Big 4 experience
+- Okta certifications or CISSP certification
+
+📈 What Success Looks Like
+- You’ve delivered secure, scalable IAM solutions using Okta
+- You’ve optimized performance and ensured compliance
+- You’ve built strong client relationships and led successful implementations
+- You’ve contributed to Deloitte’s leadership in cyber risk transformation
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Locations | Available in 52 US cities | 
+| Travel | 25–50% based on client needs | 
+| Benefits | Comprehensive health, wellness, and career perks | 
+| Incentives | Eligible for discretionary annual bonus | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte fosters an inclusive culture that values diverse perspectives and empowers individuals to make a difference. Accommodations are available for applicants with disabilities.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cyber-identity-sailpoint-consultant-in-deloitte-at-United-states"}
+
+
+
+
+,
+{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Lead-Application-Developer/306988", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Lead Application Developer", jobType: "Full-time", jobCategory: "Application", mainDescription:`🧭 Role Overview: Lead Application Developer – Deloitte Global
+You’ll oversee the full application development lifecycle, lead technical teams, and ensure high-quality delivery of strategic software solutions. This role blends hands-on coding with architectural design, project leadership, and cross-functional collaboration.
+
+🏢 About Deloitte Global Technology
+- Mission: Drive innovation and connectivity across the global Deloitte network
+- Focus: Strategic programs, enterprise platforms, and technology transformation
+- Culture: Forward-thinking, collaborative, and globally integrated
+
+🛠️ Key Responsibilities
+- Lead day-to-day development: design, code, test, debug, and document applications
+- Serve as technical lead and project leader, guiding other developers
+- Ensure alignment with scope, timeline, and development standards
+- Provide architectural recommendations for application components and data integration
+- Monitor performance, conduct quality assurance reviews, and evaluate technologies
+- Analyze business requirements and prepare development schedules and estimates
+- Collaborate daily with project teams to identify risks and resolve issues
+- Support internal/external clients and content teams on strategic platforms
+- Develop and execute unit and integration tests (manual or automated)
+
+🧠 What Deloitte Is Looking For
+✅ Required Qualifications
+- Bachelor’s degree in Computer Science, Computer Engineering, Electronics Engineering, or related field
+- 5+ years of experience in application development and leadership
+✅ Technical Experience (5+ years in at least one from each category)
+| Category | Technologies | 
+| Application Development | JavaScript, Node.js, HTML5, SAP XSA, Python, R | 
+| SDLC Methodologies | Waterfall, RUP, Agile | 
+| Database Development | SAP HANA, MS SQL Server, ODATA | 
+| Data Visualization Tools | SAP Analytics Cloud, Tableau, SAP Analysis for Office, SAP Business Objects | 
+| Architecture & Design | OOD, SOA, Web Services, APIs | 
+
+
+
+📈 What Success Looks Like
+- You’ve led successful enterprise application projects from design to deployment
+- You’ve mentored developers and ensured technical excellence
+- You’ve delivered scalable, secure, and high-performing solutions
+- You’ve contributed to Deloitte’s global technology transformation
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Philadelphia, PA | 
+| Role Level | Lead / Senior | 
+| Benefits | Comprehensive health, wellness, and career perks | 
+| Incentives | Eligible for discretionary annual bonus | 
+
+
+
+🌍 Culture & Inclusion
+Deloitte fosters an inclusive culture that values diverse perspectives and empowers individuals to make a difference. Accommodations are available for applicants with disabilities.
+` , status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "lead-application-developer-in-deloitte-at-united-states-united-states"},
+
+{ applyUrl: "https://www.meetdandy.com/careers/job/?ashby_jid=d4815c63-1cf6-4833-8fe8-ee3009f31df6", companyName: "dandy", companyLogo: "/images/dandy.png", location: "United States", jobTitle: "Staff Software Engineer", jobType: "Remote", jobCategory: "Software", mainDescription: `🧭 Role Overview: Staff Software Engineer
+This role is part of Dandy’s product engineering team focused on building new products that elevate the clinical experience. You’ll define technical strategy, lead engineering efforts across the stack, and shape team culture while collaborating closely with product and design.
+
+🦷 About Dandy
+- Mission: Modernize and simplify every function of the dental practice
+- Industry Impact: Operating system for dental offices worldwide
+- Backed By: Leading venture capital firms
+- Culture: Fast-paced, experimental, and outcome-driven
+
+🛠️ Key Responsibilities
+- Define technical strategy and co-drive product strategy with cross-functional partners
+- Lead architecture, implementation, and delivery of new products
+- Collaborate with product and design to ground decisions in vision and execution
+- Uphold engineering quality, reliability, and operational excellence
+- Foster a culture of speed, experimentation, and continuous learning
+- Guide the team through ambiguity and rapid iteration
+- Mentor engineers through design reviews and strategic planning
+- Steward long-term technical health and direction of the team
+
+🧠 What Dandy Is Looking For
+✅ Required Skills
+- 8+ years of software engineering experience
+- Proven leadership in complex product initiatives
+- Experience driving 0-to-1 product development
+- Strategic thinking at both system and product levels
+- Strong influence on team culture and engineering standards
+- Deep fluency in modern web technologies (React, TypeScript, GraphQL, Python)
+- Excellent communication and cross-functional collaboration
+- Product-minded and outcome-focused
+- Ownership mentality and bias toward fast execution
+
+📈 What Success Looks Like
+- You’ve launched impactful new products from scratch
+- You’ve shaped technical direction and team culture
+- You’ve mentored engineers and elevated team performance
+- You’ve helped transform the dental industry through innovation
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range (US) | $221,100–$268,000 USD | 
+| Equity | Offers equity | 
+| Location | Remote (US-based) | 
+| Benefits | Healthcare, dental, mental health, parental support, retirement, PTO | 
+
+
+Note: Compensation is adjusted regionally for candidates outside the U.S.
+
+🌍 Culture & Inclusion
+Dandy is an equal opportunity employer committed to diversity, inclusion, and accessibility. They comply with the ADA and offer accommodations during the interview process.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "staff-software-engineer-in-dandy-at-United-States"},
+
+
+
+{ applyUrl: "https://business.trustpilot.com/jobs/6853811", companyName: "trustpilot", companyLogo: "/images/trustpilot.png", location: "London", jobTitle: "Analytics Engineer II (Mid-level)", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `🧭 Role Overview: Analytics Engineer II – London
+As a mid-level Analytics Engineer, you’ll be a key bridge between technical and business teams, helping shape Trustpilot’s data landscape. You’ll maintain and evolve the data warehouse, build robust pipelines, and support predictive analytics and AI/ML initiatives using a modern data stack.
+
+🌐 About Trustpilot
+- Founded: 2007
+- Mission: Be the universal symbol of trust through open, independent consumer reviews
+- Reach: 300M+ reviews, 64M monthly users, 140B annual Trustbox impressions
+- Presence: Offices in Copenhagen, London, New York, Melbourne, and more
+- Culture: Collaborative, inclusive, and globally connected
+
+🛠️ Key Responsibilities
+- Maintain and evolve the data warehouse and BI tools (Looker)
+- Design and monitor data pipelines using GCP, Airflow, dbt, and emerging tech
+- Develop reverse ETL processes for commercial system integration
+- Optimize Customer Data Platform (CDP) for data collection and routing
+- Collaborate with analysts and data scientists on predictive analytics and AI/ML
+- Implement data observability and quality monitoring solutions
+- Partner with engineering teams on data integration and tracking plans
+- Identify opportunities to improve performance, reduce complexity, and cut costs
+
+🧠 What Trustpilot Is Looking For
+✅ Required Skills
+- Strong SQL proficiency and experience with data manipulation and optimization
+- Experience with cloud data warehouses and modern data stacks
+- Familiarity with CDP platforms (Segment, Hightouch) and event tracking governance
+- Understanding of data observability, quality monitoring, and DevOps practices
+- Excellent communication and stakeholder management skills
+- Ability to explain complex technical concepts clearly
+- Collaborative mindset across engineering, data science, and business teams
+- Passion for data accuracy and test-driven development
+
+📈 What Success Looks Like
+- You’ve built reliable, scalable data pipelines and models
+- You’ve enabled data-driven decisions across Trustpilot
+- You’ve improved data quality, observability, and operational efficiency
+- You’ve contributed to predictive analytics and AI/ML readiness
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | London | 
+| Work Model | Flexible hybrid options | 
+| Time Off | 25 days/year (28 after 2 years) + 2 volunteering days | 
+| Health & Wellness | Health cash plan, online GP, Headspace access | 
+| Financial | Pension, life insurance, season ticket loan, cycle-to-work scheme | 
+| Learning & Growth | Trustpilot Academy, Blinkist, talent acceleration programs | 
+| Perks | Central office with gaming corner, coffee bars, snacks, and team socials | 
+| Discounts | 4,000+ deals on travel, fashion, fitness, and more | 
+
+
+
+🌍 Culture & Inclusion
+Trustpilot is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and celebrate authenticity, collaboration, and global perspectives.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "analytics-engineer-ii-mid-level-in-trustpilot-at-london-united-kingdom"},
+
+
+
+
+{ applyUrl: "https://business.trustpilot.com/jobs/6881397", companyName: "trustpilot", companyLogo: "/images/trustpilot.png", location: "Copenhagen", jobTitle: "Analytics Engineer II (Mid-level)", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `🧭 Role Overview: Analytics Engineer II – Copenhagen
+As a mid-level Analytics Engineer, you’ll be a key bridge between technical and business teams, helping shape Trustpilot’s data landscape. You’ll maintain and evolve the data warehouse, build robust pipelines, and support predictive analytics and AI/ML initiatives using a modern data stack.
+
+🌐 About Trustpilot
+- Founded: 2007
+- Mission: Be the universal symbol of trust through open, independent consumer reviews
+- Reach: 300M+ reviews, 64M monthly users, 140B annual Trustbox impressions
+- Presence: Offices in Copenhagen, London, New York, Melbourne, and more
+- Culture: Collaborative, inclusive, and globally connected
+
+🛠️ Key Responsibilities
+- Maintain and evolve the data warehouse and BI tools (Looker)
+- Design and monitor data pipelines using GCP, Airflow, dbt, and emerging tech
+- Develop reverse ETL processes for commercial system integration
+- Optimize Customer Data Platform (CDP) for data collection and routing
+- Collaborate with analysts and data scientists on predictive analytics and AI/ML
+- Implement data observability and quality monitoring solutions
+- Partner with engineering teams on data integration and tracking plans
+- Identify opportunities to improve performance, reduce complexity, and cut costs
+
+🧠 What Trustpilot Is Looking For
+✅ Required Skills
+- Strong SQL proficiency and experience with data manipulation and optimization
+- Experience with cloud data warehouses and modern data stacks
+- Familiarity with CDP platforms (Segment, Hightouch) and event tracking governance
+- Understanding of data observability, quality monitoring, and DevOps practices
+- Excellent communication and stakeholder management skills
+- Ability to explain complex technical concepts clearly
+- Collaborative mindset across engineering, data science, and business teams
+- Passion for data accuracy and test-driven development
+
+📈 What Success Looks Like
+- You’ve built reliable, scalable data pipelines and models
+- You’ve enabled data-driven decisions across Trustpilot
+- You’ve improved data quality, observability, and operational efficiency
+- You’ve contributed to predictive analytics and AI/ML readiness
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Copenhagen | 
+| Work Model | Flexible hybrid options | 
+| Time Off | 25 days/year + 5 extra days after 1 year | 
+| Volunteering | 2 paid days/year | 
+| Health & Wellness | Health package, Headspace access | 
+| Financial | Pension, parental leave, discounts | 
+| Learning & Growth | Trustpilot Academy, Blinkist, social club | 
+| Perks | Central office with coffee bar, canteen, table tennis, and opt-in meals | 
+
+
+
+🌍 Culture & Inclusion
+Trustpilot is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and celebrate authenticity, collaboration, and global perspectives.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "analytics-engineer-ii-mid-level-in-trustpilot-at-Copenhagen"},
+
+
+
+{ applyUrl: "https://business.trustpilot.com/jobs/6881401", companyName: "trustpilot", companyLogo: "/images/trustpilot.png", location: "Edinburgh", jobTitle: "Analytics Engineer II (Mid-level)", jobType: "Full-time", jobCategory: "Analyst", mainDescription: `🧭 Role Overview: Analytics Engineer II – Edinburgh
+As a mid-level Analytics Engineer, you’ll be a key bridge between technical and business teams, helping shape Trustpilot’s data landscape. You’ll maintain and evolve the data warehouse, build robust pipelines, and support predictive analytics and AI/ML initiatives using a modern data stack.
+
+🌐 About Trustpilot
+- Founded: 2007
+- Mission: Be the universal symbol of trust through open, independent consumer reviews
+- Reach: 300M+ reviews, 64M monthly users, 140B annual Trustbox impressions
+- Presence: Offices in Copenhagen, Edinburgh, London, New York, Melbourne, and more
+- Culture: Collaborative, inclusive, and globally connected
+
+🛠️ Key Responsibilities
+- Maintain and evolve the data warehouse and BI tools (Looker)
+- Design and monitor data pipelines using GCP, Airflow, dbt, and emerging tech
+- Develop reverse ETL processes for commercial system integration
+- Optimize Customer Data Platform (CDP) for data collection and routing
+- Collaborate with analysts and data scientists on predictive analytics and AI/ML
+- Implement data observability and quality monitoring solutions
+- Partner with engineering teams on data integration and tracking plans
+- Identify opportunities to improve performance, reduce complexity, and cut costs
+
+🧠 What Trustpilot Is Looking For
+✅ Required Skills
+- Strong SQL proficiency and experience with data manipulation and optimization
+- Experience with cloud data warehouses and modern data stacks
+- Familiarity with CDP platforms (Segment, Hightouch) and event tracking governance
+- Understanding of data observability, quality monitoring, and DevOps practices
+- Excellent communication and stakeholder management skills
+- Ability to explain complex technical concepts clearly
+- Collaborative mindset across engineering, data science, and business teams
+- Passion for data accuracy and test-driven development
+
+📈 What Success Looks Like
+- You’ve built reliable, scalable data pipelines and models
+- You’ve enabled data-driven decisions across Trustpilot
+- You’ve improved data quality, observability, and operational efficiency
+- You’ve contributed to predictive analytics and AI/ML readiness
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Edinburgh | 
+| Work Model | Flexible hybrid options | 
+| Time Off | 25 days/year (28 after 2 years) + 2 volunteering days | 
+| Health & Wellness | Health cash plan, online GP, Headspace access | 
+| Financial | Pension, life insurance, season ticket loan, cycle-to-work scheme | 
+| Learning & Growth | Trustpilot Academy, Blinkist, talent acceleration programs | 
+| Perks | Central office with snacks, socials, and team events | 
+| Discounts | 4,000+ deals on travel, fashion, fitness, and more | 
+
+
+
+🌍 Culture & Inclusion
+Trustpilot is committed to diversity, equity, and inclusion. They welcome applicants from all backgrounds and celebrate authenticity, collaboration, and global perspectives.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "analytics-engineer-ii-mid-level-in-trustpilot-at-edinburgh-united-kingdom"},
+
+
+
+{ applyUrl: "https://jobs.lever.co/brillio-2/90ecf891-06dc-46ca-b53d-7646c48d2703", companyName: "Brillio", companyLogo: "/images/Brillio.png", location: "United States", jobTitle: "AWS Lead Data Engineer - R01551402", jobType: "Hybrid", jobCategory: "Data", mainDescription: `🧭 Role Overview: AWS Lead Data Engineer
+This role is part of Brillio’s Data and AI practice. You’ll lead the design and implementation of robust, scalable data pipelines and platforms on AWS, working with a wide range of services and collaborating with cross-functional teams to deliver actionable insights.
+
+🛠️ Key Responsibilities
+- Design and build ETL/ELT pipelines using AWS Glue, PySpark, and Step Functions
+- Work with structured and semi-structured data using Athena, S3, and Lake Formation
+- Develop serverless data processing solutions with AWS Lambda
+- Build data lakes and warehouses using S3, Aurora, and Athena
+- Implement data governance and access control using IAM, Lake Formation, CloudFront, EBS/EFS
+- Perform advanced SQL and PL/SQL development for transformation and analysis
+- Conduct data modeling for OLTP and OLAP environments
+- Collaborate with data scientists, analysts, and stakeholders to meet data needs
+- Monitor and optimize pipeline performance and reliability
+- Maintain metadata, lineage, and data cataloging
+
+🧠 What Brillio Is Looking For
+✅ Required Skills
+- Strong experience with AWS services: Glue, Athena, Lambda, Step Functions, Lake Formation, S3, EC2, Aurora, CloudFront, EBS/EFS
+- Proficiency in Python, PySpark, SQL, and PL/SQL
+- Deep understanding of ETL/ELT and data warehousing concepts
+- Experience with data modeling (conceptual, logical, physical)
+- Familiarity with distributed data processing and orchestration tools
+- Strong debugging and performance tuning skills
+✅ Nice-to-Have
+- Experience with CDK and GitHub
+- Knowledge of metadata management and data cataloging
+- Familiarity with Brillio’s Data & Analytics services
+
+📈 What Success Looks Like
+- You’ve delivered scalable, secure, and high-performance data platforms
+- You’ve enabled efficient data access and governance across AWS services
+- You’ve collaborated effectively with cross-functional teams
+- You’ve optimized pipelines for reliability and business impact
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $130,000–$140,000/year | 
+| Location | Chicago, IL (Hybrid: 2–3 days onsite/week) | 
+| Employment Type | Full-time, Employee | 
+| Equal Opportunity | Inclusive hiring across all backgrounds | 
+
+
+
+🌍 Culture & Inclusion
+Brillio is committed to equal opportunity employment and fostering a diverse, inclusive workplace. They support career growth through their Data & Analytics practice and offer resources for professional development.
+
+🚀 Final Thoughts
+This role is ideal if you:
+- Are an experienced AWS data engineer ready to lead technical initiatives
+- Thrive in a hybrid work environment with hands-on cloud architecture
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "aws-lead-data-engineer-r01551402-in-brillio-at-united-states-united-states"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/brillio-2/92bfacf3-2d31-42f3-b61e-16a01016aa88", companyName: "Brillio", companyLogo: "/images/Brillio.png", location: "United States", jobTitle: "Mulesoft Lead Developer - R01552450", jobType: "Remote", jobCategory: "Developer", mainDescription: `🧭 Role Overview: MuleSoft Lead Developer
+This role is part of Brillio’s Vertical team, where you’ll help clients define and execute digital strategies through robust integration solutions. You’ll lead MuleSoft development efforts, applying best practices and collaborating in agile environments to deliver measurable business value.
+
+🛠️ Key Responsibilities
+- Design and implement MuleSoft integrations using Mule 4, RAML, and DataWeave
+- Work with SOAP and RESTful web services
+- Apply coding standards, design patterns, and best practices
+- Manage APIs using Anypoint Platform tools (API Manager, Runtime Manager, Access Management)
+- Configure and monitor Dedicated Load Balancers and security settings
+- Collaborate with cross-functional teams in Scrum-based projects
+- Troubleshoot and resolve integration issues
+- Write and optimize database queries and objects
+- Contribute to Anypoint Exchange and reusable assets
+
+🧠 What Brillio Is Looking For
+✅ Required Skills
+- 10+ years of overall experience, with 5+ years in MuleSoft development
+- Strong expertise in MuleSoft ESB, MB, RAML, DataWeave, and integrations
+- Understanding of SOAP/REST APIs and web services
+- Familiarity with Java and Python (bonus)
+- Experience with database queries and schema design
+- Strong problem-solving and communication skills
+- Self-driven and able to work independently
+- Agile/Scrum project experience
+✅ Bonus Skills
+- Python scripting
+- Experience with API security and governance
+- Familiarity with Brillio’s Platform & Product Engineering practice
+
+📈 What Success Looks Like
+- You’ve delivered scalable, secure MuleSoft integrations
+- You’ve contributed to reusable API assets and improved delivery speed
+- You’ve collaborated effectively with clients and internal teams
+- You’ve helped drive digital transformation for enterprise clients
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $110,000–$120,000/year | 
+| Location | Remote (US-based) | 
+| Employment Type | Full-time, Employee | 
+| Equal Opportunity | Inclusive hiring across all backgrounds | 
+
+
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "mulesoft-lead-developer-r01552450-in-brillio-at-united-states-united-states"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/brillio-2/b58fb670-e629-4a07-ba66-a0a5fa772525", companyName: "Brillio", companyLogo: "/images/Brillio.png", location: "United States", jobTitle: "Sr.MS Dynamics Technical Consultant - R01552766", jobType: "Remote", jobCategory: "Technical ", mainDescription: `🧭 Role Overview: Senior MS Dynamics Technical Consultant
+This role is part of Brillio’s MEC (Microsoft Enterprise Consulting) practice. You’ll lead the design, configuration, and deployment of Dynamics 365 solutions across Sales, Marketing, Field Service, and Social Engagement, with deep technical expertise in xRM customizations and integrations.
+
+🛠️ Key Responsibilities
+- Architect and implement scalable, reusable Dynamics 365 solutions
+- Configure out-of-the-box and custom xRM components (plugins, workflows, integrations)
+- Build business process flows, custom actions, command bar buttons, and web resources
+- Administer and develop PowerApps/Canvas Apps, Logic Apps, and Visual Studio projects
+- Integrate with external systems using ESB/ETL tools (preferably KingswaySoft)
+- Communicate technical concepts to business stakeholders and vice versa
+- Capture requirements and create visual representations of business processes
+- Manage client-facing communications and facilitate meetings
+- Suggest improvements for assigned applications and solutions
+
+🧠 What Brillio Is Looking For
+✅ Required Skills
+- 12+ years of relevant experience
+- Deep expertise in MS Dynamics 365 (Sales, Marketing, Field Service, Social Engagement)
+- Strong knowledge of Dynamics CRM SDK and platform limitations
+- Proficiency in PowerApps, O365/D365 Administration, Visual Studio, Logic Apps
+- Experience with workflows, custom actions, and advanced field configurations
+- Strong communication and stakeholder management skills
+- Bachelor’s degree in Computer Science, Engineering, or related field
+✅ Preferred Skills
+- Knowledge of Power BI/Tableau, SQL Server Data Tools, Azure Dev Tools, TFS
+- Experience with KingswaySoft or similar ETL/ESB technologies
+- Familiarity with customer experience platforms and CRM strategy
+
+📈 What Success Looks Like
+- You’ve delivered robust, scalable Dynamics 365 solutions
+- You’ve led client engagements and translated business needs into technical designs
+- You’ve improved application performance and user experience
+- You’ve contributed to Brillio’s CES (Customer Experience Services) practice
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Rate | $85–$95/hour | 
+| Location | Remote (US-based) | 
+| Employment Type | Hourly, Employee | 
+| Equal Opportunity | Inclusive hiring across all backgrounds | 
+
+
+
+🌍 Culture & Inclusion
+Brillio is a certified Great Place to Work® and promotes a diverse, inclusive, and growth-oriented environment. They invest in cutting-edge technologies and offer career development through their Customer Experience Services practice.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "sr-ms-dynamics-technical-consultant-r01552766-in-brillio-at-united-states-united-states"},
+
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/sothebys/jobs/5366777004", companyName: "Sothebys", companyLogo: "/images/Sothebys.png", location: "London", jobTitle: "Senior Fullstack Engineer, Auction", jobType: "Remote", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: Senior Fullstack Engineer – Auction
+This role is part of Sotheby’s effort to modernize its 276-year-old business through cutting-edge technology. You’ll help design and build distributed systems, microservices, and user-facing tools that power their auction and marketplace platforms.
+
+🖼️ About Sotheby’s
+- Founded: 1744
+- Focus: Art, luxury, collectibles, and real estate
+- Reach: 40 countries, 70 categories
+- Mission: Promote access to exceptional objects through inclusive, sustainable, and collaborative practices
+
+🛠️ Key Responsibilities
+- Build and optimize internal and consumer-facing tools for consigned inventory
+- Design robust APIs, abstractions, and shareable libraries
+- Collaborate with designers, researchers, and engineers to ship features
+- Improve internal specialist tools and workflows
+- Contribute to the circular economy and expand Sotheby’s reach to new demographics
+- Work closely with product managers and stakeholders across the company
+
+🧠 What Sotheby’s Is Looking For
+✅ Required Skills
+- 5+ years of industry experience in software engineering
+- Strong communication and collaboration skills
+- Proven experience with distributed systems and microservices
+- Expert-level proficiency in Golang or Scala
+- Expert-level proficiency in React or other modern front-end frameworks
+- Strong understanding of data structures and algorithms
+- Expert knowledge of RDBMS (Postgres or MySQL) and database migrations
+✅ Preferred Skills
+- Experience with GraphQL and GRPC
+- Experience with Docker and Kubernetes
+- Familiarity with cloud platforms (GCP or AWS)
+- Experience with messaging queue systems
+- Working knowledge of Golang (if Scala is primary language)
+
+📈 What Success Looks Like
+- You’ve shipped performant, scalable fullstack solutions
+- You’ve improved internal workflows and customer-facing experiences
+- You’ve contributed to technical vision and product innovation
+- You’ve helped modernize Sotheby’s auction platform for a new generation
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary | Not disclosed | 
+| Location | London or Remote (UK-based) | 
+| Employment Type | Full-time | 
+| Equal Opportunity | Inclusive hiring across all backgrounds | 
+
+
+
+🌍 Culture & Inclusion
+Sotheby’s is committed to diversity, equity, and inclusion across all jurisdictions. They foster a collaborative, multicultural environment and support innovation through cross-functional teamwork.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-fullstack-engineer-auction-in-sothebys-at-london-united-kingdom"},
+
+
+{ applyUrl: "https://jobs.lever.co/backmarket/acee0fa5-e72c-437c-b86b-0471678637fa", companyName: "Backmarket", companyLogo: "/images/Backmarket.png", location: "Paris", jobTitle: "Senior Engineering Manager - Cloud Infrastructure team", jobType: "Hybrid", jobCategory: "Cloud", mainDescription: `🧭 Role Overview: Senior Engineering Manager – Cloud Infrastructure
+This role leads a team of 8 engineers within Back Market’s CloudOPS group. You’ll manage infrastructure as a product, balancing operational excellence with platform innovation, and driving cost-efficiency and sustainability across Back Market’s engineering ecosystem.
+
+🌍 About Back Market
+- Mission: Make tech reliable, affordable, and better than new through refurbished devices
+- Impact: 92% less carbon emissions than new tech
+- Reach: Global marketplace with teams across EU, US, and APAC
+- Culture: Sustainability-focused, inclusive, and data-driven
+
+🛠️ Key Responsibilities
+- Lead and mentor a distributed team of 8 cloud infrastructure engineers
+- Collaborate with CloudOPS peers (SRE, Engineering Productivity) and Staff Engineers
+- Coordinate incident response and manage on-call rotations
+- Treat infrastructure as a product with metrics-driven adoption and satisfaction
+- Prioritize and evolve the team’s roadmap based on feedback and usage
+- Own cost-efficiency and sustainability initiatives across infrastructure
+- Support experimentation and iteration across services and tooling
+- Grow and evolve the platform using GCP, GKE, Terraform, Crossplane, Backstage, and custom CLI tools
+
+🧠 What Back Market Is Looking For
+✅ Required Experience
+- Proven leadership in infrastructure/platform engineering teams
+- Strong understanding of cloud infrastructure (GCP, Kubernetes, Terraform, Crossplane)
+- Experience managing infrastructure as a product with measurable success
+- Passion for sustainability and cost optimization
+- Comfortable with incident coordination and operational complexity
+- Servant leadership mindset with strong coaching and communication skills
+- Fluent in English and comfortable in multicultural environments
+✅ Bonus Skills
+- Familiarity with Golang
+- Experience with performance optimization and developer experience teams
+- Exposure to developer portals like Backstage
+- Understanding of compliance frameworks (GDPR, PCI-DSS, ISO27001)
+
+📈 What Success Looks Like
+- You’ve built a trusted, high-performing infrastructure team
+- You’ve delivered reliable, scalable, and sustainable platform services
+- You’ve improved engineering efficiency and reduced environmental impact
+- You’ve fostered a culture of autonomy, experimentation, and continuous improvement
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Contract Type | Permanent, Full-time | 
+| Location | Paris or Remote (France-based) | 
+| Work Model | Hybrid: 2 remote days/week + flex days | 
+| Impact | Mission-driven work with measurable sustainability outcomes | 
+| DEI Commitment | High-scoring B Corp, inclusive culture | 
+
+
+
+🧪 Recruitment Process
+- Intro call with Talent Acquisition (Marie) – 45 min
+- Leadership principles interview – 60 min
+- Infrastructure Q&A with DevOps engineers – 45 min
+- Technical assessment – 45 min
+- Stakeholder interview – 60 min
+- Cultural fit interview with VP of Platfo
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-engineering-manager-cloud-infrastructure-team-in-backmarket-at-paris-france"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/lendbuzz/025e457b-d773-455b-9eef-1318b4cda827", companyName: "lendbuzz", companyLogo: "/images/lendbuzz.png", location: "Tel Aviv, Israel", jobTitle: "Senior Backend Engineer", jobType: "Hybrid", jobCategory: "Backend", mainDescription: `🧭 Role Overview: Senior Backend Engineer
+This role is part of Lendbuzz’s growing R&D team in Tel Aviv. You’ll help design and build backend architecture, develop APIs, and contribute to the technical direction of a high-growth fintech company focused on fair and personalized credit access.
+
+💼 About Lendbuzz
+- Mission: Provide underserved borrowers with better access to credit through innovative technology
+- Culture: Diversity-driven, values independent and critical thinking
+- Impact: Empowering thousands of customers with fair financial opportunities
+
+🛠️ Key Responsibilities
+- Build backend systems from the ground up
+- Design architecture and system components for new products
+- Develop and integrate internal tools and external APIs
+- Collaborate with engineering teams on system design and implementation
+- Contribute to testing, expansion, and release cycles of core products
+
+🧠 What Lendbuzz Is Looking For
+✅ Required Skills
+- 6+ years of backend development experience
+- Strong proficiency in Python
+- BSc in Computer Science or equivalent
+- Deep understanding of relational databases (PostgreSQL or similar)
+- Experience designing and implementing APIs
+- Familiarity with testing methodologies
+- Strong interpersonal and communication skills
+- Ability to work independently
+✅ Bonus Skills
+- Experience with microservices architecture
+
+📈 What Success Looks Like
+- You’ve built scalable, reliable backend systems
+- You’ve contributed to product growth and customer satisfaction
+- You’ve helped shape technical strategy and architecture
+- You’ve collaborated effectively across teams
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Tel Aviv, Israel | 
+| Work Model | Hybrid | 
+| Employment Type | Full-time | 
+| Impact | High-growth fintech with social mission | `, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-backend-engineer-in-lendbuzz-at-Tel-Aviv-Israel"},
+
+
+
+{ applyUrl: "https://jobs.lever.co/lendbuzz/2ddd2bc2-1f81-4b20-9624-681e48fdf49d", companyName: "lendbuzz", companyLogo: "/images/lendbuzz.png", location: "Boston", jobTitle: "Software Engineer, Backend (Machine Learning)", jobType: "Hybrid", jobCategory: "Backend", mainDescription: `
+🧭 Role Overview: Software Engineer – Backend (Machine Learning)
+This role is part of Lendbuzz’s Machine Learning Engineering team. You’ll design and implement backend infrastructure, develop event-driven microservices, and integrate APIs that support ML-powered credit solutions for underserved borrowers.
+
+💼 About Lendbuzz
+- Mission: Provide fair and personalized financial opportunities through technology
+- Culture: Diversity-driven, values simplicity, compassion, and transparency
+- Impact: Serving thousands of customers with inclusive credit solutions
+
+🛠️ Key Responsibilities
+- Build backend infrastructure from the ground up
+- Design system architecture and frameworks for new ML-driven products
+- Develop event-driven microservices and internal tools
+- Integrate external APIs seamlessly
+- Contribute to product expansion, testing, and release cycles
+- Collaborate across engineering and business domains
+
+🧠 What Lendbuzz Is Looking For
+✅ Required Skills
+- 3+ years of backend development experience
+- Master’s degree in Computer Science or related field
+- Proficiency in Python, REST APIs, and PostgreSQL
+- Experience with microservices architecture
+- Familiarity with testing methodologies
+- Strong interpersonal and independent problem-solving skills
+
+📈 What Success Looks Like
+- You’ve built scalable backend systems that support ML workflows
+- You’ve contributed to impactful product releases
+- You’ve collaborated effectively across technical and business teams
+- You’ve helped improve customer experience through robust infrastructure
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $135,000–$145,000/year | 
+| Location | Boston, MA (Hybrid) | 
+| Employment Type | Full-time | 
+| Culture | Inclusive, transparent, mission-driven | 
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-backend-machine-learning-in-lendbuzz-at-boston-united-states"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/lendbuzz/a2b92480-1527-46aa-8a4c-68db7f5300cf", companyName: "lendbuzz", companyLogo: "/images/lendbuzz.png", location: "Boston", jobTitle: "Senior Software Engineer, Backend (Machine Learning)", jobType: "Hybrid", jobCategory: "Backend", mainDescription: `
+
+🧭 Role Overview: Senior Software Engineer – Backend (Machine Learning)
+This role is part of Lendbuzz’s Machine Learning Engineering team. You’ll lead backend development efforts, design system architecture, mentor junior engineers, and contribute to products that expand credit access for underserved borrowers.
+
+💼 About Lendbuzz
+- Mission: Provide fair and personalized financial opportunities through technology
+- Culture: Diversity-driven, values simplicity, compassion, and transparency
+- Impact: Serving thousands of customers with inclusive credit solutions
+
+🛠️ Key Responsibilities
+- Build backend infrastructure from the ground up
+- Design architecture and system frameworks for new ML-powered products
+- Develop internal tools and integrate external APIs
+- Contribute to product expansion, testing, and release cycles
+- Collaborate with frontend engineers for seamless API integration
+- Mentor junior team members and foster their growth
+- Embrace continuous learning across technical and business domains
+
+🧠 What Lendbuzz Is Looking For
+✅ Required Skills
+- 6+ years of professional software engineering experience
+- Master’s degree in Computer Science or equivalent foundation
+- Expert-level proficiency in Python and REST APIs
+- Strong experience with PostgreSQL and relational database transactions
+- Fluent in Linux command-line tools (grep, find) and git
+- Excellent written communication skills
+- Experience designing and implementing APIs and microservices
+
+📈 What Success Looks Like
+- You’ve built scalable backend systems that support ML workflows
+- You’ve mentored junior engineers and elevated team performance
+- You’ve contributed to impactful product releases
+- You’ve improved customer experience through robust infrastructure
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Salary Range | $150,000–$165,000/year | 
+| Location | Boston, MA (Hybrid) | 
+| Employment Type | Full-time | 
+| Culture | Inclusive, transparent, mission-driven | 
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-software-engineer-backend-machine-learning-in-lendbuzz-at-boston-united-states"}
+
+
+
+,
+
+
+
+
+
+
+
+
+
+
+{ applyUrl: "https://job-boards.greenhouse.io/tripadvisor/jobs/7064432", companyName: "Tripadvisor", companyLogo: "/images/Tripadvisor.png", location: "United States", jobTitle: "VP, Data Science / Machine learning and Generative AI", jobType: "Full-time", jobCategory: "Data", mainDescription: `🧭 Role Overview: Vice President – Data Science, Machine Learning & Generative AI
+This role is a strategic leadership position at Tripadvisor, responsible for shaping and executing the company’s AI and Generative AI vision. You’ll lead high-impact teams, drive innovation, and deliver transformative experiences for travelers and partners through cutting-edge technology.
+
+🧳 About Tripadvisor
+- Mission: Revolutionize travel through people-powered platforms and inclusive innovation
+- Reach: World’s largest travel guidance company
+- Culture: Diversity-driven, collaborative, and impact-focused
+
+🛠️ Key Responsibilities
+- Develop and execute a forward-looking AI strategy aligned with business goals
+- Build and lead high-performing teams in data science, ML, and AI
+- Define KPIs and measure impact of AI initiatives
+- Oversee end-to-end project lifecycles from problem definition to model deployment
+- Collaborate with senior leadership to translate business needs into AI solutions
+- Promote generative AI adoption across the organization
+- Champion advanced ML techniques and MLOps practices
+- Stay ahead of industry trends and guide strategic adoption
+
+🧠 What Tripadvisor Is Looking For
+✅ Required Qualifications
+- 15+ years of experience in data science, ML, and AI, with 7+ years in senior leadership
+- Bachelor’s or advanced degree in Computer Science, AI, Statistics, or related field
+- Deep expertise in classical ML and modern deep learning techniques
+- Practical experience with Generative AI (LLMs, Transformers, GANs, RAG, prompt engineering)
+- Proven track record of delivering business-impacting AI solutions
+- Exceptional leadership and strategic influence across diverse teams
+- Strong communication and presentation skills for executive audiences
+- Technical proficiency in Python, R, TensorFlow, PyTorch, Hugging Face, etc.
+- Experience with cloud platforms (AWS, Azure, GCP) and MLOps principles
+
+📈 What Success Looks Like
+- You’ve built a world-class AI team and culture
+- You’ve delivered transformative AI solutions that drive measurable business value
+- You’ve positioned Tripadvisor as a leader in ethical and scalable AI innovation
+- You’ve fostered cross-functional collaboration and strategic alignment
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Remote (U.S.-based, preferably MA) | 
+| Travel | Occasional office visits required | 
+| Salary | Competitive + performance bonuses | 
+| Benefits | Health insurance, development programs | 
+| Work Model | Flexible, activity-based collaboration | 
+
+
+
+🌍 Culture & Inclusion
+Tripadvisor embraces diversity and inclusion, fostering a global community of travelers and technologists. They offer a collaborative environment where unique perspectives are valued and innovation thrives.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "vp-data-science-machine-learning-and-generative-ai-in-tripadvisor-at-united-states"},
+
+
+{ applyUrl: "https://jobs.dropbox.com/listing/6330326", companyName: "dropbox", companyLogo: "/images/dropbox.png", location: "Poland", jobTitle: "Senior Frontend Product Software Engineer", jobType: "Remote", jobCategory: "Product", mainDescription: `🧭 Dropbox Engineering Overview
+Dropbox’s engineering team powers platforms like:
+- Dropbox Dash: AI-powered universal search and productivity assistant
+- Dropbox Sign: Secure eSignature and document workflows
+- Core Sync Engine: Handles over a billion files daily for users worldwide
+🔧 Technologies Used
+- Python, React, Node.js, JavaScript
+- MongoDB, PostgreSQL
+- Android & iOS development
+🧠 Engineering Focus Areas
+- Machine Learning Engineering
+- Infrastructure Engineering
+- Product Software Engineering (Frontend & Backend)
+- Mobile Engineering (iOS & Android)
+- Site Reliability Engineering
+- Data Engineering & Analytics
+- Security Engineering
+- Software Development in Test
+- Technical Program Management
+- Network & Datacenter Engineering
+- Technical Supply Chain Management
+
+🌍 Open Roles by Location
+| Location | Sample Roles Available | 
+| Remote – Poland | Backend, Frontend, Full Stack, Data Engineer, Payments EM | 
+| Remote – US & Canada | Engineering Manager, Product Design Director, PM | 
+| Frankfurt & Paris | Data Center Operations Technician | 
+| Remote – Mexico City | Frontend Engineer, Design Systems | 
+
+
+
+💼 Benefits & Perks
+- Health Coverage: Medical, dental, vision, life, disability
+- Retirement Plans: Defined contribution savings/pension
+- Flexible PTO: Plus statutory holidays
+- Travel Protection: Medical and accident insurance
+- Perks Allowance: For wellness, learning, groceries, etc.
+- Parental Support: Leave, fertility, adoption, surrogacy, lactation
+- Mental Health: Dedicated wellness benefits
+- Inclusive Culture: ERGs like Pridebox, BlackDropboxers, Women at Dropbox, and more
+
+🌈 Culture & Inclusion
+Dropbox is committed to diversity and equity, supporting internal communities and fostering a welcoming environment for all. Their Virtual First model blends remote flexibility with meaningful connection.
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-frontend-product-software-engineer-in-dropbox-at-poland-poland"},
+
+
+
+
+
+
+{ applyUrl: "https://jobs.dropbox.com/listing/6333181", companyName: "dropbox", companyLogo: "/images/dropbox.png", location: "Poland", jobTitle: "Senior Infrastructure Software Engineer", jobType: "Remote", jobCategory: "Software", mainDescription: `🧭 Role Overview: Senior Infrastructure Software Engineer
+This role is part of Dropbox’s Engineering Team, responsible for designing and maintaining backend systems that manage hundreds of billions of files, petabytes of data, and millions of concurrent connections. You’ll lead infrastructure initiatives that enhance performance, reliability, and interoperability across Dropbox’s ecosystem.
+
+💼 About Dropbox
+- Mission: Make work more intuitive, joyful, and human
+- Model: Virtual First—distributed workplace with strong human connection
+- Culture: Bold, resourceful, inclusive, and impact-driven
+- Reach: Hundreds of millions of users worldwide
+
+🛠️ Key Responsibilities
+- Build infrastructure to manage metadata for billions of files and petabytes of data
+- Expand Dropbox’s role as a global data-fabric connecting apps, devices, and services
+- Optimize Dropbox’s analytics platform for extracting insights from massive data volumes
+- Collaborate cross-functionally to improve infrastructure performance, reliability, and security
+- Identify and drive improvements across projects and business initiatives
+- Navigate ambiguity and lead strategic technical direction
+- Occasionally participate in on-call rotations to maintain platform stability
+
+🧠 What Dropbox Is Looking For
+✅ Required Skills
+- BS, MS, or PhD in Computer Science or related technical field
+- 8+ years of professional software development experience
+- Proven experience with large-scale, multi-threaded, distributed backend systems
+- Proficiency in Python, Go, C/C++, or Java
+- Strong understanding of OS internals, filesystems, databases, networks, and compilers
+- Strategic thinking and ownership of long-term projects
+- Ability to define medium-to-long term technical strategy
+✅ Preferred Qualifications
+- Experience defining technical roadmaps for teams
+
+📈 What Success Looks Like
+- You’ve built scalable infrastructure that supports Dropbox’s global platform
+- You’ve led strategic initiatives that improve system performance and reliability
+- You’ve collaborated across teams to deliver impactful engineering solutions
+- You’ve contributed to Dropbox’s mission of transforming work
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Remote (Poland) | 
+| Salary Range | 314,500–425,500 PLN/year | 
+| Bonus & Equity | Eligible for corporate bonus + RSUs | 
+| Tax Optimization | Copyright transfer benefits for qualifying engineers | 
+| Work Model | Virtual First (distributed + connected) | 
+
+
+
+🌍 Culture & Inclusion
+Dropbox fosters a global, inclusive community of innovators. Their Virtual First model supports autonomy and connection, while their engineering culture values impact, experimentation, and collaboration.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-infrastructure-software-engineer-in-dropbox-at-poland-poland"},
+
+
+
+{ applyUrl: "https://jobs.dropbox.com/listing/6333185", companyName: "dropbox", companyLogo: "/images/dropbox.png", location: "Poland", jobTitle: "Frontend Product Software Engineer", jobType: "Remote", jobCategory: "Product", mainDescription: `🧭 Role Overview: Frontend Product Software Engineer
+This role is part of Dropbox’s Engineering Team, responsible for designing and developing user-facing applications that serve millions of daily users. You’ll collaborate with product managers, designers, and analysts to build responsive, accessible, and impactful web experiences.
+
+💼 About Dropbox
+- Mission: Make work more intuitive, joyful, and human
+- Model: Virtual First—distributed workplace with strong human connection
+- Culture: Bold, resourceful, inclusive, and impact-driven
+- Reach: Hundreds of millions of users worldwide
+
+🛠️ Key Responsibilities
+- Design and build software for millions of daily users
+- Collaborate cross-functionally to understand user needs and deliver solutions
+- Develop and execute short- and long-term product roadmaps
+- Participate in mentorship, interviewing, and cultural initiatives
+- Provide feedback, conduct code reviews, and improve internal tools
+- Occasionally participate in on-call rotations to maintain platform stability
+
+🧠 What Dropbox Is Looking For
+✅ Required Skills
+- BS in Computer Science or related field (or equivalent experience)
+- 2+ years of software engineering experience
+- Proven success in developing and shipping large-scale web applications
+- Proficiency in JavaScript, TypeScript, React, HTML5, CSS3
+- Ability to handle full-stack projects and build MVPs quickly
+✅ Preferred Qualifications
+- Experience with Git for version control
+- Node.js for server-side logic and database management
+- Electron for desktop app development
+- Strong understanding of RESTful APIs and asynchronous communication
+
+📈 What Success Looks Like
+- You’ve built performant, user-friendly frontend features
+- You’ve contributed to product strategy and technical execution
+- You’ve collaborated effectively across teams
+- You’ve helped shape Dropbox’s user experience
+
+💰 Compensation & Benefits
+| Level | Salary Range (PLN/year) | 
+| IC2 | 212,500–287,500 PLN | 
+| IC3 | 256,700–347,300 PLN | 
+
+
+Additional Compensation:
+- Corporate bonus program
+- Restricted Stock Units (RSUs)
+- Tax optimization for qualifying software authors
+
+🌍 Culture & Inclusion
+Dropbox fosters a global, inclusive community of innovators. Their Virtual First model supports autonomy and connection, while their engineering culture values impact, experimentation, and collaboration.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "frontend-product-software-engineer-in-dropbox-at-poland-poland"}
+
+
+
+,{ applyUrl: "https://jobs.dropbox.com/listing/6819195", companyName: "dropbox", companyLogo: "/images/dropbox.png", location: "United States", jobTitle: "Senior Infrastructure Software Engineer, Build Toolchains", jobType: "Remote", jobCategory: "Software", mainDescription: `🧭 Role Overview: Senior Infrastructure Software Engineer – Build Toolchains
+This role is part of Dropbox’s Developer Productivity organization. You’ll lead the design and development of scalable build infrastructure, optimize performance, and drive adoption of technologies like Bazel and Remote Build Execution. Your work will directly impact hundreds of engineers and millions of users.
+
+💼 About Dropbox
+- Mission: Make work more intuitive, joyful, and human
+- Model: Virtual First—distributed workplace with strong human connection
+- Culture: Bold, resourceful, inclusive, and impact-driven
+- Reach: Hundreds of millions of users worldwide
+
+🛠️ Key Responsibilities
+- Build infrastructure for developer workflows powering hundreds of thousands of builds and millions of test cases daily
+- Optimize system performance and expand Bazel and Remote Build Execution adoption
+- Collaborate with engineering teams to improve reliability, performance, and security
+- Mentor junior engineers and foster a culture of learning and growth
+- Stay current with emerging technologies and trends
+- Participate in on-call rotations to ensure system stability
+
+🧠 What Dropbox Is Looking For
+✅ Required Skills
+- BS, MS, or PhD in Computer Science or related technical field
+- 8+ years of professional software development experience
+- Proven experience with large-scale, distributed backend systems
+- Proficiency in Python, Go, C/C++, or Java
+- Strong understanding of OS internals, filesystems, databases, networks, and compilers
+- Experience defining and delivering well-scoped projects
+- Ability to solve ambiguous, open-ended problems
+- Expertise in Bazel
+✅ Preferred Qualifications
+- 5+ years designing large-scale distributed build systems
+- Experience solving developer tooling challenges in large organizations
+
+📈 What Success Looks Like
+- You’ve built scalable, efficient build infrastructure
+- You’ve improved developer workflows and productivity
+- You’ve led strategic initiatives and mentored team members
+- You’ve contributed to Dropbox’s mission of transforming work
+
+💰 Compensation & Benefits
+| US Zone | Salary Range (USD/year) | 
+| Zone 1 | $240,600–$325,500 | 
+| Zone 2 | $216,500–$292,900 | 
+| Zone 3 | $192,400–$260,400 | 
+
+
+Additional Compensation:
+- Corporate bonus program
+- Restricted Stock Units (RSUs)
+Dropbox determines pay based on location, skillset, and peer compensation. Zones are based on metro areas:
+- Zone 1: SF, NYC, Seattle
+- Zone 2: Austin, Chicago, DC metro, etc.
+- Zone 3: All other US locations
+
+🌍 Culture & Inclusion
+Dropbox fosters a global, inclusive community of innovators. Their Virtual First model supports autonomy and connection, while their engineering culture values impact, experimentation, and collaboration.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-infrastructure-software-engineer-build-toolchains-in-dropbox-at-United-States"}
+
+
+
+
+,
+
+
+
+{ applyUrl: "https://careers.eleks.com/vacancies/senior-expert-data-engineer/", companyName: "eleks", companyLogo: "/images/eleks.png", location: "Poland", jobTitle: "SENIOR/EXPERT DATA ENGINEER", jobType: "Full-time", jobCategory: "General", mainDescription: `🧭 Role Overview: Senior/Expert Data Engineer
+This role supports a global law firm client, helping migrate and optimize their enterprise tabular models from Azure Analysis Services to Microsoft Fabric. You’ll lead ETL development, performance testing, and integration of multiple data sources while documenting technical solutions and findings.
+
+🏢 About the Client
+- Industry: Global law firm
+- Specialties: Corporate law, dispute resolution, IP, regulatory compliance
+- Focus: Enterprise data solutions and reporting optimization
+
+🛠️ Key Responsibilities
+- Migrate global tabular models from Azure Analysis Services to Microsoft Fabric
+- Optimize data refresh processes and performance
+- Connect key reports to Fabric-based models and test performance
+- Validate security models and ensure seamless data flows
+- Integrate additional data sources into the tabular model
+- Document solutions, processes, and findings
+- Recommend improvements and structural model changes
+- Support planning for future optimizations
+
+🧠 What ELEKS Is Looking For
+✅ Required Skills
+- 4+ years of data engineering experience
+- Strong ETL development and tabular modeling expertise
+- Advanced skills with Microsoft platforms (Azure SQL, SSIS, SSAS)
+- Experience with Power BI and Microsoft Fabric (preferred)
+- Proven ability to optimize and troubleshoot enterprise data solutions
+- Strong documentation and communication skills
+- English proficiency: Upper-Intermediate or higher
+
+📈 What Success Looks Like
+- You’ve successfully migrated and optimized tabular models in Microsoft Fabric
+- You’ve ensured secure, reliable, and scalable data flows
+- You’ve contributed to performance improvements and future planning
+- You’ve documented technical solutions for long-term reference
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Poland or Croatia | 
+| Work Model | Client-facing, collaborative | 
+| Benefits | Competence development, tech influence, low bureaucracy | 
+
+
+
+🌍 Culture & Inclusion
+ELEKS fosters a dynamic, professional environment with a focus on innovation, collaboration, and continuous learning. They support career growth and encourage knowledge sharing across teams.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-expert-data-engineer-in-eleks-at-poland-poland"}
+
+,{ applyUrl: "https://careers.formlabs.com/job/7068694/apply/", companyName: "formlabs", companyLogo: "/images/formlabs.png", location: "Somerville", jobTitle: "Senior Embedded Software Engineer", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Senior Embedded Software Engineer
+This role is part of Formlabs’ Embedded Software Team, which bridges software, hardware, and electronics to push the boundaries of 3D printing. You’ll develop firmware for new and existing printer features, support R&D efforts, and collaborate across teams to deliver exceptional user experiences.
+
+🧪 About Formlabs
+- Founded: 2011 in Boston
+- Valuation: $2B+ (Unicorn status since 2018)
+- Clients: Google, Tesla, Hasbro, Gillette, New Balance
+- Mission: Bring professional 3D printing to every designer, engineer, researcher, and artist
+- Culture: Diverse, agile, product-focused, and innovation-driven
+
+🛠️ Key Responsibilities
+- Design, build, test, and ship firmware for Formlabs 3D printers
+- Develop tools and prototype code for R&D engineers
+- Ensure maintainability, testing, and CI for reusable code
+- Collaborate with product managers and designers to build user-focused features
+- Work onsite in Somerville, MA at least 3 days per week
+
+🧠 What Formlabs Is Looking For
+✅ Required Skills
+- 5+ years of experience writing embedded software for hardware products
+- Proficiency in C, C++, and/or Python
+- Experience with embedded Linux and common architecture patterns (e.g., control loops, filtering)
+- Ability to architect reusable, maintainable code
+- Strong communication skills for cross-functional collaboration
+- Initiative and resilience in learning from failures
+✅ Tech Stack
+- Embedded Linux
+- C++, Python
+- Occasional JavaScript
+
+📈 What Success Looks Like
+- You’ve shipped reliable firmware to thousands of devices
+- You’ve supported R&D with effective tools and prototypes
+- You’ve contributed to maintainable, scalable embedded systems
+- You’ve helped shape the future of 3D printing technology
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Somerville, MA (Hybrid, 3+ days onsite) | 
+| Equity | Robust RSU program | 
+| Health | Medical, dental, vision coverage | 
+| Retirement | 401(k) with low-cost funds and advisors | 
+| Leave | Parental (up to 16 weeks), Sabbatical (up to 6 weeks) | 
+| Time Off | Flexible Out-of-Office plan | 
+| Perks | On-site meals, snacks, commuter benefits | 
+| Culture | Opt-in events, unlimited 3D prints | 
+| Development | Sponsored professional growth opportunities | 
+
+
+
+🌍 Culture & Inclusion
+Formlabs is committed to diversity and equal opportunity. They foster an inclusive environment and do not discriminate based on race, gender, age, disability, or other protected statuses.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-embedded-software-engineer-in-formlabs-at-somerville-united-states"}
+
+
+,{ applyUrl: "https://jobs.lever.co/halter/1b2739b9-98ce-459b-8dc2-4e4d87919851", companyName: "halter", companyLogo: "/images/halter.png", location: "Auckland, New Zealand", jobTitle: "Geospatial Software Engineer", jobType: "Full-time", jobCategory: "Software", mainDescription: `🧭 Role Overview: Geospatial Software Engineer
+This role sits at the intersection of software engineering, cloud infrastructure, and geospatial systems. You’ll own and extend Halter’s geospatial platform, automating drone data pipelines, serving terrain imagery, and deploying ML models to support real-time decision-making for farmers.
+
+🐄 About Halter
+- Mission: Empower farmers to run more productive and sustainable operations
+- Innovation: Virtual fencing, automated cattle movement, and real-time farm data
+- Impact: Transforming grazing practices and rural life
+- Backed By: Bessemer Venture Partners, DCVC, Blackbird, Rocket Lab’s Peter Beck, and more
+
+🛠️ Key Responsibilities
+- ⛰️ Geospatial Data Pipeline: Automate ingestion and transformation of imagery and topographic data from drones and external sources
+- 🤖 Backend Services: Maintain and scale services that serve terrain and imagery tiles
+- 🚁 Drone Scan Automation: Build hands-off photogrammetry pipelines from raw drone data to 3D reconstructions
+- 🧠 Model Deployment: Operationalize geospatial ML models for performance and cost-efficiency
+- 📈 Infrastructure Scaling: Build observability and automation to support growth and market expansion
+
+🧠 What Halter Is Looking For
+✅ Required Skills
+- Strong software engineering skills (Python, Go)
+- Cloud infrastructure experience (AWS, Terraform, Docker, CI/CD)
+- Familiarity with geospatial formats/tools or eagerness to learn (GeoTIFF, GDAL, tiling systems, CRS)
+- Proficiency with AI productivity tools (Copilot, ChatGPT, Cursor)
+✅ Bonus Skills
+- Experience with machine learning operations (MLOps)
+- Experience with photogrammetry pipelines
+
+📈 What Success Looks Like
+- You’ve automated geospatial data pipelines and drone workflows
+- You’ve scaled backend services to support new markets
+- You’ve deployed performant ML models for terrain analysis
+- You’ve enabled farmers to make smarter, faster decisions with real-time data
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Auckland, New Zealand (On-site) | 
+| Work Model | Product-focused, high-performance culture | 
+| Equity | ESOP grants tied to company success | 
+| Culture | Diverse, inclusive, mission-driven | 
+| Perks | Unlimited 3D prints, meaningful work | 
+
+
+
+🌍 Culture & Inclusion
+Halter is committed to diversity and inclusion. They encourage applicants from all backgrounds—even if you don’t meet every requirement. The team values initiative, ownership, and a growth mindset.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "geospatial-software-engineer-in-halter-at-Auckland-New-Zealand"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/halter/463667a7-eef6-4a41-acc3-9e6a1e1aaff5", companyName: "halter", companyLogo: "/images/halter.png", location: "Auckland, New Zealand", jobTitle: "Data Engineer - Go-to-Market", jobType: "Full-time", jobCategory: "Data", mainDescription: `🧭 Role Overview: Data Engineer – Go-to-Market
+This role supports Halter’s Revenue Operations and GTM teams by designing and maintaining modern data systems that integrate sales, marketing, support, finance, and more. You’ll build reliable pipelines, model data with dbt, and enable business intelligence across the organization.
+
+🐄 About Halter
+- Mission: Empower farmers to run more productive and sustainable operations
+- Innovation: Virtual fencing, automated cattle movement, and real-time farm data
+- Culture: High-performance, collaborative, and impact-driven
+- Backed By: Bessemer Venture Partners, DCVC, Blackbird, Rocket Lab’s Peter Beck, and more
+
+🛠️ Key Responsibilities
+- Build and maintain ETL pipelines and data systems for GTM analytics
+- Collaborate with GTM teams to implement data solutions aligned with business needs
+- Prepare datasets for BI tools (Tableau preferred)
+- Maintain infrastructure using Terraform and CI/CD best practices
+- Contribute to system reliability and participate in on-call rotations
+- Stay current with data engineering trends and share insights with the team
+- Support Halter’s mission with a hands-on, startup mindset
+
+🧠 What Halter Is Looking For
+✅ Required Skills
+- Deep SQL and data modeling expertise (dbt)
+- Experience with AWS services: S3, Athena, Firehose, Kinesis, RDS (PostgreSQL), Lambda
+- Familiarity with BI tools (Tableau or similar)
+- Comfortable with macOS development and Linux deployment
+- Backend development experience (Go, Java/Kotlin, TypeScript)
+✅ Bonus Skills
+- Python (especially Airflow for orchestration)
+- Experience with GTM platforms: Salesforce, Hubspot, Intercom, Linear, Xero
+- Interest in analytics AI agents and future-facing insights products
+
+📈 What Success Looks Like
+- You’ve built scalable, reliable GTM data infrastructure
+- You’ve enabled fast, actionable insights across business units
+- You’ve contributed to Halter’s global expansion through data-driven decision-making
+- You’ve helped shape the future of analytics at Halter
+
+💰 Compensation & Benefits
+| Category | Details | 
+| Location | Auckland, New Zealand (On-site) | 
+| Work Model | Office-first, high-energy culture | 
+| Culture | High-trust, collaborative, growth-focused | 
+| Perks | Unlimited 3D prints, mission-driven work | 
+
+
+
+🌍 Culture & Inclusion
+Halter promotes a diverse and inclusive workplace. They encourage applicants from all backgrounds—even if you don’t meet every requirement. Their office-first culture fosters deep relationships, fast learning, and high impact.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-engineer-go-to-market-in-halter-at-Auckland-New-Zealand"}
+
+
+,
+
+{ applyUrl: "https://jobs.lever.co/eqbank/fbdeaee9-fd51-4b22-9658-483288701576", companyName: "eqbank", companyLogo: "/images/eqbank.png", location: "Toronto", jobTitle: "Data Science Analyst Intern - Fall Work Term", jobType: "Hybrid", jobCategory: "Analyst", mainDescription: " we support and encourage our staff to grow not just in their career path, but personally as well. \n\nWe commit to providing a barrier-free recruitment process and work environment for all applicants. Please let us know of any accommodations needed so that you can bring your best self to the application process and beyond. All candidates considered for hire must successfully pass a criminal background check and credit check to qualify for hire. While we appreciate your interest in applying, an Equitable recruiter will only contact leading candidates whose skills and qualifications closely match the requirements of the position.\n We can’t wait to get to know you! \nAPPLY FOR THIS JOB\nEQ Bank | Equitable Bank Home Page\nJobs powered by", status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-science-analyst-intern-fall-work-term-in-eqbank-at-toronto-canada"}
+
+,{ applyUrl: "https://jobs.lever.co/zoox/2d73563c-8039-4d1b-844c-3953259ba6b1", companyName: "zoox", companyLogo: "/images/zoox.png", location: "Foster City", jobTitle: "Machine Learning Engineer, 3D Simulation", jobType: "Hybrid", jobCategory: "Machine Learning", mainDescription:`🧭 Role Overview: Data Science Analyst Intern – Fall 2025
+This internship is part of Equitable Bank’s Risk Data, Analytics & Insight team. You’ll work on developing user interfaces and dashboards that support model monitoring and external data integration, helping drive data-informed decision-making across the organization.
+
+🏦 About Equitable Bank
+- Brand: Canada’s Challenger Bank™
+- Reach: 670,000+ customers, $125B+ in assets
+- Recognition: Forbes World’s Best Banks list since 2021
+- Subsidiary: Concentra Bank, supporting credit unions nationwide
+- Culture: Innovative, inclusive, and growth-focused
+
+🛠️ Key Responsibilities
+- Develop and enhance Power Apps interfaces for data workflows
+- Design interactive dashboards in Power BI to visualize metrics and trends
+- Collaborate with cross-functional teams to gather requirements
+- Integrate external data sources into reporting solutions
+- Support model monitoring and performance tracking
+- Debug and optimize dashboards and applications
+- Document processes and best practices
+
+🧠 What Equitable Bank Is Looking For
+✅ Required Qualifications
+- Currently enrolled in a graduate program in Data Science, Computer Science, Business Analytics, Statistics, Engineering, or related field
+- Proficiency in Power Apps and Power BI
+- Understanding of data integration and external data sources
+- Basic SQL and data modeling skills
+- Strong analytical and problem-solving abilities
+- Excellent communication and teamwork skills
+✅ Preferred Skills
+- Experience with model monitoring tools
+- Familiarity with Python, R, or other scripting languages
+- Exposure to Azure or cloud-based data tools
+- Understanding of machine learning concepts
+
+📈 What Success Looks Like
+- You’ve built intuitive dashboards and interfaces that support business decisions
+- You’ve contributed to model monitoring and data integration efforts
+- You’ve collaborated effectively across teams
+- You’ve documented your work for future scalability
+
+📅 Internship Details
+| Category | Details | 
+| Duration | September 2 – December 26, 2025 | 
+| Location | Hybrid (Toronto office at 2200-25 Ontario Street) | 
+| Eligibility | Must be currently enrolled in school | 
+| Application Requirement | Resume + unofficial transcript as one document | 
+
+
+
+🌍 Culture & Inclusion
+Equitable Bank is committed to diversity and inclusion. They celebrate diverse experiences and perspectives, creating a workplace where all employees thrive.
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "machine-learning-engineer-3d-simulation-in-zoox-at-foster-city-united-states"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/zoox/3fa162d1-0953-4971-8a88-3d910dba2f8b", companyName: "zoox", companyLogo: "/images/zoox.png", location: "Seattle", jobTitle: "Senior/Staff Machine Learning Engineer, 3D Simulation", jobType: "Hybrid", jobCategory: "Machine Learning", mainDescription: `🧭 Role Overview: Senior/Staff Machine Learning Engineer – 3D Simulation
+This role is part of Zoox’s 3D Simulation group, where you’ll research and implement state-of-the-art ML techniques to generate realistic and diverse 3D environments. You’ll collaborate across teams to improve simulation fidelity and build scalable cloud pipelines for ML-driven content generation.
+
+🚗 About Zoox
+- Mission: Build a fully autonomous vehicle fleet and supporting ecosystem
+- Focus: Robotics, machine learning, and design for urban mobility-as-a-service
+- Culture: Fast-moving, execution-oriented, and innovation-driven
+- Parent Company: Amazon
+
+🛠️ Key Responsibilities
+- Research and optimize ML approaches for 3D simulation fidelity and variation
+- Collaborate with ML researchers, technical artists, and simulation engineers
+- Build scalable cloud pipelines for ML solutions in simulation
+- Enhance rendering and tooling for realistic data generation at scale
+
+🧠 What Zoox Is Looking For
+✅ Required Skills
+- 7+ years of experience in programming and algorithm design
+- Fluency in C++ and Python
+- Experience with 3D vision techniques (CNNs, Diffusion, NeRF)
+- Publications or production experience in human-centric 3D vision or style transfer
+- Strong mathematical and probabilistic modeling skills
+✅ Bonus Qualifications
+- Degree in CS, math, physics, or related field
+- Publications in CVPR, ICCV, RSS, ICRA
+- Experience with generative 3D models
+- Familiarity with Houdini, Maya, Blender
+- Experience in distributed systems and cloud platforms
+- Background in 3D rendering for simulation, games, or VFX
+
+📈 What Success Looks Like
+- You’ve delivered ML models that enhance simulation realism and diversity
+- You’ve built scalable infrastructure for 3D content generation
+- You’ve collaborated across disciplines to integrate ML into production simulators
+- You’ve contributed to Zoox’s mission of redefining urban mobility
+
+💰 Compensation & Benefits
+| Component | Details | 
+| Salary Range | $190,000–$285,000 USD | 
+| Equity | Amazon RSUs + Zoox Stock Appreciation Rights | 
+| Bonus | Sign-on bonus may be included | 
+| Benefits | Health, disability, life insurance, PTO | 
+| Location | Seattle, WA (Hybrid) | 
+
+
+
+🌍 Culture & Inclusion
+Zoox values diverse perspectives and encourages applicants from all backgrounds—even if you don’t meet every listed requirement. They offer accommodations during the application and interview process.`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "senior-staff-machine-learning-engineer-3d-simulation-in-zoox-at-seattle-united-states"},
+
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/zoox/7c1a729e-88bd-4c9c-8d0f-7068258c9451", companyName: "zoox", companyLogo: "/images/zoox.png", location: "Seattle", jobTitle: "Machine Learning Engineer, 3D Simulation", jobType: "Hybrid", jobCategory: "Machine Learning", mainDescription: `🧭 Role Overview: Machine Learning Engineer – 3D Simulation
+This role is part of Zoox’s 3D Simulation group, where you’ll research and implement ML models that generate rich, diverse 3D environments, humans, and conditions. You’ll collaborate across disciplines to bring new techniques into production and build scalable cloud pipelines for simulation.
+
+🚗 About Zoox
+- Mission: Build a fully autonomous vehicle fleet and supporting ecosystem
+- Focus: Robotics, machine learning, and design for urban mobility-as-a-service
+- Culture: Fast-moving, execution-oriented, and innovation-driven
+- Parent Company: Amazon
+
+🛠️ Key Responsibilities
+- Research and optimize ML approaches for simulation fidelity and variation
+- Collaborate with ML researchers, technical artists, and simulation engineers
+- Build scalable cloud pipelines for ML-driven 3D simulation
+- Improve rendering and tooling for realistic data generation
+
+🧠 What Zoox Is Looking For
+✅ Required Skills
+- 3+ years of programming and algorithm design experience
+- Fluency in C++ and Python
+- Experience with 3D vision techniques (CNNs, Diffusion, NeRF)
+- Publications or production experience in human-centric 3D vision or style transfer
+- Strong mathematical and probabilistic modeling skills
+✅ Bonus Qualifications
+- Degree in CS, math, physics, or related field
+- Publications in CVPR, ICCV, RSS, ICRA
+- Experience with generative 3D models
+- Familiarity with Houdini, Maya, Blender
+- Experience in distributed systems and cloud platforms
+- Background in 3D rendering for simulation, games, or VFX
+
+📈 What Success Looks Like
+- You’ve delivered ML models that enhance simulation realism and diversity
+- You’ve built scalable infrastructure for 3D content generation
+- You’ve collaborated across disciplines to integrate ML into production simulators
+- You’ve contributed to Zoox’s mission of redefining urban mobility
+
+💰 Compensation & Benefits
+| Component | Details | 
+| Salary Range | $134,000–$222,000 USD | 
+| Equity | Amazon RSUs + Zoox Stock Appreciation Rights | 
+| Bonus | Sign-on bonus may be included | 
+| Benefits | Health, disability, life insurance, PTO | 
+| Location | Seattle, WA (Hybrid) | 
+
+
+
+🌍 Culture & Inclusion
+Zoox values diverse perspectives and encourages applicants from all backgrounds—even if you don’t meet every listed requirement. They offer accommodations during the application and interview process.
+
+
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "machine-learning-engineer-3d-simulation-in-zoox-at-seattle-united-states"}
+
+
+
+
+
+
+,{ applyUrl: "https://jobs.lever.co/zoox/a4cd475e-5a49-415d-9608-2ac425e00484", companyName: "zoox", companyLogo: "/images/zoox.png", location: "Foster City", jobTitle: "System Test Engineer", jobType: "Hybrid", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: System Test Engineer
+This role is part of Zoox’s System Behavior Analysis Autonomous team. You’ll analyze system faults, triage issues from real-world and simulated testing, and produce insights that inform engineering decisions and platform safety. Your work will directly impact the reliability and performance of Zoox’s autonomous vehicles.
+
+🚗 About Zoox
+- Mission: Build a fully autonomous vehicle fleet and supporting ecosystem
+- Focus: Robotics, machine learning, and design for urban mobility-as-a-service
+- Culture: Fast-moving, execution-oriented, and innovation-driven
+- Parent Company: Amazon
+
+🛠️ Key Responsibilities
+- Analyze system faults using data analytics from on-road and simulation testing
+- Triage issues related to perception, planning, and AI software
+- Categorize and prioritize issues based on safety and performance impact
+- Identify trends and propose preventative measures
+- Produce clear reports on system issues and root cause analysis
+- Develop tools and workflows to improve triage efficiency
+- Adapt quickly to changing priorities and manage multiple tasks
+
+🧠 What Zoox Is Looking For
+✅ Required Skills
+- Bachelor’s or Master’s degree in Computer Science or STEM field
+- 5+ years of experience in systems troubleshooting and diagnostics
+- Experience in automotive or embedded systems preferred
+- Proficiency in Python or similar scripting language
+- Strong analytical and root cause analysis skills
+- Passion for autonomous vehicle technology and safety
+✅ Bonus Qualifications
+- Experience in QA or triage roles for autonomous driving
+- Project management experience with cross-functional and offshore teams
+- Familiarity with log management, analytics, or simulation tools
+
+📈 What Success Looks Like
+- You’ve diagnosed and resolved critical system issues
+- You’ve improved triage workflows and tooling
+- You’ve contributed to safer and more reliable autonomous vehicle performance
+- You’ve collaborated effectively across engineering disciplines
+
+💰 Compensation & Benefits
+| Component | Details | 
+| Base Salary Range | $150,000–$190,000 USD | 
+| Equity | Amazon RSUs + Zoox Stock Appreciation Rights | 
+| Bonus | Sign-on bonus may be included | 
+| Benefits | Health, disability, life insurance, PTO | 
+| Location | San Diego or Foster City, CA (Hybrid) | 
+
+
+
+🌍 Culture & Inclusion
+Zoox values diverse perspectives and encourages applicants from all backgrounds—even if you don’t meet every listed requirement. They offer accommodations during the application and interview process.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "system-test-engineer-in-zoox-at-foster-city-united-states"},
+
+
+
+
+{ applyUrl: "https://jobs.lever.co/zoox/e3477276-acab-4885-91b6-4009ca57613d", companyName: "zoox", companyLogo: "/images/zoox.png", location: "Foster City", jobTitle: "Optical Test and Reliability Engineer", jobType: "Hybrid", jobCategory: "Engineer", mainDescription: `🧭 Role Overview: Optical Test and Reliability Engineer
+This role is part of Zoox’s Advanced Hardware Engineering team, specifically within Sensor Engineering. You’ll develop and execute test plans, analyze long-term reliability data, and refine processes for maintaining and improving optical systems used in safety-critical autonomous deployments.
+
+🚗 About Zoox
+- Mission: Build a fully autonomous vehicle fleet and supporting ecosystem
+- Focus: Robotics, machine learning, and design for urban mobility-as-a-service
+- Culture: Fast-moving, execution-oriented, and innovation-driven
+- Parent Company: Amazon
+
+🛠️ Key Responsibilities
+- Develop and execute optical test plans in lab and field settings
+- Measure performance metrics (e.g., resolution, MTF, stray light, contact angle)
+- Define and refine scalable maintenance processes (cleaning, recoating, alignment)
+- Build statistical reliability models from long-term field data
+- Establish service and replacement thresholds based on model outputs
+- Present findings and translate complex optics data into actionable recommendations
+- Plan and execute field tests of new sensors and troubleshoot on-site
+- Coach field technicians on handling and inspection procedures
+
+🧠 What Zoox Is Looking For
+✅ Required Skills
+- Strong understanding of image sensor and optical fundamentals
+- Hands-on experience with optics metrology tools (profilometers, spectrometers, haze meters, goniometers)
+- Ability to design experiments (DOE), analyze statistically, and iterate quickly
+- Process-development mindset with empathy for field operators
+- Basic programming proficiency (MATLAB, Python) for data analysis and instrument control
+- Excellent communication and cross-functional coordination skills
+- Willingness to work in lab and outdoor settings, with travel as needed
+- B.S. or higher in Optical Engineering, Electrical Engineering, Applied Physics, or related field
+✅ Bonus Traits
+- Experience in reliability modeling and safety-critical systems
+- Passion for sensing and robotics
+- Comfort with diverse project scopes—from bench-top to field trials
+
+📈 What Success Looks Like
+- You’ve ensured reliable performance of optical systems in real-world deployments
+- You’ve developed scalable processes for sensor maintenance and testing
+- You’ve contributed to safety-critical decisions through robust data analysis
+- You’ve collaborated across engineering disciplines to improve sensor reliability
+
+💰 Compensation & Benefits
+| Component | Details | 
+| Base Salary Range | $146,000–$201,000 USD | 
+| Equity | Amazon RSUs + Zoox Stock Appreciation Rights | 
+| Bonus | Sign-on bonus may be included | 
+| Benefits | Health, disability, life insurance, PTO | 
+| Location | Foster City, CA (Hybrid) | 
+
+
+
+🌍 Culture & Inclusion
+Zoox values diverse perspectives and encourages applicants from all backgrounds—even if you don’t meet every listed requirement. They offer accommodations during the application and interview process.
+`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "optical-test-and-reliability-engineer-in-zoox-at-foster-city-united-states"},
+
+
   { applyUrl: "https://www.google.com/about/careers/applications/jobs/results/105747700384703174-technical-lead-manager-google-notifications?page=1", companyName: "Google", companyLogo: "/images/Google.png", location: "Israel", jobTitle: "Technical Lead Manager, Google Notifications", jobType: "Full-time", jobCategory: "Technical ", mainDescription: `🧭 Role Overview: Technical Lead Manager – Google Notifications
 This role combines technical leadership with people management, guiding a team of engineers to build and enhance iOS notification systems that support Google’s ecosystem. You’ll influence architecture, drive performance, and foster cross-functional collaboration.
 

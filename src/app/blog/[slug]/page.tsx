@@ -506,7 +506,7 @@ const mockBlogPosts = [
     date: "May 05, 2025",
     imageUrl: '/images/Tech Events 2025 Highlights.png',
     imageHint: 'Tech Events',
-    category: "Career Development",
+    category: "Networking",
     tags: ["Cloud", "AI", "FinTech", "Web"],
    content: `
       <p>Discover latest tech events in 2025. Explore upcoming global tech conferences, networking with tech professionals, and how to make the most of your event experience.</p>
@@ -640,6 +640,328 @@ Uniting an audience of enterprise technology and data leaders from some of the l
   
 </ul>
 
+
+
+     `
+  },
+
+
+   {
+    slug: 'Top-10-AI-Tools-Transforming-Tech-Careers-in-2025-And-How-to-Use-Them',
+    title: "Top 10 AI Tools Transforming Tech Careers in 2025 (And How to Use Them)",
+    excerpt: "AI isn’t replacing tech jobs — it’s redefining them. From coding copilots to automated resume builders, artificial intelligence is becoming the power tool every tech professional needs. This guide breaks down the top AI tools reshaping the future of work and how to make them your career advantage.",
+    author: "Chris Lee, Tech Mentor",
+    date: "June 15, 2025",
+    imageUrl: '/images/artificial intelligence.png',
+    imageHint: 'Tech Events',
+    category: "Career Development",
+    tags: ["Cloud", "AI", "FinTech", "Web"],
+   content: `
+      <p>AI isn’t replacing tech jobs - it’s redefining them. From coding copilots to automated resume builders, artificial intelligence is becoming the power tool every tech professional needs. This guide breaks down the top AI tools reshaping the future of work and how to make them your career advantage.</p>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">Why You Need AI in Your Tech Toolkit</h2>
+<p>2025 is the year where AI becomes less of an edge and more of a baseline. Here’s why embracing AI tools is no longer optional in tech:</p>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>🚀 Career Acceleration – Automate grunt work, learn faster, and stay ahead of your peers.</li>
+  <li>🧠 Smarter Workflows – From coding to documentation, AI cuts through inefficiencies.</li>
+  <li>📊 Better Decisions – Real-time insights and smart suggestions boost data-driven thinking.</li>
+  <li>💼 Competitive Advantage – Companies expect AI literacy in tech hires across roles.</li>
+</ul>
+
+<img src="/images/github copilot.png" alt="GitHub Copilot" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    1. GitHub Copilot
+  </a>
+</h2>
+<p>It’s your AI pair programmer. GitHub Copilot helps you write code faster by suggesting entire lines and functions. It understands your intent and works across multiple languages and editors.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Developers & Software Engineers</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Autocomplete functions and boilerplate</li>
+  <li>Suggest fixes and improvements</li>
+  <li>Learn unfamiliar codebases faster</li>
+</ul>
+
+<img src="/images/chatgptpro.png" alt="ChatGPT" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    2. ChatGPT (Pro)
+  </a>
+</h2>
+<p>From debugging to writing technical docs or generating SQL queries, ChatGPT is your generalist productivity assistant. With GPT-4, it now handles multimodal input, advanced logic, and custom GPTs.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Engineers, Product Managers, Analysts</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Code review and bug fixing</li>
+  <li>Generate API documentation</li>
+  <li>Explain code in plain English</li>
+</ul>
+
+<img src="/images/notionai.png" alt="Notion AI" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.notion.so/product/ai" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    3. Notion AI
+  </a>
+</h2>
+<p>Notion AI turns rough notes into polished content. Whether you’re writing meeting recaps or spec documents, this tool helps you think, write, and organize faster than ever.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Project Managers, Tech Writers</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Summarize meetings and docs</li>
+  <li>Create structured project templates</li>
+  <li>Automate repetitive writing</li>
+</ul>
+
+<img src="/images/replit.png" alt="Replit Ghostwriter" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://replit.com/site/ghostwriter" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    4. Replit Ghostwriter
+  </a>
+</h2>
+<p>A cloud-based AI that helps you code, debug, and understand logic in your browser. It’s great for rapid prototyping and educational environments.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Frontend Devs, Students</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Inline code suggestions</li>
+  <li>Explains logic step-by-step</li>
+  <li>Great for fast MVP builds</li>
+</ul>
+
+<img src="/images/perplexityai.png" alt="Perplexity AI" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    5. Perplexity AI
+  </a>
+</h2>
+<p>Think Google meets AI. Perplexity answers complex technical questions and cites sources in real time. Great for deep research and fast technical discovery.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Data Analysts, Devs, Researchers</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Ask technical or code-related questions</li>
+  <li>Validate with cited sources</li>
+</ul>
+
+
+<img src="/images/whisper.png" alt="Whisper by OpenAI" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://openai.com/research/whisper" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    6. Whisper by OpenAI
+  </a>
+</h2>
+<p>Whisper is a powerful AI speech recognition model that transcribes audio with impressive accuracy. Ideal for documenting meetings, creating subtitles, or transcribing podcasts on the fly.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Content Creators, Engineers, Dev Advocates</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Turn voice memos into meeting notes</li>
+  <li>Transcribe dev talks and tutorials</li>
+  <li>Generate captions for videos automatically</li>
+</ul>
+
+<img src="/images/resumeio.png" alt="Resume.io + ChatGPT" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://resume.io/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    7. Resume.io + ChatGPT
+  </a>
+</h2>
+<p>Combine Resume.io’s templates with ChatGPT prompts to create standout CVs, cover letters, and optimized LinkedIn profiles. Especially useful for tech professionals looking to switch roles or break into international markets.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Job Seekers, Career Changers</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Generate tailored resumes for each job</li>
+  <li>Optimize LinkedIn summaries</li>
+  <li>Craft AI-enhanced cover letters</li>
+</ul>
+
+<img src="/images/kubernetes.png" alt="Kubernetes GPT" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://k8sgpt.ai/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    8. Kubernetes GPT
+  </a>
+</h2>
+<p>This tool uses GPT to diagnose Kubernetes cluster issues via natural language prompts. It’s like having a DevOps coach embedded in your console.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: DevOps Engineers, SREs, Cloud Architects</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Analyze cluster health in plain English</li>
+  <li>Get actionable suggestions instantly</li>
+  <li>Simplify troubleshooting and deployment</li>
+</ul>
+
+<img src="/images/bardeen.png" alt="Bardeen AI" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://www.bardeen.ai/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    9. Bardeen AI
+  </a>
+</h2>
+<p>Bardeen is a no-code AI automation platform that turns natural language prompts into browser-based workflows. It's like Zapier powered by GPT.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Ops Teams, Product Managers, Non-coders</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Automate manual tasks like scraping, emailing, and reporting</li>
+  <li>Trigger workflows from Google Sheets or Notion</li>
+  <li>Save hours with browser macros powered by AI</li>
+</ul>
+
+<img src="/images/sourcery.png" alt="Sourcery AI" class="w-full h-auto my-4 rounded-lg shadow-lg">
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">
+  <a href="https://sourcery.ai/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    10. Sourcery AI
+  </a>
+</h2>
+<p>Sourcery reviews and refactors your Python code in real time. It highlights inefficiencies, simplifies logic, and ensures best practices - making your code production-ready faster.</p>
+<h3 class="text-1xl font-semibold mt-6 mb-3">Use Case: Backend Devs, Data Engineers</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Auto-refactor Python code</li>
+  <li>Improve readability and logic</li>
+  <li>Speed up code reviews</li>
+</ul>
+
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">How to Choose the Right AI Tool</h2>
+<p>Pick based on your role and daily challenges. Here’s a quick guide:</p>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li><strong>Frontend dev?</strong> Try GitHub Copilot + Notion AI</li>
+  <li><strong>Data-driven?</strong> Try ChatGPT + Perplexity</li>
+  <li><strong>In cloud/infra?</strong> Use Kubernetes GPT + Bardeen</li>
+</ul>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">Maximizing ROI from AI Tools</h2>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Practice prompt engineering</li>
+  <li>Audit outputs - AI makes mistakes</li>
+  <li>Stack your tools: combine GPT + automation + APIs</li>
+</ul>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">Final Thoughts</h2>
+<p>AI is no longer hype - it’s the new baseline for career growth in tech. Mastering these tools can mean the difference between keeping up and breaking through. The smartest move? Start experimenting. Pick two tools this week, integrate them into your workflow, and see the difference for yourself.</p>
+
+
+
+     `
+  }
+
+  ,
+
+
+   {
+    slug: 'How-to-Build-a-Powerful-Tech-Portfolio-in-2025-With-6-Sites-to-Host-It',
+    title: "How to Build a Powerful Tech Portfolio in 2025 (With 6 Sites to Host It)",
+    excerpt: "Your resume says what you’ve done - your portfolio shows what you can do. In 2025’s ultra-competitive tech landscape, a personal portfolio isn’t optional - it’s your digital handshake. Whether you're a developer, data analyst, designer, or DevOps engineer, this guide breaks down why you need a tech portfolio, where to host it, and how to build one that gets you hired",
+    author: "Chris Lee, Tech Mentor",
+    date: "June 15, 2025",
+    imageUrl: '/images/portfolio.png',
+    imageHint: 'Tech Events',
+    category: "Career Development",
+    tags: ["Cloud", "AI", "FinTech", "Web"],
+   content: `
+      <p>Your resume says what you’ve done - your portfolio shows what you can do. In 2025’s ultra-competitive tech landscape, a personal portfolio isn’t optional - it’s your digital handshake. Whether you're a developer, data analyst, designer, or DevOps engineer, this guide breaks down why you need a tech portfolio, where to host it, and how to build one that gets you hired.</p>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">Why Every Tech Professional Needs a Portfolio</h2>
+<p>Even if you're not a designer, a portfolio is your proof-of-work. It backs up your skills with results, creativity, and context.</p>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>🎯 Visibility - Stand out from a sea of resumes with real, interactive projects.</li>
+  <li>🔧 Credibility - Show you can solve problems, not just talk about them.</li>
+  <li>💼 Job Magnet - Recruiters Google you - let them find something remarkable.</li>
+  <li>📈 Personal Branding - Position yourself as an authority in your niche (e.g. AI, frontend, backend, data).</li>
+</ul>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">What to Include in a Winning Tech Portfolio</h2>
+<p>Here’s what separates a boring portfolio from a job-clinching one:</p>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>✅ A short but punchy “About Me”</li>
+  <li>✅ Featured Projects (3–6 max, with problem > process > result)</li>
+  <li>✅ Skills & Tech Stack (organized by category)</li>
+  <li>✅ Contact & CV download</li>
+  <li>✅ (Bonus) Blog or Dev Notes section</li>
+  <li>✅ GitHub, LinkedIn, or Kaggle integration</li>
+</ul>
+
+
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">7 Best Websites to Build and Host Your Tech Portfolio</h2>
+<img src="/images/vercel.png" alt="Top Portfolio Hosting Platforms" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<h3 class="text-1xl font-semibold mt-6 mb-3">
+  <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    1. Vercel
+  </a>
+</h3>
+<p>Ideal for frontend devs and full-stack engineers using React, Next.js, or Tailwind. Lightning-fast deployment, Git integration, and custom domains.</p>
+<img src="/images/githubpages.png" alt="Top Portfolio Hosting Platforms" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<h3 class="text-1xl font-semibold mt-6 mb-3">
+  <a href="https://github.io" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    2. GitHub Pages
+  </a>
+</h3>
+<p>Free and fast for static portfolio sites. Perfect for developers comfortable with HTML, CSS, JS, or Jekyll.</p>
+
+<img src="/images/webflow.png" alt="Top Portfolio Hosting Platforms" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<h3 class="text-1xl font-semibold mt-6 mb-3">
+  <a href="https://webflow.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    3. Webflow
+  </a>
+</h3>
+
+<p>Design-driven, pixel-perfect portfolio builder. Supports interactions, animations, and full CMS integration.</p>
+<img src="/images/notionai.png" alt="Top Portfolio Hosting Platforms" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<h3 class="text-1xl font-semibold mt-6 mb-3">
+  <a href="https://notion.so" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    4. Notion + Super
+  </a>
+</h3>
+<p>Create a simple, clean portfolio using Notion and publish it with Super or Potion. Excellent for analysts, writers, and hybrid tech roles.</p>
+
+
+<img src="/images/carrd.png" alt="Top Portfolio Hosting Platforms" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<h3 class="text-1xl font-semibold mt-6 mb-3">
+
+
+  <a href="https://carrd.co" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    5. Carrd
+  </a>
+</h3>
+<p>Minimalist, one-page portfolio tool. Great for interns, job seekers, or those just getting started. Clean UX, low cost.</p>
+<img src="/images/showwcase.png" alt="Top Portfolio Hosting Platforms" class="w-full h-auto my-4 rounded-lg shadow-lg">
+<h3 class="text-1xl font-semibold mt-6 mb-3">
+  <a href="https://showwcase.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">
+    6. Showwcase
+  </a>
+</h3>
+<p>Like LinkedIn + GitHub + Medium. Tailored to tech professionals, with built-in blogging, project highlights, and job matching.</p>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">How to Build Your Tech Portfolio (Step-by-Step)</h2>
+<p>Here’s a practical breakdown of how to build yours - whether you code or not.</p>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">Step 1: Choose Your Tools</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Frontend: HTML/CSS + Vercel or React + Next.js</li>
+  <li>No code: Webflow, Notion, or Carrd</li>
+  <li>Data viz: Python, Streamlit, Power BI embed</li>
+</ul>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">Step 2: Select Your Best 3–6 Projects</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Personal apps, freelance work, open-source, or course projects</li>
+  <li>Each project should tell a story: Problem → Process → Solution → Tools Used → GitHub link → Demo (if possible)</li>
+</ul>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">Step 3: Add Personality and Polish</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Use a consistent color scheme</li>
+  <li>Keep UI clean and responsive</li>
+  <li>Add a blog or thought section if you write or research</li>
+</ul>
+
+<h3 class="text-1xl font-semibold mt-6 mb-3">Step 4: Deploy and Share</h3>
+<ul class="list-disc list-inside my-3 space-y-1 pl-4">
+  <li>Buy a custom domain (e.g. <code>yourname.dev</code>)</li>
+  <li>Link it to your GitHub, resume, or job application</li>
+  <li>Promote on LinkedIn and dev communities</li>
+</ul>
+
+<h2 class="text-2xl font-semibold mt-6 mb-3">Final Thoughts</h2>
+<p>In a world where anyone can claim skills, your portfolio is the proof. The key is not complexity - it’s clarity and confidence. Whether you're breaking into tech or climbing to the next role, your portfolio is your stage. Own it. Build it. Share it.</p>
 
 
      `

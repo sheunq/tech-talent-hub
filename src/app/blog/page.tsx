@@ -7,6 +7,50 @@ import { ArrowRight, CalendarDays, UserCircle } from 'lucide-react';
 import { BlogPostCard, type BlogPost } from '@/components/blog/BlogPostCard';
 
 const mockBlogPosts: BlogPost[] = [
+
+
+         {
+
+    slug: 'Latest-Tech-events-in-2025',
+    title: "Latest Tech events and trends in 2025",
+    excerpt: "Discover latest tech events in 2025. Explore upcoming global tech conferences, networking with tech professionals, and how to make the most of your event experience.",
+    author: "Chris Lee, Tech Mentor",
+    date: "May 05, 2025",
+    imageUrl: '/images/Tech Events 2025 Highlights.png',
+    imageHint: 'Tech Events',
+    category: "Networking",
+    tags: ["Cloud", "AI", "FinTech", "Web"]
+  
+  
+  },
+           {
+
+    slug: 'Top-10-AI-Tools-Transforming-Tech-Careers-in-2025-And-How-to-Use-Them',
+    title: "Top 10 AI Tools Transforming Tech Careers in 2025 (And How to Use Them)",
+    excerpt: "AI isn’t replacing tech jobs - it’s redefining them. From coding copilots to automated resume builders, artificial intelligence is becoming the power tool every tech professional needs. This guide breaks down the top AI tools reshaping the future of work and how to make them your career advantage.",
+    author: "Chris Lee, Tech Mentor",
+    date: "May 05, 2025",
+    imageUrl: '/images/artificial intelligence.png',
+    imageHint: 'Tech Events',
+    category: "Career Development",
+    tags: ["Cloud", "AI", "FinTech", "Web"]
+  
+  
+  },
+           {
+
+    slug: 'How-to-Build-a-Powerful-Tech-Portfolio-in-2025-With-6-Sites-to-Host-It',
+    title: "How to Build a Powerful Tech Portfolio in 2025 (With 6 Sites to Host It)",
+    excerpt: "Your resume says what you’ve done - your portfolio shows what you can do. In 2025’s ultra-competitive tech landscape, a personal portfolio isn’t optional - it’s your digital handshake. Whether you're a developer, data analyst, designer, or DevOps engineer, this guide breaks down why you need a tech portfolio, where to host it, and how to build one that gets you hired",
+    author: "Chris Lee, Tech Mentor",
+    date: "May 05, 2025",
+    imageUrl: '/images/portfolio.png',
+    imageHint: 'portfolio',
+    category: "Career Development",
+    tags: ["Cloud", "AI", "Web"]
+  
+  
+  },
   {
     slug: 'mastering-remote-interviews',
     title: 'Mastering Remote Interviews: Tips for Tech Professionals',
@@ -90,20 +134,6 @@ const mockBlogPosts: BlogPost[] = [
     tags: ["Data Science", "Python", "Machine Learning", "Visualization"],
       },
 
-         {
-
-    slug: 'Latest-Tech-events-in-2025',
-    title: "Latest Tech events and trends in 2025",
-    excerpt: "Discover latest tech events in 2025. Explore upcoming global tech conferences, networking with tech professionals, and how to make the most of your event experience.",
-    author: "Chris Lee, Tech Mentor",
-    date: "May 05, 2025",
-    imageUrl: '/images/Tech Events 2025 Highlights.png',
-    imageHint: 'Tech Events',
-    category: "Career Development",
-    tags: ["Cloud", "AI", "FinTech", "Web"]
-  
-  
-  },
 ];
 
 export default function BlogPage() {
