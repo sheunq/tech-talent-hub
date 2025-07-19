@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description: 'TekTunnel is a premier platform connecting tech talent with innovative companies.',
   verification: {
     google: 'ANTIs-nVe-Ow4cuUMCFdH6_VjcrU3Inr2o5xA3X3C00',
+      other: {
+      'msvalidate.01': '937025D1C19D344AD76CFF6B84C2DB3A',
+    }
   },
   alternates: {
     canonical: '/',
