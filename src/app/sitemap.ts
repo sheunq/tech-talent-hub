@@ -1,25 +1,26 @@
+import { MetadataRoute } from 'next';
+import { getAllJobs } from '@/services/jobDbService';
+import { mockBlogPosts } from '@/app/blog/[slug]/page'; // Assuming mock data is exported
 
-import { MetadataRoute } from 'next'
+const URL = 'https://tektunnel.com';
 
-// In a real app, this would be your production domain from environment variables
-const URL = 'https://tektunnel.com'
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const jobs = await getAllJobs();
+  const jobEntries: MetadataRoute.Sitemap = jobs
+    .filter(job => job.status === 'approved')
+    .map(({ id, submittedDate }) => ({
+      url: `${URL}/jobs/${id}`,
+      lastModified: submittedDate ? new Date(submittedDate) : new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    }));
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  // For dynamic routes (like jobs or blog posts), you would fetch the data
-  // from your database and map over it to create entries.
-  // Example for jobs:
-  // const jobs = await getAllJobsFromDb();
-  // const jobEntries = jobs.map(({ id, submittedDate }) => ({
-  //   url: `${URL}/jobs/${id}`,
-  //   lastModified: new Date(submittedDate),
-  // }));
-  //
-  // Example for blog posts:
-  // const posts = await getBlogPostsFromDb();
-  // const postEntries = posts.map(({ slug, lastModified }) => ({
-  //   url: `${URL}/blog/${slug}`,
-  //   lastModified: new Date(lastModified),
-  // }));
+  const postEntries: MetadataRoute.Sitemap = mockBlogPosts.map(({ slug, date }) => ({
+    url: `${URL}/blog/${slug}`,
+    lastModified: new Date(date),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }));
   
   const staticRoutes = [
     '/',
@@ -31,7 +32,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/pricing',
     '/terms-of-service',
-    '/privacy-policy'
+    '/privacy-policy',
+    '/job-seekers/auth',
+    '/employers/auth',
   ];
 
   const staticEntries: MetadataRoute.Sitemap = staticRoutes.map((route) => ({
@@ -43,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticEntries,
-    // ...jobEntries, // Add dynamic entries here when ready
-    // ...postEntries,
-  ]
+    ...jobEntries,
+    ...postEntries,
+  ];
 }

@@ -11,7 +11,7 @@ import type { Metadata, ResolvingMetadata } from 'next';
 import { useParams } from 'next/navigation';
 
 // Mock data for a single post - in a real app, this would be fetched based on slug
-const mockBlogPosts = [
+export const mockBlogPosts = [
   {
     slug: 'mastering-remote-interviews',
     title: 'Mastering Remote Interviews: Tips for Tech Professionals',
