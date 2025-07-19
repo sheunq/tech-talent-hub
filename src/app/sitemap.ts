@@ -1,6 +1,7 @@
+
 import { MetadataRoute } from 'next';
 import { getAllJobs } from '@/services/jobDbService';
-import { mockBlogPosts } from '@/app/blog/[slug]/page'; // Assuming mock data is exported
+import { mockBlogPosts } from '@/lib/blog/data';
 
 const URL = 'https://tektunnel.com';
 
@@ -50,3 +51,4 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...postEntries,
   ];
 }
+
