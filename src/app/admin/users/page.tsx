@@ -20,7 +20,7 @@ export default function AdminUsersPage() {
           and potentially resetting passwords or managing roles.
         </p>
         <div className="border rounded-lg p-6 bg-muted/20 text-center">
-            <Image src="https://placehold.co/400x200.png" alt="User management placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="user list table"/>
+            <Image src="/images/vision.jpg" alt="User management placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="user list table"/>
             <p className="text-sm text-muted-foreground">User table and management tools will be implemented here.</p>
         </div>
       </CardContent>

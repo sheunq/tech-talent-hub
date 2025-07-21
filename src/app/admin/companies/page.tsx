@@ -20,7 +20,7 @@ export default function AdminCompaniesPage() {
           and potentially approving or suspending company accounts based on platform policies.
         </p>
         <div className="border rounded-lg p-6 bg-muted/20 text-center">
-            <Image src="https://placehold.co/400x200.png" alt="Company management placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="company profiles list"/>
+            <Image src="/images/vision.jpg" alt="Company management placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="company profiles list"/>
             <p className="text-sm text-muted-foreground">Company list and management tools will appear here.</p>
         </div>
       </CardContent>

@@ -49,7 +49,7 @@ export default function ContactPage() {
                 <p className="text-muted-foreground">123 Tech Avenue, Innovation City, CA 90210</p>
                  <div className="mt-4 rounded-lg overflow-hidden shadow-md">
                     <Image
-                        src="https://placehold.co/400x250.png"
+                        src="/images/vision.jpg"
                         alt="Map placeholder showing office location"
                         width={400}
                         height={250}

@@ -61,7 +61,7 @@ export default function AdminDashboardPage() {
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">Future quick action buttons or links will go here.</p>
-           <Image src="https://placehold.co/600x200.png" alt="Placeholder quick actions" width={600} height={200} className="mt-4 rounded-md" data-ai-hint="dashboard graph chart"/>
+           <Image src="/images/vision.jpg" alt="Placeholder quick actions" width={600} height={200} className="mt-4 rounded-md" data-ai-hint="dashboard graph chart"/>
         </CardContent>
       </Card>
     </div>

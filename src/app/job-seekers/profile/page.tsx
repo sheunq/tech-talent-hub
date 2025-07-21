@@ -82,7 +82,7 @@ export default function CandidateProfilePage() {
         <CardContent className="space-y-6">
             <div className="text-center">
                 <Image 
-                    src={currentUser.photoURL || 'https://placehold.co/128x128.png'} 
+                    src={currentUser.photoURL || '/images/vision.jpg'} 
                     alt={currentUser.displayName || currentUser.email || "User Avatar"}
                     width={128}
                     height={128}
@@ -96,7 +96,7 @@ export default function CandidateProfilePage() {
             This is a placeholder for your profile details. In a full application, you would be able to edit your skills, experience, resume, and more here.
           </p>
           <div className="border rounded-lg p-6 bg-muted/20 text-center">
-              <Image src="https://placehold.co/400x200.png" alt="Profile sections placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="placeholder"/>
+              <Image src="/images/vision.jpg" alt="Profile sections placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="placeholder"/>
               <p className="text-sm text-muted-foreground">Profile editing sections will be implemented here.</p>
           </div>
         </CardContent>

@@ -67,7 +67,7 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
             <CardHeader className="p-6 sm:p-8 bg-muted/30">
               <div className="flex flex-col sm:flex-row items-start gap-4">
                 <Image
-                  src={job.companyLogo || 'https://placehold.co/100x100.png'}
+                  src={job.companyLogo || '/images/vision.jpg'}
                   alt={`${job.companyName} logo`}
                   width={100}
                   height={100}

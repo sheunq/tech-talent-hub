@@ -17,9 +17,9 @@ import { cn } from '@/lib/utils';
 
 // Mock data - in a real app, this would come from an API
 const mockConversations = [
-  { id: 'convo1', name: 'Alice Wonderland', lastMessage: 'Yes, that sounds interesting! Could you tell me more?', unread: 2, avatar: 'https://placehold.co/40x40.png' },
-  { id: 'convo2', name: 'Innovate Solutions HR', lastMessage: 'We received your application. We will be in touch.', unread: 0, avatar: 'https://placehold.co/40x40.png' },
-  { id: 'convo3', name: 'Bob The Builder', lastMessage: 'Perfect, thank you!', unread: 0, avatar: 'https://placehold.co/40x40.png' },
+  { id: 'convo1', name: 'Alice Wonderland', lastMessage: 'Yes, that sounds interesting! Could you tell me more?', unread: 2, avatar: '/images/vision.jpg' },
+  { id: 'convo2', name: 'Innovate Solutions HR', lastMessage: 'We received your application. We will be in touch.', unread: 0, avatar: '/images/vision.jpg' },
+  { id: 'convo3', name: 'Bob The Builder', lastMessage: 'Perfect, thank you!', unread: 0, avatar: '/images/vision.jpg' },
 ];
 
 const mockMessages = {

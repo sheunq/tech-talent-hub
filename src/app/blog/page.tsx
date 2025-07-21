@@ -27,7 +27,7 @@ export default function BlogPage() {
       ) : (
         <div className="text-center py-12 bg-card border rounded-xl shadow-sm">
           <Image 
-            src="https://placehold.co/200x150.png" 
+            src="/images/vision.jpg" 
             alt="No blog posts illustration" 
             width={200} 
             height={150} 

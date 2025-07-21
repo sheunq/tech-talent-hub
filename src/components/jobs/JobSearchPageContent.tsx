@@ -52,7 +52,7 @@ const mapBackendJobToJobCard = (backendJob: BackendStoredJob): Job => {
     descriptionExcerpt: backendJob.mainDescription,
     postedDate: backendJob.submittedDate,
     salaryRange,
-    companyLogo: backendJob.companyLogo || 'https://placehold.co/56x56.png',
+    companyLogo: backendJob.companyLogo || '/images/vision.jpg',
     imageHint: 'company logo generic',
     tags: extractTagsFromText(combinedTextForTags),
     applyUrl: backendJob.applyUrl,
@@ -176,7 +176,7 @@ export function JobSearchPageContent({ initialJobs }: JobSearchPageContentProps)
 
       {!isLoading && displayedJobs.length === 0 && (
          <div className="text-center py-12 bg-card border rounded-xl shadow-sm">
-            <Image src="https://placehold.co/200x150.png" alt="No results illustration" width={200} height={150} className="mx-auto mb-6 rounded-lg" data-ai-hint="illustration empty search"/>
+            <Image src="/images/vision.jpg" alt="No results illustration" width={200} height={150} className="mx-auto mb-6 rounded-lg" data-ai-hint="illustration empty search"/>
             <h3 className="text-2xl font-semibold mb-2 font-headline">No Jobs Found Matching Your Criteria</h3>
             <p className="text-muted-foreground max-w-md mx-auto">Try adjusting your search filters, broadening your keywords, or check back later as new jobs are added daily.</p>
             <Button variant="link" onClick={() => handleSearch({keywords: '', location: '', jobType: '', category: '', salaryMin: 0, salaryMax: Infinity } as SearchFilters)} className="mt-4">

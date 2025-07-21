@@ -20,7 +20,7 @@ export default function AdminSettingsPage() {
           email notification templates, API keys for third-party services, and other global parameters will be managed here.
         </p>
         <div className="border rounded-lg p-6 bg-muted/20 text-center">
-            <Image src="https://placehold.co/400x200.png" alt="Settings placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="settings form interface"/>
+            <Image src="/images/vision.jpg" alt="Settings placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="settings form interface"/>
             <p className="text-sm text-muted-foreground">Configuration forms and options will be available here.</p>
         </div>
       </CardContent>

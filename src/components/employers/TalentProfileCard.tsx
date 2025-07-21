@@ -29,7 +29,7 @@ export function TalentProfileCard({ profile }: TalentProfileCardProps) {
       <CardHeader className="p-5 bg-card">
         <div className="flex items-start space-x-4">
           <Image
-            src={profile.profilePictureUrl || 'https://placehold.co/64x64.png'}
+            src={profile.profilePictureUrl || '/images/vision.jpg'}
             alt={`${profile.fullName}'s profile picture`}
             width={64}
             height={64}

@@ -185,7 +185,7 @@ export function JobPostingForm() {
                 <FormItem>
                   <FormLabel className="text-base">Company Logo URL (Optional)</FormLabel>
                   <FormControl>
-                    <Input placeholder="https://example.com/logo.png" {...field} value={field.value ?? ""} className="text-base" />
+                    <Input placeholder="/images/vision.jpg" {...field} value={field.value ?? ""} className="text-base" />
                   </FormControl>
                   <FormDescription>Provide a direct link to your company logo image.</FormDescription>
                   <FormMessage />
