@@ -163,7 +163,7 @@ export default function EmployerDashboardPage() {
             <CardDescription className="text-xs">Track views, applications, and hiring metrics.</CardDescription>
           </CardHeader>
           <CardContent className="flex-grow">
-            <Image src="/images/vision.jpg" alt="Analytics placeholder" width={200} height={100} className="mt-3 rounded-md mx-auto" data-ai-hint="dashboard charts graphs"/>
+            <Image src="https://placehold.co/200x100.png" alt="Analytics placeholder" width={200} height={100} className="mt-3 rounded-md mx-auto" data-ai-hint="dashboard charts graphs"/>
           </CardContent>
           <CardFooter>
             <Button asChild variant="outline" className="w-full">

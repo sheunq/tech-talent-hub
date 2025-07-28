@@ -21,6 +21,7 @@ export interface Job {
   tags?: string[];
   imageHint?: string; 
   applyUrl?: string;
+  requirements?: string;
 }
 
 interface JobCardProps {

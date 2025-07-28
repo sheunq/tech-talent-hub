@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { BellRing, Mail, AlertCircle, Loader2, Trash2 } from 'lucide-react';
+import { BellRing, Mail, AlertCircle, Loader2, Trash2, AlertTriangle } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { Switch } from '@/components/ui/switch';
 import Image from 'next/image';
@@ -38,76 +38,52 @@ export default function JobAlertsPage() {
   const [alerts, setAlerts] = useState<BackendStoredAlert[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
 
   async function fetchAlerts() {
     const contextPrefix = "[JobAlertsPage fetchAlerts]";
     setIsLoading(true);
+    setError(null);
     try {
       const response = await fetch('/api/alerts');
       if (!response.ok) {
         let errorMsg = `Failed to fetch alerts. Status: ${response.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
         try {
-          const text = await response.text();
-          if (text && typeof text === 'string') {
-            try {
-              const jsonError = JSON.parse(text);
-              errorDetails = jsonError.error || JSON.stringify(jsonError);
-            } catch (e) {
-              errorDetails = `Server response: ${text.substring(0, 500)}`;
-            }
-          } else if (text) {
-            errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-          }
+          const errorData = await response.json();
+          errorMsg += ` - ${errorData.error || 'Unknown API error'}`;
         } catch (e) {
-          errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
+          errorMsg += ` - Could not parse error response.`;
         }
-        errorMsg += `. ${errorDetails}`;
         throw new Error(errorMsg);
       }
       
-      let responseText;
-      try {
-        responseText = await response.text();
-      } catch (textError) {
-        console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read alerts response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-
-      console.log(`${contextPrefix} Preparing to parse. responseText type: ${typeof responseText}. Value (first 100 chars): '${String(responseText).substring(0,100)}'`);
-      if (responseText === undefined) {
-        console.error(`${contextPrefix} CRITICAL: responseText is undefined before JSON.parse. Possible external interference.`);
-        throw new Error("Received undefined alerts response body before JSON parsing. This is an unexpected state.");
-      }
-      if (typeof responseText !== 'string' || responseText.trim() === '') {
-        console.error(`${contextPrefix} API response for alerts was OK, but the response body was not a non-empty string. Type: ${typeof responseText}, Trimmed length: ${responseText?.trim().length ?? 'N/A'}.`);
-        throw new Error("API response for alerts was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-
+      const responseText = await response.text();
       let data: BackendStoredAlert[];
       try {
+        if (!responseText) {
+          throw new Error("API response for alerts was empty. This can be caused by browser extension interference (e.g., MetaMask). Please disable extensions and try again.");
+        }
         data = JSON.parse(responseText);
       } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from alerts response text. Response text (first 200 chars): ${responseText.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to parse API response content for alerts. Potential malformed JSON.`;
+        console.error(`${contextPrefix} Error parsing JSON from alerts response. Response text (first 200 chars): ${responseText.substring(0,200)}`, jsonParseError);
+        let descriptiveError = `Failed to parse API response content for alerts. This can be caused by browser extensions interfering with page loading.`;
         if (jsonParseError instanceof Error) {
           descriptiveError += ` Details: ${jsonParseError.message}`;
         }
         throw new Error(descriptiveError);
       }
-      if (data === undefined || data === null) {
-           console.error(`${contextPrefix} API response for alerts was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-           throw new Error("API response for alerts parsed to null or undefined, which is unexpected for a successful data fetch.");
-      }
       setAlerts(data);
 
-    } catch (error) {
-      console.error(`${contextPrefix} Error loading job alerts from API:`, error);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Could not load saved job alerts from the server.";
+      console.error(`${contextPrefix} Error loading job alerts from API:`, err);
+      setError(errorMessage);
       toast({
         title: "Load Error",
-        description: error instanceof Error ? error.message : "Could not load saved job alerts from the server.",
+        description: errorMessage,
         variant: "destructive",
+        duration: 10000,
       });
     } finally {
       setIsLoading(false);
@@ -153,58 +129,29 @@ export default function JobAlertsPage() {
 
       if (!response.ok) {
         let errorMsg = `Failed to create alert. Status: ${response.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
         try {
-          const text = await response.text();
-          if (text && typeof text === 'string') {
-            try {
-              const jsonError = JSON.parse(text);
-              errorDetails = jsonError.error || JSON.stringify(jsonError);
-            } catch (e) {
-              errorDetails = `Server response: ${text.substring(0, 500)}`;
-            }
-          } else if (text) {
-            errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-          }
+            const errorData = await response.json();
+            errorMsg += ` - ${errorData.error || 'Unknown API error'}`;
         } catch (e) {
-          errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
+          errorMsg += ` - Could not parse error response.`;
         }
-        errorMsg += `. ${errorDetails}`;
         throw new Error(errorMsg);
       }
       
-      let responseTextNewAlert;
-      try {
-        responseTextNewAlert = await response.text();
-      } catch (textError) {
-        console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read create alert response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-      
-      console.log(`${contextPrefix} Preparing to parse. responseTextNewAlert type: ${typeof responseTextNewAlert}. Value (first 100 chars): '${String(responseTextNewAlert).substring(0,100)}'`);
-      if (responseTextNewAlert === undefined) {
-        console.error(`${contextPrefix} CRITICAL: responseTextNewAlert is undefined before JSON.parse. Possible external interference.`);
-        throw new Error("Received undefined create alert response body before JSON parsing. This is an unexpected state.");
-      }
-      if (typeof responseTextNewAlert !== 'string' || responseTextNewAlert.trim() === '') {
-        console.error(`${contextPrefix} API response for create alert was OK, but the response body was not a non-empty string. Type: ${typeof responseTextNewAlert}, Trimmed length: ${responseTextNewAlert?.trim().length ?? 'N/A'}.`);
-        throw new Error("API response for create alert was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-
+      const responseTextNewAlert = await response.text();
       let newAlertFromServer;
       try {
+        if (!responseTextNewAlert) {
+          throw new Error("API response for create alert was empty. This may be caused by browser extension interference (e.g., MetaMask). Please disable extensions and try again.");
+        }
         newAlertFromServer = JSON.parse(responseTextNewAlert);
       } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from create alert response text. Response text (first 200 chars): ${responseTextNewAlert.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to process API response content after creating alert. Potential malformed JSON.`;
+        console.error(`${contextPrefix} Error parsing JSON from create alert response. Response text (first 200 chars): ${responseTextNewAlert.substring(0,200)}`, jsonParseError);
+        let descriptiveError = `Failed to process API response content after creating alert. Possible browser extension interference.`;
         if (jsonParseError instanceof Error) {
           descriptiveError += ` Details: ${jsonParseError.message}`;
         }
         throw new Error(descriptiveError);
-      }
-      if (newAlertFromServer === undefined || newAlertFromServer === null) {
-        console.error(`${contextPrefix} API response for create alert was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-        throw new Error("API response for create alert parsed to null or undefined, which is unexpected for a successful data fetch.");
       }
 
       setAlerts(prevAlerts => [newAlertFromServer, ...prevAlerts]);
@@ -224,6 +171,7 @@ export default function JobAlertsPage() {
         title: "Creation Error",
         description: error instanceof Error ? error.message : "Could not create alert.",
         variant: "destructive",
+        duration: 10000,
       });
     } finally {
       setIsSubmitting(false);
@@ -234,49 +182,15 @@ export default function JobAlertsPage() {
     const contextPrefix = "[JobAlertsPage handleDeleteAlert]";
     try {
       const response = await fetch(`/api/alerts/${id}`, { method: 'DELETE' });
-      if (!response.ok) {
+      if (!response.ok && response.status !== 204) {
         let errorMsg = `Failed to delete alert. Status: ${response.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
-        if (response.status !== 204) {
-            try {
-                const text = await response.text();
-                if (text && typeof text === 'string') {
-                    try {
-                      const jsonError = JSON.parse(text); 
-                      errorDetails = jsonError.error || JSON.stringify(jsonError);
-                    } catch (e) {
-                      errorDetails = `Server response: ${text.substring(0, 500)}`;
-                    }
-                } else if (text) {
-                    errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-                }
-            } catch (e) {
-                errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
-            }
-        }
-        errorMsg += `. ${errorDetails}`;
-        throw new Error(errorMsg);
-      }
-      
-      if (response.status === 204) {
-         console.log(`${contextPrefix} Alert deleted successfully (204 No Content).`);
-      } else {
-        let responseTextDelete;
         try {
-            responseTextDelete = await response.text();
-            console.log(`${contextPrefix} Preparing to parse from 200 OK. responseTextDelete type: ${typeof responseTextDelete}. Value (first 100 chars): '${String(responseTextDelete).substring(0,100)}'`);
-            if (responseTextDelete === undefined) {
-                 console.warn(`${contextPrefix} Delete alert response was OK (200), but responseTextDelete is undefined. This is unusual.`);
-            } else if (typeof responseTextDelete !== 'string' || responseTextDelete.trim() === '') {
-                 console.log(`${contextPrefix} Delete alert response was OK (200) but body was empty or not a string.`);
-            } else {
-                // Attempt to parse only if there's content, though not expected for this specific DELETE
-                // const result = JSON.parse(responseTextDelete); 
-                // console.log(`${contextPrefix} Parsed result from 200 OK:`, result);
-            }
+            const errorData = await response.json();
+            errorMsg += ` - ${errorData.error || 'Unknown API error'}`;
         } catch (e) {
-            console.warn(`${contextPrefix} Error processing response body from successful (200 OK) delete alert. Body might not have been JSON.`, e);
+            errorMsg += ` - Could not parse error response.`;
         }
+        throw new Error(errorMsg);
       }
       
       setAlerts(alerts.filter(alert => alert.id !== id));
@@ -291,6 +205,7 @@ export default function JobAlertsPage() {
             title: "Deletion Error",
             description: error instanceof Error ? error.message : "Could not delete alert.",
             variant: "destructive",
+            duration: 10000,
         });
     }
   };
@@ -410,6 +325,13 @@ export default function JobAlertsPage() {
               <Loader2 className="h-8 w-8 animate-spin text-primary mx-auto mb-2" />
               <p className="text-lg text-muted-foreground">Loading your alerts...</p>
           </div>
+      ) : error ? (
+            <div className="text-center py-10 bg-destructive/10 border border-destructive rounded-lg p-4">
+              <AlertTriangle className="h-8 w-8 text-destructive mx-auto mb-2" />
+              <p className="text-lg text-destructive font-semibold">Failed to Load Alerts</p>
+              <p className="text-sm text-destructive/80 max-w-md mx-auto">{error}</p>
+              <Button onClick={fetchAlerts} variant="destructive" className="mt-4">Try Again</Button>
+            </div>
       ) : alerts.length > 0 ? (
         <div className="space-y-6">
           <h2 className="text-2xl font-semibold text-center font-headline mb-6">Your Active Alerts</h2>
@@ -461,7 +383,7 @@ export default function JobAlertsPage() {
       ) : (
         <div className="text-center py-10 bg-card border rounded-xl shadow-sm">
           <Image
-            src="/images/vision.jpg"
+            src="https://placehold.co/180x135.png"
             alt="No alerts illustration"
             width={180}
             height={135}
@@ -477,4 +399,3 @@ export default function JobAlertsPage() {
     </div>
   );
 }
-    

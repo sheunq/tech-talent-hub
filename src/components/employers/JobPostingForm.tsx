@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 import { format } from "date-fns";
-import { Calendar as CalendarIcon, Briefcase, Check, Layers, BarChart, Building } from "lucide-react";
+import { Calendar as CalendarIcon, Briefcase, Check, Layers, Building, Link as LinkIcon, DollarSign, MapPin, Image as ImageIcon, KeyRound } from "lucide-react";
 
 import { Button } from '@/components/ui/button';
 import {
@@ -57,6 +57,7 @@ export function JobPostingForm() {
   const form = useForm<JobPostingFormValues>({
     resolver: zodResolver(JobPostingApiInputSchema),
     defaultValues: {
+      id: '',
       jobTitle: '',
       companyName: '',
       companyLogo: '',
@@ -69,6 +70,7 @@ export function JobPostingForm() {
       salaryMax: undefined,
       applicationDeadline: undefined,
       isFeatured: false,
+      applyUrl: '',
     },
   });
 
@@ -80,6 +82,7 @@ export function JobPostingForm() {
       ...data,
       salaryMin: data.salaryMin === undefined ? undefined : Number(data.salaryMin),
       salaryMax: data.salaryMax === undefined ? undefined : Number(data.salaryMax),
+      applyUrl: data.applyUrl || undefined,
     };
 
     try {
@@ -95,12 +98,15 @@ export function JobPostingForm() {
         let errorMsg = `API request failed with status: ${response.status}`;
         let errorDetails = 'An unknown error occurred.';
         try {
-          // Try to parse a structured JSON error from the API
           const errorData = await response.json();
           errorDetails = errorData.error || JSON.stringify(errorData);
         } catch (e) {
-          // If JSON parsing fails, it's likely an HTML error page (e.g., from a timeout) or an empty response.
-          errorDetails = `The server returned an unexpected response. This can happen during a server timeout. Please try again in a moment.`;
+          const responseText = await response.text();
+          if (!responseText) {
+              errorDetails = 'The server returned an empty response. This may be due to browser extension interference. Please try disabling extensions and reloading.';
+          } else {
+             errorDetails = `The server returned an unexpected response. Please try again.`;
+          }
         }
         errorMsg += ` - ${errorDetails}`;
         throw new Error(errorMsg);
@@ -135,7 +141,7 @@ export function JobPostingForm() {
             title: 'Error Submitting Job',
             description: description,
             variant: 'destructive',
-            duration: 8000,
+            duration: 10000,
         });
     }
   }
@@ -152,6 +158,20 @@ export function JobPostingForm() {
       <CardContent>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+            <FormField
+              control={form.control}
+              name="id"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-base flex items-center"><KeyRound className="mr-2 h-4 w-4 text-muted-foreground"/>Job Post ID (Slug)</FormLabel>
+                  <FormControl>
+                    <Input placeholder="e.g., senior-react-developer-new-york" {...field} value={field.value ?? ""} className="text-base" />
+                  </FormControl>
+                  <FormDescription>Optional. Provide a unique ID for this job post. If left blank, one will be generated. Use lowercase letters, numbers, and hyphens.</FormDescription>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
             <FormField
               control={form.control}
               name="jobTitle"
@@ -183,11 +203,11 @@ export function JobPostingForm() {
               name="companyLogo"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-base">Company Logo URL (Optional)</FormLabel>
+                  <FormLabel className="text-base flex items-center"><ImageIcon className="mr-2 h-4 w-4 text-muted-foreground"/>Company Logo Path (Optional)</FormLabel>
                   <FormControl>
-                    <Input placeholder="/images/vision.jpg" {...field} value={field.value ?? ""} className="text-base" />
+                    <Input placeholder="/images/your-logo.png" {...field} value={field.value ?? ""} className="text-base" />
                   </FormControl>
-                  <FormDescription>Provide a direct link to your company logo image.</FormDescription>
+                  <FormDescription>Provide the path to your logo from the `public/images` directory.</FormDescription>
                   <FormMessage />
                 </FormItem>
               )}
@@ -210,7 +230,7 @@ export function JobPostingForm() {
               name="requirements"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-base">Requirements</FormLabel>
+                  <FormLabel className="text-base">Requirements (Optional)</FormLabel>
                   <FormControl>
                     <Textarea placeholder="List key skills, experience, and qualifications..." {...field} rows={5} className="text-base" />
                   </FormControl>
@@ -248,7 +268,7 @@ export function JobPostingForm() {
                 name="salaryMin"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-base">Minimum Salary (Annual, Optional)</FormLabel>
+                    <FormLabel className="text-base flex items-center"><DollarSign className="mr-2 h-4 w-4 text-muted-foreground"/>Min Salary (Annual)</FormLabel>
                     <FormControl>
                       <Input type="number" placeholder="e.g., 80000" {...field} value={field.value ?? ""} onChange={e => field.onChange(e.target.value === "" ? undefined : e.target.valueAsNumber)} className="text-base" />
                     </FormControl>
@@ -261,7 +281,7 @@ export function JobPostingForm() {
                 name="salaryMax"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-base">Maximum Salary (Annual, Optional)</FormLabel>
+                    <FormLabel className="text-base flex items-center"><DollarSign className="mr-2 h-4 w-4 text-muted-foreground"/>Max Salary (Annual)</FormLabel>
                     <FormControl>
                       <Input type="number" placeholder="e.g., 120000" {...field} value={field.value ?? ""} onChange={e => field.onChange(e.target.value === "" ? undefined : e.target.valueAsNumber)} className="text-base" />
                     </FormControl>
@@ -275,7 +295,7 @@ export function JobPostingForm() {
               name="jobType"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-base">Job Type</FormLabel>
+                  <FormLabel className="text-base flex items-center"><Briefcase className="mr-2 h-4 w-4 text-muted-foreground"/>Job Type</FormLabel>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
                       <SelectTrigger className="text-base">
@@ -300,7 +320,7 @@ export function JobPostingForm() {
               name="location"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-base">Location</FormLabel>
+                  <FormLabel className="text-base flex items-center"><MapPin className="mr-2 h-4 w-4 text-muted-foreground"/>Location</FormLabel>
                   <FormControl>
                     <Input placeholder="e.g., San Francisco, CA or Remote" {...field} className="text-base" />
                   </FormControl>
@@ -310,10 +330,24 @@ export function JobPostingForm() {
             />
              <FormField
               control={form.control}
+              name="applyUrl"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel className="text-base flex items-center"><LinkIcon className="mr-2 h-4 w-4 text-muted-foreground"/>External Application URL (Optional)</FormLabel>
+                  <FormControl>
+                    <Input placeholder="https://yourcompany.com/careers/apply/123" {...field} value={field.value ?? ""} className="text-base" />
+                  </FormControl>
+                  <FormDescription>If provided, candidates will be sent to this URL to apply instead of applying on TekTunnel.</FormDescription>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+             <FormField
+              control={form.control}
               name="applicationDeadline"
               render={({ field }) => (
                 <FormItem className="flex flex-col">
-                  <FormLabel className="text-base">Application Deadline (Optional)</FormLabel>
+                  <FormLabel className="text-base flex items-center"><CalendarIcon className="mr-2 h-4 w-4 text-muted-foreground"/>Application Deadline (Optional)</FormLabel>
                   <Popover>
                     <PopoverTrigger asChild>
                       <FormControl>
@@ -387,6 +421,3 @@ export function JobPostingForm() {
     </Card>
   );
 }
-    
-
-    

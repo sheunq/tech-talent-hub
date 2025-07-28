@@ -1,10 +1,60 @@
 
-console.log("Attempting to load /api/jobs/route.ts module - Check server console");
-
 import { NextResponse } from 'next/server';
-import { z } from 'zod';
-import { JobPostingApiInputSchema } from '@/lib/schemas/job';
 import { getAllJobs, createJob, updateJobStatus, findJobById } from '@/services/jobDbService';
+import type { BackendStoredJob } from '@/lib/schemas/job';
+import { JobPostingApiInputSchema } from '@/lib/schemas/job';
+import { z } from 'zod';
+
+export async function GET(request: Request) {
+  console.log("====== /api/jobs GET handler invoked - Check server console ======");
+  try {
+    const { searchParams } = new URL(request.url);
+    const allJobs = await getAllJobs();
+    
+    // Start with only approved jobs
+    let filteredJobs = allJobs.filter(job => job.status === 'approved');
+
+    const keywords = searchParams.get('keywords')?.toLowerCase();
+    const location = searchParams.get('location')?.toLowerCase();
+    const jobType = searchParams.get('jobType');
+    const category = searchParams.get('category');
+    const salaryMinStr = searchParams.get('salaryMin');
+    const salaryMin = salaryMinStr ? parseInt(salaryMinStr, 10) : 0;
+
+    if (keywords) {
+      filteredJobs = filteredJobs.filter(job =>
+        job.jobTitle.toLowerCase().includes(keywords) ||
+        job.mainDescription.toLowerCase().includes(keywords) ||
+        job.companyName.toLowerCase().includes(keywords)
+      );
+    }
+    if (location) {
+      filteredJobs = filteredJobs.filter(job => job.location.toLowerCase().includes(location));
+    }
+    if (jobType) {
+      filteredJobs = filteredJobs.filter(job => job.jobType === jobType);
+    }
+    if (category) {
+      filteredJobs = filteredJobs.filter(job => job.jobCategory === category);
+    }
+    if (salaryMin > 0) {
+      filteredJobs = filteredJobs.filter(job => {
+        // We only check against the minimum salary of the job posting.
+        return job.salaryMin !== undefined && job.salaryMin >= salaryMin;
+      });
+    }
+
+    return NextResponse.json(filteredJobs);
+  } catch (error) {
+     console.error('Error fetching jobs:', error);
+     let errorMessage = 'Internal Server Error fetching jobs';
+     if (error instanceof Error) {
+         errorMessage = error.message;
+     }
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
+  }
+}
+
 
 export async function POST(request: Request) {
   console.log("====== /api/jobs POST handler invoked - Check server console ======");
@@ -23,21 +73,6 @@ export async function POST(request: Request) {
     if (error instanceof Error) {
         errorMessage = error.message;
     }
-    return NextResponse.json({ error: errorMessage }, { status: 500 });
-  }
-}
-
-export async function GET() {
-  console.log("====== /api/jobs GET handler invoked - Check server console ======");
-  try {
-    const jobs = await getAllJobs();
-    return NextResponse.json(jobs);
-  } catch (error) {
-     console.error('Error fetching jobs:', error);
-     let errorMessage = 'Internal Server Error fetching jobs';
-     if (error instanceof Error) {
-         errorMessage = error.message;
-     }
     return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }

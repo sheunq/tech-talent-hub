@@ -1,0 +1,45 @@
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Allow public read-only access to job listings.
+    // Writes should be handled by a secure backend/admin process.
+    match /jobs/{jobId} {
+      allow read: if true;
+      allow write: if false; // Block all client-side writes for security
+    }
+
+    // Allow any authenticated user to create an alert.
+    // Users can only read, update, or delete their own alerts.
+    match /alerts/{alertId} {
+      allow create: if request.auth != null;
+      allow read, update, delete: if request.auth != null && request.auth.uid == resource.data.userId;
+    }
+
+    // Allow any authenticated user to create an application.
+    // Users can only read their own applications.
+    match /applications/{applicationId} {
+      allow create: if request.auth != null;
+      allow read: if request.auth != null && request.auth.uid == resource.data.applicantId;
+    }
+
+    // Users can only manage their own candidate profile.
+    match /candidates/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Users can only read their own dashboard notifications.
+    match /dashboard_notifications/{notificationId} {
+       allow read: if request.auth != null && request.auth.uid == resource.data.userId;
+       // Creating notifications is handled by a server-side process (Genkit flow), not clients.
+       allow create, update, delete: if false;
+    }
+    
+    // Default deny for any other collections to maintain security.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -40,7 +40,7 @@ export default function AboutPage() {
           
           <section className="text-center">
              <Image 
-                src="/images/vision.jpg" 
+                src="https://placehold.co/600x300.png" 
                 alt="Team working together" 
                 width={600} 
                 height={300} 

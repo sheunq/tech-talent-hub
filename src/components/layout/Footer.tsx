@@ -1,6 +1,8 @@
 
 import Link from 'next/link';
 import { TekTunnelLogo } from '@/components/icons/TekTunnelLogo';
+import { Linkedin, Twitter } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,11 +10,28 @@ export function Footer() {
     <footer className="border-t border-border/40 bg-background/95 py-8 mt-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
-          <div className="md:col-span-2">
-            <Link href="/" className="inline-block mb-2">
-                 <TekTunnelLogo className="h-8 w-auto" />
-            </Link>
-            <p className="text-muted-foreground max-w-xs">Connecting talent with opportunity in the tech industry worldwide.</p>
+          <div className="md:col-span-2 space-y-4">
+            <div>
+                <Link href="/" className="inline-block mb-2">
+                    <TekTunnelLogo className="h-8 w-auto" />
+                </Link>
+                <p className="text-muted-foreground max-w-xs">Connecting talent with opportunity in the tech industry worldwide.</p>
+            </div>
+            <div>
+                <h4 className="font-semibold mb-2 text-foreground/90">Follow Us</h4>
+                <div className="flex space-x-2">
+                    <Button variant="outline" size="icon" asChild>
+                        <a href="https://x.com/TekTunnel" target="_blank" rel="noopener noreferrer" aria-label="TekTunnel on X">
+                            <Twitter className="h-4 w-4" />
+                        </a>
+                    </Button>
+                    <Button variant="outline" size="icon" asChild>
+                        <a href="https://www.linkedin.com/company/tektunnel" target="_blank" rel="noopener noreferrer" aria-label="TekTunnel on LinkedIn">
+                            <Linkedin className="h-4 w-4" />
+                        </a>
+                    </Button>
+                </div>
+            </div>
           </div>
           <div>
             <h4 className="font-semibold mb-3 text-foreground/90">Candidates</h4>
@@ -50,5 +69,3 @@ export function Footer() {
     </footer>
   );
 }
-
-    

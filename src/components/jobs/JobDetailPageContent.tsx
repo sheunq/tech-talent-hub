@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,21 +12,90 @@ import { ArrowLeft, MapPin, Briefcase, DollarSign, CalendarDays, Tag, AlertTrian
 import type { Job } from '@/components/jobs/JobCard';
 import { formatDistanceToNow } from 'date-fns';
 import { ApplicationButton } from '@/components/jobs/ApplicationButton';
+import type { BackendStoredJob } from '@/lib/schemas/job';
 
 interface JobDetailPageContentProps {
   jobId: string;
-  initialJob: Job | null;
-  initialRelatedJobs: Job[];
-  initialError: string | null;
 }
 
-export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, initialError }: JobDetailPageContentProps) {
+const extractTagsFromText = (text: string): string[] => {
+    const keywords = ['React', 'TypeScript', 'Next.js', 'GraphQL', 'Node.js', 'UI/UX Design', 'JavaScript', 'HTML5', 'CSS3', 'Redux', 'Jest', 'Webpack', 'Python', 'Django', 'Flask', 'Docker', 'AWS', 'GCP', 'Azure', 'PostgreSQL', 'REST APIs', 'Celery', 'Kubernetes', 'Terraform', 'CI/CD', 'Jenkins', 'Linux', 'Ansible', 'Docker Swarm', 'Prometheus', 'Grafana', 'Figma', 'Sketch', 'Adobe XD', 'SQL', 'R', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'NLP', 'Spark', 'Go', 'Security+', 'CEH', 'SIEM', 'React Native', 'Java', 'Kafka'];
+    const foundTags = new Set<string>();
+    
+    keywords.forEach(keyword => {
+        const escapedKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`\\b${escapedKeyword}\\b`, 'gi');
+        if (regex.test(text)) {
+            foundTags.add(keyword);
+        }
+    });
+    
+    return Array.from(foundTags).slice(0, 5);
+};
+
+
+const mapBackendJobToJobCard = (backendJob: BackendStoredJob): Job => {
+  let salaryRange: string | undefined = undefined;
+  if (backendJob.salaryMin && backendJob.salaryMax) {
+    salaryRange = `$${Math.round(backendJob.salaryMin / 1000)}k - $${Math.round(backendJob.salaryMax / 1000)}k`;
+  } else if (backendJob.salaryMin) {
+    salaryRange = `From $${Math.round(backendJob.salaryMin / 1000)}k`;
+  }
+  
+  const combinedTextForTags = `${backendJob.jobTitle} ${backendJob.mainDescription} ${backendJob.requirements}`;
+
+  return {
+    id: backendJob.id,
+    title: backendJob.jobTitle,
+    companyName: backendJob.companyName,
+    location: backendJob.location,
+    jobType: backendJob.jobType,
+    category: backendJob.jobCategory,
+    descriptionExcerpt: backendJob.mainDescription,
+    postedDate: backendJob.submittedDate,
+    salaryRange,
+    companyLogo: backendJob.companyLogo || 'https://placehold.co/100x100.png',
+    imageHint: 'company logo large generic',
+    tags: extractTagsFromText(combinedTextForTags),
+    applyUrl: backendJob.applyUrl,
+    requirements: backendJob.requirements,
+  };
+};
+
+export function JobDetailPageContent({ jobId }: JobDetailPageContentProps) {
   const router = useRouter();
   
-  const [job] = useState<Job | null>(initialJob);
-  const [relatedJobs] = useState<Job[]>(initialRelatedJobs);
-  const [error] = useState<string | null>(initialError);
-  const [isLoading] = useState(!initialJob && !initialError);
+  const [job, setJob] = useState<Job | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchJob() {
+      if (!jobId) return;
+      setIsLoading(true);
+      try {
+        const response = await fetch(`/api/jobs/${jobId}`);
+        if (!response.ok) {
+           let errorMsg = 'Job not found or is no longer available.';
+            try {
+                const errData = await response.json();
+                errorMsg = errData.error || errorMsg;
+            } catch(e) {
+                // Ignore if response is not JSON
+            }
+          throw new Error(errorMsg);
+        }
+        const jobData: BackendStoredJob = await response.json();
+        setJob(mapBackendJobToJobCard(jobData));
+      } catch (err: any) {
+        setError(err.message || 'An unexpected error occurred.');
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    fetchJob();
+  }, [jobId]);
 
   if (isLoading) {
     return (
@@ -52,7 +121,6 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
     );
   }
 
-  const fullDescription = job.descriptionExcerpt;
   const formattedPostedDate = job.postedDate ? formatDistanceToNow(new Date(job.postedDate), { addSuffix: true }) : null;
 
   return (
@@ -62,12 +130,12 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
       </Button>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2 space-y-8">
+        <div className="lg:col-span-3 space-y-8">
            <Card className="shadow-xl rounded-xl overflow-hidden">
             <CardHeader className="p-6 sm:p-8 bg-muted/30">
               <div className="flex flex-col sm:flex-row items-start gap-4">
                 <Image
-                  src={job.companyLogo || '/images/vision.jpg'}
+                  src={job.companyLogo || 'https://placehold.co/100x100.png'}
                   alt={`${job.companyName} logo`}
                   width={100}
                   height={100}
@@ -76,7 +144,7 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
                 />
                 <div className="flex-grow">
                   <h1 className="text-3xl sm:text-4xl font-bold font-headline mb-1">{job.title}</h1>
-                  <Link href="#" className="text-lg text-primary hover:underline">{job.companyName}</Link>
+                  <Link href={`/reviews/${job.companyName}`} className="text-lg text-primary hover:underline">{job.companyName}</Link>
                   <div className="flex items-center text-muted-foreground mt-1.5 text-sm">
                     <MapPin className="h-4 w-4 mr-1.5" /> {job.location}
                   </div>
@@ -125,9 +193,18 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
               <div>
                 <h2 className="text-2xl font-semibold font-headline mb-3">Job Description</h2>
                 <p className="text-foreground/90 leading-relaxed whitespace-pre-line">
-                  {fullDescription}
+                  {job.descriptionExcerpt}
                 </p>
               </div>
+
+              {job.requirements && (
+                <div>
+                  <h2 className="text-2xl font-semibold font-headline mb-3">Requirements</h2>
+                  <p className="text-foreground/90 leading-relaxed whitespace-pre-line">
+                    {job.requirements}
+                  </p>
+                </div>
+              )}
 
               {job.tags && job.tags.length > 0 && (
                 <div>
@@ -148,41 +225,6 @@ export function JobDetailPageContent({ jobId, initialJob, initialRelatedJobs, in
               <ApplicationButton jobId={job.id} applyUrl={job.applyUrl} />
             </CardFooter>
           </Card>
-          
-          {relatedJobs.length > 0 && (
-            <div className="mt-4">
-              <h2 className="text-2xl font-bold font-headline mb-4">Related Jobs</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {relatedJobs.map(relatedJob => (
-                  <Card key={relatedJob.id} className="hover:shadow-lg transition-shadow">
-                    <CardHeader className="p-4">
-                      <CardTitle className="text-base font-semibold leading-tight line-clamp-2">{relatedJob.title}</CardTitle>
-                      <CardDescription className="text-sm">{relatedJob.companyName}</CardDescription>
-                    </CardHeader>
-                    <CardContent className="p-4 pt-0 text-sm text-muted-foreground space-y-2">
-                       <div className="flex items-center">
-                        <MapPin className="h-4 w-4 mr-2 shrink-0" />
-                        <span>{relatedJob.location}</span>
-                      </div>
-                      <div className="flex items-center">
-                        <Briefcase className="h-4 w-4 mr-2 shrink-0" />
-                        <span>{relatedJob.jobType}</span>
-                      </div>
-                    </CardContent>
-                    <CardFooter className="p-4 pt-0">
-                      <Button asChild variant="secondary" size="sm" className="w-full">
-                        <Link href={`/jobs/${relatedJob.id}`}>View Job</Link>
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-        
-        <div className="lg:col-span-1">
-          {/* Ad unit removed */}
         </div>
       </div>
     </div>

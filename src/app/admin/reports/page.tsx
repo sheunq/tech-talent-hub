@@ -20,7 +20,7 @@ export default function AdminReportsPage() {
           and overall site traffic. Charts and data tables will be used for visualization.
         </p>
         <div className="border rounded-lg p-6 bg-muted/20 text-center">
-            <Image src="/images/vision.jpg" alt="Reports placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="analytics dashboard charts"/>
+            <Image src="https://placehold.co/400x200.png" alt="Reports placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="analytics dashboard charts"/>
             <p className="text-sm text-muted-foreground">Analytics dashboards and reporting tools will be implemented here.</p>
         </div>
       </CardContent>

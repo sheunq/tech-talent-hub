@@ -96,7 +96,7 @@ export default function JobSeekerDashboardPage() {
       <div className="bg-card p-6 rounded-xl shadow-lg">
         <div className="flex flex-col sm:flex-row items-center gap-4">
             <Image 
-                src={currentUser.photoURL || '/images/vision.jpg'}
+                src={currentUser.photoURL || 'https://placehold.co/80x80.png'}
                 alt="Your avatar"
                 width={80}
                 height={80}

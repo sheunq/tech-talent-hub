@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -26,7 +26,7 @@ interface JobSearchFiltersProps {
 }
 
 const jobTypes = ['Any Type', 'Full-time', 'Part-time', 'Contract', 'Internship', 'Hybrid', 'Remote'];
-const categories = ['Any Category', 'Software Engineering', 'Data Science', 'Product Management', 'Design', 'Marketing', 'Sales', 'DevOps', 'QA & Testing', 'Cybersecurity'];
+const categories = ['Any Category', 'Software Engineering', 'Data Science & Analytics', 'Product Management', 'UX/UI Design', 'DevOps & Site Reliability', 'Cybersecurity', 'IT Support & Infrastructure', 'AI & Machine Learning', 'Cloud Computing', 'Mobile Development', 'Web Development', 'QA & Testing', 'Marketing', 'Sales', 'Operations', 'Human Resources', 'Finance & Accounting', 'Other'];
 const MAX_SALARY = 250000;
 
 
@@ -35,12 +35,8 @@ export function JobSearchFilters({ onSearch, initialFilters = {}, isLoading = fa
   const [location, setLocation] = useState(initialFilters.location || '');
   const [jobType, setJobType] = useState(initialFilters.jobType || 'Any Type');
   const [category, setCategory] = useState(initialFilters.category || 'Any Category');
-  const [salaryRange, setSalaryRange] = useState<[number, number]>([initialFilters.salaryMin || 0, initialFilters.salaryMax || MAX_SALARY]);
+  const [salaryRange, setSalaryRange] = useState<[number, number]>([initialFilters.salaryMin || 0, MAX_SALARY]);
   
-  // Ensure salary display updates correctly if initialFilters change (though unlikely for this setup)
-  useEffect(() => {
-    setSalaryRange([initialFilters.salaryMin || 0, initialFilters.salaryMax || MAX_SALARY]);
-  }, [initialFilters.salaryMin, initialFilters.salaryMax]);
 
   const handleSearch = (e?: React.FormEvent) => {
     if (e) e.preventDefault();
@@ -50,7 +46,7 @@ export function JobSearchFilters({ onSearch, initialFilters = {}, isLoading = fa
       jobType: jobType === 'Any Type' ? '' : jobType,
       category: category === 'Any Category' ? '' : category,
       salaryMin: salaryRange[0],
-      salaryMax: salaryRange[1] === MAX_SALARY && salaryRange[0] > 0 ? Infinity : salaryRange[1], // Treat max slider as infinity if at max
+      salaryMax: salaryRange[1], 
     });
   };
 
@@ -92,6 +88,7 @@ export function JobSearchFilters({ onSearch, initialFilters = {}, isLoading = fa
               value={keywords}
               onChange={(e) => setKeywords(e.target.value)}
               className="text-base"
+              disabled={isLoading}
             />
           </div>
           <div className="space-y-1.5">
@@ -103,13 +100,14 @@ export function JobSearchFilters({ onSearch, initialFilters = {}, isLoading = fa
               value={location}
               onChange={(e) => setLocation(e.target.value)}
               className="text-base"
+              disabled={isLoading}
             />
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
           <div className="space-y-1.5">
             <Label htmlFor="jobType">Job Type</Label>
-            <Select value={jobType} onValueChange={setJobType}>
+            <Select value={jobType} onValueChange={setJobType} disabled={isLoading}>
               <SelectTrigger id="jobType" className="text-base">
                 <SelectValue placeholder="Select job type" />
               </SelectTrigger>
@@ -120,7 +118,7 @@ export function JobSearchFilters({ onSearch, initialFilters = {}, isLoading = fa
           </div>
           <div className="space-y-1.5">
             <Label htmlFor="category">Category</Label>
-            <Select value={category} onValueChange={setCategory}>
+            <Select value={category} onValueChange={setCategory} disabled={isLoading}>
               <SelectTrigger id="category" className="text-base">
                 <SelectValue placeholder="Select category" />
               </SelectTrigger>
@@ -138,17 +136,18 @@ export function JobSearchFilters({ onSearch, initialFilters = {}, isLoading = fa
             <span>${salaryRange[1].toLocaleString()}{salaryRange[1] === MAX_SALARY ? '+' : ''}</span>
           </div>
           <Slider
-            value={salaryRange}
+            value={[salaryRange[0]]}
             min={0}
             max={MAX_SALARY}
             step={5000}
-            onValueChange={(value) => setSalaryRange(value as [number,number])}
+            onValueChange={(value) => setSalaryRange([value[0], MAX_SALARY])}
             className="text-base"
+            disabled={isLoading}
           />
         </div>
 
         <div className="flex flex-col sm:flex-row justify-end gap-3 pt-2">
-          <Button variant="ghost" onClick={clearFilters} className="w-full sm:w-auto text-base" disabled={isLoading}>
+          <Button variant="ghost" type="button" onClick={clearFilters} className="w-full sm:w-auto text-base" disabled={isLoading}>
             <X className="mr-2 h-4 w-4" /> Clear Filters
           </Button>
           <Button type="submit" className="w-full sm:w-auto text-base" disabled={isLoading}>

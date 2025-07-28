@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ClipboardCheck, CheckCircle2, XCircle, RotateCcw, Eye, DollarSign, Layers, BarChart2, CalendarClock, Briefcase } from "lucide-react";
+import { ClipboardCheck, CheckCircle2, XCircle, RotateCcw, Eye, DollarSign, Layers, BarChart2, CalendarClock, Briefcase, AlertTriangle } from "lucide-react";
 import { useToast } from '@/hooks/use-toast';
 import {
   AlertDialog,
@@ -32,161 +32,87 @@ import { matchJobToAlerts, type JobToMatch, type UserAlert } from '@/ai/flows/jo
 import { sendJobAlertEmail, createDashboardNotification } from '@/services/notificationService';
 import type { BackendStoredJob } from '@/lib/schemas/job';
 import type { BackendStoredAlert } from '@/lib/schemas/alert';
+import { db } from '@/firebase/firebase';
+import { collection, onSnapshot, query, orderBy, Timestamp } from 'firebase/firestore';
 
 export default function AdminJobApprovalsPage() {
   const { toast } = useToast();
   const [jobs, setJobs] = useState<BackendStoredJob[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedJobDetails, setSelectedJobDetails] = useState<BackendStoredJob | null>(null);
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
 
-  async function fetchJobsAndAlertsData() {
-    const contextPrefix = "[AdminJobApprovals fetchJobsAndAlertsData - Jobs]";
-    setIsLoading(true);
-    try {
-      const jobsResponse = await fetch('/api/jobs');
-      if (!jobsResponse.ok) {
-        let errorMsg = `Failed to fetch jobs. Status: ${jobsResponse.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
-        try {
-          const text = await jobsResponse.text();
-          if (text && typeof text === 'string') {
-            try {
-              const jsonError = JSON.parse(text);
-              errorDetails = jsonError.error || JSON.stringify(jsonError);
-            } catch (e) {
-              errorDetails = `Server response: ${text.substring(0, 500)}`;
-            }
-          } else if (text) {
-            errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-          }
-        } catch (e) {
-          errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
-        }
-        errorMsg += `. ${errorDetails}`;
-        throw new Error(errorMsg);
-      }
-      
-      let jobsResponseText;
-      try {
-        jobsResponseText = await jobsResponse.text();
-      } catch (textError) {
-        console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read jobs response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-      
-      console.log(`${contextPrefix} Preparing to parse. jobsResponseText type: ${typeof jobsResponseText}. Value (first 100 chars): '${String(jobsResponseText).substring(0,100)}'`);
-      if (jobsResponseText === undefined) {
-          console.error(`${contextPrefix} CRITICAL: jobsResponseText is undefined before JSON.parse. Possible external interference (e.g., browser extension).`);
-          throw new Error("Received undefined jobs response body before JSON parsing. This is an unexpected state.");
-      }
-      if (typeof jobsResponseText !== 'string' || jobsResponseText.trim() === '') {
-           console.error(`${contextPrefix} API response for jobs was OK, but the response body was not a non-empty string. Type: ${typeof jobsResponseText}, Trimmed length: ${jobsResponseText?.trim().length ?? 'N/A'}.`);
-           throw new Error("API response for jobs was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-      
-      let jobsData: BackendStoredJob[];
-      try {
-        jobsData = JSON.parse(jobsResponseText);
-      } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from jobs response text. Response text (first 200 chars): ${jobsResponseText.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to process API response content for jobs. Potential malformed JSON.`;
-        if (jsonParseError instanceof Error) {
-          descriptiveError += ` Details: ${jsonParseError.message}`;
-        }
-        throw new Error(descriptiveError);
-      }
+  useEffect(() => {
+    const contextPrefix = "[AdminJobApprovals useEffect]";
+    setError(null);
 
-      if (jobsData === undefined || jobsData === null) {
-        console.error(`${contextPrefix} API response for jobs was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-        throw new Error("API response for jobs parsed to null or undefined, which is unexpected for a successful data fetch.");
-      }
+    const jobsQuery = query(collection(db, 'jobs'), orderBy('submittedDate', 'desc'));
+
+    const unsubscribe = onSnapshot(jobsQuery, (querySnapshot) => {
+      const jobsData = querySnapshot.docs.map(doc => {
+        const data = doc.data();
+        // Convert Firestore Timestamps to ISO strings for consistency
+        const submittedDate = data.submittedDate instanceof Timestamp ? data.submittedDate.toDate().toISOString() : data.submittedDate;
+        const applicationDeadline = data.applicationDeadline instanceof Timestamp ? data.applicationDeadline.toDate().toISOString() : data.applicationDeadline;
+        return { 
+          ...data,
+          id: doc.id,
+          submittedDate,
+          applicationDeadline
+        } as BackendStoredJob;
+      });
       setJobs(jobsData);
-      
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : "Could not load jobs from the server.";
-      let toastDescription = errorMessage;
-      if (errorMessage.includes('"undefined" is not valid JSON')) {
-          toastDescription = "A browser extension may be interfering with data loading. Please try disabling browser extensions and refreshing the page.";
-      }
-      console.error(`${contextPrefix} Error loading jobs from API:`, error);
+      setIsLoading(false);
+    }, (err) => {
+      const errorMessage = err instanceof Error ? err.message : "Could not load jobs from the server.";
+      console.error(`${contextPrefix} Error listening to jobs collection:`, err);
+      setError(errorMessage);
       toast({
         title: "Load Error",
-        description: toastDescription,
+        description: errorMessage,
         variant: "destructive",
         duration: 10000,
       });
       setJobs([]);
-    } finally {
       setIsLoading(false);
-    }
-  }
+    });
 
-  useEffect(() => {
-    fetchJobsAndAlertsData();
-  }, []);
+    // Cleanup subscription on component unmount
+    return () => unsubscribe();
+  }, [toast]);
 
 
   const triggerNotificationChecks = async (approvedJob: BackendStoredJob) => {
-    const contextPrefix = "[AdminJobApprovals triggerNotificationChecks - Alerts]";
+    const contextPrefix = "[AdminJobApprovals triggerNotificationChecks]";
     try {
       const alertsResponse = await fetch('/api/alerts'); 
       if (!alertsResponse.ok) {
-          let errorMsg = `Failed to fetch alerts for notification check. Status: ${alertsResponse.status}`;
-          let errorDetails = 'No additional error details could be retrieved from the response.';
-            try {
-              const text = await alertsResponse.text();
-              if (text && typeof text === 'string') {
-                try {
-                  const jsonError = JSON.parse(text);
-                  errorDetails = jsonError.error || JSON.stringify(jsonError);
-                } catch (e) {
-                  errorDetails = `Server response: ${text.substring(0, 500)}`;
-                }
-              } else if (text) {
-                errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-              }
-            } catch (e) {
-              errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
-            }
-            errorMsg += `. ${errorDetails}`;
-          throw new Error(errorMsg);
+        let errorMsg = `Failed to fetch alerts for notification check. Status: ${alertsResponse.status}`;
+        try {
+            const errorData = await alertsResponse.json();
+            errorMsg += ` - ${errorData.error || 'Unknown API error'}`;
+        } catch (e) {
+            errorMsg += ` - Could not parse error response.`;
+        }
+        throw new Error(errorMsg);
       }
 
-      let alertsResponseText;
-      try {
-        alertsResponseText = await alertsResponse.text();
-      } catch (textError) {
-        console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read alerts response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-
-      console.log(`${contextPrefix} Preparing to parse. alertsResponseText type: ${typeof alertsResponseText}. Value (first 100 chars): '${String(alertsResponseText).substring(0,100)}'`);
-      if (alertsResponseText === undefined) {
-          console.error(`${contextPrefix} CRITICAL: alertsResponseText is undefined before JSON.parse. Possible external interference.`);
-          throw new Error("Received undefined alerts response body before JSON parsing. This is an unexpected state.");
-      }
-      if (typeof alertsResponseText !== 'string' || alertsResponseText.trim() === '') {
-          console.error(`${contextPrefix} API response for alerts was OK, but the response body was not a non-empty string. Type: ${typeof alertsResponseText}, Trimmed length: ${alertsResponseText?.trim().length ?? 'N/A'}.`);
-          throw new Error("API response for alerts was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-      
+      const alertsResponseText = await alertsResponse.text();
       let backendAlerts: BackendStoredAlert[];
       try {
+        if (!alertsResponseText) {
+            throw new Error("API response for alerts was empty. This can be caused by browser extension interference (e.g., MetaMask). Please disable extensions and try again.");
+        }
         backendAlerts = JSON.parse(alertsResponseText);
       } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from alerts response text. Response text (first 200 chars): ${alertsResponseText.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to process API response content for alerts. Potential malformed JSON.`;
+        console.error(`${contextPrefix} Error parsing JSON from alerts response. Response text (first 200 chars): ${alertsResponseText.substring(0,200)}`, jsonParseError);
+        let descriptiveError = `Failed to process API response content for alerts. This can be caused by browser extensions. Try disabling them and reloading.`;
         if (jsonParseError instanceof Error) {
           descriptiveError += ` Details: ${jsonParseError.message}`;
         }
         throw new Error(descriptiveError);
       }
-       if (backendAlerts === undefined || backendAlerts === null) {
-          console.error(`${contextPrefix} API response for alerts was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-          throw new Error("API response for alerts parsed to null or undefined, which is unexpected for a successful data fetch.");
-       }
-
 
       if (backendAlerts.length === 0) {
         console.log("No active job alerts (from API) to check against.");
@@ -246,13 +172,9 @@ export default function AdminJobApprovalsPage() {
     } catch (err) {
       console.error("Error during notification check:", err);
       const errorMessage = err instanceof Error ? err.message : "Could not process job alerts for this job.";
-      let toastDescription = errorMessage;
-      if (errorMessage.includes('"undefined" is not valid JSON')) {
-          toastDescription = "A browser extension may be interfering with data loading. Please try disabling browser extensions and refreshing the page.";
-      }
       toast({
         title: "Notification Check Error",
-        description: toastDescription,
+        description: errorMessage,
         variant: "destructive",
         duration: 10000,
       });
@@ -271,61 +193,31 @@ export default function AdminJobApprovalsPage() {
 
       if (!response.ok) {
         let errorMsg = `Failed to update job status. Status: ${response.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
         try {
-          const text = await response.text();
-          if (text && typeof text === 'string') {
-            try {
-              const jsonError = JSON.parse(text);
-              errorDetails = jsonError.error || JSON.stringify(jsonError);
-            } catch (e) {
-              errorDetails = `Server response: ${text.substring(0, 500)}`;
-            }
-          } else if (text) {
-            errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-          }
+            const errorData = await response.json();
+            errorMsg += ` - ${errorData.error || 'Unknown API error'}`;
         } catch (e) {
-          errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
+           errorMsg += ` - Could not parse error response.`;
         }
-        errorMsg += `. ${errorDetails}`;
         throw new Error(errorMsg);
       }
       
-      let responseTextUpdateJob;
+      const responseTextUpdateJob = await response.text();
       try {
-        responseTextUpdateJob = await response.text();
-      } catch (textError) {
-        console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read job update response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-
-      console.log(`${contextPrefix} Preparing to parse. responseTextUpdateJob type: ${typeof responseTextUpdateJob}. Value (first 100 chars): '${String(responseTextUpdateJob).substring(0,100)}'`);
-      if (responseTextUpdateJob === undefined) {
-          console.error(`${contextPrefix} CRITICAL: responseTextUpdateJob is undefined before JSON.parse. Possible external interference.`);
-          throw new Error("Received undefined job update response body before JSON parsing. This is an unexpected state.");
-      }
-      if (typeof responseTextUpdateJob !== 'string' || responseTextUpdateJob.trim() === '') {
-          console.error(`${contextPrefix} API response for job update was OK, but the response body was not a non-empty string. Type: ${typeof responseTextUpdateJob}, Trimmed length: ${responseTextUpdateJob?.trim().length ?? 'N/A'}.`);
-          throw new Error("API response for job update was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-      
-      let updatedJob;
-      try {
-        updatedJob = JSON.parse(responseTextUpdateJob);
+        if (!responseTextUpdateJob) {
+          throw new Error("API response for job update was empty. This may be caused by browser extension interference (e.g., MetaMask). Please disable extensions and try again.");
+        }
+        JSON.parse(responseTextUpdateJob);
       } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from job update response text. Response text (first 200 chars): ${responseTextUpdateJob.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to process API response content after job update. Potential malformed JSON.`;
+        console.error(`${contextPrefix} Error parsing JSON from job update response. Response text (first 200 chars): ${responseTextUpdateJob.substring(0,200)}`, jsonParseError);
+        let descriptiveError = `Failed to process API response content after job update. Possible browser extension interference.`;
         if (jsonParseError instanceof Error) {
           descriptiveError += ` Details: ${jsonParseError.message}`;
         }
         throw new Error(descriptiveError);
       }
-      if (updatedJob === undefined || updatedJob === null) {
-          console.error(`${contextPrefix} API response for job update was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-          throw new Error("API response for job update parsed to null or undefined, which is unexpected for a successful data fetch.");
-      }
       
-      setJobs(prevJobs => prevJobs.map(job => job.id === id ? { ...job, status: newStatus } : job));
+      // State is now managed by the real-time listener, no need for setJobs
       
       toast({
         title: `Job ${newStatus === 'approved' ? 'Approved' : 'Rejected'}`,
@@ -341,13 +233,9 @@ export default function AdminJobApprovalsPage() {
     } catch (error) {
       console.error(`${contextPrefix} Error updating job status:`, error);
       const errorMessage = error instanceof Error ? error.message : "Could not update job status.";
-      let toastDescription = errorMessage;
-      if (errorMessage.includes('"undefined" is not valid JSON')) {
-          toastDescription = "A browser extension may be interfering with data loading. Please try disabling browser extensions and refreshing the page.";
-      }
       toast({
         title: "Update Error",
-        description: toastDescription,
+        description: errorMessage,
         variant: "destructive",
         duration: 10000,
       });
@@ -364,61 +252,31 @@ export default function AdminJobApprovalsPage() {
       });
       if (!response.ok) {
         let errorMsg = `Failed to reset job status. Status: ${response.status}`;
-        let errorDetails = 'No additional error details could be retrieved from the response.';
         try {
-          const text = await response.text();
-          if (text && typeof text === 'string') {
-            try {
-              const jsonError = JSON.parse(text);
-              errorDetails = jsonError.error || JSON.stringify(jsonError);
-            } catch (e) {
-              errorDetails = `Server response: ${text.substring(0, 500)}`;
-            }
-          } else if (text) {
-            errorDetails = `Received non-string response body: ${String(text).substring(0,500)}`;
-          }
+            const errorData = await response.json();
+            errorMsg += ` - ${errorData.error || 'Unknown API error'}`;
         } catch (e) {
-           errorDetails = `Error reading response body: ${e instanceof Error ? e.message : String(e)}`;
+           errorMsg += ` - Could not parse error response.`;
         }
-        errorMsg += `. ${errorDetails}`;
         throw new Error(errorMsg);
       }
 
-      let responseTextResetJob;
+      const responseTextResetJob = await response.text();
       try {
-        responseTextResetJob = await response.text();
-      } catch (textError) {
-         console.error(`${contextPrefix} Error reading response body as text (even though response was OK):`, textError);
-        throw new Error(`Failed to read job reset response body: ${textError instanceof Error ? textError.message : String(textError)}`);
-      }
-
-      console.log(`${contextPrefix} Preparing to parse. responseTextResetJob type: ${typeof responseTextResetJob}. Value (first 100 chars): '${String(responseTextResetJob).substring(0,100)}'`);
-      if(responseTextResetJob === undefined) {
-          console.error(`${contextPrefix} CRITICAL: responseTextResetJob is undefined before JSON.parse. Possible external interference.`);
-          throw new Error("Received undefined job reset response body before JSON parsing. This is an unexpected state.");
-      }
-      if(typeof responseTextResetJob !== 'string' || responseTextResetJob.trim() === '') {
-          console.error(`${contextPrefix} API response for job reset was OK, but the response body was not a non-empty string. Type: ${typeof responseTextResetJob}, Trimmed length: ${responseTextResetJob?.trim().length ?? 'N/A'}.`);
-          throw new Error("API response for job reset was OK, but the response body was empty, null, or not a string after attempting to read it.");
-      }
-      
-      let resetJob;
-      try {
-        resetJob = JSON.parse(responseTextResetJob);
+        if (!responseTextResetJob) {
+            throw new Error("API response for job reset was empty. This may be caused by browser extension interference (e.g., MetaMask). Please disable extensions and try again.");
+        }
+        JSON.parse(responseTextResetJob);
       } catch (jsonParseError) {
-        console.error(`${contextPrefix} Error parsing JSON from job reset response text. Response text (first 200 chars): ${responseTextResetJob.substring(0,200)}`, jsonParseError);
-        let descriptiveError = `Failed to process API response content after job reset. Potential malformed JSON.`;
+        console.error(`${contextPrefix} Error parsing JSON from job reset response. Response text (first 200 chars): ${responseTextResetJob.substring(0,200)}`, jsonParseError);
+        let descriptiveError = `Failed to process API response content after job reset. Possible browser extension interference.`;
         if (jsonParseError instanceof Error) {
           descriptiveError += ` Details: ${jsonParseError.message}`;
         }
         throw new Error(descriptiveError);
       }
-      if (resetJob === undefined || resetJob === null) {
-        console.error(`${contextPrefix} API response for job reset was OK, and JSON parsing succeeded, but the resulting data is null or undefined.`);
-        throw new Error("API response for job reset parsed to null or undefined, which is unexpected for a successful data fetch.");
-      }
 
-      setJobs(prevJobs => prevJobs.map(job => job.id === id ? { ...job, status: 'pending' } : job));
+      // State is now managed by the real-time listener, no need for setJobs
       toast({
         title: "Job Status Reset",
         description: "The job post status has been reset to pending.",
@@ -427,13 +285,9 @@ export default function AdminJobApprovalsPage() {
     } catch (error) {
       console.error(`${contextPrefix} Error resetting job status:`, error);
       const errorMessage = error instanceof Error ? error.message : "Could not reset job status.";
-      let toastDescription = errorMessage;
-      if (errorMessage.includes('"undefined" is not valid JSON')) {
-          toastDescription = "A browser extension may be interfering with data loading. Please try disabling browser extensions and refreshing the page.";
-      }
       toast({
         title: "Reset Error",
-        description: toastDescription,
+        description: errorMessage,
         variant: "destructive",
         duration: 10000,
       });
@@ -465,17 +319,19 @@ export default function AdminJobApprovalsPage() {
           <ClipboardCheck className="h-8 w-8 text-primary" />
           <CardTitle className="font-headline text-2xl">Job Post Management</CardTitle>
         </div>
-        <CardDescription>Review, approve, or reject job postings. Approving a job will check for matching user alerts from the system.</CardDescription>
+        <CardDescription>Review, approve, or reject job postings. The list updates in real-time. Approving a job will check for matching user alerts.</CardDescription>
       </CardHeader>
       <CardContent>
-        <Button onClick={fetchJobsAndAlertsData} disabled={isLoading} className="mb-4">
-          {isLoading ? <RotateCcw className="mr-2 h-4 w-4 animate-spin" /> : <RotateCcw className="mr-2 h-4 w-4" />}
-          Refresh Job List
-        </Button>
         {isLoading ? (
             <div className="text-center py-10">
                 <RotateCcw className="h-8 w-8 animate-spin text-primary mx-auto mb-2" />
-                <p className="text-lg text-muted-foreground">Loading jobs...</p>
+                <p className="text-lg text-muted-foreground">Loading real-time job list...</p>
+            </div>
+        ) : error ? (
+            <div className="text-center py-10 bg-destructive/10 border border-destructive rounded-lg p-4">
+              <AlertTriangle className="h-8 w-8 text-destructive mx-auto mb-2" />
+              <p className="text-lg text-destructive font-semibold">Failed to Load Jobs</p>
+              <p className="text-sm text-destructive/80 max-w-md mx-auto">{error}</p>
             </div>
         ) : jobs.length === 0 ? (
             <div className="text-center py-10 bg-muted/20 rounded-lg">
@@ -648,6 +504,3 @@ export default function AdminJobApprovalsPage() {
     </>
   );
 }
-    
-
-    

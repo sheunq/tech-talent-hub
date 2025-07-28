@@ -96,7 +96,12 @@ export function AuthForm({
       handleSuccessRedirect();
     } catch (error: any) {
       console.error('Firebase Login Error:', error);
-      const errorMessage = error.code ? error.code.replace('auth/', '').replace(/-/g, ' ') : 'An unknown error occurred.';
+      let errorMessage = 'An unknown error occurred.';
+      if (error.code === 'auth/invalid-credential' || error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password' || error.code === 'auth/invalid-login-credentials') {
+        errorMessage = 'Invalid email or password. Please try again.';
+      } else if (error.code) {
+        errorMessage = error.code.replace('auth/', '').replace(/-/g, ' ');
+      }
       setAuthError(errorMessage); 
       toast({
         title: 'Login Failed',
@@ -125,12 +130,13 @@ export function AuthForm({
         body: JSON.stringify({ role: formType }),
       });
       
+      // Force refresh the token to get the new custom claim immediately.
       await user.getIdToken(true);
 
       await sendVerificationEmail(userCredential.user);
       toast({
         title: 'Signup Successful!',
-        description: `Welcome to TekTunnel! A verification email has been sent to ${data.email}. Please verify your email to login.`,
+        description: `Welcome! A verification email has been sent to ${data.email}. Please verify to login.`,
       });
        const newPath = formType === 'jobSeeker' ? '/job-seekers/auth' : '/employers/auth';
        router.push(newPath); 
@@ -166,6 +172,7 @@ export function AuthForm({
             },
             body: JSON.stringify({ role: formType }),
           });
+          // Force refresh the token to get the new custom claim immediately.
           await user.getIdToken(true);
         }
 

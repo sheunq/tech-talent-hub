@@ -75,26 +75,44 @@ export async function createJob(jobData: JobPostingApiInput): Promise<BackendSto
   if (!jobsCollection) {
     throw new Error("jobDbService: Firestore Admin SDK not initialized, cannot create job.");
   }
-  const submittedDate = new Date().toISOString();
   const status = 'pending' as const;
+  
+  const { id: customId, ...jobDataWithoutId } = jobData;
 
-  const docDataForFirestore = {
-    ...jobData,
-    submittedDate: Timestamp.fromDate(new Date(submittedDate)), // Store as Timestamp
+  // Use a server-side timestamp for submittedDate
+  const docDataForFirestore: any = {
+    ...jobDataWithoutId,
+    submittedDate: Timestamp.now(), // Store as Timestamp
     status,
-    applicationDeadline: jobData.applicationDeadline ? Timestamp.fromDate(jobData.applicationDeadline) : FieldValue.delete(),
   };
+  
+  if (jobData.applicationDeadline) {
+    docDataForFirestore.applicationDeadline = Timestamp.fromDate(jobData.applicationDeadline);
+  }
 
   // The admin SDK does not automatically ignore undefined fields, so we clean them up.
-  Object.keys(docDataForFirestore).forEach(key => (docDataForFirestore as any)[key] === undefined && delete (docDataForFirestore as any)[key]);
+  Object.keys(docDataForFirestore).forEach(key => docDataForFirestore[key] === undefined && delete docDataForFirestore[key]);
+  
+  let docRef;
+  if (customId) {
+    docRef = jobsCollection.doc(customId);
+    await docRef.set(docDataForFirestore);
+  } else {
+    docRef = await jobsCollection.add(docDataForFirestore);
+  }
+  
+  // To return the full object, we need to fetch the newly created doc to get the timestamp
+  const newDocSnap = await docRef.get();
+  const newJobData = newDocSnap.data();
 
-
-  const docRef = await jobsCollection.add(docDataForFirestore);
+  if (!newJobData || !(newJobData.submittedDate instanceof Timestamp)) {
+      throw new Error("Failed to create job with a valid submission date.");
+  }
 
   const newJob: BackendStoredJob = {
-    ...jobData,
+    ...(jobData as Omit<JobPostingApiInput, 'applicationDeadline'> & { applicationDeadline?: Date }),
     id: docRef.id,
-    submittedDate,
+    submittedDate: newJobData.submittedDate.toDate().toISOString(),
     status,
   };
 

@@ -23,6 +23,7 @@ export default function MyPostingsPage() {
     setIsLoading(true);
     setError(null);
     try {
+      // In a real app, this would be a filtered API call, e.g., `/api/jobs?employerId=...`
       const response = await fetch('/api/jobs');
       if (!response.ok) {
         let errorMsg = `Failed to fetch jobs. Status: ${response.status}`;
@@ -34,45 +35,36 @@ export default function MyPostingsPage() {
         }
         throw new Error(errorMsg);
       }
-      let responseText;
+      
+      const responseText = await response.text();
+      let data: BackendStoredJob[];
       try {
-        responseText = await response.text();
-      } catch (textError) {
-        console.error(`${contextPrefix} Error reading response body as text:`, textError);
-        throw new Error(`Failed to read jobs response body: ${textError instanceof Error ? textError.message : String(textError)}`);
+           if (!responseText) {
+               throw new Error("API response for jobs was empty. This can be caused by browser extension interference (e.g., MetaMask). Please disable extensions and try again.");
+          }
+        data = JSON.parse(responseText);
+      } catch (err) {
+        console.error(`${contextPrefix} Error parsing JSON:`, err, "Response text (first 200 chars):", responseText.substring(0,200));
+        let descriptiveError = `Failed to process job data from the server. This can be caused by a browser extension (like MetaMask) interfering with the page. Please try disabling extensions and reloading.`;
+        if(err instanceof Error) {
+            descriptiveError += ` Details: ${err.message}`;
+        }
+        throw new Error(descriptiveError);
       }
-      if (responseText === undefined) {
-          console.error(`${contextPrefix} CRITICAL: responseText is undefined before JSON.parse.`);
-          throw new Error("Received undefined jobs response body.");
-      }
-      if (typeof responseText !== 'string' || responseText.trim() === '') {
-           console.error(`${contextPrefix} API response was OK, but the response body was not a non-empty string.`);
-           throw new Error("API response for jobs was OK, but the response body was empty or not a string.");
-      }
-      const data: BackendStoredJob[] = JSON.parse(responseText);
-      // In a real app, you'd filter these jobs by the current employer's ID
+
+      // In a real app, you'd filter these jobs by the current employer's ID on the backend
+      // For now, we show all jobs for demonstration.
       setJobs(data);
     } catch (err) {
       console.error(`${contextPrefix} Error loading jobs:`, err);
       const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
-      
-      if (errorMessage.includes('"undefined" is not valid JSON')) {
-        const specificError = "A browser extension may be interfering with data loading. Please try disabling browser extensions and refreshing the page.";
-        setError(specificError);
-        toast({
-          title: 'Data Parsing Error',
-          description: specificError,
-          variant: 'destructive',
-          duration: 10000,
-        });
-      } else {
-        setError(errorMessage);
-        toast({
-          title: 'Error Loading Jobs',
-          description: errorMessage,
-          variant: 'destructive',
-        });
-      }
+      setError(errorMessage);
+      toast({
+        title: 'Error Loading Jobs',
+        description: errorMessage,
+        variant: 'destructive',
+        duration: 10000,
+      });
     } finally {
       setIsLoading(false);
     }
@@ -80,7 +72,7 @@ export default function MyPostingsPage() {
 
   useEffect(() => {
     fetchJobs();
-  }, []);
+  }, [toast]); // Added toast to dependency array
 
   const getStatusBadgeVariant = (status: BackendStoredJob['status']) => {
     switch (status) {
@@ -125,7 +117,7 @@ export default function MyPostingsPage() {
             <div className="text-center py-10 bg-destructive/10 border border-destructive rounded-lg p-4">
               <AlertTriangle className="h-8 w-8 text-destructive mx-auto mb-2" />
               <p className="text-lg text-destructive font-semibold">Failed to Load Job Postings</p>
-              <p className="text-sm text-destructive/80">{error}</p>
+              <p className="text-sm text-destructive/80 max-w-md mx-auto">{error}</p>
               <Button onClick={fetchJobs} variant="destructive" className="mt-4">Try Again</Button>
             </div>
           )}
@@ -180,5 +172,3 @@ export default function MyPostingsPage() {
     </div>
   );
 }
-
-    

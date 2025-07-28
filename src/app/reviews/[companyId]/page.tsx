@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -45,619 +46,139 @@ interface Review {
   author: string;
   submittedAt: string;
 }
+
 const mockCompanies: Company[] = [
   { 
-    id: 'job-salary-interview-review-in-Grammarly', 
+    id: 'Grammarly', 
     name: 'Grammarly', 
-    logoUrl: '/images/Grammarly.png', 
-    imageHint: 'Grammarly logo',
+    logoUrl: '/images/grammarly.png', 
+    imageHint: 'grammarly logo',
     industry: 'AI & Natural Language Processing',
     headquarters: 'San Francisco, CA',
     website: 'https://www.grammarly.com/jobs',
     description: 'Grammarly is a global company that offers an AI-powered writing assistant. It helps users communicate more effectively by providing suggestions for grammar, spelling, clarity, and style. Millions of users and thousands of teams around the world trust Grammarly to improve their writing.',
     photos: [
-      { url: '/images/Grammarly1.png', hint: 'office interior team' },
-      { url: '/images/Grammarly4.jpg', hint: 'people collaborating presentation' },
-      { url: '/images/Grammarly3.png', hint: 'modern office space' },
+      { url: 'https://placehold.co/600x400.png', hint: 'office interior team' },
+      { url: 'https://placehold.co/600x400.png', hint: 'people collaborating presentation' },
+      { url: 'https://placehold.co/600x400.png', hint: 'modern office space' },
     ]
   },
   { 
-    id: 'job-salary-interview-review-in-harbingermotors', 
-    name: 'harbingermotors', 
-    logoUrl: '/images/harbingermotors.png', 
-    imageHint: 'harbingermotors logo',
-    industry: 'vehicle industry',
-    headquarters: '12821 Knott St, Garden Grove, CA 92841',
-    website: 'https://harbingermotors.com/',
-    description: 'BUILT WITHOUT COMPROMISE \
-We founded Harbinger with a mission to modernize the medium-duty vehicle industry. Leveraging deep experience in electrification, Harbinger is delivering to the market an EV platform offering best-in-class performance and durability priced for zero cost acquisition premium.',
+    id: 'skynet-systems', 
+    name: 'SkyNet Systems', 
+    logoUrl: 'https://placehold.co/100x100.png', 
+    imageHint: 'SkyNet Systems logo',
+    industry: 'Cloud Infrastructure & AI',
+    headquarters: 'Cheyenne Mountain, CO',
+    website: 'https://example.com/skynet',
+    description: 'SkyNet Systems is a leader in global defense and cloud infrastructure. We are developing next-generation artificial intelligence to automate and secure critical systems worldwide. Our work is at the forefront of machine learning and large-scale distributed computing.',
     photos: [
-      { url: '/images/Harbinger1.png', hint: 'data center servers' },
-      { url: '/images/Harbinger2.png', hint: 'futuristic network hub' },
+      { url: 'https://placehold.co/600x400.png', hint: 'data center servers' },
+      { url: 'https://placehold.co/600x400.png', hint: 'futuristic network hub' },
     ]
   },
   { 
-    id: 'job-salary-interview-review-in-Xero', 
-    name: 'Xero', 
-    logoUrl: '/images/xero.png', 
+    id: 'pixel-perfect-co', 
+    name: 'Pixel Perfect Co.', 
+    logoUrl: 'https://placehold.co/100x100.png', 
     imageHint: 'Pixel Perfect logo',
-    industry: 'Accounting Software',
+    industry: 'Digital Design & Branding',
     headquarters: 'New York, NY',
-    website: 'https://www.xero.com/',
-    description: 'Accounting software made for small businesses and sole traders. Xero’s online accounting software connects small business owners with their numbers, their bank, and advisors at anytime. \n Founded in 2006, Xero now has 4.4 million subscribers and is a leader in cloud accounting across New Zealand, Australia and the United Kingdom.',
+    website: 'https://example.com/pixelperfect',
+    description: 'Pixel Perfect Co. is a boutique design agency specializing in creating beautiful and intuitive user experiences. We partner with startups and established brands to build memorable websites, mobile apps, and digital products.',
     photos: [
-      { url: '/images/Xero1.png', hint: 'xero' },
-      
+      { url: 'https://placehold.co/600x400.png', hint: 'design studio moodboard' },
     ]
   },
   { 
-    id: 'job-salary-interview-review-in-portronics', 
-    name: 'Portronics', 
-    logoUrl: '/images/portronics.png', 
-    imageHint: 'Portronics logo',
-    industry: 'Tech Accessories',
-    headquarters: 'Floor 10, Plot. - 6, Sector 14 Dwarka, Dwarka, New Delhi, Delhi 110075, India',
-    website: 'https://www.portronics.com/pages/about-us',
-    description: 'In 2010, Portronics took its first step into the industry and had reformed the dimensions of Consumer Electronics Space. With over 1600+ successful product launches and innovations, we stand first in revolutionizing the Portable & Innovative technology that has been dominating the Indian landscape. \
-Portronics gave birth to the first-ever idea of introducing Indian technology to Innovative Portable Bluetooth speakers, earphones, car accessories, hubs & cables, power banks, and many more. \
-Our consistent growth in the industry and quality services gives our vision an uplifting platform in the industry.',
+    id: 'dev-solutions', 
+    name: 'DevSolutions', 
+    logoUrl: '/images/devsolutions-logo.png', 
+    imageHint: 'DevSolutions logo',
+    industry: 'Developer Tools & PaaS',
+    headquarters: 'Austin, TX',
+    website: 'https://example.com/devsolutions',
+    description: 'DevSolutions builds powerful tools for developers. From our blazing-fast IDE to our seamless deployment platform, we help engineering teams ship better software, faster. Our mission is to improve the lives of developers.',
      photos: [
-      { url: '/images/Portronics1.png', hint: 'developer coding screen' },
-      { url: '/images/Portronics2.png', hint: 'team code review' },
-    ]
-  },
-
-    { 
-    id: 'job-salary-interview-review-in-deloitte', 
-    name: 'Deloitte', 
-    logoUrl: '/images/deloitte.png', 
-    imageHint: 'deloitte logo',
-    industry: 'Tech Accessories',
-    headquarters: 'London, UK',
-    website: 'https://www.deloitte.com/',
-    description: 'At Deloitte, we make an impact that matters \
-For over 175 years, we have worked with leaders around the world—from the Global 500® to private businesses—to help them build better futures. To support their people. To succeed. All while caring for our communities. \
-With a workforce made up of the industry’s greatest minds, we continue to shape the future by delivering real, measurable results. We go beyond talk—we act. ',
-     photos: [
-      { url: '/images/deloitte2.jpg', hint: 'deloitte' },
-      
-    ]
-  },
-
-
-  
-
-    { 
-    id: 'job-salary-interview-review-in-easebuzz', 
-    name: 'easebuzz', 
-    logoUrl: '/images/easebuzz.png', 
-    imageHint: 'easebuzz logo',
-    industry: 'Software as a Service',
-    headquarters: 'Wing,2nd Floor, Hinjewadi - Wakad Road,Pune 411057, Maharashtra',
-    website: 'https://easebuzz.in/',
-    description: 'Founded in the year 2014, Easebuzz is a full-stack technology platform that has launched its operations in the year 2016. We are building an ecosystem of products and services to solve business problems around payment acceptance, payouts, and financial operations. The team at Easebuzz focuses on creating workflows that enable businesses to process digital payments and manage end-to-end financial operations through plug-and-play APIs.',
-     photos: [
-      { url: '/images/easebuzz2.png', hint: 'easebuzz' },
-      
-    ]
-  },
-
-  
-    { 
-    id: 'job-salary-interview-review-in-yext', 
-    name: 'yext', 
-    logoUrl: '/images/yext.png', 
-    imageHint: 'yext logo',
-    industry: 'Internet',
-    headquarters: '	61 Ninth Avenue, New York',
-    website: 'https://www.yext.com',
-    description: 'We are the leading digital presence platform for multi-location brands, powering the knowledge behind every customer engagement. \
-With one central platform, brands can seamlessly deliver consistent, accurate, and engaging experiences and meaningfully connect with customers anywhere in the digital world. Our AI and machine learning technology powers the knowledge behind every customer engagement, automates workflows at scale, and delivers actionable cross-channel insights that enable data-driven decisions. \
-From SEO and websites to social media and reputation management, Yext enables brands to turn their digital presence into a differentiator',
-     photos: [
-      { url: '/images/yext1.jpg', hint: 'yext' },
-      
-    ]
-  },
-  
-    { 
-    id: 'job-salary-interview-review-in-3pillarglobal', 
-    name: '3pillarglobal', 
-    logoUrl: '/images/3pillarglobal.png', 
-    imageHint: '3pillarglobal logo',
-    industry: '	Software development',
-    headquarters: 'Fairfax, Virginia, United States',
-    website: 'https://www.3pillarglobal.com/',
-    description: '3Pillar has unique experience and discipline that live at the intersection of product engineering and cognitive computing. We help organizations execute the strategic software development initiatives needed to compete in the modern digital economy.',
-     photos: [
-      { url: '/images/3pillarglobal.jpeg', hint: '3pillarglobal' },
-      
-    ]
-  },
-  
-    { 
-    id: 'job-salary-interview-review-in-godaddy', 
-    name: 'godaddy', 
-    logoUrl: '/images/godaddy.png', 
-    imageHint: 'godaddy logo',
-    industry: 'Internet IT consulting SMEs',
-    headquarters: 'Tempe, Arizona, United States',
-    website: 'https://www.godaddy.com/',
-    description: 'GoDaddy does more than sell domain names. We help millions of small businesses globally accelerate their growth, giving entrepreneurs confidence at every stage of their business journey. People come to GoDaddy to build their business. Our global solutions seamlessly connect their identity and presence with commerce, leading to profitable growth.',
-     photos: [
-      { url: '/images/godaddy2.png', hint: 'godaddy' },
-      
+      { url: 'https://placehold.co/600x400.png', hint: 'developer coding screen' },
+      { url: 'https://placehold.co/600x400.png', hint: 'team code review' },
     ]
   },
 ];
 
 const mockReviews: Review[] = [
-  { id: 'rev1', companyId: 'job-salary-interview-review-in-Grammarly', jobTitle: 'Senior Frontend Engineer', rating: 5, pros: 'Great work-life balance, flexible remote policy, and very talented team. The projects are challenging and rewarding.', cons: 'The internal tools can be a bit slow sometimes, but they are actively working on improving them.', author: 'Former Employee', submittedAt: '2024-09-15' },
-  { id: 'rev2', companyId: 'job-salary-interview-review-in-harbingermotors', jobTitle: 'Product Manager', rating: 4, pros: 'Strong product vision and a collaborative environment. Leadership is transparent and open to feedback.', cons: 'Compensation could be slightly more competitive for the Bay Area market.', author: 'Current Employee', submittedAt: '2024-10-01' },
-  { id: 'rev3', companyId: 'job-salary-interview-review-in-deloitte', jobTitle: 'Cloud DevOps Architect', rating: 3, pros: 'Cutting-edge technology stack and a lot of autonomy in your role.', cons: 'Fast-paced environment can lead to burnout. On-call schedule is demanding.', author: 'Former Employee', submittedAt: '2024-08-20' },
-  { id: 'rev4', companyId: 'job-salary-interview-review-in-godaddy', jobTitle: 'Backend Engineer', rating: 5, pros: 'Best team I have ever worked with. Smart people, interesting problems, and a very supportive culture.', cons: 'The office snacks could be better, but that is a minor point!', author: 'Current Employee', submittedAt: '2024-10-10' },
-  { id: 'rev3', companyId: 'job-salary-interview-review-in-3pillarglobal', jobTitle: 'Cloud DevOps Architect', rating: 3, pros: 'Cutting-edge technology stack and a lot of autonomy in your role.', cons: 'Fast-paced environment can lead to burnout. On-call schedule is demanding.', author: 'Former Employee', submittedAt: '2024-08-20' },
+  { id: 'rev1', companyId: 'Grammarly', jobTitle: 'Senior Frontend Engineer', rating: 5, pros: 'Great work-life balance, flexible remote policy, and very talented team. The projects are challenging and rewarding.', cons: 'The internal tools can be a bit slow sometimes, but they are actively working on improving them.', author: 'Former Employee', submittedAt: '2024-09-15' },
+  { id: 'rev2', companyId: 'Grammarly', jobTitle: 'Product Manager', rating: 4, pros: 'Strong product vision and a collaborative environment. Leadership is transparent and open to feedback.', cons: 'Compensation could be slightly more competitive for the Bay Area market.', author: 'Current Employee', submittedAt: '2024-10-01' },
+  { id: 'rev3', companyId: 'skynet-systems', jobTitle: 'Cloud DevOps Architect', rating: 3, pros: 'Cutting-edge technology stack and a lot of autonomy in your role.', cons: 'Fast-paced environment can lead to burnout. On-call schedule is demanding.', author: 'Former Employee', submittedAt: '2024-08-20' },
+  { id: 'rev4', companyId: 'dev-solutions', jobTitle: 'Backend Engineer', rating: 5, pros: 'Best team I have ever worked with. Smart people, interesting problems, and a very supportive culture.', cons: 'The office snacks could be better, but that is a minor point!', author: 'Current Employee', submittedAt: '2024-10-10' },
 ];
 
 const mockJobsData: BackendStoredJob[] = [
-
-
-{ applyUrl: "https://careers.godaddy/jobs/backend-software-engineer-pune-maharashtra-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Backend Software Engineer", jobType: "Hybrid", jobCategory: "Backend", mainDescription: `
-Job Title: Backend Software Engineer
-Location: Pune, Maharashtra, India (Hybrid)
-Department: Engineering – Commerce Division
-Employment Type: Full-Time
-
-🧠 Role Overview
-GoDaddy is hiring a Backend Software Engineer to join its Terminal Management team, which oversees the lifecycle of Poynt Smart Terminals and related hardware. You’ll build scalable APIs, manage over-the-air updates, and develop systems for diagnostics, provisioning, and analytics that support global device operations.
-
-🔧 Key Responsibilities
-- Develop and maintain APIs for managing payment terminals across global markets
-- Design scalable OTA systems for secure OS and app updates
-- Implement real-time log collection and diagnostics for rapid issue resolution
-- Integrate telemetry data into analytics and machine learning pipelines
-- Build provisioning systems for diverse customer environments
-- Support full device lifecycle from factory to field
-- Enable partners and resellers with remote device management tools
-
-✅ Required Qualifications
-- 3+ years in server-side programming (Java or Golang preferred)
-- Experience building secure cloud applications on AWS (ECS, EC2)
-- Skilled in designing external-facing APIs
-- Proficient in distributed systems and event-driven architectures
-- Strong knowledge of SQL and NoSQL databases
-
-🌟 Preferred Experience
-- 2+ years with Java/Golang backend development
-- Familiarity with Kafka, RabbitMQ, or AWS SNS/SQS
-- Experience with AWS Lambda or similar event-driven platforms
-
-💰 Compensation & Benefits
-- Paid time off, retirement savings, and equity grants
-- Employee stock purchase plan
-- Health benefits and parental leave
-- Inclusive culture and support for side hustles
-- Access to Employee Resource Groups and professional development
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "backend-software-engineer-in-godaddy-at-india-india"},
-
-
-
-
-{ applyUrl: "https://careers.godaddy/jobs/director-of-artificial-intelligence-and-machine-learning-india", companyName: "godaddy", companyLogo: "/images/godaddy.png", location: "India", jobTitle: "Director of Artificial Intelligence and Machine Learning", jobType: "Hybrid", jobCategory: "AI", mainDescription: `Job Title: Director of Artificial Intelligence and Machine Learning
-Location: Gurugram or Pune, India (Hybrid)
-Department: Engineering
-Employment Type: Full-Time
-
-🧠 Role Overview
-GoDaddy is hiring a visionary Director of AI/ML to define and lead its three-year strategic roadmap for enterprise-scale AI and Machine Learning solutions. You’ll spearhead the development of Agentic AI systems, architect global pipelines, and collaborate across teams to deliver intelligent, adaptive applications that accelerate customer acquisition and business growth.
-
-🔧 Key Responsibilities
-- Develop and champion GoDaddy’s AI/ML strategy and roadmap
-- Lead initiatives in Agentic AI, enabling autonomous, adaptive systems
-- Architect and implement end-to-end AI/ML pipelines for global deployment
-- Ensure scalability, governance, and compliance across diverse regions
-- Collaborate with engineering, product, and data science teams to deliver impactful solutions
-- Stay ahead of AI/ML advancements and integrate emerging technologies
-- Mentor and grow high-performing AI/ML teams
-
-✅ Required Qualifications
-- 8+ years in AI/ML leadership roles within agile tech or SaaS environments
-- Proven expertise in Agentic AI, autonomous systems, or multi-agent architectures
-- Experience designing and scaling global AI/ML systems
-- Strong background in customer-facing applications powered by AI/ML
-- Deep knowledge of ML tools, frameworks, and cloud platforms
-- Exceptional leadership, communication, and strategic execution skills
-
-🌟 Preferred Experience
-- Advanced degree in Computer Science, Machine Learning, or Artificial Intelligence
-
-💰 Compensation & Benefits
-- Paid time off, retirement savings, and equity grants
-- Employee stock purchase plan
-- Health benefits and parental leave
-- Inclusive culture and support for side hustles
-- Access to Employee Resource Groups and professional development
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "director-of-artificial-intelligence-and-machine-learning-in-godaddy-at-india-india"},
-
-
-  {
-  applyUrl: "https://jobs.lever.co/3pillarglobal/edf427ee-d6bf-4dd8-b639-85997d5832b0",
-  companyName: "3pillarglobal",
-  companyLogo: "/images/3pillarglobal.png",
-  location: "India",
-  jobTitle: "Senior Data Engineer",
-  jobType: "Remote",
-  jobCategory: "Data",
-  mainDescription: `Job Title: Senior Data Engineer
-Location: Remote – India
-Department: Product Delivery
-Employment Type: Full-Time
-
-🧠 Role Overview
-3Pillar Global is seeking a Senior Data Engineer to lead the design, development, and deployment of advanced data solutions. This role is ideal for a visionary technologist who thrives on solving complex problems and shaping the future of data-driven innovation across industries like healthcare, media, and urban tech.
-
-🔧 Key Responsibilities
-- Design and orchestrate complex data workflows using Luigi
-- Develop automation scripts with Python and Linux Bash
-- Manage and optimize SQL databases and Hadoop ecosystem tools
-- Deploy scalable data solutions using AWS services (EC2, S3, RDS, EMR)
-- Implement monitoring and alerting for real-time pipeline visibility
-- Lead cross-functional projects and mentor junior engineers
-- Collaborate with stakeholders to align technical solutions with business goals
-
-✅ Required Qualifications
-- 5–10 years of experience in data engineering
-- Strong hands-on expertise with Snowflake
-- Proficiency in Python, Bash, and SQL
-- Experience with data lakes, data governance, and security compliance
-- Familiarity with CI/CD tools and automation frameworks
-- Knowledge of Spark, Hive, and other big data technologies
-- Excellent communication and leadership skills
-
-🌟 Preferred Experience
-- Background in advanced analytics or data science
-- Experience collaborating with non-technical teams
-- Proven ability to design secure, scalable, and high-performance data architectures
-`,
-  status: "approved",
-  isFeatured: true,
-  requirements: "",
-  submittedDate: new Date().toISOString(),
-  id: "senor-data-engineer-in-3pillarglobal-at-india-india"
-}
-
-,
-
-{
-  applyUrl: "https://jobs.lever.co/3pillarglobal/f7dd4cfb-beb8-4a41-8017-a847187b9f87",
-  companyName: "3pillarglobal",
-  companyLogo: "/images/3pillarglobal.png",
-  location: "Noida, India",
-  jobTitle: "Sr. Software Engineer React.js",
-  jobType: "Hybrid",
-  jobCategory: "Software",
-  mainDescription: `Job Title: Sr. Software Engineer – React.js
-Location: Noida, India (Hybrid)
-Department: Product Development
-Employment Type: Full-Time
-
-🧠 Role Overview
-3Pillar Global is looking for a Senior Software Engineer with expertise in React.js to help build high-quality, scalable, and responsive web applications. You’ll play a key role in delivering innovative digital products across industries like healthcare, media, and urban tech—while mentoring peers and driving engineering excellence.
-
-🔧 Key Responsibilities
-- Develop responsive UIs using React.js
-- Work with SQL Server APIs to manage and retrieve data
-- Implement localization and internationalization features
-- Apply OOP principles to build scalable and maintainable systems
-- Collaborate in Agile teams and contribute to sprint planning and retrospectives
-- Mentor junior engineers and support architectural decisions
-- Ensure code quality through unit testing and adherence to accessibility standards
-
-✅ Required Qualifications
-- 4–5 years of experience in React.js and frontend development
-- Basic understanding of SQL Server
-- Experience with AWS
-- Familiarity with Agile methodologies
-- Strong English communication skills
-- Proven ability to deliver performant, enterprise-grade applications
-
-🌟 Preferred Experience
-- User engagement tracking tools (e.g., Google Analytics, Mixpanel)
-- Knowledge of WCAG accessibility standards
-- Exposure to microservices architecture
-`,
-  status: "approved",
-  isFeatured: true,
-  requirements: "",
-  submittedDate: new Date().toISOString(),
-  id: "sr-software-engineer-react-js-in-3pillarglobal-at-Noida-India"
-}
-,
-
-{ applyUrl: "https://job-boards.greenhouse.io/yext/jobs/7011931", companyName: "yext", companyLogo: "/images/yext.png", location: "Washington", jobTitle: "Software Engineer", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Software Engineer
-Location: Washington, D.C. (Hybrid – 3 days/week in office)
-Department: Engineering
-Employment Type: Full-Time
-
-🧠 Role Overview
-Yext is hiring a Software Engineer to help build and scale its digital presence platform. You’ll work in an agile environment alongside top-tier engineers, contributing to full lifecycle development of highly reliable systems. This role is ideal for early-career developers eager to work hands-on with code and collaborate across teams.
-
-🔧 Key Responsibilities
-- Participate in full lifecycle software development
-- Design, implement, and deploy scalable and reliable systems
-- Build storage systems, libraries, and frameworks
-- Contribute ideas for new features and proactively identify improvements
-- Collaborate across engineering and non-engineering teams
-- Write clean, tested, and well-documented code
-
-✅ Required Qualifications
-- BA/BS in Computer Science or related field
-- 0–1 years of industry experience
-- Strong foundation in data structures, algorithms, and software design
-- Fluency in Java, C++, Python, or similar (Java preferred)
-- Openness to new technologies and creative solutions
-- Comfortable in a fast-paced startup environment
-
-💰 Compensation & Benefits
-- Annual base salary: $98,100 – $199,000 USD
-- Medical, dental, and vision insurance
-- Life and disability coverage
-- 401(k) retirement plan
-- Vacation and sick leave
-- Equity and performance-based compensation
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-in-yext-at-washington-united-states"},
-
-
-
-
-
-
-{ applyUrl: "https://job-boards.greenhouse.io/yext/jobs/7034100", companyName: "yext", companyLogo: "/images/yext.png", location: "Hungary", jobTitle: "Data Scientist", jobType: "Hybrid", jobCategory: "Data", mainDescription: `Job Title: Data Scientist
-Location: Budapest, Hungary (Hybrid)
-Department: Hearsay Team (now part of Yext)
-Employment Type: Full-Time
-
-🧠 Role Overview
-Yext is hiring a Data Scientist to lead and contribute to high-impact machine learning and data science projects that enhance product performance and support strategic decision-making. You’ll work with structured and unstructured data, apply generative AI techniques, and collaborate across teams to deliver actionable insights.
-
-🔧 Key Responsibilities
-- Develop and improve ML models using structured/unstructured data
-- Apply large language models (e.g., GPT, LLaMA) using RAG and instruction tuning
-- Ensure data quality through cleaning, preparation, and validation
-- Collaborate with Product, Engineering, and business stakeholders
-- Promote data-driven decision-making and mentor colleagues
-- Enhance the data stack and support agile delivery processes
-
-✅ Required Qualifications
-- 2+ years of experience in data science or analytics
-- Proven experience with supervised and unsupervised ML models
-- Proficiency in Python (NumPy, Pandas, scikit-learn) and SQL
-- Hands-on experience with cloud platforms (AWS, GCP, or Azure)
-- Strong analytical and problem-solving skills
-- Bachelor’s or Master’s degree in Computer Science, Engineering, or Mathematics
-- Passion for social media data and digital behavior analysis
-- Excellent communication and collaboration skills
-
-💼 Work Environment & Culture
-- Hybrid work model: remote flexibility with 1+ day/week on-site
-- Inclusive and diverse culture with strong emphasis on employee wellbeing
-- Recognized globally as a Best Place to Work by Built In, Fortune, and Great Place To 
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-scientist-in-yext-at-hungary-hungary"},
-
-
-
-{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Manager-Full-Stack-NET-Software-Engineer-Tax-Domain/306686", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Manager, Full-Stack .NET Software Engineer - Tax Domain", jobType: "Full-time", jobCategory: "Software", mainDescription: `Job Title: Manager, Full-Stack .NET Software Engineer – Tax Domain
-Location: Multiple U.S. Locations (Hybrid)
-Department: Engineering and Product – Software Engineering
-Employment Type: Full-Time
-
-🧠 Role Overview
-Deloitte is hiring a hands-on Full-Stack Software Engineering Manager to lead high-impact projects within its Tax domain. You’ll collaborate across teams to design, develop, and deploy advanced software solutions using modern frameworks and cloud-native technologies. This role blends technical leadership, engineering craftsmanship, and customer-centric delivery.
-
-🔧 Key Responsibilities
-- Lead full-stack development using C#, .NET Core, Angular, and React
-- Architect scalable, maintainable, and secure solutions
-- Drive Agile and DevSecOps practices for automated daily deployments
-- Translate business needs into technical specifications and code
-- Mentor engineers and review code to ensure quality KPIs are met
-- Collaborate with product managers, UX designers, and delivery teams
-- Engage with customers to ensure solutions meet real-world needs
-- Promote incremental delivery and rapid experimentation
-
-✅ Required Qualifications
-- Bachelor’s degree in Computer Science, Software Engineering, or related field
-- 6+ years in full-stack development with Angular, React, C#, and .NET Core
-- 6+ years of cloud-native engineering experience (AWS preferred)
-- 4+ years implementing domain-driven systems with complex business rules
-- 2+ years working with AI/ML and Generative AI tools
-- Experience in US & International Payroll & Reward Taxation, including Tax Equalization, Withholding, and Gross Up
-- Limited immigration sponsorship available
-- Ability to travel up to 10%
-
-🌟 Preferred Experience
-- Master’s degree in a technical discipline
-- 8+ years in full-stack and cloud-native development
-- Familiarity with tools like GitHub, SonarQube, ADO, and SAFe
-
-💰 Compensation & Benefits
-- Salary range: $107,700 – $221,200 USD
-- Eligibility for discretionary annual incentive program
-- Broad range of benefits including health, retirement, and professional development
-
-You can view the full listing and apply directly on Deloitte’s careers portal.
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "manager-full-stack-net-software-engineer-tax-domain-in-deloitte-at-United-States"},
-
-
-
-  
-{ applyUrl: "https://apply.deloitte.com/en_US/careers/JobDetail/Cybersecurity-and-IA-Specialist-TS-SCI-in-Suffolk-VA/306661", companyName: "deloitte", companyLogo: "/images/deloitte.png", location: "United States", jobTitle: "Cybersecurity and IA Specialist (TS/SCI in Suffolk, VA)", jobType: "Full-time", jobCategory: "Cybersecurity", mainDescription: `Job Title: Cybersecurity and Information Assurance (IA) Specialist
-Location: Suffolk, VA (On-site, 5 days/week)
-Department: Strategy, Growth, and Transformation – Standardized Strategic Support Services
-Employment Type: Full-Time
-
-🧠 Role Overview
-Deloitte is hiring a Cybersecurity and IA Specialist to support Risk Management Framework (RMF) authorization processes for Navy systems. You’ll perform vulnerability and risk assessments throughout the system development lifecycle and contribute to the design of cyber governance and assurance programs.
-
-🔧 Key Responsibilities
-- Conduct vulnerability/risk assessments for Navy systems and applications
-- Support RMF authorization through development of Security Assessment Plans (SAP) and Security Assessment Reports (SAR)
-- Collaborate with cross-functional teams to ensure cyber posture aligns with strategic objectives
-- Maintain compliance with Navy IA and cybersecurity standards
-
-✅ Required Qualifications
-- Bachelor’s degree
-- Active TS/SCI clearance
-- Must reside in the Hampton Roads area and be available on-site in Suffolk, VA
-- Navy Qualified Validator (NQV) certification
-- One of the following certifications: SEC+CE, CAP, ENSA, CISA, CASP, GSLC, CISSP, or CISM
-- 5+ years of Navy IA/cybersecurity experience, including:
-- 1+ year with RMF components and instructions
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "cybersecurity-and-ia-specialist-ts-sci-in-suffolk-va-in-deloitte-at-united-states-united-states"},
-
-
   {
     id: 'Software-Engineer-Back-End-Kyiv-Ukraine',
     jobTitle: 'Software Engineer, Back-End',
     companyName: 'Grammarly',
-    companyLogo: '/images/Grammarly.png',
-    mainDescription: `💼 Job Title: Software Engineer – Back-End...`,
+    companyLogo: '/images/grammarly.png',
+    mainDescription: `Grammarly is looking for a talented Back-End Software Engineer to join our team in Kyiv. You will be responsible for designing and implementing scalable backend services and APIs that power our writing assistant. You'll work with a modern tech stack and solve complex challenges in a collaborative environment.`,
     requirements: '5+ years of experience in backend development, expert in Java and Scala. Strong understanding of microservices architecture and cloud platforms. BSc in Computer Science or equivalent.',
     jobCategory: 'Software Engineering',
     salaryMin: 120000,
     salaryMax: 160000,
     jobType: 'Hybrid',
-    location: 'Ukraine',
+    location: 'Kyiv, Ukraine',
     submittedDate: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
     status: 'approved',
     isFeatured: true,
     applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/6467233'
+  },
+  {
+    id: 'Data-Scientist-Machine-Learning-Remote-USA',
+    jobTitle: 'Data Scientist, Machine Learning',
+    companyName: 'SkyNet Systems',
+    companyLogo: 'https://placehold.co/100x100.png',
+    mainDescription: 'Join SkyNet Systems as a Data Scientist and work on cutting-edge machine learning models for our global defense platform. This role involves developing predictive models, analyzing large-scale data, and contributing to the core intelligence of our systems.',
+    requirements: 'PhD or MSc in a quantitative field (e.g., Computer Science, Statistics, Physics). 3+ years experience building and deploying ML models. Proficiency in Python, TensorFlow/PyTorch, and SQL. Experience with big data technologies like Spark is a plus. US citizenship required.',
+    jobCategory: 'Data Science & Analytics',
+    salaryMin: 140000,
+    salaryMax: 180000,
+    jobType: 'Remote',
+    location: 'Remote, USA',
+    submittedDate: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
+    status: 'approved',
+    isFeatured: true,
+  },
+  {
+    id: 'UX-UI-Designer-New-York-NY',
+    jobTitle: 'UX/UI Designer',
+    companyName: 'Pixel Perfect Co.',
+    companyLogo: 'https://placehold.co/100x100.png',
+    mainDescription: 'Pixel Perfect Co. is seeking a creative and user-centric UX/UI Designer to join our award-winning team. You will be responsible for creating wireframes, mockups, and high-fidelity prototypes for our clients\' web and mobile applications. A strong portfolio is essential.',
+    requirements: '3+ years of UX/UI design experience. Mastery of Figma, Sketch, or Adobe XD. Strong understanding of user-centered design principles, user research, and interaction design. Excellent communication and collaboration skills.',
+    jobCategory: 'UX/UI Design',
+    salaryMin: 90000,
+    salaryMax: 115000,
+    jobType: 'Full-time',
+    location: 'New York, NY',
+    submittedDate: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
+    status: 'approved',
+  },
+  {
+    id: 'Senior-DevOps-Engineer-Austin-TX',
+    jobTitle: 'Senior DevOps Engineer',
+    companyName: 'DevSolutions',
+    companyLogo: '/images/devsolutions-logo.png',
+    mainDescription: 'We are looking for a Senior DevOps Engineer to help us build and maintain our cloud infrastructure and CI/CD pipelines. You will work closely with our development teams to ensure our platform is reliable, scalable, and secure. This is a key role in our mission to empower developers.',
+    requirements: '5+ years in a DevOps or SRE role. Expertise with AWS or GCP. Strong experience with infrastructure as code (Terraform, Pulumi). Proficient in containerization (Docker, Kubernetes) and CI/CD tools (Jenkins, GitLab CI). Scripting skills in Python or Bash.',
+    jobCategory: 'DevOps & Site Reliability',
+    salaryMin: 130000,
+    salaryMax: 170000,
+    jobType: 'Hybrid',
+    location: 'Austin, TX',
+    submittedDate: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+    status: 'pending',
   }
-,
-{ applyUrl: "https://job-boards.greenhouse.io/harbingermotors/jobs/4769309007", companyName: "harbingermotors", companyLogo: "/images/harbingermotors.png", location: "Garden Grove, California, USA", jobTitle: "Software Test Engineer, Infotainment", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Software Test Engineer – Infotainment
-Location: Garden Grove, California, USA
-Employment Type: Full-Time
-Salary Range: $100,000 – $140,000 USD
-
-🧠 Role Overview
-Harbinger Motors is hiring a Software Test Engineer to ensure the quality and reliability of its advanced infotainment systems for electric vehicles. You’ll develop automated testing frameworks, validate embedded systems, and collaborate with cross-functional teams to deliver high-performance user experiences.
-
-🔧 Key Responsibilities
-- Build and maintain automated test frameworks using Python, Pytest, and OpenCV
-- Apply Behavior-Driven Development (BDD) with Gherkin syntax
-- Conduct system-level testing on Yocto and Automotive Grade Linux (AGL)
-- Develop and execute test plans, strategies, and cases
-- Identify and track software defects, collaborating with developers for resolution
-- Participate in design/code/test case reviews
-- Continuously improve testing tools and methodologies
-- Provide clear test reports and metrics to stakeholders
-
-✅ Required Skills & Experience
-- Proficiency in Python, Pytest, and OpenCV
-- Experience with embedded Linux systems and infotainment testing
-- Familiarity with BDD methodologies and Gherkin syntax
-- Strong grasp of software testing principles and version control (e.g., Git)
-- Excellent problem-solving and communication skills
-- Ability to work independently in a fast-paced environment
-
-🌟 Preferred Qualifications
-- Bachelor’s degree in Computer Science, Electrical Engineering, or related field
-- Experience with CAN, Ethernet, and CI/CD pipelines
-- Familiarity with Jira, TestRail, and HMI testing
-
-💼 Benefits & Perks
-- 100% employer-covered Health, Dental & Vision
-- Early-stage stock options
-- 401(k), HSA, and FSA retirement savings
-- Generous PTO and parental leave
-- Annual vacation bonus
-- Wellness & fertility benefits
-- Cell phone stipend
-- Complimentary meals and stocked kitchens
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-test-engineer-infotainment-in-harbingermotors-at-Garden-Grove-California-USA"}
-
-,  
-{ applyUrl: "https://jobs.lever.co/xero/53f5c6de-54e9-4f11-9a52-2d0c07b7790a", companyName: "xero", companyLogo: "/images/xero.png", location: "Vancouver", jobTitle: "Software Engineer", jobType: "Hybrid", jobCategory: "Software", mainDescription: `Job Title: Software Engineer
-Location: Vancouver, Canada (Hybrid)
-Department: Technology – Engineering
-Employment Type: Permanent
-
-🧠 Role Overview
-Xero is hiring a Software Engineer to build high-quality, scalable software that supports small businesses. You’ll work across the full development lifecycle—from design and testing to deployment and incident response—while contributing to a collaborative, agile team focused on innovation and continuous improvement.
-
-🔧 Key Responsibilities
-- Develop robust, scalable software with a focus on technical excellence
-- Automate manual processes and contribute to solution design
-- Design and implement automated testing strategies
-- Triage and resolve production issues, communicating impact clearly
-- Maintain and monitor infrastructure in production environments
-- Practice agile development and improve team processes
-- Mentor junior engineers and contribute to a culture of learning
-
-✅ Required Qualifications
-- Proficiency in Java, TypeScript, or C# .NET (bonus)
-- Specialization in one or more areas of the development stack
-- Strong debugging skills across the technology stack
-- Experience with cloud infrastructure rollout and maintenance
-- Familiarity with security best practices and resilient design patterns
-- Regular practice of test-driven development and trunk-based development
-- Proven ability to respond to production incidents
-
-💰 Compensation & Benefits
-- Salary range: $121,300 – $148,300 CAD
-- Generous paid leave and statutory holidays
-- Dedicated wellbeing leave and Employee Assistance Program
-- Health, dental, and vision coverage with a healthcare spending account
-- Fertility and family forming financial support
-- 26 weeks of parental leave for primary caregivers
-- Employee Share Plan and flexible working arrangements
-- Career development and beautiful offices with shared meals
-
-You can view the full listing and apply directly on Built In’s job board. 
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "software-engineer-in-xero-at-vancouver-canada"}
-
-
-,{ applyUrl: "https://easebuzz.hire.trakstar.com/jobs/fk0pgej/", companyName: "easebuzz", companyLogo: "/images/easebuzz.png", location: "Pune, India", jobTitle: "Data Engineering", jobType: "Full-time", jobCategory: "Data", mainDescription: `
-
-Job Title: Associate Manager (Research) – Data Engineering
-Location: Pune, India
-Department: Easebuzz Research & Innovation Lab
-Employment Type: Full-Time
-
-🧠 Role Overview
-Easebuzz is hiring a Data Engineering Associate Manager to design and operationalize large-scale enterprise data solutions. You’ll work with cutting-edge AWS technologies and third-party tools to build real-time data pipelines, optimize infrastructure, and support analytics across the fintech ecosystem.
-
-🔧 Key Responsibilities
-- Build and maintain ETL pipelines, data lakes, and ingestion frameworks
-- Design scalable data architecture using AWS services (Spark, EMR, RedShift, DynamoDB, Glue, Lambda, Kinesis)
-- Implement real-time data processing with Kafka/Kinesis
-- Automate high-volume data delivery and internal processes
-- Collaborate with cross-functional teams to support data infrastructure needs
-- Ensure data security across multiple regions and data centers
-- Develop tools for analytics and data science teams
-- Evangelize high standards for data model quality and performance
-
-✅ Required Experience & Skills
-- Strong background in ETL, data modeling, and data architecture
-- Experience with NoSQL databases (DynamoDB, MongoDB)
-- Proficiency in SQL and AWS big data technologies
-- Familiarity with real-time use cases and cloud-native development
-- Ability to create prototypes and drive iterative development
-- Proven track record in process automation and infrastructure optimization
-
-🏢 About Easebuzz
-Easebuzz is a fast-growing fintech company offering plug-and-play payment solutions. With a recent $30M funding round and RBI authorization as a payment aggregator, it’s scaling rapidly across India. The company fosters a culture of openness, ownership, and collaboration, with offices in Pune, Delhi, Mumbai, Kolkata, Bengaluru, and Gurugram.
-
-
-`, status: "approved", isFeatured: true, requirements: "", submittedDate: new Date().toISOString(), id: "data-engineering-in-easebuzz-at-Pune-India"},
-
-
-
 ];
-
-
-
 // --- End Mock Data ---
-
 
 
 const reviewSchema = z.object({
@@ -687,14 +208,14 @@ export default function CompanyProfileAndReviewsPage() {
     async function fetchCompanyJobs() {
       if (!company) return;
       setIsLoadingJobs(true);
-      // Combine jobs from DB and mock data to ensure all are available for filtering
-      const dbJobs = await getAllJobs();
-      const allJobsMap = new Map<string, BackendStoredJob>();
-      mockJobsData.forEach(job => allJobsMap.set(job.id, job));
-      dbJobs.forEach(job => allJobsMap.set(job.id, job));
-      const allAvailableJobs = Array.from(allJobsMap.values());
+      // In a real app, this would be an API call: `/api/jobs?company=${company.name}`
+      // For this mock, we'll filter the jobs from the DB service result
+      const allJobs = await getAllJobs();
+      // Also include the local mock data for demonstration
+      const allAvailableJobs = [...allJobs, ...mockJobsData];
+      const uniqueJobs = Array.from(new Map(allAvailableJobs.map(job => [job.id, job])).values());
 
-      const jobsForCompany = allAvailableJobs.filter(
+      const jobsForCompany = uniqueJobs.filter(
         job => job.companyName.toLowerCase() === company.name.toLowerCase() && job.status === 'approved'
       );
       setCompanyJobs(jobsForCompany);
@@ -748,7 +269,7 @@ export default function CompanyProfileAndReviewsPage() {
     location: backendJob.location,
     jobType: backendJob.jobType,
     category: backendJob.jobCategory,
-    descriptionExcerpt: backendJob.mainDescription,
+    descriptionExcerpt: backendJob.mainDescription.substring(0, 150) + '...',
     postedDate: backendJob.submittedDate,
     salaryRange: backendJob.salaryMin && backendJob.salaryMax ? `$${backendJob.salaryMin/1000}k - $${backendJob.salaryMax/1000}k` : undefined,
     companyLogo: backendJob.companyLogo || company.logoUrl,
