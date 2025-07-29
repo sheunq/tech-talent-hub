@@ -47,137 +47,163 @@ interface Review {
   submittedAt: string;
 }
 
+
 const mockCompanies: Company[] = [
-  { 
-    id: 'Grammarly', 
+{ 
+    id: 'job-salary-interview-review-in-Grammarly', 
     name: 'Grammarly', 
-    logoUrl: '/images/grammarly.png', 
-    imageHint: 'grammarly logo',
+    logoUrl: '/images/Grammarly.png', 
+    imageHint: 'Grammarly logo',
     industry: 'AI & Natural Language Processing',
     headquarters: 'San Francisco, CA',
     website: 'https://www.grammarly.com/jobs',
     description: 'Grammarly is a global company that offers an AI-powered writing assistant. It helps users communicate more effectively by providing suggestions for grammar, spelling, clarity, and style. Millions of users and thousands of teams around the world trust Grammarly to improve their writing.',
     photos: [
-      { url: 'https://placehold.co/600x400.png', hint: 'office interior team' },
-      { url: 'https://placehold.co/600x400.png', hint: 'people collaborating presentation' },
-      { url: 'https://placehold.co/600x400.png', hint: 'modern office space' },
+      { url: '/images/Grammarly1.png', hint: 'office interior team' },
+      { url: '/images/Grammarly4.jpg', hint: 'people collaborating presentation' },
+      { url: '/images/Grammarly3.png', hint: 'modern office space' },
     ]
   },
   { 
-    id: 'skynet-systems', 
-    name: 'SkyNet Systems', 
-    logoUrl: 'https://placehold.co/100x100.png', 
-    imageHint: 'SkyNet Systems logo',
-    industry: 'Cloud Infrastructure & AI',
-    headquarters: 'Cheyenne Mountain, CO',
-    website: 'https://example.com/skynet',
-    description: 'SkyNet Systems is a leader in global defense and cloud infrastructure. We are developing next-generation artificial intelligence to automate and secure critical systems worldwide. Our work is at the forefront of machine learning and large-scale distributed computing.',
+    id: 'job-salary-interview-review-in-harbingermotors', 
+    name: 'harbingermotors', 
+    logoUrl: '/images/harbingermotors.png', 
+    imageHint: 'harbingermotors logo',
+    industry: 'vehicle industry',
+    headquarters: '12821 Knott St, Garden Grove, CA 92841',
+    website: 'https://harbingermotors.com/',
+    description: 'BUILT WITHOUT COMPROMISE \
+We founded Harbinger with a mission to modernize the medium-duty vehicle industry. Leveraging deep experience in electrification, Harbinger is delivering to the market an EV platform offering best-in-class performance and durability priced for zero cost acquisition premium.',
     photos: [
-      { url: 'https://placehold.co/600x400.png', hint: 'data center servers' },
-      { url: 'https://placehold.co/600x400.png', hint: 'futuristic network hub' },
+      { url: '/images/Harbinger1.png', hint: 'data center servers' },
+      { url: '/images/Harbinger2.png', hint: 'futuristic network hub' },
     ]
   },
   { 
-    id: 'pixel-perfect-co', 
-    name: 'Pixel Perfect Co.', 
-    logoUrl: 'https://placehold.co/100x100.png', 
+    id: 'job-salary-interview-review-in-Xero', 
+    name: 'Xero', 
+    logoUrl: '/images/xero.png', 
     imageHint: 'Pixel Perfect logo',
-    industry: 'Digital Design & Branding',
+    industry: 'Accounting Software',
     headquarters: 'New York, NY',
-    website: 'https://example.com/pixelperfect',
-    description: 'Pixel Perfect Co. is a boutique design agency specializing in creating beautiful and intuitive user experiences. We partner with startups and established brands to build memorable websites, mobile apps, and digital products.',
+    website: 'https://www.xero.com/',
+    description: 'Accounting software made for small businesses and sole traders. Xero’s online accounting software connects small business owners with their numbers, their bank, and advisors at anytime. \n Founded in 2006, Xero now has 4.4 million subscribers and is a leader in cloud accounting across New Zealand, Australia and the United Kingdom.',
     photos: [
-      { url: 'https://placehold.co/600x400.png', hint: 'design studio moodboard' },
+      { url: '/images/Xero1.png', hint: 'xero' },
+      
     ]
   },
   { 
-    id: 'dev-solutions', 
-    name: 'DevSolutions', 
-    logoUrl: '/images/devsolutions-logo.png', 
-    imageHint: 'DevSolutions logo',
-    industry: 'Developer Tools & PaaS',
-    headquarters: 'Austin, TX',
-    website: 'https://example.com/devsolutions',
-    description: 'DevSolutions builds powerful tools for developers. From our blazing-fast IDE to our seamless deployment platform, we help engineering teams ship better software, faster. Our mission is to improve the lives of developers.',
+    id: 'job-salary-interview-review-in-portronics', 
+    name: 'Portronics', 
+    logoUrl: '/images/portronics.png', 
+    imageHint: 'Portronics logo',
+    industry: 'Tech Accessories',
+    headquarters: 'Floor 10, Plot. - 6, Sector 14 Dwarka, Dwarka, New Delhi, Delhi 110075, India',
+    website: 'https://www.portronics.com/pages/about-us',
+    description: 'In 2010, Portronics took its first step into the industry and had reformed the dimensions of Consumer Electronics Space. With over 1600+ successful product launches and innovations, we stand first in revolutionizing the Portable & Innovative technology that has been dominating the Indian landscape. \
+Portronics gave birth to the first-ever idea of introducing Indian technology to Innovative Portable Bluetooth speakers, earphones, car accessories, hubs & cables, power banks, and many more. \
+Our consistent growth in the industry and quality services gives our vision an uplifting platform in the industry.',
      photos: [
-      { url: 'https://placehold.co/600x400.png', hint: 'developer coding screen' },
-      { url: 'https://placehold.co/600x400.png', hint: 'team code review' },
+      { url: '/images/Portronics1.png', hint: 'developer coding screen' },
+      { url: '/images/Portronics2.png', hint: 'team code review' },
     ]
   },
+
+    { 
+    id: 'job-salary-interview-review-in-deloitte', 
+    name: 'Deloitte', 
+    logoUrl: '/images/deloitte.png', 
+    imageHint: 'deloitte logo',
+    industry: 'Tech Accessories',
+    headquarters: 'London, UK',
+    website: 'https://www.deloitte.com/',
+    description: 'At Deloitte, we make an impact that matters \
+For over 175 years, we have worked with leaders around the world—from the Global 500® to private businesses—to help them build better futures. To support their people. To succeed. All while caring for our communities. \
+With a workforce made up of the industry’s greatest minds, we continue to shape the future by delivering real, measurable results. We go beyond talk—we act. ',
+     photos: [
+      { url: '/images/deloitte2.jpg', hint: 'deloitte' },
+      
+    ]
+  },
+
+
+  
+
+    { 
+    id: 'job-salary-interview-review-in-easebuzz', 
+    name: 'easebuzz', 
+    logoUrl: '/images/easebuzz.png', 
+    imageHint: 'easebuzz logo',
+    industry: 'Software as a Service',
+    headquarters: 'Wing,2nd Floor, Hinjewadi - Wakad Road,Pune 411057, Maharashtra',
+    website: 'https://easebuzz.in/',
+    description: 'Founded in the year 2014, Easebuzz is a full-stack technology platform that has launched its operations in the year 2016. We are building an ecosystem of products and services to solve business problems around payment acceptance, payouts, and financial operations. The team at Easebuzz focuses on creating workflows that enable businesses to process digital payments and manage end-to-end financial operations through plug-and-play APIs.',
+     photos: [
+      { url: '/images/easebuzz2.png', hint: 'easebuzz' },
+      
+    ]
+  },
+
+  
+    { 
+    id: 'job-salary-interview-review-in-yext', 
+    name: 'yext', 
+    logoUrl: '/images/yext.png', 
+    imageHint: 'yext logo',
+    industry: 'Internet',
+    headquarters: '	61 Ninth Avenue, New York',
+    website: 'https://www.yext.com',
+    description: 'We are the leading digital presence platform for multi-location brands, powering the knowledge behind every customer engagement. \
+With one central platform, brands can seamlessly deliver consistent, accurate, and engaging experiences and meaningfully connect with customers anywhere in the digital world. Our AI and machine learning technology powers the knowledge behind every customer engagement, automates workflows at scale, and delivers actionable cross-channel insights that enable data-driven decisions. \
+From SEO and websites to social media and reputation management, Yext enables brands to turn their digital presence into a differentiator',
+     photos: [
+      { url: '/images/yext1.jpg', hint: 'yext' },
+      
+    ]
+  },
+  
+    { 
+    id: 'job-salary-interview-review-in-3pillarglobal', 
+    name: '3pillarglobal', 
+    logoUrl: '/images/3pillarglobal.png', 
+    imageHint: '3pillarglobal logo',
+    industry: '	Software development',
+    headquarters: 'Fairfax, Virginia, United States',
+    website: 'https://www.3pillarglobal.com/',
+    description: '3Pillar has unique experience and discipline that live at the intersection of product engineering and cognitive computing. We help organizations execute the strategic software development initiatives needed to compete in the modern digital economy.',
+     photos: [
+      { url: '/images/3pillarglobal.jpeg', hint: '3pillarglobal' },
+      
+    ]
+  },
+  
+    { 
+    id: 'job-salary-interview-review-in-godaddy', 
+    name: 'godaddy', 
+    logoUrl: '/images/godaddy.png', 
+    imageHint: 'godaddy logo',
+    industry: 'Internet IT consulting SMEs',
+    headquarters: 'Tempe, Arizona, United States',
+    website: 'https://www.godaddy.com/',
+    description: 'GoDaddy does more than sell domain names. We help millions of small businesses globally accelerate their growth, giving entrepreneurs confidence at every stage of their business journey. People come to GoDaddy to build their business. Our global solutions seamlessly connect their identity and presence with commerce, leading to profitable growth.',
+     photos: [
+      { url: '/images/godaddy2.png', hint: 'godaddy' },
+      
+    ]
+  },
+
+
 ];
 
 const mockReviews: Review[] = [
-  { id: 'rev1', companyId: 'Grammarly', jobTitle: 'Senior Frontend Engineer', rating: 5, pros: 'Great work-life balance, flexible remote policy, and very talented team. The projects are challenging and rewarding.', cons: 'The internal tools can be a bit slow sometimes, but they are actively working on improving them.', author: 'Former Employee', submittedAt: '2024-09-15' },
-  { id: 'rev2', companyId: 'Grammarly', jobTitle: 'Product Manager', rating: 4, pros: 'Strong product vision and a collaborative environment. Leadership is transparent and open to feedback.', cons: 'Compensation could be slightly more competitive for the Bay Area market.', author: 'Current Employee', submittedAt: '2024-10-01' },
-  { id: 'rev3', companyId: 'skynet-systems', jobTitle: 'Cloud DevOps Architect', rating: 3, pros: 'Cutting-edge technology stack and a lot of autonomy in your role.', cons: 'Fast-paced environment can lead to burnout. On-call schedule is demanding.', author: 'Former Employee', submittedAt: '2024-08-20' },
-  { id: 'rev4', companyId: 'dev-solutions', jobTitle: 'Backend Engineer', rating: 5, pros: 'Best team I have ever worked with. Smart people, interesting problems, and a very supportive culture.', cons: 'The office snacks could be better, but that is a minor point!', author: 'Current Employee', submittedAt: '2024-10-10' },
+  { id: 'rev1', companyId: 'job-salary-interview-review-in-Grammarly', jobTitle: 'Senior Frontend Engineer', rating: 5, pros: 'Great work-life balance, flexible remote policy, and very talented team. The projects are challenging and rewarding.', cons: 'The internal tools can be a bit slow sometimes, but they are actively working on improving them.', author: 'Former Employee', submittedAt: '2024-09-15' },
+  { id: 'rev2', companyId: 'job-salary-interview-review-in-harbingermotors', jobTitle: 'Product Manager', rating: 4, pros: 'Strong product vision and a collaborative environment. Leadership is transparent and open to feedback.', cons: 'Compensation could be slightly more competitive for the Bay Area market.', author: 'Current Employee', submittedAt: '2024-10-01' },
+  { id: 'rev3', companyId: 'job-salary-interview-review-in-deloitte', jobTitle: 'Cloud DevOps Architect', rating: 3, pros: 'Cutting-edge technology stack and a lot of autonomy in your role.', cons: 'Fast-paced environment can lead to burnout. On-call schedule is demanding.', author: 'Former Employee', submittedAt: '2024-08-20' },
+  { id: 'rev4', companyId: 'job-salary-interview-review-in-godaddy', jobTitle: 'Backend Engineer', rating: 5, pros: 'Best team I have ever worked with. Smart people, interesting problems, and a very supportive culture.', cons: 'The office snacks could be better, but that is a minor point!', author: 'Current Employee', submittedAt: '2024-10-10' },
+  { id: 'rev3', companyId: 'job-salary-interview-review-in-3pillarglobal', jobTitle: 'Cloud DevOps Architect', rating: 3, pros: 'Cutting-edge technology stack and a lot of autonomy in your role.', cons: 'Fast-paced environment can lead to burnout. On-call schedule is demanding.', author: 'Former Employee', submittedAt: '2024-08-20' },
 ];
 
-const mockJobsData: BackendStoredJob[] = [
-  {
-    id: 'Software-Engineer-Back-End-Kyiv-Ukraine',
-    jobTitle: 'Software Engineer, Back-End',
-    companyName: 'Grammarly',
-    companyLogo: '/images/grammarly.png',
-    mainDescription: `Grammarly is looking for a talented Back-End Software Engineer to join our team in Kyiv. You will be responsible for designing and implementing scalable backend services and APIs that power our writing assistant. You'll work with a modern tech stack and solve complex challenges in a collaborative environment.`,
-    requirements: '5+ years of experience in backend development, expert in Java and Scala. Strong understanding of microservices architecture and cloud platforms. BSc in Computer Science or equivalent.',
-    jobCategory: 'Software Engineering',
-    salaryMin: 120000,
-    salaryMax: 160000,
-    jobType: 'Hybrid',
-    location: 'Kyiv, Ukraine',
-    submittedDate: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
-    status: 'approved',
-    isFeatured: true,
-    applyUrl: 'https://job-boards.greenhouse.io/grammarly/jobs/6467233'
-  },
-  {
-    id: 'Data-Scientist-Machine-Learning-Remote-USA',
-    jobTitle: 'Data Scientist, Machine Learning',
-    companyName: 'SkyNet Systems',
-    companyLogo: 'https://placehold.co/100x100.png',
-    mainDescription: 'Join SkyNet Systems as a Data Scientist and work on cutting-edge machine learning models for our global defense platform. This role involves developing predictive models, analyzing large-scale data, and contributing to the core intelligence of our systems.',
-    requirements: 'PhD or MSc in a quantitative field (e.g., Computer Science, Statistics, Physics). 3+ years experience building and deploying ML models. Proficiency in Python, TensorFlow/PyTorch, and SQL. Experience with big data technologies like Spark is a plus. US citizenship required.',
-    jobCategory: 'Data Science & Analytics',
-    salaryMin: 140000,
-    salaryMax: 180000,
-    jobType: 'Remote',
-    location: 'Remote, USA',
-    submittedDate: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
-    status: 'approved',
-    isFeatured: true,
-  },
-  {
-    id: 'UX-UI-Designer-New-York-NY',
-    jobTitle: 'UX/UI Designer',
-    companyName: 'Pixel Perfect Co.',
-    companyLogo: 'https://placehold.co/100x100.png',
-    mainDescription: 'Pixel Perfect Co. is seeking a creative and user-centric UX/UI Designer to join our award-winning team. You will be responsible for creating wireframes, mockups, and high-fidelity prototypes for our clients\' web and mobile applications. A strong portfolio is essential.',
-    requirements: '3+ years of UX/UI design experience. Mastery of Figma, Sketch, or Adobe XD. Strong understanding of user-centered design principles, user research, and interaction design. Excellent communication and collaboration skills.',
-    jobCategory: 'UX/UI Design',
-    salaryMin: 90000,
-    salaryMax: 115000,
-    jobType: 'Full-time',
-    location: 'New York, NY',
-    submittedDate: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
-    status: 'approved',
-  },
-  {
-    id: 'Senior-DevOps-Engineer-Austin-TX',
-    jobTitle: 'Senior DevOps Engineer',
-    companyName: 'DevSolutions',
-    companyLogo: '/images/devsolutions-logo.png',
-    mainDescription: 'We are looking for a Senior DevOps Engineer to help us build and maintain our cloud infrastructure and CI/CD pipelines. You will work closely with our development teams to ensure our platform is reliable, scalable, and secure. This is a key role in our mission to empower developers.',
-    requirements: '5+ years in a DevOps or SRE role. Expertise with AWS or GCP. Strong experience with infrastructure as code (Terraform, Pulumi). Proficient in containerization (Docker, Kubernetes) and CI/CD tools (Jenkins, GitLab CI). Scripting skills in Python or Bash.',
-    jobCategory: 'DevOps & Site Reliability',
-    salaryMin: 130000,
-    salaryMax: 170000,
-    jobType: 'Hybrid',
-    location: 'Austin, TX',
-    submittedDate: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
-    status: 'pending',
-  }
-];
 // --- End Mock Data ---
 
 
@@ -201,33 +227,37 @@ export default function CompanyProfileAndReviewsPage() {
   const [companyJobs, setCompanyJobs] = useState<BackendStoredJob[]>([]);
   const [isLoadingJobs, setIsLoadingJobs] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  const form = useForm<ReviewFormValues>({
+    resolver: zodResolver(reviewSchema),
+    defaultValues: {
+      jobTitle: '',
+      rating: 0,
+      pros: '',
+      cons: '',
+    },
+  });
+  
   const company = mockCompanies.find(c => c.id === companyId);
   const averageRating = reviews.length > 0 ? reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length : 0;
+
 
    useEffect(() => {
     async function fetchCompanyJobs() {
       if (!company) return;
       setIsLoadingJobs(true);
-      // In a real app, this would be an API call: `/api/jobs?company=${company.name}`
-      // For this mock, we'll filter the jobs from the DB service result
+      
       const allJobs = await getAllJobs();
-      // Also include the local mock data for demonstration
-      const allAvailableJobs = [...allJobs, ...mockJobsData];
-      const uniqueJobs = Array.from(new Map(allAvailableJobs.map(job => [job.id, job])).values());
 
-      const jobsForCompany = uniqueJobs.filter(
-        job => job.companyName.toLowerCase() === company.name.toLowerCase() && job.status === 'approved'
+      const jobsForCompany = allJobs.filter(
+        job => job.companyName && company.name && job.companyName.toLowerCase() === company.name.toLowerCase() && job.status === 'approved'
       );
-      setCompanyJobs(jobsForCompany);
+
+      setCompanyJobs(jobsForCompany.slice(0, 3)); // Limit to 3 jobs
       setIsLoadingJobs(false);
     }
     fetchCompanyJobs();
   }, [company]);
-
-  const form = useForm<ReviewFormValues>({
-    resolver: zodResolver(reviewSchema),
-    defaultValues: { jobTitle: '', rating: 0, pros: '', cons: '' },
-  });
 
   const onSubmit = (data: ReviewFormValues) => {
     setIsSubmitting(true);

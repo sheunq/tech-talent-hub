@@ -383,7 +383,7 @@ export default function JobAlertsPage() {
       ) : (
         <div className="text-center py-10 bg-card border rounded-xl shadow-sm">
           <Image
-            src="https://placehold.co/180x135.png"
+            src="images/vision.jpg"
             alt="No alerts illustration"
             width={180}
             height={135}

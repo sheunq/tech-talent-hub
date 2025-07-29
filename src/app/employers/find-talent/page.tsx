@@ -165,7 +165,7 @@ export default function FindTalentPage() {
 
       {!isLoadingData && displayedProfiles.length === 0 && (
          <div className="text-center py-12 bg-card border rounded-xl shadow-sm">
-            <Image src="https://placehold.co/200x150/E2E8F0/A0AEC0?text=No+Results" alt="No results illustration" width={200} height={150} className="mx-auto mb-6 rounded-lg" data-ai-hint="illustration"/>
+            <Image src="images/vision.jpg" alt="No results illustration" width={200} height={150} className="mx-auto mb-6 rounded-lg" data-ai-hint="illustration"/>
             <h3 className="text-2xl font-semibold mb-2 font-headline">No Talent Found Matching Your Criteria</h3>
             <p className="text-muted-foreground max-w-md mx-auto">Try adjusting your search filters or broadening your keywords.</p>
             <Button variant="link" onClick={() => handleSearch({keywords: '', skills: '', location: '', availability: '', experienceMin: 0, experienceMax: Infinity } as TalentSearchFiltersData)} className="mt-4">

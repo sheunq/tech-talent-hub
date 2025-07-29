@@ -8,9 +8,9 @@ import { Badge } from '@/components/ui/badge';
 import { TekTunnelLogo } from '@/components/icons/TekTunnelLogo';
 
 const featuredJobs = [
-    { id: 'senior-ios-software-engineer-in-dropbox-United-States', title: 'Senior iOS Software Engineer', company: 'Dropbox', location: 'Remote, USA', type: 'Remote', tags: ['iOS', 'Swift', 'Mobile'], imageSrc: '/images/dropbox.png', imageHint: 'dropbox logo' },
-    { id: 'data-engineer-in-atlassian-india-india', title: 'Data Engineer', company: 'Atlassian', location: 'Bengaluru, India', type: 'Remote', tags: ['Data', 'Python', 'Spark'], imageSrc: '/images/atlassian.png', imageHint: 'atlassian logo' },
-    { id: 'software-engineer-transactions-in-snapsheet-foster-city-anywhere', title: 'Software Engineer - Transactions', company: 'Snapsheet', location: 'Remote, USA', type: 'Remote', tags: ['Ruby on Rails', 'React'], imageSrc: '/images/snapsheet.png', imageHint: 'snapsheet logo' },
+    { id: 'azure-architect-in-nordcloud-at-london-united-kingdom', title: 'Azure Architect', company: 'Nordcloud', location: 'London', type: 'Full-time', tags: ['Python', 'AWS', 'GCP','Azure','CI/CD'], imageSrc: '/images/nordcloud.png', imageHint: 'nordcloud logo' },
+    { id: 'game-engineer-backend-in-fanatee-at-foster-city-united-states', title: 'GAME ENGINEER - BACKEND', company: 'fanatee', location: 'Brazil', type: 'Hybrid', tags: ['JavaScript', 'AWS'], imageSrc: '/images/fanatee.png', imageHint: 'fanatee logo' },
+    { id: 'software-development-expert-tech-lead-rust-in-eleks-at-poland-poland', title: 'SOFTWARE DEVELOPMENT EXPERT/TECH LEAD (RUST)', company: 'eleks', location: 'Poland/Ukraine', type: 'Full-time', tags: ['AWS', 'GCP', "Azure"], imageSrc: '/images/eleks.png', imageHint: 'eleks logo' },
 ];
 
 const featuredOpportunities = [

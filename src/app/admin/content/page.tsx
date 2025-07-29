@@ -20,7 +20,7 @@ export default function AdminContentPage() {
           Privacy Policy, and Terms of Service.
         </p>
         <div className="border rounded-lg p-6 bg-muted/20 text-center">
-            <Image src="https://placehold.co/400x200.png" alt="Content management placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="text editor interface"/>
+            <Image src="images/vision.jpg" alt="Content management placeholder" width={400} height={200} className="mx-auto mb-4 rounded-md" data-ai-hint="text editor interface"/>
             <p className="text-sm text-muted-foreground">Content editing tools and page list will be available here.</p>
         </div>
       </CardContent>

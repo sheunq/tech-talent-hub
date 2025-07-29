@@ -115,7 +115,7 @@ export default function TalentDetailPage() {
         <CardHeader className="p-6 sm:p-8 bg-muted/30">
           <div className="flex flex-col sm:flex-row items-start gap-6">
             <Image
-              src={talent.profilePictureUrl || 'https://placehold.co/160x160.png'}
+              src={talent.profilePictureUrl || 'images/vision.jpg'}
               alt={`${talent.fullName}'s profile picture`}
               width={160}
               height={160}

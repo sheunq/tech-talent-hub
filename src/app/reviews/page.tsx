@@ -18,11 +18,15 @@ interface CompanyForReview {
 }
 
 const mockCompaniesForReview: CompanyForReview[] = [
-  { id: 'Grammarly', name: 'Grammarly', logoUrl: '/images/grammarly.png', imageHint: 'grammarly logo', reviewCount: 2, averageRating: 4.5, industry: 'AI & Natural Language Processing' },
-  { id: 'skynet-systems', name: 'SkyNet Systems', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'SkyNet Systems logo', reviewCount: 1, averageRating: 3.0, industry: 'Cloud Infrastructure' },
-  { id: 'pixel-perfect-co', name: 'Pixel Perfect Co.', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'Pixel Perfect logo', reviewCount: 0, averageRating: 0, industry: 'Design Agency' },
-  { id: 'dev-solutions', name: 'DevSolutions', logoUrl: '/images/devsolutions-logo.png', imageHint: 'DevSolutions logo', reviewCount: 1, averageRating: 5.0, industry: 'Developer Tools' },
-  { id: 'creative-minds-studio', name: 'Creative Minds Studio', logoUrl: 'https://placehold.co/100x100.png', imageHint: 'Creative Minds logo', reviewCount: 0, averageRating: 0, industry: 'Creative' },
+ { id: 'job-salary-interview-review-in-Grammarly', name: 'Grammarly', logoUrl: '/images/Grammarly.png', imageHint: 'grammarly logo', reviewCount: 2, averageRating: 4.5, industry: 'AI & Natural Language Processing' },
+  { id: 'job-salary-interview-review-in-harbingermotors', name: 'harbingermotors', logoUrl: '/images/harbingermotors.png', imageHint: 'harbingermotors', reviewCount: 1, averageRating: 4.5, industry: 'vehicle industry' },
+  { id: 'job-salary-interview-review-in-Xero', name: 'Xero', logoUrl: '/images/xero.png', imageHint: 'Xero logo', reviewCount: 0, averageRating: 4.5, industry: 'Accounting Software' },
+  { id: 'job-salary-interview-review-in-portronics', name: 'Portronics', logoUrl: '/images/portronics.png', imageHint: 'portronics logo', reviewCount: 1, averageRating: 5.0, industry: 'Tech Accessories' },
+  { id: 'job-salary-interview-review-in-deloitte', name: 'Deloitte', logoUrl: '/images/deloitte.png', imageHint: 'deloitte logo', reviewCount: 0, averageRating: 4.5, industry: 'Consulting Firm' },
+  { id: 'job-salary-interview-review-in-easebuzz', name: 'Easebuzz', logoUrl: '/images/easebuzz.png', imageHint: 'easebuzz logo', reviewCount: 0, averageRating: 4.5, industry: 'Software as a Service' },
+  { id: 'job-salary-interview-review-in-yext', name: 'yext', logoUrl: '/images/yext.png', imageHint: 'yext logo', reviewCount: 0, averageRating: 4.5, industry: 'Internet' },
+  { id: 'job-salary-interview-review-in-3pillarglobal', name: '3pillarglobal', logoUrl: '/images/3pillarglobal.png', imageHint: '3pillarglobal logo', reviewCount: 1, averageRating: 4.5, industry: 'Software development' },
+  { id: 'job-salary-interview-review-in-godaddy', name: 'godaddy', logoUrl: '/images/godaddy.png', imageHint: 'godaddy logo', reviewCount: 1, averageRating: 4.5, industry: 'Internet IT consulting SMEs' },
 ];
 // --- End Mock Data ---
 

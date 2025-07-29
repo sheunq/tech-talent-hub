@@ -35,7 +35,7 @@ const mockCompanyData: CompanyProfileFormValues = {
     companyDescription: "A leading provider of cutting-edge software solutions, specializing in AI and cloud computing. We foster a collaborative environment and are passionate about innovation.",
     websiteUrl: "https://www.innovatech.example.com",
     industry: "Technology",
-    logoUrl: "https://placehold.co/150x150.png?text=Logo",
+    logoUrl: "images/vision.jpg",
 };
 
 
