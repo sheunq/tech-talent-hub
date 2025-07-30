@@ -62,12 +62,18 @@ export async function getAllAlerts(): Promise<BackendStoredAlert[]> {
  * @returns A promise that resolves to the newly created job alert.
  */
 export async function createAlert(alertData: AlertApiInput): Promise<BackendStoredAlert> {
-  const docData = {
+  const docData: any = {
     ...alertData,
     createdAt: Timestamp.now(),
   };
 
-  Object.keys(docData).forEach(key => (docData as any)[key] === undefined && delete (docData as any)[key]);
+  // Firestore cannot store 'undefined' values. We must remove them.
+  Object.keys(docData).forEach(key => {
+    if (docData[key] === undefined) {
+      delete docData[key];
+    }
+  });
+
 
   const docRef = await addDoc(alertsCollection, docData);
   const newDocSnap = await getDoc(docRef);

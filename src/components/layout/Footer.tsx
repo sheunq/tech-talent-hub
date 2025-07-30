@@ -1,15 +1,67 @@
 
+'use client';
+
 import Link from 'next/link';
 import { TekTunnelLogo } from '@/components/icons/TekTunnelLogo';
-import { Linkedin, Twitter } from 'lucide-react';
+import { Linkedin, Twitter, Mail, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { useEffect, useState, type FormEvent } from 'react';
+import { useToast } from '@/hooks/use-toast';
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  const [email, setEmail] = useState('');
+  const [isSubscribing, setIsSubscribing] = useState(false);
+  const { toast } = useToast();
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
+  const handleSubscription = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (!email) {
+      toast({ title: "Email required", description: "Please enter an email address.", variant: "destructive" });
+      return;
+    }
+    setIsSubscribing(true);
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'An unexpected error occurred.');
+      }
+      
+      toast({
+        title: "Subscribed!",
+        description: result.message || "You're now on our mailing list.",
+      });
+      setEmail('');
+
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : "Could not subscribe. Please try again.";
+      toast({
+        title: "Subscription Failed",
+        description: errorMessage,
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubscribing(false);
+    }
+  };
+
   return (
     <footer className="border-t border-border/40 bg-background/95 py-8 mt-16">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 text-sm">
           <div className="md:col-span-2 space-y-4">
             <div>
                 <Link href="/" className="inline-block mb-2">
@@ -53,6 +105,24 @@ export function Footer() {
               <li><Link href="/pricing" className="text-muted-foreground hover:text-primary transition-colors">Pricing</Link></li>
               <li><Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">About Us</Link></li>
             </ul>
+          </div>
+           <div className="space-y-4">
+            <h4 className="font-semibold text-foreground/90">Stay Updated</h4>
+            <p className="text-muted-foreground">Subscribe to our newsletter for the latest tech jobs and career insights.</p>
+            <form className="flex space-x-2" onSubmit={handleSubscription}>
+              <Input 
+                type="email" 
+                placeholder="Your email address" 
+                className="bg-muted/50 text-base" 
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                disabled={isSubscribing}
+                required 
+              />
+              <Button type="submit" variant="outline" size="icon" aria-label="Subscribe to newsletter" disabled={isSubscribing}>
+                {isSubscribing ? <Loader2 className="h-4 w-4 animate-spin" /> : <Mail className="h-4 w-4" />}
+              </Button>
+            </form>
           </div>
         </div>
         <div className="mt-10 pt-8 border-t text-center text-xs text-muted-foreground">

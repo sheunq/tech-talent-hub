@@ -10,9 +10,11 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowLeft, MapPin, Briefcase, DollarSign, CalendarDays, Tag, AlertTriangle, ExternalLink, Loader2 } from 'lucide-react';
 import type { Job } from '@/components/jobs/JobCard';
+import { JobCard } from '@/components/jobs/JobCard';
 import { formatDistanceToNow } from 'date-fns';
 import { ApplicationButton } from '@/components/jobs/ApplicationButton';
 import type { BackendStoredJob } from '@/lib/schemas/job';
+import { getJobs } from '@/services/jobDbServiceClient';
 
 interface JobDetailPageContentProps {
   jobId: string;
@@ -54,7 +56,7 @@ const mapBackendJobToJobCard = (backendJob: BackendStoredJob): Job => {
     descriptionExcerpt: backendJob.mainDescription,
     postedDate: backendJob.submittedDate,
     salaryRange,
-    companyLogo: backendJob.companyLogo || 'https://placehold.co/100x100.png',
+    companyLogo: backendJob.companyLogo || '/images/vision.jpg',
     imageHint: 'company logo large generic',
     tags: extractTagsFromText(combinedTextForTags),
     applyUrl: backendJob.applyUrl,
@@ -66,13 +68,16 @@ export function JobDetailPageContent({ jobId }: JobDetailPageContentProps) {
   const router = useRouter();
   
   const [job, setJob] = useState<Job | null>(null);
+  const [relatedJobs, setRelatedJobs] = useState<Job[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchJob() {
+    async function fetchJobAndRelated() {
       if (!jobId) return;
       setIsLoading(true);
+      setError(null);
+      
       try {
         const response = await fetch(`/api/jobs/${jobId}`);
         if (!response.ok) {
@@ -86,7 +91,20 @@ export function JobDetailPageContent({ jobId }: JobDetailPageContentProps) {
           throw new Error(errorMsg);
         }
         const jobData: BackendStoredJob = await response.json();
-        setJob(mapBackendJobToJobCard(jobData));
+        const mainJob = mapBackendJobToJobCard(jobData);
+        setJob(mainJob);
+
+        // Fetch all jobs to find related ones
+        const allBackendJobs = await getJobs();
+        const allJobs = allBackendJobs.map(mapBackendJobToJobCard);
+
+        if (mainJob.category) {
+          const filteredRelatedJobs = allJobs.filter(
+            (j) => j.category === mainJob.category && j.id !== mainJob.id
+          ).slice(0, 3); // Limit to 3 related jobs
+          setRelatedJobs(filteredRelatedJobs);
+        }
+
       } catch (err: any) {
         setError(err.message || 'An unexpected error occurred.');
       } finally {
@@ -94,7 +112,7 @@ export function JobDetailPageContent({ jobId }: JobDetailPageContentProps) {
       }
     }
 
-    fetchJob();
+    fetchJobAndRelated();
   }, [jobId]);
 
   if (isLoading) {
@@ -135,7 +153,7 @@ export function JobDetailPageContent({ jobId }: JobDetailPageContentProps) {
             <CardHeader className="p-6 sm:p-8 bg-muted/30">
               <div className="flex flex-col sm:flex-row items-start gap-4">
                 <Image
-                  src={job.companyLogo || 'https://placehold.co/100x100.png'}
+                  src={job.companyLogo || '/images/vision.jpg'}
                   alt={`${job.companyName} logo`}
                   width={100}
                   height={100}
@@ -227,6 +245,19 @@ export function JobDetailPageContent({ jobId }: JobDetailPageContentProps) {
           </Card>
         </div>
       </div>
+      
+      {relatedJobs.length > 0 && (
+        <div className="mt-12">
+          <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-4xl font-headline mb-8">
+            Related Jobs
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedJobs.map((relatedJob) => (
+              <JobCard key={relatedJob.id} job={relatedJob} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
